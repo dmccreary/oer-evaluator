@@ -5,10 +5,11 @@ description: 'Draft specification for a tiered, scoring-guide-anchored rubric th
 
 # OER Evaluator Rubric Specification
 
-!!! warning "Draft v0.3 — design specification, not yet validated"
+!!! warning "Draft v0.4 — design specification, not yet validated"
     Nothing in this page has been implemented or tested. The anchors and
     thresholds are proposals for the author to accept or change. Section 11
-    lists the decision that is still open and the thirteen that are resolved.
+    lists the eighteen decisions, all resolved, and the parameters still to be
+    set before the first run.
 
 !!! info "Foundation and credit"
     This specification rests on the systematic review by **Min Yuan and Mimi
@@ -36,7 +37,9 @@ OER textbook and to the reusable components inside it. It specifies:
 - the indicators, split into deterministic checks and judgment indicators;
 - one rating scale with a scoring-guide anchor for every level;
 - the evidence an evaluator must attach to every score;
-- the protocol that must be run before any score is trusted.
+- the protocol that must be run before any score is trusted;
+- the improvement list that a companion skill, the improvement planner,
+  derives from the report.
 
 It does not specify skill file layout, prompts, or tooling. Those follow once
 the author approves this specification.
@@ -276,8 +279,8 @@ Reuse-ready means *can be found and reused*. Reach (RJ1) and substance (RJ4)
 are not part of the test, because a portable component on a niche topic is
 still worth reusing by the few books that need it, but they set its value.
 
-The stage-1 cutoff, the formula, and the retrieval test behind RJ6 are
-defaults pending decision D11.
+The stage-1 cutoff, the formula, and the retrieval test behind RJ6 are set by
+decision D11 (Section 11).
 
 ### Illustration
 
@@ -330,7 +333,7 @@ These run once per component in the inventory.
 | RP2 | Renders standalone: loads and runs outside the host book's theme and templates, for example a MicroSim opened by itself or embedded by iframe | yes/no + failure | Kurilovas et al.: "Technological criteria", "Working stability" |
 | RP3 | Dependencies stable: external libraries are declared and either bundled or pinned to a version, and every one resolves | percent resolved + list | Kurilovas et al.: "Working stability"; Leary et al.: "Links in project" |
 | RP4 | Component license identifiable, declared on the component or inherited from the book, and open | license ID or null | Kurilovas et al.: "Open license, cost" |
-| RP5 | Machine-readable metadata present: title, creators, version, description, subject, level, objective | fields present or missing | Custard & Sumner (2005): dimensions "provenance" and "description"; Wetzler et al.: "Identifies learning goals", "Identifies age range" |
+| RP5 | Machine-readable metadata present, in three groups. **Required search fields:** title, description, subject, learning objectives. **Recommended search field:** level. **Attribution fields:** creators, version (the license is RP4) | fields present or missing, by group | Custard & Sumner (2005): dimensions "provenance" and "description"; Wetzler et al.: "Identifies learning goals", "Identifies age range" |
 | RP6 | Editable source available, not only rendered output such as an image or PDF | yes/no | The definition of OER cited by Yuan & Recker (U.S. DoE, 2010), which includes that resources can be adapted |
 | RP7 | Companions recorded: the component names the bundle members it belongs with (the quiz for the MicroSim, the MicroSim for the quiz) | list or null | *Added by OER Evaluator* |
 | RP8 | Learner-activity events emitted: the code is inspected for event instrumentation, not just a status flag | interactivity level (L0, L1, L2) + event types found | Kurilovas et al. (2011): "Interactivity level" and Achieve OER: "Quality of technological interactivity" rate how interactive a resource is. Detecting instrumentation is *added by OER Evaluator*, from the author's direction |
@@ -398,14 +401,29 @@ catalogue, since it asks for a judgment about other books the evaluator has not
 seen. Section 9 requires it to be validated against what authors actually
 reuse.
 
-RJ6 is scored with the help of a retrieval test. The evaluator generates the
-realistic queries a reusing author might type for the component's topic,
-builds a search index over the components' metadata alone, and records how
-highly the component ranks. This tests whether the metadata describes the
-component well enough to be found, not only whether fields are present (RP5).
-In a single book the collection is small and the test is easy. A background
-collection of other books' components makes it harder and more realistic. The
-search method and the collection are decision D11.
+RJ6 is scored with the help of a retrieval test that uses the author's own
+search tool, the reuse mode of the `search-microsims` project, over its
+catalog. For each component the evaluator generates 12 queries from the
+component's content, never from its metadata: three each of topic only, topic
+plus level, objective-phrased, and format-seeking, written in the service's own
+query format. The service ranks catalog entries by the similarity of the query
+to each entry's WHAT vector, which is built from metadata alone with the
+`all-MiniLM-L6-v2` model.
+
+- A **strong hit** is the component ranking in the top 3 with a WHAT score of
+  0.75 or more. A **hit** is the top 10 with a WHAT score of 0.60 or more.
+  These are the service's own calibrated `reuse` and `template` bands.
+- The component's duplicate-cluster twins are removed from the candidates, so
+  it competes on its own metadata.
+- A keyword search (ItemsJS) over the same fields runs beside it and is
+  reported as a diagnostic. A component found by embedding but missed by
+  keyword usually lacks vocabulary in its metadata.
+
+The test measures whether the metadata describes the component well enough to
+be found, not only whether fields are present (RP5). Scores are comparable
+only against the same catalog, so every report states the catalog's size, its
+date, and the embedding model. Components of a book that is not yet in the
+catalog are embedded with the same model before testing (decision D11).
 
 Ten quality-judgment indicators plus seven reuse-judgment indicators make
 seventeen, close to the review's mean of about 15.5 (LORI has nine, Achieve OER
@@ -638,13 +656,17 @@ companion that supports it, so mismatches are visible.
 
 | Score | Anchor |
 |---|---|
-| 3 | All required metadata fields are present and specific. In the retrieval test the component is returned near the top for most realistic queries about its topic, level, and objective. |
-| 2 | Required fields are present. The component is returned among the first results for queries that name its topic, but is missed for queries phrased by objective or level. |
-| 1 | Fields are missing or generic. The component is found mainly by its exact title. |
-| 0 | Metadata is absent, or too generic to separate the component from others. It is not returned for realistic queries. |
+| 3 | All required search fields are present and specific, and the component is a strong hit for at least 75% of queries. |
+| 2 | All required search fields are present, and the component is a hit for at least 50% of queries. |
+| 1 | The component is a hit for at least one query. This is also the highest score when a required search field is missing or generic. |
+| 0 | The component is not a hit for any query, or its metadata is absent. |
 
-Rule: score the metadata alone, never the quality of the component. State
-which search method and collection produced the result.
+Rule: score the metadata alone, never the quality of the component. The
+required search fields are those listed under RP5. Creator, version, and
+license do not cap this score. State the search method, the catalog's size and
+date, and the embedding model that produced the result. The 75% and 50% lines
+are starting values, confirmed in a pilot before the confirmatory run
+(decision D10).
 
 **RJ7 — Evidence value of activity data (conditional)**
 
@@ -708,7 +730,7 @@ from a machine-readable copy of the book and iterates unit by unit:
 Cost scales with the number of components, the judgments per component, and
 the passes per judgment.
 
-## 8. Evidence and output record
+## 8. Evidence, output record, and improvement list
 
 Rules every Tier 2 evaluation must follow:
 
@@ -729,7 +751,7 @@ Rules every Tier 2 evaluation must follow:
 Each judgment is stored as one record:
 
 ```yaml
-spec_version: "0.3"
+spec_version: "0.4"
 unit:
   kind: component         # book | component | bundle
   type: microsim          # microsim | quiz | section | figure | ...
@@ -751,6 +773,94 @@ review_reason: null       # e.g. "passes disagree by 2 levels", "J1 score <= 1"
 An indicator is routed to human review when the repeat passes differ by two or
 more levels, when the score is ISE, or when J1 is 1 or 0.
 
+### Improvement list
+
+A score alone does not tell an author what to change. A second skill, the
+**improvement planner**, reads the evaluator's report and produces a
+prioritized list of ways to improve the book. The evaluator and the planner are
+separate skills (decision D15), so the evaluator's scores stay independent of
+any advice and are validated on their own (Section 9).
+
+Scope of the first release:
+
+- **List only** (decision D16). The planner never edits the book. Each item
+  names the tool or skill the author can run to carry it out.
+- **Deterministic items only** (decision D18). An item is deterministic when
+  its trigger is a Tier 1 result or a measure that a script reproduces exactly
+  from the same inputs, with no language-model judgment in the trigger. A
+  language model may write the wording of the action, but the trigger, target,
+  location, and gain are computed by script. Items derived from Tier 2
+  judgments wait until those indicators pass V1 and V2 (decision D10).
+  Because Q uses the judgment indicators only, the first release's list can
+  raise R and clear completeness checks, but it cannot raise Q.
+
+Rules every item follows:
+
+- **No item without evidence.** Each item cites the finding that triggered it
+  and its location.
+- **Defects and opportunities are separate.** A failed check is a defect. A
+  static figure that could be made interactive is an opportunity and is never
+  reported as a defect (decision D13).
+- **Batch by root cause.** Findings that share a fix form one item with a
+  count and a list of units, such as "17 MicroSims lack learning objectives."
+- **Gain is computed, not estimated.** The planner recomputes R with the
+  finding set to its fixed state, using the formulas of Section 4. A fix that
+  changes no score is counted as a completeness check cleared.
+- **Fix the defect, not the score.** The action describes the underlying
+  problem. After a fix the evaluator is run again, and a human spot-checks a
+  sample, because a change that only raises a score, such as stuffing keywords
+  into metadata, helps neither learners nor authors.
+
+Each item is stored as one record:
+
+```yaml
+item_id: "RP5-search-fields:sims/pendulum"
+batch: "missing-search-fields"        # items that share a root cause
+kind: defect                          # defect | opportunity
+unit: {kind: component, type: microsim, id: "sims/pendulum"}
+trigger: {check: RP5, finding: "learningObjectives missing"}
+location: "docs/sims/pendulum/metadata.json"
+action: "Add concept-specific learning objectives."
+executing: "enrich-metadata script"   # the tool or skill the author runs
+effort: S                             # S | M | L, assuming an LLM tool drafts
+gain: {R: 0.04, checks_cleared: 1}    # recomputed with the finding fixed
+```
+
+**Effort classes** assume that a language-model tool does the drafting and the
+author reviews the result (decision D17):
+
+| Class | Meaning |
+|---|---|
+| S | A scripted or single-prompt change per unit, reviewed in minutes |
+| M | A drafted edit or generated component per unit that needs author review |
+| L | A new component, or a restructuring |
+
+**Priority** is lowest effort and highest reward first (decision D17). Items
+that raise R come first, ordered by gain divided by effort weight (S 1, M 2,
+L 4). Items that only clear completeness checks come next, cheapest first and
+then largest batch first. Opportunities come last. The effort weights are a
+parameter to confirm (Section 11).
+
+**What triggers which item.** The first release derives items from these
+deterministic findings. The mapping from finding to tool and effort class is a
+lookup table for the author to confirm, not a validated result.
+
+| Finding | Action | Executing tool or skill | Effort |
+|---|---|---|---|
+| License missing (P1, RP4) | Declare an open license on the book or component | Author edit | S |
+| A required search field missing (RP5) | Add the field, written for the concept | `enrich-metadata` script in search-microsims | S |
+| Attribution fields or level missing (RP5) | Add creators, version, or grade level | `enrich-metadata` script | S |
+| Component not self-contained, not rendering standalone, dependencies unresolved, or no editable source (RP1–RP3, RP6) | Fix the packaging | Author edit, LLM-assisted | M |
+| Objectives not stated (P4) | State the objectives | `chapter-content-generator` | M |
+| Links do not resolve (P11) | Fix or remove each link | Author edit, LLM-assisted | S |
+| Alt text missing (P13) | Draft and add alt text | Author edit, LLM-drafted | S |
+| Chapter with no practice items (P12) | Generate a quiz | `quiz-generator` | M |
+| No FAQ, glossary, or references | Generate them | `faq-generator`, `glossary-generator`, `reference-generator` | M |
+| Companions not recorded (RP7) | Link the quiz and the MicroSim | Author edit | S |
+| Instrumented component whose events are not tied to concepts (RP9) | Map the events to concepts | `add-xapi-events-to-microsim` | M |
+| Duplicate cluster (WHAT similarity 0.90 or more) | Keep the highest-quality member and embed it | search-microsims duplicate report | M |
+| Static figure (level L0 by RP8) | Opportunity: make it interactive and instrumented | `microsim-generator`, `add-xapi-events-to-microsim` | L |
+
 ## 9. Validation protocol
 
 Yuan and Recker, citing Kimberlin and Winterstein (2008) and Moskal and
@@ -768,6 +878,7 @@ is not considered usable until the following has been run and reported.
 | V4 Drift | Do scores change when the model changes? | Re-run the calibration set whenever the model ID or the spec version changes. | Not set; fixed before this step's first run (decision D10). |
 | V5 Reuse validity | Do high reuse scores correspond to components that authors would or do reuse? | Ask a panel of textbook authors, for a sample of components, whether they would drop the component into their own book. Where available, also compare against observed reuse (components copied, forked, or embedded in other books). | AUC ≥ 0.75 against the author panel. The score ranked is the reuse value (Section 4; decision D10). |
 | V6 Activity-data validity | For instrumented components, do understanding estimates built from the recorded events agree with a direct measure? | For level L2 components, build a per-concept understanding estimate from the events and compare it with the same learners' results on the component's own quiz or an independent assessment, as in V3. This tests the assumption that viewing and exploring predict understanding. | Not set; fixed before this step's first run (decision D10). |
+| V7 Improvement-list validity | Do the items name real defects, and does fixing them do what the list predicts? | For a sample of items, implement the fix and run the evaluator again. Check that the trigger clears, that R moves by the computed gain, and that no other score falls. A human also rates a sample of items for whether the finding is real and the action can be carried out. | Not set; fixed before this step's first run (decision D10). |
 
 **Calibration set.** Assemble a small set of exemplar OER and components, with
 human scores, that spans the scale. The review identifies training materials
@@ -808,6 +919,7 @@ it.
 | 0.1 | 2026-10-12 | Initial draft from Yuan & Recker (2015). Not validated. | The review's findings (Section 2). |
 | 0.2 | 2026-10-12 | D1 resolved: reuse is co-primary with instructional quality. Added the component and bundle unit (Section 4), nine reuse checks (RP1–RP9), seven reuse judgments (RJ1–RJ7), anchors for all seventeen Tier 2 indicators, interactivity levels L0 to L2, the four-stage reuse scoring process driven by findability, and validation steps V5 and V6. Retired J9. Added D7–D13. D2 resolved as 0–3 with N/A. D3 resolved as record-only. D4 resolved with pass lines for V1, V2, and V5 (Section 9). D5 resolved as no sampling. | Author decisions on D1 to D6 and the principle "you can't reuse what you can't find", including the "What is the Scientific Method" MicroSim and quiz example, and the requirement to differentiate static images from instrumented interactive infographics. |
 | 0.3 | 2026-10-12 | D7 resolved: the headline is two numbers, Q for overall quality and R for reusable content, both on the 0–3 scale and never combined. Defined how each is computed (Section 3). D12 resolved: the roll-up is a mean per indicator weighted by each chapter's number of concepts, because Q needs a single figure and larger chapters should count for more. Noted that concepts are not equally weighted and that the first release assumes CIS is roughly equal, with a CIS-weighted roll-up deferred. D8 resolved: a component with content quality below 2 is not reuse-ready. D9 resolved: nine component types, with the FAQ question-answer pair added, and detection conventions recorded from the author's skills (Section 4). D10 resolved: the failure, pilot, and sample-size rules were accepted (Section 9). D13 resolved: learner-data capability is reported beside the reuse value and counted once, as the number of instrumented components. Added D14 and resolved it: Q uses the judgment indicators only, R is the unweighted component mean, and a number is provisional when it includes an unvalidated indicator or leaves out ISE scores. | Author decisions on D7 to D10 and D12 to D14. |
+| 0.4 | 2026-10-12 | D11 resolved: the findability mechanism was approved (Sections 4 and 6), then refined to use the author's search-microsims reuse mode, its catalog, and its calibrated bands, with 12 generated queries per component and duplicate-cluster twins removed. RP5 split into required search fields, a recommended level field, and attribution fields, so attribution gaps do not cap findability. Added the improvement list (Section 8), validation step V7, and decisions D15 to D18: two skills, list only, prioritized by lowest effort and highest reward, deterministic items only for the first release. Added a list of the parameters still to be set before the first run (Section 11). | Author decisions on D11 and D15 to D18, and the search-microsims project (calibrated bands, catalog, duplicate clusters, metadata metrics). |
 
 ## 11. Decisions
 
@@ -823,10 +935,29 @@ it.
 | D8 | Quality gate: may a component whose content quality (J1: is the subject matter accurate, clear, and complete?) scores below 2 be reuse-ready | **Resolved (author, v0.3).** No: a component with content quality (J1) below 2 is not reuse-ready. The companion gate on interaction usability (J7: do navigation and interactive elements work?) for interactive components is kept as the default and has not been separately confirmed. |
 | D9 | Which component types are counted, and where quizzes and non-MicroSim components are found | **Resolved (author, v0.3).** Nine component types, including the FAQ question-answer pair (Section 4). Locations follow the conventions documented in the author's skills, listed in Section 4. A quiz written for one specific MicroSim as a separate component has no file convention yet. |
 | D10 | Rules that make the D4 pass lines operational: what a failed line does; whether a pilot run is allowed; the minimum sample per indicator; pass lines for V3 (quality validity), V4 (drift), and V6 (activity-data validity); and which score the V5 (reuse validity) AUC ranks | **Resolved (author, v0.3).** The rules are in Section 9: a failing indicator is marked unvalidated and always routed to human review; a pilot is allowed if the confirmatory run uses fixed lines and fresh items; a few dozen units per indicator; V5 ranks the reuse value. V3, V4, and V6 have no pass line yet, and each must be fixed before that step's first run. |
-| D11 | Mechanism behind the findability principle: the stage-1 cutoff, the reuse-value formula, and the retrieval test behind RJ6 (findability) | **Principle resolved (author, v0.2); mechanism open.** Defaults: stage 1 passes at findability (RJ6) of 1 or more; reuse value is mean(topic generality RJ1, substance RJ4) × findability RJ6 ÷ 3; the retrieval test uses both a keyword and an embedding search over the book's own components, with a background collection of other books' components as the stronger option; the number of generated queries per component is unset; RJ6 is validated against a task in which humans search for components. |
+| D11 | Mechanism behind the findability principle: the stage-1 cutoff, the reuse-value formula, and the retrieval test behind RJ6 (findability) | **Resolved (author; principle v0.2, mechanism v0.4).** Stage 1 passes at findability (RJ6) of 1 or more. Reuse value is mean(topic generality RJ1, substance RJ4) × findability RJ6 ÷ 3. The retrieval test uses the author's search-microsims reuse mode over its catalog (`all-MiniLM-L6-v2` WHAT vectors built from metadata alone), with 12 generated queries per component in the service's query format. A strong hit is the top 3 with a WHAT score of 0.75 or more, and a hit is the top 10 with 0.60 or more, the service's own calibrated bands. The component's duplicate-cluster twins are removed from the candidates. The keyword search (ItemsJS) runs beside it and is reported as a diagnostic. RJ6 is validated against a task in which humans search for components. The 75% and 50% hit-rate lines are starting values, confirmed in a pilot before the confirmatory run. |
 | D12 | Roll-up of chapter-level quality scores to a book-level figure | **Resolved (author, v0.3).** A mean per indicator, weighted by each chapter's number of concepts, so larger chapters count for more. The minimum, median, and share of concepts in chapters scoring 2 or more are shown beside it. Without "Concepts Covered" tables, word count is the proxy (Section 7). Concepts do not all carry equal weight, since some have many dependents. Version 1 assumes the Concept Impact Score is roughly equal across concepts and uses the plain count. A CIS-weighted roll-up is deferred to a future release, because computing CIS may be difficult (note in Section 7). |
 | D13 | Whether learner-data capability (RP8 instrumentation detected, RP9 events tied to concepts, RJ7 evidence value of activity data) enters the reuse value, or is reported beside it | **Resolved (author, v0.3).** Reported beside the reuse value, not blended in. Instrumentation is counted once, in the headline count of instrumented components (level L2), so it does not also raise R. A static figure, which is fully reusable, is not marked down. The requirement to differentiate static from instrumented components is resolved in Section 4. |
 | D14 | How the two numbers are computed: which indicators feed Q, how components are averaged into R, and when a number is labeled provisional | **Resolved (author, v0.3).** Q uses the judgment indicators only, with the completeness checks shown beside it and not scored. R is the unweighted mean reuse value over all components, so it depends on how components are counted (D9), and question-answer pairs and glossary terms can add dozens of small components that pull it down. A number is provisional when it includes an unvalidated indicator or leaves out ISE scores. No threshold is set for how many ISE scores make a number provisional. |
+| D15 | Number of skills: one skill that scores and advises, or an evaluator and a separate improvement planner | **Resolved (author, v0.4).** Two skills. The planner reads the evaluator's report. |
+| D16 | Whether the planner only lists improvements or also applies them | **Resolved (author, v0.4).** List only for now. Each item names the tool or skill the author runs. |
+| D17 | How the improvement list is prioritized | **Resolved (author, v0.4).** Lowest effort and highest reward first, with effort assuming that an LLM tool does the drafting. Section 8 defines the effort classes and the ordering. |
+| D18 | Which items the first release derives | **Resolved (author, v0.4).** Deterministic items only. Items from Tier 2 judgments wait until those indicators pass V1 and V2. |
+
+### Parameters still to set before the first run
+
+All fourteen decisions are resolved, but these parameters are not yet set. Each
+is fixed before the step that needs it runs, so none can be fitted to a result.
+
+| Parameter | Where | Why it is open |
+|---|---|---|
+| Pass line for V3, quality validity | Section 9 | Needs the results of the book's A/B tests |
+| Pass line for V4, drift | Section 9 | Set once the calibration set exists |
+| Pass line for V6, activity-data validity | Section 9 | Needs real learner event data |
+| How many left-out ISE scores make Q or R provisional | Section 3 | For now any one does |
+| RJ6 hit-rate lines (75% for a score of 3, 50% for a 2) | Section 7 | Starting values, confirmed in a pilot before the confirmatory run |
+| Pass line for V7, improvement-list validity | Section 9 | Set once the planner exists |
+| Effort weights (S 1, M 2, L 4) and the finding-to-effort lookup | Section 8 | Starting values for the author to confirm |
 
 ## 12. Attribution boundary
 
@@ -883,7 +1014,17 @@ lineage columns belong to their original authors, listed in Section 13.
   `CONTENT-GENERATION-GUIDE.md`;
 - the decision to count instrumentation once, beside the reuse value and not
   within it (D13);
-- the approval of how Q and R are computed (D14).
+- the approval of how Q and R are computed (D14);
+- the approval of the findability mechanism: the stage-1 cutoff, the reuse
+  value formula, and the retrieval test (D11);
+- the search tool and its calibration, from the author's `search-microsims`
+  project: the reuse mode, the catalog, the `all-MiniLM-L6-v2` WHAT vectors,
+  the `reuse` (0.75) and `template` (0.60) bands, the duplicate clusters, and
+  the metadata-quality metrics that motivated the RP5 split (Section 6);
+- the decisions on the improvement list: two skills, list only, prioritized by
+  lowest effort and highest reward assuming an LLM tool, and deterministic
+  items only in the first release (D15 to D18). The finding-to-skill mapping
+  uses the author's existing skills and scripts.
 
 **Added by this book, not claimed by the review's authors:**
 
