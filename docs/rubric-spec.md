@@ -5,10 +5,10 @@ description: 'Draft specification for a tiered, scoring-guide-anchored rubric th
 
 # OER Evaluator Rubric Specification
 
-!!! warning "Draft v0.2 — design specification, not yet validated"
+!!! warning "Draft v0.3 — design specification, not yet validated"
     Nothing in this page has been implemented or tested. The anchors and
     thresholds are proposals for the author to accept or change. Section 11
-    lists the decisions that are still open and the six that are resolved.
+    lists the decision that is still open and the thirteen that are resolved.
 
 !!! info "Foundation and credit"
     This specification rests on the systematic review by **Min Yuan and Mimi
@@ -84,8 +84,7 @@ text:
 
 ## 3. Construct and report shape
 
-**Construct.** In v0.2, quality has two co-primary components, resolving
-decision D1:
+**Construct.** Quality has two co-primary components, resolving decision D1:
 
 - **A. Instructional quality.** The pedagogical value of the textbook as a
   learning resource, in the sense of the Achieve (2011) rubric, assessed on
@@ -110,11 +109,12 @@ scored (Section 4): **you can't reuse what you can't find.**
 Standards alignment (J10) stays a conditional, secondary indicator under
 instructional quality.
 
-**Report shape.** Each evaluation reports two co-primary profiles, one for
-instructional quality and one for reuse. In v0.2 they are not blended into one
-number (decision D7). Yuan and Recker note that rubrics that deconstruct
-quality into dimensions reflect a more nuanced notion of quality. The
-groupings below are this book's own:
+**Report shape.** Each evaluation reports two headline numbers, defined at
+the end of this section, and beneath them two co-primary profiles, one for
+instructional quality and one for reuse. The two numbers are never blended
+(decision D7). Yuan and Recker note that rubrics that deconstruct quality into
+dimensions reflect a more nuanced notion of quality. The groupings below are
+this book's own:
 
 | Component | Dimension | Indicators |
 |---|---|---|
@@ -132,10 +132,30 @@ groupings below are this book's own:
 | | Learner-data capability | RP8, RP9, RJ7 |
 | | Bundle linkage | RP7, RJ5 |
 
-The reuse headline for a book is the number of **reuse-ready** components out
-of all inventoried components, by type, with each component's stage reached and
-its findability-weighted reuse value. Both are defined in Section 4. It also
-counts the instrumented components, those at interactivity level L2.
+### The two headline numbers
+
+Each book receives two numbers, both on the 0–3 scale so they can be read side
+by side. They are never combined (decision D7).
+
+| Number | Meaning | Default computation |
+|---|---|---|
+| **Q** | Overall instructional quality of the book | For each judgment indicator J1–J8, J10, and J11, take the mean of its scores across chapters, weighting each chapter by its number of concepts (decision D12). Q is the mean of those indicator means. N/A and ISE scores are left out. |
+| **R** | Reusable content in the book | The mean reuse value (Section 4) over every inventoried component. A component that is not reuse-ready counts as 0. |
+
+Detail sits beside the numbers, never inside them:
+
+- **Beside Q:** the completeness checks (P1–P13) as a count passed, the
+  minimum and median chapter scores, the share of concepts that sit in
+  chapters scoring 2 or more, and the indicators or scores left out.
+- **Beside R:** reuse-ready components as N of M, by type, each component's
+  stage reached, the instrumented components (level L2), and the value
+  without the findability factor. Instrumentation is counted here once and
+  does not enter R (decision D13).
+
+A number is labeled **provisional** when an indicator feeding it is
+unvalidated under decision D10, or when scores were left out as ISE. No
+threshold is set yet for how many left-out ISE scores make a number
+provisional, so for now any one does. The computation is decision D14.
 
 ## 4. Units of evaluation: components and bundles
 
@@ -158,6 +178,7 @@ counts the instrumented components, those at interactivity level L2.
 | Static figure | A diagram, chart, or image with its caption. It gives no response to learner action and records nothing |
 | Interactive infographic | A graphic whose regions or layers respond to learners, and which may be instrumented to record what learners viewed and explored |
 | Glossary | A term set with definitions |
+| FAQ question-answer pair | One question with its answer, inventoried as one component per pair so each can be found and reused alone |
 | Worked example | A solved problem or case |
 | Instructor material | A guide, slide deck, or answer key |
 
@@ -199,15 +220,26 @@ In this repository the signal for L2 is a MicroSim whose `main.html` loads
 Scoring reuse requires knowing what the components are, so the evaluator
 first builds an inventory:
 
-- **Scripted detection** where the book follows a packaging convention. This
-  repository's own convention is one directory per MicroSim under
-  `docs/sims/<sim-id>/`, containing `main.html` (embeddable by iframe) and an
-  `index.md` lesson page.
+- **Scripted detection** where the book follows a packaging convention. The
+  conventions in the table below come from the documentation of the author's
+  `microsim-generator`, `faq-generator`, and `quiz-generator` skills. They
+  were read from that documentation and not checked against a built book.
 - **LLM enumeration** as a fallback for books with no convention. An
   LLM-built inventory is flagged for human confirmation, because every later
   reuse score depends on it.
-- This repository does not specify where a quiz tied to a MicroSim lives, so
-  quiz detection is an open point (decision D9).
+
+| Component | Where it is found |
+|---|---|
+| MicroSim | `docs/sims/<sim-id>/`, containing `main.html` (embeddable by iframe), `index.md` (lesson page), `metadata.json` (Dublin Core and educational metadata, which RP5 and RJ6 read), and `<sim-id>.js` |
+| Interactive infographic | An infographic-overlay MicroSim under `docs/sims/<sim-id>/`, with its labels in `data.json` |
+| Static figure | A poster under `docs/posters/<slug>/`, or an image referenced from chapter markdown |
+| FAQ question-answer pair | `docs/faq.md`, one pair per question |
+| Chapter quiz | `docs/chapters/<chapter-dir>/quiz.md` |
+| Quiz inside a MicroSim | The explore or quiz mode of an infographic-overlay MicroSim. It is part of that MicroSim's package, not a separate file |
+
+No file convention exists for a quiz written for one specific MicroSim as a
+separate component. Until one is chosen, such a quiz is found only when a
+chapter quiz links to the MicroSim (RP7) or by LLM enumeration.
 
 ### Reuse scoring process
 
@@ -219,7 +251,7 @@ stage is a precondition for the next:
 |---|---|---|---|
 | 1. Findable | Can a reusing author find it with a search tool and tell from its metadata what it is? | RP5, RJ6 | RJ6 scores 0 |
 | 2. Portable | Can it be lifted out and used in another book? | RP1–RP4, RP6, RJ2 | Any of RP1–RP4 or RP6 fails, or RJ2 scores below 2 |
-| 3. Sound | Is it correct, and does it work? | J1, and J7 if interactive | J1 or J7 scores below 2 (decision D8) |
+| 3. Sound | Is it correct, and does it work? | J1 (content quality), and J7 (interaction usability) if interactive | Content quality (J1) or interaction usability (J7) scores below 2 (decision D8) |
 | 4. Worth reusing | How many books benefit, and how much effort does it save? | RJ1, RJ4 | Never stops here; scored and reported |
 
 A component's **stage reached** is the last stage it passes. It is
@@ -236,7 +268,9 @@ reuse value = mean(RJ1, RJ4) × (RJ6 ÷ 3)
 
 A component that is not reuse-ready has value 0. The report also shows the
 value *without* the findability factor, which is what the component would be
-worth if its metadata were fixed, so the cost of poor metadata is visible.
+worth if its metadata were fixed, so the cost of poor metadata is visible. The
+book-level number R (Section 3) is the mean of these values over all
+components.
 
 Reuse-ready means *can be found and reused*. Reach (RJ1) and substance (RJ4)
 are not part of the test, because a portable component on a niche topic is
@@ -258,6 +292,7 @@ scores.
 | A polished, general MicroSim with no description, subject, or level in its metadata | MicroSim | High reach and substance, but it stops at stage 1: an author searching for it would not find it, so its reuse value is 0 until the metadata is fixed. |
 | The scientific-method diagram as a static image | Static figure | Level L0. Reuse-ready and useful, but it supplies a reusing book with no learner data. |
 | The same diagram as an infographic whose steps learners explore, emitting events mapped to concepts | Interactive infographic | Level L2 with RP9 passing. A reusing book can track which steps learners explored and estimate understanding per concept, subject to RJ7 and V6. |
+| An FAQ answer that begins "As shown in Chapter 3" | FAQ question-answer pair | Low context independence (RJ2): the answer cannot stand without the chapter it points to. Rewritten to stand alone, the pair is a strong reuse candidate, because a clear question and answer on a general topic fits many books. |
 
 ## 5. Tier 1: presence checks
 
@@ -634,8 +669,16 @@ from a machine-readable copy of the book and iterates unit by unit:
 - Each Tier 2 judgment runs on one bounded unit, a component or a chapter, in
   its own pass. No pass needs the whole book in one context. Bounded units
   also keep the verbatim-quote rule checkable.
-- Chapter-level quality scores are reported as a distribution. The roll-up to
-  a book-level figure is decision D12.
+- Chapter-level quality scores are rolled up to a book-level figure by a mean
+  per indicator, weighted by each chapter's number of concepts, with the
+  distribution shown beside it (decision D12).
+- **Chapter weight.** A chapter's weight is its number of concepts, counted as
+  the rows of the "Concepts Covered" table in the chapter's `index.md`, the
+  format written by the author's `book-chapter-generator` skill. If a book
+  has no such tables, every chapter's word count is used instead as a proxy,
+  and the report says so. Weights are never mixed across the two scales. A
+  chapter that lists no concepts, such as front matter, is scored and
+  reported but carries no weight.
 - J2 (learning goal alignment) needs a view across units. It is scored on
   structured extracts, the objectives (P4) and assessment items (P12)
   gathered from every unit, not on the full prose.
@@ -643,6 +686,24 @@ from a machine-readable copy of the book and iterates unit by unit:
   and quizzes with their file boundaries. A flat PDF loses component
   boundaries, so its inventory falls back to LLM enumeration with human
   confirmation (Section 4).
+
+!!! note "Not all concepts carry equal weight"
+    Some concepts have many other concepts that depend on them, directly or
+    through other concepts. The Concept Impact Score (CIS) measures this
+    recursively, as defined in this book's `CONTENT-GENERATION-GUIDE.md`.
+    The chapter weight above counts each concept once and so treats every
+    concept as equally important.
+
+    For the first release of the evaluator, CIS is assumed to be roughly the
+    same for all concepts, and the plain concept count is used. A CIS-weighted
+    roll-up is deferred to a future release, because computing CIS may be
+    difficult.
+
+    One consequence is that Q can under-weight a chapter of foundational
+    concepts that many later chapters build on. For books built with the
+    author's skill chain the CIS value is already recorded in each chapter's
+    "Concepts Covered" table, so the difficulty applies mainly to books that
+    have no learning graph.
 
 Cost scales with the number of components, the judgments per component, and
 the passes per judgment.
@@ -668,7 +729,7 @@ Rules every Tier 2 evaluation must follow:
 Each judgment is stored as one record:
 
 ```yaml
-spec_version: "0.2"
+spec_version: "0.3"
 unit:
   kind: component         # book | component | bundle
   type: microsim          # microsim | quiz | section | figure | ...
@@ -703,10 +764,10 @@ is not considered usable until the following has been run and reported.
 |---|---|---|---|
 | V1 Self-consistency | Does the evaluator agree with itself? | Run k = 3 independent passes per indicator; report exact agreement and agreement within one level, each as the mean over the three pairs of passes. Applies to J and RJ indicators. | Exact agreement ≥ 70% and agreement within one level ≥ 95%. |
 | V2 Human agreement | Does the evaluator agree with trained people? | Have at least two human raters score a sample with the same guide. Compare human-to-human and LLM-to-human agreement with the same statistic, quadratic-weighted kappa. The LLM should agree with humans about as well as humans agree with each other. | Precondition: human-to-human kappa ≥ 0.60. Then LLM-to-human kappa ≥ 0.60 and within 0.10 of the human-to-human value. |
-| V3 Quality validity | Do instructional-quality scores predict learning? | Relate indicator and profile scores to the results of this book's A/B tests with students. Akpinar (2008), listed in the review's references, is a precedent for relating LORI ratings to learning outcomes. | Not set (decision D10). |
-| V4 Drift | Do scores change when the model changes? | Re-run the calibration set whenever the model ID or the spec version changes. | Not set (decision D10). |
-| V5 Reuse validity | Do high reuse scores correspond to components that authors would or do reuse? | Ask a panel of textbook authors, for a sample of components, whether they would drop the component into their own book. Where available, also compare against observed reuse (components copied, forked, or embedded in other books). | AUC ≥ 0.75 against the author panel. The score that is ranked is set by decision D10. |
-| V6 Activity-data validity | For instrumented components, do understanding estimates built from the recorded events agree with a direct measure? | For level L2 components, build a per-concept understanding estimate from the events and compare it with the same learners' results on the component's own quiz or an independent assessment, as in V3. This tests the assumption that viewing and exploring predict understanding. | Not set (decision D10). |
+| V3 Quality validity | Do instructional-quality scores predict learning? | Relate indicator and profile scores to the results of this book's A/B tests with students. Akpinar (2008), listed in the review's references, is a precedent for relating LORI ratings to learning outcomes. | Not set; fixed before this step's first run (decision D10). |
+| V4 Drift | Do scores change when the model changes? | Re-run the calibration set whenever the model ID or the spec version changes. | Not set; fixed before this step's first run (decision D10). |
+| V5 Reuse validity | Do high reuse scores correspond to components that authors would or do reuse? | Ask a panel of textbook authors, for a sample of components, whether they would drop the component into their own book. Where available, also compare against observed reuse (components copied, forked, or embedded in other books). | AUC ≥ 0.75 against the author panel. The score ranked is the reuse value (Section 4; decision D10). |
+| V6 Activity-data validity | For instrumented components, do understanding estimates built from the recorded events agree with a direct measure? | For level L2 components, build a per-concept understanding estimate from the events and compare it with the same learners' results on the component's own quiz or an independent assessment, as in V3. This tests the assumption that viewing and exploring predict understanding. | Not set; fixed before this step's first run (decision D10). |
 
 **Calibration set.** Assemble a small set of exemplar OER and components, with
 human scores, that spans the scale. The review identifies training materials
@@ -722,8 +783,19 @@ author. They are conventional benchmarks, not figures from the review, which
 reports no agreement statistics. The 0.60 kappa line is the bottom of the
 "substantial" band in the Landis and Koch (1977) convention. The lines were
 fixed before any validation run so they cannot be fitted to the result. Each
-line applies to each indicator separately. What a failed line does, and the
-other open validation rules, are decision D10.
+line applies to each indicator separately.
+
+**Rules for the pass lines (decision D10, approved).**
+
+- A failing indicator is marked *unvalidated*. Its scores are still produced,
+  are labeled unvalidated, and always route to human review. A failing
+  indicator does not block the others.
+- A small pilot run is allowed to check that the anchors are workable,
+  provided the confirmatory run uses the fixed lines and fresh items.
+- Each line is tested on at least a few dozen units per indicator.
+- V5 ranks the reuse value defined in Section 4.
+- V3, V4, and V6 have no pass line yet. Each must be fixed before that step's
+  first run.
 
 ## 10. Versioning and revision log
 
@@ -735,6 +807,7 @@ it.
 |---|---|---|---|
 | 0.1 | 2026-10-12 | Initial draft from Yuan & Recker (2015). Not validated. | The review's findings (Section 2). |
 | 0.2 | 2026-10-12 | D1 resolved: reuse is co-primary with instructional quality. Added the component and bundle unit (Section 4), nine reuse checks (RP1–RP9), seven reuse judgments (RJ1–RJ7), anchors for all seventeen Tier 2 indicators, interactivity levels L0 to L2, the four-stage reuse scoring process driven by findability, and validation steps V5 and V6. Retired J9. Added D7–D13. D2 resolved as 0–3 with N/A. D3 resolved as record-only. D4 resolved with pass lines for V1, V2, and V5 (Section 9). D5 resolved as no sampling. | Author decisions on D1 to D6 and the principle "you can't reuse what you can't find", including the "What is the Scientific Method" MicroSim and quiz example, and the requirement to differentiate static images from instrumented interactive infographics. |
+| 0.3 | 2026-10-12 | D7 resolved: the headline is two numbers, Q for overall quality and R for reusable content, both on the 0–3 scale and never combined. Defined how each is computed (Section 3). D12 resolved: the roll-up is a mean per indicator weighted by each chapter's number of concepts, because Q needs a single figure and larger chapters should count for more. Noted that concepts are not equally weighted and that the first release assumes CIS is roughly equal, with a CIS-weighted roll-up deferred. D8 resolved: a component with content quality below 2 is not reuse-ready. D9 resolved: nine component types, with the FAQ question-answer pair added, and detection conventions recorded from the author's skills (Section 4). D10 resolved: the failure, pilot, and sample-size rules were accepted (Section 9). D13 resolved: learner-data capability is reported beside the reuse value and counted once, as the number of instrumented components. Added D14 and resolved it: Q uses the judgment indicators only, R is the unweighted component mean, and a number is provisional when it includes an unvalidated indicator or leaves out ISE scores. | Author decisions on D7 to D10 and D12 to D14. |
 
 ## 11. Decisions
 
@@ -746,13 +819,14 @@ it.
 | D4 | Agreement thresholds for V1, V2, and V5 | **Resolved (author, v0.2).** The pass lines are in the Section 9 table. |
 | D5 | Sampling rule for the book, and whether reuse and quality-gate judgments run on every component or a sample | **Resolved (author, v0.2).** No sampling. Every unit is read, and reuse and quality-gate judgments run on every component (Section 7, Coverage). |
 | D6 | Approve the anchor pattern so the remaining eleven can be written | **Resolved (author, v0.2).** The pattern is approved, and anchors for all seventeen Tier 2 indicators are drafted in Section 7. They remain subject to revision from V2 and V5. |
-| D7 | Headline: two numbers (quality and reuse), or one combined score with defined weights | Open. Default: two numbers, plus "reuse-ready components: N of M". |
-| D8 | Quality gate: may a component with J1 below 2 be reuse-ready | Open. Default: no; J1 and, if interactive, J7 must score 2 or 3. |
-| D9 | Which component types are counted, and where quizzes and non-MicroSim components are found | Open. Default: the eight types in Section 4; locations specified only for MicroSims. |
-| D10 | Rules that make the D4 pass lines operational: what a failed line does; whether a pilot run is allowed; the minimum sample per indicator; pass lines for V3, V4, and V6; and which score V5's AUC ranks | Open. Defaults: a failing indicator is marked unvalidated and always routed to human review; a pilot is allowed if the confirmatory run uses fixed lines and fresh items; a few dozen units per indicator; V3, V4, and V6 unset; V5 ranks the reuse value defined in Section 4. |
-| D11 | Mechanism behind the findability principle: the stage-1 cutoff, the reuse-value formula, and the retrieval test behind RJ6 | **Principle resolved (author, v0.2); mechanism open.** Defaults: stage 1 passes at RJ6 of 1 or more; reuse value is mean(RJ1, RJ4) × RJ6 ÷ 3; the retrieval test uses both a keyword and an embedding search over the book's own components, with a background collection of other books' components as the stronger option; the number of generated queries per component is unset; RJ6 is validated against a task in which humans search for components. |
-| D12 | Roll-up of chapter-level quality scores to a book-level figure | Open. Default: report the distribution (minimum, median, share scoring 2 or more) and no single mean. |
-| D13 | Whether learner-data capability (RP8, RP9, RJ7) enters the reuse value, or is reported beside it | Open. Default: reported beside the value, not blended in, so that a static figure, which is fully reusable, is not marked down. Instrumented components are counted in the headline. The author's requirement to differentiate static from instrumented components is resolved in Section 4. |
+| D7 | Headline: two numbers (quality and reuse), or one combined score with defined weights | **Resolved (author, v0.3).** Two numbers: Q for overall quality and R for reusable content, never combined. Section 3 defines them. |
+| D8 | Quality gate: may a component whose content quality (J1: is the subject matter accurate, clear, and complete?) scores below 2 be reuse-ready | **Resolved (author, v0.3).** No: a component with content quality (J1) below 2 is not reuse-ready. The companion gate on interaction usability (J7: do navigation and interactive elements work?) for interactive components is kept as the default and has not been separately confirmed. |
+| D9 | Which component types are counted, and where quizzes and non-MicroSim components are found | **Resolved (author, v0.3).** Nine component types, including the FAQ question-answer pair (Section 4). Locations follow the conventions documented in the author's skills, listed in Section 4. A quiz written for one specific MicroSim as a separate component has no file convention yet. |
+| D10 | Rules that make the D4 pass lines operational: what a failed line does; whether a pilot run is allowed; the minimum sample per indicator; pass lines for V3 (quality validity), V4 (drift), and V6 (activity-data validity); and which score the V5 (reuse validity) AUC ranks | **Resolved (author, v0.3).** The rules are in Section 9: a failing indicator is marked unvalidated and always routed to human review; a pilot is allowed if the confirmatory run uses fixed lines and fresh items; a few dozen units per indicator; V5 ranks the reuse value. V3, V4, and V6 have no pass line yet, and each must be fixed before that step's first run. |
+| D11 | Mechanism behind the findability principle: the stage-1 cutoff, the reuse-value formula, and the retrieval test behind RJ6 (findability) | **Principle resolved (author, v0.2); mechanism open.** Defaults: stage 1 passes at findability (RJ6) of 1 or more; reuse value is mean(topic generality RJ1, substance RJ4) × findability RJ6 ÷ 3; the retrieval test uses both a keyword and an embedding search over the book's own components, with a background collection of other books' components as the stronger option; the number of generated queries per component is unset; RJ6 is validated against a task in which humans search for components. |
+| D12 | Roll-up of chapter-level quality scores to a book-level figure | **Resolved (author, v0.3).** A mean per indicator, weighted by each chapter's number of concepts, so larger chapters count for more. The minimum, median, and share of concepts in chapters scoring 2 or more are shown beside it. Without "Concepts Covered" tables, word count is the proxy (Section 7). Concepts do not all carry equal weight, since some have many dependents. Version 1 assumes the Concept Impact Score is roughly equal across concepts and uses the plain count. A CIS-weighted roll-up is deferred to a future release, because computing CIS may be difficult (note in Section 7). |
+| D13 | Whether learner-data capability (RP8 instrumentation detected, RP9 events tied to concepts, RJ7 evidence value of activity data) enters the reuse value, or is reported beside it | **Resolved (author, v0.3).** Reported beside the reuse value, not blended in. Instrumentation is counted once, in the headline count of instrumented components (level L2), so it does not also raise R. A static figure, which is fully reusable, is not marked down. The requirement to differentiate static from instrumented components is resolved in Section 4. |
+| D14 | How the two numbers are computed: which indicators feed Q, how components are averaged into R, and when a number is labeled provisional | **Resolved (author, v0.3).** Q uses the judgment indicators only, with the completeness checks shown beside it and not scored. R is the unweighted mean reuse value over all components, so it depends on how components are counted (D9), and question-answer pairs and glossary terms can add dozens of small components that pull it down. A number is provisional when it includes an unvalidated indicator or leaves out ISE scores. No threshold is set for how many ISE scores make a number provisional. |
 
 ## 12. Attribution boundary
 
@@ -791,7 +865,25 @@ lineage columns belong to their original authors, listed in Section 13.
 - the requirement to differentiate a static image, which gives no feedback on
   student activity, from a fully interactive infographic that lets the
   textbook track viewing and estimate concept understanding from that activity
-  (Section 4).
+  (Section 4);
+- the decision that the headline is two numbers, one for overall quality and
+  one for reusable content (D7);
+- the decision that a component with low content quality is never reuse-ready
+  (D8);
+- the nine component types, including the FAQ question-answer pair (D9);
+- the packaging conventions for MicroSims, FAQs, quizzes, and static posters,
+  as documented in the author's `microsim-generator`, `faq-generator`, and
+  `quiz-generator` skills (Section 4);
+- the approval of the rules that make the pass lines operational (D10);
+- the decision to weight chapters by their number of concepts when rolling
+  chapter scores up to the book (D12);
+- the observation that concepts are not equally weighted, and the decision to
+  assume a roughly equal Concept Impact Score in the first release and defer a
+  CIS-weighted roll-up (D12). The CIS measure itself is defined in this book's
+  `CONTENT-GENERATION-GUIDE.md`;
+- the decision to count instrumentation once, beside the reuse value and not
+  within it (D13);
+- the approval of how Q and R are computed (D14).
 
 **Added by this book, not claimed by the review's authors:**
 
