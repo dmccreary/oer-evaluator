@@ -35,6 +35,7 @@ nav:
   - Home: index.md
   - About: about.md
   - Course Description: course-description.md
+  - Rubric Specification: rubric-spec.md
 
   - Chapters:
       - List of Chapters: chapters/index.md
