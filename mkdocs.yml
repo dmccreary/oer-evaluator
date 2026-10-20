@@ -54,6 +54,7 @@ nav:
       - List of MicroSims: sims/index.md
 
   - Workshops:
+      - workshops/index.md
       - Sample One-Day Schedule: workshops/sample-one-day-schedule.md
       - Sample Rubric Worksheet: workshops/sample-rubric-worksheet.md
       - Grant-Period Timeline: workshops/grant-period-timeline.md
