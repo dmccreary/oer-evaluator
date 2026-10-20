@@ -2,38 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://dmccreary.github.io/oer-evaluator/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://dmccreary.github.io/oer-evaluator/about/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://dmccreary.github.io/oer-evaluator/contact/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://dmccreary.github.io/oer-evaluator/course-description/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://dmccreary.github.io/oer-evaluator/license/</loc>
-         <lastmod>2026-10-13</lastmod>
-    </url>
-    <url>
-         <loc>https://dmccreary.github.io/oer-evaluator/rubric-spec/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://dmccreary.github.io/oer-evaluator/chapters/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://dmccreary.github.io/oer-evaluator/learning-graph/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://dmccreary.github.io/oer-evaluator/sims/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/oer-evaluator/workshops/</loc>
+         <lastmod>2026-10-20</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/oer-evaluator/workshops/grant-period-timeline/</loc>
+         <lastmod>2026-10-20</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/oer-evaluator/workshops/sample-one-day-schedule/</loc>
+         <lastmod>2026-10-20</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/oer-evaluator/workshops/sample-rubric-worksheet/</loc>
+         <lastmod>2026-10-20</lastmod>
     </url>
 </urlset>
