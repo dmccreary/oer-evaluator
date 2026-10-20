@@ -53,6 +53,11 @@ nav:
   - MicroSims:
       - List of MicroSims: sims/index.md
 
+  - Workshops:
+      - Sample One-Day Schedule: workshops/sample-one-day-schedule.md
+      - Sample Rubric Worksheet: workshops/sample-rubric-worksheet.md
+      - Grant-Period Timeline: workshops/grant-period-timeline.md
+
   - License: license.md
   - Contact: contact.md
 
@@ -110,7 +115,12 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.details
-  - pymdownx.superfences
+  # Mermaid fence: Material renders ```mermaid blocks as diagrams.
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
