@@ -37,6 +37,7 @@ nav:
       - About This Book: about.md
       - Meet Echo the Loon: img/mascot/character-sheet.md
   - Course Description: course-description.md
+  - Rubric Specification: rubric-spec.md
 
   - Chapters:
       - List of Chapters: chapters/index.md
