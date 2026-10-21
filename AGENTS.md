@@ -26,6 +26,11 @@ writing-style rules, the MicroSim expectations, and the Markdown formatting
 rules for this book. Content that ignores it produces broken layouts and an
 inconsistent student experience.
 
+The guide also defines Echo the Loon, this book's learning mascot, and the
+rules for placing mascot admonitions. The teacher guide, instructor guide, and
+other instructor-facing content do not use the mascot. The mascot's identity
+lives in `docs/img/mascot/character-sheet.md`.
+
 ## Project facts
 
 | | |
