@@ -22,3 +22,6 @@ Quality Evaluation Using AI Agents**.
   May 2027 timeline, from building the rubric and recruiting teachers through
   the training day, certificate work, classroom A/B tests, and the final
   report.
+- [Grant Response](grant-response.md): the proposal to the MNOP OER Pathfinder
+  Grant Program for a one-day Minneapolis training, with the team, rationale,
+  project plan, budget, and commitments.
