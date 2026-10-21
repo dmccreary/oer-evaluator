@@ -33,7 +33,9 @@ copyright: 'Copyright &copy; 2026 Dan Mccreary. Licensed under <a href="license/
 # optimized for wide landscape screens.
 nav:
   - Home: index.md
-  - About: about.md
+  - About:
+      - About This Book: about.md
+      - Meet Echo the Loon: img/mascot/character-sheet.md
   - Course Description: course-description.md
 
   - Chapters:
