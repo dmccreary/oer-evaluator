@@ -1,0 +1,3920 @@
+{
+  "terms": [
+    {
+      "term": "A/B Test",
+      "concept_id": 294,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Control Group",
+        "Treatment Group",
+        "Rubric-Outcome Correlation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Accept Correct or Reject",
+      "concept_id": 251,
+      "category": "Checking Agent Output",
+      "related_terms": [
+        "Human in the Loop",
+        "Findings Log",
+        "Agent Evaluation Report"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Accessibility",
+      "concept_id": 111,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Accessibility Metric",
+        "Universal Design for Learning",
+        "WCAG"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Accessibility Checker",
+      "concept_id": 131,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Automated Accessibility Scan",
+        "WCAG 2.1 AA",
+        "Accessibility Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Accessibility Metric",
+      "concept_id": 110,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Accessibility",
+        "WCAG 2.1 AA",
+        "Automated Accessibility Scan"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Accessible Math",
+      "concept_id": 129,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Alt Text",
+        "Screen Reader",
+        "Accessibility Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Accuracy Metric",
+      "concept_id": 70,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Currency Metric",
+        "Factual Error",
+        "Fact Checking"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Adopt Revise or Reject",
+      "concept_id": 204,
+      "category": "Manual Evaluation",
+      "related_terms": [
+        "Adoption Decision",
+        "Score Band",
+        "Improvement Plan"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Adoption Decision",
+      "concept_id": 205,
+      "category": "Manual Evaluation",
+      "related_terms": [
+        "Adopt Revise or Reject",
+        "Adoption Recommendation",
+        "OER Adoption"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Adoption Recommendation",
+      "concept_id": 206,
+      "category": "Manual Evaluation",
+      "related_terms": [
+        "Review Report",
+        "Adopt Revise or Reject",
+        "Adoption Decision"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Adoption Threshold",
+      "concept_id": 60,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Score Band",
+        "Adoption Decision",
+        "Adopt Revise or Reject"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Agent Disagreement",
+      "concept_id": 250,
+      "category": "Checking Agent Output",
+      "related_terms": [
+        "Score Difference Threshold",
+        "Score Reconciliation",
+        "Multi-Agent Review"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Agent Error Rate",
+      "concept_id": 253,
+      "category": "Checking Agent Output",
+      "related_terms": [
+        "Findings Log",
+        "Agreement Rate",
+        "Prompt Refinement"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Agent Error Type",
+      "concept_id": 245,
+      "category": "Checking Agent Output",
+      "related_terms": [
+        "Hallucination",
+        "Invented Citation",
+        "License Misreading",
+        "Overconfident Score"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Agent Evaluation Report",
+      "concept_id": 223,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Review Report",
+        "Agent Scoring",
+        "Accept Correct or Reject"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Agent Scoring",
+      "concept_id": 222,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Rubric Prompt",
+        "Agent Evaluation Report",
+        "Human in the Loop"
+      ],
+      "contrasts_with": [
+        "Manual Evaluation"
+      ]
+    },
+    {
+      "term": "Agent Skill",
+      "concept_id": 212,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "AI Agent",
+        "Rubric Prompt",
+        "Agent Workflow"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Agent Workflow",
+      "concept_id": 230,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Review Workflow",
+        "Multi-Agent Review",
+        "Human in the Loop"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Agreement Rate",
+      "concept_id": 254,
+      "category": "Checking Agent Output",
+      "related_terms": [
+        "Inter-Rater Agreement",
+        "Score Difference Threshold",
+        "Cohen's Kappa"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AI Agent",
+      "concept_id": 211,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Agent Skill",
+        "Tool Use",
+        "Agent Workflow"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AI Alt Text Generation",
+      "concept_id": 265,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Alt Text",
+        "Accessibility Metric",
+        "Human Review of Changes"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AI Assistant",
+      "concept_id": 209,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Large Language Model",
+        "AI Agent",
+        "Prompt"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AI Cost",
+      "concept_id": 237,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Token",
+        "Context Window",
+        "Batch Evaluation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Alignment Metric",
+      "concept_id": 84,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Learning Outcome",
+        "Assessment Alignment",
+        "Outcome Coverage"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "All Rights Reserved",
+      "concept_id": 43,
+      "category": "Open Licensing",
+      "related_terms": [
+        "Copyright",
+        "Free Resource",
+        "Proprietary License"
+      ],
+      "contrasts_with": [
+        "Public Domain",
+        "Open License"
+      ]
+    },
+    {
+      "term": "Alt Text",
+      "concept_id": 114,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Decorative Image",
+        "Complex Image Description",
+        "AI Alt Text Generation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Anonymized Data",
+      "concept_id": 311,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Student Data Privacy",
+        "Student Privacy in Testing",
+        "Data Collection"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Answer Key",
+      "concept_id": 139,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Worked Solution",
+        "Feedback Message",
+        "Practice Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "ARIA Labels",
+      "concept_id": 132,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Screen Reader",
+        "Keyboard Navigation",
+        "MicroSim"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Assessment Alignment",
+      "concept_id": 93,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Alignment Metric",
+        "Practice Metric",
+        "Learning Outcome"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Attribution Requirement",
+      "concept_id": 32,
+      "category": "Open Licensing",
+      "related_terms": [
+        "Attribution Statement",
+        "TASL Attribution Format",
+        "CC BY"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Attribution Statement",
+      "concept_id": 38,
+      "category": "Open Licensing",
+      "related_terms": [
+        "TASL Attribution Format",
+        "Attribution Requirement",
+        "Derivative Work"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Audience Fit",
+      "concept_id": 108,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Readability Metric",
+        "Reading Level",
+        "Prerequisite Knowledge"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Audio Description",
+      "concept_id": 123,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Captions",
+        "Transcript",
+        "Accessibility Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Author Field",
+      "concept_id": 162,
+      "category": "Modularity and Metadata",
+      "related_terms": [
+        "Metadata Record",
+        "TASL Attribution Format",
+        "Attribution Requirement"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Automated Accessibility Scan",
+      "concept_id": 234,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Accessibility Checker",
+        "Accessibility Metric",
+        "WCAG 2.1 AA"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Automated License Detection",
+      "concept_id": 235,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Open License Metric",
+        "License Field",
+        "Machine-Readable Metadata"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Automated Link Checker",
+      "concept_id": 233,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Broken Link Check",
+        "Link Rot",
+        "Link Repair"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Automated Readability Scan",
+      "concept_id": 236,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Readability Formula",
+        "Flesch-Kincaid Grade Level",
+        "Readability Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Batch Evaluation",
+      "concept_id": 224,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Agent Workflow",
+        "JSON Output",
+        "AI Cost"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Before-and-After Comparison",
+      "concept_id": 280,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Score Gain",
+        "Re-Scoring",
+        "Original Version",
+        "Improved Version"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Bloom Cognitive Levels",
+      "concept_id": 91,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Bloom's Taxonomy",
+        "Learning Outcome",
+        "Assessment Alignment"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Bloom's Taxonomy",
+      "concept_id": 90,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Bloom Cognitive Levels",
+        "Measurable Verb",
+        "Question Difficulty"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Broken Link Check",
+      "concept_id": 82,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Link Rot",
+        "Automated Link Checker",
+        "Link Repair"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Browser Compatibility",
+      "concept_id": 187,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "Portability Metric",
+        "Responsive Layout",
+        "HTML"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Calibration Against Humans",
+      "concept_id": 259,
+      "category": "Checking Agent Output",
+      "related_terms": [
+        "Consensus Scoring",
+        "Prompt Refinement",
+        "Mean Absolute Difference"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Calibration Exercise",
+      "concept_id": 339,
+      "category": "Training and Certification",
+      "related_terms": [
+        "Calibration Session",
+        "Consensus Scoring",
+        "Teacher Training Workshop"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Calibration Session",
+      "concept_id": 201,
+      "category": "Manual Evaluation",
+      "related_terms": [
+        "Consensus Scoring",
+        "Inter-Rater Agreement",
+        "Calibration Exercise"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Capstone Project",
+      "concept_id": 350,
+      "category": "Training and Certification",
+      "related_terms": [
+        "Certificate Requirements",
+        "Before-and-After Comparison",
+        "Publishing OER"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Caption Generation",
+      "concept_id": 266,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Captions",
+        "Transcript",
+        "Accessibility Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Captions",
+      "concept_id": 121,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Transcript",
+        "Audio Description",
+        "Caption Generation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "CC BY",
+      "concept_id": 25,
+      "category": "Open Licensing",
+      "related_terms": [
+        "Attribution Requirement",
+        "Creative Commons",
+        "Open License Metric"
+      ],
+      "contrasts_with": [
+        "CC BY-NC-ND"
+      ]
+    },
+    {
+      "term": "CC BY-NC",
+      "concept_id": 27,
+      "category": "Open Licensing",
+      "related_terms": [
+        "NonCommercial Requirement",
+        "License Compatibility",
+        "Creative Commons"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "CC BY-NC-ND",
+      "concept_id": 30,
+      "category": "Open Licensing",
+      "related_terms": [
+        "NoDerivatives Requirement",
+        "NonCommercial Requirement",
+        "Open License Metric"
+      ],
+      "contrasts_with": [
+        "CC BY",
+        "CC0 Dedication"
+      ]
+    },
+    {
+      "term": "CC BY-NC-SA",
+      "concept_id": 28,
+      "category": "Open Licensing",
+      "related_terms": [
+        "NonCommercial Requirement",
+        "ShareAlike Requirement",
+        "License Conflict"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "CC BY-ND",
+      "concept_id": 29,
+      "category": "Open Licensing",
+      "related_terms": [
+        "NoDerivatives Requirement",
+        "The 5R Permissions",
+        "Revise Permission"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "CC BY-SA",
+      "concept_id": 26,
+      "category": "Open Licensing",
+      "related_terms": [
+        "ShareAlike Requirement",
+        "License Compatibility",
+        "Creative Commons"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "CC0 Dedication",
+      "concept_id": 31,
+      "category": "Open Licensing",
+      "related_terms": [
+        "Public Domain",
+        "Creative Commons",
+        "Open License"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Certificate",
+      "concept_id": 341,
+      "category": "Training and Certification",
+      "related_terms": [
+        "Certificate Requirements",
+        "Certificate Submission",
+        "Capstone Project"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Certificate Requirements",
+      "concept_id": 342,
+      "category": "Training and Certification",
+      "related_terms": [
+        "Certificate",
+        "Certificate Submission",
+        "Capstone Project"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Certificate Submission",
+      "concept_id": 343,
+      "category": "Training and Certification",
+      "related_terms": [
+        "Certificate Requirements",
+        "Submission Review",
+        "Capstone Project"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Change Log Entry",
+      "concept_id": 281,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Changelog",
+        "Attribution Statement",
+        "Derivative Work"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Changelog",
+      "concept_id": 185,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "Change Log Entry",
+        "Revision History",
+        "Release Notes"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Chapter Splitting",
+      "concept_id": 269,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Modularity Metric",
+        "Component Granularity",
+        "Cross-Reference Dependence"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Chapter Structure",
+      "concept_id": 292,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Learning Graph",
+        "Scope and Sequence",
+        "Modularity Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Citation Quality",
+      "concept_id": 77,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Source Citation",
+        "Accuracy Metric",
+        "Source Verification"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Cohen's Kappa",
+      "concept_id": 257,
+      "category": "Checking Agent Output",
+      "related_terms": [
+        "Inter-Rater Agreement",
+        "Rubric Reliability",
+        "Agreement Rate"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Color Contrast",
+      "concept_id": 118,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Contrast Ratio",
+        "Color Independence",
+        "WCAG 2.1 AA"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Color Independence",
+      "concept_id": 120,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Color Contrast",
+        "Accessibility Metric",
+        "WCAG 2.1 AA"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Commercial Textbook",
+      "concept_id": 7,
+      "category": "OER Foundations",
+      "related_terms": [
+        "Course Material Affordability",
+        "Proprietary License"
+      ],
+      "contrasts_with": [
+        "Open Textbook",
+        "Open Educational Resource"
+      ]
+    },
+    {
+      "term": "Common Cartridge",
+      "concept_id": 192,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "LMS Import",
+        "Export Format",
+        "Portability Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Community Contribution",
+      "concept_id": 332,
+      "category": "Publishing and Sharing",
+      "related_terms": [
+        "Pull Request",
+        "Open Pedagogy",
+        "Publishing OER"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Completion Rate",
+      "concept_id": 316,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Time on Task",
+        "Outcome Measure",
+        "Modularity Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Complex Image Description",
+      "concept_id": 116,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Alt Text",
+        "Table Accessibility",
+        "Accessibility Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Component Discoverability",
+      "concept_id": 289,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Metadata Metric",
+        "Keywords",
+        "OER Clearinghouse"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Component Granularity",
+      "concept_id": 155,
+      "category": "Modularity and Metadata",
+      "related_terms": [
+        "Modularity Metric",
+        "Chapter Splitting",
+        "Modular Content"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Component Library",
+      "concept_id": 286,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Reusable Component",
+        "Component Discoverability",
+        "OER Repository"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Component Licensing",
+      "concept_id": 288,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Open License",
+        "License Selection",
+        "Reusable Component"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Component Packaging",
+      "concept_id": 287,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Reusable Component",
+        "Modularity Metric",
+        "Portability Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Concept Dependency",
+      "concept_id": 291,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Learning Graph",
+        "Prerequisite Knowledge",
+        "Scope and Sequence"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Confounding Variable",
+      "concept_id": 306,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Random Assignment",
+        "Sampling Bias",
+        "A/B Test"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Consensus Scoring",
+      "concept_id": 202,
+      "category": "Manual Evaluation",
+      "related_terms": [
+        "Score Reconciliation",
+        "Calibration Session",
+        "Calibration Against Humans"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Content Gap",
+      "concept_id": 94,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Outcome Coverage",
+        "Alignment Metric",
+        "Improvement Plan"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Content Update",
+      "concept_id": 277,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Outdated Content",
+        "Currency Metric",
+        "Revise Permission"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Context Window",
+      "concept_id": 216,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Token",
+        "Document Ingestion",
+        "Large Language Model"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Contrast Ratio",
+      "concept_id": 119,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Color Contrast",
+        "WCAG 2.1 AA",
+        "Accessibility Checker"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Control Group",
+      "concept_id": 295,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Treatment Group",
+        "Original Version",
+        "A/B Test"
+      ],
+      "contrasts_with": [
+        "Treatment Group"
+      ]
+    },
+    {
+      "term": "Controlled Vocabulary",
+      "concept_id": 168,
+      "category": "Modularity and Metadata",
+      "related_terms": [
+        "Subject Field",
+        "Keywords",
+        "Metadata Completeness"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Copyright",
+      "concept_id": 4,
+      "category": "OER Foundations",
+      "related_terms": [
+        "Open License",
+        "Public Domain",
+        "All Rights Reserved"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Course Material Affordability",
+      "concept_id": 8,
+      "category": "OER Foundations",
+      "related_terms": [
+        "Zero Textbook Cost Course",
+        "Open Textbook",
+        "Commercial Textbook"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Creative Commons",
+      "concept_id": 24,
+      "category": "Open Licensing",
+      "related_terms": [
+        "Open License",
+        "CC BY",
+        "CC0 Dedication"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Cross-Reference Dependence",
+      "concept_id": 156,
+      "category": "Modularity and Metadata",
+      "related_terms": [
+        "Modularity Metric",
+        "Standalone Component",
+        "Modular Content"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Currency Metric",
+      "concept_id": 71,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Accuracy Metric",
+        "Outdated Content",
+        "Link Rot"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Curriculum Map",
+      "concept_id": 89,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Standards Alignment",
+        "Outcome Coverage",
+        "Content Gap"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Data Collection",
+      "concept_id": 310,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Anonymized Data",
+        "Outcome Measure",
+        "Student Survey"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Decorative Image",
+      "concept_id": 115,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Alt Text",
+        "Screen Reader",
+        "Accessibility Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Defined Terms",
+      "concept_id": 102,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Glossary",
+        "Vocabulary Level",
+        "Readability Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Derivative Work",
+      "concept_id": 283,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Revise Permission",
+        "Remix Permission",
+        "Attribution Statement"
+      ],
+      "contrasts_with": [
+        "NoDerivatives Requirement"
+      ]
+    },
+    {
+      "term": "Description Field",
+      "concept_id": 166,
+      "category": "Modularity and Metadata",
+      "related_terms": [
+        "Metadata Record",
+        "Dublin Core",
+        "Metadata Generation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Difference of Means",
+      "concept_id": 313,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Mean Score",
+        "Effect Size",
+        "Learning Gain"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Distractor Quality",
+      "concept_id": 142,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Multiple-Choice Question",
+        "Practice Question Generation",
+        "Question Difficulty"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Document Ingestion",
+      "concept_id": 218,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "File Access",
+        "Context Window",
+        "PDF-to-Markdown Conversion"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Document Language",
+      "concept_id": 128,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Screen Reader",
+        "HTML",
+        "WCAG 2.1 AA"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Dublin Core",
+      "concept_id": 160,
+      "category": "Modularity and Metadata",
+      "related_terms": [
+        "Metadata Record",
+        "LRMI",
+        "Metadata Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Editable Source Metric",
+      "concept_id": 173,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "Source Format",
+        "Open File Format",
+        "PDF-Only Distribution"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Educational Resource",
+      "concept_id": 1,
+      "category": "OER Foundations",
+      "related_terms": [
+        "Open Educational Resource",
+        "Commercial Textbook",
+        "Free Resource"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Effect Size",
+      "concept_id": 314,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Difference of Means",
+        "Mean Score",
+        "Sample Size"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Embeddable Component",
+      "concept_id": 157,
+      "category": "Modularity and Metadata",
+      "related_terms": [
+        "Iframe Embedding",
+        "MicroSim",
+        "Reusable Component"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Equity Consideration",
+      "concept_id": 322,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Accessibility",
+        "Offline Access",
+        "Informed Consent"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Evidence Citation",
+      "concept_id": 55,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Evidence for a Score",
+        "Source Verification",
+        "Invented Citation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Evidence for a Score",
+      "concept_id": 54,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Evidence Citation",
+        "Evidence Recording",
+        "Metric Score"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Evidence Recording",
+      "concept_id": 199,
+      "category": "Manual Evaluation",
+      "related_terms": [
+        "Evidence for a Score",
+        "Evidence Citation",
+        "Reviewer Notes"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Exit Survey",
+      "concept_id": 345,
+      "category": "Training and Certification",
+      "related_terms": [
+        "Training Evaluation",
+        "Student Survey",
+        "Teacher Training Workshop"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Expert Review",
+      "concept_id": 83,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Accuracy Metric",
+        "Reviewer",
+        "Peer Review"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Export Format",
+      "concept_id": 194,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "Source Format",
+        "Offline Access",
+        "Portability Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Facilitator Guide",
+      "concept_id": 338,
+      "category": "Training and Certification",
+      "related_terms": [
+        "Teacher Training Workshop",
+        "Workshop Agenda",
+        "Training Kit"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Fact Checking",
+      "concept_id": 73,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Accuracy Metric",
+        "Source Verification",
+        "Primary Source"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Factual Error",
+      "concept_id": 72,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Accuracy Metric",
+        "Fact Checking",
+        "Expert Review"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Fair Use",
+      "concept_id": 41,
+      "category": "Open Licensing",
+      "related_terms": [
+        "Copyright",
+        "Third-Party Content",
+        "All Rights Reserved"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Feedback Channel",
+      "concept_id": 331,
+      "category": "Publishing and Sharing",
+      "related_terms": [
+        "Issue Tracking",
+        "Community Contribution",
+        "Maintenance Plan"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Feedback Message",
+      "concept_id": 140,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Immediate Feedback",
+        "Distractor Quality",
+        "Multiple-Choice Question"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "FERPA",
+      "concept_id": 239,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Student Data Privacy",
+        "Student Privacy in Testing",
+        "No-Login Access"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Few-Shot Example",
+      "concept_id": 225,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Prompt",
+        "Calibration Against Humans",
+        "Score Inflation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "File Access",
+      "concept_id": 229,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Document Ingestion",
+        "AI Agent",
+        "Agent Workflow"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Findings Log",
+      "concept_id": 252,
+      "category": "Checking Agent Output",
+      "related_terms": [
+        "Accept Correct or Reject",
+        "Agent Error Rate",
+        "Agent Error Type"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Flesch-Kincaid Grade Level",
+      "concept_id": 100,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Readability Formula",
+        "Reading Level",
+        "Reading Level Rewrite"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Fork",
+      "concept_id": 183,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "GitHub Repository",
+        "Pull Request",
+        "OER Adaptation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Formative Assessment",
+      "concept_id": 134,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Self-Check Question",
+        "Quiz",
+        "Practice Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Free Resource",
+      "concept_id": 6,
+      "category": "OER Foundations",
+      "related_terms": [
+        "All Rights Reserved",
+        "Proprietary License",
+        "No-Login Access"
+      ],
+      "contrasts_with": [
+        "Open Educational Resource"
+      ]
+    },
+    {
+      "term": "Git",
+      "concept_id": 181,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "Version Control",
+        "GitHub Repository",
+        "Fork"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "GitHub Pages",
+      "concept_id": 326,
+      "category": "Publishing and Sharing",
+      "related_terms": [
+        "GitHub Repository",
+        "MkDocs",
+        "Publishing OER"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "GitHub Repository",
+      "concept_id": 182,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "Git",
+        "GitHub Pages",
+        "Editable Source Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Glossary",
+      "concept_id": 103,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Defined Terms",
+        "Glossary Generation",
+        "Readability Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Glossary Generation",
+      "concept_id": 274,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Glossary",
+        "Defined Terms",
+        "Readability Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Grade Level Field",
+      "concept_id": 164,
+      "category": "Modularity and Metadata",
+      "related_terms": [
+        "Metadata Record",
+        "Reading Level",
+        "Audience Fit"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Hallucination",
+      "concept_id": 240,
+      "category": "Checking Agent Output",
+      "related_terms": [
+        "Invented Citation",
+        "Agent Error Type",
+        "Source Verification"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Heading Repair",
+      "concept_id": 267,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Heading Structure",
+        "Headings and Subheadings",
+        "Accessibility Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Heading Structure",
+      "concept_id": 117,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Headings and Subheadings",
+        "Heading Repair",
+        "Screen Reader"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Headings and Subheadings",
+      "concept_id": 107,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Text Structure",
+        "Heading Structure",
+        "Readability Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "HTML",
+      "concept_id": 177,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "Open File Format",
+        "Browser Compatibility",
+        "Table Accessibility"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Human in the Loop",
+      "concept_id": 232,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Accept Correct or Reject",
+        "Human Review of Changes",
+        "Verification Step"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Human Review of Changes",
+      "concept_id": 282,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Preserving Original Meaning",
+        "Human in the Loop",
+        "Spot Check"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Iframe Embedding",
+      "concept_id": 189,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "Embeddable Component",
+        "MicroSim",
+        "Portability Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Immediate Feedback",
+      "concept_id": 141,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Feedback Message",
+        "Practice Metric",
+        "Interactive Simulation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Impact Reporting",
+      "concept_id": 335,
+      "category": "Publishing and Sharing",
+      "related_terms": [
+        "Course Material Affordability",
+        "Results Summary",
+        "Reuse Tracking"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Improved Version",
+      "concept_id": 298,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Original Version",
+        "Treatment Group",
+        "Score Gain"
+      ],
+      "contrasts_with": [
+        "Original Version"
+      ]
+    },
+    {
+      "term": "Improvement Challenge",
+      "concept_id": 264,
+      "category": "Improving Resources",
+      "related_terms": [
+        "PDF-to-Markdown Conversion",
+        "Preserving Original Meaning",
+        "Human Review of Changes"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Improvement Plan",
+      "concept_id": 262,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Lowest Metric First",
+        "OER Adaptation",
+        "Before-and-After Comparison"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Informed Consent",
+      "concept_id": 308,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Student Privacy in Testing",
+        "Equity Consideration",
+        "FERPA"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Intelligent Textbook",
+      "concept_id": 293,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Learning Graph",
+        "MicroSim",
+        "MkDocs"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Inter-Rater Agreement",
+      "concept_id": 68,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Agreement Rate",
+        "Cohen's Kappa",
+        "Calibration Against Humans"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Interactive Simulation",
+      "concept_id": 146,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "MicroSim",
+        "Practice Metric",
+        "Universal Design for Learning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Invented Citation",
+      "concept_id": 241,
+      "category": "Checking Agent Output",
+      "related_terms": [
+        "Hallucination",
+        "Evidence Citation",
+        "Source Verification"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Issue Tracking",
+      "concept_id": 330,
+      "category": "Publishing and Sharing",
+      "related_terms": [
+        "Feedback Channel",
+        "Maintenance Plan",
+        "GitHub Repository"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Jargon",
+      "concept_id": 105,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Vocabulary Level",
+        "Defined Terms",
+        "Plain Language"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "JSON Output",
+      "concept_id": 220,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Structured Output",
+        "Batch Evaluation",
+        "Agent Evaluation Report"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Keyboard Navigation",
+      "concept_id": 124,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Screen Reader",
+        "ARIA Labels",
+        "Accessibility Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Keywords",
+      "concept_id": 167,
+      "category": "Modularity and Metadata",
+      "related_terms": [
+        "Subject Field",
+        "Controlled Vocabulary",
+        "Component Discoverability"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Large Language Model",
+      "concept_id": 210,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "AI Assistant",
+        "AI Agent",
+        "Token",
+        "Hallucination"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Learning Gain",
+      "concept_id": 303,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Pre-Test",
+        "Post-Test",
+        "Difference of Means"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Learning Graph",
+      "concept_id": 290,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Concept Dependency",
+        "Chapter Structure",
+        "Intelligent Textbook"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Learning Objective",
+      "concept_id": 86,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Learning Outcome",
+        "Measurable Verb",
+        "Bloom's Taxonomy"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Learning Outcome",
+      "concept_id": 85,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Learning Objective",
+        "Measurable Verb",
+        "Alignment Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "License Clarity",
+      "concept_id": 151,
+      "category": "Modularity and Metadata",
+      "related_terms": [
+        "License Statement",
+        "Open License Metric",
+        "Third-Party Content"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "License Compatibility",
+      "concept_id": 36,
+      "category": "Open Licensing",
+      "related_terms": [
+        "Remix Permission",
+        "License Conflict",
+        "ShareAlike Requirement"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "License Conflict",
+      "concept_id": 37,
+      "category": "Open Licensing",
+      "related_terms": [
+        "License Compatibility",
+        "Remix Permission",
+        "License Misreading"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "License Field",
+      "concept_id": 165,
+      "category": "Modularity and Metadata",
+      "related_terms": [
+        "Metadata Record",
+        "License Statement",
+        "Automated License Detection"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "License Misreading",
+      "concept_id": 242,
+      "category": "Checking Agent Output",
+      "related_terms": [
+        "Agent Error Type",
+        "License Conflict",
+        "Open License Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "License Selection",
+      "concept_id": 44,
+      "category": "Open Licensing",
+      "related_terms": [
+        "Open License",
+        "Publishing OER",
+        "Component Licensing"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "License Statement",
+      "concept_id": 23,
+      "category": "Open Licensing",
+      "related_terms": [
+        "Open License",
+        "License Clarity",
+        "License Statement Repair"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "License Statement Repair",
+      "concept_id": 271,
+      "category": "Improving Resources",
+      "related_terms": [
+        "License Statement",
+        "License Clarity",
+        "Open License Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Link Repair",
+      "concept_id": 276,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Link Rot",
+        "Broken Link Check",
+        "Automated Link Checker"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Link Rot",
+      "concept_id": 81,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Broken Link Check",
+        "Automated Link Checker",
+        "Link Repair"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Link Sharing",
+      "concept_id": 190,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "Portability Metric",
+        "No-Login Access",
+        "Static Site Generator"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Link Text",
+      "concept_id": 126,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Screen Reader",
+        "Accessibility Metric",
+        "WCAG 2.1 AA"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "LMS Import",
+      "concept_id": 191,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "Common Cartridge",
+        "LTI Integration",
+        "Portability Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Local Reviewer Role",
+      "concept_id": 347,
+      "category": "Training and Certification",
+      "related_terms": [
+        "Reviewer",
+        "Train-the-Trainer",
+        "Professional Development"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Lowest Metric First",
+      "concept_id": 263,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Improvement Plan",
+        "Adoption Threshold",
+        "Score Gain"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "LRMI",
+      "concept_id": 169,
+      "category": "Modularity and Metadata",
+      "related_terms": [
+        "Schema.org Markup",
+        "Dublin Core",
+        "Machine-Readable Metadata"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "LTI Integration",
+      "concept_id": 193,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "LMS Import",
+        "Portability Metric",
+        "Student Data Privacy"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Machine-Readable Metadata",
+      "concept_id": 171,
+      "category": "Modularity and Metadata",
+      "related_terms": [
+        "Metadata Record",
+        "Schema.org Markup",
+        "Automated License Detection"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Maintenance Plan",
+      "concept_id": 329,
+      "category": "Publishing and Sharing",
+      "related_terms": [
+        "Link Rot",
+        "Issue Tracking",
+        "Currency Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Manual Evaluation",
+      "concept_id": 198,
+      "category": "Manual Evaluation",
+      "related_terms": [
+        "Rubric Worksheet",
+        "Evidence Recording",
+        "Agent Scoring"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Markdown",
+      "concept_id": 176,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "Open File Format",
+        "Static Site Generator",
+        "PDF-to-Markdown Conversion"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Mean Absolute Difference",
+      "concept_id": 256,
+      "category": "Checking Agent Output",
+      "related_terms": [
+        "Score Difference Threshold",
+        "Calibration Against Humans",
+        "Agreement Rate"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Mean Score",
+      "concept_id": 312,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Difference of Means",
+        "Effect Size",
+        "Learning Gain"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Measurable Verb",
+      "concept_id": 87,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Learning Objective",
+        "Bloom's Taxonomy",
+        "Alignment Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Metadata Completeness",
+      "concept_id": 172,
+      "category": "Modularity and Metadata",
+      "related_terms": [
+        "Metadata Metric",
+        "Metadata Record",
+        "Metadata Generation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Metadata Generation",
+      "concept_id": 270,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Metadata Metric",
+        "Metadata Record",
+        "Metadata Completeness"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Metadata Metric",
+      "concept_id": 158,
+      "category": "Modularity and Metadata",
+      "related_terms": [
+        "Metadata Record",
+        "Dublin Core",
+        "Metadata Completeness"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Metadata Record",
+      "concept_id": 159,
+      "category": "Modularity and Metadata",
+      "related_terms": [
+        "Metadata Metric",
+        "Dublin Core",
+        "Machine-Readable Metadata"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Metric Score",
+      "concept_id": 51,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Rubric Metric",
+        "Score Scale",
+        "Evidence for a Score"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "MicroSim",
+      "concept_id": 147,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Interactive Simulation",
+        "Iframe Embedding",
+        "MicroSim Building"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "MicroSim Building",
+      "concept_id": 275,
+      "category": "Improving Resources",
+      "related_terms": [
+        "MicroSim",
+        "Interactive Simulation",
+        "Practice Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "MkDocs",
+      "concept_id": 325,
+      "category": "Publishing and Sharing",
+      "related_terms": [
+        "Static Site Generator",
+        "GitHub Pages",
+        "Intelligent Textbook"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Modular Content",
+      "concept_id": 153,
+      "category": "Modularity and Metadata",
+      "related_terms": [
+        "Modularity Metric",
+        "Standalone Component",
+        "Chapter Splitting"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Modularity Metric",
+      "concept_id": 152,
+      "category": "Modularity and Metadata",
+      "related_terms": [
+        "Modular Content",
+        "Standalone Component",
+        "Cross-Reference Dependence"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Multi-Agent Review",
+      "concept_id": 231,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Second-Agent Cross-Check",
+        "Agent Disagreement",
+        "Agent Workflow"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Multiple-Choice Question",
+      "concept_id": 137,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Distractor Quality",
+        "Answer Key",
+        "Feedback Message"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "No-Login Access",
+      "concept_id": 188,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "Portability Metric",
+        "Student Data Privacy",
+        "Link Sharing"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "NoDerivatives Requirement",
+      "concept_id": 35,
+      "category": "Open Licensing",
+      "related_terms": [
+        "CC BY-ND",
+        "CC BY-NC-ND",
+        "Revise Permission"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "NonCommercial Requirement",
+      "concept_id": 34,
+      "category": "Open Licensing",
+      "related_terms": [
+        "CC BY-NC",
+        "CC BY-NC-SA",
+        "Open License Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "OER Adaptation",
+      "concept_id": 17,
+      "category": "OER Foundations",
+      "related_terms": [
+        "Revise Permission",
+        "Derivative Work",
+        "Improvement Plan"
+      ],
+      "contrasts_with": [
+        "OER Adoption",
+        "OER Creation"
+      ]
+    },
+    {
+      "term": "OER Adoption",
+      "concept_id": 16,
+      "category": "OER Foundations",
+      "related_terms": [
+        "Adoption Decision",
+        "OER Adaptation",
+        "Resource Selection"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "OER Clearinghouse",
+      "concept_id": 327,
+      "category": "Publishing and Sharing",
+      "related_terms": [
+        "OER Repository",
+        "Metadata Record",
+        "Component Discoverability"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "OER Creation",
+      "concept_id": 18,
+      "category": "OER Foundations",
+      "related_terms": [
+        "Publishing OER",
+        "Reusable Component",
+        "OER Adaptation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "OER Quality",
+      "concept_id": 45,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Quality Dimension",
+        "Quality Subtotal",
+        "Quality Versus Reusability"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "OER Repository",
+      "concept_id": 19,
+      "category": "OER Foundations",
+      "related_terms": [
+        "OER Clearinghouse",
+        "Metadata Record",
+        "Publishing OER"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Offline Access",
+      "concept_id": 196,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "Retain Permission",
+        "Export Format",
+        "Equity Consideration"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Open Educational Resource",
+      "concept_id": 2,
+      "category": "OER Foundations",
+      "related_terms": [
+        "The 5R Permissions",
+        "Open License",
+        "Open Textbook"
+      ],
+      "contrasts_with": [
+        "Commercial Textbook",
+        "Free Resource"
+      ]
+    },
+    {
+      "term": "Open File Format",
+      "concept_id": 175,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "Source Format",
+        "Markdown",
+        "HTML"
+      ],
+      "contrasts_with": [
+        "Platform Lock-In",
+        "PDF-Only Distribution"
+      ]
+    },
+    {
+      "term": "Open License",
+      "concept_id": 22,
+      "category": "Open Licensing",
+      "related_terms": [
+        "Creative Commons",
+        "License Statement",
+        "Open License Metric"
+      ],
+      "contrasts_with": [
+        "Proprietary License",
+        "All Rights Reserved"
+      ]
+    },
+    {
+      "term": "Open License Metric",
+      "concept_id": 150,
+      "category": "Modularity and Metadata",
+      "related_terms": [
+        "Open License",
+        "License Clarity",
+        "The 5R Permissions"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Open Pedagogy",
+      "concept_id": 20,
+      "category": "OER Foundations",
+      "related_terms": [
+        "Open Educational Resource",
+        "OER Adaptation",
+        "Community Contribution"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Open Textbook",
+      "concept_id": 3,
+      "category": "OER Foundations",
+      "related_terms": [
+        "Open Educational Resource",
+        "Commercial Textbook",
+        "OER Adoption"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Original Version",
+      "concept_id": 297,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Improved Version",
+        "Control Group",
+        "Before-and-After Comparison"
+      ],
+      "contrasts_with": [
+        "Improved Version"
+      ]
+    },
+    {
+      "term": "Outcome Coverage",
+      "concept_id": 92,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Alignment Metric",
+        "Content Gap",
+        "Curriculum Map"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Outcome Measure",
+      "concept_id": 300,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Pre-Test",
+        "Post-Test",
+        "Completion Rate",
+        "Time on Task"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Outdated Content",
+      "concept_id": 78,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Currency Metric",
+        "Content Update",
+        "Publication Date"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Overconfident Score",
+      "concept_id": 243,
+      "category": "Checking Agent Output",
+      "related_terms": [
+        "Score Inflation",
+        "Agent Error Type",
+        "Verification Step"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "PDF-Only Distribution",
+      "concept_id": 179,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "Editable Source Metric",
+        "PDF-to-Markdown Conversion"
+      ],
+      "contrasts_with": [
+        "Source Format",
+        "Open File Format"
+      ]
+    },
+    {
+      "term": "PDF-to-Markdown Conversion",
+      "concept_id": 272,
+      "category": "Improving Resources",
+      "related_terms": [
+        "PDF-Only Distribution",
+        "Markdown",
+        "Editable Source Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Peer Review",
+      "concept_id": 340,
+      "category": "Training and Certification",
+      "related_terms": [
+        "Expert Review",
+        "Submission Review",
+        "Local Reviewer Role"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Pilot Test",
+      "concept_id": 321,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "A/B Test",
+        "Sample Size",
+        "Qualitative Feedback"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Plain Language",
+      "concept_id": 104,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Readability Metric",
+        "Jargon",
+        "Reading Level Rewrite"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Platform Lock-In",
+      "concept_id": 197,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "Portability Metric",
+        "Editable Source Metric",
+        "Open File Format"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Portability Metric",
+      "concept_id": 186,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "No-Login Access",
+        "Browser Compatibility",
+        "Platform Lock-In"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Post-Test",
+      "concept_id": 302,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Pre-Test",
+        "Learning Gain",
+        "Outcome Measure"
+      ],
+      "contrasts_with": [
+        "Pre-Test"
+      ]
+    },
+    {
+      "term": "Practice Metric",
+      "concept_id": 133,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Formative Assessment",
+        "Immediate Feedback",
+        "Retrieval Practice"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Practice Problem",
+      "concept_id": 148,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Worked Solution",
+        "Worked Example",
+        "Practice Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Practice Question Generation",
+      "concept_id": 273,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Practice Metric",
+        "Quiz",
+        "Distractor Quality"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Pre-Test",
+      "concept_id": 301,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Post-Test",
+        "Learning Gain",
+        "Prerequisite Knowledge"
+      ],
+      "contrasts_with": [
+        "Post-Test"
+      ]
+    },
+    {
+      "term": "Prerequisite Knowledge",
+      "concept_id": 96,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Audience Fit",
+        "Concept Dependency",
+        "Scope and Sequence"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Preserving Original Meaning",
+      "concept_id": 284,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Reading Level Rewrite",
+        "Human Review of Changes",
+        "Accuracy Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Primary Source",
+      "concept_id": 75,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Secondary Source",
+        "Source Citation",
+        "Citation Quality"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Professional Development",
+      "concept_id": 351,
+      "category": "Training and Certification",
+      "related_terms": [
+        "Teacher Training Workshop",
+        "Certificate",
+        "Local Reviewer Role"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Prompt",
+      "concept_id": 213,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Prompt Template",
+        "System Prompt",
+        "Rubric Prompt"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Prompt Iteration",
+      "concept_id": 227,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Prompt Refinement",
+        "Calibration Against Humans",
+        "Agent Error Rate"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Prompt Refinement",
+      "concept_id": 260,
+      "category": "Checking Agent Output",
+      "related_terms": [
+        "Prompt Iteration",
+        "Calibration Against Humans",
+        "Score Inflation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Prompt Template",
+      "concept_id": 214,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Prompt",
+        "Rubric Prompt",
+        "Batch Evaluation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Proprietary License",
+      "concept_id": 42,
+      "category": "Open Licensing",
+      "related_terms": [
+        "All Rights Reserved",
+        "Commercial Textbook"
+      ],
+      "contrasts_with": [
+        "Open License"
+      ]
+    },
+    {
+      "term": "Public Domain",
+      "concept_id": 5,
+      "category": "OER Foundations",
+      "related_terms": [
+        "CC0 Dedication",
+        "Copyright",
+        "Open Educational Resource"
+      ],
+      "contrasts_with": [
+        "All Rights Reserved"
+      ]
+    },
+    {
+      "term": "Publication Date",
+      "concept_id": 79,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Currency Metric",
+        "Revision History",
+        "Metadata Record"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Publishing OER",
+      "concept_id": 323,
+      "category": "Publishing and Sharing",
+      "related_terms": [
+        "Redistribute Permission",
+        "Static Site Generator",
+        "OER Clearinghouse"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Pull Request",
+      "concept_id": 184,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "Fork",
+        "GitHub Repository",
+        "Community Contribution"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Qualitative Feedback",
+      "concept_id": 318,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Student Survey",
+        "Results Summary",
+        "Pilot Test"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Quality Dimension",
+      "concept_id": 46,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "OER Quality",
+        "Quality Subtotal",
+        "Reusability Dimension"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Quality Rubric",
+      "concept_id": 48,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Ten-Metric Rubric",
+        "Rubric Metric",
+        "Scoring Descriptor"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Quality Subtotal",
+      "concept_id": 56,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Quality Dimension",
+        "Reusability Subtotal",
+        "Total Score"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Quality Versus Reusability",
+      "concept_id": 69,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Quality Dimension",
+        "Reusability Dimension",
+        "Quality Subtotal",
+        "Reusability Subtotal"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Question Bank",
+      "concept_id": 138,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Quiz",
+        "LMS Import",
+        "Reusable Component"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Question Difficulty",
+      "concept_id": 143,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Bloom Cognitive Levels",
+        "Multiple-Choice Question",
+        "Assessment Alignment"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Quiz",
+      "concept_id": 136,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Multiple-Choice Question",
+        "Question Bank",
+        "Practice Question Generation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Random Assignment",
+      "concept_id": 304,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Confounding Variable",
+        "Sampling Bias",
+        "A/B Test"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Re-Scoring",
+      "concept_id": 278,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Score Gain",
+        "Before-and-After Comparison",
+        "Improvement Plan"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Readability Formula",
+      "concept_id": 99,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Flesch-Kincaid Grade Level",
+        "Automated Readability Scan",
+        "Reading Level"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Readability Metric",
+      "concept_id": 97,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Reading Level",
+        "Plain Language",
+        "Audience Fit"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Reading Level",
+      "concept_id": 98,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Readability Formula",
+        "Flesch-Kincaid Grade Level",
+        "Reading Level Rewrite"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Reading Level Rewrite",
+      "concept_id": 268,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Readability Metric",
+        "Flesch-Kincaid Grade Level",
+        "Preserving Original Meaning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Redistribute Permission",
+      "concept_id": 15,
+      "category": "OER Foundations",
+      "related_terms": [
+        "The 5R Permissions",
+        "Publishing OER",
+        "OER Repository"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Release Notes",
+      "concept_id": 328,
+      "category": "Publishing and Sharing",
+      "related_terms": [
+        "Changelog",
+        "Revision History",
+        "Publishing OER"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Remix Permission",
+      "concept_id": 14,
+      "category": "OER Foundations",
+      "related_terms": [
+        "The 5R Permissions",
+        "License Compatibility",
+        "Derivative Work"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Resource Selection",
+      "concept_id": 21,
+      "category": "OER Foundations",
+      "related_terms": [
+        "Quality Rubric",
+        "Adoption Decision",
+        "OER Adoption"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Responsive Layout",
+      "concept_id": 195,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "Portability Metric",
+        "Browser Compatibility",
+        "MicroSim"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Results Summary",
+      "concept_id": 319,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Rubric-Outcome Correlation",
+        "Difference of Means",
+        "Before-and-After Comparison"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Retain Permission",
+      "concept_id": 11,
+      "category": "OER Foundations",
+      "related_terms": [
+        "The 5R Permissions",
+        "Offline Access",
+        "Open Educational Resource"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Retrieval Practice",
+      "concept_id": 144,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Spaced Practice",
+        "Practice Metric",
+        "Self-Check Question"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Reusability Dimension",
+      "concept_id": 47,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Reusability Subtotal",
+        "Quality Versus Reusability",
+        "Quality Dimension"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Reusability Subtotal",
+      "concept_id": 57,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Reusability Dimension",
+        "Quality Subtotal",
+        "Total Score"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Reusable Component",
+      "concept_id": 285,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Standalone Component",
+        "Embeddable Component",
+        "Component Library"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Reuse Permission",
+      "concept_id": 12,
+      "category": "OER Foundations",
+      "related_terms": [
+        "The 5R Permissions",
+        "OER Adoption",
+        "Open License"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Reuse Tracking",
+      "concept_id": 333,
+      "category": "Publishing and Sharing",
+      "related_terms": [
+        "Usage Analytics",
+        "Impact Reporting",
+        "OER Adoption"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Review Checklist",
+      "concept_id": 62,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Quality Rubric",
+        "Rubric Worksheet",
+        "Manual Evaluation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Review Report",
+      "concept_id": 63,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Agent Evaluation Report",
+        "Rubric Worksheet",
+        "Adoption Recommendation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Review Workflow",
+      "concept_id": 207,
+      "category": "Manual Evaluation",
+      "related_terms": [
+        "Manual Evaluation",
+        "Agent Workflow",
+        "Human in the Loop"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Reviewer",
+      "concept_id": 64,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Manual Evaluation",
+        "Human in the Loop",
+        "Local Reviewer Role"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Reviewer Bias",
+      "concept_id": 65,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Calibration Session",
+        "Rubric Reliability",
+        "Inter-Rater Agreement"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Reviewer Notes",
+      "concept_id": 200,
+      "category": "Manual Evaluation",
+      "related_terms": [
+        "Evidence Recording",
+        "Rubric Worksheet",
+        "Score Reconciliation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Reviewer Training",
+      "concept_id": 208,
+      "category": "Manual Evaluation",
+      "related_terms": [
+        "Calibration Session",
+        "Teacher Training Workshop",
+        "Professional Development"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Revise Permission",
+      "concept_id": 13,
+      "category": "OER Foundations",
+      "related_terms": [
+        "The 5R Permissions",
+        "OER Adaptation",
+        "NoDerivatives Requirement"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Revision History",
+      "concept_id": 80,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Changelog",
+        "Version Control",
+        "Currency Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Role Prompting",
+      "concept_id": 226,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "System Prompt",
+        "Prompt",
+        "Score Inflation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Rubric Metric",
+      "concept_id": 50,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Ten-Metric Rubric",
+        "Metric Score",
+        "Scoring Descriptor"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Rubric Prompt",
+      "concept_id": 221,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Prompt Template",
+        "Agent Scoring",
+        "Scoring Descriptor"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Rubric Reliability",
+      "concept_id": 66,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Inter-Rater Agreement",
+        "Cohen's Kappa",
+        "Rubric Validity"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Rubric Validity",
+      "concept_id": 67,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Rubric-Outcome Correlation",
+        "Rubric Reliability",
+        "A/B Test"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Rubric Worksheet",
+      "concept_id": 61,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Manual Evaluation",
+        "Evidence Recording",
+        "Review Report"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Rubric-Outcome Correlation",
+      "concept_id": 320,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Rubric Validity",
+        "Score Correlation",
+        "A/B Test",
+        "Calibration Against Humans"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Run-to-Run Variance",
+      "concept_id": 261,
+      "category": "Checking Agent Output",
+      "related_terms": [
+        "Rubric Reliability",
+        "Agent Scoring",
+        "Tool Use"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Sample Size",
+      "concept_id": 305,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Pilot Test",
+        "Effect Size",
+        "A/B Test"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Sampling Bias",
+      "concept_id": 307,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Random Assignment",
+        "Confounding Variable",
+        "Equity Consideration"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Schema.org Markup",
+      "concept_id": 170,
+      "category": "Modularity and Metadata",
+      "related_terms": [
+        "LRMI",
+        "Machine-Readable Metadata",
+        "Metadata Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Scope and Sequence",
+      "concept_id": 95,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Prerequisite Knowledge",
+        "Learning Graph",
+        "Concept Dependency"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Score Band",
+      "concept_id": 59,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Total Score",
+        "Adoption Threshold",
+        "Adopt Revise or Reject"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Score Correlation",
+      "concept_id": 258,
+      "category": "Checking Agent Output",
+      "related_terms": [
+        "Rubric-Outcome Correlation",
+        "Calibration Against Humans",
+        "Mean Absolute Difference"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Score Difference Threshold",
+      "concept_id": 255,
+      "category": "Checking Agent Output",
+      "related_terms": [
+        "Score Reconciliation",
+        "Agent Disagreement",
+        "Mean Absolute Difference"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Score Gain",
+      "concept_id": 279,
+      "category": "Improving Resources",
+      "related_terms": [
+        "Re-Scoring",
+        "Before-and-After Comparison",
+        "Capstone Project"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Score Inflation",
+      "concept_id": 244,
+      "category": "Checking Agent Output",
+      "related_terms": [
+        "Overconfident Score",
+        "Calibration Against Humans",
+        "Role Prompting"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Score Reconciliation",
+      "concept_id": 203,
+      "category": "Manual Evaluation",
+      "related_terms": [
+        "Consensus Scoring",
+        "Score Difference Threshold",
+        "Agent Disagreement"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Score Scale",
+      "concept_id": 52,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Metric Score",
+        "Scoring Descriptor",
+        "Total Score"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Scoring Descriptor",
+      "concept_id": 53,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Quality Rubric",
+        "Score Scale",
+        "Inter-Rater Agreement"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Screen Reader",
+      "concept_id": 125,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Alt Text",
+        "Heading Structure",
+        "ARIA Labels"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Second-Agent Cross-Check",
+      "concept_id": 249,
+      "category": "Checking Agent Output",
+      "related_terms": [
+        "Multi-Agent Review",
+        "Agent Disagreement",
+        "Verification Step"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Secondary Source",
+      "concept_id": 76,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Primary Source",
+        "Source Citation",
+        "Citation Quality"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Self-Check Question",
+      "concept_id": 135,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Formative Assessment",
+        "Immediate Feedback",
+        "Practice Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "ShareAlike Requirement",
+      "concept_id": 33,
+      "category": "Open Licensing",
+      "related_terms": [
+        "CC BY-SA",
+        "CC BY-NC-SA",
+        "License Compatibility"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Source Citation",
+      "concept_id": 74,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Citation Quality",
+        "Primary Source",
+        "Invented Citation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Source Format",
+      "concept_id": 174,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "Editable Source Metric",
+        "Open File Format",
+        "Export Format"
+      ],
+      "contrasts_with": [
+        "PDF-Only Distribution"
+      ]
+    },
+    {
+      "term": "Source Verification",
+      "concept_id": 248,
+      "category": "Checking Agent Output",
+      "related_terms": [
+        "Invented Citation",
+        "Evidence Citation",
+        "Fact Checking"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Spaced Practice",
+      "concept_id": 145,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Retrieval Practice",
+        "Practice Metric",
+        "Scope and Sequence"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Spot Check",
+      "concept_id": 247,
+      "category": "Checking Agent Output",
+      "related_terms": [
+        "Verification Step",
+        "Source Verification",
+        "Human Review of Changes"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Standalone Component",
+      "concept_id": 154,
+      "category": "Modularity and Metadata",
+      "related_terms": [
+        "Modular Content",
+        "Embeddable Component",
+        "Reusable Component"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Standards Alignment",
+      "concept_id": 88,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Alignment Metric",
+        "Curriculum Map",
+        "Metadata Record"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Static Site Generator",
+      "concept_id": 324,
+      "category": "Publishing and Sharing",
+      "related_terms": [
+        "MkDocs",
+        "GitHub Pages",
+        "Markdown"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Structured Output",
+      "concept_id": 219,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "JSON Output",
+        "Agent Evaluation Report",
+        "Rubric Prompt"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Student Data Privacy",
+      "concept_id": 238,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "FERPA",
+        "Student Privacy in Testing",
+        "Anonymized Data"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Student Privacy in Testing",
+      "concept_id": 309,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Student Data Privacy",
+        "FERPA",
+        "Anonymized Data"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Student Survey",
+      "concept_id": 315,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Qualitative Feedback",
+        "Outcome Measure",
+        "Exit Survey"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Subject Field",
+      "concept_id": 163,
+      "category": "Modularity and Metadata",
+      "related_terms": [
+        "Metadata Record",
+        "Keywords",
+        "Controlled Vocabulary"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Submission Review",
+      "concept_id": 344,
+      "category": "Training and Certification",
+      "related_terms": [
+        "Certificate Submission",
+        "Certificate Requirements",
+        "Peer Review"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "System Prompt",
+      "concept_id": 215,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Prompt",
+        "Role Prompting",
+        "Rubric Prompt"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Table Accessibility",
+      "concept_id": 127,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Screen Reader",
+        "Accessibility Metric",
+        "HTML"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "TASL Attribution Format",
+      "concept_id": 39,
+      "category": "Open Licensing",
+      "related_terms": [
+        "Attribution Statement",
+        "Attribution Requirement",
+        "License Statement"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Teacher Training Workshop",
+      "concept_id": 336,
+      "category": "Training and Certification",
+      "related_terms": [
+        "Workshop Agenda",
+        "Facilitator Guide",
+        "Professional Development"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Ten-Metric Rubric",
+      "concept_id": 49,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Quality Dimension",
+        "Reusability Dimension",
+        "Total Score"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Test Hypothesis",
+      "concept_id": 299,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "A/B Test",
+        "Outcome Measure",
+        "Learning Gain"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Text Structure",
+      "concept_id": 106,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Headings and Subheadings",
+        "Readability Metric",
+        "Heading Structure"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "The 5R Permissions",
+      "concept_id": 10,
+      "category": "OER Foundations",
+      "related_terms": [
+        "Retain Permission",
+        "Reuse Permission",
+        "Revise Permission",
+        "Remix Permission",
+        "Redistribute Permission"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Third-Party Content",
+      "concept_id": 40,
+      "category": "Open Licensing",
+      "related_terms": [
+        "Fair Use",
+        "License Clarity",
+        "Open License Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Time on Task",
+      "concept_id": 317,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Completion Rate",
+        "Outcome Measure",
+        "Interactive Simulation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Title Field",
+      "concept_id": 161,
+      "category": "Modularity and Metadata",
+      "related_terms": [
+        "Metadata Record",
+        "TASL Attribution Format",
+        "Dublin Core"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Token",
+      "concept_id": 217,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "Context Window",
+        "AI Cost",
+        "Large Language Model"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Tool Use",
+      "concept_id": 228,
+      "category": "AI Agents and Prompts",
+      "related_terms": [
+        "AI Agent",
+        "Automated Link Checker",
+        "Automated Readability Scan"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Total Score",
+      "concept_id": 58,
+      "category": "Rubric and Scoring",
+      "related_terms": [
+        "Quality Subtotal",
+        "Reusability Subtotal",
+        "Score Band"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Train-the-Trainer",
+      "concept_id": 348,
+      "category": "Training and Certification",
+      "related_terms": [
+        "Training Kit",
+        "Facilitator Guide",
+        "Teacher Training Workshop"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Training Evaluation",
+      "concept_id": 346,
+      "category": "Training and Certification",
+      "related_terms": [
+        "Exit Survey",
+        "Teacher Training Workshop",
+        "Calibration Against Humans"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Training Kit",
+      "concept_id": 349,
+      "category": "Training and Certification",
+      "related_terms": [
+        "Train-the-Trainer",
+        "Facilitator Guide",
+        "Workshop Agenda"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Transcript",
+      "concept_id": 122,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Captions",
+        "Audio Description",
+        "Accessibility Metric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Treatment Group",
+      "concept_id": 296,
+      "category": "A/B Testing with Students",
+      "related_terms": [
+        "Control Group",
+        "Improved Version",
+        "A/B Test"
+      ],
+      "contrasts_with": [
+        "Control Group"
+      ]
+    },
+    {
+      "term": "Universal Design for Learning",
+      "concept_id": 130,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Accessibility",
+        "Accessibility Metric",
+        "MicroSim"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Usage Analytics",
+      "concept_id": 334,
+      "category": "Publishing and Sharing",
+      "related_terms": [
+        "Reuse Tracking",
+        "Impact Reporting",
+        "Student Data Privacy"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Verification Step",
+      "concept_id": 246,
+      "category": "Checking Agent Output",
+      "related_terms": [
+        "Spot Check",
+        "Source Verification",
+        "Human in the Loop"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Version Control",
+      "concept_id": 180,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "Git",
+        "GitHub Repository",
+        "Revision History"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Vocabulary Level",
+      "concept_id": 101,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Plain Language",
+        "Jargon",
+        "Defined Terms"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "WCAG",
+      "concept_id": 112,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "WCAG 2.1 AA",
+        "Accessibility Metric",
+        "Accessibility Checker"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "WCAG 2.1 AA",
+      "concept_id": 113,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "WCAG",
+        "Accessibility Metric",
+        "Contrast Ratio"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Word Processing File",
+      "concept_id": 178,
+      "category": "Editable Source and Portability",
+      "related_terms": [
+        "Source Format",
+        "Editable Source Metric",
+        "PDF-Only Distribution"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Worked Example",
+      "concept_id": 109,
+      "category": "Content Quality Metrics",
+      "related_terms": [
+        "Readability Metric",
+        "Practice Problem",
+        "Worked Solution"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Worked Solution",
+      "concept_id": 149,
+      "category": "Accessibility and Practice Metrics",
+      "related_terms": [
+        "Answer Key",
+        "Practice Problem",
+        "Worked Example"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Workshop Agenda",
+      "concept_id": 337,
+      "category": "Training and Certification",
+      "related_terms": [
+        "Teacher Training Workshop",
+        "Facilitator Guide",
+        "Calibration Exercise"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Zero Textbook Cost Course",
+      "concept_id": 9,
+      "category": "OER Foundations",
+      "related_terms": [
+        "Course Material Affordability",
+        "OER Adoption",
+        "Open Educational Resource"
+      ],
+      "contrasts_with": []
+    }
+  ]
+}
