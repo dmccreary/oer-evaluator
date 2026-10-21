@@ -1,0 +1,16 @@
+{
+  "OERF": "OER Foundations",
+  "LIC": "Open Licensing",
+  "RUB": "Rubric and Scoring",
+  "CQM": "Content Quality Metrics",
+  "APM": "Accessibility and Practice Metrics",
+  "MDM": "Modularity and Metadata",
+  "SRP": "Editable Source and Portability",
+  "MANU": "Manual Evaluation",
+  "AIA": "AI Agents and Prompts",
+  "CHK": "Checking Agent Output",
+  "IMP": "Improving Resources",
+  "ABT": "A/B Testing with Students",
+  "PUB": "Publishing and Sharing",
+  "TRN": "Training and Certification"
+}

@@ -1,0 +1,4572 @@
+{
+  "metadata": {
+    "title": "OER Evaluator",
+    "description": "Objective steps for evaluating and improving open educational resources (OER) on quality and reusability, using AI agents for automated assessment and student A/B tests to validate the results.",
+    "creator": "Dan McCreary",
+    "date": "2026-10-20",
+    "version": "1.0",
+    "format": "Learning Graph JSON v1.0",
+    "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+    "license": "CC BY-NC-SA 4.0 DEED"
+  },
+  "groups": {
+    "OERF": {
+      "classifierName": "OER Foundations",
+      "color": "SteelBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "LIC": {
+      "classifierName": "Open Licensing",
+      "color": "DarkSlateBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "RUB": {
+      "classifierName": "Rubric and Scoring",
+      "color": "DarkGreen",
+      "font": {
+        "color": "white"
+      }
+    },
+    "CQM": {
+      "classifierName": "Content Quality Metrics",
+      "color": "LimeGreen",
+      "font": {
+        "color": "black"
+      }
+    },
+    "APM": {
+      "classifierName": "Accessibility and Practice Metrics",
+      "color": "Gold",
+      "font": {
+        "color": "black"
+      }
+    },
+    "MDM": {
+      "classifierName": "Modularity and Metadata",
+      "color": "DarkGoldenrod",
+      "font": {
+        "color": "white"
+      }
+    },
+    "SRP": {
+      "classifierName": "Editable Source and Portability",
+      "color": "Khaki",
+      "font": {
+        "color": "black"
+      }
+    },
+    "MANU": {
+      "classifierName": "Manual Evaluation",
+      "color": "Teal",
+      "font": {
+        "color": "white"
+      }
+    },
+    "AIA": {
+      "classifierName": "AI Agents and Prompts",
+      "color": "DodgerBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "CHK": {
+      "classifierName": "Checking Agent Output",
+      "color": "LightSkyBlue",
+      "font": {
+        "color": "black"
+      }
+    },
+    "IMP": {
+      "classifierName": "Improving Resources",
+      "color": "Crimson",
+      "font": {
+        "color": "white"
+      }
+    },
+    "ABT": {
+      "classifierName": "A/B Testing with Students",
+      "color": "DarkRed",
+      "font": {
+        "color": "white"
+      }
+    },
+    "PUB": {
+      "classifierName": "Publishing and Sharing",
+      "color": "MediumPurple",
+      "font": {
+        "color": "white"
+      }
+    },
+    "TRN": {
+      "classifierName": "Training and Certification",
+      "color": "Indigo",
+      "font": {
+        "color": "white"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Educational Resource",
+      "group": "OERF",
+      "shape": "box",
+      "cis": 10324
+    },
+    {
+      "id": 2,
+      "label": "Open Educational Resource",
+      "group": "OERF",
+      "cis": 10300
+    },
+    {
+      "id": 3,
+      "label": "Open Textbook",
+      "group": "OERF",
+      "cis": 1
+    },
+    {
+      "id": 4,
+      "label": "Copyright",
+      "group": "OERF",
+      "shape": "box",
+      "cis": 2873
+    },
+    {
+      "id": 5,
+      "label": "Public Domain",
+      "group": "OERF",
+      "cis": 2
+    },
+    {
+      "id": 6,
+      "label": "Free Resource",
+      "group": "OERF",
+      "cis": 1
+    },
+    {
+      "id": 7,
+      "label": "Commercial Textbook",
+      "group": "OERF",
+      "cis": 21
+    },
+    {
+      "id": 8,
+      "label": "Course Material Affordability",
+      "group": "OERF",
+      "cis": 20
+    },
+    {
+      "id": 9,
+      "label": "Zero Textbook Cost Course",
+      "group": "OERF",
+      "cis": 1
+    },
+    {
+      "id": 10,
+      "label": "The 5R Permissions",
+      "group": "OERF",
+      "cis": 2549
+    },
+    {
+      "id": 11,
+      "label": "Retain Permission",
+      "group": "OERF",
+      "cis": 1
+    },
+    {
+      "id": 12,
+      "label": "Reuse Permission",
+      "group": "OERF",
+      "cis": 1
+    },
+    {
+      "id": 13,
+      "label": "Revise Permission",
+      "group": "OERF",
+      "cis": 19
+    },
+    {
+      "id": 14,
+      "label": "Remix Permission",
+      "group": "OERF",
+      "cis": 2
+    },
+    {
+      "id": 15,
+      "label": "Redistribute Permission",
+      "group": "OERF",
+      "cis": 14
+    },
+    {
+      "id": 16,
+      "label": "OER Adoption",
+      "group": "OERF",
+      "cis": 17
+    },
+    {
+      "id": 17,
+      "label": "OER Adaptation",
+      "group": "OERF",
+      "cis": 8
+    },
+    {
+      "id": 18,
+      "label": "OER Creation",
+      "group": "OERF",
+      "cis": 1
+    },
+    {
+      "id": 19,
+      "label": "OER Repository",
+      "group": "OERF",
+      "cis": 13
+    },
+    {
+      "id": 20,
+      "label": "Open Pedagogy",
+      "group": "OERF",
+      "cis": 1
+    },
+    {
+      "id": 21,
+      "label": "Resource Selection",
+      "group": "OERF",
+      "cis": 1
+    },
+    {
+      "id": 22,
+      "label": "Open License",
+      "group": "LIC",
+      "cis": 295
+    },
+    {
+      "id": 23,
+      "label": "License Statement",
+      "group": "LIC",
+      "cis": 189
+    },
+    {
+      "id": 24,
+      "label": "Creative Commons",
+      "group": "LIC",
+      "cis": 65
+    },
+    {
+      "id": 25,
+      "label": "CC BY",
+      "group": "LIC",
+      "cis": 18
+    },
+    {
+      "id": 26,
+      "label": "CC BY-SA",
+      "group": "LIC",
+      "cis": 5
+    },
+    {
+      "id": 27,
+      "label": "CC BY-NC",
+      "group": "LIC",
+      "cis": 7
+    },
+    {
+      "id": 28,
+      "label": "CC BY-NC-SA",
+      "group": "LIC",
+      "cis": 4
+    },
+    {
+      "id": 29,
+      "label": "CC BY-ND",
+      "group": "LIC",
+      "cis": 4
+    },
+    {
+      "id": 30,
+      "label": "CC BY-NC-ND",
+      "group": "LIC",
+      "cis": 1
+    },
+    {
+      "id": 31,
+      "label": "CC0 Dedication",
+      "group": "LIC",
+      "cis": 1
+    },
+    {
+      "id": 32,
+      "label": "Attribution Requirement",
+      "group": "LIC",
+      "cis": 21
+    },
+    {
+      "id": 33,
+      "label": "ShareAlike Requirement",
+      "group": "LIC",
+      "cis": 10
+    },
+    {
+      "id": 34,
+      "label": "NonCommercial Requirement",
+      "group": "LIC",
+      "cis": 8
+    },
+    {
+      "id": 35,
+      "label": "NoDerivatives Requirement",
+      "group": "LIC",
+      "cis": 6
+    },
+    {
+      "id": 36,
+      "label": "License Compatibility",
+      "group": "LIC",
+      "cis": 3
+    },
+    {
+      "id": 37,
+      "label": "License Conflict",
+      "group": "LIC",
+      "cis": 1
+    },
+    {
+      "id": 38,
+      "label": "Attribution Statement",
+      "group": "LIC",
+      "cis": 2
+    },
+    {
+      "id": 39,
+      "label": "TASL Attribution Format",
+      "group": "LIC",
+      "cis": 1
+    },
+    {
+      "id": 40,
+      "label": "Third-Party Content",
+      "group": "LIC",
+      "cis": 1
+    },
+    {
+      "id": 41,
+      "label": "Fair Use",
+      "group": "LIC",
+      "cis": 1
+    },
+    {
+      "id": 42,
+      "label": "Proprietary License",
+      "group": "LIC",
+      "cis": 2
+    },
+    {
+      "id": 43,
+      "label": "All Rights Reserved",
+      "group": "LIC",
+      "cis": 1
+    },
+    {
+      "id": 44,
+      "label": "License Selection",
+      "group": "LIC",
+      "cis": 1
+    },
+    {
+      "id": 45,
+      "label": "OER Quality",
+      "group": "RUB",
+      "cis": 7421
+    },
+    {
+      "id": 46,
+      "label": "Quality Dimension",
+      "group": "RUB",
+      "cis": 2607
+    },
+    {
+      "id": 47,
+      "label": "Reusability Dimension",
+      "group": "RUB",
+      "cis": 2510
+    },
+    {
+      "id": 48,
+      "label": "Quality Rubric",
+      "group": "RUB",
+      "cis": 2303
+    },
+    {
+      "id": 49,
+      "label": "Ten-Metric Rubric",
+      "group": "RUB",
+      "cis": 2053
+    },
+    {
+      "id": 50,
+      "label": "Rubric Metric",
+      "group": "RUB",
+      "cis": 1259
+    },
+    {
+      "id": 51,
+      "label": "Metric Score",
+      "group": "RUB",
+      "cis": 801
+    },
+    {
+      "id": 52,
+      "label": "Score Scale",
+      "group": "RUB",
+      "cis": 4
+    },
+    {
+      "id": 53,
+      "label": "Scoring Descriptor",
+      "group": "RUB",
+      "cis": 3
+    },
+    {
+      "id": 54,
+      "label": "Evidence for a Score",
+      "group": "RUB",
+      "cis": 209
+    },
+    {
+      "id": 55,
+      "label": "Evidence Citation",
+      "group": "RUB",
+      "cis": 7
+    },
+    {
+      "id": 56,
+      "label": "Quality Subtotal",
+      "group": "RUB",
+      "cis": 275
+    },
+    {
+      "id": 57,
+      "label": "Reusability Subtotal",
+      "group": "RUB",
+      "cis": 275
+    },
+    {
+      "id": 58,
+      "label": "Total Score",
+      "group": "RUB",
+      "cis": 273
+    },
+    {
+      "id": 59,
+      "label": "Score Band",
+      "group": "RUB",
+      "cis": 5
+    },
+    {
+      "id": 60,
+      "label": "Adoption Threshold",
+      "group": "RUB",
+      "cis": 4
+    },
+    {
+      "id": 61,
+      "label": "Rubric Worksheet",
+      "group": "RUB",
+      "cis": 199
+    },
+    {
+      "id": 62,
+      "label": "Review Checklist",
+      "group": "RUB",
+      "cis": 2
+    },
+    {
+      "id": 63,
+      "label": "Review Report",
+      "group": "RUB",
+      "cis": 4
+    },
+    {
+      "id": 64,
+      "label": "Reviewer",
+      "group": "RUB",
+      "cis": 246
+    },
+    {
+      "id": 65,
+      "label": "Reviewer Bias",
+      "group": "RUB",
+      "cis": 3
+    },
+    {
+      "id": 66,
+      "label": "Rubric Reliability",
+      "group": "RUB",
+      "cis": 2
+    },
+    {
+      "id": 67,
+      "label": "Rubric Validity",
+      "group": "RUB",
+      "cis": 1
+    },
+    {
+      "id": 68,
+      "label": "Inter-Rater Agreement",
+      "group": "RUB",
+      "cis": 37
+    },
+    {
+      "id": 69,
+      "label": "Quality Versus Reusability",
+      "group": "RUB",
+      "cis": 1
+    },
+    {
+      "id": 70,
+      "label": "Accuracy Metric",
+      "group": "CQM",
+      "cis": 198
+    },
+    {
+      "id": 71,
+      "label": "Currency Metric",
+      "group": "CQM",
+      "cis": 11
+    },
+    {
+      "id": 72,
+      "label": "Factual Error",
+      "group": "CQM",
+      "cis": 6
+    },
+    {
+      "id": 73,
+      "label": "Fact Checking",
+      "group": "CQM",
+      "cis": 3
+    },
+    {
+      "id": 74,
+      "label": "Source Citation",
+      "group": "CQM",
+      "cis": 191
+    },
+    {
+      "id": 75,
+      "label": "Primary Source",
+      "group": "CQM",
+      "cis": 3
+    },
+    {
+      "id": 76,
+      "label": "Secondary Source",
+      "group": "CQM",
+      "cis": 2
+    },
+    {
+      "id": 77,
+      "label": "Citation Quality",
+      "group": "CQM",
+      "cis": 1
+    },
+    {
+      "id": 78,
+      "label": "Outdated Content",
+      "group": "CQM",
+      "cis": 8
+    },
+    {
+      "id": 79,
+      "label": "Publication Date",
+      "group": "CQM",
+      "cis": 2
+    },
+    {
+      "id": 80,
+      "label": "Revision History",
+      "group": "CQM",
+      "cis": 1
+    },
+    {
+      "id": 81,
+      "label": "Link Rot",
+      "group": "CQM",
+      "cis": 4
+    },
+    {
+      "id": 82,
+      "label": "Broken Link Check",
+      "group": "CQM",
+      "cis": 3
+    },
+    {
+      "id": 83,
+      "label": "Expert Review",
+      "group": "CQM",
+      "cis": 2
+    },
+    {
+      "id": 84,
+      "label": "Alignment Metric",
+      "group": "CQM",
+      "cis": 16
+    },
+    {
+      "id": 85,
+      "label": "Learning Outcome",
+      "group": "CQM",
+      "shape": "box",
+      "cis": 83
+    },
+    {
+      "id": 86,
+      "label": "Learning Objective",
+      "group": "CQM",
+      "cis": 26
+    },
+    {
+      "id": 87,
+      "label": "Measurable Verb",
+      "group": "CQM",
+      "cis": 3
+    },
+    {
+      "id": 88,
+      "label": "Standards Alignment",
+      "group": "CQM",
+      "cis": 15
+    },
+    {
+      "id": 89,
+      "label": "Curriculum Map",
+      "group": "CQM",
+      "cis": 14
+    },
+    {
+      "id": 90,
+      "label": "Bloom's Taxonomy",
+      "group": "CQM",
+      "cis": 3
+    },
+    {
+      "id": 91,
+      "label": "Bloom Cognitive Levels",
+      "group": "CQM",
+      "cis": 2
+    },
+    {
+      "id": 92,
+      "label": "Outcome Coverage",
+      "group": "CQM",
+      "cis": 3
+    },
+    {
+      "id": 93,
+      "label": "Assessment Alignment",
+      "group": "CQM",
+      "cis": 1
+    },
+    {
+      "id": 94,
+      "label": "Content Gap",
+      "group": "CQM",
+      "cis": 1
+    },
+    {
+      "id": 95,
+      "label": "Scope and Sequence",
+      "group": "CQM",
+      "cis": 10
+    },
+    {
+      "id": 96,
+      "label": "Prerequisite Knowledge",
+      "group": "CQM",
+      "cis": 9
+    },
+    {
+      "id": 97,
+      "label": "Readability Metric",
+      "group": "CQM",
+      "cis": 23
+    },
+    {
+      "id": 98,
+      "label": "Reading Level",
+      "group": "CQM",
+      "cis": 16
+    },
+    {
+      "id": 99,
+      "label": "Readability Formula",
+      "group": "CQM",
+      "cis": 3
+    },
+    {
+      "id": 100,
+      "label": "Flesch-Kincaid Grade Level",
+      "group": "CQM",
+      "cis": 1
+    },
+    {
+      "id": 101,
+      "label": "Vocabulary Level",
+      "group": "CQM",
+      "cis": 7
+    },
+    {
+      "id": 102,
+      "label": "Defined Terms",
+      "group": "CQM",
+      "cis": 4
+    },
+    {
+      "id": 103,
+      "label": "Glossary",
+      "group": "CQM",
+      "cis": 3
+    },
+    {
+      "id": 104,
+      "label": "Plain Language",
+      "group": "CQM",
+      "cis": 1
+    },
+    {
+      "id": 105,
+      "label": "Jargon",
+      "group": "CQM",
+      "cis": 1
+    },
+    {
+      "id": 106,
+      "label": "Text Structure",
+      "group": "CQM",
+      "cis": 6
+    },
+    {
+      "id": 107,
+      "label": "Headings and Subheadings",
+      "group": "CQM",
+      "cis": 3
+    },
+    {
+      "id": 108,
+      "label": "Audience Fit",
+      "group": "CQM",
+      "cis": 3
+    },
+    {
+      "id": 109,
+      "label": "Worked Example",
+      "group": "CQM",
+      "cis": 2
+    },
+    {
+      "id": 110,
+      "label": "Accessibility Metric",
+      "group": "APM",
+      "cis": 1
+    },
+    {
+      "id": 111,
+      "label": "Accessibility",
+      "group": "APM",
+      "shape": "box",
+      "cis": 33
+    },
+    {
+      "id": 112,
+      "label": "WCAG",
+      "group": "APM",
+      "cis": 21
+    },
+    {
+      "id": 113,
+      "label": "WCAG 2.1 AA",
+      "group": "APM",
+      "cis": 20
+    },
+    {
+      "id": 114,
+      "label": "Alt Text",
+      "group": "APM",
+      "cis": 4
+    },
+    {
+      "id": 115,
+      "label": "Decorative Image",
+      "group": "APM",
+      "cis": 1
+    },
+    {
+      "id": 116,
+      "label": "Complex Image Description",
+      "group": "APM",
+      "cis": 1
+    },
+    {
+      "id": 117,
+      "label": "Heading Structure",
+      "group": "APM",
+      "cis": 2
+    },
+    {
+      "id": 118,
+      "label": "Color Contrast",
+      "group": "APM",
+      "cis": 3
+    },
+    {
+      "id": 119,
+      "label": "Contrast Ratio",
+      "group": "APM",
+      "cis": 1
+    },
+    {
+      "id": 120,
+      "label": "Color Independence",
+      "group": "APM",
+      "cis": 1
+    },
+    {
+      "id": 121,
+      "label": "Captions",
+      "group": "APM",
+      "cis": 4
+    },
+    {
+      "id": 122,
+      "label": "Transcript",
+      "group": "APM",
+      "cis": 1
+    },
+    {
+      "id": 123,
+      "label": "Audio Description",
+      "group": "APM",
+      "cis": 1
+    },
+    {
+      "id": 124,
+      "label": "Keyboard Navigation",
+      "group": "APM",
+      "cis": 1
+    },
+    {
+      "id": 125,
+      "label": "Screen Reader",
+      "group": "APM",
+      "cis": 8
+    },
+    {
+      "id": 126,
+      "label": "Link Text",
+      "group": "APM",
+      "cis": 1
+    },
+    {
+      "id": 127,
+      "label": "Table Accessibility",
+      "group": "APM",
+      "cis": 1
+    },
+    {
+      "id": 128,
+      "label": "Document Language",
+      "group": "APM",
+      "cis": 1
+    },
+    {
+      "id": 129,
+      "label": "Accessible Math",
+      "group": "APM",
+      "cis": 1
+    },
+    {
+      "id": 130,
+      "label": "Universal Design for Learning",
+      "group": "APM",
+      "cis": 2
+    },
+    {
+      "id": 131,
+      "label": "Accessibility Checker",
+      "group": "APM",
+      "cis": 2
+    },
+    {
+      "id": 132,
+      "label": "ARIA Labels",
+      "group": "APM",
+      "cis": 1
+    },
+    {
+      "id": 133,
+      "label": "Practice Metric",
+      "group": "APM",
+      "cis": 28
+    },
+    {
+      "id": 134,
+      "label": "Formative Assessment",
+      "group": "APM",
+      "cis": 21
+    },
+    {
+      "id": 135,
+      "label": "Self-Check Question",
+      "group": "APM",
+      "cis": 4
+    },
+    {
+      "id": 136,
+      "label": "Quiz",
+      "group": "APM",
+      "cis": 16
+    },
+    {
+      "id": 137,
+      "label": "Multiple-Choice Question",
+      "group": "APM",
+      "cis": 9
+    },
+    {
+      "id": 138,
+      "label": "Question Bank",
+      "group": "APM",
+      "cis": 1
+    },
+    {
+      "id": 139,
+      "label": "Answer Key",
+      "group": "APM",
+      "cis": 4
+    },
+    {
+      "id": 140,
+      "label": "Feedback Message",
+      "group": "APM",
+      "cis": 3
+    },
+    {
+      "id": 141,
+      "label": "Immediate Feedback",
+      "group": "APM",
+      "cis": 2
+    },
+    {
+      "id": 142,
+      "label": "Distractor Quality",
+      "group": "APM",
+      "cis": 1
+    },
+    {
+      "id": 143,
+      "label": "Question Difficulty",
+      "group": "APM",
+      "cis": 1
+    },
+    {
+      "id": 144,
+      "label": "Retrieval Practice",
+      "group": "APM",
+      "cis": 2
+    },
+    {
+      "id": 145,
+      "label": "Spaced Practice",
+      "group": "APM",
+      "cis": 1
+    },
+    {
+      "id": 146,
+      "label": "Interactive Simulation",
+      "group": "APM",
+      "cis": 4
+    },
+    {
+      "id": 147,
+      "label": "MicroSim",
+      "group": "APM",
+      "cis": 3
+    },
+    {
+      "id": 148,
+      "label": "Practice Problem",
+      "group": "APM",
+      "cis": 2
+    },
+    {
+      "id": 149,
+      "label": "Worked Solution",
+      "group": "APM",
+      "cis": 1
+    },
+    {
+      "id": 150,
+      "label": "Open License Metric",
+      "group": "MDM",
+      "cis": 2
+    },
+    {
+      "id": 151,
+      "label": "License Clarity",
+      "group": "MDM",
+      "cis": 1
+    },
+    {
+      "id": 152,
+      "label": "Modularity Metric",
+      "group": "MDM",
+      "cis": 21
+    },
+    {
+      "id": 153,
+      "label": "Modular Content",
+      "group": "MDM",
+      "cis": 20
+    },
+    {
+      "id": 154,
+      "label": "Standalone Component",
+      "group": "MDM",
+      "cis": 15
+    },
+    {
+      "id": 155,
+      "label": "Component Granularity",
+      "group": "MDM",
+      "cis": 1
+    },
+    {
+      "id": 156,
+      "label": "Cross-Reference Dependence",
+      "group": "MDM",
+      "cis": 1
+    },
+    {
+      "id": 157,
+      "label": "Embeddable Component",
+      "group": "MDM",
+      "cis": 8
+    },
+    {
+      "id": 158,
+      "label": "Metadata Metric",
+      "group": "MDM",
+      "cis": 98
+    },
+    {
+      "id": 159,
+      "label": "Metadata Record",
+      "group": "MDM",
+      "cis": 97
+    },
+    {
+      "id": 160,
+      "label": "Dublin Core",
+      "group": "MDM",
+      "cis": 92
+    },
+    {
+      "id": 161,
+      "label": "Title Field",
+      "group": "MDM",
+      "cis": 14
+    },
+    {
+      "id": 162,
+      "label": "Author Field",
+      "group": "MDM",
+      "cis": 14
+    },
+    {
+      "id": 163,
+      "label": "Subject Field",
+      "group": "MDM",
+      "cis": 17
+    },
+    {
+      "id": 164,
+      "label": "Grade Level Field",
+      "group": "MDM",
+      "cis": 15
+    },
+    {
+      "id": 165,
+      "label": "License Field",
+      "group": "MDM",
+      "cis": 15
+    },
+    {
+      "id": 166,
+      "label": "Description Field",
+      "group": "MDM",
+      "cis": 14
+    },
+    {
+      "id": 167,
+      "label": "Keywords",
+      "group": "MDM",
+      "cis": 3
+    },
+    {
+      "id": 168,
+      "label": "Controlled Vocabulary",
+      "group": "MDM",
+      "cis": 1
+    },
+    {
+      "id": 169,
+      "label": "LRMI",
+      "group": "MDM",
+      "cis": 1
+    },
+    {
+      "id": 170,
+      "label": "Schema.org Markup",
+      "group": "MDM",
+      "cis": 3
+    },
+    {
+      "id": 171,
+      "label": "Machine-Readable Metadata",
+      "group": "MDM",
+      "cis": 2
+    },
+    {
+      "id": 172,
+      "label": "Metadata Completeness",
+      "group": "MDM",
+      "cis": 13
+    },
+    {
+      "id": 173,
+      "label": "Editable Source Metric",
+      "group": "SRP",
+      "cis": 44
+    },
+    {
+      "id": 174,
+      "label": "Source Format",
+      "group": "SRP",
+      "cis": 43
+    },
+    {
+      "id": 175,
+      "label": "Open File Format",
+      "group": "SRP",
+      "cis": 27
+    },
+    {
+      "id": 176,
+      "label": "Markdown",
+      "group": "SRP",
+      "cis": 6
+    },
+    {
+      "id": 177,
+      "label": "HTML",
+      "group": "SRP",
+      "cis": 15
+    },
+    {
+      "id": 178,
+      "label": "Word Processing File",
+      "group": "SRP",
+      "cis": 1
+    },
+    {
+      "id": 179,
+      "label": "PDF-Only Distribution",
+      "group": "SRP",
+      "cis": 3
+    },
+    {
+      "id": 180,
+      "label": "Version Control",
+      "group": "SRP",
+      "cis": 11
+    },
+    {
+      "id": 181,
+      "label": "Git",
+      "group": "SRP",
+      "cis": 7
+    },
+    {
+      "id": 182,
+      "label": "GitHub Repository",
+      "group": "SRP",
+      "cis": 6
+    },
+    {
+      "id": 183,
+      "label": "Fork",
+      "group": "SRP",
+      "cis": 1
+    },
+    {
+      "id": 184,
+      "label": "Pull Request",
+      "group": "SRP",
+      "cis": 2
+    },
+    {
+      "id": 185,
+      "label": "Changelog",
+      "group": "SRP",
+      "cis": 3
+    },
+    {
+      "id": 186,
+      "label": "Portability Metric",
+      "group": "SRP",
+      "cis": 15
+    },
+    {
+      "id": 187,
+      "label": "Browser Compatibility",
+      "group": "SRP",
+      "cis": 2
+    },
+    {
+      "id": 188,
+      "label": "No-Login Access",
+      "group": "SRP",
+      "cis": 3
+    },
+    {
+      "id": 189,
+      "label": "Iframe Embedding",
+      "group": "SRP",
+      "cis": 2
+    },
+    {
+      "id": 190,
+      "label": "Link Sharing",
+      "group": "SRP",
+      "cis": 1
+    },
+    {
+      "id": 191,
+      "label": "LMS Import",
+      "group": "SRP",
+      "cis": 3
+    },
+    {
+      "id": 192,
+      "label": "Common Cartridge",
+      "group": "SRP",
+      "cis": 1
+    },
+    {
+      "id": 193,
+      "label": "LTI Integration",
+      "group": "SRP",
+      "cis": 1
+    },
+    {
+      "id": 194,
+      "label": "Export Format",
+      "group": "SRP",
+      "cis": 5
+    },
+    {
+      "id": 195,
+      "label": "Responsive Layout",
+      "group": "SRP",
+      "cis": 1
+    },
+    {
+      "id": 196,
+      "label": "Offline Access",
+      "group": "SRP",
+      "cis": 1
+    },
+    {
+      "id": 197,
+      "label": "Platform Lock-In",
+      "group": "SRP",
+      "cis": 1
+    },
+    {
+      "id": 198,
+      "label": "Manual Evaluation",
+      "group": "MANU",
+      "cis": 198
+    },
+    {
+      "id": 199,
+      "label": "Evidence Recording",
+      "group": "MANU",
+      "cis": 2
+    },
+    {
+      "id": 200,
+      "label": "Reviewer Notes",
+      "group": "MANU",
+      "cis": 1
+    },
+    {
+      "id": 201,
+      "label": "Calibration Session",
+      "group": "MANU",
+      "cis": 14
+    },
+    {
+      "id": 202,
+      "label": "Consensus Scoring",
+      "group": "MANU",
+      "cis": 2
+    },
+    {
+      "id": 203,
+      "label": "Score Reconciliation",
+      "group": "MANU",
+      "cis": 1
+    },
+    {
+      "id": 204,
+      "label": "Adopt Revise or Reject",
+      "group": "MANU",
+      "cis": 3
+    },
+    {
+      "id": 205,
+      "label": "Adoption Decision",
+      "group": "MANU",
+      "cis": 2
+    },
+    {
+      "id": 206,
+      "label": "Adoption Recommendation",
+      "group": "MANU",
+      "cis": 1
+    },
+    {
+      "id": 207,
+      "label": "Review Workflow",
+      "group": "MANU",
+      "cis": 1
+    },
+    {
+      "id": 208,
+      "label": "Reviewer Training",
+      "group": "MANU",
+      "cis": 1
+    },
+    {
+      "id": 209,
+      "label": "AI Assistant",
+      "group": "AIA",
+      "shape": "box",
+      "cis": 3031
+    },
+    {
+      "id": 210,
+      "label": "Large Language Model",
+      "group": "AIA",
+      "cis": 2232
+    },
+    {
+      "id": 211,
+      "label": "AI Agent",
+      "group": "AIA",
+      "cis": 1100
+    },
+    {
+      "id": 212,
+      "label": "Agent Skill",
+      "group": "AIA",
+      "cis": 1
+    },
+    {
+      "id": 213,
+      "label": "Prompt",
+      "group": "AIA",
+      "cis": 798
+    },
+    {
+      "id": 214,
+      "label": "Prompt Template",
+      "group": "AIA",
+      "cis": 395
+    },
+    {
+      "id": 215,
+      "label": "System Prompt",
+      "group": "AIA",
+      "cis": 2
+    },
+    {
+      "id": 216,
+      "label": "Context Window",
+      "group": "AIA",
+      "cis": 394
+    },
+    {
+      "id": 217,
+      "label": "Token",
+      "group": "AIA",
+      "cis": 2
+    },
+    {
+      "id": 218,
+      "label": "Document Ingestion",
+      "group": "AIA",
+      "cis": 393
+    },
+    {
+      "id": 219,
+      "label": "Structured Output",
+      "group": "AIA",
+      "cis": 396
+    },
+    {
+      "id": 220,
+      "label": "JSON Output",
+      "group": "AIA",
+      "cis": 1
+    },
+    {
+      "id": 221,
+      "label": "Rubric Prompt",
+      "group": "AIA",
+      "cis": 394
+    },
+    {
+      "id": 222,
+      "label": "Agent Scoring",
+      "group": "AIA",
+      "cis": 392
+    },
+    {
+      "id": 223,
+      "label": "Agent Evaluation Report",
+      "group": "AIA",
+      "cis": 1
+    },
+    {
+      "id": 224,
+      "label": "Batch Evaluation",
+      "group": "AIA",
+      "cis": 2
+    },
+    {
+      "id": 225,
+      "label": "Few-Shot Example",
+      "group": "AIA",
+      "cis": 1
+    },
+    {
+      "id": 226,
+      "label": "Role Prompting",
+      "group": "AIA",
+      "cis": 1
+    },
+    {
+      "id": 227,
+      "label": "Prompt Iteration",
+      "group": "AIA",
+      "cis": 2
+    },
+    {
+      "id": 228,
+      "label": "Tool Use",
+      "group": "AIA",
+      "cis": 103
+    },
+    {
+      "id": 229,
+      "label": "File Access",
+      "group": "AIA",
+      "cis": 49
+    },
+    {
+      "id": 230,
+      "label": "Agent Workflow",
+      "group": "AIA",
+      "cis": 48
+    },
+    {
+      "id": 231,
+      "label": "Multi-Agent Review",
+      "group": "AIA",
+      "cis": 22
+    },
+    {
+      "id": 232,
+      "label": "Human in the Loop",
+      "group": "AIA",
+      "cis": 160
+    },
+    {
+      "id": 233,
+      "label": "Automated Link Checker",
+      "group": "AIA",
+      "cis": 1
+    },
+    {
+      "id": 234,
+      "label": "Automated Accessibility Scan",
+      "group": "AIA",
+      "cis": 1
+    },
+    {
+      "id": 235,
+      "label": "Automated License Detection",
+      "group": "AIA",
+      "cis": 1
+    },
+    {
+      "id": 236,
+      "label": "Automated Readability Scan",
+      "group": "AIA",
+      "cis": 1
+    },
+    {
+      "id": 237,
+      "label": "AI Cost",
+      "group": "AIA",
+      "cis": 1
+    },
+    {
+      "id": 238,
+      "label": "Student Data Privacy",
+      "group": "AIA",
+      "shape": "box",
+      "cis": 27
+    },
+    {
+      "id": 239,
+      "label": "FERPA",
+      "group": "AIA",
+      "cis": 1
+    },
+    {
+      "id": 240,
+      "label": "Hallucination",
+      "group": "CHK",
+      "cis": 735
+    },
+    {
+      "id": 241,
+      "label": "Invented Citation",
+      "group": "CHK",
+      "cis": 184
+    },
+    {
+      "id": 242,
+      "label": "License Misreading",
+      "group": "CHK",
+      "cis": 184
+    },
+    {
+      "id": 243,
+      "label": "Overconfident Score",
+      "group": "CHK",
+      "cis": 184
+    },
+    {
+      "id": 244,
+      "label": "Score Inflation",
+      "group": "CHK",
+      "cis": 1
+    },
+    {
+      "id": 245,
+      "label": "Agent Error Type",
+      "group": "CHK",
+      "cis": 182
+    },
+    {
+      "id": 246,
+      "label": "Verification Step",
+      "group": "CHK",
+      "cis": 180
+    },
+    {
+      "id": 247,
+      "label": "Spot Check",
+      "group": "CHK",
+      "cis": 1
+    },
+    {
+      "id": 248,
+      "label": "Source Verification",
+      "group": "CHK",
+      "cis": 1
+    },
+    {
+      "id": 249,
+      "label": "Second-Agent Cross-Check",
+      "group": "CHK",
+      "cis": 21
+    },
+    {
+      "id": 250,
+      "label": "Agent Disagreement",
+      "group": "CHK",
+      "cis": 20
+    },
+    {
+      "id": 251,
+      "label": "Accept Correct or Reject",
+      "group": "CHK",
+      "cis": 156
+    },
+    {
+      "id": 252,
+      "label": "Findings Log",
+      "group": "CHK",
+      "cis": 2
+    },
+    {
+      "id": 253,
+      "label": "Agent Error Rate",
+      "group": "CHK",
+      "cis": 1
+    },
+    {
+      "id": 254,
+      "label": "Agreement Rate",
+      "group": "CHK",
+      "cis": 19
+    },
+    {
+      "id": 255,
+      "label": "Score Difference Threshold",
+      "group": "CHK",
+      "cis": 7
+    },
+    {
+      "id": 256,
+      "label": "Mean Absolute Difference",
+      "group": "CHK",
+      "cis": 10
+    },
+    {
+      "id": 257,
+      "label": "Cohen's Kappa",
+      "group": "CHK",
+      "cis": 1
+    },
+    {
+      "id": 258,
+      "label": "Score Correlation",
+      "group": "CHK",
+      "cis": 2
+    },
+    {
+      "id": 259,
+      "label": "Calibration Against Humans",
+      "group": "CHK",
+      "cis": 6
+    },
+    {
+      "id": 260,
+      "label": "Prompt Refinement",
+      "group": "CHK",
+      "cis": 1
+    },
+    {
+      "id": 261,
+      "label": "Run-to-Run Variance",
+      "group": "CHK",
+      "cis": 1
+    },
+    {
+      "id": 262,
+      "label": "Improvement Plan",
+      "group": "IMP",
+      "cis": 151
+    },
+    {
+      "id": 263,
+      "label": "Lowest Metric First",
+      "group": "IMP",
+      "cis": 1
+    },
+    {
+      "id": 264,
+      "label": "Improvement Challenge",
+      "group": "IMP",
+      "cis": 25
+    },
+    {
+      "id": 265,
+      "label": "AI Alt Text Generation",
+      "group": "IMP",
+      "cis": 1
+    },
+    {
+      "id": 266,
+      "label": "Caption Generation",
+      "group": "IMP",
+      "cis": 1
+    },
+    {
+      "id": 267,
+      "label": "Heading Repair",
+      "group": "IMP",
+      "cis": 1
+    },
+    {
+      "id": 268,
+      "label": "Reading Level Rewrite",
+      "group": "IMP",
+      "cis": 1
+    },
+    {
+      "id": 269,
+      "label": "Chapter Splitting",
+      "group": "IMP",
+      "cis": 1
+    },
+    {
+      "id": 270,
+      "label": "Metadata Generation",
+      "group": "IMP",
+      "cis": 1
+    },
+    {
+      "id": 271,
+      "label": "License Statement Repair",
+      "group": "IMP",
+      "cis": 1
+    },
+    {
+      "id": 272,
+      "label": "PDF-to-Markdown Conversion",
+      "group": "IMP",
+      "cis": 1
+    },
+    {
+      "id": 273,
+      "label": "Practice Question Generation",
+      "group": "IMP",
+      "cis": 1
+    },
+    {
+      "id": 274,
+      "label": "Glossary Generation",
+      "group": "IMP",
+      "cis": 1
+    },
+    {
+      "id": 275,
+      "label": "MicroSim Building",
+      "group": "IMP",
+      "cis": 1
+    },
+    {
+      "id": 276,
+      "label": "Link Repair",
+      "group": "IMP",
+      "cis": 1
+    },
+    {
+      "id": 277,
+      "label": "Content Update",
+      "group": "IMP",
+      "cis": 1
+    },
+    {
+      "id": 278,
+      "label": "Re-Scoring",
+      "group": "IMP",
+      "cis": 107
+    },
+    {
+      "id": 279,
+      "label": "Score Gain",
+      "group": "IMP",
+      "cis": 103
+    },
+    {
+      "id": 280,
+      "label": "Before-and-After Comparison",
+      "group": "IMP",
+      "cis": 1
+    },
+    {
+      "id": 281,
+      "label": "Change Log Entry",
+      "group": "IMP",
+      "cis": 1
+    },
+    {
+      "id": 282,
+      "label": "Human Review of Changes",
+      "group": "IMP",
+      "cis": 3
+    },
+    {
+      "id": 283,
+      "label": "Derivative Work",
+      "group": "IMP",
+      "cis": 7
+    },
+    {
+      "id": 284,
+      "label": "Preserving Original Meaning",
+      "group": "IMP",
+      "cis": 2
+    },
+    {
+      "id": 285,
+      "label": "Reusable Component",
+      "group": "IMP",
+      "cis": 5
+    },
+    {
+      "id": 286,
+      "label": "Component Library",
+      "group": "IMP",
+      "cis": 2
+    },
+    {
+      "id": 287,
+      "label": "Component Packaging",
+      "group": "IMP",
+      "cis": 1
+    },
+    {
+      "id": 288,
+      "label": "Component Licensing",
+      "group": "IMP",
+      "cis": 1
+    },
+    {
+      "id": 289,
+      "label": "Component Discoverability",
+      "group": "IMP",
+      "cis": 1
+    },
+    {
+      "id": 290,
+      "label": "Learning Graph",
+      "group": "IMP",
+      "cis": 5
+    },
+    {
+      "id": 291,
+      "label": "Concept Dependency",
+      "group": "IMP",
+      "cis": 1
+    },
+    {
+      "id": 292,
+      "label": "Chapter Structure",
+      "group": "IMP",
+      "cis": 2
+    },
+    {
+      "id": 293,
+      "label": "Intelligent Textbook",
+      "group": "IMP",
+      "cis": 1
+    },
+    {
+      "id": 294,
+      "label": "A/B Test",
+      "group": "ABT",
+      "cis": 99
+    },
+    {
+      "id": 295,
+      "label": "Control Group",
+      "group": "ABT",
+      "cis": 19
+    },
+    {
+      "id": 296,
+      "label": "Treatment Group",
+      "group": "ABT",
+      "cis": 19
+    },
+    {
+      "id": 297,
+      "label": "Original Version",
+      "group": "ABT",
+      "cis": 1
+    },
+    {
+      "id": 298,
+      "label": "Improved Version",
+      "group": "ABT",
+      "cis": 2
+    },
+    {
+      "id": 299,
+      "label": "Test Hypothesis",
+      "group": "ABT",
+      "cis": 29
+    },
+    {
+      "id": 300,
+      "label": "Outcome Measure",
+      "group": "ABT",
+      "cis": 28
+    },
+    {
+      "id": 301,
+      "label": "Pre-Test",
+      "group": "ABT",
+      "cis": 2
+    },
+    {
+      "id": 302,
+      "label": "Post-Test",
+      "group": "ABT",
+      "cis": 2
+    },
+    {
+      "id": 303,
+      "label": "Learning Gain",
+      "group": "ABT",
+      "cis": 1
+    },
+    {
+      "id": 304,
+      "label": "Random Assignment",
+      "group": "ABT",
+      "cis": 8
+    },
+    {
+      "id": 305,
+      "label": "Sample Size",
+      "group": "ABT",
+      "cis": 4
+    },
+    {
+      "id": 306,
+      "label": "Confounding Variable",
+      "group": "ABT",
+      "cis": 1
+    },
+    {
+      "id": 307,
+      "label": "Sampling Bias",
+      "group": "ABT",
+      "cis": 2
+    },
+    {
+      "id": 308,
+      "label": "Informed Consent",
+      "group": "ABT",
+      "cis": 26
+    },
+    {
+      "id": 309,
+      "label": "Student Privacy in Testing",
+      "group": "ABT",
+      "cis": 25
+    },
+    {
+      "id": 310,
+      "label": "Data Collection",
+      "group": "ABT",
+      "cis": 23
+    },
+    {
+      "id": 311,
+      "label": "Anonymized Data",
+      "group": "ABT",
+      "cis": 1
+    },
+    {
+      "id": 312,
+      "label": "Mean Score",
+      "group": "ABT",
+      "cis": 11
+    },
+    {
+      "id": 313,
+      "label": "Difference of Means",
+      "group": "ABT",
+      "cis": 10
+    },
+    {
+      "id": 314,
+      "label": "Effect Size",
+      "group": "ABT",
+      "cis": 5
+    },
+    {
+      "id": 315,
+      "label": "Student Survey",
+      "group": "ABT",
+      "cis": 8
+    },
+    {
+      "id": 316,
+      "label": "Completion Rate",
+      "group": "ABT",
+      "cis": 1
+    },
+    {
+      "id": 317,
+      "label": "Time on Task",
+      "group": "ABT",
+      "cis": 1
+    },
+    {
+      "id": 318,
+      "label": "Qualitative Feedback",
+      "group": "ABT",
+      "cis": 5
+    },
+    {
+      "id": 319,
+      "label": "Results Summary",
+      "group": "ABT",
+      "cis": 4
+    },
+    {
+      "id": 320,
+      "label": "Rubric-Outcome Correlation",
+      "group": "ABT",
+      "cis": 1
+    },
+    {
+      "id": 321,
+      "label": "Pilot Test",
+      "group": "ABT",
+      "cis": 1
+    },
+    {
+      "id": 322,
+      "label": "Equity Consideration",
+      "group": "ABT",
+      "cis": 1
+    },
+    {
+      "id": 323,
+      "label": "Publishing OER",
+      "group": "PUB",
+      "cis": 11
+    },
+    {
+      "id": 324,
+      "label": "Static Site Generator",
+      "group": "PUB",
+      "cis": 3
+    },
+    {
+      "id": 325,
+      "label": "MkDocs",
+      "group": "PUB",
+      "cis": 1
+    },
+    {
+      "id": 326,
+      "label": "GitHub Pages",
+      "group": "PUB",
+      "cis": 1
+    },
+    {
+      "id": 327,
+      "label": "OER Clearinghouse",
+      "group": "PUB",
+      "cis": 1
+    },
+    {
+      "id": 328,
+      "label": "Release Notes",
+      "group": "PUB",
+      "cis": 1
+    },
+    {
+      "id": 329,
+      "label": "Maintenance Plan",
+      "group": "PUB",
+      "cis": 1
+    },
+    {
+      "id": 330,
+      "label": "Issue Tracking",
+      "group": "PUB",
+      "cis": 1
+    },
+    {
+      "id": 331,
+      "label": "Feedback Channel",
+      "group": "PUB",
+      "cis": 2
+    },
+    {
+      "id": 332,
+      "label": "Community Contribution",
+      "group": "PUB",
+      "cis": 1
+    },
+    {
+      "id": 333,
+      "label": "Reuse Tracking",
+      "group": "PUB",
+      "cis": 2
+    },
+    {
+      "id": 334,
+      "label": "Usage Analytics",
+      "group": "PUB",
+      "cis": 2
+    },
+    {
+      "id": 335,
+      "label": "Impact Reporting",
+      "group": "PUB",
+      "cis": 1
+    },
+    {
+      "id": 336,
+      "label": "Teacher Training Workshop",
+      "group": "TRN",
+      "cis": 20
+    },
+    {
+      "id": 337,
+      "label": "Workshop Agenda",
+      "group": "TRN",
+      "cis": 5
+    },
+    {
+      "id": 338,
+      "label": "Facilitator Guide",
+      "group": "TRN",
+      "cis": 3
+    },
+    {
+      "id": 339,
+      "label": "Calibration Exercise",
+      "group": "TRN",
+      "cis": 4
+    },
+    {
+      "id": 340,
+      "label": "Peer Review",
+      "group": "TRN",
+      "cis": 1
+    },
+    {
+      "id": 341,
+      "label": "Certificate",
+      "group": "TRN",
+      "cis": 6
+    },
+    {
+      "id": 342,
+      "label": "Certificate Requirements",
+      "group": "TRN",
+      "cis": 3
+    },
+    {
+      "id": 343,
+      "label": "Certificate Submission",
+      "group": "TRN",
+      "cis": 2
+    },
+    {
+      "id": 344,
+      "label": "Submission Review",
+      "group": "TRN",
+      "cis": 1
+    },
+    {
+      "id": 345,
+      "label": "Exit Survey",
+      "group": "TRN",
+      "cis": 2
+    },
+    {
+      "id": 346,
+      "label": "Training Evaluation",
+      "group": "TRN",
+      "cis": 1
+    },
+    {
+      "id": 347,
+      "label": "Local Reviewer Role",
+      "group": "TRN",
+      "cis": 2
+    },
+    {
+      "id": 348,
+      "label": "Train-the-Trainer",
+      "group": "TRN",
+      "cis": 1
+    },
+    {
+      "id": 349,
+      "label": "Training Kit",
+      "group": "TRN",
+      "cis": 1
+    },
+    {
+      "id": 350,
+      "label": "Capstone Project",
+      "group": "TRN",
+      "cis": 1
+    },
+    {
+      "id": 351,
+      "label": "Professional Development",
+      "group": "TRN",
+      "cis": 1
+    }
+  ],
+  "edges": [
+    {
+      "from": 2,
+      "to": 1
+    },
+    {
+      "from": 3,
+      "to": 2
+    },
+    {
+      "from": 5,
+      "to": 4
+    },
+    {
+      "from": 6,
+      "to": 1
+    },
+    {
+      "from": 7,
+      "to": 1
+    },
+    {
+      "from": 7,
+      "to": 4
+    },
+    {
+      "from": 8,
+      "to": 7
+    },
+    {
+      "from": 9,
+      "to": 8
+    },
+    {
+      "from": 9,
+      "to": 2
+    },
+    {
+      "from": 10,
+      "to": 2
+    },
+    {
+      "from": 10,
+      "to": 4
+    },
+    {
+      "from": 11,
+      "to": 10
+    },
+    {
+      "from": 12,
+      "to": 10
+    },
+    {
+      "from": 13,
+      "to": 10
+    },
+    {
+      "from": 14,
+      "to": 10
+    },
+    {
+      "from": 14,
+      "to": 13
+    },
+    {
+      "from": 15,
+      "to": 10
+    },
+    {
+      "from": 16,
+      "to": 2
+    },
+    {
+      "from": 16,
+      "to": 8
+    },
+    {
+      "from": 17,
+      "to": 13
+    },
+    {
+      "from": 17,
+      "to": 16
+    },
+    {
+      "from": 18,
+      "to": 2
+    },
+    {
+      "from": 18,
+      "to": 14
+    },
+    {
+      "from": 19,
+      "to": 2
+    },
+    {
+      "from": 19,
+      "to": 15
+    },
+    {
+      "from": 20,
+      "to": 10
+    },
+    {
+      "from": 20,
+      "to": 16
+    },
+    {
+      "from": 21,
+      "to": 2
+    },
+    {
+      "from": 21,
+      "to": 8
+    },
+    {
+      "from": 21,
+      "to": 16
+    },
+    {
+      "from": 22,
+      "to": 2
+    },
+    {
+      "from": 22,
+      "to": 4
+    },
+    {
+      "from": 23,
+      "to": 22
+    },
+    {
+      "from": 24,
+      "to": 22
+    },
+    {
+      "from": 25,
+      "to": 24
+    },
+    {
+      "from": 25,
+      "to": 32
+    },
+    {
+      "from": 26,
+      "to": 25
+    },
+    {
+      "from": 26,
+      "to": 33
+    },
+    {
+      "from": 27,
+      "to": 25
+    },
+    {
+      "from": 27,
+      "to": 34
+    },
+    {
+      "from": 28,
+      "to": 27
+    },
+    {
+      "from": 28,
+      "to": 33
+    },
+    {
+      "from": 29,
+      "to": 25
+    },
+    {
+      "from": 29,
+      "to": 35
+    },
+    {
+      "from": 30,
+      "to": 27
+    },
+    {
+      "from": 30,
+      "to": 35
+    },
+    {
+      "from": 31,
+      "to": 24
+    },
+    {
+      "from": 31,
+      "to": 5
+    },
+    {
+      "from": 32,
+      "to": 24
+    },
+    {
+      "from": 33,
+      "to": 24
+    },
+    {
+      "from": 34,
+      "to": 24
+    },
+    {
+      "from": 35,
+      "to": 24
+    },
+    {
+      "from": 36,
+      "to": 26
+    },
+    {
+      "from": 36,
+      "to": 28
+    },
+    {
+      "from": 36,
+      "to": 29
+    },
+    {
+      "from": 37,
+      "to": 36
+    },
+    {
+      "from": 38,
+      "to": 32
+    },
+    {
+      "from": 38,
+      "to": 23
+    },
+    {
+      "from": 39,
+      "to": 38
+    },
+    {
+      "from": 40,
+      "to": 4
+    },
+    {
+      "from": 40,
+      "to": 22
+    },
+    {
+      "from": 41,
+      "to": 4
+    },
+    {
+      "from": 42,
+      "to": 4
+    },
+    {
+      "from": 42,
+      "to": 22
+    },
+    {
+      "from": 43,
+      "to": 4
+    },
+    {
+      "from": 43,
+      "to": 42
+    },
+    {
+      "from": 44,
+      "to": 25
+    },
+    {
+      "from": 44,
+      "to": 26
+    },
+    {
+      "from": 44,
+      "to": 27
+    },
+    {
+      "from": 44,
+      "to": 36
+    },
+    {
+      "from": 45,
+      "to": 2
+    },
+    {
+      "from": 46,
+      "to": 45
+    },
+    {
+      "from": 47,
+      "to": 45
+    },
+    {
+      "from": 47,
+      "to": 10
+    },
+    {
+      "from": 48,
+      "to": 45
+    },
+    {
+      "from": 49,
+      "to": 48
+    },
+    {
+      "from": 49,
+      "to": 46
+    },
+    {
+      "from": 49,
+      "to": 47
+    },
+    {
+      "from": 50,
+      "to": 49
+    },
+    {
+      "from": 51,
+      "to": 50
+    },
+    {
+      "from": 52,
+      "to": 51
+    },
+    {
+      "from": 53,
+      "to": 52
+    },
+    {
+      "from": 54,
+      "to": 51
+    },
+    {
+      "from": 55,
+      "to": 54
+    },
+    {
+      "from": 56,
+      "to": 51
+    },
+    {
+      "from": 56,
+      "to": 46
+    },
+    {
+      "from": 57,
+      "to": 51
+    },
+    {
+      "from": 57,
+      "to": 47
+    },
+    {
+      "from": 58,
+      "to": 56
+    },
+    {
+      "from": 58,
+      "to": 57
+    },
+    {
+      "from": 59,
+      "to": 58
+    },
+    {
+      "from": 60,
+      "to": 59
+    },
+    {
+      "from": 60,
+      "to": 16
+    },
+    {
+      "from": 61,
+      "to": 49
+    },
+    {
+      "from": 61,
+      "to": 54
+    },
+    {
+      "from": 62,
+      "to": 48
+    },
+    {
+      "from": 63,
+      "to": 58
+    },
+    {
+      "from": 63,
+      "to": 55
+    },
+    {
+      "from": 64,
+      "to": 48
+    },
+    {
+      "from": 65,
+      "to": 64
+    },
+    {
+      "from": 66,
+      "to": 64
+    },
+    {
+      "from": 66,
+      "to": 65
+    },
+    {
+      "from": 66,
+      "to": 53
+    },
+    {
+      "from": 67,
+      "to": 48
+    },
+    {
+      "from": 67,
+      "to": 66
+    },
+    {
+      "from": 68,
+      "to": 64
+    },
+    {
+      "from": 68,
+      "to": 51
+    },
+    {
+      "from": 69,
+      "to": 46
+    },
+    {
+      "from": 69,
+      "to": 47
+    },
+    {
+      "from": 69,
+      "to": 58
+    },
+    {
+      "from": 70,
+      "to": 50
+    },
+    {
+      "from": 70,
+      "to": 46
+    },
+    {
+      "from": 71,
+      "to": 50
+    },
+    {
+      "from": 71,
+      "to": 46
+    },
+    {
+      "from": 72,
+      "to": 70
+    },
+    {
+      "from": 73,
+      "to": 72
+    },
+    {
+      "from": 74,
+      "to": 70
+    },
+    {
+      "from": 75,
+      "to": 74
+    },
+    {
+      "from": 76,
+      "to": 74
+    },
+    {
+      "from": 77,
+      "to": 74
+    },
+    {
+      "from": 77,
+      "to": 75
+    },
+    {
+      "from": 77,
+      "to": 76
+    },
+    {
+      "from": 78,
+      "to": 71
+    },
+    {
+      "from": 79,
+      "to": 71
+    },
+    {
+      "from": 80,
+      "to": 79
+    },
+    {
+      "from": 80,
+      "to": 78
+    },
+    {
+      "from": 81,
+      "to": 78
+    },
+    {
+      "from": 82,
+      "to": 81
+    },
+    {
+      "from": 83,
+      "to": 73
+    },
+    {
+      "from": 83,
+      "to": 72
+    },
+    {
+      "from": 84,
+      "to": 50
+    },
+    {
+      "from": 84,
+      "to": 46
+    },
+    {
+      "from": 84,
+      "to": 85
+    },
+    {
+      "from": 86,
+      "to": 85
+    },
+    {
+      "from": 87,
+      "to": 86
+    },
+    {
+      "from": 88,
+      "to": 84
+    },
+    {
+      "from": 88,
+      "to": 85
+    },
+    {
+      "from": 89,
+      "to": 85
+    },
+    {
+      "from": 89,
+      "to": 88
+    },
+    {
+      "from": 90,
+      "to": 85
+    },
+    {
+      "from": 91,
+      "to": 90
+    },
+    {
+      "from": 91,
+      "to": 87
+    },
+    {
+      "from": 92,
+      "to": 85
+    },
+    {
+      "from": 92,
+      "to": 89
+    },
+    {
+      "from": 93,
+      "to": 86
+    },
+    {
+      "from": 93,
+      "to": 92
+    },
+    {
+      "from": 94,
+      "to": 92
+    },
+    {
+      "from": 95,
+      "to": 89
+    },
+    {
+      "from": 96,
+      "to": 95
+    },
+    {
+      "from": 97,
+      "to": 50
+    },
+    {
+      "from": 97,
+      "to": 46
+    },
+    {
+      "from": 98,
+      "to": 97
+    },
+    {
+      "from": 99,
+      "to": 98
+    },
+    {
+      "from": 100,
+      "to": 99
+    },
+    {
+      "from": 101,
+      "to": 98
+    },
+    {
+      "from": 102,
+      "to": 101
+    },
+    {
+      "from": 103,
+      "to": 102
+    },
+    {
+      "from": 104,
+      "to": 98
+    },
+    {
+      "from": 104,
+      "to": 101
+    },
+    {
+      "from": 105,
+      "to": 101
+    },
+    {
+      "from": 106,
+      "to": 97
+    },
+    {
+      "from": 107,
+      "to": 106
+    },
+    {
+      "from": 108,
+      "to": 98
+    },
+    {
+      "from": 108,
+      "to": 96
+    },
+    {
+      "from": 109,
+      "to": 106
+    },
+    {
+      "from": 109,
+      "to": 108
+    },
+    {
+      "from": 110,
+      "to": 50
+    },
+    {
+      "from": 110,
+      "to": 46
+    },
+    {
+      "from": 110,
+      "to": 111
+    },
+    {
+      "from": 112,
+      "to": 111
+    },
+    {
+      "from": 113,
+      "to": 112
+    },
+    {
+      "from": 114,
+      "to": 113
+    },
+    {
+      "from": 115,
+      "to": 114
+    },
+    {
+      "from": 116,
+      "to": 114
+    },
+    {
+      "from": 117,
+      "to": 113
+    },
+    {
+      "from": 117,
+      "to": 107
+    },
+    {
+      "from": 118,
+      "to": 113
+    },
+    {
+      "from": 119,
+      "to": 118
+    },
+    {
+      "from": 120,
+      "to": 118
+    },
+    {
+      "from": 121,
+      "to": 113
+    },
+    {
+      "from": 122,
+      "to": 121
+    },
+    {
+      "from": 123,
+      "to": 121
+    },
+    {
+      "from": 124,
+      "to": 113
+    },
+    {
+      "from": 125,
+      "to": 111
+    },
+    {
+      "from": 126,
+      "to": 125
+    },
+    {
+      "from": 126,
+      "to": 113
+    },
+    {
+      "from": 127,
+      "to": 125
+    },
+    {
+      "from": 127,
+      "to": 113
+    },
+    {
+      "from": 128,
+      "to": 125
+    },
+    {
+      "from": 129,
+      "to": 125
+    },
+    {
+      "from": 129,
+      "to": 113
+    },
+    {
+      "from": 130,
+      "to": 111
+    },
+    {
+      "from": 131,
+      "to": 113
+    },
+    {
+      "from": 131,
+      "to": 125
+    },
+    {
+      "from": 132,
+      "to": 125
+    },
+    {
+      "from": 132,
+      "to": 177
+    },
+    {
+      "from": 133,
+      "to": 50
+    },
+    {
+      "from": 133,
+      "to": 46
+    },
+    {
+      "from": 134,
+      "to": 133
+    },
+    {
+      "from": 134,
+      "to": 86
+    },
+    {
+      "from": 135,
+      "to": 134
+    },
+    {
+      "from": 136,
+      "to": 134
+    },
+    {
+      "from": 137,
+      "to": 136
+    },
+    {
+      "from": 138,
+      "to": 137
+    },
+    {
+      "from": 139,
+      "to": 137
+    },
+    {
+      "from": 140,
+      "to": 135
+    },
+    {
+      "from": 140,
+      "to": 139
+    },
+    {
+      "from": 141,
+      "to": 140
+    },
+    {
+      "from": 142,
+      "to": 137
+    },
+    {
+      "from": 143,
+      "to": 137
+    },
+    {
+      "from": 143,
+      "to": 91
+    },
+    {
+      "from": 144,
+      "to": 136
+    },
+    {
+      "from": 145,
+      "to": 144
+    },
+    {
+      "from": 146,
+      "to": 133
+    },
+    {
+      "from": 147,
+      "to": 146
+    },
+    {
+      "from": 147,
+      "to": 177
+    },
+    {
+      "from": 148,
+      "to": 133
+    },
+    {
+      "from": 149,
+      "to": 148
+    },
+    {
+      "from": 149,
+      "to": 109
+    },
+    {
+      "from": 150,
+      "to": 50
+    },
+    {
+      "from": 150,
+      "to": 47
+    },
+    {
+      "from": 150,
+      "to": 22
+    },
+    {
+      "from": 151,
+      "to": 150
+    },
+    {
+      "from": 151,
+      "to": 23
+    },
+    {
+      "from": 152,
+      "to": 50
+    },
+    {
+      "from": 152,
+      "to": 47
+    },
+    {
+      "from": 153,
+      "to": 152
+    },
+    {
+      "from": 154,
+      "to": 153
+    },
+    {
+      "from": 155,
+      "to": 153
+    },
+    {
+      "from": 156,
+      "to": 154
+    },
+    {
+      "from": 157,
+      "to": 154
+    },
+    {
+      "from": 158,
+      "to": 50
+    },
+    {
+      "from": 158,
+      "to": 47
+    },
+    {
+      "from": 159,
+      "to": 158
+    },
+    {
+      "from": 160,
+      "to": 159
+    },
+    {
+      "from": 161,
+      "to": 160
+    },
+    {
+      "from": 162,
+      "to": 160
+    },
+    {
+      "from": 163,
+      "to": 160
+    },
+    {
+      "from": 164,
+      "to": 160
+    },
+    {
+      "from": 165,
+      "to": 160
+    },
+    {
+      "from": 165,
+      "to": 22
+    },
+    {
+      "from": 166,
+      "to": 160
+    },
+    {
+      "from": 167,
+      "to": 163
+    },
+    {
+      "from": 168,
+      "to": 167
+    },
+    {
+      "from": 169,
+      "to": 159
+    },
+    {
+      "from": 169,
+      "to": 164
+    },
+    {
+      "from": 170,
+      "to": 159
+    },
+    {
+      "from": 170,
+      "to": 177
+    },
+    {
+      "from": 171,
+      "to": 160
+    },
+    {
+      "from": 171,
+      "to": 170
+    },
+    {
+      "from": 172,
+      "to": 161
+    },
+    {
+      "from": 172,
+      "to": 162
+    },
+    {
+      "from": 172,
+      "to": 163
+    },
+    {
+      "from": 172,
+      "to": 164
+    },
+    {
+      "from": 172,
+      "to": 165
+    },
+    {
+      "from": 172,
+      "to": 166
+    },
+    {
+      "from": 173,
+      "to": 50
+    },
+    {
+      "from": 173,
+      "to": 47
+    },
+    {
+      "from": 174,
+      "to": 173
+    },
+    {
+      "from": 175,
+      "to": 174
+    },
+    {
+      "from": 176,
+      "to": 175
+    },
+    {
+      "from": 177,
+      "to": 175
+    },
+    {
+      "from": 178,
+      "to": 174
+    },
+    {
+      "from": 179,
+      "to": 174
+    },
+    {
+      "from": 180,
+      "to": 174
+    },
+    {
+      "from": 181,
+      "to": 180
+    },
+    {
+      "from": 182,
+      "to": 181
+    },
+    {
+      "from": 183,
+      "to": 182
+    },
+    {
+      "from": 183,
+      "to": 13
+    },
+    {
+      "from": 184,
+      "to": 182
+    },
+    {
+      "from": 185,
+      "to": 180
+    },
+    {
+      "from": 186,
+      "to": 50
+    },
+    {
+      "from": 186,
+      "to": 47
+    },
+    {
+      "from": 187,
+      "to": 186
+    },
+    {
+      "from": 187,
+      "to": 177
+    },
+    {
+      "from": 188,
+      "to": 186
+    },
+    {
+      "from": 189,
+      "to": 157
+    },
+    {
+      "from": 189,
+      "to": 177
+    },
+    {
+      "from": 190,
+      "to": 188
+    },
+    {
+      "from": 191,
+      "to": 186
+    },
+    {
+      "from": 191,
+      "to": 194
+    },
+    {
+      "from": 192,
+      "to": 191
+    },
+    {
+      "from": 193,
+      "to": 191
+    },
+    {
+      "from": 194,
+      "to": 186
+    },
+    {
+      "from": 194,
+      "to": 175
+    },
+    {
+      "from": 195,
+      "to": 187
+    },
+    {
+      "from": 196,
+      "to": 186
+    },
+    {
+      "from": 197,
+      "to": 179
+    },
+    {
+      "from": 197,
+      "to": 188
+    },
+    {
+      "from": 197,
+      "to": 194
+    },
+    {
+      "from": 198,
+      "to": 49
+    },
+    {
+      "from": 198,
+      "to": 61
+    },
+    {
+      "from": 198,
+      "to": 64
+    },
+    {
+      "from": 199,
+      "to": 198
+    },
+    {
+      "from": 199,
+      "to": 54
+    },
+    {
+      "from": 200,
+      "to": 199
+    },
+    {
+      "from": 201,
+      "to": 198
+    },
+    {
+      "from": 201,
+      "to": 68
+    },
+    {
+      "from": 202,
+      "to": 201
+    },
+    {
+      "from": 202,
+      "to": 68
+    },
+    {
+      "from": 203,
+      "to": 202
+    },
+    {
+      "from": 204,
+      "to": 58
+    },
+    {
+      "from": 204,
+      "to": 60
+    },
+    {
+      "from": 205,
+      "to": 204
+    },
+    {
+      "from": 205,
+      "to": 16
+    },
+    {
+      "from": 206,
+      "to": 205
+    },
+    {
+      "from": 206,
+      "to": 63
+    },
+    {
+      "from": 207,
+      "to": 62
+    },
+    {
+      "from": 207,
+      "to": 198
+    },
+    {
+      "from": 207,
+      "to": 63
+    },
+    {
+      "from": 208,
+      "to": 201
+    },
+    {
+      "from": 208,
+      "to": 64
+    },
+    {
+      "from": 210,
+      "to": 209
+    },
+    {
+      "from": 211,
+      "to": 210
+    },
+    {
+      "from": 212,
+      "to": 211
+    },
+    {
+      "from": 213,
+      "to": 209
+    },
+    {
+      "from": 214,
+      "to": 213
+    },
+    {
+      "from": 215,
+      "to": 213
+    },
+    {
+      "from": 215,
+      "to": 211
+    },
+    {
+      "from": 216,
+      "to": 210
+    },
+    {
+      "from": 217,
+      "to": 210
+    },
+    {
+      "from": 218,
+      "to": 211
+    },
+    {
+      "from": 218,
+      "to": 216
+    },
+    {
+      "from": 219,
+      "to": 213
+    },
+    {
+      "from": 220,
+      "to": 219
+    },
+    {
+      "from": 221,
+      "to": 214
+    },
+    {
+      "from": 221,
+      "to": 49
+    },
+    {
+      "from": 221,
+      "to": 219
+    },
+    {
+      "from": 222,
+      "to": 221
+    },
+    {
+      "from": 222,
+      "to": 211
+    },
+    {
+      "from": 222,
+      "to": 218
+    },
+    {
+      "from": 223,
+      "to": 222
+    },
+    {
+      "from": 223,
+      "to": 63
+    },
+    {
+      "from": 224,
+      "to": 222
+    },
+    {
+      "from": 225,
+      "to": 213
+    },
+    {
+      "from": 226,
+      "to": 213
+    },
+    {
+      "from": 226,
+      "to": 215
+    },
+    {
+      "from": 227,
+      "to": 213
+    },
+    {
+      "from": 227,
+      "to": 222
+    },
+    {
+      "from": 228,
+      "to": 211
+    },
+    {
+      "from": 229,
+      "to": 228
+    },
+    {
+      "from": 230,
+      "to": 211
+    },
+    {
+      "from": 230,
+      "to": 228
+    },
+    {
+      "from": 230,
+      "to": 229
+    },
+    {
+      "from": 231,
+      "to": 230
+    },
+    {
+      "from": 231,
+      "to": 222
+    },
+    {
+      "from": 232,
+      "to": 211
+    },
+    {
+      "from": 232,
+      "to": 198
+    },
+    {
+      "from": 233,
+      "to": 228
+    },
+    {
+      "from": 233,
+      "to": 82
+    },
+    {
+      "from": 234,
+      "to": 228
+    },
+    {
+      "from": 234,
+      "to": 131
+    },
+    {
+      "from": 235,
+      "to": 228
+    },
+    {
+      "from": 235,
+      "to": 22
+    },
+    {
+      "from": 235,
+      "to": 222
+    },
+    {
+      "from": 236,
+      "to": 228
+    },
+    {
+      "from": 236,
+      "to": 99
+    },
+    {
+      "from": 237,
+      "to": 217
+    },
+    {
+      "from": 237,
+      "to": 224
+    },
+    {
+      "from": 239,
+      "to": 238
+    },
+    {
+      "from": 240,
+      "to": 210
+    },
+    {
+      "from": 241,
+      "to": 240
+    },
+    {
+      "from": 241,
+      "to": 74
+    },
+    {
+      "from": 242,
+      "to": 240
+    },
+    {
+      "from": 242,
+      "to": 23
+    },
+    {
+      "from": 243,
+      "to": 222
+    },
+    {
+      "from": 243,
+      "to": 240
+    },
+    {
+      "from": 244,
+      "to": 243
+    },
+    {
+      "from": 245,
+      "to": 240
+    },
+    {
+      "from": 245,
+      "to": 241
+    },
+    {
+      "from": 245,
+      "to": 242
+    },
+    {
+      "from": 245,
+      "to": 243
+    },
+    {
+      "from": 246,
+      "to": 245
+    },
+    {
+      "from": 247,
+      "to": 246
+    },
+    {
+      "from": 248,
+      "to": 246
+    },
+    {
+      "from": 248,
+      "to": 241
+    },
+    {
+      "from": 248,
+      "to": 75
+    },
+    {
+      "from": 249,
+      "to": 246
+    },
+    {
+      "from": 249,
+      "to": 231
+    },
+    {
+      "from": 250,
+      "to": 249
+    },
+    {
+      "from": 250,
+      "to": 222
+    },
+    {
+      "from": 251,
+      "to": 246
+    },
+    {
+      "from": 251,
+      "to": 232
+    },
+    {
+      "from": 252,
+      "to": 251
+    },
+    {
+      "from": 253,
+      "to": 245
+    },
+    {
+      "from": 253,
+      "to": 252
+    },
+    {
+      "from": 254,
+      "to": 250
+    },
+    {
+      "from": 254,
+      "to": 68
+    },
+    {
+      "from": 255,
+      "to": 254
+    },
+    {
+      "from": 256,
+      "to": 254
+    },
+    {
+      "from": 257,
+      "to": 254
+    },
+    {
+      "from": 257,
+      "to": 68
+    },
+    {
+      "from": 258,
+      "to": 256
+    },
+    {
+      "from": 259,
+      "to": 255
+    },
+    {
+      "from": 259,
+      "to": 256
+    },
+    {
+      "from": 259,
+      "to": 201
+    },
+    {
+      "from": 259,
+      "to": 222
+    },
+    {
+      "from": 260,
+      "to": 227
+    },
+    {
+      "from": 260,
+      "to": 259
+    },
+    {
+      "from": 261,
+      "to": 222
+    },
+    {
+      "from": 261,
+      "to": 256
+    },
+    {
+      "from": 262,
+      "to": 58
+    },
+    {
+      "from": 262,
+      "to": 251
+    },
+    {
+      "from": 263,
+      "to": 262
+    },
+    {
+      "from": 263,
+      "to": 56
+    },
+    {
+      "from": 263,
+      "to": 57
+    },
+    {
+      "from": 264,
+      "to": 262
+    },
+    {
+      "from": 264,
+      "to": 222
+    },
+    {
+      "from": 264,
+      "to": 230
+    },
+    {
+      "from": 265,
+      "to": 262
+    },
+    {
+      "from": 265,
+      "to": 114
+    },
+    {
+      "from": 265,
+      "to": 228
+    },
+    {
+      "from": 266,
+      "to": 262
+    },
+    {
+      "from": 266,
+      "to": 121
+    },
+    {
+      "from": 267,
+      "to": 262
+    },
+    {
+      "from": 267,
+      "to": 117
+    },
+    {
+      "from": 268,
+      "to": 262
+    },
+    {
+      "from": 268,
+      "to": 98
+    },
+    {
+      "from": 268,
+      "to": 284
+    },
+    {
+      "from": 269,
+      "to": 262
+    },
+    {
+      "from": 269,
+      "to": 153
+    },
+    {
+      "from": 270,
+      "to": 262
+    },
+    {
+      "from": 270,
+      "to": 172
+    },
+    {
+      "from": 271,
+      "to": 262
+    },
+    {
+      "from": 271,
+      "to": 23
+    },
+    {
+      "from": 271,
+      "to": 242
+    },
+    {
+      "from": 272,
+      "to": 262
+    },
+    {
+      "from": 272,
+      "to": 179
+    },
+    {
+      "from": 272,
+      "to": 176
+    },
+    {
+      "from": 273,
+      "to": 262
+    },
+    {
+      "from": 273,
+      "to": 137
+    },
+    {
+      "from": 273,
+      "to": 141
+    },
+    {
+      "from": 274,
+      "to": 262
+    },
+    {
+      "from": 274,
+      "to": 103
+    },
+    {
+      "from": 275,
+      "to": 262
+    },
+    {
+      "from": 275,
+      "to": 147
+    },
+    {
+      "from": 276,
+      "to": 262
+    },
+    {
+      "from": 276,
+      "to": 82
+    },
+    {
+      "from": 277,
+      "to": 262
+    },
+    {
+      "from": 277,
+      "to": 78
+    },
+    {
+      "from": 277,
+      "to": 83
+    },
+    {
+      "from": 278,
+      "to": 262
+    },
+    {
+      "from": 278,
+      "to": 222
+    },
+    {
+      "from": 278,
+      "to": 58
+    },
+    {
+      "from": 279,
+      "to": 278
+    },
+    {
+      "from": 280,
+      "to": 279
+    },
+    {
+      "from": 280,
+      "to": 298
+    },
+    {
+      "from": 281,
+      "to": 185
+    },
+    {
+      "from": 281,
+      "to": 262
+    },
+    {
+      "from": 282,
+      "to": 232
+    },
+    {
+      "from": 282,
+      "to": 262
+    },
+    {
+      "from": 283,
+      "to": 13
+    },
+    {
+      "from": 283,
+      "to": 17
+    },
+    {
+      "from": 283,
+      "to": 22
+    },
+    {
+      "from": 284,
+      "to": 282
+    },
+    {
+      "from": 284,
+      "to": 283
+    },
+    {
+      "from": 285,
+      "to": 154
+    },
+    {
+      "from": 285,
+      "to": 157
+    },
+    {
+      "from": 286,
+      "to": 285
+    },
+    {
+      "from": 287,
+      "to": 285
+    },
+    {
+      "from": 287,
+      "to": 189
+    },
+    {
+      "from": 288,
+      "to": 285
+    },
+    {
+      "from": 288,
+      "to": 22
+    },
+    {
+      "from": 288,
+      "to": 165
+    },
+    {
+      "from": 289,
+      "to": 286
+    },
+    {
+      "from": 289,
+      "to": 167
+    },
+    {
+      "from": 289,
+      "to": 171
+    },
+    {
+      "from": 290,
+      "to": 85
+    },
+    {
+      "from": 290,
+      "to": 96
+    },
+    {
+      "from": 291,
+      "to": 290
+    },
+    {
+      "from": 292,
+      "to": 290
+    },
+    {
+      "from": 292,
+      "to": 153
+    },
+    {
+      "from": 293,
+      "to": 292
+    },
+    {
+      "from": 293,
+      "to": 147
+    },
+    {
+      "from": 293,
+      "to": 290
+    },
+    {
+      "from": 293,
+      "to": 103
+    },
+    {
+      "from": 294,
+      "to": 279
+    },
+    {
+      "from": 295,
+      "to": 294
+    },
+    {
+      "from": 296,
+      "to": 294
+    },
+    {
+      "from": 297,
+      "to": 294
+    },
+    {
+      "from": 297,
+      "to": 1
+    },
+    {
+      "from": 298,
+      "to": 294
+    },
+    {
+      "from": 298,
+      "to": 283
+    },
+    {
+      "from": 298,
+      "to": 279
+    },
+    {
+      "from": 299,
+      "to": 294
+    },
+    {
+      "from": 300,
+      "to": 299
+    },
+    {
+      "from": 301,
+      "to": 300
+    },
+    {
+      "from": 301,
+      "to": 136
+    },
+    {
+      "from": 302,
+      "to": 300
+    },
+    {
+      "from": 302,
+      "to": 136
+    },
+    {
+      "from": 303,
+      "to": 301
+    },
+    {
+      "from": 303,
+      "to": 302
+    },
+    {
+      "from": 304,
+      "to": 295
+    },
+    {
+      "from": 304,
+      "to": 296
+    },
+    {
+      "from": 305,
+      "to": 304
+    },
+    {
+      "from": 306,
+      "to": 304
+    },
+    {
+      "from": 307,
+      "to": 304
+    },
+    {
+      "from": 307,
+      "to": 305
+    },
+    {
+      "from": 308,
+      "to": 294
+    },
+    {
+      "from": 309,
+      "to": 308
+    },
+    {
+      "from": 309,
+      "to": 238
+    },
+    {
+      "from": 310,
+      "to": 300
+    },
+    {
+      "from": 310,
+      "to": 309
+    },
+    {
+      "from": 311,
+      "to": 310
+    },
+    {
+      "from": 311,
+      "to": 309
+    },
+    {
+      "from": 312,
+      "to": 310
+    },
+    {
+      "from": 313,
+      "to": 312
+    },
+    {
+      "from": 313,
+      "to": 295
+    },
+    {
+      "from": 313,
+      "to": 296
+    },
+    {
+      "from": 314,
+      "to": 313
+    },
+    {
+      "from": 315,
+      "to": 310
+    },
+    {
+      "from": 316,
+      "to": 310
+    },
+    {
+      "from": 317,
+      "to": 310
+    },
+    {
+      "from": 318,
+      "to": 315
+    },
+    {
+      "from": 319,
+      "to": 313
+    },
+    {
+      "from": 319,
+      "to": 318
+    },
+    {
+      "from": 319,
+      "to": 314
+    },
+    {
+      "from": 320,
+      "to": 319
+    },
+    {
+      "from": 320,
+      "to": 258
+    },
+    {
+      "from": 320,
+      "to": 58
+    },
+    {
+      "from": 321,
+      "to": 294
+    },
+    {
+      "from": 321,
+      "to": 305
+    },
+    {
+      "from": 322,
+      "to": 307
+    },
+    {
+      "from": 322,
+      "to": 130
+    },
+    {
+      "from": 323,
+      "to": 19
+    },
+    {
+      "from": 323,
+      "to": 22
+    },
+    {
+      "from": 323,
+      "to": 172
+    },
+    {
+      "from": 324,
+      "to": 176
+    },
+    {
+      "from": 324,
+      "to": 177
+    },
+    {
+      "from": 325,
+      "to": 324
+    },
+    {
+      "from": 325,
+      "to": 176
+    },
+    {
+      "from": 326,
+      "to": 182
+    },
+    {
+      "from": 326,
+      "to": 324
+    },
+    {
+      "from": 327,
+      "to": 19
+    },
+    {
+      "from": 327,
+      "to": 323
+    },
+    {
+      "from": 328,
+      "to": 185
+    },
+    {
+      "from": 328,
+      "to": 323
+    },
+    {
+      "from": 329,
+      "to": 323
+    },
+    {
+      "from": 329,
+      "to": 78
+    },
+    {
+      "from": 330,
+      "to": 182
+    },
+    {
+      "from": 331,
+      "to": 323
+    },
+    {
+      "from": 332,
+      "to": 184
+    },
+    {
+      "from": 332,
+      "to": 331
+    },
+    {
+      "from": 333,
+      "to": 323
+    },
+    {
+      "from": 333,
+      "to": 283
+    },
+    {
+      "from": 334,
+      "to": 323
+    },
+    {
+      "from": 335,
+      "to": 333
+    },
+    {
+      "from": 335,
+      "to": 334
+    },
+    {
+      "from": 335,
+      "to": 319
+    },
+    {
+      "from": 336,
+      "to": 198
+    },
+    {
+      "from": 336,
+      "to": 222
+    },
+    {
+      "from": 336,
+      "to": 264
+    },
+    {
+      "from": 337,
+      "to": 336
+    },
+    {
+      "from": 338,
+      "to": 337
+    },
+    {
+      "from": 339,
+      "to": 336
+    },
+    {
+      "from": 339,
+      "to": 201
+    },
+    {
+      "from": 339,
+      "to": 259
+    },
+    {
+      "from": 340,
+      "to": 336
+    },
+    {
+      "from": 340,
+      "to": 64
+    },
+    {
+      "from": 341,
+      "to": 336
+    },
+    {
+      "from": 342,
+      "to": 341
+    },
+    {
+      "from": 342,
+      "to": 339
+    },
+    {
+      "from": 342,
+      "to": 264
+    },
+    {
+      "from": 342,
+      "to": 278
+    },
+    {
+      "from": 343,
+      "to": 342
+    },
+    {
+      "from": 343,
+      "to": 55
+    },
+    {
+      "from": 343,
+      "to": 251
+    },
+    {
+      "from": 344,
+      "to": 343
+    },
+    {
+      "from": 344,
+      "to": 49
+    },
+    {
+      "from": 344,
+      "to": 64
+    },
+    {
+      "from": 345,
+      "to": 336
+    },
+    {
+      "from": 345,
+      "to": 315
+    },
+    {
+      "from": 346,
+      "to": 345
+    },
+    {
+      "from": 346,
+      "to": 319
+    },
+    {
+      "from": 347,
+      "to": 341
+    },
+    {
+      "from": 347,
+      "to": 64
+    },
+    {
+      "from": 348,
+      "to": 338
+    },
+    {
+      "from": 348,
+      "to": 347
+    },
+    {
+      "from": 349,
+      "to": 337
+    },
+    {
+      "from": 349,
+      "to": 338
+    },
+    {
+      "from": 349,
+      "to": 49
+    },
+    {
+      "from": 349,
+      "to": 221
+    },
+    {
+      "from": 350,
+      "to": 264
+    },
+    {
+      "from": 350,
+      "to": 294
+    },
+    {
+      "from": 350,
+      "to": 323
+    },
+    {
+      "from": 351,
+      "to": 336
+    }
+  ]
+}

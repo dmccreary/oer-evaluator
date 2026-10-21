@@ -1,0 +1,352 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Educational Resource,,OERF
+2,Open Educational Resource,1,OERF
+3,Open Textbook,2,OERF
+4,Copyright,,OERF
+5,Public Domain,4,OERF
+6,Free Resource,1,OERF
+7,Commercial Textbook,1|4,OERF
+8,Course Material Affordability,7,OERF
+9,Zero Textbook Cost Course,8|2,OERF
+10,The 5R Permissions,2|4,OERF
+11,Retain Permission,10,OERF
+12,Reuse Permission,10,OERF
+13,Revise Permission,10,OERF
+14,Remix Permission,10|13,OERF
+15,Redistribute Permission,10,OERF
+16,OER Adoption,2|8,OERF
+17,OER Adaptation,13|16,OERF
+18,OER Creation,2|14,OERF
+19,OER Repository,2|15,OERF
+20,Open Pedagogy,10|16,OERF
+21,Resource Selection,2|8|16,OERF
+22,Open License,2|4,LIC
+23,License Statement,22,LIC
+24,Creative Commons,22,LIC
+25,CC BY,24|32,LIC
+26,CC BY-SA,25|33,LIC
+27,CC BY-NC,25|34,LIC
+28,CC BY-NC-SA,27|33,LIC
+29,CC BY-ND,25|35,LIC
+30,CC BY-NC-ND,27|35,LIC
+31,CC0 Dedication,24|5,LIC
+32,Attribution Requirement,24,LIC
+33,ShareAlike Requirement,24,LIC
+34,NonCommercial Requirement,24,LIC
+35,NoDerivatives Requirement,24,LIC
+36,License Compatibility,26|28|29,LIC
+37,License Conflict,36,LIC
+38,Attribution Statement,32|23,LIC
+39,TASL Attribution Format,38,LIC
+40,Third-Party Content,4|22,LIC
+41,Fair Use,4,LIC
+42,Proprietary License,4|22,LIC
+43,All Rights Reserved,4|42,LIC
+44,License Selection,25|26|27|36,LIC
+45,OER Quality,2,RUB
+46,Quality Dimension,45,RUB
+47,Reusability Dimension,45|10,RUB
+48,Quality Rubric,45,RUB
+49,Ten-Metric Rubric,48|46|47,RUB
+50,Rubric Metric,49,RUB
+51,Metric Score,50,RUB
+52,Score Scale,51,RUB
+53,Scoring Descriptor,52,RUB
+54,Evidence for a Score,51,RUB
+55,Evidence Citation,54,RUB
+56,Quality Subtotal,51|46,RUB
+57,Reusability Subtotal,51|47,RUB
+58,Total Score,56|57,RUB
+59,Score Band,58,RUB
+60,Adoption Threshold,59|16,RUB
+61,Rubric Worksheet,49|54,RUB
+62,Review Checklist,48,RUB
+63,Review Report,58|55,RUB
+64,Reviewer,48,RUB
+65,Reviewer Bias,64,RUB
+66,Rubric Reliability,64|65|53,RUB
+67,Rubric Validity,48|66,RUB
+68,Inter-Rater Agreement,64|51,RUB
+69,Quality Versus Reusability,46|47|58,RUB
+70,Accuracy Metric,50|46,CQM
+71,Currency Metric,50|46,CQM
+72,Factual Error,70,CQM
+73,Fact Checking,72,CQM
+74,Source Citation,70,CQM
+75,Primary Source,74,CQM
+76,Secondary Source,74,CQM
+77,Citation Quality,74|75|76,CQM
+78,Outdated Content,71,CQM
+79,Publication Date,71,CQM
+80,Revision History,79|78,CQM
+81,Link Rot,78,CQM
+82,Broken Link Check,81,CQM
+83,Expert Review,73|72,CQM
+84,Alignment Metric,50|46|85,CQM
+85,Learning Outcome,,CQM
+86,Learning Objective,85,CQM
+87,Measurable Verb,86,CQM
+88,Standards Alignment,84|85,CQM
+89,Curriculum Map,85|88,CQM
+90,Bloom's Taxonomy,85,CQM
+91,Bloom Cognitive Levels,90|87,CQM
+92,Outcome Coverage,85|89,CQM
+93,Assessment Alignment,86|92,CQM
+94,Content Gap,92,CQM
+95,Scope and Sequence,89,CQM
+96,Prerequisite Knowledge,95,CQM
+97,Readability Metric,50|46,CQM
+98,Reading Level,97,CQM
+99,Readability Formula,98,CQM
+100,Flesch-Kincaid Grade Level,99,CQM
+101,Vocabulary Level,98,CQM
+102,Defined Terms,101,CQM
+103,Glossary,102,CQM
+104,Plain Language,98|101,CQM
+105,Jargon,101,CQM
+106,Text Structure,97,CQM
+107,Headings and Subheadings,106,CQM
+108,Audience Fit,98|96,CQM
+109,Worked Example,106|108,CQM
+110,Accessibility Metric,50|46|111,APM
+111,Accessibility,,APM
+112,WCAG,111,APM
+113,WCAG 2.1 AA,112,APM
+114,Alt Text,113,APM
+115,Decorative Image,114,APM
+116,Complex Image Description,114,APM
+117,Heading Structure,113|107,APM
+118,Color Contrast,113,APM
+119,Contrast Ratio,118,APM
+120,Color Independence,118,APM
+121,Captions,113,APM
+122,Transcript,121,APM
+123,Audio Description,121,APM
+124,Keyboard Navigation,113,APM
+125,Screen Reader,111,APM
+126,Link Text,125|113,APM
+127,Table Accessibility,125|113,APM
+128,Document Language,125,APM
+129,Accessible Math,125|113,APM
+130,Universal Design for Learning,111,APM
+131,Accessibility Checker,113|125,APM
+132,ARIA Labels,125|177,APM
+133,Practice Metric,50|46,APM
+134,Formative Assessment,133|86,APM
+135,Self-Check Question,134,APM
+136,Quiz,134,APM
+137,Multiple-Choice Question,136,APM
+138,Question Bank,137,APM
+139,Answer Key,137,APM
+140,Feedback Message,135|139,APM
+141,Immediate Feedback,140,APM
+142,Distractor Quality,137,APM
+143,Question Difficulty,137|91,APM
+144,Retrieval Practice,136,APM
+145,Spaced Practice,144,APM
+146,Interactive Simulation,133,APM
+147,MicroSim,146|177,APM
+148,Practice Problem,133,APM
+149,Worked Solution,148|109,APM
+150,Open License Metric,50|47|22,MDM
+151,License Clarity,150|23,MDM
+152,Modularity Metric,50|47,MDM
+153,Modular Content,152,MDM
+154,Standalone Component,153,MDM
+155,Component Granularity,153,MDM
+156,Cross-Reference Dependence,154,MDM
+157,Embeddable Component,154,MDM
+158,Metadata Metric,50|47,MDM
+159,Metadata Record,158,MDM
+160,Dublin Core,159,MDM
+161,Title Field,160,MDM
+162,Author Field,160,MDM
+163,Subject Field,160,MDM
+164,Grade Level Field,160,MDM
+165,License Field,160|22,MDM
+166,Description Field,160,MDM
+167,Keywords,163,MDM
+168,Controlled Vocabulary,167,MDM
+169,LRMI,159|164,MDM
+170,Schema.org Markup,159|177,MDM
+171,Machine-Readable Metadata,160|170,MDM
+172,Metadata Completeness,161|162|163|164|165|166,MDM
+173,Editable Source Metric,50|47,SRP
+174,Source Format,173,SRP
+175,Open File Format,174,SRP
+176,Markdown,175,SRP
+177,HTML,175,SRP
+178,Word Processing File,174,SRP
+179,PDF-Only Distribution,174,SRP
+180,Version Control,174,SRP
+181,Git,180,SRP
+182,GitHub Repository,181,SRP
+183,Fork,182|13,SRP
+184,Pull Request,182,SRP
+185,Changelog,180,SRP
+186,Portability Metric,50|47,SRP
+187,Browser Compatibility,186|177,SRP
+188,No-Login Access,186,SRP
+189,Iframe Embedding,157|177,SRP
+190,Link Sharing,188,SRP
+191,LMS Import,186|194,SRP
+192,Common Cartridge,191,SRP
+193,LTI Integration,191,SRP
+194,Export Format,186|175,SRP
+195,Responsive Layout,187,SRP
+196,Offline Access,186,SRP
+197,Platform Lock-In,179|188|194,SRP
+198,Manual Evaluation,49|61|64,MANU
+199,Evidence Recording,198|54,MANU
+200,Reviewer Notes,199,MANU
+201,Calibration Session,198|68,MANU
+202,Consensus Scoring,201|68,MANU
+203,Score Reconciliation,202,MANU
+204,Adopt Revise or Reject,58|60,MANU
+205,Adoption Decision,204|16,MANU
+206,Adoption Recommendation,205|63,MANU
+207,Review Workflow,62|198|63,MANU
+208,Reviewer Training,201|64,MANU
+209,AI Assistant,,AIA
+210,Large Language Model,209,AIA
+211,AI Agent,210,AIA
+212,Agent Skill,211,AIA
+213,Prompt,209,AIA
+214,Prompt Template,213,AIA
+215,System Prompt,213|211,AIA
+216,Context Window,210,AIA
+217,Token,210,AIA
+218,Document Ingestion,211|216,AIA
+219,Structured Output,213,AIA
+220,JSON Output,219,AIA
+221,Rubric Prompt,214|49|219,AIA
+222,Agent Scoring,221|211|218,AIA
+223,Agent Evaluation Report,222|63,AIA
+224,Batch Evaluation,222,AIA
+225,Few-Shot Example,213,AIA
+226,Role Prompting,213|215,AIA
+227,Prompt Iteration,213|222,AIA
+228,Tool Use,211,AIA
+229,File Access,228,AIA
+230,Agent Workflow,211|228|229,AIA
+231,Multi-Agent Review,230|222,AIA
+232,Human in the Loop,211|198,AIA
+233,Automated Link Checker,228|82,AIA
+234,Automated Accessibility Scan,228|131,AIA
+235,Automated License Detection,228|22|222,AIA
+236,Automated Readability Scan,228|99,AIA
+237,AI Cost,217|224,AIA
+238,Student Data Privacy,,AIA
+239,FERPA,238,AIA
+240,Hallucination,210,CHK
+241,Invented Citation,240|74,CHK
+242,License Misreading,240|23,CHK
+243,Overconfident Score,222|240,CHK
+244,Score Inflation,243,CHK
+245,Agent Error Type,240|241|242|243,CHK
+246,Verification Step,245,CHK
+247,Spot Check,246,CHK
+248,Source Verification,246|241|75,CHK
+249,Second-Agent Cross-Check,246|231,CHK
+250,Agent Disagreement,249|222,CHK
+251,Accept Correct or Reject,246|232,CHK
+252,Findings Log,251,CHK
+253,Agent Error Rate,245|252,CHK
+254,Agreement Rate,250|68,CHK
+255,Score Difference Threshold,254,CHK
+256,Mean Absolute Difference,254,CHK
+257,Cohen's Kappa,254|68,CHK
+258,Score Correlation,256,CHK
+259,Calibration Against Humans,255|256|201|222,CHK
+260,Prompt Refinement,227|259,CHK
+261,Run-to-Run Variance,222|256,CHK
+262,Improvement Plan,58|251,IMP
+263,Lowest Metric First,262|56|57,IMP
+264,Improvement Challenge,262|222|230,IMP
+265,AI Alt Text Generation,262|114|228,IMP
+266,Caption Generation,262|121,IMP
+267,Heading Repair,262|117,IMP
+268,Reading Level Rewrite,262|98|284,IMP
+269,Chapter Splitting,262|153,IMP
+270,Metadata Generation,262|172,IMP
+271,License Statement Repair,262|23|242,IMP
+272,PDF-to-Markdown Conversion,262|179|176,IMP
+273,Practice Question Generation,262|137|141,IMP
+274,Glossary Generation,262|103,IMP
+275,MicroSim Building,262|147,IMP
+276,Link Repair,262|82,IMP
+277,Content Update,262|78|83,IMP
+278,Re-Scoring,262|222|58,IMP
+279,Score Gain,278,IMP
+280,Before-and-After Comparison,279|298,IMP
+281,Change Log Entry,185|262,IMP
+282,Human Review of Changes,232|262,IMP
+283,Derivative Work,13|17|22,IMP
+284,Preserving Original Meaning,282|283,IMP
+285,Reusable Component,154|157,IMP
+286,Component Library,285,IMP
+287,Component Packaging,285|189,IMP
+288,Component Licensing,285|22|165,IMP
+289,Component Discoverability,286|167|171,IMP
+290,Learning Graph,85|96,IMP
+291,Concept Dependency,290,IMP
+292,Chapter Structure,290|153,IMP
+293,Intelligent Textbook,292|147|290|103,IMP
+294,A/B Test,279,ABT
+295,Control Group,294,ABT
+296,Treatment Group,294,ABT
+297,Original Version,294|1,ABT
+298,Improved Version,294|283|279,ABT
+299,Test Hypothesis,294,ABT
+300,Outcome Measure,299,ABT
+301,Pre-Test,300|136,ABT
+302,Post-Test,300|136,ABT
+303,Learning Gain,301|302,ABT
+304,Random Assignment,295|296,ABT
+305,Sample Size,304,ABT
+306,Confounding Variable,304,ABT
+307,Sampling Bias,304|305,ABT
+308,Informed Consent,294,ABT
+309,Student Privacy in Testing,308|238,ABT
+310,Data Collection,300|309,ABT
+311,Anonymized Data,310|309,ABT
+312,Mean Score,310,ABT
+313,Difference of Means,312|295|296,ABT
+314,Effect Size,313,ABT
+315,Student Survey,310,ABT
+316,Completion Rate,310,ABT
+317,Time on Task,310,ABT
+318,Qualitative Feedback,315,ABT
+319,Results Summary,313|318|314,ABT
+320,Rubric-Outcome Correlation,319|258|58,ABT
+321,Pilot Test,294|305,ABT
+322,Equity Consideration,307|130,ABT
+323,Publishing OER,19|22|172,PUB
+324,Static Site Generator,176|177,PUB
+325,MkDocs,324|176,PUB
+326,GitHub Pages,182|324,PUB
+327,OER Clearinghouse,19|323,PUB
+328,Release Notes,185|323,PUB
+329,Maintenance Plan,323|78,PUB
+330,Issue Tracking,182,PUB
+331,Feedback Channel,323,PUB
+332,Community Contribution,184|331,PUB
+333,Reuse Tracking,323|283,PUB
+334,Usage Analytics,323,PUB
+335,Impact Reporting,333|334|319,PUB
+336,Teacher Training Workshop,198|222|264,TRN
+337,Workshop Agenda,336,TRN
+338,Facilitator Guide,337,TRN
+339,Calibration Exercise,336|201|259,TRN
+340,Peer Review,336|64,TRN
+341,Certificate,336,TRN
+342,Certificate Requirements,341|339|264|278,TRN
+343,Certificate Submission,342|55|251,TRN
+344,Submission Review,343|49|64,TRN
+345,Exit Survey,336|315,TRN
+346,Training Evaluation,345|319,TRN
+347,Local Reviewer Role,341|64,TRN
+348,Train-the-Trainer,338|347,TRN
+349,Training Kit,337|338|49|221,TRN
+350,Capstone Project,264|294|323,TRN
+351,Professional Development,336,TRN
