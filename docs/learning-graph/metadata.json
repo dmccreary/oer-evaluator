@@ -1,0 +1,10 @@
+{
+  "title": "OER Evaluator",
+  "description": "Objective steps for evaluating and improving open educational resources (OER) on quality and reusability, using AI agents for automated assessment and student A/B tests to validate the results.",
+  "creator": "Dan McCreary",
+  "date": "2026-10-20",
+  "version": "1.0",
+  "format": "Learning Graph JSON v1.0",
+  "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+  "license": "CC BY-NC-SA 4.0 DEED"
+}
