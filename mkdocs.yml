@@ -41,8 +41,25 @@ nav:
 
   - Chapters:
       - List of Chapters: chapters/index.md
-      # Add chapter entries here as content is generated, e.g.:
-      # - 1. Introduction: chapters/01-introduction/index.md
+      - 1. Foundations of Open Educational Resources: chapters/01-foundations-of-oer/index.md
+      - 2. Open Licenses and Attribution: chapters/02-open-licenses-attribution/index.md
+      - 3. The Ten-Metric Rubric and Scoring: chapters/03-ten-metric-rubric-scoring/index.md
+      - 4. Open File Formats and Version Control: chapters/04-open-formats-version-control/index.md
+      - 5. Accuracy and Currency: chapters/05-accuracy-currency/index.md
+      - 6. Alignment and Readability: chapters/06-alignment-readability/index.md
+      - 7. Accessibility: chapters/07-accessibility/index.md
+      - 8. Practice and Feedback: chapters/08-practice-feedback/index.md
+      - 9. Modularity and Metadata: chapters/09-modularity-metadata/index.md
+      - 10. Portability and Reuse Across Platforms: chapters/10-portability-reuse/index.md
+      - 11. Manual Evaluation and Adoption Decisions: chapters/11-manual-evaluation-adoption/index.md
+      - 12. AI Agents, Prompts, and Rubric Scoring: chapters/12-ai-agents-prompts-scoring/index.md
+      - 13. Automated Checks, Cost, and Student Privacy: chapters/13-automated-checks-cost-privacy/index.md
+      - 14. Checking and Calibrating AI Agent Output: chapters/14-checking-agent-output/index.md
+      - 15. Improving a Resource with AI Agents: chapters/15-improving-resources-with-ai/index.md
+      - 16. Designing an A/B Test with Students: chapters/16-ab-testing-design/index.md
+      - 17. Analyzing A/B Test Results: chapters/17-ab-testing-analysis/index.md
+      - 18. Reusable Components and Publishing OER: chapters/18-components-publishing-oer/index.md
+      - 19. Training Teachers and Certifying Reviewers: chapters/19-training-certifying-reviewers/index.md
 
   - Learning Graph:
       - Introduction: learning-graph/index.md
