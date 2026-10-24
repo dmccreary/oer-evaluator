@@ -122,6 +122,8 @@ Every CC license is built from four elements. **Attribution (BY)** appears in si
 
 The MicroSim below puts three of these switches in your hands: flip ShareAlike and NonCommercial to watch the license name change and see which freedom each one takes away, and try to turn Attribution off.
 
+#### Diagram: Creative Commons License Switches
+
 <iframe src="../../sims/cc-license-switches/main.html" height="562px" width="100%" scrolling="no"></iframe>
 
 [Run the Creative Commons License Switches MicroSim Fullscreen](../../sims/cc-license-switches/main.html){ .md-button .md-button--primary }
