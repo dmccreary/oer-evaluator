@@ -1,8 +1,8 @@
 ---
 title: "Open Licenses and Attribution"
-description: "Explains open licenses, Creative Commons conditions and licenses, license compatibility, attribution, third-party content, fair use, and how to choose a license."
+description: "Explains the Creative Commons license family, its elements, attribution, and compatibility, so teachers can read a license, give correct credit, and choose a license for their own work."
 generated_by: claude skill chapter-content-generator
-date: "2026-10-20 20:28:35"
+date: "2026-10-23 21:41:53"
 version: 1.11
 ---
 
@@ -50,180 +50,595 @@ This chapter builds on concepts from:
 
 ---
 
-!!! mascot-welcome "Read the License Before You Build on It"
-    ![Echo the Loon waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
-    A license is the small print that decides whether you can adapt and share a resource or only look at it. By the end of this chapter you'll be able to read any license, give correct credit, and tell when two licensed pieces can safely go into one remix. Let's dive in and check the evidence!
+!!! mascot-welcome "Read the Fine Print Without Fear"
+    ![Echo waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    A license is only a few lines long, but it decides whether the lesson you love can travel to your classroom. By the end of this chapter you will read any Creative Commons license in under a minute, credit it correctly, and spot a conflict before it costs you a week of work. Let's dive in and check the evidence!
 
-Chapter 1 ended with a promise. An open license gives you the 5R permissions, but a few conditions come attached, and different licenses attach different ones. This chapter opens the small print. You will learn what an open license is, how to read the statement that names it, what each Creative Commons license allows, and how to combine and credit licensed work correctly. Sam, the biology teacher from Chapter 1, returns as the running example.
+Chapter 1 gave you the five permissions and the idea that an open license grants them in advance. This chapter looks at the licenses themselves. Open licenses do not all grant the same freedoms, and the differences decide whether you can translate a reading, sell a printed copy, or combine two resources into one packet.
 
-## Open and Proprietary Licenses
+You will learn the Creative Commons family of licenses, how to read a license statement, how to credit a creator correctly, how to tell when two licenses cannot be combined, and how to choose a license for your own work. Later chapters score how reusable a resource is, and every one of those scores starts from the vocabulary in this chapter.
 
-A **license** is a permission slip from the copyright owner. It does not move ownership. The creator still owns the copyright and simply says, in writing, what others may do. An **open license** is a public license that gives everyone advance permission to use, adapt, and share a work, usually on the condition that users follow stated terms such as giving credit.
+## What an Open License Grants
 
-Three features make a license open:
+An **open license** is a license in which the owner of a work gives everyone permission, in advance and at no charge, to do things that copyright would otherwise reserve to the owner. Chapter 1 defined a license as a statement of what others may do. An open license is one that grants the five R permissions (retain, reuse, revise, remix, and redistribute) to the whole public instead of to one person who asked.
 
-- **It is granted in advance and to everyone.** You do not need to write to the creator, because the permission is already on the page.
-- **It uses a standard, published text.** Many resources share the same license, so once you know a license you know every resource that carries it.
-- **It cannot be taken back from people who follow its terms.** A creator may stop sharing a resource, but anyone who already has a copy keeps the right to use it under the license. For a teacher, this means a resource you adopt today cannot be pulled out from under next year's course.
+Three features separate an open license from a one-time permission:
 
-Think of the difference between borrowing and receiving a gift. A library card lets you use a book on the library's terms, and the library can ask for it back. An open license is closer to a gift with the rules printed on the wrapper: once you accept the terms, the permission is yours to keep. The wrapper does not say the gift has no conditions, only that the conditions are known to everyone from the start.
+- **Public:** the owner offers it to everyone, not to a named person.
+- **In advance:** the owner grants it before anyone asks, usually by posting a notice on the work.
+- **Standing:** people who received the work under the license keep their rights, even if the owner later stops offering the work.
 
-Compare that with the other kind. A **proprietary license** is a license under which the owner keeps control and grants only narrow, specific permissions, often for a price. Buying a commercial textbook or subscribing to an online course gives you a proprietary license: you may read it or use it as the terms allow, and nothing more. Such terms often limit more than adaptation. They may bar you from sharing a login, printing the material, or using it after a subscription ends. The shortest way to say this is the phrase **all rights reserved**, which means the owner has kept every right copyright provides and has granted none in advance. As Chapter 1 explained, that is also the default for a work that carries no notice at all.
+Open licenses attach conditions. Every Creative Commons license except the public domain dedication, for example, requires credit to the creator. Conditions differ from license to license, and they decide how much you can do with a resource. A condition that asks something of you, such as giving credit, costs little. A condition that takes a freedom away, such as banning commercial use or banning changes, makes a license less open, and people disagree about how much less.
 
-Sam's open textbook chapter from Chapter 1, row 5, shows the difference in practice. Its page says it is licensed under CC BY 4.0, an open license. Because the permission is already granted, Sam can save a copy, rewrite three examples, translate the vocabulary list, and email the new version to the department without writing to anyone. Sam's publisher chapter, row 1, carries "all rights reserved," so each of those steps would need a request. The table sets the two kinds of license side by side.
+Some definitions of openness are strict. The Open Definition published by the Open Knowledge Foundation, for example, accepts only licenses that allow commercial use and changes. Many OER programs accept licenses that restrict commercial use, and fewer accept licenses that forbid changes. This book treats openness as a spectrum, and [Chapter 9](../09-modularity-metadata/index.md) shows how the rubric scores a resource's license along it.
 
-| Question | Open license | Proprietary license |
-|----------|--------------|---------------------|
-| Who gets permission? | Everyone, in advance | The buyer or subscriber, within the terms |
-| Can you adapt it and share the changes? | Yes, within the license's conditions | Only with the owner's separate permission |
-| Does it cost to use? | Usually free to access | Usually a price or subscription |
-| Can the owner withdraw it from people who follow the terms? | No | Often yes, for example when a subscription ends |
-| Where is it stated? | In a published license text | In a contract or terms of use |
+Standard licenses also beat homemade ones. Anyone can write "free to use for education" on a page, but the sentence leaves open whether it covers translation, sale, or sharing with a colleague. A standard license answers those questions in advance, it has been tested in courts, and search tools recognize it.
 
-Two misreadings are common. An open license is not the same as the public domain: the creator keeps the copyright, and the conditions still apply, starting with credit. And "open" says nothing about quality, a point Chapter 3 takes up when it introduces scoring.
+**Worked example: three notices.** Read each notice below and decide what kind of license it is.
 
-!!! mascot-thinking "A License Grants, It Doesn't Transfer"
-    ![Echo the Loon thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
-    Notice that when a creator applies an open license, they still own the work. They have only said "yes" to everyone in advance. Keep that in mind and the conditions will make sense, because they are the terms of that yes.
+| Text found on a page | What it is | Why |
+|---|---|---|
+| "This lesson plan is licensed under CC BY 4.0." | Open license | It grants permissions to everyone, with one stated condition: credit. |
+| "You may view this document for personal use. Copying, editing, or sharing requires written permission." | Proprietary license | Permission is narrow, and every other use needs a request. |
+| "© 2025 Example Press. All rights reserved." | All rights reserved | No license is granted, and every right is kept. |
 
-## Reading a License Statement
+!!! mascot-tip "Look in Three Places"
+    ![Echo giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    Look for a license in the page footer or "about" page, on the first or last page of the file, and in the file's properties. If all three are silent, treat the work as all rights reserved.
 
-How do you know which license applies? Look for the **license statement**, the short notice that names the license and usually links to its full text. Chapter 1 called this a rights notice. A typical one reads, "This work is licensed under CC BY 4.0." You will find it on a title page, in a footer, in the front matter of a book, or on a repository record page. Start with the page you are on, then the title page or front matter, then the footer, and finally any page labeled "rights" or "about." If you still find nothing, check the resource's record page in the repository where you found it.
+### Proprietary License
 
-Four things are worth reading in every statement:
+A **proprietary license** is a license that an owner writes to keep control of a work. It grants narrow permission, usually to view or use the work under stated terms, and reserves everything else. Common examples are a publisher's terms of use for a digital textbook, a software end-user license agreement, and a streaming site's terms of service. Proprietary does not mean unfair, and a publisher may have good reasons for its terms. For evaluation the point is practical: a proprietary license permits only the uses it lists, so read it before you assume anything else.
 
-1. **The license name.** It tells you the conditions, which later sections explain one by one.
-2. **The version.** Creative Commons licenses come in versions, and the current one is 4.0. Older resources may carry 3.0 or earlier, and the wording of the terms differs slightly between versions.
-3. **The conditions.** The letters in a name such as CC BY-NC-SA stand for conditions, which you will learn to decode in this chapter.
-4. **The scope.** A statement may cover the whole resource or only part of it. If it says "text only" or "images excluded," other parts are not covered and need their own check.
+### All Rights Reserved
 
-The table applies this reading to five statements Sam might meet. Each row gives the statement and what a careful reader takes from it. The conditions named in the table are defined in the sections that follow, so use it now as a preview and return to it later.
+**All rights reserved** is a notice that the owner keeps every right that copyright gives and has granted no license. In most countries a work is protected whether or not the notice appears, so a work with no notice at all is treated the same way. A work marked all rights reserved is the opposite of an open resource, because it grants none of the five R permissions in advance. You may still link to it, read it, and ask the owner for permission.
 
-| Statement on the page | License and version | Conditions | Scope | May Sam adapt and share it? |
-|-----------------------|---------------------|------------|-------|-----------------------------|
-| "This work is licensed under CC BY 4.0." | CC BY, version 4.0 | Credit the creator | Whole work | Yes, with credit |
-| "© 2023 Northfield Press. All rights reserved." | None | All rights reserved | Whole work | Not without permission |
-| "Text: CC BY-SA 4.0. Images: © their owners, see the credits page." | CC BY-SA 4.0 for text only | Credit the creator and share adaptations under the same license | Text only | Yes for the text; each image needs its own check |
-| "Licensed under CC BY-NC-ND 3.0." | CC BY-NC-ND, older version 3.0 | Credit, no commercial use, no adaptations | Whole work | Share unchanged only; no adapted versions |
-| "CC0 1.0 Universal." | CC0 | None | Whole work | Yes, with no conditions |
+## Creative Commons
 
-Row 3 deserves a second look. A single page can carry more than one license, and the safest reading is to treat each part separately. If a statement is missing, unclear, or contradicted elsewhere on the page, treat the resource as all rights reserved until you have confirmed otherwise, and ask the creator.
+**Creative Commons** (CC) is a nonprofit organization, founded in 2001, that publishes a standard set of open licenses anyone may apply to their own work. Before CC, an owner who wanted to share generously had to write a custom license and hope it held up. Now the owner picks one of the standard licenses and adds a notice. CC licenses work for text, images, audio, and video.
 
-Asking is simple. Sam, finding no statement on a colleague's slides, could write: "Hello Ana, I'd like to adapt your slides for my ninth-grade class and share the adapted version with my department. I could not find a license statement. Would you be willing to release the slides under CC BY 4.0, or tell me what uses you permit? Thank you, Sam." A reply in writing, even an email, gives Sam something to keep with the saved copy.
+Every CC license has three layers, so that people, lawyers, and software can each read it:
 
-## Creative Commons and Its Four Conditions
+- **Commons Deed:** a short plain-language summary that people can read in a minute.
+- **Legal code:** the full license text that a court would read.
+- **Machine-readable code:** metadata that lets search engines and software recognize the license.
 
-Writing a new license for every resource would be slow and risky, so most open resources share a small set of standard licenses. **Creative Commons** is a nonprofit organization that publishes the most widely used set of open licenses, first released in 2002. Each Creative Commons license comes in three layers. There is the legal text that a court would read, a plain-language summary that a teacher can read, and a machine-readable tag that search tools can read. The licenses are free to use, and you do not register a work to apply one.
+CC licenses also have versions, and the current one is 4.0. Terms differ slightly between versions, so a careful credit names the version.
 
-To see the layers, picture Sam opening the license link on the chapter's page. The first thing Sam sees is the deed, a one-page summary with icons that lists what is allowed and what conditions apply. A further link leads to the legal text. The page's own code also carries a small machine-readable tag naming the license, which lets a search tool filter results by license.
+**Worked example: finding the three layers.** A teacher opens a lesson page whose footer says "CC BY 4.0".
 
-Every Creative Commons license is built from four conditions. You can think of them as switches: one is always on, and three are optional.
+1. She clicks the footer link and reaches the Commons Deed, the plain-language summary.
+2. At the bottom of the Deed she finds a link to the legal code, the full text.
+3. She views the page source and finds a link marked `rel="license"`, which is the machine-readable layer that search tools use to filter by license.
 
-### Attribution
+## The Four License Elements
 
-The **attribution requirement** says you must give credit to the creator. It is in all six standard licenses. Credit means more than a name: you identify the creator, include the license notice and a link to the license, link to the original if you reasonably can, and say if you changed the material. A later section gives a simple format for this. Suppose Sam shares the revised chapter from Chapter 1. Sam's copies must carry the original authors' credit, the license notice, and a line saying Sam changed the examples. Credit never expires, and it applies each time the work is shared.
+Every CC license is built from four elements. **Attribution (BY)** appears in six of the seven CC tools, and the other three, **ShareAlike (SA)**, **NonCommercial (NC)**, and **NoDerivatives (ND)**, can be added to it. To read a CC license, read which elements it has. The sections below take the elements one at a time and then show how they combine into six licenses.
 
-What happens if Sam forgets the credit? Under version 4.0, a person who breaks the terms loses the license automatically, but the license is reinstated if the problem is fixed within 30 days of discovering it. A missing credit line is therefore easy to repair, and worth repairing quickly.
+!!! mascot-thinking "Think of Switches"
+    ![Echo thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    Picture the elements as switches on a panel. BY is always on, and each other switch you turn on takes a freedom away from the person who receives the work.
 
-### ShareAlike
+The MicroSim below puts three of these switches in your hands: flip ShareAlike and NonCommercial to watch the license name change and see which freedom each one takes away, and try to turn Attribution off.
 
-The **ShareAlike requirement** says that if you adapt the work and share your version, you must release your version under the same license, or a license the original's creator lists as compatible. The idea is to keep adaptations as open as the original. ShareAlike applies only when you share an adaptation. If you use a resource unchanged in your class, nothing is triggered. Imagine Sam revises a CC BY-SA chapter and posts it for other teachers. Sam must post it under CC BY-SA too. Sam may not lock the revised chapter behind a fee or add stricter terms.
+#### Diagram: Creative Commons License Switches
 
-ShareAlike does not stop Sam from selling copies of the revised chapter or using it on a paid course platform, because the license allows commercial use. What it forbids is changing the license. It also does not reach Sam's own separate work: if Sam places the open chapter beside Sam's handouts without blending them into one, the handouts are usually not adaptations and keep their own terms.
+<iframe src="../../sims/cc-license-switches/main.html" height="562px" width="100%" scrolling="no"></iframe>
 
-### NonCommercial
+[Run the Creative Commons License Switches MicroSim Fullscreen](../../sims/cc-license-switches/main.html){ .md-button .md-button--primary }
 
-The **NonCommercial requirement** says that you may not use the work for purposes that are primarily intended for commercial advantage or monetary compensation. It is the hardest condition to apply, because "commercial" is a matter of purpose and context, not a bright line. A teacher who shares a chapter free with students is clearly acting non-commercially. A company that sells training built from the chapter clearly is not. The middle is less clear: a school that charges tuition, a teacher who sells a revised version on a lesson-sharing site, a tutoring company. Creative Commons advises asking the creator when a use is unclear. Because of this uncertainty, NonCommercial narrows reuse more than it first appears to.
+### Attribution Requirement
 
-The table lists some typical readings. They are not legal rulings, and the last two rows show why asking the creator matters.
+The **attribution requirement** means that anyone who shares the work must give credit to its creator. Under the 4.0 licenses, credit includes the creator's name, any copyright notice the creator supplied, a statement of which license applies and a link to it, a link to the work where practical, and a note of any changes you made. You may give credit in any reasonable way for your medium, such as a caption under an image, a credits slide, or a references page. Credit must not suggest that the creator endorses you or your use.
 
-| Use | Typical reading |
-|-----|-----------------|
-| A teacher gives free copies to their own students | Noncommercial |
-| A teacher posts the chapter on a free class website | Noncommercial |
-| A company sells printed copies of the chapter | Commercial |
-| A for-profit tutoring service gives it to paying clients | Commercial |
-| A school that charges tuition uses it in a course | Unclear: ask the creator |
-| A teacher sells a revised version on a lesson marketplace | Likely commercial: ask the creator |
+Credit works in both directions. A creator may ask you to remove their name from a work you have adapted, and the license requires you to do so as far as is reasonably practicable. Credit also does not require the creator's approval. The license grants permission in advance, so you do not need to email the author before you reuse the work.
 
-### NoDerivatives
+**Worked example: crediting a diagram.** A teacher puts an openly licensed diagram of the water cycle on a slide.
 
-The **NoDerivatives requirement** says you may share the work only in its original form. A derivative is a new work built from the original, such as a revision, a translation, or a remix. Under ND, Sam could assign the chapter and pass the unchanged copy to colleagues, but could not share a revised version. That blocks the Revise and Remix permissions in practice. For that reason many OER programs, funders, and repositories do not treat ND-licensed work as open.
+1. She keeps the creator's name, the title, and the link to the original.
+2. She writes the license name and version, with a link to the license.
+3. She places all of this in a small caption under the diagram, because that is where a viewer looks for it.
 
-ND does leave room for private changes. Creative Commons licenses let anyone adapt a work for their own use without sharing the result, so Sam could translate the vocabulary list into a personal copy. What ND forbids is sharing the translated list with others. That distinction explains why ND can feel open to a reader yet fail the test for OER, which depends on teachers sharing their improvements.
+### CC BY
 
-!!! mascot-thinking "Four Switches"
-    ![Echo the Loon thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
-    Picture every Creative Commons license as four switches: Attribution is always on, and ShareAlike, NonCommercial, and NoDerivatives can each be on or off. The six licenses are simply the six combinations that make sense, and you can decode any name by reading its letters.
+**CC BY**, the Attribution license, has one element: BY. It lets anyone retain, reuse, revise, remix, and redistribute the work, including for money, as long as they credit the creator. It is the most open of the six licenses. Many open textbooks and publicly funded projects choose it, and some funders require it. Choose it when you want your work to travel as far as possible and you accept that others will profit from it and change it. Anyone who adapts the work must note their changes, so readers can tell your words from theirs.
 
-## The Six Licenses and CC0
+**Worked example: commercial reuse of a CC BY worksheet.** A district posts a revised CC BY worksheet, and a for-profit tutoring company puts it into a paid course. The license allows this. The company must credit the district and note its changes, but the district cannot stop the sale or demand payment. A creator who is uncomfortable with that outcome should pick a different license before sharing, because the choice cannot be reversed later for copies already out in the world.
 
-Combining the switches gives six standard licenses. We take them from the most open to the most restrictive.
+### ShareAlike Requirement
 
-The **CC BY** license has only the attribution requirement. Users may copy, adapt, share, and even sell the work, provided they credit the creator and note changes. Because it grants all five permissions with one condition, CC BY is the usual choice of publishers and funders that want maximum reuse. OpenStax, the open textbook publisher from Chapter 1, uses it for most of its books. If Sam's chapter is CC BY, Sam may revise it, include it in a paid workshop packet, or hand it to another teacher, all with credit.
+The **ShareAlike requirement** means that if you share an adaptation, you must license it under the same license, or under one that the license lists as compatible. The aim is to keep improvements open: each new version carries the same freedoms as the one before it. The requirement applies only when you adapt the work. Sharing an unchanged copy brings no extra burden beyond credit. People call this approach *copyleft*, a play on the word copyright: the license uses copyright law to keep a work free instead of to restrict it. The trade-off is that a ShareAlike work cannot move to a less restrictive license, even to another open license that lacks the ShareAlike condition.
 
-The **CC BY-SA** license adds ShareAlike. It grants all five permissions, and adaptations must stay under the same license. Wikipedia's text carries it, which is why articles can be copied into other projects that use the same license.
+**Worked example: translating a ShareAlike reading.** A teacher translates a CC BY-SA reading into Spanish and posts it.
 
-In practice, Sam can combine a CC BY-SA diagram with a CC BY photo and publish the result as CC BY-SA. The ShareAlike condition travels with the diagram, and the credit travels with both.
+1. She credits the original creator and notes that she translated it.
+2. She marks the translation CC BY-SA, because ShareAlike requires the same license.
+3. She cannot relabel the translation as CC BY, since that would remove the ShareAlike condition from the original.
 
-The **CC BY-NC** license adds NonCommercial. It grants the five permissions for noncommercial purposes only. A teacher may revise and share a CC BY-NC chapter free of charge, but a company may not sell it, and a revised version Sam posts for sale on a lesson-sharing site would be doubtful. Because the license does not require adaptations to use the same license, they may be shared under other noncommercial terms.
+### CC BY-SA
 
-Suppose Sam's chapter were CC BY-NC. Sam could revise it and post it free for the whole district. A private company running a paid summer course could not use it without the creators' permission.
+**CC BY-SA** combines BY and SA. It allows all five R permissions, including commercial use, and requires every adaptation to carry CC BY-SA too. The text of Wikipedia uses this license, which is why many remixes of Wikipedia text must also be CC BY-SA. The trade-off is compatibility: a ShareAlike work cannot be blended with works whose licenses demand something different, as the section on combining works shows.
 
-The **CC BY-NC-SA** license combines both: noncommercial use only, and adaptations must carry the same license. It is popular with some college courseware.
+### NonCommercial Requirement
 
-A college that adapts a CC BY-NC-SA statistics text must release its version under CC BY-NC-SA and may not sell it. The combination suits communities that want sharing but no sale, and the price is the narrowest mixing of the open-leaning licenses, as the compatibility table later in this chapter shows.
+The **NonCommercial requirement** means that you may not use the work in a way that is primarily intended for commercial advantage or monetary compensation. The words sound clear, but their edges are not. Creative Commons itself has found that people disagree about whether a use is commercial. The table below gives a likely reading for four uses of a CC BY-NC worksheet, and it is a guide rather than legal advice.
 
-The **CC BY-ND** license adds NoDerivatives. Users may share the unchanged work, with credit, even commercially, but may not share adaptations. It does not grant the Revise or Remix permissions for sharing, so it is generally not counted as an OER license.
+| Use of the worksheet | Likely reading | Reason |
+|---|---|---|
+| A teacher hands it out in a public school class | Allowed | No one earns money from it. |
+| A blog with paid advertising posts it | Not allowed | The advertising income makes the use commercial. |
+| A tutoring company uses it in paid sessions | Not allowed | The company earns money from the use. |
+| A nonprofit workshop charges $20 to cover room and printing costs | Unclear | Cost recovery is a gray area, so ask the owner. |
 
-A pamphlet under CC BY-ND can be reprinted and handed out whole, but a teacher who trims it to one page and distributes the trimmed version has gone past what the license allows.
+!!! mascot-warning "NonCommercial Is Blurrier Than It Sounds"
+    ![Echo warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    Advertising, cost recovery, and paid workshops are gray areas that even experts argue about. If your use touches money in any way, ask the owner in writing before you rely on the work, or choose a resource under a more open license.
 
-The **CC BY-NC-ND** license is the most restrictive: credit, noncommercial use, and no adaptations. Users may share the work as is and nothing more.
+### CC BY-NC
 
-It suits a speech or an artwork whose creator wants it shared but left untouched. For teaching materials it is rarely the right choice, because nobody can improve the resource.
+**CC BY-NC** combines BY and NC. It allows all five R permissions for noncommercial use and requires credit. Teachers like it because it feels protective, but it limits reuse in ways that surprise people. A paid course, a publisher, and a school that sells materials to families may all fall outside it, and a work under CC BY-NC cannot be blended into a resource that allows commercial use. NC can exclude more than people expect: a private school that charges tuition, or a district vendor that bundles materials, may fall outside the license. When you cannot tell whether your setting counts as noncommercial, ask the owner.
 
-One further tool sits outside the six. The **CC0 dedication** is a statement by which a creator gives up copyright and related rights as far as the law allows, putting the work as close to the public domain as possible. Where a full waiver is not possible, CC0 acts as a license with no conditions. No credit is legally required, though citing the source is good practice. A creator uses CC0 to remove every barrier.
+**Worked example: adapting a CC BY-NC reading.** A teacher wants to rewrite a CC BY-NC reading and publish the result as a CC BY resource.
 
-CC0 is common for data sets, government releases, and images that a creator wants anyone to build on. Sam can use a CC0 diagram exactly as Sam would use a public domain one.
+1. She checks the original license and finds NC.
+2. She sees that releasing her version as CC BY would let anyone sell it, which the original forbids.
+3. She decides to publish her version under CC BY-NC, or CC BY-NC-SA, so that the noncommercial limit stays in place.
 
-The table summarizes the six licenses and CC0. It uses only conditions already explained above.
+The MicroSim below tests your judgment on ten uses of a CC BY-NC worksheet. For each use you decide whether it is clearly allowed, unclear, or likely not allowed. The goal is to learn where the clear cases end and the gray area begins, so that you know when to ask the owner.
 
-| License | Credit | Share adaptations under same license | Noncommercial only | No adaptations | Gives all 5R permissions? |
-|---------|--------|--------------------------------------|--------------------|----------------|---------------------------|
-| CC BY | Required | No | No | No | Yes |
-| CC BY-SA | Required | Yes | No | No | Yes, adaptations keep the license |
-| CC BY-NC | Required | No | Yes | No | Yes, for noncommercial use |
-| CC BY-NC-SA | Required | Yes | Yes | No | Yes, for noncommercial use |
-| CC BY-ND | Required | Not applicable | No | Yes | No, Revise and Remix are blocked |
-| CC BY-NC-ND | Required | Not applicable | Yes | Yes | No, Revise and Remix are blocked |
-| CC0 | Not required | No | No | No | Yes, with no conditions |
+#### Diagram: NonCommercial Gray Area Sorter
 
-!!! mascot-warning "NonCommercial Is Blurrier Than It Looks"
-    ![Echo the Loon warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
-    "Noncommercial" depends on purpose, so a school charging tuition or a teacher selling a revised version may fall on the wrong side. When a use is unclear, ask the creator in writing, or choose a resource with a plain CC BY license.
+<details markdown="1">
+<summary>NonCommercial Gray Area Sorter</summary>
+Type: microsim
+**sim-id:** noncommercial-gray-area-sorter<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Evaluate<br/>
+**Bloom Verb:** judge<br/>
+**Learning Objective:** The learner will judge whether each of ten uses of a CC BY-NC resource is clearly allowed, unclear, or likely not allowed, with at least 8 of 10 correct on the first attempt.
 
-## Combining Licensed Works
+**Prerequisites:** NonCommercial Requirement, CC BY-NC, Attribution Requirement (all defined in this chapter above this block).
 
-Remixing, which Chapter 1 defined as combining open resources into something new, brings two licenses into one place. **License compatibility** is the property of two licenses that can be satisfied at the same time, so that a remix of works under both can legally be shared under one license. When the terms do not agree, they are incompatible.
+**Evidence of Mastery:** For each use the learner commits one of three bins. A placement is correct when it matches the Correct bin column in Content. Mastery is at least 8 of 10 correct on the first attempt. Reading the bin definitions is exploration, not evidence.
 
-The reasoning follows the four conditions. Credit combines with everything, so a CC BY work mixes freely with the others, and the remix takes the more restrictive terms of its parts. A ShareAlike work demands that the whole remix carry its license, so it cannot also be combined with a work whose terms forbid that license, such as a NonCommercial work, because a ShareAlike license permits commercial use and a NonCommercial one does not. Works under ND cannot be remixed at all, because the license forbids sharing adaptations. CC0 and public domain works combine with anything.
+**Misconceptions:** (1) NonCommercial means free of charge. (2) A nonprofit is always noncommercial. (3) Selling at cost is always noncommercial. (4) Advertising on a free page does not count as commercial.
 
-The table shows what a remix of two works must carry. Read it as "work under the license in the row, mixed with work under the license in the column." The version applies to the 4.0 licenses.
+**Instructional Rationale:** Judging a use against a criterion is an Evaluate-level action, and the NonCommercial criterion is vague enough to need judgment. Three bins, including an explicit "unclear" bin, teach the learner that ask-the-owner is a valid answer and not a failure to decide.
 
-| Mixed with | CC BY | CC BY-SA | CC BY-NC | CC BY-NC-SA | CC BY-ND |
-|------------|-------|----------|----------|-------------|----------|
-| **CC BY** | CC BY | CC BY-SA | CC BY-NC | CC BY-NC-SA | Cannot remix |
-| **CC BY-SA** | CC BY-SA | CC BY-SA | Cannot combine | Cannot combine | Cannot remix |
-| **CC BY-NC** | CC BY-NC | Cannot combine | CC BY-NC | CC BY-NC-SA | Cannot remix |
-| **CC BY-NC-SA** | CC BY-NC-SA | Cannot combine | CC BY-NC-SA | CC BY-NC-SA | Cannot remix |
+**Content:**
 
-Sam's study guide from Chapter 1 shows the result. Sam wanted a plant-cell diagram licensed CC BY-SA 4.0 and a quiz licensed CC BY-NC 4.0. The table says "Cannot combine." This is a **license conflict**: the terms of the two licenses contradict each other, so no single license can satisfy both and the combined work cannot be legally shared. Sam has three ways out. Sam can replace the quiz with a CC BY quiz, write a new one, or ask the quiz's creator for permission in writing. Keeping the two pieces as separate, unchanged items in a collection may also work, but it depends on how closely they are blended.
+The criterion, shown at all times: a use is noncommercial when it is not primarily intended for or directed toward commercial advantage or monetary compensation.
 
-Version matters a little here. The table applies to the 4.0 licenses, and older versions follow their own rules, so when you are unsure, check the compatibility chart that Creative Commons publishes.
+The three bins:
 
-!!! mascot-encourage "The Matrix Looks Worse Than It Is"
-    ![Echo the Loon encouraging](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
-    If that table feels like a lot, that's normal, because almost everyone looks it up instead of memorizing it. You already know the rule behind it: ShareAlike and NonCommercial pull in opposite directions, and NoDerivatives blocks remixing. Try the checker below and the pattern will settle.
+- Clearly allowed: no one earns money from the use.
+- Unclear: ask the owner: the use touches money in a way reasonable people disagree about.
+- Likely not allowed: the use earns money or is directed toward earning it.
+
+The ten uses of a CC BY-NC worksheet:
+
+| # | Use shown to the learner | Correct bin | Why (shown as feedback) |
+|---|---|---|---|
+| 1 | A public-school teacher hands the worksheet out in class. | Clearly allowed | No one earns money from the use. |
+| 2 | A teacher posts the worksheet on a free class website with no advertising. | Clearly allowed | No payment or advertising income is involved. |
+| 3 | A blog with paid advertising posts the worksheet. | Likely not allowed | The advertising income makes the use commercial. |
+| 4 | A tutoring company uses the worksheet in sessions that parents pay for. | Likely not allowed | The company earns money from sessions that use the worksheet. |
+| 5 | A nonprofit workshop charges $20 to cover room and printing costs. | Unclear: ask the owner | Cost recovery is a gray area, because the charge is not profit but is still payment. |
+| 6 | A university department prints copies and sells them at cost in its bookstore. | Unclear: ask the owner | Selling at cost is a gray area, because the sale is not for profit but is still a sale. |
+| 7 | A publisher sells a printed edition for profit. | Likely not allowed | Sale for profit is commercial advantage. |
+| 8 | A teacher places the worksheet in a paid online course on a marketplace. | Likely not allowed | The course earns money from learners who pay for it. |
+| 9 | Teachers exchange the worksheet through a free file-sharing group, with no payment. | Clearly allowed | An exchange with no payment is noncommercial. |
+| 10 | A school district uses the worksheet in free training for its own teachers. | Clearly allowed | No one is charged, and the use is not directed toward earning money. |
+
+**Provenance:** The criterion is the Creative Commons definition of NonCommercial, paraphrased in the chapter section "NonCommercial Requirement". The ten uses are illustrative cases written for this chapter, and the sim labels them "illustrative examples". The sim states that the bins are a likely reading and not legal advice.
+
+**Rules:** Each use has exactly one correct bin. Only the "Clearly allowed" bin means no permission is needed. The "Unclear" bin is a valid answer, and it is correct for exactly the uses marked Unclear in the table.
+
+**Learner Activity:**
+
+1. The learner sees one use at a time, with the criterion and the three bins.
+2. The learner places the use in a bin, and the placement is committed.
+3. The sim shows whether it was correct and the Why text.
+4. After the 10th use the sim shows the summary.
+
+**Feedback:** 10 uses in a shuffled order, one attempt each. Correct: "Correct: [bin]. [Why]". Incorrect: "Not quite. This is [bin]. [Why]". The summary shows "[n] of 10 correct on the first attempt". At 8 or more it adds "You can spot when to ask the owner." Below 8 it lists the Why text of each missed use.
+
+**Starting State:** The first use, the criterion, and the three empty bins. The question shown is "Is this use allowed under CC BY-NC?"
+
+**Chapter Anchors:** The chapter's table of four uses agrees with this sim: the classroom handout is allowed (use 1), the advertising blog is not allowed (use 3), the tutoring company is not allowed (use 4), and the $20 nonprofit workshop is unclear (use 5).
+</details>
+
+### CC BY-NC-SA
+
+**CC BY-NC-SA** adds ShareAlike to CC BY-NC. Credit is required, use must be noncommercial, and every adaptation must carry CC BY-NC-SA. It is a common choice for course materials from universities. It is also easy to get stuck with, because it cannot be combined with a CC BY-SA work: one requires noncommercial use and the other requires that commercial use remain possible.
+
+### NoDerivatives Requirement
+
+The **NoDerivatives requirement** means that you may share the work only as it is. You may not share a version that you have changed. The license does not forbid private changes, so you may adjust a copy for your own study, but sharing that adjusted copy is not allowed. In an OER setting this limit is severe, because it blocks the revise and remix permissions for anyone who wants to share the result.
+
+**Worked example: alt text on an ND chapter.** A teacher finds a CC BY-ND chapter whose images lack alt text.
+
+1. She may add alt text to a copy for her own reading.
+2. Giving that changed copy to students or colleagues counts as sharing, and the license does not allow it.
+3. She can ask the owner for permission to share the improved version, or she can choose a resource that allows changes.
+
+!!! mascot-warning "ND Blocks the Fixes This Book Teaches"
+    ![Echo warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    Adding alt text, lowering a reading level, and fixing an error all change the work, so an ND license stops you from sharing any of them. If sharing the improved version matters to you, ask the owner for written permission or pick a different resource.
+
+### CC BY-ND
+
+**CC BY-ND** combines BY and ND. You may share the unchanged work, including commercially, with credit. You may not share any changed version, whether it is a translation, a summary, or a remix. It suits a creator who wants wide distribution of a finished piece, such as a report, and no variations.
+
+### CC BY-NC-ND
+
+**CC BY-NC-ND** combines all three restrictions. You may share the unchanged work, for noncommercial purposes only, with credit. It is the most restrictive of the six licenses and the one that gives teachers the least to work with. A resource under it can be read, assigned, and passed along, but it cannot be improved and shared.
+
+### CC0 Dedication
+
+The **CC0 dedication**, written CC0 1.0 Universal, is a Creative Commons tool for placing a work in the public domain. It is not a license that adds conditions. The creator gives up copyright and related rights as far as the law of their country allows, and where the law does not allow giving them up, CC0 acts as a license with no conditions. Credit is not legally required for CC0 work, though giving credit is good practice and helps readers find the source. Creators use CC0 for data sets, quiz banks, and other material where they want no friction at all.
+
+## The Six Licenses Together
+
+The four elements combine into six licenses. ShareAlike and NoDerivatives never appear together, because ShareAlike governs adaptations that NoDerivatives forbids you to share. The table summarizes what each license allows, with CC0 added for comparison.
+
+| License | Elements | Share unchanged | Share a changed version | Commercial use | Rule for changed versions |
+|---|---|---|---|---|---|
+| CC0 | None | Yes | Yes | Yes | None |
+| CC BY | BY | Yes | Yes | Yes | Keep the credit and note changes |
+| CC BY-SA | BY, SA | Yes | Yes | Yes | Same license, CC BY-SA |
+| CC BY-NC | BY, NC | Yes | Yes | No | Stay noncommercial |
+| CC BY-NC-SA | BY, NC, SA | Yes | Yes | No | Same license, CC BY-NC-SA |
+| CC BY-ND | BY, ND | Yes | No | Yes | Sharing a changed version is not allowed |
+| CC BY-NC-ND | BY, NC, ND | Yes | No | No | Sharing a changed version is not allowed |
+
+Creative Commons orders the licenses from most to least permissive: CC0, CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, CC BY-ND, and CC BY-NC-ND. Each step down takes away a freedom from the person receiving the work. The first MicroSim below makes this concrete. You switch elements on and off, predict what a license allows, and check your prediction against the license's actual terms.
+
+#### Diagram: Creative Commons Element Explorer
+
+<details markdown="1">
+<summary>Creative Commons Element Explorer</summary>
+Type: microsim
+**sim-id:** cc-element-explorer<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Understand<br/>
+**Bloom Verb:** infer<br/>
+**Learning Objective:** The learner will infer whether each of five actions is allowed under a given Creative Commons license by reasoning from its elements, with at least 7 of 8 predictions correct on the first attempt.
+
+**Prerequisites:** Attribution Requirement, ShareAlike Requirement, NonCommercial Requirement, NoDerivatives Requirement, CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, CC BY-ND, CC BY-NC-ND (all defined in this chapter above this block).
+
+**Evidence of Mastery:** The learner commits a Yes or No for each of 8 prompts before the answer is shown. A prediction is correct when it matches the Correct answer column in Content. Mastery is at least 7 of 8 correct on the first attempt. Switching elements on and off in explore mode is exploration, not evidence.
+
+**Misconceptions:** (1) NoDerivatives forbids all changes, including private ones. (2) NonCommercial only forbids selling the exact file. (3) ShareAlike applies to unchanged copies. (4) Any element can be combined with any other.
+
+**Instructional Rationale:** Inferring is an Understand-level action, so the learner must reason from the elements to a result instead of reading it from a chart. Explore mode lets the learner build the mental model first, and committed predictions afterward make them test it before the answer appears.
+
+**Content:**
+
+The four elements: BY (Attribution), SA (ShareAlike), NC (NonCommercial), ND (NoDerivatives). BY is always on. SA and ND cannot both be on, and the sim explains why: ShareAlike governs adaptations that NoDerivatives forbids anyone to share.
+
+The five actions:
+
+- A1: Post an unchanged copy on your website, with credit.
+- A2: Post a translated version.
+- A3: Sell printed copies for profit.
+- A4: Publish a remix of it under CC BY.
+- A5: Change it privately for your own use and do not share it.
+
+The result for each license and action:
+
+| License | A1 | A2 | A3 | A4 | A5 |
+|---|---|---|---|---|---|
+| CC BY | Yes | Yes | Yes | Yes | Yes |
+| CC BY-SA | Yes | Yes (translation must be CC BY-SA) | Yes | No (remix must be CC BY-SA) | Yes |
+| CC BY-NC | Yes | Yes (noncommercial only) | No | No (CC BY would allow commercial use) | Yes |
+| CC BY-NC-SA | Yes | Yes (must be CC BY-NC-SA) | No | No | Yes |
+| CC BY-ND | Yes | No (ND forbids sharing changes) | Yes | No | Yes |
+| CC BY-NC-ND | Yes | No | No | No | Yes |
+
+The eight predictions, in this order:
+
+| # | License | Action | Correct answer | Why (shown as feedback) |
+|---|---|---|---|---|
+| 1 | CC BY-SA | A2 | Yes | Translations are allowed, and the translation must carry CC BY-SA. |
+| 2 | CC BY-ND | A2 | No | ND forbids sharing a changed version, and a translation is a change. |
+| 3 | CC BY-NC | A3 | No | NC forbids use directed toward monetary compensation. |
+| 4 | CC BY | A3 | Yes | BY allows commercial use with credit. |
+| 5 | CC BY-NC-ND | A5 | Yes | ND blocks sharing changed versions, not private changes. |
+| 6 | CC BY-SA | A4 | No | SA requires the remix to carry CC BY-SA, not CC BY. |
+| 7 | CC BY-NC-SA | A2 | Yes | A translation is allowed if it is noncommercial and carries CC BY-NC-SA. |
+| 8 | CC BY-ND | A1 | Yes | ND allows sharing the unchanged work with credit. |
+
+**Provenance:** The result table applies the element definitions in the chapter sections "The Four License Elements" and "The Six Licenses Together". The actions are illustrative cases written for this chapter, and the sim labels them "illustrative examples".
+
+**Rules:** A license is the set of elements switched on, and only the six valid combinations exist. A1 is Yes for every license because every license allows sharing the unchanged work with credit. A5 is Yes for every license because no license forbids private changes. For every other cell, apply the result table. The sim states that the table follows the 4.0 licenses and is a study aid, not legal advice.
+
+**Learner Activity:**
+
+1. In explore mode the learner switches NC, SA, and ND on or off. BY stays on, and turning on SA while ND is on, or the reverse, shows the explanation instead of a change.
+2. After each switch the sim shows the license name and the Yes or No result for all five actions, with the reason for each No.
+3. When the learner is ready, prediction mode starts. The sim shows prediction 1 and asks "Allowed?" with Yes and No.
+4. The learner commits an answer, and the sim shows the correct answer with the Why text.
+5. After prediction 8 the sim shows the summary.
+
+**Feedback:** 8 predictions in the fixed order, one attempt each. Correct: "Correct: [answer]. [Why]". Incorrect: "Not quite. The answer is [answer]. [Why]". The summary shows "[n] of 8 correct on the first attempt". At 7 or more it adds "You can read a license from its elements." Below 7 it lists the Why text of each missed prediction.
+
+**Starting State:** The BY element on, the other three off, the license shown as "CC BY", and the question "What does this license allow?"
+
+**Chapter Anchors:** The chapter says the elements combine into six licenses and that SA and ND never appear together. The chapter's table "The Six Licenses Together" agrees with this result table for sharing unchanged copies, sharing changed versions, and commercial use.
+</details>
+
+The second MicroSim is a comparison poster. A poster suits the six licenses because the reader's question is "which license is which?", and a labeled picture with hover zones answers it faster than a paragraph.
+
+#### Diagram: Six Creative Commons Licenses Poster
+
+<details markdown="1">
+<summary>Six Creative Commons Licenses Poster</summary>
+Type: infographic
+**sim-id:** six-cc-licenses-poster<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Remember<br/>
+**Bloom Verb:** identify<br/>
+**Learning Objective:** The learner will identify which of the six Creative Commons licenses matches each of six descriptions, with at least 5 of 6 correct on the first attempt.
+
+**Prerequisites:** CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, CC BY-ND, CC BY-NC-ND (all defined in this chapter above this block).
+
+**Evidence of Mastery:** In quiz mode the learner clicks the poster zone that matches each description. A click is correct when the zone's id equals the Correct zone column in Content. Mastery is at least 5 of 6 correct on the first attempt. Hovering a zone in explore mode is exploration, not evidence.
+
+**Misconceptions:** (1) CC BY-NC allows no adaptations. (2) CC BY-ND forbids commercial use. (3) CC BY-SA forbids commercial use.
+
+**Instructional Rationale:** Identifying six near-identical license names is a Remember-level task, and a poster with six labeled regions lets the learner hold them side by side. The quiz forces recall of each license's distinguishing rule rather than recognition of its name.
+
+**Content:**
+
+The poster is a flat comparison illustration with six equal panels in two rows of three. Each panel prints the license's short name and shows the license's icons, and each carries a simple pictogram that suggests its main rule. The printed text is limited to the six license names. All other words come from the explore and quiz data. The six zones, one per panel:
+
+| Zone id | Label | Summary | Facts shown on hover or click |
+|---|---|---|---|
+| cc-by | CC BY | Credit is the only condition. | Credit the creator and link to the license. Share, adapt, and sell, including for profit. All five R permissions remain. The most open of the six. |
+| cc-by-sa | CC BY-SA | Credit, and keep adaptations open the same way. | Credit the creator. Commercial use is allowed. Every adaptation must carry CC BY-SA. Wikipedia text uses it. |
+| cc-by-nc | CC BY-NC | Credit, and no commercial use. | Credit the creator. Adaptations are allowed. Use must be noncommercial. Adaptations must stay noncommercial. |
+| cc-by-nc-sa | CC BY-NC-SA | Credit, noncommercial, and the same license on adaptations. | Credit the creator. Use must be noncommercial. Every adaptation must carry CC BY-NC-SA. |
+| cc-by-nd | CC BY-ND | Credit, and share the work unchanged only. | Credit the creator. Commercial use is allowed. You may not share a changed version. Private changes are allowed. |
+| cc-by-nc-nd | CC BY-NC-ND | Credit, noncommercial, unchanged only. | Credit the creator. Use must be noncommercial. You may not share a changed version. The most restrictive of the six. |
+
+The six quiz questions, in this order:
+
+| # | Question | Correct zone | Why (shown as feedback) |
+|---|---|---|---|
+| 1 | Which license allows commercial use and requires every adaptation to carry the same license? | cc-by-sa | SA keeps adaptations open, and without NC, commercial use stays allowed. |
+| 2 | Which license allows noncommercial use only and forbids sharing changed versions? | cc-by-nc-nd | It combines NC and ND. |
+| 3 | Which license allows commercial use but forbids sharing changed versions? | cc-by-nd | ND blocks changed versions, and there is no NC element. |
+| 4 | Which license requires noncommercial use and the same license on every adaptation? | cc-by-nc-sa | It combines NC and SA. |
+| 5 | Which license places no condition on the work beyond credit? | cc-by | BY is the only element. |
+| 6 | Which license allows noncommercial adaptations and does not dictate the adaptation's license? | cc-by-nc | NC without SA lets adapters choose, as long as use stays noncommercial. |
+
+**Provenance:** The facts follow the chapter sections "The Four License Elements" and "The Six Licenses Together". The statement that Wikipedia text uses CC BY-SA follows the chapter section "CC BY-SA". The illustration is synthetic, and it carries no statistics.
+
+**Rules:** Each question has exactly one correct zone. Zones are distinct regions of the poster, so a click belongs to at most one zone. Because the poster prints its own panel titles, the sim does not add its own zone labels over the image.
+
+**Learner Activity:**
+
+1. In explore mode the learner hovers or clicks a panel and reads its summary and facts.
+2. In quiz mode the sim shows question 1 above the poster.
+3. The learner clicks the panel they think matches.
+4. The sim shows the Why text and moves to the next question, until question 6 is done.
+
+**Feedback:** 6 questions in the fixed order, one attempt each. Correct: "Correct: [label]. [Why]". Incorrect: "Not quite. The answer is [label]. [Why]". The summary shows "[n] of 6 correct on the first attempt". At 5 or more it adds "You can tell the six licenses apart." Below 5 it lists the Why text of each missed question.
+
+**Starting State:** The poster with no zone selected, explore mode active, and the prompt "Hover a panel to learn what the license allows."
+
+**Chapter Anchors:** The chapter says there are six licenses, lists them as CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, CC BY-ND, and CC BY-NC-ND, and states that Wikipedia text uses CC BY-SA.
+</details>
+
+## License Statement
+
+A **license statement** is the notice that tells readers which license applies to a work. A complete statement does four things. It names the license and its version, it links to the license text, it identifies the owner, and it says what the statement covers. The standard Creative Commons wording is short, such as "This work is licensed under a Creative Commons Attribution 4.0 International License", followed by a link to the license page.
+
+Place the statement where readers will meet it: the footer of every page, the title page of a book, the last slide of a deck, or the description of a video. A statement that sits only on the home page leaves a reader on page 40 guessing. For readers who use search tools, add machine-readable marking as well, such as a link marked `rel="license"` in the page's code, so that a filter for "reusable" resources can find the work.
+
+A statement is a claim, and claims need checking. A page can show a license icon that its owner never intended, or a site can copy a work and add a license that the original never carried. The reliable check is to follow the link back to the original source and confirm the license there. When the statement and the source disagree, the source wins.
+
+Only an owner can grant a license. Suppose a teacher-sharing site marks a worksheet CC BY, but the worksheet's own pages say the uploader copied it from a publisher's book. The marking is worthless, because the uploader never held the rights to give away. This is why you trace a resource to its original creator before you rely on its statement, and why [Chapter 14](../14-checking-agent-output/index.md) asks you to check an AI agent's reading of a license the same way.
+
+Before you look at an annotated example, three terms need defining. The **scope** is what the statement covers: this page, the whole book, or only the text. The **version** is the release of the license, such as 4.0. The **holder** is the person or organization that owns the copyright. The table below applies the four-part test to four statements.
+
+**Worked example: grading four statements.** The statements are made-up examples.
+
+| Statement | Verdict | What to do |
+|---|---|---|
+| "Licensed under CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. © 2025 Maria Lopez. Applies to all text on this page." | Complete | License, version, link, holder, and scope are all present. |
+| "Some rights reserved." | Incomplete | No license is named. Look for the source or ask the owner. |
+| "Free to use." | Not a license | The words do not say which uses are allowed. Ask, or treat the work as all rights reserved. |
+| "Licensed under Creative Commons." | Incomplete | Which of the six, and which version? Check the source before you reuse it. |
+
+### Third-Party Content
+
+**Third-party content** is material inside a resource that someone other than the resource's owner created, such as a photograph, a chart, or a quotation. A page's license statement usually covers only what the page's owner made. Phrases like "except where otherwise noted" warn you that some items carry other licenses. Before you reuse a page, check the caption or credit line of each image and figure.
+
+For example, suppose a CC BY textbook includes a photo credited "Used with permission of Example Agency." The textbook's license covers the author's own text and diagrams. The photo is not covered, so you may not copy it into your remix without the agency's permission.
+
+!!! mascot-tip "Follow the Link Back"
+    ![Echo giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    If you find a license statement on a copy, follow its link back to the original and read the license there. Copies can lose a statement or change it, and the original is the evidence.
+
+The MicroSim below puts a license statement under a magnifying glass. The illustration shows the footer of an open lesson page, and its seven numbered markers point to the parts of a complete statement. In explore mode you read what each part does. In quiz mode you match a visual clue to its marker.
+
+#### Diagram: Anatomy of a License Statement
+
+<details markdown="1">
+<summary>Anatomy of a License Statement</summary>
+Type: infographic
+**sim-id:** license-statement-anatomy<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Remember<br/>
+**Bloom Verb:** identify<br/>
+**Learning Objective:** The learner will identify the seven parts of a complete license statement on an annotated page footer from a description of each part, with at least 6 of 7 correct on the first attempt.
+
+**Prerequisites:** License Statement, Open License, Creative Commons, Third-Party Content (all defined in this chapter above this block).
+
+**Evidence of Mastery:** In quiz mode the learner clicks the marker that matches a visual hint. A click is correct when it matches the marker named in the Hint column of Content. Mastery is at least 6 of 7 correct on the first attempt. Hovering markers in explore mode is exploration, not evidence.
+
+**Misconceptions:** (1) The license icons alone are the license. (2) "CC BY" without a version is a complete statement. (3) A license statement on a page covers every image on it.
+
+**Instructional Rationale:** Identifying the parts of a statement is a Remember-level task, and an annotated illustration places each part where it appears on a real page. The quiz asks the learner to recognize a part from how it looks, which is how they will find it on real pages.
+
+**Content:**
+
+The illustration is a text-free flat drawing of the bottom of a lesson web page inside a simple browser frame. Across the footer bar, left to right, are a row of four small round badge icons, two short stacked lines of text, an underlined link-shaped bar, and a copyright symbol beside a short name line. Above the footer is a framed picture thumbnail with a thin caption strip beneath it. At the far right of the footer is a small code-bracket icon, drawn as a shape. The seven markers:
+
+| # | Label | Hint (describes the look, not the name) | Description | Tip |
+|---|---|---|---|---|
+| 1 | License badge icons | A row of four small round icons at the left of the footer. | The icons show at a glance which license elements apply. They are a hint, not the license itself. | Icons are easy to copy onto a page with no license, so always confirm the written statement. |
+| 2 | License name and version | Two short stacked lines of text beside the icons. | The exact license name, for instance Creative Commons Attribution 4.0 International. The version matters because terms differ between versions. | "CC BY" alone leaves the version open. Write the full name or the version number. |
+| 3 | Link to the license | An underlined bar that looks like a hyperlink. | A link to the license page, so readers can check the real terms. | Check that the link goes to the Creative Commons site and not to a copy. |
+| 4 | Copyright holder and year | A copyright symbol beside a short name line. | Names who holds the copyright and when. This is the person to credit and the person to ask for permission. | The work of a school employee may belong to the school, so the named holder is the one to ask. |
+| 5 | Scope of the license | A thin line directly under the license name. | States what the license covers: this page, the whole book, or only the text. | A missing scope is a question to ask the owner, not an assumption. |
+| 6 | Notice for third-party content | The thin caption strip beneath the picture thumbnail. | Marks material that someone else owns or that carries a different license, for instance a photo used with permission. | Treat each image as separately licensed until its caption says otherwise. |
+| 7 | Machine-readable license marking | The small code-bracket icon at the far right of the footer. | Hidden markup, like a link marked rel="license", lets search tools filter by license. Readers cannot see it on the page. | Look in the page source, or use a search tool's license filter. |
+
+**Provenance:** The seven parts follow the chapter section "License Statement" and its example statements. The illustration is synthetic, and the sim labels the page "illustrative example".
+
+**Rules:** Each hint matches exactly one marker. The illustration contains no text, so every label comes from the table above. Markers are numbered 1 to 7 in the order of the table.
+
+**Learner Activity:**
+
+1. In explore mode the learner hovers or clicks a marker and reads its label, description, and tip.
+2. In quiz mode the sim shows a hint, for instance "A row of four small round icons at the left of the footer".
+3. The learner clicks the marker they think the hint describes.
+4. If the first click is wrong, the sim says the click was wrong and lets the learner try once more. If the second click is also wrong, the sim reveals the marker and its description.
+5. After all 7 hints the sim shows the summary.
+
+**Feedback:** 7 hints in a shuffled order, two attempts each. Only a correct first click counts as evidence. Correct: "Correct: [label]. [Description]". First wrong click: "Not quite. Look again at the hint: [hint]". Second wrong click: "This is [label]. [Description]". The summary shows "[n] of 7 correct on the first attempt". At 6 or more it adds "You can find every part of a license statement." Below 6 it lists the labels of the missed parts.
+
+**Starting State:** The illustration with seven numbered markers, explore mode active, and the prompt "Hover a marker to see what it is."
+
+**Chapter Anchors:** The chapter says a complete license statement names the license and its version, links to the license text, identifies the owner, and says what the statement covers. The illustration shows seven parts, and the chapter's text mentions the scope, version, and holder.
+</details>
+
+## Giving Credit
+
+### Attribution Statement
+
+An **attribution statement** is the credit line that meets the attribution requirement. It tells readers who made the work, where it came from, and under which license it may be used. A good attribution statement is short, sits next to the item it credits, and gives the reader enough to find the original in a minute. If you changed the work, the statement also says what you changed, such as "translated into Spanish" or "reading level lowered." A statement that only says "image from the internet" gives no usable credit.
+
+### TASL Attribution Format
+
+The **TASL attribution format** is a four-part pattern that Creative Commons recommends for credit lines. TASL stands for Title, Author, Source, and License. Writing the four parts in order makes a statement hard to get wrong. The table shows what each part contains, using a made-up resource.
+
+| Part | What to write | Example |
+|---|---|---|
+| Title | The work's name, in quotation marks | "Watershed Basics" |
+| Author | The creator, and the organization if one is named | Maria Lopez |
+| Source | A link to the work | https://example.org/watershed-basics |
+| License | The license name and version, linked to the license | CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) |
+
+Joined together, the credit reads: "Watershed Basics" by Maria Lopez, https://example.org/watershed-basics, licensed under CC BY 4.0. If you adapted it, add a sentence such as "Adapted: reading level lowered and two examples localized."
+
+The MicroSim below gives you eight credit lines to inspect. For each one you decide which TASL parts are missing, and whether a change note is also needed.
+
+#### Diagram: Attribution Statement Checker
+
+<details markdown="1">
+<summary>Attribution Statement Checker</summary>
+Type: microsim
+**sim-id:** attribution-statement-checker<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Evaluate<br/>
+**Bloom Verb:** assess<br/>
+**Learning Objective:** The learner will assess whether each of eight attribution statements is complete by identifying exactly which of the five checked parts are missing, with at least 7 of 8 judged correctly on the first attempt.
+
+**Prerequisites:** Attribution Requirement, Attribution Statement, TASL Attribution Format, CC BY (all defined in this chapter above this block).
+
+**Evidence of Mastery:** For each statement the learner marks which of five parts are missing, or marks none. A judgment is correct when the marked set equals the Missing parts column in Content exactly. Mastery is at least 7 of 8 correct on the first attempt. Reading the checklist definitions is exploration, not evidence.
+
+**Misconceptions:** (1) "CC BY" without a version is a complete license part. (2) A copyright line with no license counts as credit. (3) A change note is needed even when the work is unchanged. (4) A site name is a source link.
+
+**Instructional Rationale:** Assessing a credit line against a criterion list is an Evaluate-level action, and the checklist makes the criteria explicit so the learner judges against standards, not impressions. Eight statements with different mixes of gaps force the learner to apply each criterion separately.
+
+**Content:**
+
+The resource record that every statement refers to (a made-up resource): Title "Watershed Basics", Author Maria Lopez, Source https://example.org/watershed-basics, License CC BY 4.0, license link https://creativecommons.org/licenses/by/4.0/.
+
+The five checked parts and when each counts as present:
+
+| Part | Counts as present when |
+|---|---|
+| Title | The work's name appears. |
+| Author | The creator's name appears. |
+| Source | A link to the work appears. A site name alone does not count. |
+| License | A specific license with its version, or a link to it, appears. "Creative Commons" alone or "CC BY" with no version or link does not count. |
+| Change note | A sentence says what was changed. Required only when the use changed the work. |
+
+The eight statements:
+
+| # | Use | Statement shown | Missing parts | Why (shown as feedback) |
+|---|---|---|---|---|
+| 1 | Unchanged | "Watershed Basics" by Maria Lopez, https://example.org/watershed-basics, licensed under CC BY 4.0. | None | All four TASL parts are present, and no change note is needed. |
+| 2 | Unchanged | Maria Lopez, Watershed Basics. | Source, License | The link and the license are missing. |
+| 3 | Unchanged | "Watershed Basics", https://example.org/watershed-basics, licensed CC BY. | Author, License | The creator is not named, and "CC BY" has no version or link. |
+| 4 | Unchanged | "Watershed Basics" by Maria Lopez, https://example.org/watershed-basics, licensed under a Creative Commons license. | License | The statement does not say which license or version. |
+| 5 | Unchanged | Image courtesy of Maria Lopez. | Title, Source, License | The work is not named, linked, or licensed. |
+| 6 | Changed: reading level lowered, two examples localized | "Watershed Basics" by Maria Lopez, https://example.org/watershed-basics, licensed under CC BY 4.0. Adapted: reading level lowered and two examples localized. | None | The four TASL parts and the change note are all present. |
+| 7 | Changed: translated into Spanish | "Watershed Basics" by Maria Lopez, https://example.org/watershed-basics, licensed under CC BY 4.0. | Change note | The work was translated, and the statement does not say so. |
+| 8 | Changed: shortened | © Maria Lopez. All rights reserved. | Title, Source, License, Change note | The statement claims all rights reserved, which contradicts the CC BY license, and it omits the title, link, and change note. |
+
+**Provenance:** The resource, creator, and URL are made up, and the sim labels them "illustrative example". The checked parts follow the chapter sections "Attribution Requirement", "Attribution Statement", and "TASL Attribution Format".
+
+**Rules:** Each statement has a fixed set of missing parts, and the empty set is valid. A part is present only when it meets the "Counts as present when" rule. Change note is checked only for statements 6, 7, and 8, where the use column says the work was changed. For statements 1 to 5, Change note is not offered as a choice.
+
+**Learner Activity:**
+
+1. The learner sees the resource record, the use, and the statement.
+2. The learner marks each missing part, or marks "None missing".
+3. The learner presses Check. The sim shows the correct set and the Why text.
+4. The learner moves to the next statement, until statement 8 is done.
+
+**Feedback:** 8 statements in the fixed order, one attempt each. Correct: "Correct. [Why]". Incorrect: "Not quite. Missing: [missing parts, or none]. [Why]". The summary shows "[n] of 8 correct on the first attempt". At 7 or more it adds "You can check a credit line." Below 7 it lists the Why text of each missed statement.
+
+**Starting State:** The resource record, the five parts and their rules, and statement 1 with all five parts unmarked. The question shown is "Which parts are missing?"
+
+**Chapter Anchors:** The chapter says TASL stands for Title, Author, Source, and License, and its example credit line matches statement 1. The chapter says that a statement for an adapted work adds a change note.
+</details>
+
+## Combining Works
+
+### License Compatibility
+
+**License compatibility** is whether the licenses of two or more sources can all be satisfied at once by a single license on the combined work. You need it whenever you remix: a unit built from a CC BY chapter and a CC BY-SA chapter must carry one license, and that license must honor both sources. A simple method works for the six licenses. For each source, write what it requires of the combined work, then look for a license that meets every requirement. If more than one qualifies, use the first in the order CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA.
+
+| Source license | What it requires of the combined work |
+|---|---|
+| CC0 | Nothing. |
+| CC BY | Credit, and any CC license that keeps the credit. |
+| CC BY-SA | The combined work must be CC BY-SA. |
+| CC BY-NC | The combined work must be noncommercial. |
+| CC BY-NC-SA | The combined work must be CC BY-NC-SA. |
+| Any ND license | The source cannot be changed or blended and then shared. |
+
+**Worked example: three combinations.** Apply the table to three pairs of sources.
+
+1. CC BY with CC BY-SA: the second source requires CC BY-SA, and CC BY accepts it, so the result is CC BY-SA.
+2. CC BY-NC with CC BY-NC-SA: the first needs noncommercial use, the second requires CC BY-NC-SA, and that satisfies both, so the result is CC BY-NC-SA.
+3. CC BY-ND with any other source: the ND source cannot be changed or blended and then shared, so the combination cannot be shared at all.
+
+This is a rule of thumb for study. Creative Commons publishes its own compatibility chart, and you should check it for any real combination.
+
+### License Conflict
+
+A **license conflict** is a case where no single license satisfies all the sources, so the combined work cannot legally be shared. CC BY-SA and CC BY-NC conflict: one requires the whole work to be CC BY-SA, which allows commercial use, and the other requires noncommercial use. CC BY-SA and CC BY-NC-SA also conflict, because each demands that the work carry its own license. When you face a conflict you have three choices. You can pick a different resource for one of the parts. You can ask an owner in writing to permit different terms. Or you can keep the works separate, each with its own license notice, so that you are not blending them into one work. Whether a packet counts as blended can be a judgment call, so ask the owners if you are unsure.
+
+!!! mascot-encourage "Compatibility Trips Up Almost Everyone"
+    ![Echo encouraging](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
+    If license compatibility feels slippery, that is normal, because even experienced reviewers check a chart. You already solve problems like this when you match two schedules, and the same method works here. List what each source requires, then look for one license that meets all of it.
+
+The MicroSim below gives you ten pairs of sources to combine. For each pair you choose the license the combined work may carry, or you recognize a conflict or a blocked combination.
 
 #### Diagram: License Compatibility Checker
 
@@ -233,179 +648,174 @@ Type: microsim
 **sim-id:** license-compatibility-checker<br/>
 **Library:** p5.js<br/>
 **Status:** Specified<br/>
-**Template:** https://github.com/dmccreary/search-microsims/tree/main/docs/sims/cc-license-chooser<br/>
 **Bloom Level:** Apply<br/>
-**Bloom Verb:** apply<br/>
-**Learning Objective:** The learner will apply the Creative Commons compatibility rules to 10 pairs of licenses by stating, for each pair, the license a remix of the two must carry or that the pair cannot be combined.
+**Bloom Verb:** solve<br/>
+**Learning Objective:** The learner will solve ten license-combination problems by finding the license a combined work may carry, or by recognizing a conflict or a blocked combination, with at least 8 of 10 correct on the first attempt.
 
-**Prerequisites:** attribution requirement, ShareAlike requirement, NonCommercial requirement, NoDerivatives requirement, CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, CC BY-ND, CC0 dedication, license compatibility, license conflict (all defined in the chapter above this block).
+**Prerequisites:** License Compatibility, License Conflict, CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, CC BY-ND, CC BY-NC-ND, CC0 Dedication (all defined in this chapter above this block).
 
-**Evidence of Mastery:** For each of the 10 pairs, the learner chooses one outcome from the eight options and presses Check. A choice is correct when it matches the Correct outcome column in Content. Mastery is 8 or more of 10 correct on the first attempt. Studying the options and changing a choice before pressing Check is exploration and does not count as evidence.
+**Evidence of Mastery:** For each pair the learner chooses one of six outcomes. A choice is correct when it matches the Correct outcome column in Content. Mastery is at least 8 of 10 correct on the first attempt. Viewing the requirements table is exploration, not evidence.
 
-**Misconceptions:** (1) Any two Creative Commons licenses can be mixed. (2) A remix takes the less restrictive of its two licenses. (3) ShareAlike and NonCommercial work together in one remix of different works. (4) A NoDerivatives work can be remixed if credit is given.
+**Misconceptions:** (1) Any two Creative Commons licenses can be combined. (2) The more restrictive license always wins. (3) CC BY-SA and CC BY-NC can be combined if the author gives credit. (4) An ND source can be remixed if the remix is credited.
 
-**Instructional Rationale:** Applying a rule to a new case is the Apply-level skill. Pairs chosen so that each of the four conditions decides at least one answer force the learner to reason from the conditions instead of memorizing the table, and the check after each pair shows whether the reasoning was right.
+**Instructional Rationale:** Solving combination problems is an Apply-level task, and ten pairs of increasing difficulty make the learner execute the same procedure repeatedly: write each source's requirement, intersect them, and choose the first qualifying license. Immediate feedback with the worked reasoning builds the habit.
 
 **Content:**
 
-The eight outcome options are: CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, CC BY-ND, CC BY-NC-ND, Cannot combine, and Cannot remix. All licenses are version 4.0. The learner sees the compatibility table from the chapter section "Combining Licensed Works" at all times.
+The six outcomes the learner can choose: CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, Conflict (no license satisfies both), Blocked (an ND source cannot be shared in a combined work).
 
-| # | Pair of works shown to the learner | Correct outcome | Why (shown as feedback) |
-|---|------------------------------------|-----------------|-------------------------|
-| 1 | A work under CC BY and a work under CC BY | CC BY | Both ask only for credit, so the remix can carry CC BY. |
-| 2 | A work under CC BY and a work under CC BY-SA | CC BY-SA | ShareAlike requires the remix to carry the same license, and CC BY allows that. |
-| 3 | A work under CC BY and a work under CC BY-NC | CC BY-NC | NonCommercial must be kept, and CC BY allows that. |
-| 4 | A work under CC BY-SA and a work under CC BY-SA | CC BY-SA | Both require the same license, so the remix carries it. |
-| 5 | A work under CC BY-SA and a work under CC BY-NC | Cannot combine | ShareAlike allows commercial use and NonCommercial forbids it, so no single license satisfies both. |
-| 6 | A work under CC BY-NC and a work under CC BY-NC-SA | CC BY-NC-SA | The ShareAlike work requires its own license, which also keeps NonCommercial. |
-| 7 | A work under CC BY-SA and a work under CC BY-NC-SA | Cannot combine | Each requires the remix to carry its own license, and the two licenses differ on commercial use. |
-| 8 | A work under CC BY and a work under CC BY-ND | Cannot remix | NoDerivatives forbids sharing an adaptation of the work, so it cannot be remixed. |
-| 9 | A work under CC0 and a work under CC BY-SA | CC BY-SA | CC0 has no conditions, so the remix takes the other work's license. |
-| 10 | A work under CC BY-NC-SA and a work under CC BY-NC-SA | CC BY-NC-SA | Both require the same license, so the remix carries it. |
+What each source requires of the combined work, written as the set of licenses it allows:
 
-**Provenance:** The compatibility rules come from the chapter section "Combining Licensed Works." The 10 pairs are illustrative and describe no real works. The sim labels every pair "illustrative."
+| Source | Licenses the combined work may carry |
+|---|---|
+| CC0 | CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA |
+| CC BY | CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA |
+| CC BY-SA | CC BY-SA |
+| CC BY-NC | CC BY-NC, CC BY-NC-SA |
+| CC BY-NC-SA | CC BY-NC-SA |
+| CC BY-ND, CC BY-NC-ND | None: the combination is Blocked |
 
-**Rules:** Credit never blocks a combination. A ShareAlike work requires the remix to carry its license. A NonCommercial work requires the remix to forbid commercial use. A remix that must carry a ShareAlike license and also forbid commercial use cannot be formed, so the pair cannot be combined. A NoDerivatives work cannot be remixed. CC0 imposes no condition. A pair of the same license gives that license. Mastery is correct first attempts >= 8 of 10.
+The ten pairs:
+
+| # | Source A | Source B | Correct outcome | Why (shown as feedback) |
+|---|---|---|---|---|
+| 1 | CC BY | CC BY | CC BY | Both allow any of the four licenses, and CC BY is first in the order. |
+| 2 | CC BY | CC BY-SA | CC BY-SA | Only CC BY-SA satisfies the second source, and CC BY accepts it. |
+| 3 | CC BY | CC BY-NC | CC BY-NC | The second source needs a noncommercial license, and CC BY-NC comes first among those. |
+| 4 | CC BY-SA | CC BY-NC | Conflict | CC BY-SA allows only CC BY-SA, and CC BY-NC allows only noncommercial licenses, so there is no overlap. |
+| 5 | CC BY-NC | CC BY-NC-SA | CC BY-NC-SA | CC BY-NC-SA is the only license that satisfies both. |
+| 6 | CC BY-SA | CC BY-NC-SA | Conflict | Each requires its own license, and the two are different. |
+| 7 | CC BY | CC BY-ND | Blocked | The ND source cannot be changed or blended and then shared. |
+| 8 | CC0 | CC BY-SA | CC BY-SA | CC0 allows any of the four, and CC BY-SA is the only one that satisfies the other source. |
+| 9 | CC0 | CC BY | CC BY | Both allow any of the four, and CC BY is first. |
+| 10 | CC BY-NC | CC BY-NC-ND | Blocked | The ND source cannot be changed or blended and then shared. |
+
+**Provenance:** The requirements table is this chapter's rule of thumb, written for study and consistent with the chapter sections "License Compatibility" and "License Conflict". The sim labels it "a study aid, not a legal chart" and links to the Creative Commons compatibility chart as the authority.
+
+**Rules:** The correct outcome for a pair is the first license, in the order CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, that appears in the allowed set of both sources. If the two allowed sets share no license the outcome is Conflict. If either source is an ND license the outcome is Blocked, whatever the other source is. Each pair has exactly one correct outcome.
 
 **Learner Activity:**
 
-1. The learner reads the first pair of licenses.
-2. The learner chooses one outcome and presses Check.
-3. The sim shows whether the choice is correct and shows the Why text, then moves to the next pair.
-4. After pair 10, the sim shows the first-attempt score, lists any pair the learner missed with its Why text, and offers the learner a chance to retry the missed pairs.
+1. The learner sees a pair of sources and the six outcomes.
+2. The learner may open the requirements table. Opening it does not change the score.
+3. The learner chooses an outcome.
+4. The sim shows whether it was correct and the Why text, then presents the next pair.
+5. After pair 10 the sim shows the summary.
 
-**Feedback:** Ten pairs, shown in the order of the table, two attempts each. Correct: "Correct: [outcome]. [Why text]." Incorrect on the first attempt: "Not quite," followed by a hint. If the learner chose a license for a pair that cannot be combined, the hint is "Check whether ShareAlike and NonCommercial pull in opposite directions." If the learner chose Cannot combine for a pair that can be combined, the hint is "Credit alone never blocks a combination." If the learner chose Cannot remix for a pair without a NoDerivatives work, the hint is "Only a NoDerivatives work blocks remixing." If the learner chose the less restrictive of two licenses, the hint is "The remix must keep the more restrictive terms." After a second wrong choice the correct outcome and Why text are revealed and the pair counts as missed. The score "Correct on first attempt: n of 10" is shown at the end, and the sim states whether mastery was reached.
+**Feedback:** 10 pairs in the fixed order, one attempt each. Correct: "Correct: [outcome]. [Why]". Incorrect: "Not quite. The answer is [outcome]. [Why]". The summary shows "[n] of 10 correct on the first attempt". At 8 or more it adds "You can combine licenses." Below 8 it lists the Why text of each missed pair.
 
-**Starting State:** The first pair is shown with the eight outcome options and no choice made. The question on screen is "What license must a remix of these two works carry?"
+**Starting State:** Pair 1 with the six outcomes and the requirements table closed. The question shown is "Which license may the combined work carry?"
 
-**Chapter Anchors:** The chapter states that the compatibility rules apply to the 4.0 licenses, that a ShareAlike work cannot be combined with a NonCommercial work, that a NoDerivatives work cannot be remixed, that CC0 combines with anything, and that the checker has 10 pairs.
+**Chapter Anchors:** The chapter says CC BY-SA and CC BY-NC conflict, CC BY-SA and CC BY-NC-SA conflict, CC BY with CC BY-SA gives CC BY-SA, CC BY-NC with CC BY-NC-SA gives CC BY-NC-SA, and any ND source blocks sharing the combination. The chapter's first-in-order rule uses the order CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA.
 </details>
 
-## Giving Credit
+## Fair Use
 
-Every Creative Commons license asks for credit, so you need a reliable way to give it. An **attribution statement** is the credit line you attach to a resource that you reuse or adapt. It names the work, the creator, where it came from, and the license, and if you changed the work, it says so.
+**Fair use** is a U.S. legal doctrine that lets people use copyrighted work without permission in some situations, such as teaching, criticism, and news reporting. A court weighs four factors:
 
-A simple format makes this routine. The **TASL attribution format** lists four parts in order: Title, Author, Source, and License. Title is the name of the work, Author is the creator, Source is the web address of the original, and License is the license name and version, linked to its text. Here is a complete statement for the chapter Sam adopted, using a made-up address:
+- **Purpose and character:** whether the use is educational and transformative or commercial.
+- **Nature of the work:** whether the work is factual or creative.
+- **Amount used:** how much of the work is used, and whether it is the heart of the work.
+- **Market effect:** whether the use harms the owner's ability to sell the work.
 
-"Cell Structure and Function" by Ana Rivera, https://example.org/open-biology/cell-structure, licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+Fair use is decided case by case, usually after a dispute has begun, so you cannot know in advance how a court would rule. It is a defense, not a license. For OER work, that has two consequences. Fair use does not let you share a changed copy of a whole resource, and it does not replace a license that already covers your use. If a license covers what you want to do, rely on the license. Keep fair use in reserve for small excerpts, such as quoting a paragraph in a review, and note that other countries have different rules. This is general information, not legal advice.
 
-When you have changed the work, add a short note of what you did. Sam's version would read: "Cell Structure and Function" (adapted by Sam: examples changed to a local pond), original by Ana Rivera, https://example.org/open-biology/cell-structure, licensed under CC BY 4.0. A note like this lets the next teacher see exactly what was altered.
+## License Selection
 
-Place the statement where a reader would look: under a figure, in a page footer, or on a credits page for a large resource. For a chapter with many images, one credits page with a TASL line per image is cleaner than a long caption under each.
+**License selection** is the choice of which license to put on a work you own. Three questions drive the choice: will you allow commercial reuse, will you allow others to share changed versions, and must changed versions carry the same license? The table maps the answers to a license.
 
-Statements fail in predictable ways. They leave out the source, name the publisher instead of the creator, or cite the wrong license version. The checker below lets you practice spotting each failure.
+| Allow commercial reuse? | Allow shared changes? | Same license on changes? | License |
+|---|---|---|---|
+| Yes | Yes | No | CC BY |
+| Yes | Yes | Yes | CC BY-SA |
+| No | Yes | No | CC BY-NC |
+| No | Yes | Yes | CC BY-NC-SA |
+| Yes | No | Not applicable | CC BY-ND |
+| No | No | Not applicable | CC BY-NC-ND |
 
-#### Diagram: Attribution Statement Reviewer
+If you want no conditions at all, CC0 does that. Five practical points apply before you decide:
+
+- **Ownership:** check who owns the work. A school's policy or your employment contract may give the school the right to choose.
+- **Funders:** some grants require a specific license, so read the grant terms first.
+- **Third-party content:** you can license only what you own, so replace or credit any item that belongs to someone else.
+- **Permanence:** you can stop offering a work, but people who already received it keep their rights.
+- **Software:** Creative Commons recommends licenses designed for software when you share code, not CC licenses.
+
+!!! mascot-thinking "Choosing Is Giving"
+    ![Echo thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    Choosing a license is choosing which freedoms to give away. Each condition you add protects something you care about and removes a use someone else could have made.
+
+The default advice in OER work is CC BY for the widest reuse, or CC BY-SA when you want improvements to stay open. NC and ND licenses reduce reuse, so choose them for a reason you can state. [Chapter 9](../09-modularity-metadata/index.md) shows how the rubric scores that choice. The last MicroSim of the chapter is a practice round. You read a teacher's goal and choose the license that serves it.
+
+#### Diagram: License Selection Advisor
 
 <details markdown="1">
-<summary>Attribution Statement Reviewer</summary>
+<summary>License Selection Advisor</summary>
 Type: microsim
-**sim-id:** attribution-statement-reviewer<br/>
+**sim-id:** license-selection-advisor<br/>
 **Library:** p5.js<br/>
 **Status:** Specified<br/>
-**Bloom Level:** Evaluate<br/>
-**Bloom Verb:** judge<br/>
-**Learning Objective:** The learner will judge whether each of 8 attribution statements is correct and complete under the TASL format, naming the missing or wrong part when it is not.
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** apply<br/>
+**Learning Objective:** The learner will apply the three license-selection questions to choose the license that serves each of seven stated goals, with at least 6 of 7 correct on the first attempt.
 
-**Prerequisites:** attribution requirement, attribution statement, TASL attribution format, license statement (all defined in the chapter above this block).
+**Prerequisites:** License Selection, CC0 Dedication, CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, CC BY-ND, CC BY-NC-ND (all defined in this chapter above this block).
 
-**Evidence of Mastery:** For each of the 8 statements, the learner marks it Correct or Incorrect and, when marking Incorrect, names the missing or wrong part from Title, Author, Source, and License, then presses Check. A judgment is correct when the mark and the named part both match the Correct judgment column in Content. Mastery is 7 or more of 8 correct on the first attempt. Reading a statement and changing a mark before pressing Check is exploration and does not count as evidence.
+**Evidence of Mastery:** For each goal the learner chooses one of seven licenses. A choice is correct when it matches the Correct license column in Content. Mastery is at least 6 of 7 correct on the first attempt. Opening the question table is exploration, not evidence.
 
-**Misconceptions:** (1) Naming the creator is enough. (2) The publisher counts as the author. (3) Any version of a license will do. (4) The source address is optional.
+**Misconceptions:** (1) NonCommercial protects a creator without limiting reuse much. (2) NoDerivatives and ShareAlike can be combined. (3) CC BY is the only open choice.
 
-**Instructional Rationale:** Judging means checking an artifact against criteria. Giving the learner a source card with the true details, and statements that each break the criteria in a different way, makes the learner compare the statement against the four TASL parts instead of accepting it because it looks credit-like.
+**Instructional Rationale:** Choosing a license for a goal is an Apply-level task that uses the three questions as a procedure. One goal per license makes the learner discriminate between neighboring options.
 
 **Content:**
 
-The source card shown with every statement: Title: Cell Structure and Function. Author: Ana Rivera. Publisher: Open Biology Press. Source: https://example.org/open-biology/cell-structure. License: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. A statement is complete when it contains the correct Title, Author, Source, and License name and version. A link to the license text is welcome but not required for correctness.
+The seven license choices: CC0, CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, CC BY-ND, CC BY-NC-ND.
 
-| # | Statement shown to the learner | Correct judgment | Why (shown as feedback) |
-|---|--------------------------------|------------------|-------------------------|
-| 1 | "Cell Structure and Function" by Ana Rivera, https://example.org/open-biology/cell-structure, licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). | Correct | It gives the title, the author, the source, and the license with its version. |
-| 2 | "Cell Structure and Function" by Ana Rivera, licensed under CC BY 4.0. | Incorrect: Source | The web address of the original is missing. |
-| 3 | "Cell Structure and Function", https://example.org/open-biology/cell-structure, licensed under CC BY 4.0. | Incorrect: Author | The creator is not named. |
-| 4 | "Cell Structure and Function" by Ana Rivera, https://example.org/open-biology/cell-structure. | Incorrect: License | The license is not named, so a reader cannot tell what is allowed. |
-| 5 | By Ana Rivera, https://example.org/open-biology/cell-structure, licensed under CC BY 4.0. | Incorrect: Title | The title of the work is missing. |
-| 6 | "Cell Structure and Function" by Ana Rivera, https://example.org/open-biology/cell-structure, licensed under CC BY 3.0. | Incorrect: License | The source card says version 4.0, and version 3.0 is a different license. |
-| 7 | "Cell Structure and Function" by Open Biology Press, https://example.org/open-biology/cell-structure, licensed under CC BY 4.0. | Incorrect: Author | The publisher is named instead of the creator. |
-| 8 | "Cell Structure and Function" (adapted by Sam: examples changed to a local pond), original by Ana Rivera, https://example.org/open-biology/cell-structure, licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). | Correct | It has all four TASL parts and also says the work was changed. |
+The three questions, shown on request: Will you allow commercial reuse? Will you allow others to share changed versions? Must changed versions carry the same license?
 
-**Provenance:** The source card and the 8 statements are illustrative and describe no real work. The web addresses use the reserved example.org domain. The TASL format comes from the chapter section "Giving Credit." The sim labels the source card "illustrative."
+The seven goals:
 
-**Rules:** A statement is correct when all four of Title, Author, Source, and License (name and version) are present and match the source card. A statement that names the publisher as author is incorrect in Author. A statement that gives a different license version is incorrect in License. Each incorrect statement in this set has exactly one wrong or missing part. A change note does not make a complete statement incorrect. Mastery is correct first attempts >= 7 of 8.
+| # | Goal shown to the learner | Correct license | Why (shown as feedback) |
+|---|---|---|---|
+| 1 | "I want no friction at all. Anyone may do anything." | CC0 | CC0 gives up all conditions, including credit. |
+| 2 | "Anyone may use, change, and sell my worksheet. I only need credit." | CC BY | BY is the only condition, and commercial reuse and changes are allowed. |
+| 3 | "Anyone may use and sell my unit, but every changed version must stay open under the same terms." | CC BY-SA | SA keeps changed versions under the same license, and commercial use stays allowed. |
+| 4 | "Others may change my lesson, but they may not make money from it, and I do not mind which license their changes use." | CC BY-NC | NC blocks commercial use, and without SA, adapters choose their license. |
+| 5 | "Others may change my lesson noncommercially, and every changed version must carry my license." | CC BY-NC-SA | NC blocks commercial use, and SA requires the same license on changes. |
+| 6 | "Anyone may share my finished report, even for sale, but nobody may share a changed version." | CC BY-ND | ND forbids changed versions, and there is no NC element. |
+| 7 | "Anyone may share my unchanged handout, but not for money, and nobody may share a changed version." | CC BY-NC-ND | It combines NC and ND. |
+
+**Provenance:** The goals are illustrative cases written for this chapter, and the sim labels them "illustrative examples". The mapping follows the chapter's license-selection table.
+
+**Rules:** Each goal has exactly one correct license, one per license. The three questions determine the choice as shown in the chapter's table. CC0 applies only when the goal asks for no conditions.
 
 **Learner Activity:**
 
-1. The learner reads the source card and the first statement.
-2. The learner marks the statement Correct or Incorrect. If marking Incorrect, the learner also chooses the missing or wrong part from Title, Author, Source, and License.
-3. The learner presses Check. The sim shows whether the judgment is correct and shows the Why text, then moves to the next statement.
-4. After statement 8, the sim shows the first-attempt score, lists any statement the learner missed with its Why text, and offers the learner a chance to retry the missed statements.
+1. The learner reads a goal.
+2. The learner may open the three questions.
+3. The learner chooses one of the seven licenses.
+4. The sim shows whether it was correct and the Why text, then presents the next goal.
+5. After goal 7 the sim shows the summary.
 
-**Feedback:** Eight statements, shown in the order of the table, two attempts each. Correct: "Correct. [Why text]." Incorrect on the first attempt: "Not quite. Compare the statement with the source card, one part at a time." If the learner marked a correct statement Incorrect, the hint is "Check each of Title, Author, Source, and License against the card before deciding it is wrong." If the learner marked an incorrect statement Correct, the hint is "One of the four parts is missing or does not match the card." If the learner chose the wrong part, the hint is "That part is fine. Look at the other three." After a second wrong judgment the correct judgment and Why text are revealed and the statement counts as missed. The score "Correct on first attempt: n of 8" is shown at the end, and the sim states whether mastery was reached.
+**Feedback:** 7 goals in a shuffled order, one attempt each. Correct: "Correct: [license]. [Why]". Incorrect: "Not quite. The answer is [license]. [Why]". The summary shows "[n] of 7 correct on the first attempt". At 6 or more it adds "You can pick a license for a goal." Below 6 it lists the Why text of each missed goal.
 
-**Starting State:** The source card and the first statement are shown with Correct and Incorrect undecided. The question on screen is "Does this statement give proper credit under TASL?"
+**Starting State:** Goal 1 or the first goal in the shuffled order, with the seven licenses and the question "Which license fits this goal?"
 
-**Chapter Anchors:** The chapter states that TASL stands for Title, Author, Source, and License, that a modified work needs a change note, and that the reviewer has 8 statements.
+**Chapter Anchors:** The chapter's table maps three yes-or-no answers to six licenses, and says CC0 applies when you want no conditions at all.
 </details>
 
-!!! mascot-tip "Credit as You Collect"
-    ![Echo the Loon giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
-    Write the TASL line the moment you save a resource, not weeks later when you've forgotten where it came from. A short list with title, author, source, and license for every item saves you a frantic search the night before you publish.
+## Key Takeaways
 
-## What a License Does Not Cover
+- An **open license** gives everyone permission in advance. A **proprietary license** and **all rights reserved** grant little or nothing, so read them before you assume.
+- **Creative Commons** offers six licenses built from four elements: attribution (BY), ShareAlike (SA), NonCommercial (NC), and NoDerivatives (ND). SA and ND never appear together, and **CC0** is a dedication with no conditions.
+- NC is blurrier than it sounds, and ND blocks the improvements this book teaches you to make.
+- A complete **license statement** names the license and version, links to it, names the owner, and says what it covers. **Third-party content** may be licensed separately.
+- Credit with **TASL**: Title, Author, Source, License, plus a note of any change.
+- **License compatibility** asks whether one license satisfies every source. A **license conflict** means none does, and an ND source blocks sharing entirely.
+- **Fair use** is a case-by-case defense and not a license. **License selection** is a choice of which freedoms to give.
 
-A license applies to what its owner can license. **Third-party content** is material inside a resource that belongs to someone other than the resource's creator, such as a photograph, a chart, or a quotation. It carries its own copyright, and it may carry its own license or none at all. An open chapter licensed CC BY may still include a photo credited "© Photo Agency." The chapter's license does not give you permission to reuse that photo. Look for image credits, captions, and a credits page, and treat anything unmarked with suspicion. If you cannot confirm the license of an item, replace it or ask the owner.
+!!! mascot-celebration "You Can Read a License"
+    ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
+    You can now tell the six Creative Commons licenses apart, write a TASL credit line, and check whether two licenses can be combined. That is the reading skill every reusability score in this book depends on.
 
-Here is how it plays out. Suppose Sam's open chapter has a caption reading "Figure 4. Plant cell photograph, © Micro Images Ltd., used with permission of the chapter's authors." The authors had permission to use the photo in their chapter, but that permission may not reach Sam's revised version. Sam can ask Micro Images Ltd. for permission or replace the photo with an openly licensed one.
-
-!!! mascot-warning "The Page License May Not Cover the Pictures"
-    ![Echo the Loon warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
-    An open chapter can include an image that belongs to someone else, so a CC BY notice on the page doesn't clear every picture. Check the captions and credits for each image before you copy or reshare the chapter, and swap out any you can't confirm.
-
-Some uses need no license at all. **Fair use** is a doctrine in United States law that allows limited use of copyrighted work without permission, judged case by case. A court weighs four factors: the purpose and character of the use, including whether it is for nonprofit teaching or is transformative; the nature of the copyrighted work; how much of the work is used and how important that portion is; and the effect on the market for the original. No fixed number of words or pages is automatically safe, and teaching does not make a use fair by itself.
-
-Suppose Sam shows one paragraph of the publisher's chapter on the projector to comment on how it explains cell division. That is more likely to be fair than posting the whole chapter on a public website. Fair use also has a limit that matters for open resources: it belongs to the person making the use. If Sam shares a handout that relied on fair use, the teachers who receive it cannot assume the same protection. An open license travels with the resource, and fair use does not. Other countries have different rules, often called fair dealing, and this book is not legal advice.
-
-## Choosing a License
-
-**License selection** is the choice of which license to apply to a resource you created or adapted. Four questions decide it:
-
-1. **Who owns it?** Check that you hold the rights, as Chapter 1 explained for work made on the job.
-2. **What did you build on?** If your work is a remix, your license must be compatible with every source's license, so look at the table in the compatibility section first.
-3. **Do you want adaptations to stay open?** If yes, ShareAlike fits. If you do not mind, plain attribution is simpler.
-4. **Do you want to limit commercial use or changes?** NonCommercial and NoDerivatives do that, but they also reduce reuse.
-
-The table matches common goals to a license. The most open choice that still meets your goal is usually best, because each extra condition makes a resource harder for other teachers to reuse.
-
-| Your goal | Suggested license | What to keep in mind |
-|-----------|------------------|----------------------|
-| Let anyone use, adapt, and share with credit | CC BY | The usual choice for maximum reuse; many funders ask for it |
-| Keep adaptations open too | CC BY-SA | Adaptations must carry the same license |
-| Allow only noncommercial use | CC BY-NC | Harder to apply and narrows reuse |
-| Allow sharing but no changes | CC BY-ND | Blocks revision, so it is generally not treated as open |
-| Give up every right | CC0 | No credit is required |
-
-Return to Sam's adapted chapter, which blends the CC BY chapter with the CC BY-SA diagram met earlier. Question 2 settles the choice before the others arise. The compatibility table says CC BY mixed with CC BY-SA must carry CC BY-SA, so that is the license Sam applies, with a TASL line crediting both sources.
-
-Once you choose, put the license statement on the resource itself, with the version, and add the TASL line for anything you reused. Creative Commons licenses are meant for text, images, and similar content. For software code, Creative Commons recommends a software license such as the MIT license instead, which matters when your resource includes code.
-
-!!! mascot-tip "When in Doubt, Start With CC BY"
-    ![Echo the Loon giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
-    If no rule forces another choice, pick CC BY 4.0. It asks for the least, it mixes with the most licenses, and a reviewer scoring reusability will find nothing to mark down.
-
-## Summary
-
-This chapter turned the "yes within these terms" of Chapter 1 into rules you can apply. The key points are:
-
-- An open license is a standard, public, advance permission that cannot be withdrawn from users who follow its terms, and a proprietary license keeps all rights reserved.
-- A license statement names the license, its version, its conditions, and its scope, and a page can carry more than one.
-- Creative Commons licenses are built from four conditions: attribution, ShareAlike, NonCommercial, and NoDerivatives.
-- The six licenses are CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, CC BY-ND, and CC BY-NC-ND, and CC0 gives up all rights.
-- Two licensed works can be remixed only when their licenses are compatible, and a license conflict means no single license can satisfy both.
-- An attribution statement in TASL format names the title, author, source, and license, and notes any changes.
-- A license may not cover third-party content, and fair use belongs to one use, not to the resource.
-- License selection starts from ownership and sources, and the most open license that meets your goal is usually best.
-
-!!! mascot-celebration "You Can Read the Small Print"
-    ![Echo the Loon celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
-    You can now decode any Creative Commons license, check whether two licenses can be combined, and write a correct TASL credit line. Chapter 3 builds on this by putting a score on what a resource is allowed to do and how well it teaches.
+[See Annotated References](./references.md)

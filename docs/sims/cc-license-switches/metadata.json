@@ -1,0 +1,77 @@
+{
+  "title": "Creative Commons License Switches",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "A panel of three switches (Attribution, ShareAlike, NonCommercial) that shows how each Creative Commons element changes the license name and takes a freedom away from the person who receives the work. Attribution is always on.",
+  "date": "2026-10-23",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Creative Commons license elements",
+    "learningObjectives": [
+      "Explain how the ShareAlike and NonCommercial elements each narrow what a person receiving a Creative Commons work may do",
+      "Name the license that results from any setting of the Attribution, ShareAlike, and NonCommercial switches",
+      "Explain why the Attribution element is always on"
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "The five R permissions (retain, reuse, revise, remix, redistribute)",
+      "Definitions of the Attribution, ShareAlike, and NonCommercial requirements"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.2",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 560
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.2 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Predict, flip a switch, and observe the result",
+    "keyQuestions": [
+      "Which freedom does NonCommercial take away?",
+      "Which freedom does ShareAlike take away?",
+      "Why can the Attribution switch never be turned off?"
+    ],
+    "commonMisconceptions": [
+      "NonCommercial only forbids selling the exact file",
+      "ShareAlike applies to unchanged copies",
+      "Attribution is optional when the work is shared for free"
+    ],
+    "assessmentOpportunities": [
+      "Name the license shown for each switch setting without looking",
+      "Choose which switches must be off for a stated reuse, such as selling printed copies"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Attribution (BY) switch",
+      "type": "checkbox styled as a switch",
+      "description": "Locked on. Clicking it explains that every Creative Commons license requires credit to the creator."
+    },
+    {
+      "name": "ShareAlike (SA) switch",
+      "type": "checkbox styled as a switch",
+      "description": "Turns the ShareAlike requirement on or off. When on, picking the license for a remix is taken away."
+    },
+    {
+      "name": "NonCommercial (NC) switch",
+      "type": "checkbox styled as a switch",
+      "description": "Turns the NonCommercial requirement on or off. When on, commercial use is taken away."
+    }
+  ],
+  "chapter": "02-open-licenses-attribution"
+}

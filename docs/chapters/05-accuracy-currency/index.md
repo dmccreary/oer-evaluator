@@ -1,8 +1,8 @@
 ---
 title: "Accuracy and Currency"
-description: "Explains the accuracy and currency metrics: factual errors, fact checking, source citations, primary and secondary sources, outdated content, link rot, and expert review."
+description: "Teaches teachers to score accuracy and currency by fact checking, evaluating citations, spotting outdated content and broken links, and deciding when expert review is needed."
 generated_by: claude skill chapter-content-generator
-date: "2026-10-20 21:07:38"
+date: "2026-10-23 22:03:25"
 version: 1.11
 ---
 
@@ -41,271 +41,705 @@ This chapter builds on concepts from:
 
 ---
 
-!!! mascot-welcome "Is It True, and Is It Still True?"
-    ![Echo the Loon waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
-    A beautifully designed chapter that teaches something wrong is worse than a plain one that gets it right. In this chapter you'll learn to catch errors, spot facts that have gone stale, and test whether a citation really supports the claim it's attached to. Let's dive in and check the evidence!
+!!! mascot-welcome "A Confident Sentence Is Not a True One"
+    ![Echo waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    A resource can be well written, nicely designed, and wrong. This chapter teaches you to check the facts, follow each citation back to its source, and test the links, so that your first quality score rests on evidence and not on how sure the text sounds. Let's dive in and check the evidence!
 
-The first quality metric asks the most basic question a teacher can ask of a resource: can I trust what it says? Chapter 3 introduced the ten metrics, and this chapter takes metric 1, Accuracy and Currency. Sam's open chapter on cell structure earned a score of 6 on this metric, and the chapter shows where that number came from. Along the way you will learn how to check facts efficiently, how to read a citation critically, and how to tell content that was never right from content that has simply aged.
+The first quality metric in the ten-metric rubric asks one question: are the facts correct and up to date? It sounds simple, and it is the metric where a careless reviewer does the most damage. Readers trust a resource that sounds certain, and a text that sounds certain is not always right. A reviewer's job is to ask what each important sentence rests on.
 
-## The Accuracy and Currency Metrics
+This chapter splits the metric into its two halves. Accuracy asks whether the facts were correct when written. Currency asks whether they are still correct now. You will learn to check a sample of facts, to follow citations back to their sources, to judge whether a citation really supports a claim, to spot content that has aged, to test links, and to decide when you need an expert. The last section combines all of it into a score.
 
-The **accuracy metric** is the half of metric 1 that asks whether the facts in a resource are correct. The **currency metric** is the other half, which asks whether those facts are up to date. A reviewer records evidence for both halves and gives one score from 0 to 10, because a resource can be wrong in two different ways: it can state something false, or it can state something that used to be true.
+## The Accuracy Metric
 
-The descriptors show how the combined score is read. They are illustrative, and they refer to claims that a reviewer actually checked.
+The **accuracy metric** is the half of the first quality metric that asks whether the facts in a resource are correct. A fact here means any claim that can be checked against a source: a date, a number, a definition, a name, a quotation, a procedure, or a step in a calculation. Pictures make claims too, because a caption or a labeled diagram states something that can be right or wrong. Accuracy does not cover opinions or teaching choices, which other metrics score.
 
-| Score range | Accuracy and Currency descriptor |
-|-------------|----------------------------------|
-| 9 to 10 | No errors found in the checked claims; sources are cited, relevant, and current; links work |
-| 7 to 8 | Minor errors or dated references that do not change what a learner would learn |
-| 5 to 6 | Errors or outdated statements in core content, or several citations that cannot be followed |
-| 3 to 4 | Several significant errors, or most sources missing or out of date |
-| 0 to 2 | Pervasive errors; the resource cannot be trusted without rewriting |
+No reviewer can check every claim in a resource. The method is to check a **sample**. Pick at least 10 checkable facts, spread across the resource's sections, and favor the kinds of claims that are likeliest to be wrong or most costly if they are: numbers, dates, names, and statements about cause. For each fact record where it appears, the source you checked it against, and the result, which is match, mismatch, or not checkable. Report the sample size with the score, since "9 of 10 matched" says more than "mostly accurate".
 
-Sam scored the open chapter by checking claims, not by reading for a general impression. Sam found two statements in the core organelle content that are wrong, and the table below gives the evidence in the three-part format from Chapter 3. Sam also found that two of the nine links in the reference list no longer work. Everything else Sam checked was correct. Two errors in core content, plus a reference list that has partly decayed, fall in the 5 to 6 range, and Sam chose 6 because the errors are few and easy to fix.
+Check each fact against a reliable source that is independent of the resource. Checking against another copy of the same text proves nothing, because copied errors spread.
 
-| Where | What | How checked |
-|-------|------|-------------|
-| Page 14, paragraph 2 | States that mitochondria are the only organelles with their own DNA; chloroplasts also have their own DNA | Compared with a standard cell biology reference |
-| Section 3, paragraph 4 | States that ribosomes are found only in cells with a nucleus; bacteria have ribosomes too | Compared with a standard cell biology reference |
-| Reference list, items 3 and 7 | Links return "page not found" | Opened each link on the review date |
+**Worked example: a 10-fact sample for Watershed Basics.** The reviewer reads the three sections, picks ten claims that can be checked, and checks each against a reliable source. The river, the lake, and the agency are made up for this book, and the table labels the data illustrative.
 
-What the metric leaves out matters as much as what it covers. Accuracy asks whether the statements in the resource are correct. It does not ask whether the resource covers what learners need, which is Alignment in Chapter 6, or whether they can read it, which is Readability in the same chapter. A complete, well-written chapter can still be inaccurate, and an accurate chapter can still miss the point of the unit.
+| # | Where | Claim in the resource | Checked against | Result |
+|---|---|---|---|---|
+| 1 | Section 1 | A watershed is an area of land that drains to a common outlet. | A national water agency's glossary | Match |
+| 2 | Section 1 | Rain that falls on a watershed flows downhill to streams, lakes, or the sea. | The agency's introduction to watersheds | Match |
+| 3 | Section 1 | A large watershed can contain many smaller watersheds. | The agency's introduction | Match |
+| 4 | Section 2 | The Clearwater River is 410 miles long. | The State Water Agency's current river data page | **Mismatch:** the page now gives 398 miles, and the text uses an older figure |
+| 5 | Section 2 | The Clearwater River drains about 6,000 square miles. | The State Water Agency's river data page | Match |
+| 6 | Section 2 | The Clearwater River flows into Lake Marlow. | The state atlas | Match |
+| 7 | Section 3 | Groundwater stored in underground layers is called an aquifer. | A geological survey glossary | Match |
+| 8 | Section 3 | Wetlands can slow floodwater and filter pollutants. | The agency's wetlands page | Match |
+| 9 | Section 3 | Many rivers are fed in part by springs. | The geological survey's water pages | Match |
+| 10 | Section 3 | Paved surfaces increase runoff. | The agency's runoff page | Match |
 
-No reviewer can check every sentence, so say how much you checked. A sensible plan is to check every number and date, every sentence with an absolute word, and a sample of the remaining claims, perhaps a handful from each major section. Sam checked 20 claims in the 6,000-word chapter, an illustrative figure, and wrote the number on the review report so that the next reviewer knows the score rests on a sample.
+Nine of the ten facts match. The mismatch is a figure that was right once and has since been corrected, so it is both an accuracy finding and a currency finding. The final section of this chapter shows how that single fact affects the score.
 
-The same metric gives different scores to different resources, and the comparison shows what the descriptors do. The table scores the two chapters from Chapter 3 beside Sam's. The findings and scores are illustrative.
+### Factual Error
 
-| Resource | Findings | Score |
-|----------|----------|-------|
-| The college-level chapter | No errors found in the claims checked; all references working | 9 |
-| Sam's adopted open chapter | Two errors in core content; two of nine links broken | 6 |
-| The teacher-written chapter | Two errors in core content; no references at all | 4 |
+A **factual error** is a statement in a resource that is false, because it disagrees with reliable evidence about what is true. Errors come in several kinds, and naming the kind tells the reviewer what to record and the author what to fix.
 
-The teacher-written chapter scores lower than Sam's even though both contain two errors, because with no citations a reader has nothing to check.
+| Kind | What it looks like |
+|---|---|
+| Wrong fact | A claim that is simply false, such as the wrong number of chambers in a human heart |
+| Wrong number or unit | A correct fact with a wrong figure, such as milliliters written as liters |
+| Misattributed quote | A real statement credited to the wrong person |
+| Outdated statement | A claim that was true once and is no longer |
+| Unsupported claim | A claim that offers no evidence, so no one can tell |
+| Misleading simplification | A claim that is true as far as it goes and leaves out something that changes the meaning |
 
-## Factual Errors and Fact Checking
+An error is **serious** when a learner could take away a false or outdated fact, and **minor** when it does not mislead, as with a misspelled name. A disagreement among experts is not an error. If reliable sources differ, record the claim as contested and say so, instead of marking it wrong.
 
-A **factual error** is a statement that is wrong when compared with reliable sources. Errors take several forms. A plain wrong fact, such as the wrong year, is the easiest to catch. An overgeneralization, a claim made absolute by a word like "only," "always," or "never," is the form that Sam found. A misleading simplification leaves out something that changes the meaning. And a mislabeled figure or a miscalculation can look right at a glance. Each is worth separate attention, because each is caught in a different way.
+**Worked example: classifying five findings.**
 
-Sam's two errors both come from the same habit of writing: stating a true thing about one case as if it were true of all. Mitochondria do have their own DNA. The error is the word "only." The table gives the correct statement for each error, and the kind of reference that confirms it.
+| Finding | Kind | Severity |
+|---|---|---|
+| The text says water boils at 90 degrees Celsius at sea level. | Wrong number or unit | Serious |
+| A famous quotation is credited to the wrong person in a footnote. | Misattributed quote | Minor |
+| The text gives a river's length from an older survey. | Outdated statement | Serious |
+| A statistic appears with no source. | Unsupported claim | Not yet known, until someone checks it |
+| The text says plants get their food from the soil and never mentions sunlight. | Misleading simplification | Serious |
 
-| Error in the chapter | Correct statement | Kind of source that confirms it |
-|----------------------|-------------------|---------------------------------|
-| "Mitochondria are the only organelles with their own DNA." | Mitochondria and chloroplasts both have their own DNA | A standard cell biology textbook |
-| "Ribosomes are found only in cells with a nucleus." | Ribosomes are found in all cells, including bacteria, which have no nucleus | A standard cell biology textbook |
+The first MicroSim of the chapter trains this distinction. It shows eight short reports of errors, and for each one you choose the kind of error it describes.
 
-Not everything a reviewer cannot confirm is an error. Three outcomes are possible after a check. The claim is confirmed. The claim is contradicted, which makes it an error. Or the claim cannot be verified, which makes it unverified. Some claims are also contested, meaning that experts disagree, and a reviewer should note the disagreement and not choose a side. Record unverified and contested claims separately from errors, because they call for a different response: a question to the author or an expert, not a correction.
-
-**Fact checking** is the process of testing a claim against independent, reliable sources. Nobody has time to check every sentence, so a reviewer chooses which claims to check. Four kinds of claim deserve priority: numbers and dates, sentences with absolute words, definitions, and any claim that a learning outcome depends on. The steps are the same each time:
-
-1. Choose the claim and write it down exactly as the resource states it.
-2. Find a reliable source that is independent of the resource, such as another textbook or an original paper.
-3. Compare the two, noting any difference in meaning, not just in wording.
-4. Record the result in an evidence citation: where, what, and how checked.
-
-!!! mascot-tip "Check the Absolute Words First"
-    ![Echo the Loon giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
-    Scan a chapter for "only," "always," "never," "all," and "none." Sentences built on those words are where errors hide, because the real world almost always has an exception.
-
-## Source Citations
-
-A **source citation** is a reference that tells a reader where a fact or idea came from. A complete citation names the author, the title, the date, and where to find the source, which for a web page includes the address and the date you visited it. Citations do three jobs. They give credit to the people whose work you used. They let a reader verify the claim for themselves. And they signal that the writer is willing to be checked, which is part of what makes a resource trustworthy.
-
-For OER, citations carry an extra duty. An open resource is meant to be revised by people the original author may never meet, and a reviser who cannot trace a claim to its source cannot safely change or update it. A missing citation therefore costs the next teacher time. When you evaluate a citation, ask whether the claim it is attached to is actually supported by that source, and not just whether the citation exists.
-
-The table shows five citations from Sam's reference list, each with a finding. It reinforces what a good citation needs.
-
-| Citation in the reference list | Finding | Effect on the score |
-|-------------------------------|---------|---------------------|
-| Complete entry with author, year, publisher, and a working address | Meets every requirement | None |
-| Entry with author and title but no year | Reader cannot tell how current the source is | Small deduction |
-| Entry that gives only a website's home page | Reader cannot find the page that supports the claim | Deduction |
-| Entry whose link returns "page not found" | Source cannot be reached | Deduction |
-| A claim with no citation at all | Reader has nothing to check | Larger deduction when the claim is central |
-
-Where do citations belong? A citation can sit next to the claim, as a note or a number that points to the reference list, or only at the end of a section or chapter. Next to the claim is better, because the reader can tell which source supports which statement. The format matters less than completeness and consistency: any common style works if it gives the same details for every source.
-
-Checking a citation means following it, and the steps are short:
-
-1. Open the source using the address or the details given.
-2. Find the passage that bears on the claim.
-3. Confirm that it says what the chapter says it does, not something nearby.
-4. Check the date and the author against the citation.
-5. Record the result, with the date.
-
-When a link is broken, do not stop there. Sam searched for the title of reference 3, found the same work at a new address, and noted the new address in the review so it could be fixed. For reference 7 the title turned up nothing, so Sam recorded it as unverifiable. A citation you can follow, even if you have to search for it, is a very different finding from one that cannot be traced at all.
-
-Two terms help a reviewer decide how strong a citation is. A **primary source** is an original record of evidence, such as a research paper reporting an experiment, a data set, a laboratory notebook, or a historical document. A **secondary source** is a work that interprets or summarizes primary sources, such as a textbook or a review article. Secondary sources are easier to read and are right for most classroom claims. Primary sources are the better support when a claim is surprising, disputed, or a number someone might misquote. Robert Hooke's 1665 book *Micrographia*, which first described and named cells, is a primary source for the claim that cells were first observed in the seventeenth century.
-
-**Citation quality** is how well a citation supports the claim it is attached to. Five questions measure it. Is the source relevant to this exact claim? Is it reliable, meaning written by people with expertise and checked before publication? Is it specific enough that a reader can find the supporting passage? Is it accessible, so a reader can actually open it? And is it current enough for a claim that changes over time? A citation can fail on any one of the five while looking perfectly proper, which is why checking the citation against the claim matters more than checking its formatting.
-
-!!! mascot-warning "A Citation Isn't Proof"
-    ![Echo the Loon warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
-    A tidy reference can sit beside a claim it doesn't support, such as a chapter on plant roots cited for a point about cell membranes. Open the source and find the passage, or mark the citation as unchecked.
-
-The audit below gives you eight claims, each with its citation as printed, and asks you to identify the main problem.
-
-#### Diagram: Reference List Audit
+#### Diagram: Error Type Sorter
 
 <details markdown="1">
-<summary>Reference List Audit</summary>
+<summary>Error Type Sorter</summary>
 Type: microsim
-**sim-id:** reference-list-audit<br/>
+**sim-id:** error-type-sorter<br/>
 **Library:** p5.js<br/>
 **Status:** Specified<br/>
 **Bloom Level:** Analyze<br/>
-**Bloom Verb:** examine<br/>
-**Learning Objective:** The learner will examine 8 claims paired with their citations and identify, for each pair, the main problem with the citation or that it has none.
+**Bloom Verb:** distinguish<br/>
+**Learning Objective:** The learner will distinguish six kinds of factual error by choosing the kind that each of eight error reports describes, with at least 7 of 8 correct on the first attempt.
 
-**Prerequisites:** source citation, primary source, secondary source, citation quality, link rot, broken link check (all defined in the chapter above this block).
+**Prerequisites:** Factual Error, The Accuracy Metric (both defined in this chapter above this block).
 
-**Evidence of Mastery:** For each of the 8 claim and citation pairs, the learner chooses one of six findings and presses Check. A choice is correct when it matches the Correct finding column in Content. Mastery is 7 or more of 8 correct on the first attempt. Opening the link status and changing a choice before pressing Check is exploration and does not count as evidence.
+**Evidence of Mastery:** For each report the learner chooses one of six kinds. A choice is correct when it matches the Correct kind column in Content. Mastery is at least 7 of 8 correct on the first attempt. Reading the kind definitions is exploration, not evidence.
 
-**Misconceptions:** (1) A citation that is formatted correctly supports its claim. (2) A secondary source is always weaker than a primary source. (3) A working link means the source supports the claim. (4) Any older source is out of date.
+**Misconceptions:** (1) An outdated statement is a wrong fact. (2) A claim with no source is false. (3) A simplification is never an error.
 
-**Instructional Rationale:** Examining means breaking a whole into parts and relating them. Each pair has to be judged against five questions about the citation, and pairs that differ in only one respect make the learner find the part that fails.
+**Instructional Rationale:** Distinguishing kinds of error is an Analyze-level action, and the six kinds overlap in everyday speech. Eight reports that each isolate one kind make the learner attend to what exactly is wrong.
 
 **Content:**
 
-The six findings are: No problem, Missing information, Weak source, Broken link, Not relevant to the claim, and Outdated source. All names, titles, works, and addresses are fictional, and the addresses use the reserved example.org domain.
+The six kinds: Wrong fact, Wrong number or unit, Misattributed quote, Outdated statement, Unsupported claim, Misleading simplification.
 
-| # | Claim in the chapter | Citation as printed | Link status when checked | Correct finding | Why (shown as feedback) |
-|---|----------------------|---------------------|--------------------------|-----------------|-------------------------|
-| 1 | Plant cell walls are made mostly of cellulose. | Chen, L. (2019). Plant Cell Biology. Open Science Press. https://example.org/plant-cell-biology/walls | Opens; the page covers cell walls | No problem | The citation has author, year, publisher, and an address, and the page supports the claim. |
-| 2 | Bacteria have ribosomes. | Smith, J. Cell Biology. https://example.org/cell-biology | Opens; a general home page | Missing information | There is no year or publisher, and the address is a home page, so a reader cannot find the supporting passage. |
-| 3 | Chloroplasts have their own DNA. | A blog post titled "Fun Biology Facts," 2015. https://example.org/fun-facts | Opens; a list of short facts | Weak source | A list of fun facts is not written or checked by experts, so it is a weak source for a scientific claim. |
-| 4 | Cells were first observed in the 1600s. | Hooke, R. (1665). Micrographia. https://example.org/micrographia-scan | Opens; a scan of the book | No problem | It is a primary source for the claim, with a date and a working address. |
-| 5 | Mitochondria produce most of a cell's ATP. | Okafor, N. (2020). Cell Energy. Open Biology Press. https://example.org/cell-energy/atp | Returns "page not found" | Broken link | The citation is complete, but the address no longer works, so a reader cannot reach the source. |
-| 6 | The cell membrane is selectively permeable. | Rivera, A. (2017). Plant Roots and Water. Open Biology Press. https://example.org/plant-roots | Opens; a chapter about plant roots | Not relevant to the claim | The source is about plant roots, and the page does not discuss the cell membrane. |
-| 7 | Bacterial and human cells in the body are present in roughly equal numbers. | Lee, S. (2008). The Human Microbiome. Open Health Press. https://example.org/microbiome | Opens; the page states a ten-to-one ratio | Outdated source | The source gives an older ten-to-one estimate, so it cannot support a claim based on newer estimates. |
-| 8 | Osmosis moves water across a membrane. | Patel, R. (2021). Cell Transport. Open Biology Press. https://example.org/cell-transport/osmosis | Opens; the page defines osmosis | No problem | The citation is complete, current, and supports the claim. |
+The eight reports:
 
-**Provenance:** The 8 pairs, names, titles, and addresses are illustrative and fictional, except Hooke's Micrographia of 1665, which is a real primary source for pair 4. The sim labels all other entries "illustrative." The findings follow the chapter section "Source Citations."
+| # | Report shown to the learner | Correct kind | Why (shown as feedback) |
+|---|---|---|---|
+| 1 | A reading says the human heart has three chambers. | Wrong fact | The claim is false: the human heart has four chambers. |
+| 2 | A lab page tells students to measure 5 liters where its own source says 5 milliliters. | Wrong number or unit | The fact is right and the unit is wrong. |
+| 3 | A history page credits a famous speech to the wrong speaker. | Misattributed quote | A real statement is credited to the wrong person. |
+| 4 | A technology page tells students to use a program that was discontinued in 2019. | Outdated statement | The advice was sound when written and no longer works. |
+| 5 | A health page says studies prove a diet works and cites nothing. | Unsupported claim | No evidence is offered, so no one can tell whether it is true. |
+| 6 | A science page says plants get their food from the soil and never mentions sunlight. | Misleading simplification | It is partly true and leaves out what changes the meaning. |
+| 7 | A math page says the area of a rectangle is its length plus its width. | Wrong fact | The formula is false: area is length times width. |
+| 8 | A page quotes statistics from a recent study that is ten years old. | Outdated statement | The statistics were current once and are old now. |
 
-**Rules:** Each pair has exactly one correct finding. A pair is No problem only when the citation has an author, a date, a title, and a working address, and the source supports the claim. Missing information applies when the author, date, publisher, or a specific page is missing. Weak source applies when the source is not written or checked by experts. Broken link applies when the address does not open. Not relevant applies when the source does not discuss the claim. Outdated source applies when the source is older than the claim it must support requires. Mastery is correct first attempts >= 7 of 8.
+**Provenance:** The reports are illustrative cases written for this chapter, and the sim labels them "illustrative examples". The kinds follow the chapter section "Factual Error". The product named in report 4 is not named in the sim.
+
+**Rules:** Each report has exactly one correct kind. Reports 1 and 7 are Wrong fact, and reports 4 and 8 are Outdated statement.
 
 **Learner Activity:**
 
-1. The learner reads the first claim and its citation as printed.
-2. The learner opens the link status for that pair, which shows what the link did when checked.
-3. The learner chooses one of the six findings and presses Check.
-4. The sim shows whether the choice is correct and shows the Why text, then moves to the next pair. After pair 8, the sim shows the first-attempt score, lists any missed pair with its Why text, and offers a retry of the missed pairs.
+1. The learner reads one report and sees the six kinds.
+2. The learner may open the kind definitions. Opening them does not change the score.
+3. The learner chooses a kind, and the choice is committed.
+4. The sim shows whether it was correct and the Why text.
+5. After report 8 the sim shows the summary.
 
-**Feedback:** Eight pairs, shown in the order of the table, two attempts each. Correct: "Correct: [finding]. [Why text]." Incorrect on the first attempt: "Not quite. Compare the claim with the citation and the link status," followed by a hint. If the learner chose No problem for a flawed pair, the hint is "Check the citation against the five quality questions." If the learner chose a problem for a sound pair, the hint is "This citation is complete and supports the claim." If the learner chose the wrong problem, the hint is "Look again at what the link status and the citation each show." After a second wrong choice the correct finding and Why text are revealed and the pair counts as missed. The score "Correct on first attempt: n of 8" is shown at the end, and the sim states whether mastery was reached.
+**Feedback:** 8 reports in a shuffled order, one attempt each. Correct: "Correct: [kind]. [Why]". Incorrect: "Not quite. This is [kind]. [Why]". The summary shows "[n] of 8 correct on the first attempt". At 7 or more it adds "You can name the error." Below 7 it lists the Why text of each missed report.
 
-**Starting State:** The first claim and citation are shown, with the link status hidden and the six findings listed. The question on screen is "What is the main problem with this citation, if any?"
+**Starting State:** The first report, the six kinds, and the definitions closed. The question shown is "What kind of error is this?"
 
-**Chapter Anchors:** The chapter states that citation quality has five questions (relevant, reliable, specific, accessible, current), that a primary source is an original record of evidence, that Hooke's 1665 Micrographia is a primary source, and that the audit has 8 pairs.
+**Chapter Anchors:** The chapter lists six kinds of factual error: wrong fact, wrong number or unit, misattributed quote, outdated statement, unsupported claim, and misleading simplification.
 </details>
 
-## Currency, Dates, and Outdated Content
+### Fact Checking
 
-Accuracy asks whether a statement was ever right. The **currency metric** asks whether it is still right, and the two questions need different tools. How fast a field changes decides how much currency matters. The structure of a plant cell changes slowly, so a ten-year-old chapter on it can still be sound. A chapter about a software tool, a health recommendation, or a public statistic can age in a year. A reviewer therefore judges currency against the pace of the subject, not against a fixed number of years.
+**Fact checking** is the process of testing a claim by tracing it to a reliable source and comparing the two. The process has six steps:
 
-The table gives three examples of pace. The treatments are suggestions, not rules.
+1. Pick the claim, and write down its exact words.
+2. Decide what would count as a reliable source for that kind of claim.
+3. Find the source, preferably the original and not a copy.
+4. Compare the claim and the source word for word and number for number.
+5. Record the result as match, mismatch, or not addressed by the source.
+6. Cite where you looked, so another reviewer can repeat the check.
 
-| Subject | Pace of change | How to treat dates |
-|---------|----------------|--------------------|
-| Plant cell structure | Slow | A source from a decade ago can still be sound; check for revised findings |
-| Public health guidance | Medium | Compare the statement with the current guidance from the responsible agency |
-| Steps for using a software tool | Fast | Expect screens and menus to have changed; check against the current version |
+The result "not addressed" matters. A source that does not mention a claim neither supports nor contradicts it, and a reviewer who counts silence as support will pass claims that were never checked.
 
-**Outdated content** is content that was correct when written but is no longer. It comes in four kinds, and the table gives an example of each from a different resource. Suppose Sam's colleague reviewed a chapter on the human microbiome. It states that bacterial cells in the body outnumber human cells by about ten to one. That figure was widely repeated for decades, but a 2016 study published in PLOS Biology revised the estimate to roughly one bacterial cell for each human cell, counting all human cells. The same study notes that counting only human cells with a nucleus gives about ten to one, a reminder that how a quantity is counted can change the number. The chapter's statement, which does not say what it counts, was reasonable when written and is stale now.
+!!! mascot-thinking "Silence Is Not Support"
+    ![Echo thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    A source that never mentions a claim has not confirmed it. Count "not addressed" as its own result, and never as a match.
 
-| Kind of outdated content | Example |
-|--------------------------|---------|
-| A fact that has been revised | The ten-to-one ratio of bacterial to human cells, revised to about one to one |
-| Terminology that has changed | A term that the field has replaced with a more precise one |
-| A tool or website that has changed | A step-by-step guide to a software menu that no longer exists |
-| A standard or rule that has changed | A reference to a guideline version that has been replaced |
+The MicroSim below practices the comparison step. It shows a short source and eight claims, and for each claim you decide whether the source supports it, contradicts it, or does not address it.
 
-When you find outdated content in an open resource, the license often lets you fix it. A good repair replaces the statement with the current one, cites the newer source, and records the change in the changelog, so the next adopter sees what was updated and why. If you cannot repair it, add a dated note beside the statement saying that newer evidence exists.
-
-A reviewer needs dates to judge currency, and the **publication date** is the first one to look for. It is the date a resource was published or last updated. Three dates are easy to confuse: the date first published, the date last updated, and the date a web page was visited. A resource with no date at all is a red flag, because a reviewer cannot judge currency without one. The next place to look is the **revision history**, a record of the changes made over time, which Chapter 4 introduced under version control. A resource whose history shows regular updates is being maintained. One whose last change is years old may be fine for stable content and risky for a fast-moving subject.
-
-Every resource that points to the web faces the problem of **link rot**, the gradual loss of links as pages move, change, or disappear. A reference list that worked on the day of publication will lose some links every year. Two remedies help authors: citing a stable address where one exists, and saving a copy of a page in a web archive, such as the Internet Archive's Wayback Machine, and citing both addresses.
-
-A **broken link check** is the process of opening each link in a resource and recording whether it still works. It takes a few minutes for a short reference list. Open each link, note whether it loads the expected page, an error, or an unrelated page, and record the date, because a link that works today may not tomorrow. Sam's check of the chapter's nine references found two that return "page not found." Chapter 13 shows how an automated link checker can do this for hundreds of links at once.
-
-!!! mascot-thinking "Old Isn't Wrong, but Stale Is"
-    ![Echo the Loon thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
-    A fact's age matters only as much as its field changes. Ask how fast the subject moves before you judge a date, because a ten-year-old chapter on cell walls and a ten-year-old chapter on software are very different cases.
-
-Telling an error from a stale fact from a correct one takes practice. The checker below gives you eight claims from a fictional cell biology chapter, each with a reference note that you can open, as a reviewer would.
-
-#### Diagram: Claim Checker
+#### Diagram: Fact Check Matcher
 
 <details markdown="1">
-<summary>Claim Checker</summary>
+<summary>Fact Check Matcher</summary>
 Type: microsim
-**sim-id:** accuracy-claim-checker<br/>
+**sim-id:** fact-check-matcher<br/>
 **Library:** p5.js<br/>
 **Status:** Specified<br/>
-**Template:** https://github.com/dmccreary/health-education/tree/main/docs/sims/trusted-source-sorter<br/>
 **Bloom Level:** Evaluate<br/>
 **Bloom Verb:** judge<br/>
-**Learning Objective:** The learner will judge each of 8 claims from a sample cell biology chapter as accurate, a factual error, or outdated, using the reference note provided for each claim.
+**Learning Objective:** The learner will judge whether a source supports, contradicts, or does not address each of eight claims, with at least 7 of 8 correct on the first attempt.
 
-**Prerequisites:** accuracy metric, currency metric, factual error, fact checking, outdated content (all defined in the chapter above this block).
+**Prerequisites:** Fact Checking, Factual Error, The Accuracy Metric (all defined in this chapter above this block).
 
-**Evidence of Mastery:** For each of the 8 claims, the learner opens the reference note, chooses one of three judgments, and presses Check. A judgment is correct when it matches the Correct judgment column in Content. Mastery is 7 or more of 8 correct on the first attempt. Opening a reference note and changing a judgment before pressing Check is exploration and does not count as evidence.
+**Evidence of Mastery:** For each claim the learner commits one of three verdicts. A verdict is correct when it matches the Correct verdict column in Content. Mastery is at least 7 of 8 correct on the first attempt. Rereading the source is exploration, not evidence.
 
-**Misconceptions:** (1) A claim that sounds confident is accurate. (2) A claim that was once widely repeated is accurate. (3) A claim with the word "only" is correct if it is true of the example given. (4) A stale claim is the same thing as a mistaken claim.
+**Misconceptions:** (1) A claim the source does not mention is supported. (2) A claim that looks similar to the source is supported. (3) A small number difference can be ignored.
 
-**Instructional Rationale:** Judging means testing a claim against criteria. Providing a reference note for each claim makes the learner perform the same comparison that a reviewer does, and mixing three kinds of claim forces the learner to separate a false statement from a stale one.
+**Instructional Rationale:** Judging a claim against a source is an Evaluate-level action that fact checking depends on. Including claims that the source does not address, and claims that differ by one digit, teaches the learner to read the source closely and to count silence separately.
 
 **Content:**
 
-The three judgments are: Accurate, Factual error, and Outdated. The learner may open the reference note for any claim before judging it.
+The source, shown at all times (a made-up fact sheet): "Lake Marlow Fact Sheet, State Water Agency, 2025. Lake Marlow covers 14 square kilometers. Its deepest point is 31 meters. The lake is fed by the Clearwater River and two smaller streams. Fishing is permitted year-round. Swimming is permitted from June to September. The lake was formed by a glacier about 12,000 years ago."
 
-| # | Claim shown to the learner | Reference note | Correct judgment | Why (shown as feedback) |
-|---|----------------------------|----------------|------------------|-------------------------|
-| 1 | Mitochondria are the only organelles that contain their own DNA. | Both mitochondria and chloroplasts contain their own DNA. | Factual error | The word "only" makes the claim false, because chloroplasts also have their own DNA. |
-| 2 | The cell membrane is selectively permeable. | Cell membranes let some substances cross more easily than others. | Accurate | This matches the reference note. |
-| 3 | Ribosomes are found only in cells that have a nucleus. | Ribosomes are found in all cells, including bacteria, which have no nucleus. | Factual error | Bacteria have ribosomes, so the claim is false. |
-| 4 | The human body contains about ten times as many bacterial cells as human cells. | A 2016 study in PLOS Biology estimated about 1.3 bacterial cells for each human cell when all human cells are counted, and proposed this figure to replace the older ten-to-one estimate. | Outdated | The ten-to-one figure was widely repeated and later revised for the body as a whole, so the claim as stated was reasonable once and is stale now. |
-| 5 | Plant cell walls are made mostly of cellulose. | Cellulose is the main component of plant cell walls. | Accurate | This matches the reference note. |
-| 6 | Animal cells contain no organelles. | Animal cells contain many organelles, including mitochondria and a nucleus. | Factual error | Animal cells have many organelles, so the claim is false. |
-| 7 | Chloroplasts carry out photosynthesis. | Photosynthesis takes place in chloroplasts. | Accurate | This matches the reference note. |
-| 8 | Cells are the basic unit of life. | The cell theory holds that the cell is the basic unit of structure and function in living things. | Accurate | This matches the reference note. |
+The three verdicts: Supported, Contradicted, Not addressed.
 
-**Provenance:** The claims are written for this chapter from standard cell biology content. The reference notes for claims 1 to 3 and 5 to 8 paraphrase standard cell biology references. The reference note for claim 4 paraphrases Sender, Fuchs, and Milo (2016), "Revised estimates for the number of human and bacteria cells in the body," PLOS Biology 14(8): e1002533, https://doi.org/10.1371/journal.pbio.1002533. The study also notes that counting only human cells with a nucleus gives about ten to one, and the sim states that the claim and the reference note both concern all human cells. The sim labels the chapter text "sample" and names the 2016 study.
+The eight claims:
 
-**Rules:** A claim is Accurate when the reference note supports it as stated. A claim is a Factual error when the reference note contradicts it, whether or not it was ever believed. A claim is Outdated when the reference note shows that it was once reasonable and has since been revised. Each of the 8 claims fits exactly one judgment. Mastery is correct first attempts >= 7 of 8.
+| # | Claim shown to the learner | Correct verdict | Why (shown as feedback) |
+|---|---|---|---|
+| 1 | Lake Marlow covers 14 square kilometers. | Supported | The source states this figure. |
+| 2 | The deepest point of Lake Marlow is 13 meters. | Contradicted | The source says 31 meters, and the claim swaps the digits. |
+| 3 | The Clearwater River feeds Lake Marlow. | Supported | The source names it as one of the inflows. |
+| 4 | Swimming is allowed all year. | Contradicted | The source says swimming is permitted from June to September. |
+| 5 | Lake Marlow is home to rainbow trout. | Not addressed | The source does not name any fish species. |
+| 6 | The lake was formed by a glacier. | Supported | The source says so. |
+| 7 | Lake Marlow is the largest lake in the state. | Not addressed | The source gives the lake's area and does not compare it with other lakes. |
+| 8 | The lake has three inflows. | Supported | The source lists the river and two smaller streams, which makes three. |
+
+**Provenance:** The lake, the agency, and the fact sheet are made up for this chapter, and the sim labels them "illustrative example". No claim in the sim is a statement about a real place.
+
+**Rules:** Each claim has exactly one correct verdict. Four claims are Supported, two are Contradicted, and two are Not addressed. A claim is Supported only when the source states it or a direct count or calculation from the source gives it.
 
 **Learner Activity:**
 
-1. The learner reads the first claim.
-2. The learner opens the reference note and compares it with the claim.
-3. The learner chooses Accurate, Factual error, or Outdated and presses Check.
-4. The sim shows whether the choice is correct and shows the Why text, then moves to the next claim. After claim 8, the sim shows the first-attempt score, lists any missed claim with its Why text, and offers a retry of the missed claims.
+1. The learner sees the source and one claim.
+2. The learner chooses Supported, Contradicted, or Not addressed, and the choice is committed.
+3. The sim shows whether it was correct and the Why text, and highlights the part of the source that decides it.
+4. After claim 8 the sim shows the summary.
 
-**Feedback:** Eight claims, shown in the order of the table, two attempts each. Correct: "Correct: [judgment]. [Why text]." Incorrect on the first attempt: "Not quite. Compare the claim with the reference note," followed by a hint. If the learner chose Accurate for a flawed claim, the hint is "Read the claim word by word, especially words like only and all." If the learner chose Factual error for an outdated claim, the hint is "Ask whether this was once reasonable and has since been revised." If the learner chose Outdated for a false claim, the hint is "Ask whether the claim was ever true." After a second wrong choice the correct judgment and Why text are revealed and the claim counts as missed. The score "Correct on first attempt: n of 8" is shown at the end, and the sim states whether mastery was reached.
+**Feedback:** 8 claims in a shuffled order, one attempt each. Correct: "Correct: [verdict]. [Why]". Incorrect: "Not quite. This is [verdict]. [Why]". The summary shows "[n] of 8 correct on the first attempt". At 7 or more it adds "You can compare a claim with a source." Below 7 it lists the Why text of each missed claim.
 
-**Starting State:** The first claim is shown with its reference note closed and the three judgments listed. The question on screen is "Is this claim accurate, a factual error, or outdated?"
+**Starting State:** The source and claim 1 or the first claim in the shuffled order, with the three verdicts. The question shown is "Does the source support this claim?"
 
-**Chapter Anchors:** The chapter states that the 10-to-1 estimate of bacterial to human cells, counting all human cells, was revised to roughly 1 to 1 (about 1.3 to 1) by a 2016 study, that mitochondria and chloroplasts both have their own DNA, that bacteria have ribosomes, and that the checker has 8 claims.
+**Chapter Anchors:** The chapter's fact-checking steps end with the three results: match, mismatch, and not addressed by the source. The chapter says silence is not support.
 </details>
 
-Sometimes a reviewer cannot settle a question alone. **Expert review** is the checking of a resource by a person with deep knowledge of its subject. It is worth asking for when a claim is central to the learning outcomes, when sources disagree, or when the stakes are high, such as health or safety content. Make it easy for the expert: give them the list of claims you could not settle, with the evidence you gathered, instead of the whole resource. A short, specific request is more likely to be answered, and the expert's name and date belong on the review report as part of the evidence.
+## Source Citation
 
-!!! mascot-tip "Date Every Check"
-    ![Echo the Loon giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
-    When you check a link or a claim, write the date beside the result. A check with no date can't be repeated, and the next reviewer won't know whether "still works" means today or three years ago.
+A **source citation** is a reference that tells the reader where a claim came from, in enough detail that the reader can find the source. Citations do three jobs. They let a reviewer check a claim. They let a learner go deeper. And they give credit to the people whose work the resource builds on. A claim with no citation asks the reader to trust the author, and a reviewer cannot score trust.
 
-## Summary
+Citations appear in three common places. An *inline citation* sits beside the claim, as a number or a short author-and-year mark. A *footnote* puts the reference at the bottom of the page. A *reference list* collects all the references at the end. The form varies with the citation style, but a complete reference always carries the same parts: the author, the year, the title, the publisher or journal, a link or identifier, and, for web pages, the date you accessed it.
 
-This chapter showed how to score the first quality metric and what evidence supports it. The key points are:
+Not every sentence needs a citation. A claim needs one when it states a statistic, a date, a quotation, a finding of research, or anything a reasonable reader might doubt. Common knowledge and the author's own explanations do not.
 
-- Accuracy and Currency is one metric with two halves: whether facts are correct, and whether they are still correct.
-- A factual error is a statement that reliable sources contradict, and absolute words such as "only" are where errors often hide.
-- Fact checking tests a claim against independent, reliable sources, and a reviewer chooses the claims worth checking.
-- A source citation names author, title, date, and location, and citation quality depends on whether the source supports the claim.
-- A primary source is original evidence, a secondary source interprets it, and each suits different claims.
-- Outdated content was right when written, and how fast a field changes decides how much currency matters.
-- Publication dates and revision history show whether a resource is maintained, and link rot is checked by a dated broken link check.
-- Expert review settles questions a reviewer cannot, and the request should be short and specific.
+Citations also form chains. A textbook cites a review article, the review cites a study, and the study reports the original measurement. An error can enter at any link. A reviewer who stops at the first link has checked the textbook's summary, and has not checked the evidence. The further back you trace a claim, the more you can trust the check.
 
-!!! mascot-celebration "You Can Check the Facts"
-    ![Echo the Loon celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
-    You can now find an error with evidence, tell a stale fact from a false one, and test whether a citation really supports its claim. Chapter 6 moves on to two metrics about fit: whether a resource matches the learning outcomes, and whether its audience can read it.
+**Worked example: tracing one claim back.** A resource says "Wetlands filter pollutants." The reviewer follows the chain.
+
+| Step | Source | What it says | Is it the original? |
+|---|---|---|---|
+| 1 | The resource's footnote 4 | Cites a textbook | No |
+| 2 | The textbook | Says wetlands filter pollutants and cites a review | No |
+| 3 | The review article | Summarizes several studies of wetland filtering | No |
+| 4 | One of those studies | Reports measurements of pollutant levels before and after water passed through a wetland | Yes |
+
+The claim is supported by the study at the end of the chain. A reviewer who stopped at step 2 would have found only that a textbook agreed with the resource. The next MicroSim shows the parts of a single reference. Six numbered markers point to the parts that a reviewer checks.
+
+#### Diagram: Anatomy of a Source Citation
+
+<details markdown="1">
+<summary>Anatomy of a Source Citation</summary>
+Type: infographic
+**sim-id:** citation-anatomy<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Remember<br/>
+**Bloom Verb:** identify<br/>
+**Learning Objective:** The learner will identify the six parts of a complete reference from a description of each part's look, with at least 5 of 6 correct on the first attempt.
+
+**Prerequisites:** Source Citation, Fact Checking (both defined in this chapter above this block).
+
+**Evidence of Mastery:** In quiz mode the learner clicks the marker that matches a visual hint. A click is correct when it matches the marker named in the Hint column of Content. Mastery is at least 5 of 6 correct on the first attempt. Hovering in explore mode is exploration, not evidence.
+
+**Misconceptions:** (1) A link alone is a complete citation. (2) The year is the date the reader accessed the page. (3) The publisher is the same as the author.
+
+**Instructional Rationale:** Identifying the parts of a reference is a Remember-level task, and an illustration of one entry shows how the parts sit together. The quiz asks the learner to recognize a part from its place and look.
+
+**Content:**
+
+The illustration is a text-free flat drawing of one entry in a reference list on a printed page. The entry is made of separate bars on two lines: a short bar for a name, a small bar inside parentheses, a long bar that is drawn as slanted italic text, a medium bar, an underlined bar that looks like a link, and a small bar with a calendar icon beside it. The six markers:
+
+| # | Label | Hint (describes the look, not the name) | Description | Tip |
+|---|---|---|---|---|
+| 1 | Author | The short bar at the start of the entry. | The person or organization that created the work, and the first thing a reviewer checks for expertise. | An entry with no author needs extra checking, because no one is accountable for the claim. |
+| 2 | Year | The small bar inside parentheses after the author. | The year the work was published, which a reviewer compares with the claim's age. | Compare the year with how fast the topic changes. |
+| 3 | Title | The long slanted bar in the middle of the first line. | The name of the work, which lets a reader search for it. | A title that does not match the claim is a warning sign. |
+| 4 | Publisher or journal | The medium bar after the title. | The organization or periodical that published the work, which says something about review and reliability. | A reference work from a government agency or a university press has usually been reviewed. |
+| 5 | Link or identifier | The underlined bar on the second line. | A web address or a persistent identifier, so a reader can open the source. | Test the link, and note the date you tested it. |
+| 6 | Date accessed | The small bar with a calendar icon at the end. | The date the citing author last saw the page, which matters because web pages change. | A page accessed years ago needs a fresh check. |
+
+**Provenance:** The six parts follow the chapter section "Source Citation". The illustration is synthetic, and the sim labels the entry "illustrative example". The sim states that citation styles order the parts differently.
+
+**Rules:** Each hint matches exactly one marker. The illustration contains no text, so every label comes from the table above. Markers are numbered 1 to 6 in the order of the table.
+
+**Learner Activity:**
+
+1. In explore mode the learner hovers or clicks a marker and reads its label, description, and tip.
+2. In quiz mode the sim shows a hint.
+3. The learner clicks the marker they think the hint describes.
+4. If the first click is wrong, the sim says so and lets the learner try once more. If the second click is also wrong, the sim reveals the marker and its description.
+5. After all 6 hints the sim shows the summary.
+
+**Feedback:** 6 hints in a shuffled order, two attempts each. Only a correct first click counts as evidence. Correct: "Correct: [label]. [Description]". First wrong click: "Not quite. Look again at the hint: [hint]". Second wrong click: "This is [label]. [Description]". The summary shows "[n] of 6 correct on the first attempt". At 5 or more it adds "You can read a reference." Below 5 it lists the labels of the missed parts.
+
+**Starting State:** The illustration with six numbered markers, explore mode active, and the prompt "Hover a marker to see what it is."
+
+**Chapter Anchors:** The chapter says a complete reference carries the author, the year, the title, the publisher or journal, a link or identifier, and for web pages the date accessed.
+</details>
+
+### Primary Source
+
+A **primary source** is original evidence from the time or the person being described: a measurement, a document, a photograph, an interview, a dataset, or a first report of research. A primary source is the closest you can get to the thing itself. A census table is a primary source for the population on the census date. A lab notebook entry is a primary source for what the experimenter measured.
+
+### Secondary Source
+
+A **secondary source** describes, summarizes, or interprets primary sources. Textbooks, review articles, news stories about research, and histories are secondary sources. Encyclopedias and similar reference works also summarize other sources, and some classification schemes call them tertiary. This book treats them as secondary. Secondary sources are useful, because they gather and explain. They are also one step removed, so an error in the summary can hide the original evidence. For important claims, a reviewer follows a secondary source back to a primary one.
+
+The MicroSim below is a sorting practice. Each of ten sources supports a stated claim, and you decide whether it is a primary or a secondary source for that claim.
+
+#### Diagram: Primary or Secondary Source Sorter
+
+<details markdown="1">
+<summary>Primary or Secondary Source Sorter</summary>
+Type: microsim
+**sim-id:** source-type-sorter<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Understand<br/>
+**Bloom Verb:** classify<br/>
+**Learning Objective:** The learner will classify each of ten sources as a primary or a secondary source for the claim it supports, with at least 9 of 10 correct on the first attempt.
+
+**Prerequisites:** Primary Source, Secondary Source, Source Citation (all defined in this chapter above this block).
+
+**Evidence of Mastery:** For each source the learner commits one of two bins. A placement is correct when it matches the Correct bin column in Content. Mastery is at least 9 of 10 correct on the first attempt. Reading the definitions is exploration, not evidence.
+
+**Misconceptions:** (1) Anything old is a primary source. (2) A website is always a secondary source. (3) A source is primary or secondary in itself, whatever the claim.
+
+**Instructional Rationale:** Classifying a source is an Understand-level action, and the same document can be primary for one claim and secondary for another. Giving the claim with each source teaches the learner to ask what the source is evidence of.
+
+**Content:**
+
+The two bins: Primary source (original evidence from the time or person described) and Secondary source (describes, summarizes, or interprets primary sources).
+
+The ten sources:
+
+| # | Claim | Source shown to the learner | Correct bin | Why (shown as feedback) |
+|---|---|---|---|---|
+| 1 | The town had 4,200 residents in 1990. | A census table from 1990 | Primary source | It is the original count. |
+| 2 | The town had 4,200 residents in 1990. | A textbook paragraph that summarizes the 1990 census | Secondary source | It describes the census and is not the census. |
+| 3 | The dam was built with two spillways to handle floods. | A recorded interview with the engineer who designed the dam | Primary source | It comes from the person who made the decision. |
+| 4 | The dam was built with two spillways to handle floods. | A magazine article about that interview | Secondary source | It reports what someone else said. |
+| 5 | The temperature in trial 3 was 22 degrees Celsius. | The scientist's lab notebook entry for trial 3 | Primary source | It records the measurement when it was made. |
+| 6 | Teenagers benefit from later school start times. | A review article that summarizes thirty studies | Secondary source | It summarizes research done by others. |
+| 7 | The flood water reached the second step of the library. | A photograph taken at the library during the flood | Primary source | It is a record made at the time. |
+| 8 | The flood water reached the second step of the library. | A history book about the flood | Secondary source | It interprets records of the flood. |
+| 9 | The river's peak flow was recorded on 12 April. | The original data file from the river gauge | Primary source | It is the instrument's own record. |
+| 10 | The river is the main water supply for the county. | An encyclopedia entry about the river | Secondary source | It summarizes other sources. |
+
+**Provenance:** The claims and sources are illustrative cases written for this chapter, and the sim labels them "illustrative examples". The definitions follow the chapter sections "Primary Source" and "Secondary Source".
+
+**Rules:** Each source has exactly one correct bin, five per bin. The bin depends on the source's relation to the stated claim.
+
+**Learner Activity:**
+
+1. The learner sees one claim with its source and the two bins.
+2. The learner places the source in a bin, and the placement is committed.
+3. The sim shows whether it was correct and the Why text.
+4. After source 10 the sim shows the summary.
+
+**Feedback:** 10 sources in a shuffled order, one attempt each. Correct: "Correct: [bin]. [Why]". Incorrect: "Not quite. This is a [bin]. [Why]". The summary shows "[n] of 10 correct on the first attempt". At 9 or more it adds "You can tell original evidence from a summary." Below 9 it lists the Why text of each missed source.
+
+**Starting State:** The first source with its claim, the two bin definitions, and two empty bins. The question shown is "Is this source original evidence or a summary of it?"
+
+**Chapter Anchors:** The chapter says an encyclopedia is treated as a secondary source, and that a census table is a primary source for the population on its date.
+</details>
+
+### Citation Quality
+
+**Citation quality** is how well a citation supports the claim it is attached to. A citation can exist and still be poor. Four questions test it:
+
+- **Relevant:** does the source actually address this claim?
+- **Reliable:** do its author and publisher have expertise, and does the work show how it knows?
+- **Retrievable:** can a reader find the source, through a working link or complete details?
+- **Current:** is the source recent enough for a claim that changes?
+
+A citation that fails any of the four is a weaker support than it looks, and the reviewer notes which one failed.
+
+!!! mascot-warning "A Citation That Exists May Not Support the Claim"
+    ![Echo warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    A real source with a working link can still say nothing about the claim beside it, and AI agents are known to produce references that look right and are not. Open the source and read the line that supports the claim, and record that you did.
+
+The MicroSim below is a quality check. Each of six citations is attached to the same claim, and for each one you mark which of the four questions it fails.
+
+#### Diagram: Citation Quality Checker
+
+<details markdown="1">
+<summary>Citation Quality Checker</summary>
+Type: microsim
+**sim-id:** citation-quality-checker<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Evaluate<br/>
+**Bloom Verb:** assess<br/>
+**Learning Objective:** The learner will assess six citations for the same claim by marking exactly which of four quality criteria each fails, with at least 5 of 6 judged correctly on the first attempt.
+
+**Prerequisites:** Citation Quality, Source Citation, Primary Source, Secondary Source (all defined in this chapter above this block).
+
+**Evidence of Mastery:** For each citation the learner marks the failed criteria, or marks none. A judgment is correct when the marked set equals the Failed criteria column in Content exactly. Mastery is at least 5 of 6 correct on the first attempt. Reading the criteria is exploration, not evidence.
+
+**Misconceptions:** (1) A citation with a link is always good. (2) A recent source is always reliable. (3) A source that exists supports the claim.
+
+**Instructional Rationale:** Assessing a citation against explicit criteria is an Evaluate-level action. Six citations for one claim, with different mixes of failures, force the learner to apply each criterion separately.
+
+**Content:**
+
+The claim shown at all times: "Lake Marlow's deepest point is 31 meters." The four criteria: Relevant, Reliable, Retrievable, Current. A criterion is met when: the source states the depth (Relevant); the author or publisher is an agency, a reviewed publication, or a reference work with a stated method (Reliable); the link works or full details let a reader find the source (Retrievable); and the source is dated within the last five years (Current).
+
+The six citations (all made up):
+
+| # | Citation shown to the learner | Failed criteria | Why (shown as feedback) |
+|---|---|---|---|
+| 1 | State Water Agency. "Lake Marlow Fact Sheet." 2025. https://example.gov/lake-marlow (link works, and the sheet gives the depth) | None | It states the depth, comes from an agency, can be opened, and is recent. |
+| 2 | A blog post titled "Why I Love Lakes," 2019, no link, which never mentions depth | Relevant, Reliable, Retrievable | The post does not state the depth, has no stated method, and cannot be found. |
+| 3 | State Water Agency. "Lake Marlow Fact Sheet." 1998. https://example.gov/lake-marlow-1998 (link works, and the sheet gives the depth) | Current | The source is old for a measurement that can be resurveyed. |
+| 4 | State Water Agency. "Lake Marlow Fact Sheet." 2025. https://example.gov/old-link (the link returns "page not found") | Retrievable | The source may be good, and the reader cannot reach it. |
+| 5 | A student slide deck about lakes, 2025, no author, no link, which states the depth | Reliable, Retrievable | The deck states the depth, and no one is accountable for it and no one can find it. |
+| 6 | State Water Agency. "Lake Marlow Survey." 2025. https://example.gov/marlow-survey (link works, and the survey reports area and shoreline length but not depth) | Relevant | The source is reliable and current, and it does not address depth. |
+
+**Provenance:** The claim and citations are made up for this chapter, and the sim labels them "illustrative examples". The criteria follow the chapter section "Citation Quality". The five-year limit for Current is a teaching choice, and the sim labels it "illustrative threshold".
+
+**Rules:** Each citation has a fixed set of failed criteria, and the empty set is valid. A citation is Current when it is dated >= 2021, because the sim's review date is 2026. The criteria are judged independently.
+
+**Learner Activity:**
+
+1. The learner sees the claim, the four criteria, and one citation.
+2. The learner marks each criterion that the citation fails, or marks "None fail".
+3. The learner presses Check. The sim shows the correct set and the Why text.
+4. The learner moves to the next citation, until citation 6 is done.
+
+**Feedback:** 6 citations in the fixed order, one attempt each. Correct: "Correct. [Why]". Incorrect: "Not quite. Failed: [criteria, or none]. [Why]". The summary shows "[n] of 6 correct on the first attempt". At 5 or more it adds "You can judge a citation." Below 5 it lists the Why text of each missed citation.
+
+**Starting State:** The claim, the four criteria with their definitions, and citation 1 with no criteria marked. The question shown is "Which criteria does this citation fail?"
+
+**Chapter Anchors:** The chapter lists the four citation-quality questions as relevant, reliable, retrievable, and current. The chapter says a citation that exists can fail to support the claim.
+</details>
+
+## The Currency Metric
+
+The **currency metric** is the half of the first quality metric that asks whether the content is still correct and in current use: the facts, figures, practices, software, laws, and links that were right when the resource was written but may have changed since. Accuracy asks about the day of writing, and currency asks about today. A resource can score well on one and badly on the other. A careful 2012 text with no errors on the day it was published can be full of out-of-date statements now.
+
+Content ages at different speeds, so a reviewer matches the amount of checking to how fast the topic moves. The multiplication table does not change, while a software screenshot can change within a year.
+
+**Worked example: how fast does it age?** The table groups six kinds of content by how quickly they go out of date.
+
+| Kind of content | How fast it ages | How often to check |
+|---|---|---|
+| Basic mathematics and definitions | Very slowly | At each major review |
+| The sequence of historical events | Slowly | At each major review |
+| Statistics and survey results | Moderately | Every few years, or whenever new data appear |
+| Standards, curricula, and guidelines | Moderately | Every few years, and when a standard is revised |
+| Software screenshots, prices, and web addresses | Quickly | Every year or more often |
+| Laws, policies, and contact details | Quickly | Every year or more often |
+
+### Outdated Content
+
+**Outdated content** is content that was correct when it was written and is no longer correct or in use. It is different from a factual error, because the author did nothing wrong at the time. The reader is harmed all the same. Several signs point to outdated content:
+
+- Dates in the text that are many years old, or the words "recent" and "new" with no date beside them.
+- Products, versions, or standards that have been replaced or discontinued.
+- Statistics that come from an old dataset for a quantity that changes.
+- Screenshots of an interface that has since been redesigned.
+- Links to pages that no longer exist, which later sections cover.
+- No sign of any update in years, for a topic that moves fast.
+
+**Worked example: reading a short passage for signs of aging.** A reviewer on 12 October 2026 reads this made-up passage: "Our district uses Quizlette 2.0, the newest quiz tool, adopted in 2014. The county has about 52,000 people, according to the 2010 census. To sign in, click the blue Sign On button, shown in the screenshot below."
+
+| Statement | Sign of aging | What to check |
+|---|---|---|
+| "the newest quiz tool, adopted in 2014" | "Newest" with a date twelve years old | Whether the tool still exists and is still the district's choice |
+| "about 52,000 people, according to the 2010 census" | A figure from a dataset that changes | The most recent census figure |
+| "click the blue Sign On button" in a screenshot | An interface screenshot | Whether the interface still looks like that |
+
+The MicroSim below practices the same judgment. It shows eight statements read on a review date, and for each one you decide whether it is current, likely outdated, or cannot be judged without checking.
+
+#### Diagram: Outdated Content Spotter
+
+<details markdown="1">
+<summary>Outdated Content Spotter</summary>
+Type: microsim
+**sim-id:** outdated-content-spotter<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Evaluate<br/>
+**Bloom Verb:** judge<br/>
+**Learning Objective:** The learner will judge whether each of eight statements read on a stated review date is current, likely outdated, or cannot be judged without checking, with at least 7 of 8 correct on the first attempt.
+
+**Prerequisites:** The Currency Metric, Outdated Content (both defined in this chapter above this block).
+
+**Evidence of Mastery:** For each statement the learner commits one of three bins. A placement is correct when it matches the Correct bin column in Content. Mastery is at least 7 of 8 correct on the first attempt. Reading the signs of aging is exploration, not evidence.
+
+**Misconceptions:** (1) Anything with a date is outdated. (2) Old facts about the past are outdated. (3) A rule written long ago is still in force.
+
+**Instructional Rationale:** Judging currency is an Evaluate-level action that needs a criterion, which is how fast the kind of content changes. Including timeless statements, fast-aging ones, and ones that need a check teaches the learner to match the judgment to the content.
+
+**Content:**
+
+The review date, shown at all times: 12 October 2026. The three bins: Current, Likely outdated, Cannot tell without checking.
+
+The eight statements:
+
+| # | Statement shown to the learner | Correct bin | Why (shown as feedback) |
+|---|---|---|---|
+| 1 | The Pythagorean theorem says a squared plus b squared equals c squared for a right triangle. | Current | Mathematical results do not age. |
+| 2 | In 2014 the district adopted Quizlette 2.0 for all quizzes. (Quizlette was discontinued in 2019.) | Likely outdated | The product has been discontinued, so the advice no longer works. |
+| 3 | Photosynthesis takes in carbon dioxide and releases oxygen. | Current | Basic science of this kind changes very slowly. |
+| 4 | The county has about 52,000 people (2010 census). | Likely outdated | A population figure from sixteen years before the review date is old for a quantity that changes. |
+| 5 | To sign in, click the blue Sign On button at the top right (screenshot from 2015). | Likely outdated | Interface screenshots age quickly. |
+| 6 | The United States Declaration of Independence was adopted in 1776. | Current | A historical date does not change. |
+| 7 | The state requires 180 days of instruction (the law in effect since 1999). | Cannot tell without checking | Laws can be amended, so the reviewer must check the current law. |
+| 8 | The tallest building in the city is Harbor Tower (completed 2008). | Cannot tell without checking | A taller building may have been built since, so the reviewer must check. |
+
+**Provenance:** The statements are illustrative cases written for this chapter, and the sim labels them "illustrative examples". The product, county, law, and building are made up, and the two historical and scientific statements are common knowledge. The rules of thumb follow the chapter section "The Currency Metric".
+
+**Rules:** Each statement has exactly one correct bin. Three statements are Current, three are Likely outdated, and two are Cannot tell without checking. A statement about a quantity that changes is Likely outdated when its source date is > 5 years before the review date.
+
+**Learner Activity:**
+
+1. The learner sees the review date and one statement.
+2. The learner places the statement in a bin, and the placement is committed.
+3. The sim shows whether it was correct and the Why text.
+4. After statement 8 the sim shows the summary.
+
+**Feedback:** 8 statements in a shuffled order, one attempt each. Correct: "Correct: [bin]. [Why]". Incorrect: "Not quite. This is [bin]. [Why]". The summary shows "[n] of 8 correct on the first attempt". At 7 or more it adds "You can read a date and a topic together." Below 7 it lists the Why text of each missed statement.
+
+**Starting State:** The first statement, the review date, and the three bins. The question shown is "Is this statement still current?"
+
+**Chapter Anchors:** The chapter's passage example is read on 12 October 2026 and flags the 2014 product, the 2010 census figure, and the screenshot. The chapter's shelf-life table puts mathematics and definitions at the slow end and screenshots, prices, laws, and contact details at the fast end.
+</details>
+
+### Publication Date
+
+A **publication date** is the date a resource was first published or last substantially updated. Three dates can appear, and they mean different things. The *published* date is when the resource first appeared. The *updated* date is when it was last changed. The *accessed* date is when a reader last looked at it. A reviewer wants the first two. Where to look: the page's header or footer, the front matter of a book, the file's properties, the repository's commit history, or an archive of the page.
+
+A resource with no date is a currency concern, because no one can tell how old the facts are. An updated date alone does not prove that the content was reviewed. Some websites refresh the date automatically each time the page is served. Look for evidence that the date reflects real revision.
+
+### Revision History
+
+A **revision history** is the record of the changes made to a resource over time, with dates. It is evidence of maintenance. For a resource hosted in a repository, the history is the list of commits from Chapter 4. For a document it may be a changelog or a note at the end. A frequent, recent revision history suggests that someone is looking after the resource. A long gap with no revisions is a signal, and for a fast-aging topic it is a warning.
+
+### Link Rot
+
+**Link rot** is the gradual breaking of web links over time. Sites are reorganized, domains lapse, pages are removed, and addresses change, so a link that worked when the author wrote the resource may lead nowhere years later. A resource full of citations to web pages is exposed to link rot, and the broken links make the citations impossible to check. Authors can reduce the damage by citing stable sources, by using persistent identifiers such as a DOI (a digital object identifier that points to a work wherever it moves), and by saving an archived copy of important pages.
+
+!!! mascot-tip "Cite the Original and an Archive"
+    ![Echo giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    When you rely on a web page, save an archived copy with a service such as the Internet Archive's Wayback Machine and record both addresses. If the original disappears, the archive keeps your evidence checkable.
+
+### Broken Link Check
+
+A **broken link check** tests every external link in a resource to see whether it still reaches the intended page. Free link-checking tools do the testing automatically, and a reviewer then looks at the failures by hand. Record the date of the test, because a link that works today may fail next month.
+
+A link checker reports a status code, a three-digit number from the web server. The table shows the most common ones and the action each one calls for.
+
+| Result | What it means | What to do |
+|---|---|---|
+| 200 | The page loaded | Confirm that it is still the cited page, then keep the link |
+| 301 | The page moved permanently to a new address | Update the link to the new address |
+| 403 | The server refused the tool, though a person may be allowed in | Open the link by hand |
+| 404 | The page was not found | Search for the new address, or replace the source |
+| 410 | The page is gone for good | Replace the source |
+| Timeout | The server did not answer | Try again later, and open it by hand |
+
+A page can also load with code 200 and no longer be the page that was cited, such as a site that sends every old address to its home page. A tool will report success, so a reviewer opens a sample of working links to confirm they lead where they should.
+
+The MicroSim below practices reading link-check results. It shows eight results from a link checker, and for each one you choose the action to take.
+
+#### Diagram: Link Check Results Reader
+
+<details markdown="1">
+<summary>Link Check Results Reader</summary>
+Type: microsim
+**sim-id:** link-check-reader<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Understand<br/>
+**Bloom Verb:** interpret<br/>
+**Learning Objective:** The learner will interpret eight link-check results by choosing the action each calls for, with at least 7 of 8 correct on the first attempt.
+
+**Prerequisites:** Link Rot, Broken Link Check, Source Citation (all defined in this chapter above this block).
+
+**Evidence of Mastery:** For each result the learner commits one of three actions. A choice is correct when it matches the Correct action column in Content. Mastery is at least 7 of 8 correct on the first attempt. Reading the status code table is exploration, not evidence.
+
+**Misconceptions:** (1) A 200 result always means the link is good. (2) A 403 result means the page is gone. (3) A timeout means the source is permanently lost.
+
+**Instructional Rationale:** Interpreting a result is an Understand-level action that connects a code to its meaning. Results that look alike but call for different actions teach the learner not to rely on the code alone.
+
+**Content:**
+
+The three actions: Keep, Fix or replace, Check by hand.
+
+The eight results:
+
+| # | Result shown to the learner | Correct action | Why (shown as feedback) |
+|---|---|---|---|
+| 1 | 200: the page loaded, and it is the cited article. | Keep | The link works and reaches the cited page. |
+| 2 | 404: the page was not found. | Fix or replace | The page is missing, so find its new address or replace the source. |
+| 3 | 301: the page moved permanently to a new address, which shows the same article. | Fix or replace | Update the link to the new address. |
+| 4 | 403: the tool was refused, and the page opens in a browser. | Check by hand | The server blocks tools, so a person must confirm the page. |
+| 5 | 200: the page loaded, but it is a site home page and not the cited article. | Fix or replace | The address now leads somewhere else, so the citation no longer works. |
+| 6 | 410: the page is gone. | Fix or replace | The server says the page was removed for good. |
+| 7 | Timeout: no answer after 30 seconds. | Check by hand | The server may be down for now, so try again later and open it by hand. |
+| 8 | 200: the page loaded, but it asks for a paid subscription to read. | Check by hand | The link works, and a reader without a subscription cannot check the claim, so a person must decide. |
+
+**Provenance:** The results are illustrative cases written for this chapter, and the sim labels them "illustrative examples". The status codes follow the chapter section "Broken Link Check".
+
+**Rules:** Each result has exactly one correct action. One result is Keep, four are Fix or replace, and three are Check by hand.
+
+**Learner Activity:**
+
+1. The learner sees one result and the three actions.
+2. The learner may open the status code table. Opening it does not change the score.
+3. The learner chooses an action, and the choice is committed.
+4. The sim shows whether it was correct and the Why text.
+5. After result 8 the sim shows the summary.
+
+**Feedback:** 8 results in a shuffled order, one attempt each. Correct: "Correct: [action]. [Why]". Incorrect: "Not quite. The action is [action]. [Why]". The summary shows "[n] of 8 correct on the first attempt". At 7 or more it adds "You can read a link check." Below 7 it lists the Why text of each missed result.
+
+**Starting State:** The first result, the three actions, and the status code table closed. The question shown is "What should the reviewer do with this link?"
+
+**Chapter Anchors:** The chapter's status code table lists 200, 301, 403, 404, 410, and timeout, with the actions keep, update, open by hand, replace, and try again. The chapter says a page that loads with code 200 may not be the cited page.
+</details>
+
+## Expert Review
+
+An **expert review** is a check of a resource's content by a person with deep knowledge of its subject. A reviewer cannot be an expert in everything, and for some claims an expert's judgment is the only reliable check. Ask for an expert review when the topic is outside your knowledge, when the content bears on health, safety, or law, when claims are contested, or when your sample finds two or more mismatches in ten facts.
+
+Make the request easy to answer. Send the list of claims you could not check, with the exact words and the context, and ask a specific question about each: is this correct, and if not, what is? Record the expert's name, their qualification, the date, and the result in your evidence. An expert's confirmation counts as evidence, and a note that says only "an expert looked at it" does not.
+
+!!! mascot-encourage "Asking an Expert Is Part of the Method"
+    ![Echo encouraging](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
+    If a claim is beyond what you know, that does not make you a weak reviewer, because careful reviewers say so and ask. You already hand a question to a colleague when it falls outside your subject. Write down the claim, the expert, and the answer, and the score rests on evidence again.
+
+## Scoring Accuracy and Currency
+
+You now have the parts for scoring the metric. The review has six steps. Note the review date. Sample and check at least 10 facts. Trace the claims that carry weight back through their citations. Test all external links. Run the ten checks below. Then count the passes, find the band, and choose the number.
+
+A failed check is **serious** when a learner could take away a false or outdated fact. If a serious check fails, choose the lower number in a two-number band. Otherwise choose the higher one, as in Chapter 3.
+
+| # | Check | Serious if it fails? |
+|---|---|---|
+| 1 | A sample of at least 10 checkable facts was tested against reliable sources | No |
+| 2 | At least 9 of every 10 sampled facts match their sources | Yes |
+| 3 | No sampled error teaches a main idea falsely | Yes |
+| 4 | Claims that need support carry a citation | No |
+| 5 | Cited sources are reliable | No |
+| 6 | A publication or update date is shown | No |
+| 7 | No outdated fact, figure, or practice appears in the sample | Yes |
+| 8 | Cited sources are recent enough for the claims | No |
+| 9 | All tested links work | No |
+| 10 | A way to report errors is offered | No |
+
+**Worked example: Watershed Basics.** The reviewer applies the checks to the reading from Chapter 3, and the ten-fact sample is the table from the first section of this chapter.
+
+| # | Result | Evidence |
+|---|---|---|
+| 1 | Pass | Ten facts were checked in sections 1 to 3. |
+| 2 | Pass | Nine of ten matched. |
+| 3 | Pass | The one mismatch is a river length, not a main idea. |
+| 4 | Pass | Every statistic and date carries a citation. |
+| 5 | Pass | The citations are to agencies and survey pages. |
+| 6 | Pass | The page shows a publication date. |
+| 7 | **Fail** | The river-length figure in section 2 is outdated: the text gives 410 miles and the agency now gives 398. |
+| 8 | Pass | The cited agency pages were updated within the last five years. |
+| 9 | **Fail** | 2 of 14 links return "page not found" (tested 2026-10-12). |
+| 10 | Pass | The author's contact address is on the page. |
+
+Eight of ten checks pass, a share of 80 percent, in the 7 to 8 band. Check 7 failed, and it is a serious check, because a learner could memorize the old river length. The reviewer therefore chooses the lower number, **7**, which is the score recorded on the Chapter 3 worksheet. The two broken links are a lesser gap, and the reviewer records both with the date.
+
+The last MicroSim of the chapter is a scoring practice. It shows five resources with their ten check results, and for each one you choose the metric score.
+
+#### Diagram: Accuracy and Currency Scorer
+
+<details markdown="1">
+<summary>Accuracy and Currency Scorer</summary>
+Type: microsim
+**sim-id:** accuracy-currency-metric-scorer<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** apply<br/>
+**Learning Objective:** The learner will apply the ten accuracy and currency checks and the Chapter 3 scoring rules to choose the metric score for each of five resources, with at least 4 of 5 scores exactly correct on the first attempt.
+
+**Prerequisites:** The Accuracy Metric, The Currency Metric, Factual Error, Outdated Content, Metric Score, Scoring Descriptor (all defined in this chapter or in Chapter 3 above this block).
+
+**Evidence of Mastery:** For each resource the learner chooses a whole-number score from 0 to 10 after seeing the ten check results. A score is correct when it equals the Correct score column in Content. Mastery is at least 4 of 5 scores correct on the first attempt. Opening the check list and the descriptor table is exploration, not evidence.
+
+**Misconceptions:** (1) Every failed check lowers the score equally. (2) A single serious failure always puts the score in a lower band. (3) The higher number in a band is always correct.
+
+**Instructional Rationale:** Applying a scoring procedure to new cases is an Apply-level task. Five resources that differ in how many checks fail and whether a serious check fails make the learner use every step: count, band, then choose within the band.
+
+**Content:**
+
+The ten checks, each marked serious or not, are those in the chapter's check table. The descriptor bands applied to the share of checks passed: 0% is 0; 1% to 24% is 1 to 2; 25% to 49% is 3 to 4; 50% to 74% is 5 to 6; 75% to 89% is 7 to 8; 90% to 100% is 9 to 10. Within a two-number band, choose the lower number when a serious check failed and the higher number otherwise. A score of 10 requires every check to pass.
+
+The five resources:
+
+| # | Resource | Checks failed | Checks passed | Share | Band | Serious failure? | Correct score | Why (shown as feedback) |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Open Algebra | None | 10 | 100% | 9 to 10 | No | 10 | Every check passed. |
+| 2 | Watershed Basics | 7 and 9 | 8 | 80% | 7 to 8 | Yes, check 7 | 7 | An outdated figure is a serious failure, so the lower number applies. |
+| 3 | Clinic Guide | 2 | 9 | 90% | 9 to 10 | Yes, check 2 | 9 | More than one in ten sampled facts did not match, which is serious, so the lower number applies. |
+| 4 | Teacher Lab Notes | 6, 9, and 10 | 7 | 70% | 5 to 6 | No | 6 | None of the failed checks is serious, so the higher number applies. |
+| 5 | Old Handbook | 2, 3, 4, 5, 7, and 8 | 4 (checks 1, 6, 9, 10) | 40% | 3 to 4 | Yes | 3 | Several serious checks failed, so the lower number applies. |
+
+**Provenance:** The ten checks and the bands follow the chapter section "Scoring Accuracy and Currency" and Chapter 3. The five resources are illustrative cases written for this chapter, and the sim labels them "illustrative examples". Resource 2 is the chapter's worked example.
+
+**Rules:** A score is the band chosen from the share passed, and then the number chosen within the band by the serious-failure rule. Each resource has exactly one correct score. For a band that holds a single number, that number is the score.
+
+**Learner Activity:**
+
+1. The sim shows resource 1 with its ten check results.
+2. The learner may open the check list and the descriptor table.
+3. The learner chooses a score from 0 to 10, and the choice is committed.
+4. The sim shows the count of passes, the band, whether a serious check failed, and the correct score with the Why text.
+5. After resource 5 the sim shows the summary.
+
+**Feedback:** 5 resources in the fixed order, one attempt each. Correct: "Correct: [score]. [Why]". Incorrect: "Not quite. [passes] checks passed, which is [share] and the [band] band. [Why]". The summary shows "[n] of 5 correct on the first attempt". At 4 or more it adds "You can score accuracy and currency." Below 4 it lists the Why text of each missed resource.
+
+**Starting State:** Resource 1 with all ten results shown and no score chosen. The question shown is "What accuracy and currency score does this resource earn?"
+
+**Chapter Anchors:** The chapter's worked example for Watershed Basics fails checks 7 and 9, passes 8 of 10, and scores 7, with the lower number chosen because the outdated figure is a serious failure. The chapter says the ten-fact sample has nine matches.
+</details>
+
+## Key Takeaways
+
+- The **accuracy metric** asks whether facts were correct when written, and the **currency metric** asks whether they are correct now. Together they make the first quality metric.
+- Check a sample of at least 10 facts against reliable, independent sources. **Fact checking** records match, mismatch, or not addressed, and silence is never support. A **factual error** is serious when a learner could take away a false or outdated fact.
+- A **source citation** lets a reviewer trace a claim. A **primary source** is original evidence and a **secondary source** summarizes it. **Citation quality** asks whether a citation is relevant, reliable, retrievable, and current.
+- **Outdated content** was right once. Check the **publication date** and the **revision history**, and match the checking to how fast the topic moves.
+- **Link rot** breaks citations, and a **broken link check** finds the failures. Ask for **expert review** when a claim is beyond your knowledge, bears on safety, or fails your sample.
+
+!!! mascot-celebration "You Can Check a Claim to Its Source"
+    ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
+    You can now check a sample of facts, trace a citation back to its source, spot content that has aged, test the links, and score accuracy and currency with evidence. Every quality score from here on rests on the same habit of asking what a claim stands on.
+
+[See Annotated References](./references.md)

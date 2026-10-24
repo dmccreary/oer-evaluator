@@ -1,8 +1,8 @@
 ---
 title: "Portability and Reuse Across Platforms"
-description: "Explains the portability metric: browser compatibility, no-login access, responsive layout, iframe embedding, export formats, LMS import, Common Cartridge, LTI, offline access, and platform lock-in."
+description: "Explains how to score portability: browser compatibility, no-login access, iframe embedding, LMS import, Common Cartridge, and the platform lock-in that stops a resource from moving."
 generated_by: claude skill chapter-content-generator
-date: "2026-10-20 20:57:21"
+date: "2026-10-23 22:25:16"
 version: 1.11
 ---
 
@@ -41,157 +41,353 @@ This chapter builds on concepts from:
 
 ---
 
-!!! mascot-welcome "Will It Travel?"
-    ![Echo the Loon waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
-    An open resource is only reusable if it still works when it lands in someone else's school, device, and learning system. This chapter finishes the reusability metrics with portability, and gives you a handful of quick tests you can run in minutes. Let's dive in and check the evidence!
+!!! mascot-welcome "Can It Travel?"
+    ![Echo waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    A resource that is open, well made, and easy to find still fails a teacher if it will not open on her laptop, asks her for an account, or breaks inside her course page. This chapter gives you the tests that tell you whether a resource can travel. Let's dive in and check the evidence!
 
-Chapter 9 asked whether a resource is licensed clearly, built in pieces, and described well enough to be found. The last reusability metric asks whether the resource still works once it leaves home. A teacher in another district has a different browser, a different learning management system, a phone-bound class, and sometimes a weak internet connection. Portability is the metric that scores how well a resource copes with all of that. Sam's open chapter scored 7, and the chapter shows what holds it back.
+Chapter 9 asked whether a reuser can find a resource and lift out the part she needs. This chapter asks the last reusability question: once she has it, will it work where she wants to use it? A resource that runs only in one company's system, needs a login, or falls apart on a phone is not portable, however good its license. The tenth and last metric of the rubric measures that, and it finishes the ten-metric rubric.
 
 ## The Portability Metric
 
-The **portability metric** is metric 10 of the ten, and the last. It asks whether a resource works on other platforms and devices without special accounts, software, or workarounds. Portability protects the Reuse and Redistribute permissions from Chapter 1, because a resource that only works in one place cannot be reused or redistributed elsewhere, whatever its license says. The descriptors below are illustrative.
+The **portability metric** is the tenth metric of the rubric. It asks whether a resource runs in a browser with no login and can be shared or embedded elsewhere. A portable resource goes with the reuser to wherever she teaches: a course page, a learning management system, a phone, a classroom with a weak internet connection. The metric is scored with ten checks, listed at the end of this chapter. The sections between them take each idea in turn.
 
-| Score range | Portability descriptor |
-|-------------|------------------------|
-| 9 to 10 | Works in major browsers and on phones, needs no login, embeds and imports into learning systems, exports in open formats, and has an offline version |
-| 7 to 8 | Works broadly, with one or two limits, such as one component that depends on a particular service |
-| 5 to 6 | Works in a limited range of settings, or needs a login or a special tool |
-| 3 to 4 | Works only on one platform or device |
-| 0 to 2 | Cannot be used outside its original setting |
+**Worked example: five questions a reuser asks.** A teacher who finds an open simulation asks five questions before she commits to it, and each one is a portability check.
 
-A reviewer scores the metric by running a handful of tests. Sam ran six on the open chapter, and the table lists the results. The chapter opens in the major browsers and needs no login, which are strong points. Its embedded video depends on a streaming site, wide tables run off the edge of a phone screen, and there is no package for a learning system. That mix puts the chapter at 7.
+| The question | What it tests |
+|---|---|
+| Will it open on my computer and my students' devices? | Browser compatibility and responsive layout |
+| Do my students need an account? | No-login access |
+| Can I put it on my course page? | Iframe embedding and link sharing |
+| Can I take a copy, or bring it into my LMS? | Export format and LMS import |
+| Will I be stuck if the host disappears? | Platform lock-in and offline access |
 
-| Test | Result for Sam's chapter |
-|------|--------------------------|
-| Opens in at least two major browsers | Pass |
-| Opens without a login | Pass |
-| Embeds in another page | Partial: the text embeds, but the video depends on a streaming site |
-| Reads well on a phone | Partial: wide tables run off the screen |
-| Works offline | Partial: the PDF does, but the video does not |
-| Imports into a learning system | Not offered |
+### Browser Compatibility
 
-!!! mascot-thinking "Portable Means It Survives the Move"
-    ![Echo the Loon thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
-    Think of portability as a moving-day test. A resource that works only in its original home hasn't really been shared, because it can't live anywhere else.
+**Browser compatibility** is a resource's ability to work correctly in the main web browsers, such as Chrome, Firefox, Safari, and Edge, and in recent versions of each. Resources built from open web standards, which means plain HTML, CSS, and JavaScript, usually work everywhere. Resources that depend on browser plug-ins do not. Adobe Flash is the cautionary example: it powered many educational animations and was discontinued at the end of 2020, and the content that depended on it stopped working. A reviewer opens a resource in at least three browsers and notes any that fail.
 
-## Opening It Anywhere
+### No-Login Access
 
-**Browser compatibility** is the ability of a resource to work in the major web browsers, which today include Chrome, Firefox, Safari, and Edge. A resource built on open web standards, such as ordinary HTML and JavaScript, tends to work everywhere. One built on a plug-in, a small add-on that a browser must install, tends to break when browsers stop supporting it. The Flash plug-in is the standard cautionary tale: Adobe ended support at the end of 2020, and the browsers removed it, and teaching resources built on it simply stopped working. A quick test is to open the resource in two different browsers and see whether everything displays and responds.
+**No-login access** means a learner or teacher can open and use a resource without creating an account or signing in. A login is a barrier in three ways. It stops a resource from embedding in someone else's page, because the frame would show a sign-in form. It blocks sharing by link, since the person who receives the link cannot open it. And it adds a privacy burden, because an account holds personal data. Some content, such as an answer key for teachers, may reasonably need a login. A resource that claims to be open should offer its learner-facing content without one.
 
-**No-login access** is the ability to open a resource without creating an account or signing in. A login barrier stops adoption in several ways. A teacher cannot paste a link into a class page if each student must register, and creating accounts raises student privacy questions that Chapter 13 takes up. An open resource should normally be viewable by anyone with its link. The test is to open the address in a private browser window, where no one is signed in, and see whether the content loads.
+### Iframe Embedding
 
-**Link sharing** is the ability to point others to a resource, or to a specific part of it, with a stable web address. A good address leads to the same place every time and does not depend on who is signed in or on a session that expires. Links to a specific section are especially useful. Sam can send students a link straight to the membrane section instead of the whole chapter. Addresses that change when a site is reorganized break every link that points to them, which is the link rot from Chapter 5.
+**Iframe embedding** is the placing of a resource inside another page, as Chapter 9 introduced. A component may pass the test on its own and still fail on a particular platform, for three common reasons. The server may tell browsers not to show the page inside a frame, which some sites do for security. The page may be served over an insecure connection, which a secure page's browser refuses to mix in. Or the platform may strip the frame out of the pages its users write. So a reviewer tests the embed on more than one platform, and records which worked.
 
-**Responsive layout** is a page design that adapts to the width of the screen, so that text, images, and tables fit on a phone as well as a desktop. Many learners use phones as their main device, so a page that only works at desktop width excludes them. The test is to make the browser window narrow, or open the page on a phone, and check that text wraps instead of running off the edge and that nothing needs sideways scrolling. A related accessibility rule, WCAG 2.1's reflow criterion, asks for content to fit a narrow screen without scrolling in two directions. Sam's chapter fails on its wide tables.
+### Link Sharing
 
-## Embedding and Learning Systems
+**Link sharing** is the ability to send a person a web address that opens the resource, or a specific part of it, directly. A good link is permanent, goes straight to the content, and works for the person who receives it. Links fail when the address changes with every visit, when it opens a home page instead of the component, or when the link only works for someone already signed in. For a resource made of components, each component should have its own address, as the modularity metric asked.
 
-**Iframe embedding** is showing a resource inside another page by pointing an iframe at its address, as Chapters 8 and 9 introduced. It is the simplest way for a teacher to put an interactive piece into a course page, and a resource has to cooperate for it to work. Some websites tell browsers not to display them inside other pages, which produces a blank box or a refusal message. The test is to put the address in an iframe on a test page. Before the example, here are the parts: `src` is the address, `width` and `height` are the size, and `title` is a short description that screen readers announce.
+## Moving Content Between Systems
 
-```html
-<iframe src="https://example.org/sims/cell-size/main.html" title="Cell Size Explorer" width="100%" height="500px"></iframe>
-```
+### Export Format
 
-An **export format** is a file format in which a resource can be downloaded or exported for use elsewhere. Common choices are HTML for the web, PDF for printing, EPUB for e-readers, Markdown and word processing files for editing, and packages for learning systems. The more formats a resource offers, and the more of them are open, the more places it can go. The table lists common formats and what each is good for.
+An **export format** is a form in which a resource or a copy of it can be downloaded and kept, ideally in an open format from Chapter 4, such as HTML, Markdown, or a standard package. Export is the exit door. A resource that can be exported can be backed up, moved to a new host, and worked on offline. A resource whose only copy lives inside a web service, with no download, is exactly as portable as the service is permanent.
 
-| Export format | Good for |
-|---------------|----------|
-| HTML | Putting the resource on a web site or in a course page |
-| PDF | Printing and offline reading |
-| EPUB | Reading on phones and e-readers |
-| Markdown or word processing file | Editing and adapting |
-| Common Cartridge package | Importing into a learning system |
+### LMS Import
 
-**LMS import** is the ability to bring a resource into a learning management system, such as Canvas, Moodle, Blackboard, or D2L Brightspace, so that students reach it from their course page. There are three ways to do it: link to the resource, embed it, or import it as a file. Importing is the most convenient, because the content arrives inside the course, ready to arrange. **Common Cartridge** is a packaging standard, maintained by the 1EdTech consortium, that bundles course content into a single file that many learning systems can import. A resource that offers a Common Cartridge file can be moved into a course in one step.
+**LMS import** is the ability to bring a resource into a learning management system, the software that schools use to run courses, such as Canvas, Moodle, Blackboard, or Brightspace. A teacher can bring an OER into an LMS in four ways: she can link to it, embed it, upload its files, or import it as a package. The more of these a resource supports, the more teachers can use it where they already work. A reviewer tests at least the link and the embed in a real LMS, or a test site, and notes what happened.
 
-**LTI integration** is a way for an external tool to run inside a learning system, using the 1EdTech standard called Learning Tools Interoperability. The learning system tells the tool who the student is and which course they are in, so students do not create another account, and the tool can send results, such as a grade, back to the gradebook. It looks like a login, but for the learner it is not one, so it can sit beside the no-login goal for open content. A teacher who wants a MicroSim as a graded activity inside their course will want it to offer LTI.
+### Common Cartridge
 
-## Working When Things Go Wrong
+**Common Cartridge** is a standard from 1EdTech, the education technology standards group, for packaging course content so that it can be imported into different learning management systems. A cartridge is a single compressed file that holds the content together with a manifest, a list that says what is inside and how it is organized. A unit exported as a Common Cartridge from one LMS can be imported into another, which is why it is the common exchange form for course material. Not every resource offers one, but those that do travel farther.
 
-**Offline access** is the ability to use a resource without an internet connection. Learners with limited or unreliable connections, whether at home, on a bus, or in a school with weak coverage, rely on it. A downloadable PDF or a packaged copy of the pages is the usual way to offer it. Sam's chapter is partly offline: the text is in the PDF, but the video needs the internet, so a student on a poor connection can read the chapter but not watch the video. A fix is to offer the video as a downloadable file as well.
+### LTI Integration
 
-**Platform lock-in** is a situation in which a resource depends so heavily on one platform or vendor that moving it elsewhere is hard or impossible. It shows up as content that exists only inside one system, as formats that only one program can open, as login walls, and as platforms that offer no way to export. Lock-in is the opposite of what open licensing promises. A license that grants the right to revise and redistribute is empty if the only copy is trapped in a service that will not release it. The table lists signs of lock-in and the questions that reveal them.
+**LTI integration** uses Learning Tools Interoperability, a 1EdTech standard that lets an external tool open inside an LMS and exchange information with it, such as sending a learner's score back to the gradebook. An LTI tool looks like part of the course and runs on another company's server. It is more powerful than a link and more demanding, because it passes information about learners from one system to another, which raises the privacy questions of [Chapter 13](../13-automated-checks-cost-privacy/index.md). For the portability metric, LTI counts as a plus where a resource claims an LMS integration, and not as a requirement.
 
-| Sign of lock-in | Question to ask |
-|-----------------|-----------------|
-| Content is created and stored inside a vendor's platform | Can I download all of it, in an editable open format? |
-| Only one program opens the files | Can another program read them? |
-| The content needs an account to view | Can I view it without signing in? |
-| The platform offers no export | If the vendor closed tomorrow, what would remain? |
+## Reaching Every Learner and Every Setting
 
-!!! mascot-warning "If You Can't Export It, You Don't Really Own It"
-    ![Echo the Loon warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
-    A friendly platform that hosts your open resource can still lock it in if there's no export. Before you commit, download a copy and check that you can open and edit it somewhere else.
+### Responsive Layout
 
-The matcher below gives you eight symptoms that a teacher might meet. Each points to one portability problem.
+A **responsive layout** is a page design that adapts to the size of the screen, so that the same page is readable on a phone, a tablet, and a large monitor. A page with a fixed width forces a phone user to scroll sideways and pinch, and a resource inside an iframe on a narrow page overflows. Responsive pages use flexible widths and text that wraps. A reviewer tests by narrowing the browser window to the width of a phone and checking that nothing is cut off or overlaps.
 
-#### Diagram: Portability Problem Matcher
+### Offline Access
+
+**Offline access** is the ability to use a resource without an internet connection, by downloading it or saving it first. It matters for classrooms and homes with unreliable connections, for field trips, and for learners who pay for data. A single web page with its files can often be saved and opened from a folder, as long as it does not load code or images from elsewhere on the web. A resource that offers a download, or that works from a saved folder, gains here.
+
+### Platform Lock-In
+
+**Platform lock-in** is the dependence of a resource on one platform in a way that makes leaving costly or impossible. Signs include content stored only in a vendor's proprietary format, no export, features that exist only inside the vendor's system, and accounts that would be lost on leaving. Lock-in is a risk to the author and to every reuser, because the resource lives only as long as the platform's business model. The test is simple: could you move the resource to another host in an afternoon, with nothing lost?
+
+!!! mascot-warning "A Free Platform Can Still Be a Cage"
+    ![Echo warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    A resource can be free to read and open-licensed and still live only inside one vendor's system, with no export and no copy. Look for a way out before you rely on it, and score the metric on whether you could actually leave.
+
+The first MicroSim of the chapter sorts barriers. It shows ten problems that a reuser might meet, and for each one you name the portability idea it breaks.
+
+#### Diagram: Portability Barrier Sorter
 
 <details markdown="1">
-<summary>Portability Problem Matcher</summary>
+<summary>Portability Barrier Sorter</summary>
 Type: microsim
-**sim-id:** portability-problem-matcher<br/>
+**sim-id:** portability-barrier-sorter<br/>
 **Library:** p5.js<br/>
 **Status:** Specified<br/>
-**Bloom Level:** Analyze<br/>
-**Bloom Verb:** distinguish<br/>
-**Learning Objective:** The learner will distinguish which of 8 portability problems each of 8 described symptoms shows, by matching the symptom to its cause.
+**Bloom Level:** Understand<br/>
+**Bloom Verb:** classify<br/>
+**Learning Objective:** The learner will classify each of ten reuse problems by the portability idea it breaks, with at least 9 of 10 correct on the first attempt.
 
-**Prerequisites:** browser compatibility, no-login access, iframe embedding, responsive layout, offline access, platform lock-in, LMS import, LTI integration (all defined in the chapter above this block).
+**Prerequisites:** The Portability Metric and the ten portability sections of this chapter (all defined above this block).
 
-**Evidence of Mastery:** For each of the 8 symptoms, the learner chooses one of eight problems and presses Check. A choice is correct when it matches the Correct problem column in Content. Mastery is 7 or more of 8 correct on the first attempt. Reading a symptom and changing a choice before pressing Check is exploration and does not count as evidence.
+**Evidence of Mastery:** For each problem the learner commits one of ten ideas. A choice is correct when it matches the Correct idea column in Content. Mastery is at least 9 of 10 correct on the first attempt. Reading the idea list is exploration, not evidence.
 
-**Misconceptions:** (1) All portability problems are caused by the learner's device. (2) A login is the same as LTI integration. (3) A resource that can be linked can always be embedded. (4) Exporting a PDF solves lock-in.
+**Misconceptions:** (1) A login problem and a lock-in problem are the same. (2) A link that fails is an embedding problem. (3) Offline access means no internet is ever needed.
 
-**Instructional Rationale:** Distinguishing means separating things that look alike by their causes. Each symptom is a different way for a resource to fail to travel, so the learner must link what the teacher sees to the property that is missing.
+**Instructional Rationale:** Classifying a problem by the idea it breaks is an Understand-level action that connects a symptom to a check. Ten problems, one per idea, teach the learner to name what is actually wrong.
 
 **Content:**
 
-The eight problems are: Browser compatibility, No-login access, Iframe embedding, Responsive layout, Offline access, Platform lock-in, LMS import, and LTI integration. Each problem is the correct answer for exactly one symptom.
+The ten ideas: Browser compatibility, No-login access, Iframe embedding, Link sharing, Export format, LMS import, LTI integration, Responsive layout, Offline access, Platform lock-in.
 
-| # | Symptom shown to the learner | Correct problem | Why (shown as feedback) |
-|---|------------------------------|-----------------|-------------------------|
-| 1 | A teacher pastes a resource's embed code into a course page and sees a blank box with a message that the page refused to connect. | Iframe embedding | The site does not allow its pages to be shown inside other pages. |
-| 2 | A student on an older tablet sees a gray square where an interactive should appear, because the resource needs a browser add-on that the tablet does not have. | Browser compatibility | The resource depends on a plug-in that the device's browser does not support. |
-| 3 | A link emailed to students opens a sign-in page that asks each student to create an account. | No-login access | The resource cannot be opened without an account. |
-| 4 | On a phone, a wide table runs off the right edge of the screen and the reader must scroll sideways. | Responsive layout | The page does not adapt to a narrow screen. |
-| 5 | A teacher in a school with an unreliable connection cannot open the resource at home. | Offline access | There is no downloadable version that works without the internet. |
-| 6 | A vendor's platform hosts a whole course and offers no way to download the content in any editable form. | Platform lock-in | The content is trapped in one platform with no export. |
-| 7 | A teacher wants the resource inside their course as a graded activity that signs students in automatically, but only a plain link is offered. | LTI integration | The resource lacks the standard that passes the student's identity and returns a grade. |
-| 8 | A teacher wants to bring a whole unit into the course in one step, but the resource offers only separate web pages. | LMS import | There is no package that a learning system can import. |
+The ten problems:
 
-**Provenance:** The 8 symptoms are illustrative and written for this chapter, and they describe no real resource or vendor. The problems come from the chapter sections "Opening It Anywhere," "Embedding and Learning Systems," and "Working When Things Go Wrong." The sim labels the symptoms "illustrative."
+| # | Problem shown to the learner | Correct idea | Why (shown as feedback) |
+|---|---|---|---|
+| 1 | The page works in one browser and shows an error in the others. | Browser compatibility | The page does not work across the main browsers. |
+| 2 | Visitors must create an account before they can see the first page. | No-login access | An account is a barrier to use. |
+| 3 | A teacher's course page shows a blank frame where the simulation should be. | Iframe embedding | The page cannot be shown inside another page. |
+| 4 | The address changes every time the page is opened, so a saved link fails. | Link sharing | There is no stable address to send. |
+| 5 | The only download is a file that opens in one company's program. | Export format | There is no open copy to keep. |
+| 6 | A teacher cannot bring the unit into her LMS as a package. | LMS import | The resource offers no way to import it. |
+| 7 | A quiz tool opened from the LMS cannot send scores back to the gradebook. | LTI integration | The tool and the LMS do not exchange information. |
+| 8 | On a phone the text is tiny and the right half of the page is cut off. | Responsive layout | The page does not adapt to the screen width. |
+| 9 | A field trip has no internet, and the resource offers no download. | Offline access | The resource cannot be used without a connection. |
+| 10 | The author's content exists only inside one company's service, with no export. | Platform lock-in | Leaving the platform would lose the content. |
 
-**Rules:** Each symptom has exactly one correct problem, and each problem is the correct answer for exactly one symptom. A symptom about a page that refuses to display inside another page is Iframe embedding, about a missing add-on is Browser compatibility, about a required account is No-login access, about a page that does not fit a narrow screen is Responsive layout, about no internet is Offline access, about content that cannot be exported is Platform lock-in, about automatic sign-in and grades is LTI integration, and about bringing a unit in one step is LMS import. Mastery is correct first attempts >= 7 of 8.
+**Provenance:** The problems are illustrative cases written for this chapter, and the sim labels them "illustrative examples". The ideas follow the chapter sections on each concept.
+
+**Rules:** Each problem has exactly one correct idea, and the ten ideas are all different.
 
 **Learner Activity:**
 
-1. The learner reads the first symptom.
-2. The learner chooses one of the eight problems and presses Check.
-3. The sim shows whether the choice is correct and shows the Why text, then moves to the next symptom.
-4. After symptom 8, the sim shows the first-attempt score, lists any missed symptom with its Why text, and offers a retry of the missed symptoms.
+1. The learner sees one problem and the ten ideas.
+2. The learner may open the idea list. Opening it does not change the score.
+3. The learner chooses an idea, and the choice is committed.
+4. The sim shows whether it was correct and the Why text.
+5. After problem 10 the sim shows the summary.
 
-**Feedback:** Eight symptoms, shown in the order of the table, two attempts each. Correct: "Correct: [problem]. [Why text]." Incorrect on the first attempt: "Not quite," followed by a hint. If the learner chose a problem the symptom does not mention, the hint is "Ask what is missing: a connection, an account, a screen size, an export, or a standard." If the learner chose LTI integration for an account problem, the hint is "LTI passes the student's identity from the learning system, so students do not make new accounts." After a second wrong choice the correct problem and Why text are revealed and the symptom counts as missed. The score "Correct on first attempt: n of 8" is shown at the end, and the sim states whether mastery was reached.
+**Feedback:** 10 problems in a shuffled order, one attempt each. Correct: "Correct: [idea]. [Why]". Incorrect: "Not quite. This breaks [idea]. [Why]". The summary shows "[n] of 10 correct on the first attempt". At 9 or more it adds "You can name what stops a resource from traveling." Below 9 it lists the Why text of each missed problem.
 
-**Starting State:** The first symptom is shown with the eight problems listed and no choice made. The question on screen is "Which portability problem does this symptom show?"
+**Starting State:** The first problem and the ten ideas. The question shown is "Which portability idea does this break?"
 
-**Chapter Anchors:** The chapter states that Flash support ended at the end of 2020, that Common Cartridge is maintained by 1EdTech, that LTI passes a student's identity and returns grades, and that the matcher has 8 symptoms.
+**Chapter Anchors:** The chapter's ten ideas are browser compatibility, no-login access, iframe embedding, link sharing, export format, LMS import, LTI integration, responsive layout, offline access, and platform lock-in.
 </details>
 
-!!! mascot-tip "Test Like a Stranger"
-    ![Echo the Loon giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
-    Open the resource in a private window, on a phone, and in a second browser. In five minutes you'll have run most of the portability test, using nothing but what any other teacher would have.
+The second MicroSim practices diagnosis. It shows six reports from embed tests, and for each one you name the cause.
 
-## Summary
+#### Diagram: Embed Failure Diagnoser
 
-This chapter covered the last reusability metric and what evidence supports it. The key points are:
+<details markdown="1">
+<summary>Embed Failure Diagnoser</summary>
+Type: microsim
+**sim-id:** embed-failure-diagnoser<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Analyze<br/>
+**Bloom Verb:** differentiate<br/>
+**Learning Objective:** The learner will differentiate six causes of an embedding result by choosing the cause that each of six test reports describes, with at least 5 of 6 correct on the first attempt.
 
-- The portability metric asks whether a resource works on other platforms and devices without special accounts, software, or workarounds.
-- Browser compatibility, no-login access, link sharing, and responsive layout decide whether a resource opens everywhere.
-- Iframe embedding, export formats, LMS import, Common Cartridge, and LTI integration decide whether it fits into learning systems.
-- Offline access matters for learners with weak connections, and platform lock-in empties an open license.
-- A reviewer runs a handful of quick tests: two browsers, a private window, a phone-width window, and an embed on a test page.
+**Prerequisites:** Iframe Embedding, No-Login Access, Responsive Layout, Embeddable Component (defined in Chapter 9) (all defined above this block or in Chapter 9).
 
-!!! mascot-celebration "You've Finished the Ten Metrics"
-    ![Echo the Loon celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
-    You can now run the portability tests, and with Chapters 4 to 9 you've met every one of the ten metrics, five for quality and five for reusability. Chapter 11 puts them together in a manual review, from scoring by hand to an adopt, revise, or reject decision.
+**Evidence of Mastery:** For each report the learner commits one of six causes. A choice is correct when it matches the Correct cause column in Content. Mastery is at least 5 of 6 correct on the first attempt. Reading the cause list is exploration, not evidence.
+
+**Misconceptions:** (1) A blank frame always means the file is missing. (2) If the page works on its own, it will embed. (3) A sign-in form in the frame is a platform error.
+
+**Instructional Rationale:** Differentiating among causes is an Analyze-level action, because the learner must read the evidence in a report and decide which cause fits it. Six reports that look alike on the surface teach the learner to read the details.
+
+**Content:**
+
+The six causes: Frame blocked by the host, Insecure address in a secure page, Needs a login, Script path broken, Layout not responsive, Works.
+
+The six reports:
+
+| # | Test report shown to the learner | Correct cause | Why (shown as feedback) |
+|---|---|---|---|
+| 1 | The frame stays blank, and the browser's message says the page refused to be displayed in a frame. | Frame blocked by the host | The server told browsers not to show the page inside a frame. |
+| 2 | The frame is blank on a secure page, and the simulation's address begins with http and not https. | Insecure address in a secure page | A browser refuses to mix an insecure frame into a secure page. |
+| 3 | The frame shows a sign-in form. | Needs a login | The resource requires an account, so it cannot embed for visitors. |
+| 4 | The page loads, the buttons do nothing, and the browser's message says a script file was not found. | Script path broken | The page loads a script by a path that does not exist at the new location. |
+| 5 | The frame shows the simulation, and every control responds. | Works | The embed passed. |
+| 6 | The simulation appears, and on a phone the right side is cut off. | Layout not responsive | The page has a fixed width and does not adapt to the frame. |
+
+**Provenance:** The reports are illustrative cases written for this chapter, and the sim labels them "illustrative examples". The causes follow the chapter sections "Iframe Embedding", "No-Login Access", and "Responsive Layout".
+
+**Rules:** Each report has exactly one correct cause, and the six causes are all different.
+
+**Learner Activity:**
+
+1. The learner reads one test report and sees the six causes.
+2. The learner chooses a cause, and the choice is committed.
+3. The sim shows whether it was correct and the Why text.
+4. After report 6 the sim shows the summary.
+
+**Feedback:** 6 reports in a shuffled order, one attempt each. Correct: "Correct: [cause]. [Why]". Incorrect: "Not quite. The cause is [cause]. [Why]". The summary shows "[n] of 6 correct on the first attempt". At 5 or more it adds "You can read an embed test." Below 5 it lists the Why text of each missed report.
+
+**Starting State:** The first report and the six causes. The question shown is "What explains this result?"
+
+**Chapter Anchors:** The chapter says an embed can fail because the host blocks frames, because an insecure address is shown in a secure page, because a login is required, or because the layout is fixed, and the sim adds a broken script path.
+</details>
+
+The third MicroSim is a decision exercise. For each of six teacher needs you choose how best to bring an open resource into a learning management system.
+
+#### Diagram: LMS Integration Chooser
+
+<details markdown="1">
+<summary>LMS Integration Chooser</summary>
+Type: microsim
+**sim-id:** lms-integration-chooser<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** apply<br/>
+**Learning Objective:** The learner will apply the differences among a link, an embed, a Common Cartridge import, and an LTI tool to choose the best way to bring a resource into an LMS for each of six teacher needs, with at least 5 of 6 correct on the first attempt.
+
+**Prerequisites:** LMS Import, Common Cartridge, LTI Integration, Iframe Embedding, Link Sharing (all defined in this chapter above this block).
+
+**Evidence of Mastery:** For each need the learner commits one of four methods. A choice is correct when it matches the Correct method column in Content. Mastery is at least 5 of 6 correct on the first attempt. Reading the method list is exploration, not evidence.
+
+**Misconceptions:** (1) An embed copies the resource into the LMS. (2) A Common Cartridge only works inside one LMS. (3) LTI is just a fancy link.
+
+**Instructional Rationale:** Choosing a method for a need is an Apply-level action. Six needs that map to four methods teach the learner what each method does and does not give a teacher.
+
+**Content:**
+
+The four methods: Link (students open the resource at its own address), Embed (the resource appears on the course page through a frame), Common Cartridge import (a whole unit is copied into the LMS as a package), LTI tool (an external tool opens inside the LMS and can send results back).
+
+The six needs:
+
+| # | Teacher need shown to the learner | Correct method | Why (shown as feedback) |
+|---|---|---|---|
+| 1 | "I want students to open one reading in a new tab." | Link | A link opens the resource at its own address. |
+| 2 | "I want a simulation to appear on my course page." | Embed | A frame shows the simulation inside the page. |
+| 3 | "I want to copy a whole unit, with pages, quizzes, and files, into my course." | Common Cartridge import | A package carries the whole unit into the LMS. |
+| 4 | "I want an external quiz tool to send each student's score to the LMS gradebook." | LTI tool | LTI lets the tool exchange information with the LMS. |
+| 5 | "I want colleagues in another school, with a different LMS, to receive the same unit." | Common Cartridge import | A cartridge is the common exchange form between LMSs. |
+| 6 | "I want students to read chapter 4 of an open textbook." | Link | A link to the chapter is enough. |
+
+**Provenance:** The needs are illustrative cases written for this chapter, and the sim labels them "illustrative examples". The methods follow the chapter sections "LMS Import", "Common Cartridge", "LTI Integration", "Iframe Embedding", and "Link Sharing".
+
+**Rules:** Each need has exactly one correct method. Two needs call for a Link, one for an Embed, two for a Common Cartridge import, and one for an LTI tool.
+
+**Learner Activity:**
+
+1. The learner sees one need and the four methods.
+2. The learner may open the method descriptions. Opening them does not change the score.
+3. The learner chooses a method, and the choice is committed.
+4. The sim shows whether it was correct and the Why text.
+5. After need 6 the sim shows the summary.
+
+**Feedback:** 6 needs in a shuffled order, one attempt each. Correct: "Correct: [method]. [Why]". Incorrect: "Not quite. The best method is [method]. [Why]". The summary shows "[n] of 6 correct on the first attempt". At 5 or more it adds "You can choose how to bring a resource into an LMS." Below 5 it lists the Why text of each missed need.
+
+**Starting State:** The first need and the four methods. The question shown is "Which method fits this need?"
+
+**Chapter Anchors:** The chapter says a teacher can bring an OER into an LMS by link, embed, file upload, or package import, that a Common Cartridge is a single package that moves between LMSs, and that LTI lets an external tool exchange information with an LMS.
+</details>
+
+## Scoring Portability
+
+Portability is scored with ten checks. A failed check is **serious** when it stops a reuser from using the resource at all in a common setting, which covers a resource that does not open in the main browsers, one that needs a login, and one that cannot be embedded. When a serious check fails, choose the lower number in a two-number band. Otherwise choose the higher number.
+
+| # | Check | Serious if it fails? |
+|---|---|---|
+| 1 | The resource opens without errors in at least three current browsers | Yes |
+| 2 | No login or account is needed to view the learner-facing content | Yes |
+| 3 | The resource, and each component, has a permanent address that can be shared | No |
+| 4 | It embeds by iframe on test platforms without changes | Yes |
+| 5 | The layout adapts to a phone-width screen | No |
+| 6 | A downloadable copy in an open format is offered | No |
+| 7 | It can be brought into an LMS by link, embed, or package | No |
+| 8 | Where an LMS integration is claimed, it works | No |
+| 9 | The resource can be used offline from a saved copy | No |
+| 10 | Nothing is lost by moving it to another host, so there is no lock-in | No |
+
+A check that does not apply, such as the LMS integration check for a resource that claims none, counts as passed.
+
+**Worked example: Watershed Basics.** The reviewer applies the checks to the reading from Chapter 3.
+
+| # | Result | Evidence |
+|---|---|---|
+| 1 | Pass | The page opens without errors in three browsers. |
+| 2 | Pass | No login is needed. |
+| 3 | Pass | Each section has its own address. |
+| 4 | **Fail** | The iframe embed works on 2 of 3 test platforms. On the third the quiz script fails, for the broken relative path that the Chapter 9 modularity review found. |
+| 5 | Pass | The layout adapts to a phone-width screen. |
+| 6 | Pass | HTML and Markdown downloads are offered. |
+| 7 | Pass | The reading links into an LMS and embeds on two platforms. |
+| 8 | Pass | The resource claims no LMS integration, so the check does not apply. |
+| 9 | **Fail** | The page loads its fonts and a quiz library from other sites, so a saved copy loses its styling and the quiz stops working without an internet connection. |
+| 10 | Pass | Nothing is tied to one vendor, and the files move with no loss. |
+
+Eight of ten checks pass, a share of 80 percent, in the 7 to 8 band. Check 4 failed and is serious, so the reviewer chooses the lower number, **7**, the score on the Chapter 3 worksheet. That worksheet recorded the embed result. The full check also finds the offline gap.
+
+!!! mascot-tip "Test in a Private Window"
+    ![Echo giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    Open the resource in a private or incognito browser window, which carries none of your sign-ins or saved settings. If it opens there with no login, you have seen what a stranger will see.
+
+The last MicroSim of the chapter is a scoring practice. It shows five resources with their ten check results, and for each one you choose the metric score.
+
+#### Diagram: Portability Metric Scorer
+
+<details markdown="1">
+<summary>Portability Metric Scorer</summary>
+Type: microsim
+**sim-id:** portability-metric-scorer<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** apply<br/>
+**Learning Objective:** The learner will apply the ten portability checks and the Chapter 3 scoring rules to choose the metric score for each of five resources, with at least 4 of 5 scores exactly correct on the first attempt.
+
+**Prerequisites:** The Portability Metric, Metric Score, Scoring Descriptor (all defined in this chapter or in Chapter 3 above this block).
+
+**Evidence of Mastery:** For each resource the learner chooses a whole-number score from 0 to 10 after seeing the ten check results. A score is correct when it equals the Correct score column in Content. Mastery is at least 4 of 5 scores correct on the first attempt. Opening the check list and the descriptor table is exploration, not evidence.
+
+**Misconceptions:** (1) Every failed check lowers the score equally. (2) A free platform is automatically portable. (3) A check that does not apply counts as failed.
+
+**Instructional Rationale:** Applying a scoring procedure to new cases is an Apply-level task. Five resources that differ in how many checks fail and whether a serious check fails make the learner use every step: count, band, then choose within the band.
+
+**Content:**
+
+The ten checks, each marked serious or not, are those in the chapter's check table. The descriptor bands applied to the share of checks passed: 0% is 0; 1% to 24% is 1 to 2; 25% to 49% is 3 to 4; 50% to 74% is 5 to 6; 75% to 89% is 7 to 8; 90% to 100% is 9 to 10. Within a two-number band, choose the lower number when a serious check failed and the higher number otherwise. A score of 10 requires every check to pass. A check that does not apply counts as passed.
+
+The five resources:
+
+| # | Resource | Checks failed | Checks passed | Share | Band | Serious failure? | Correct score | Why (shown as feedback) |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Open Algebra | None | 10 | 100% | 9 to 10 | No | 10 | Every check passed. |
+| 2 | Watershed Basics | 4 and 9 | 8 | 80% | 7 to 8 | Yes, check 4 | 7 | Failing to embed on one platform is serious, so the lower number applies. |
+| 3 | Login-Only Course | 2, 3, 4, 6, 7, 9, 10 | 3 (checks 1, 5, 8) | 30% | 3 to 4 | Yes, checks 2 and 4 | 3 | A required login and no embedding are serious, so the lower number applies. |
+| 4 | Desktop-Only Page | 1 and 5 | 8 | 80% | 7 to 8 | Yes, check 1 | 7 | A page that does not open in the main browsers is serious, so the lower number applies. |
+| 5 | Vendor Platform Module | 4, 6, 7, and 10 | 6 (checks 1, 2, 3, 5, 8, 9) | 60% | 5 to 6 | Yes, check 4 | 5 | The module cannot embed, which is serious, so the lower number applies. |
+
+**Provenance:** The ten checks and the bands follow the chapter section "Scoring Portability" and Chapter 3. The five resources are illustrative cases written for this chapter, and the sim labels them "illustrative examples". Resource 2 is the chapter's worked example.
+
+**Rules:** A score is the band chosen from the share passed, and then the number chosen within the band by the serious-failure rule. Each resource has exactly one correct score. For a band that holds a single number, that number is the score.
+
+**Learner Activity:**
+
+1. The sim shows resource 1 with its ten check results.
+2. The learner may open the check list and the descriptor table.
+3. The learner chooses a score from 0 to 10, and the choice is committed.
+4. The sim shows the count of passes, the band, whether a serious check failed, and the correct score with the Why text.
+5. After resource 5 the sim shows the summary.
+
+**Feedback:** 5 resources in the fixed order, one attempt each. Correct: "Correct: [score]. [Why]". Incorrect: "Not quite. [passes] checks passed, which is [share] and the [band] band. [Why]". The summary shows "[n] of 5 correct on the first attempt". At 4 or more it adds "You can score portability." Below 4 it lists the Why text of each missed resource.
+
+**Starting State:** Resource 1 with all ten results shown and no score chosen. The question shown is "What portability score does this resource earn?"
+
+**Chapter Anchors:** The chapter's worked example for Watershed Basics fails checks 4 and 9, passes 8 of 10, and scores 7, with the lower number chosen because the embed failure is serious.
+</details>
+
+## Key Takeaways
+
+- The **portability metric** asks whether a resource runs in a browser with no login and can be shared or embedded elsewhere. It completes the ten-metric rubric.
+- A portable resource has **browser compatibility**, offers **no-login access**, supports **iframe embedding** and **link sharing**, and adapts through a **responsive layout**.
+- An **export format** is the exit door. **LMS import**, a **Common Cartridge** package, and **LTI integration** bring a resource into the systems schools use.
+- **Offline access** keeps a resource usable without a connection, and **platform lock-in** is the dependence on one platform that makes leaving costly.
+
+!!! mascot-celebration "All Ten Metrics Are in Your Hands"
+    ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
+    You can now test whether a resource opens in the main browsers, needs a login, embeds in another page, and moves between platforms, and you can score portability with evidence. With this chapter you have met all ten metrics, and the rest of the book puts them to work.
+
+[See Annotated References](./references.md)

@@ -1,8 +1,8 @@
 ---
 title: "Manual Evaluation and Adoption Decisions"
-description: "Explains how to run a manual review: the review workflow, evidence recording, calibration sessions, score reconciliation, reviewer training, and the adopt, revise, or reject decision."
+description: "Walks through scoring an OER by hand, recording evidence, calibrating and reaching consensus with other reviewers, and turning the total score into an adopt, revise, or reject decision."
 generated_by: claude skill chapter-content-generator
-date: "2026-10-20 20:59:33"
+date: "2026-10-23 22:27:21"
 version: 1.11
 ---
 
@@ -39,159 +39,300 @@ This chapter builds on concepts from:
 
 ---
 
-!!! mascot-welcome "From Ten Scores to One Decision"
-    ![Echo the Loon waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
-    You now know all ten metrics, so the next question is how to use them well: how to run a review, make two reviewers agree, and turn a scorecard into a decision you can defend. This chapter walks through the whole process by hand, before any AI agent enters the picture. Let's dive in and check the evidence!
+!!! mascot-welcome "Your First Full Review"
+    ![Echo waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    You now know all ten metrics, and this chapter puts them to work on one resource from start to finish. By the end you will have scored it, settled any disagreement with a second reviewer, and made a decision you can defend. Let's dive in and check the evidence!
 
-Chapters 4 to 10 introduced the ten metrics one by one. This chapter puts them together into a complete review that a teacher or a small team can carry out by hand. That order is deliberate. Chapters 12 to 14 bring in AI agents to do the first pass, and you can only judge an agent's work if you know what a careful manual review looks like and have scores of your own to compare against. Sam, who has scored the open chapter on cell structure metric by metric, now follows the review through to a decision.
+Chapters 4 through 10 taught the ten metrics one at a time. A real review does not work that way. A reviewer takes one resource, scores all ten metrics, adds them up, compares notes with someone else, and decides what to do. This chapter is about that whole process, done by hand, with no AI agent involved. Doing it by hand first is deliberate, because you cannot check an agent's work in later chapters unless you know what a correct review looks like.
 
 ## Manual Evaluation
 
-**Manual evaluation** is scoring a resource by hand, following the rubric, with a human reviewer reading the resource, running the checks, recording evidence, and assigning each score. It is the method this book teaches first, for three reasons. It builds your understanding of the metrics, because you cannot supervise a tool that applies a rubric you have never applied yourself. It produces reference scores that later chapters compare agent output against. And for a single resource that matters, it is often the right amount of effort. Its limit is time, which is why Chapters 12 to 14 explore how agents can help.
+**Manual evaluation** is the scoring of an OER by a human reviewer who applies the rubric directly: reading the resource, running the checks, choosing the ten metric scores, and recording the evidence. It is slower than letting software do it, and it is the reference against which software is measured. A manual evaluation is also where a reviewer learns what a resource is really like, since reading it carefully surfaces things that no automated check will. The product of a manual evaluation is a completed worksheet, a total, a decision, and a report.
 
-A **review workflow** is the sequence of steps from the request to review a resource to the decision about it, with who does each step and what it produces. A good workflow is short and the same every time, so that no step gets skipped. The table gives the workflow for a review by a small team. It uses pieces from earlier chapters: the review context card, the checklist, the worksheet, and the report from Chapter 3.
+**Worked example: the full review of Watershed Basics.** Chapters 4 through 10 each scored one metric of the CC BY reading from Chapter 3. The table collects all ten scores in one place, with the finding that mattered most for each.
 
-| Step | Who | What happens | Output |
-|------|-----|--------------|--------|
-| 1. Set the context | Lead reviewer | Fill in the review context card: audience, outcomes, use, constraints | Completed context card |
-| 2. Check readiness | Lead reviewer | Complete the review checklist: whole resource available, audience known, license present | Checklist |
-| 3. First read | Each reviewer | Read the whole resource once without scoring | Impressions, noted separately |
-| 4. Score independently | Each reviewer | Score each metric on the worksheet, with evidence | Two or more worksheets |
-| 5. Compare | Reviewers | Compute subtotals and totals, and find the gaps | Agreement figures |
-| 6. Reconcile | Reviewers | Discuss gaps and agree on final scores | One reconciled scorecard |
-| 7. Report | Lead reviewer | Write the review report with a recommendation | Review report |
-| 8. Decide | The team | Make the adoption decision | Recorded decision |
+| # | Metric | Score | Most important finding | Chapter |
+|---|---|---|---|---|
+| 1 | Accuracy and currency | 7 | The river-length figure is outdated, and 2 of 14 links are broken | 5 |
+| 2 | Alignment | 6 | Outcome 3 has no activity and no quiz item | 6 |
+| 3 | Readability | 8 | Grade 6.4 to 7.3 for a grade 6 to 7 audience, and "aquifer" is undefined | 6 |
+| 4 | Accessibility | 5 | One image has no alt text, the video has no captions, and contrast is untested | 7 |
+| 5 | Practice with feedback | 6 | No worked example, no simulation, and only recall questions | 8 |
+| 6 | Open license | 9 | One third-party image carries no notice | 9 |
+| 7 | Modularity | 5 | The quiz cannot be separated from the reading | 9 |
+| 8 | Metadata | 4 | Only the title and author are recorded | 9 |
+| 9 | Editable source | 8 | The images have no source files, and no change list is offered | 4 |
+| 10 | Portability | 7 | The embed fails on one of three platforms | 10 |
+| | **Quality subtotal** | **32** | | |
+| | **Reusability subtotal** | **33** | | |
+| | **Total** | **65** | Band: Fair | |
 
-Sam's review followed those eight steps. Sam and a biology colleague each scored the open chapter independently in step 4. Their scores, which Chapter 3 compared, agreed exactly on 4 of 10 metrics and differed by more than 3 points on Readability. In step 6 they sat down with the evidence, and the differences resolved once both looked at the same pages. The colleague had read only the first page and not the later sections with the undefined terms, had missed the broken links, and had not run the lift-out test or the phone test. After checking, they agreed on Sam's original scores, so the reconciled scorecard is the one from Chapter 3: a quality subtotal of 22, a reusability subtotal of 34, and a total of 56.
+The total is 65 of 100, in the Fair band. The lowest score is metadata, at 4, and it falls below the floor of 5 that the adoption threshold requires. The decision rule gives **Revise**, as a later section shows. Most of the findings are cheap to fix. Filling in the metadata, adding captions, and writing alt text would each take less time than writing the resource did.
 
-A long resource cannot be read closely word by word, so a reviewer samples. Read the whole resource once, then read closely the sections that tie to your outcomes, check every image and every link, and run each metric's checks on a few components. Say in the report what you sampled, as Chapter 5 recommended for fact checking, so that the next reviewer knows what the scores rest on.
+### Review Workflow
 
-Two small habits make the process smoother. **Evidence recording** is writing down each piece of evidence as you find it, in the where, what, and how-checked form from Chapter 3, instead of reconstructing it from memory afterward. Recording as you go is faster in total, and it prevents the common problem of a score you can no longer justify. Because a web page can change after you have reviewed it, it also helps to save a dated copy of what you reviewed, using the Retain permission from Chapter 1.
+A **review workflow** is the ordered set of steps a reviewer follows from receiving a resource to delivering a decision. A fixed workflow keeps reviews comparable, and it keeps a reviewer from skipping the dull steps. Nine steps cover a manual review:
 
-**Reviewer notes** are the observations that do not belong in the evidence for a score: questions, ideas for improvement, and context that might help the next person. A note might say, "The video looks like it was made for college students; check whether there is a simpler one," or "Ask the author whether the image sources exist." Keep notes separate from evidence, so that the scores rest only on checkable facts, and date them. Good notes often turn into the improvement list in the review report.
+1. Save a dated copy of the resource and fill in the resource block of the worksheet.
+2. Read the review checklist and gather your tools.
+3. Read the whole resource once, without scoring.
+4. Score one metric at a time, writing the evidence as you go.
+5. Add the subtotals and the total.
+6. Give the worksheet to a second reviewer, who has scored alone.
+7. Compare the scores, and reconcile every metric that differs by more than 3 points.
+8. Apply the adoption threshold to reach a decision.
+9. Write the report and the recommendation.
 
-!!! mascot-thinking "Manual First, So You Know What the Machine Should Say"
-    ![Echo the Loon thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
-    When you've scored a resource yourself, you have a reference point. Later, when an AI agent gives its scores, you can compare them with yours and see where it's right and where it's overconfident.
+The first MicroSim of the chapter tests whether you know the order. It gives you the nine steps in a scrambled sequence, and you put them in order.
 
-## Calibrating and Reconciling
-
-If two reviewers read the same descriptor differently, their scores will drift apart no matter how careful each is. A **calibration session** is a meeting in which reviewers each score the same sample resource on their own, compare their scores, and discuss the differences until they share an understanding of what the descriptors mean. It is the best single way to raise agreement, and it takes about an hour. The workshop schedule in this book gives it a full hour for that reason, and the [Sample One-Day Workshop Schedule](../../workshops/sample-one-day-schedule.md) shows where it fits in the day.
-
-Here is how a calibration session goes. Sam and two colleagues each score the college-level chapter from Chapter 3 on three of the metrics, and then they compare. The table shows a first-round result and what the discussion produced.
-
-| Metric | Reviewer 1 | Reviewer 2 | Reviewer 3 | Spread | After discussion |
-|--------|------------|------------|------------|--------|------------------|
-| Accuracy and Currency | 9 | 9 | 8 | 1 | No change; all found no errors in their samples |
-| Readability | 5 | 8 | 9 | 4 | Agreed the chapter's reading level is above the audience's, and that the descriptor depends on the audience, not on the text alone |
-| Practice with Feedback | 4 | 4 | 5 | 1 | No change; one reviewer had missed the answer key |
-
-The big gap is on Readability, and the discussion turns up the cause. Reviewer 1 scored the chapter against the ninth-grade audience on the context card. The others scored it as a text for any reader. Once all three work from the same context card, their scores converge. Calibration also exposes descriptors that need rewording. When three careful reviewers disagree, the descriptor is probably ambiguous, and fixing it helps every later review.
-
-!!! mascot-tip "Calibrate on a Borderline Resource"
-    ![Echo the Loon giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
-    Choose a sample that's neither excellent nor terrible, because very good and very bad resources get similar scores from everyone. A middling one is where reviewers' readings of the descriptors really differ.
-
-
-**Consensus scoring** is a method in which reviewers agree on a single final score for each metric by discussing the evidence, instead of averaging separate scores. The aim is a score that every reviewer can defend with evidence. **Score reconciliation** is the step that resolves differences between independent scores. Differences of a point or two are normal and need only a short note. A difference of more than 3 points on a metric means the reviewers are probably looking at different evidence, so each shows what they found and they agree on a score together. If they still cannot agree, a third reviewer examines the evidence and decides. Record the independent scores, the final score, and the reason, so that anyone can see how it was reached.
-
-!!! mascot-warning "Don't Settle by Splitting the Difference"
-    ![Echo the Loon warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
-    Averaging a 5 and a 9 gives a 7 that neither reviewer believes, and it hides the disagreement. Look at the evidence together, and agree on a score one of you can defend, or bring in a third reviewer.
-
-**Reviewer training** is the preparation that gets a person ready to score reliably. It has four parts: reading the rubric and its descriptors, practicing on sample resources whose scores are already known, comparing one's scores with those references and discussing the gaps, and learning about the common biases from Chapter 3. A calibration session is the core of the training. Refresher sessions help when the rubric changes or when new reviewers join. The certificate program described in Chapter 19 builds on the same training.
-
-## From Scores to a Decision
-
-A scorecard is not yet a decision. **Adopt, revise, or reject** is the three-way choice that a review leads to. To adopt means to use the resource as it stands. To revise means to adapt it before use, and to reject means to choose another resource. The score band from Chapter 3 gives a starting point, but two reusability scores decide whether revising is practical. An open license is needed to adapt a resource legally, and an editable source is needed to adapt it in practice. A weak but open and editable resource can be improved. A strong but locked one cannot.
-
-The rules below are illustrative, and your team may set its own. Apply them in order.
-
-1. If the Open License score is 2 or lower, reject: the resource is not open enough to adapt or share.
-2. Otherwise, if the total is 80 or higher, adopt.
-3. Otherwise, if the total is 40 or higher and the Editable Source score is 5 or higher, revise.
-4. Otherwise, reject.
-
-Sam's chapter scored a total of 56, with an Open License score of 10 and an Editable Source score of 8. The first rule does not apply, the total is below 80, and the third rule fits, so the decision is revise. The table walks through the three outcomes with the four resources from Chapter 3's calculator.
-
-| Resource | Total | Open License | Editable Source | Decision | Reason |
-|----------|-------|--------------|-----------------|----------|--------|
-| Sam's open chapter | 56 | 10 | 8 | Revise | Open and editable, with scope to improve |
-| A polished publisher PDF | 50 | 1 | 1 | Reject | Not open, so it cannot be adapted |
-| An openly licensed worksheet set | 67 | 10 | 9 | Revise | Open and editable, with improvements needed |
-| A strong open textbook | 84 | 10 | 9 | Adopt | Meets the adopt band |
-
-An **adoption decision** is the recorded choice about a resource, made by the people responsible for the course. The reviewer advises, and the team decides. A good record has four parts: the decision, the reasons, taken from the evidence, any conditions that must be met before use, and a date to review the decision again, since resources and courses change. For Sam, the record says: revise; reasons, two factual errors, no practice answers, and missing alt text; conditions, fix the errors and add alt text and answers before students use it; review again next June.
-
-An **adoption recommendation** is the reviewer's written advice about what the team should decide, placed at the top of the review report so that a busy reader meets it first. It gives the recommended decision, the two or three reasons that matter most, and the conditions. Sam's recommendation reads: "Recommend revising before adoption. The chapter is open and editable, but two factual errors, missing alt text, and the absence of practice answers must be fixed first. Estimated improvement: from 56 to the 70s with these fixes." Ending with the next action, here an improvement plan, turns a review into work that can start.
-
-Practice applying the rules on six scorecards in the exercise below.
-
-#### Diagram: Adoption Decision Practice
+#### Diagram: Review Workflow Sequencer
 
 <details markdown="1">
-<summary>Adoption Decision Practice</summary>
+<summary>Review Workflow Sequencer</summary>
 Type: microsim
-**sim-id:** adoption-decision-practice<br/>
+**sim-id:** review-workflow-sequencer<br/>
 **Library:** p5.js<br/>
 **Status:** Specified<br/>
-**Template:** https://github.com/dmccreary/search-microsims/tree/main/docs/sims/rubric-scorer<br/>
-**Bloom Level:** Evaluate<br/>
-**Bloom Verb:** recommend<br/>
-**Learning Objective:** The learner will recommend adopt, revise, or reject for each of 6 resources by applying the four decision rules to its total score, Open License score, and Editable Source score.
+**Bloom Level:** Remember<br/>
+**Bloom Verb:** list<br/>
+**Learning Objective:** The learner will list the nine steps of a manual review in the correct order, with at least 8 of 9 steps in the correct position on the first Check.
 
-**Prerequisites:** total score, score band, adoption threshold, Adopt revise or reject, adoption decision (all defined in the chapter section "From Scores to a Decision" above this block).
+**Prerequisites:** Manual Evaluation, Review Workflow (both defined in this chapter above this block).
 
-**Evidence of Mastery:** For each of the 6 resources, the learner chooses Adopt, Revise, or Reject and presses Check. A recommendation is correct when it matches the Correct decision column in Content. Mastery is 5 or more of 6 correct on the first attempt. Reading the scores and changing a choice before pressing Check is exploration and does not count as evidence.
+**Evidence of Mastery:** The learner arranges nine steps and presses Check. A step is correct when it sits in the position given in the Content table. Mastery is at least 8 of 9 steps in the correct position on the first Check. Rearranging steps before pressing Check is exploration, not evidence.
 
-**Misconceptions:** (1) A high quality score alone justifies adopting a resource. (2) A total in the revise range always means the resource can be revised. (3) A locked resource can be revised if its quality is good. (4) Any total below 80 means reject.
+**Misconceptions:** (1) The first reading of a resource should include scoring. (2) Reviewers should compare scores before they finish their own. (3) The decision comes before the reconciliation.
 
-**Instructional Rationale:** Recommending means choosing a course of action and justifying it against criteria. Scorecards chosen so that each rule decides at least one outcome force the learner to apply the rules in order instead of looking only at the total.
+**Instructional Rationale:** Ordering the steps of a process is a Remember-level task that checks whether the learner holds the sequence. Each step depends on the one before it, so a wrong position can be explained by a dependency.
 
 **Content:**
 
-The decision rules, applied in order, are shown at all times: (1) if the Open License score is <= 2, Reject; (2) otherwise, if the total is >= 80, Adopt; (3) otherwise, if the total is >= 40 and the Editable Source score is >= 5, Revise; (4) otherwise, Reject. Every metric score is a whole number from 0 to 10.
+The nine steps, with their positions and the reason each follows its predecessor:
 
-| # | Resource shown | Quality subtotal | Reusability subtotal | Total | Open License | Editable Source | Correct decision | Why (shown as feedback) |
-|---|----------------|------------------|----------------------|-------|--------------|-----------------|------------------|-------------------------|
-| 1 | Sam's open chapter | 22 | 34 | 56 | 10 | 8 | Revise | Rule 1 does not apply, 56 is below 80, and 56 >= 40 with Editable Source 8 >= 5. |
-| 2 | A polished publisher PDF | 39 | 11 | 50 | 1 | 1 | Reject | Rule 1 applies: Open License 1 is <= 2, so it cannot be adapted. |
-| 3 | An openly licensed worksheet set | 25 | 42 | 67 | 10 | 9 | Revise | 67 is below 80, and 67 >= 40 with Editable Source 9 >= 5. |
-| 4 | A strong open textbook | 41 | 43 | 84 | 10 | 9 | Adopt | Rule 1 does not apply, and 84 >= 80. |
-| 5 | An open booklet distributed only as a PDF | 35 | 31 | 66 | 10 | 2 | Reject | 66 >= 40, but Editable Source 2 is below 5, so rule 3 fails and rule 4 applies. The creator could be asked for the source files. |
-| 6 | A weak open resource | 12 | 25 | 37 | 10 | 6 | Reject | Rule 1 does not apply, 37 is below 80, and 37 is below 40, so rule 3 fails and rule 4 applies. |
+| Position | Step | Why it comes here |
+|---|---|---|
+| 1 | Save a dated copy of the resource and fill in the resource block. | The evidence must refer to a fixed version. |
+| 2 | Read the review checklist and gather the tools. | The tools are needed for the checks. |
+| 3 | Read the whole resource once, without scoring. | A first read gives the whole picture before any score. |
+| 4 | Score one metric at a time, writing the evidence as you go. | Scoring needs the checklist, the tools, and the first read. |
+| 5 | Add the subtotals and the total. | The sums need all ten scores. |
+| 6 | Give the worksheet to a second reviewer who has scored alone. | Comparison needs two independent sets of scores. |
+| 7 | Compare the scores and reconcile every metric that differs by more than 3 points. | Reconciliation needs the comparison. |
+| 8 | Apply the adoption threshold to reach a decision. | The decision needs the reconciled scores. |
+| 9 | Write the report and the recommendation. | The report records the decision and the reasons. |
 
-**Provenance:** The scores for resources 1 to 4 repeat those in the chapter 3 calculator and this chapter's table. Resources 5 and 6 are illustrative and written for this chapter. All six are labeled "illustrative" in the sim. The decision rules come from the chapter section "From Scores to a Decision" and are the chapter's illustrative rules.
+**Provenance:** The steps follow the chapter section "Review Workflow". The sim states that a review with one reviewer skips steps 6 and 7.
 
-**Rules:** Apply the four rules in order and stop at the first that decides. Rule 1 decides Reject when the Open License score <= 2. Rule 2 decides Adopt when the total >= 80. Rule 3 decides Revise when the total >= 40 and the Editable Source score >= 5. Rule 4 decides Reject in every other case. Each resource has exactly one correct decision. Mastery is correct first attempts >= 5 of 6.
+**Rules:** Each step has exactly one correct position, and the nine positions are distinct. The learner may move steps freely before pressing Check. After a Check, steps in the correct position are marked correct and the rest are marked out of place.
 
 **Learner Activity:**
 
-1. The learner reads the scores for the first resource.
-2. The learner chooses Adopt, Revise, or Reject and presses Check.
-3. The sim shows whether the choice is correct and shows the Why text, then moves to the next resource.
-4. After resource 6, the sim shows the first-attempt score, lists any missed resource with its Why text, and offers a retry of the missed resources.
+1. The sim shows the nine steps in a shuffled order.
+2. The learner moves steps up or down to put them in the order they think is correct.
+3. The learner presses Check.
+4. The sim shows which steps are in the correct position and, for each out-of-place step, the reason it belongs where it does.
+5. The learner may rearrange and Check again.
 
-**Feedback:** Six resources, shown in the order of the table, two attempts each. Correct: "Correct: [decision]. [Why text]." Incorrect on the first attempt: "Not quite. Apply the rules in order, starting with the Open License score," followed by a hint. If the learner chose Adopt or Revise for a resource with Open License <= 2, the hint is "Rule 1 comes first: a resource that is not open cannot be adapted." If the learner chose Revise for a resource whose Editable Source score is below 5, the hint is "Check whether the source can actually be edited." If the learner chose Reject for a resource that passes rule 3, the hint is "The total is high enough and the resource is open and editable." After a second wrong choice the correct decision and Why text are revealed and the resource counts as missed. The score "Correct on first attempt: n of 6" is shown at the end, and the sim states whether mastery was reached.
+**Feedback:** The learner may press Check as many times as they like, and only the first Check counts as evidence. After each Check the sim shows "[n] of 9 steps in the correct position". For each out-of-place step the sim shows its Why text. At 8 or more on the first Check it adds "You know the order of a review." Below 8 it reports the count and invites another try.
 
-**Starting State:** The first resource's three scores are shown with the four rules and no choice made. The question on screen is "Adopt, revise, or reject?"
+**Starting State:** The nine steps in a shuffled order that is not the correct order, and the prompt "Put the steps in the order a review happens."
 
-**Chapter Anchors:** The chapter states four decision rules in order (Open License <= 2 rejects; total >= 80 adopts; total >= 40 with Editable Source >= 5 revises; otherwise reject), that Sam's chapter scored 56 with Open License 10 and Editable Source 8 and is a revise, and that the exercise has 6 resources.
+**Chapter Anchors:** The chapter lists nine steps, starting with saving a dated copy and ending with writing the report and the recommendation. Comparison and reconciliation are steps 6 and 7.
 </details>
 
-## Summary
+### Evidence Recording
 
-This chapter turned the rubric into a complete manual review and a decision. The key points are:
+**Evidence recording** is the habit of writing down, for every score, the evidence that supports it, as Chapter 3 required. In a manual review it takes concrete forms: the evidence column of the worksheet, screenshots with dates, saved tool reports, and copies of the quotes and figures that decided a score. Record failures and passes alike, because a reviewer who writes down only the problems cannot show what was checked. Keep the evidence with the report, so that anyone who disputes a score can see what it rested on.
 
-- Manual evaluation is scoring by hand, and it comes first because it builds understanding and creates reference scores for later chapters.
-- A review workflow of eight steps, from setting the context to recording the decision, keeps every review the same.
-- Evidence recording and reviewer notes capture findings as you go, and a dated copy of the resource protects the evidence.
-- A calibration session raises agreement by having reviewers score the same sample and discuss the differences.
-- Consensus scoring and score reconciliation resolve differences by looking at the evidence together, not by averaging.
-- Reviewer training combines rubric study, practice on known samples, and attention to bias.
-- Adopt, revise, or reject is the choice a review leads to, and the Open License and Editable Source scores decide whether revising is possible.
-- An adoption decision records the choice, reasons, conditions, and a review date, and an adoption recommendation puts the advice at the top of the report.
+### Reviewer Notes
 
-!!! mascot-celebration "You Can Run a Review From Start to Finish"
-    ![Echo the Loon celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
-    You can now run an eight-step manual review, calibrate with a colleague, reconcile scores with evidence, and turn a scorecard into an adopt, revise, or reject decision you can defend. Chapter 12 introduces AI agents and shows how a rubric prompt can make one do a first pass.
+**Reviewer notes** are the informal jottings a reviewer makes during a review: questions, hunches, things to check later, and thoughts about what the author meant. They differ from evidence. Evidence is a checked observation that supports a score. A note is a lead that may turn into evidence once it is checked, or may turn out to be wrong. Keeping notes in their own place, apart from the evidence column, stops an unchecked hunch from posing as a finding. Many reviewers keep a short "to check" list that they clear before they finish.
+
+## Calibration Session
+
+A **calibration session** is a meeting in which reviewers score the same sample resources, compare their scores, and discuss the differences until they apply the rubric in the same way. Calibration is what turns a written rubric into a shared one. Two reviewers who read the same descriptor can mean different things by "adequate", and the only way to find that out is to score something together. A calibration session usually follows this plan: each reviewer scores the sample alone, the group compares scores metric by metric using the agreement rule from Chapter 3, the group discusses each flagged metric with its evidence, and the group notes how it will score similar cases in future.
+
+**Worked example: a calibration session with two sample resources.** Four reviewers each score two sample resources alone and then meet.
+
+| Step | What happens | Output |
+|---|---|---|
+| 1 | Each reviewer scores sample A alone, with evidence | Four worksheets |
+| 2 | The group compares the four scores for each metric | A list of flagged metrics, where scores differ by more than 3 points |
+| 3 | The group discusses each flagged metric, showing evidence | A shared reading of the check and a written note |
+| 4 | Each reviewer scores sample B alone, applying the shared readings | Four more worksheets |
+| 5 | The group compares again | Fewer flagged metrics, ideally two or fewer |
+
+A reasonable goal, which a team may change, is that reviewers agree within 3 points on at least 8 of the 10 metrics before they score real resources. If they do not, the group repeats the session with a new sample.
+
+!!! mascot-tip "Bring a Second Reviewer to the First Review"
+    ![Echo giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    Your first review is the one where a second pair of eyes helps most. Score alone, then compare, and the metrics where you differ show you which descriptors you read differently.
+
+### Reviewer Training
+
+**Reviewer training** is the preparation that new reviewers go through before they score real resources. It covers the rubric, the checks, the tools, and the habits that keep scores honest, and it ends with practice on sample resources and a calibration session. A new reviewer reads Chapters 3 through 10, scores two sample resources with evidence, and compares the results with an experienced reviewer's scores. [Chapter 19](../19-training-certifying-reviewers/index.md) shows how to run a training workshop and certify reviewers.
+
+## Reaching Agreement
+
+### Consensus Scoring
+
+**Consensus scoring** is the process by which two or more reviewers agree on one final score for each metric. Each reviewer scores alone first. Then they compare, and for each metric where they differ, they discuss until they agree on a single score. The rule that makes consensus work is to decide by evidence. The final score is not an average of the two. Averaging hides a disagreement and produces a number that neither reviewer would defend. When the reviewers cannot agree, they record both scores and the reason, and the report says the metric is disputed.
+
+### Score Reconciliation
+
+**Score reconciliation** is the step-by-step handling of a metric where two reviewers' scores differ by more than 3 points. Three steps resolve it. First, each reviewer states the evidence behind their score. Second, the reviewers repeat the check that the evidence rests on, to see whether it holds. Third, they choose the score that the checked evidence supports, or, if the evidence is incomplete, they gather more and decide again. A score backed by specific, repeatable evidence outweighs one backed by a vague impression. A vague report of a failure still deserves a re-check, because it may point at a real problem that the other reviewer missed.
+
+!!! mascot-warning "Do Not Split the Difference"
+    ![Echo warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    Averaging two scores feels fair and tells you nothing, because a 5 and a 9 average to a 7 that neither reviewer found. Compare the evidence, repeat the check, and keep the score that the evidence supports.
+
+The second MicroSim practices reconciliation. It shows five metrics on which two reviewers disagreed, with each reviewer's score and evidence, and for each one you decide how to resolve it.
+
+#### Diagram: Score Reconciliation Judge
+
+<details markdown="1">
+<summary>Score Reconciliation Judge</summary>
+Type: microsim
+**sim-id:** score-reconciliation-judge<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Evaluate<br/>
+**Bloom Verb:** judge<br/>
+**Learning Objective:** The learner will judge how to resolve each of five disagreements between two reviewers by choosing the resolution that their evidence supports, with at least 4 of 5 correct on the first attempt.
+
+**Prerequisites:** Consensus Scoring, Score Reconciliation, Evidence Recording, Inter-Rater Agreement (defined in Chapter 3) (all defined in this chapter or in Chapter 3 above this block).
+
+**Evidence of Mastery:** For each case the learner commits one of four resolutions. A resolution is correct when it matches the Correct resolution column in Content. Mastery is at least 4 of 5 correct on the first attempt. Reading the three-step procedure is exploration, not evidence.
+
+**Misconceptions:** (1) Average the two scores. (2) The more senior reviewer's score wins. (3) A tool report settles any score.
+
+**Instructional Rationale:** Judging between two reviewers' evidence is an Evaluate-level action. Five cases in which different kinds of evidence meet teach the learner to ask which evidence is specific, which is repeatable, and which belongs to the check.
+
+**Content:**
+
+The four resolutions: Reviewer A's score stands, Reviewer B's score stands, Re-check and decide, Record the disagreement.
+
+The three-step procedure, shown on request: each reviewer states their evidence; the reviewers repeat the check the evidence rests on; they choose the score the checked evidence supports.
+
+The five cases (all made up, for Watershed Basics):
+
+| # | Metric | Reviewer A | Reviewer B | Correct resolution | Why (shown as feedback) |
+|---|---|---|---|---|---|
+| 1 | Accessibility | Score 5. Evidence: "4 of 5 images have alt text, and 2 of those 4 are one word. The video has no captions. One heading skips a level." | Score 9. Evidence: "An automated checker reported no errors." | Reviewer A's score stands | A's evidence is specific and repeatable. A checker cannot judge alt text quality or the absence of captions, so B's evidence does not address A's findings. |
+| 2 | Portability | Score 7. Evidence: "The embed worked on 2 of 3 test platforms and failed on the third, tested 2026-10-12." | Score 3. Evidence: "It did not work in my LMS." | Re-check and decide | B's evidence names no platform, no date, and no cause, and it may point at the same failure A found or at a new one. Repeat the test on B's platform. |
+| 3 | Open license | Score 3. Evidence: "I found no license." | Score 9. Evidence: "CC BY 4.0 appears in the footer of pages 1 to 6, with a link to the license." | Reviewer B's score stands | B's evidence is specific and shows that A missed the footer. |
+| 4 | Modularity | Score 5. Evidence: "The quiz cannot be opened apart from the reading, and it has no address of its own." | Score 9. Evidence: "The reading is divided into sections with clear headings." | Reviewer A's score stands | Headings divide a page and do not make the parts separable, so B's evidence answers a different question. |
+| 5 | Practice with feedback | Score 8. Evidence: "All 8 items give feedback after the learner clicks Show answer." | Score 4. Evidence: "The feedback appears only after the click on Show answer, so it is not immediate." | Record the disagreement | Both readings are defensible, because the rubric does not say whether click-to-reveal counts as feedback after the learner responds. Record the disagreement and ask the rubric's owner to clarify the check. |
+
+**Provenance:** The cases are illustrative cases written for this chapter, and the sim labels them "illustrative examples". The procedure follows the chapter section "Score Reconciliation".
+
+**Rules:** Each case has exactly one correct resolution. Two cases are Reviewer A's score stands, one is Reviewer B's score stands, one is Re-check and decide, and one is Record the disagreement. The sim never offers averaging as a resolution, and states that averaging is not a resolution.
+
+**Learner Activity:**
+
+1. The learner sees the metric, both reviewers' scores, and both reviewers' evidence.
+2. The learner may open the three-step procedure. Opening it does not change the score.
+3. The learner chooses a resolution, and the choice is committed.
+4. The sim shows whether it was correct and the Why text.
+5. After case 5 the sim shows the summary.
+
+**Feedback:** 5 cases in a shuffled order, one attempt each. Correct: "Correct: [resolution]. [Why]". Incorrect: "Not quite. The best resolution is [resolution]. [Why]". The summary shows "[n] of 5 correct on the first attempt". At 4 or more it adds "You can settle a disagreement with evidence." Below 4 it lists the Why text of each missed case.
+
+**Starting State:** Case 1 with both reviewers' scores and evidence shown. The question shown is "How should these two reviewers resolve this metric?"
+
+**Chapter Anchors:** The chapter says reconciliation applies when scores differ by more than 3 points, that the reviewers decide by evidence and never average, and that unresolved metrics are recorded as disputed.
+</details>
+
+## Adopt, Revise, or Reject
+
+**Adopt, revise, or reject** names the three decisions a review can lead to. The adoption threshold from Chapter 3 maps scores to them. A resource is ready to **adopt** when its total is at least 75 and every metric is at least 5. It should be **revised** when its total is at least 50 and the adopt rule is not met, which means the resource is promising and needs work. It should be **rejected** when its total is below 50. These values are this book's starting rule, and a department may set stricter ones.
+
+| Decision | Rule | What it means for the teacher |
+|---|---|---|
+| Adopt | Total >= 75, and every metric >= 5 | Use the resource as it is, and record the weak metrics |
+| Revise | Total >= 50, and the Adopt rule is not met | Improve the resource, or use it with the known gaps, then review again |
+| Reject | Total < 50 | Look for another resource |
+
+The rule has sharp edges, and a reviewer should know them. A total of exactly 75 with every metric at 5 or above is an Adopt. A total of 74 is a Revise, however close it looks. A total of 88 with one metric at 4 is a Revise, because the floor catches a failed metric that a high total hides. A total of exactly 50 is a Revise, and 49 is a Reject.
+
+The third MicroSim practices the edges. It shows six scored resources, and for each one you apply the rule to choose the decision.
+
+#### Diagram: Adoption Boundary Cases
+
+<details markdown="1">
+<summary>Adoption Boundary Cases</summary>
+Type: microsim
+**sim-id:** adoption-boundary-cases<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** apply<br/>
+**Learning Objective:** The learner will apply the adoption threshold to choose adopt, revise, or reject for each of six resources, including cases at the boundaries, with at least 5 of 6 correct on the first attempt.
+
+**Prerequisites:** Adopt Revise or Reject, Manual Evaluation (both defined in this chapter above this block), and the Total Score and Adoption Threshold sections of Chapter 3.
+
+**Evidence of Mastery:** For each resource the learner commits one of three decisions. A decision is correct when it matches the Correct decision column in Content. Mastery is at least 5 of 6 correct on the first attempt. Using the explore mode is exploration, not evidence.
+
+**Misconceptions:** (1) A total of 75 or more is always an Adopt. (2) A total of 50 is a Reject. (3) The floor applies only to the lowest-scoring chapter.
+
+**Instructional Rationale:** Applying a rule at its edges is an Apply-level action that exposes misreadings of the rule. Six cases at the exact boundaries and with a hidden low metric teach the learner to check both parts of the Adopt rule.
+
+**Content:**
+
+The rule, shown at all times: Adopt when the total >= 75 and every metric >= 5. Reject when the total < 50. Otherwise Revise.
+
+The six resources (all made up):
+
+| # | Resource | Total | Lowest metric | Correct decision | Why (shown as feedback) |
+|---|---|---|---|---|---|
+| 1 | Boundary Adopt | 75 | 5 | Adopt | The total is exactly 75 and the lowest metric is exactly 5, so both conditions hold. |
+| 2 | Just Short | 74 | 6 | Revise | The total is 74, which is less than 75, and 74 is at least 50. |
+| 3 | High Total, One Gap | 88 | 4 | Revise | The total passes, but one metric is less than 5, so the Adopt rule is not met. |
+| 4 | Boundary Revise | 50 | 3 | Revise | The total is exactly 50, which is not less than 50, and the Adopt rule is not met. |
+| 5 | Just Below | 49 | 4 | Reject | The total is less than 50. |
+| 6 | Strong All Round | 93 | 9 | Adopt | The total is greater than 75 and the lowest metric is greater than 5. |
+
+**Provenance:** The resources are illustrative cases written for this chapter, and the sim labels them "illustrative examples". The rule is the chapter's starting rule, and the sim labels it "starting values, not a standard".
+
+**Rules:** Each resource has exactly one correct decision. Two are Adopt, three are Revise, and one is Reject. In explore mode the learner sets the total (minimum 0, maximum 100, step 1, default 70, unit points) and the lowest metric (minimum 0, maximum 10, step 1, default 5, unit points), and the sim shows the decision and the rule that produced it. Ten scores cannot have a lowest value greater than their average, so the lowest metric cannot exceed the total divided by 10 rounded down, and it cannot be less than the total minus 90. The sim disables impossible combinations.
+
+**Learner Activity:**
+
+1. In explore mode the learner moves the two sliders and watches the decision change.
+2. In practice mode the sim shows resource 1 with its total and lowest metric.
+3. The learner chooses Adopt, Revise, or Reject, and the choice is committed.
+4. The sim shows whether it was correct and the Why text.
+5. After resource 6 the sim shows the summary.
+
+**Feedback:** 6 resources in a shuffled order, one attempt each. Correct: "Correct: [decision]. [Why]". Incorrect: "Not quite. The decision is [decision]. [Why]". The summary shows "[n] of 6 correct on the first attempt". At 5 or more it adds "You can apply the threshold at its edges." Below 5 it lists the Why text of each missed resource.
+
+**Starting State:** Explore mode with a total of 70 and a lowest metric of 5, so the decision is Revise. The prompt is "Move a slider to see the decision change."
+
+**Chapter Anchors:** The chapter says Adopt needs a total >= 75 and every metric >= 5, Revise needs a total >= 50 without meeting the Adopt rule, and Reject is a total < 50. The chapter's worked examples are a total of 75, 74, 88 with one metric at 4, 50, and 49, and the sim's case with a total of 49 has a lowest metric of 4.
+</details>
+
+### Adoption Decision
+
+An **adoption decision** is the formal choice, by a person or group with authority, of whether to use a resource in a course or a school. A review informs the decision and does not make it. The group that decides may be a department, a district committee, or a single teacher, and it weighs the review against things the rubric does not measure, such as cost, fit with the course, and training needs. A good decision is recorded with the date, the decision-makers, the review it relied on, and a time to look again, since a resource that scores well today may be out of date in a few years.
+
+### Adoption Recommendation
+
+An **adoption recommendation** is the reviewer's written advice to the decision-makers. It states the decision the scores support, gives the reasons in plain words, names the strongest and weakest metrics, and lists the improvements that would raise the score most. It is the part of the review that busy readers will actually read, so it comes first in the report and fits on a page.
+
+**Worked example: the recommendation for Watershed Basics.** The reviewer writes three sentences for the department.
+
+"Revise before adopting. *Watershed Basics* scores 65 of 100, in the Fair band, and the adoption rule is not met because its metadata scores 4, below the floor of 5. The three changes that would help most are filling in the metadata, adding captions and alt text, and separating the quiz from the reading, and each is small."
+
+## Key Takeaways
+
+- **Manual evaluation** is a full human review: ten scores, evidence, subtotals, a total, and a decision. Doing it by hand first gives you the standard for checking an AI agent later.
+- A **review workflow** of nine steps keeps reviews comparable. **Evidence recording** keeps every score checkable, and **reviewer notes** hold leads that are not yet evidence.
+- A **calibration session** has reviewers score the same samples and discuss the differences. **Reviewer training** prepares a new reviewer for real reviews.
+- **Consensus scoring** settles on one score per metric by evidence, never by averaging. **Score reconciliation** repeats the check behind each flagged metric and chooses the score the evidence supports.
+- **Adopt, revise, or reject** follows the adoption threshold. An **adoption decision** is made by people with authority, and an **adoption recommendation** gives them the reviewer's advice in a page.
+
+!!! mascot-celebration "You Can Review a Resource From Start to Finish"
+    ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
+    You can now run a full manual review, record the evidence, reconcile scores with a second reviewer, and turn the total into an adopt, revise, or reject recommendation you can defend. That is the human standard that every AI agent in the coming chapters will be measured against.
+
+[See Annotated References](./references.md)

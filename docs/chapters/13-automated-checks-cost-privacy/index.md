@@ -1,8 +1,8 @@
 ---
 title: "Automated Checks, Cost, and Student Privacy"
-description: "Covers automated link, accessibility, license, and readability checks, multi-agent review, keeping a human in the loop, AI cost, student data privacy, and FERPA."
+description: "Covers multi-agent review, keeping a human in the loop, automated link, accessibility, license, and readability checks, AI cost, and protecting student data under FERPA."
 generated_by: claude skill chapter-content-generator
-date: "2026-10-20 21:06:32"
+date: "2026-10-23 22:36:18"
 version: 1.11
 ---
 
@@ -41,180 +41,424 @@ This chapter builds on concepts from:
 
 ---
 
-!!! mascot-welcome "Faster, Cheaper, and Still Accountable"
-    ![Echo the Loon waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
-    Automation can run a dozen checks in the time it takes to run one by hand, but speed raises three questions: who is checking the checker, what does it cost, and whose information is flowing through it? This chapter answers all three. Let's dive in and check the evidence!
+!!! mascot-welcome "Automate the Counting, Keep the Judgment"
+    ![Echo waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    An agent can run a hundred checks while you drink your coffee, and it can also make a hundred confident mistakes. This chapter shows you what to automate, where a person must stay, what it costs, and how to keep student information out of harm's way. Let's dive in and check the evidence!
 
-Chapter 12 introduced AI agents and showed how to brief one with a rubric prompt. This chapter covers what a responsible team does around that agent. It starts with the automated checks that do the measuring, then asks how several agents can cross-check each other, why a person must stay in the loop, what the work costs, and how to protect student information. The last topic matters most. A review of an open resource involves no student data, but the work that follows it often does, including the student tests of Chapters 16 and 17, so privacy habits have to be in place before the data arrives.
+Chapter 12 gave you an agent that can read a resource and return scores. Before you let it loose on a collection, four questions deserve answers. Which checks are safe to automate, and which can fool you? Where does a person have to stay in the process? What will a large run cost? And what information must never go into an AI service at all? This chapter answers them, in that order, and the answers shape how the rest of the book uses agents.
 
-## Automated Checks
+## Human in the Loop
 
-Chapter 12 explained that an agent should call tools for anything that is a measurement. Four automated checks cover the measurements this rubric depends on most. Each automates a manual check from an earlier chapter, and each is only as good as what it can see.
+**Human in the loop** is a way of working in which a person reviews, approves, or corrects an automated system's output at the points where errors matter. It does not mean that a person redoes the work. It means that the machine's draft passes through a person before it becomes a decision. The idea fits this book's whole method: an agent produces a fast first pass with evidence, and a human checks the evidence, settles disagreements, and makes the adoption decision.
 
-An **automated link checker** is a tool that requests each web address in a resource and records whether it works. It automates the broken link check from Chapter 5, and it can run on hundreds of links in the time it takes a person to open ten. It reports which links return errors, which have moved, and which are slow. It cannot tell whether a working link still supports the claim it is attached to, so a clean report says only that the links open. Run on Sam's chapter, it finds what Sam found by hand: two of the nine references return "page not found."
+There are three reasons to keep a person in the loop. Agents make confident mistakes, as Chapter 12 showed, and Chapter 14 teaches you to find them. Accountability cannot be delegated: when a district adopts a resource, a person answers for the choice, and "the agent said so" is not an answer. And some checks depend on knowledge or context that an agent lacks, such as what a particular class needs. The cost is time, so the practical question is where a person's attention buys the most.
 
-An **automated accessibility scan** is a tool that tests a page against accessibility rules, such as missing alt text, low contrast, skipped headings, and unlabeled controls. It automates much of the accessibility checker work from Chapter 7. A scan of Sam's chapter flags the four diagrams with no alt text, the pale gray labels, and the jump from heading level 2 to level 4. It cannot judge whether alt text is any good, whether captions are accurate, or whether the page is usable with a keyboard alone, so a clean scan is a start and not a finish.
+A useful way to spend that attention is to match the level of checking to the risk. A report that follows the rules, carries tool logs, and shows exact evidence needs only a spot check. A report whose claims rest on the agent's own memory needs every claim checked. A report that breaks the rubric's own rules, for example a total that does not equal the sum of its scores, goes back for another run.
 
-**Automated license detection** is a tool or script that finds the license statement in a resource and reports which license it names. It reads the footer, the repository's license file, and the metadata, and it compares them. Many tools report the license as a short standard code, such as CC-BY-4.0, drawn from a public list of license identifiers, which makes reports easy to compare. An agent can also read a statement and explain it, but a script is safer for the identification itself, because a script reads the real text and does not recall a typical one. Run on Sam's chapter, the check finds CC BY 4.0 in the footer and in the license file, and they agree. It cannot tell whether an image inside the chapter has a different license, so third-party content still needs a human check.
+**Worked example: three levels of oversight.** The table compares three ways of using the same agent on the same collection.
 
-An **automated readability scan** is a tool that estimates a text's reading level with a readability formula, such as the Flesch-Kincaid grade level from Chapter 6. It takes seconds, and it can scan every section of a long resource and show which are hardest. Run on three passages of Sam's chapter, it reports 10.3, 10.6, and 10.7, which Sam had calculated by hand. It measures length of sentences and words only, so it cannot say whether the ideas are clear, and it can mislead on tables and lists.
+| Approach | What happens | Likely outcome |
+|---|---|---|
+| No oversight | The agent's totals go straight into the adoption list | A resource with an invented caption claim is adopted, and a blind learner meets a video with no captions |
+| Check everything | A person redoes every score by hand | The review is accurate, and the agent saved no time |
+| Risk-matched oversight | Rule-breaking reports go back, claims with no source are checked in full, and well-evidenced reports are spot-checked | Errors are caught where they occur, and most of the agent's time saving remains |
 
-The table gathers the four checks, with what each can and cannot judge. A reviewer can use it to decide which checks to automate and which findings still need a person.
+!!! mascot-thinking "The Answer Still Belongs to a Person"
+    ![Echo thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    An agent can supply scores and evidence, and it cannot take responsibility for the decision. Plan the loop so that a named person looks at each report before it is used.
 
-| Automated check | Automates | Reports on Sam's chapter | Cannot judge |
-|-----------------|-----------|--------------------------|--------------|
-| Link checker | Broken link check, Chapter 5 | 2 of 9 links broken | Whether a working link supports the claim |
-| Accessibility scan | Accessibility checker, Chapter 7 | 4 images without alt text, low-contrast labels, a heading-level skip | Quality of alt text, caption accuracy, keyboard use |
-| License detection | License statement check, Chapter 2 | CC BY 4.0 in the footer and the license file | Licenses of material inside the resource |
-| Readability scan | Readability formula, Chapter 6 | Grade levels of about 10.5 | Whether the ideas are clear |
+The first MicroSim of the chapter practices matching the check to the risk. It shows eight features of agent reports, and for each one you choose how much checking it needs.
 
-## Multi-Agent Review
-
-**Multi-agent review** is a review in which more than one agent takes part, each with its own task or its own view. Two patterns are common. In the first, specialist agents each handle one group of metrics, such as one for accuracy and sources, one for accessibility, and one for reusability, and a coordinating step combines their results. Each specialist gets a shorter, sharper prompt and only the tools it needs. In the second pattern, a second agent checks the first. It reads the first agent's scores and evidence and looks for scores that the evidence does not support.
-
-Sam sets up three specialists and a coordinator. The table shows who does what.
-
-| Agent | Task | Tools |
-|-------|------|-------|
-| Accuracy agent | Check claims and citations | Link checker, search |
-| Accessibility agent | Check accessibility | Accessibility scan, contrast calculator |
-| Reusability agent | Check license, modularity, metadata, source, portability | License detection, file access |
-| Coordinator | Merge the three results into one report and flag disagreements | None |
-
-Multi-agent review has an attraction and a trap. The attraction is that disagreement is informative. Suppose two agents review Alignment independently and one gives 6 while the other gives 4. That gap tells the team where to look, much as a gap between two human reviewers does. The trap is that agents built on the same model can share the same blind spots. If both miss the error in the ribosome statement, their agreement looks like confirmation and is not. Using different prompts, different models, or a different kind of check, such as a tool that looks up facts, makes the agreement more meaningful. Either way, more agents mean more cost, and they do not remove the need for a person.
-
-## Keeping a Person in the Loop
-
-**Human in the loop** is a way of designing automated work so that a person reviews, approves, or corrects the automated output at defined points. Three levels are commonly distinguished. With a human *in* the loop, a person approves each important output before anything happens. With a human *on* the loop, the system runs and a person monitors it and can step in. With a human *out* of the loop, nobody checks. This book recommends the first for anything that affects a decision, because a review's recommendation can decide what students are given to learn from.
-
-There are three reasons for keeping a person in. The first is accountability: a person, not a program, is answerable for a decision about learners. The second is error catching, because models make mistakes that sound right, as Chapter 12 showed. The third is judgment, since fit with a particular classroom is something a teacher knows and an agent does not.
-
-A person in the loop is only useful if the person really checks. **Automation bias** is the tendency to trust an automated answer more than it deserves, and it affects careful people too. A reviewer who sees an agent's score of 8 tends to settle near 8. Three habits reduce it. Score first, then look at the agent's scores, as the workflow in Chapter 12 does. Check the evidence before the score. And audit a sample: periodically re-check a few items the agent marked as fine, to see how often it is wrong.
-
-The checkpoints belong at fixed places. The table shows the plan for Sam's agent-assisted review.
-
-| Checkpoint | What the human does | Why |
-|------------|---------------------|-----|
-| Before the run | Fills in the context card and chooses the prompt version | The agent's judgment is only as good as the context |
-| After scoring | Reviews every item the agent marked "cannot determine," and any score more than 3 points from the human's own | These are the places most likely to be wrong |
-| Before the report | Reads the evidence for each metric, not just the scores | Evidence, not confidence, is what justifies a score |
-| Before any change to a resource | Approves each edit | An agent that edits can introduce new errors |
-| Before the decision | Makes the adopt, revise, or reject decision | The decision belongs to the team |
-
-!!! mascot-thinking "The Loop Is the Point"
-    ![Echo the Loon thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
-    The human step is where the quality comes from. An agent that does the reading, measuring, and drafting frees you to spend your attention on the judgments only you can make.
-
-## What It Costs
-
-**AI cost** is what it takes, in money and in time, to run a model or agent on a task. Hosted models usually charge by the token, with separate prices for the text sent in and the text produced, and the text produced often costs more. A rough cost for a task is the tokens in times the price per token in, plus the tokens out times the price per token out. Prices change often, and they differ from service to service, so check the current figures before budgeting.
-
-Here is an illustrative estimate, using invented prices of $3 per million input tokens and $15 per million output tokens. Suppose one metric run on Sam's chapter sends about 10,000 tokens in, which is the chapter at about 8,000 tokens plus a prompt of about 2,000, and gets about 1,500 tokens back. The input costs 10,000 ÷ 1,000,000 × $3 = $0.03. The output costs 1,500 ÷ 1,000,000 × $15 = $0.0225. One run costs $0.0525. A full review of ten metrics, one run each, costs about $0.53 for the chapter, and nineteen chapters of similar size cost about $10.
-
-| Item | Tokens in | Tokens out | Cost at the illustrative prices |
-|------|-----------|------------|---------------------------------|
-| One metric run | 10,000 | 1,500 | $0.0525 |
-| Ten metrics for one chapter | 100,000 | 15,000 | $0.525 |
-| Nineteen chapters of that size | 1,900,000 | 285,000 | $9.975 |
-
-Machine cost is small next to human cost. Checking an agent's work takes a reviewer's time, which is worth more than the tokens, so a cheap agent that produces unreliable results can cost more overall than a careful manual review. Some services discount repeated input, which helps when the same chapter is sent for ten metrics, and local models run on your own computer for no per-token charge but need capable hardware.
-
-## Protecting Student Information
-
-**Student data privacy** is the protection of personal information about students, including names, ID numbers, grades, test scores, work that carries a name, photos, and records about health, disability, or discipline. It matters here because most AI tools run on a company's servers. Typing or pasting text into them sends that text to a third party. Some services keep what you send, some may use it to improve their products unless you change a setting or have a contract that says otherwise, and the terms differ from one service to the next. A teacher who pastes a student's essay into an unapproved tool may have disclosed the student's work without permission.
-
-A review of an open textbook involves no student data, and it should stay that way: keep student information out of resource reviews entirely. The risk comes later, in the activities this book recommends next. A student A/B test, which Chapters 16 and 17 cover, collects scores and survey answers. Open pedagogy, from Chapter 1, publishes student work. Both need care. Four habits protect students:
-
-- **Collect only what you need.** If you do not need names, do not collect them.
-- **Remove identifiers before using any outside tool.** Replace names with codes, and strip emails, ID numbers, and details that could identify someone.
-- **Use only tools your school has approved.** An approved tool is covered by an agreement about how the data is handled.
-- **Know where the data goes.** Read the tool's terms on retention and training, and when you cannot tell, do not use it.
-
-Take Sam wanting an agent to summarize the end-of-unit survey answers from students. The table shows how the data changes before it goes anywhere near a tool.
-
-| Original | Safer version |
-|----------|---------------|
-| "Maria Lopez (maria.l@example.org): The video had no captions and I missed half of it." | "Student 14: The video had no captions and I missed half of it." |
-| A spreadsheet with a column of student ID numbers | The ID column removed, and a row number kept |
-| Results listed by class period, with five students in one period | Results combined across periods, so no small group can single anyone out |
-
-!!! mascot-warning "Don't Paste Student Work Into a Chat Box"
-    ![Echo the Loon warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
-    A consumer chat tool isn't covered by your school's privacy agreements, and what you paste may be stored. Strip the names and identifiers first, and use only a tool your school or district has approved.
-
-**FERPA**, the Family Educational Rights and Privacy Act of 1974, is the U.S. federal law that protects the privacy of student education records at schools that receive funds from the U.S. Department of Education. It gives parents, and students who are 18 or older or attend college, the right to inspect and request corrections to their records. It also restricts schools from disclosing personally identifiable information from those records without written consent, with several exceptions. One exception lets a school share records with a service provider that performs a function for the school and is under the school's direct control over how the data is used. For a teacher, the practical point is this: sending identifiable student information to an AI tool may count as a disclosure, so use de-identified data or an approved service, and follow your district's policy. Other rules also apply in some settings, such as laws on online services for children under 13 and state privacy laws, and rules differ outside the United States. This book explains concepts and is not legal advice.
-
-The exercise below gives you eight pieces of information and asks what to do with each before it goes near an AI tool.
-
-#### Diagram: Student Data Safety Sorter
+#### Diagram: Human Check Planner
 
 <details markdown="1">
-<summary>Student Data Safety Sorter</summary>
+<summary>Human Check Planner</summary>
 Type: microsim
-**sim-id:** student-data-safety-sorter<br/>
+**sim-id:** human-check-planner<br/>
 **Library:** p5.js<br/>
 **Status:** Specified<br/>
-**Template:** https://github.com/dmccreary/ai-persona-testing/tree/main/docs/sims/persona-data-privacy-flow<br/>
-**Bloom Level:** Evaluate<br/>
-**Bloom Verb:** judge<br/>
-**Learning Objective:** The learner will judge whether each of 8 pieces of information is fine to use with an AI tool, needs de-identifying first, or must not be used, assuming the tool has not been approved by the school.
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** apply<br/>
+**Learning Objective:** The learner will apply risk-matched oversight to choose send back, check every claim, or spot-check for each of eight features of agent reports, with at least 7 of 8 correct on the first attempt.
 
-**Prerequisites:** student data privacy, FERPA, human in the loop (all defined in the chapter above this block).
+**Prerequisites:** Human in the Loop, and the sections on agent scoring and agent evaluation reports in Chapter 12 (all defined in this chapter above this block or in Chapter 12).
 
-**Evidence of Mastery:** For each of the 8 pieces of information, the learner chooses one of three categories and presses Check. A choice is correct when it matches the Correct category column in Content. Mastery is 7 or more of 8 correct on the first attempt. Reading an item and changing a choice before pressing Check is exploration and does not count as evidence.
+**Evidence of Mastery:** For each feature the learner commits one of three responses. A response is correct when it matches the Correct response column in Content. Mastery is at least 7 of 8 correct on the first attempt. Reading the oversight levels is exploration, not evidence.
 
-**Misconceptions:** (1) Removing a student's name is always enough to make information safe. (2) Anything about a student can be shared if the tool is popular. (3) Information about a resource and information about a student are handled the same way. (4) De-identifying is needed only for grades.
+**Misconceptions:** (1) A report with numbers is trustworthy. (2) A person must redo every score. (3) A rule-breaking report can be fixed by hand.
 
-**Instructional Rationale:** Judging means applying criteria to a case. Items that differ in whether they identify a person, and in how sensitive they are, make the learner decide by the content of the information and not by how it is packaged.
+**Instructional Rationale:** Choosing a response from a risk rule is an Apply-level action. Eight report features that map to three responses teach the learner to read a report for the signs that need attention.
 
 **Content:**
 
-The three categories are: Fine to use, De-identify first, and Do not use. The assumption throughout is that the AI tool is not covered by an agreement with the school or district. Where the school has approved a tool and permits it, some items in De-identify first may be allowed, and the sim says so in its note.
+The three responses: Send back (the report breaks a rule of the rubric or the prompt, so the agent must run again), Check every claim (the report may follow the rules, but its claims rest on the agent's own word), and Spot-check (the report follows the rules and shows exact evidence, so a person verifies a sample).
 
-| # | Information shown to the learner | Correct category | Why (shown as feedback) |
-|---|----------------------------------|------------------|-------------------------|
-| 1 | The text of an open textbook chapter | Fine to use | It is public and contains no student information. |
-| 2 | Your own completed rubric scorecard for an open resource | Fine to use | It describes a resource, not students. |
-| 3 | A spreadsheet of end-of-unit survey answers, with each student's name and email | De-identify first | Names and emails identify the students. Replace them with codes before use. |
-| 4 | A student's essay with the student's name at the top, shared to get ideas for feedback | De-identify first | The name identifies the student, and the work is part of the student's record. Remove the name and other identifying details. |
-| 5 | A list of students who have disability accommodations | Do not use | It is sensitive information about individuals, and de-identifying it is not enough to make it appropriate for an unapproved tool. |
-| 6 | A photo of a student's face taken during a class activity | Do not use | A face identifies the student and cannot be de-identified. |
-| 7 | Survey answers with no names or codes, combined across four classes of 120 students in total | Fine to use | There is no identifying information, and the group is large enough that no student stands out. |
-| 8 | An excerpt from a student's discipline record | Do not use | It is sensitive information about an individual and is protected as an education record. |
+The eight features:
 
-**Provenance:** The 8 pieces of information are illustrative and describe no real students. The categories follow the chapter section "Protecting Student Information." The sim labels the items "illustrative" and displays the note that it gives general guidance and not legal advice.
+| # | Feature of an agent report shown to the learner | Correct response | Why (shown as feedback) |
+|---|---|---|---|
+| 1 | The total is 71, and the ten metric scores add up to 68. | Send back | The arithmetic is wrong, and the report breaks its own rule. |
+| 2 | The decision is Adopt for a resource with a total of 76 and one metric at 4. | Send back | The decision breaks the adoption rule, which needs every metric at 5 or more. |
+| 3 | An alignment score of 7 with no evidence quoted. | Send back | The prompt required evidence for every score. |
+| 4 | A factual accuracy score of 9 that rests on the agent's own knowledge, with no sources. | Check every claim | No source is cited, so each claim must be checked. |
+| 5 | A statement that all links work, with no link-checker log attached. | Check every claim | The claim may be invented, and the test must be run again. |
+| 6 | An open license score of 9, with footer evidence on 6 of 6 pages and a tool log. | Spot-check | The evidence is exact and checkable, so a sample is enough. |
+| 7 | A reading level from a tool, with the grade numbers shown. | Spot-check | The numbers are in the tool log, and a person can recompute one. |
+| 8 | An editable source score of 10, with a file list and all ten check results. | Spot-check | The evidence is complete and verifiable. |
 
-**Rules:** Information about a resource, with no student information, is Fine to use. Information that identifies a student but can be made non-identifying by removing names, contact details, and other identifiers is De-identify first. Information that is highly sensitive (disability, discipline, or health information) or that cannot be de-identified (a photo of a face) is Do not use. Information already stripped of identifiers and combined across a group large enough that no individual stands out is Fine to use. Each of the 8 items fits exactly one category. Mastery is correct first attempts >= 7 of 8.
+**Provenance:** The features are illustrative cases written for this chapter, and the sim labels them "illustrative examples". The responses follow the chapter section "Human in the Loop".
+
+**Rules:** Each feature has exactly one correct response. Three features are Send back, two are Check every claim, and three are Spot-check.
 
 **Learner Activity:**
 
-1. The learner reads the first piece of information.
-2. The learner chooses one of the three categories and presses Check.
-3. The sim shows whether the choice is correct and shows the Why text, then moves to the next piece.
-4. After item 8, the sim shows the first-attempt score, lists any missed item with its Why text, and offers a retry of the missed items. The sim also shows the note that the guidance is general and that the school's own policy applies.
+1. The learner sees one feature and the three responses.
+2. The learner may open the oversight levels. Opening them does not change the score.
+3. The learner chooses a response, and the choice is committed.
+4. The sim shows whether it was correct and the Why text.
+5. After feature 8 the sim shows the summary.
 
-**Feedback:** Eight items, shown in the order of the table, two attempts each. Correct: "Correct: [category]. [Why text]." Incorrect on the first attempt: "Not quite," followed by a hint. If the learner chose Fine to use for an item that identifies a student, the hint is "Ask whether anyone could tell which student this is about." If the learner chose De-identify first for a highly sensitive item, the hint is "Some information is too sensitive to share even without a name." If the learner chose Do not use for an item that can be made anonymous, the hint is "Ask whether removing the identifiers leaves something safe to use." After a second wrong choice the correct category and Why text are revealed and the item counts as missed. The score "Correct on first attempt: n of 8" is shown at the end, and the sim states whether mastery was reached.
+**Feedback:** 8 features in a shuffled order, one attempt each. Correct: "Correct: [response]. [Why]". Incorrect: "Not quite. The response is [response]. [Why]". The summary shows "[n] of 8 correct on the first attempt". At 7 or more it adds "You can match the check to the risk." Below 7 it lists the Why text of each missed feature.
 
-**Starting State:** The first piece of information is shown with the three categories listed and no choice made. The question on screen is "What should you do with this before using an AI tool?"
+**Starting State:** The first feature and the three responses. The question shown is "How much checking does this report need?"
 
-**Chapter Anchors:** The chapter states that names, IDs, photos, and records about health, disability, or discipline count as student information, that identifiers should be removed before using an outside tool, that FERPA protects student education records, and that the sorter has 8 items.
+**Chapter Anchors:** The chapter says rule-breaking reports go back, claims with no source are checked in full, and well-evidenced reports are spot-checked.
 </details>
 
-!!! mascot-tip "Strip, Then Share"
-    ![Echo the Loon giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
-    Before any student text goes into a tool, replace names with codes and delete emails, ID numbers, and any detail that points to one child. If you can't tell whether something identifies a student, treat it as if it does.
+## Multi-Agent Review
 
-## Summary
+**Multi-agent review** is the use of two or more agents, or several runs of one agent with different prompts or models, to score the same resource independently, so that their results can be compared. It copies the logic of the two-reviewer method from Chapter 11. Where the agents agree, a person can look less closely, and where they disagree, a person looks first. The spread between scores is a cheap signal. It points to the metrics where the evidence is unclear or where an agent has gone astray.
 
-This chapter covered the checks, the cost, and the care that surround an AI-assisted review. The key points are:
+Multi-agent review has a limit that a reviewer must remember. Agreement among agents is not truth. Agents built on similar models can share the same blind spots, so three agents can all be wrong in the same way. Agreement with no evidence behind it is especially suspect. A sensible rule flags any metric where the scores spread by more than 3 points, flags any agreement where an agent has quoted no evidence, and leaves the rest for a spot check.
 
-- Automated link checking, accessibility scanning, license detection, and readability scanning measure what an agent should not guess, and each has limits a person must cover.
-- Multi-agent review uses specialist agents or a second-opinion agent, and agreement is more meaningful when the agents differ in model, prompt, or method.
-- Human in the loop keeps a person responsible at set checkpoints, and automation bias is countered by scoring first, checking evidence, and auditing samples.
-- AI cost is mostly tokens, so it is small next to the cost of a human reviewer's time, and an unreliable cheap agent can cost more than it saves.
-- Student data privacy means collecting only what you need, removing identifiers, using approved tools, and knowing where the data goes.
-- FERPA protects student education records at U.S. schools that receive federal funds, and sending identifiable records to an AI tool may be a disclosure.
+**Worked example: three agents score six metrics.** The table shows the scores and the action each row calls for.
 
-!!! mascot-celebration "You Can Run an Agent Responsibly"
-    ![Echo the Loon celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
-    You can now choose which checks to automate, set up checkpoints where a person decides, estimate what a run will cost, and keep student information out of harm's way. Chapter 14 turns to the hardest part: catching the mistakes an agent makes with confidence.
+| Metric | Agent 1 | Agent 2 | Agent 3 | Spread | Evidence | Action |
+|---|---|---|---|---|---|---|
+| Readability | 8 | 8 | 7 | 1 | Quoted by all three | Accept for a spot check |
+| Accessibility | 5 | 9 | 6 | 4 | Quoted by all three | Flag: the spread exceeds 3 |
+| Open license | 9 | 9 | 9 | 0 | None quoted by any agent | Check anyway: agreement without evidence |
+| Metadata | 4 | 4 | 3 | 1 | Quoted by all three | Accept for a spot check |
+
+The next MicroSim practices the triage. It shows six metrics scored by three agents, and for each row you choose the action.
+
+#### Diagram: Multi-Agent Triage
+
+<details markdown="1">
+<summary>Multi-Agent Triage</summary>
+Type: microsim
+**sim-id:** multi-agent-triage<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Analyze<br/>
+**Bloom Verb:** examine<br/>
+**Learning Objective:** The learner will examine the scores and evidence of three agents for each of six metrics and choose accept, flag, or check anyway, with at least 5 of 6 correct on the first attempt.
+
+**Prerequisites:** Multi-Agent Review, Human in the Loop, Inter-Rater Agreement (defined in Chapter 3) (all defined in this chapter above this block or in Chapter 3).
+
+**Evidence of Mastery:** For each row the learner commits one of three actions. An action is correct when it matches the Correct action column in Content. Mastery is at least 5 of 6 correct on the first attempt. Reading the triage rule is exploration, not evidence.
+
+**Misconceptions:** (1) Agreement among agents proves a score is right. (2) Only disagreement needs a person. (3) The average of three scores is the right score.
+
+**Instructional Rationale:** Triaging results from several agents is an Analyze-level action, because the learner must examine each row's spread and evidence together. Rows that agree with no evidence teach the learner that agreement alone proves little.
+
+**Content:**
+
+The triage rule, shown at all times: the spread is the highest score minus the lowest. If the spread is > 3, Flag. Otherwise, if any agent quoted no evidence, Check anyway. Otherwise, Accept for a spot check.
+
+The three actions: Accept for a spot check, Flag, Check anyway.
+
+The six rows (all made up, for Watershed Basics):
+
+| # | Metric | Agent 1 | Agent 2 | Agent 3 | Evidence quoted | Correct action | Why (shown as feedback) |
+|---|---|---|---|---|---|---|---|
+| 1 | Readability | 8 | 8 | 7 | All three agents | Accept for a spot check | The spread is 1, and all three quoted evidence. |
+| 2 | Accessibility | 5 | 9 | 6 | All three agents | Flag | The spread is 4, which is > 3. |
+| 3 | Open license | 9 | 9 | 9 | No agent | Check anyway | The agents agree and none quoted any evidence. |
+| 4 | Metadata | 4 | 4 | 3 | All three agents | Accept for a spot check | The spread is 1, and all three quoted evidence. |
+| 5 | Portability | 7 | 3 | 7 | All three agents | Flag | The spread is 4, which is > 3. |
+| 6 | Alignment | 6 | 6 | 6 | Agent 1 only | Check anyway | The agents agree and two of them quoted no evidence. |
+
+**Provenance:** The rows are illustrative cases written for this chapter, and the sim labels them "illustrative examples". The rule follows the chapter section "Multi-Agent Review" and the agreement rule of Chapter 3.
+
+**Rules:** Each row has exactly one correct action, two per action. The spread is computed as the highest minus the lowest of the three scores.
+
+**Learner Activity:**
+
+1. The learner sees one row with the three scores and the evidence note.
+2. The learner chooses an action, and the choice is committed.
+3. The sim shows the spread, whether the choice was correct, and the Why text.
+4. After row 6 the sim shows the summary.
+
+**Feedback:** 6 rows in a shuffled order, one attempt each. Correct: "Correct: [action]. [Why]". Incorrect: "Not quite. The action is [action]. [Why]". The summary shows "[n] of 6 correct on the first attempt". At 5 or more it adds "You can triage several agents." Below 5 it lists the Why text of each missed row.
+
+**Starting State:** The first row and the three actions. The question shown is "What should a person do with this row?"
+
+**Chapter Anchors:** The chapter says a spread of more than 3 is flagged, agreement with no evidence is checked anyway, and agreement among agents is not truth.
+</details>
+
+## Automated Checks
+
+Four kinds of check are worth automating, because each one is exact and repeatable, and each can be run by a free tool that an agent can call. They map onto metrics you have already learned. Each one finds a certain kind of problem and misses another, and a reviewer needs to know both.
+
+### Automated Link Checker
+
+An **automated link checker** is a tool that tests every link in a resource and reports which ones fail, as Chapter 5 described. It is the model automated check: exact, fast, and repeatable. It finds links that return errors or move. It cannot tell whether a working link still leads to the cited content, and it may be refused by sites that block tools. The report supports the accuracy and currency metric, and a person opens a sample of working links to confirm they reach the right page.
+
+### Automated Accessibility Scan
+
+An **automated accessibility scan** is a tool that examines a page for the machine-detectable parts of WCAG, as Chapter 7 described. It finds images with no alt attribute, text with weak contrast, missing form labels, and some heading problems. It cannot judge whether alt text is useful, whether captions are accurate, or whether a page makes sense to a screen reader user. A clean scan is a starting point and never a pass, and the accessibility metric still needs the human checks.
+
+### Automated License Detection
+
+**Automated license detection** is the use of a tool to find license statements in a resource and read their names, versions, and links, and to compare them with the license recorded in the metadata. It catches a missing license, a license that differs between the page and the metadata, and an unrecognized or custom license text. It cannot tell whether the statement is true, so a work copied from someone else with a license label added still passes, and it can miss a license that appears only in an image. The check supports the open license metric.
+
+### Automated Readability Scan
+
+An **automated readability scan** computes a reading level for sampled passages, using a formula such as the Flesch-Kincaid Grade Level from Chapter 6. It gives a repeatable number quickly and can run over every section. It measures the surface of the text and cannot see whether the words are defined or the ideas are dense. Use it for a first screen, and read the passages that surprise you.
+
+The table sums up what each scan is good for and where it stops.
+
+| Automated check | Finds | Cannot find |
+|---|---|---|
+| Link checker | Links that return errors or have moved | A working link that leads to the wrong content |
+| Accessibility scan | Missing alt attributes, weak contrast, missing labels | Whether alt text is useful, or captions are accurate |
+| License detection | Missing, mismatched, or unrecognized license statements | Whether the license claim is true |
+| Readability scan | A reading level for each passage | Undefined terms, dense ideas, audience fit |
+
+The MicroSim below practices the match. It shows eight problems, and for each one you choose the automated check that would find it, or decide that no scan can.
+
+#### Diagram: Automated Check Matcher
+
+<details markdown="1">
+<summary>Automated Check Matcher</summary>
+Type: microsim
+**sim-id:** automated-check-matcher<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Understand<br/>
+**Bloom Verb:** classify<br/>
+**Learning Objective:** The learner will classify each of eight problems by the automated check that finds it, or as one that no scan finds, with at least 7 of 8 correct on the first attempt.
+
+**Prerequisites:** Automated Link Checker, Automated Accessibility Scan, Automated License Detection, Automated Readability Scan (all defined in this chapter above this block).
+
+**Evidence of Mastery:** For each problem the learner commits one of five options. A choice is correct when it matches the Correct option column in Content. Mastery is at least 7 of 8 correct on the first attempt. Reading the table of what each scan finds is exploration, not evidence.
+
+**Misconceptions:** (1) A clean accessibility scan means the page is accessible. (2) A license tool can tell whether a license claim is true. (3) A link checker can tell whether the cited content is right.
+
+**Instructional Rationale:** Classifying a problem by the check that finds it is an Understand-level action that teaches the limits of each scan. Two problems that no scan finds teach the learner that automation leaves gaps.
+
+**Content:**
+
+The five options: Link checker, Accessibility scan, License detection, Readability scan, No scan finds it.
+
+The eight problems:
+
+| # | Problem shown to the learner | Correct option | Why (shown as feedback) |
+|---|---|---|---|
+| 1 | A link in the reference list returns "page not found". | Link checker | A link checker tests exactly this. |
+| 2 | An image has no alt attribute at all. | Accessibility scan | A scan detects a missing alt attribute. |
+| 3 | The footer says CC BY-NC, and the metadata says CC BY. | License detection | License detection compares the two statements. |
+| 4 | A passage measures at grade 11 for a grade 6 audience. | Readability scan | A readability scan computes the grade level. |
+| 5 | The alt text says only "photo". | No scan finds it | A scan sees that alt text exists and cannot judge whether it is useful. |
+| 6 | White text on a pale yellow background has a contrast ratio of 1.4 to 1. | Accessibility scan | A scan computes contrast ratios. |
+| 7 | A statistic in the text is ten years out of date. | No scan finds it | Only a person with a current source can tell. |
+| 8 | No license statement appears anywhere in the resource. | License detection | License detection reports that no license was found. |
+
+**Provenance:** The problems are illustrative cases written for this chapter, and the sim labels them "illustrative examples". The matches follow the chapter section "Automated Checks".
+
+**Rules:** Each problem has exactly one correct option. One is Link checker, two are Accessibility scan, two are License detection, one is Readability scan, and two are No scan finds it.
+
+**Learner Activity:**
+
+1. The learner sees one problem and the five options.
+2. The learner may open the table of what each scan finds. Opening it does not change the score.
+3. The learner chooses an option, and the choice is committed.
+4. The sim shows whether it was correct and the Why text.
+5. After problem 8 the sim shows the summary.
+
+**Feedback:** 8 problems in a shuffled order, one attempt each. Correct: "Correct: [option]. [Why]". Incorrect: "Not quite. The answer is [option]. [Why]". The summary shows "[n] of 8 correct on the first attempt". At 7 or more it adds "You know what each scan can and cannot see." Below 7 it lists the Why text of each missed problem.
+
+**Starting State:** The first problem and the five options. The question shown is "Which automated check would find this?"
+
+**Chapter Anchors:** The chapter's table lists what the link checker, accessibility scan, license detection, and readability scan each find and cannot find.
+</details>
+
+## AI Cost
+
+**AI cost** is the money a service charges for the language model's work. Most services bill by the token, with one price for the tokens you send and a higher price for the tokens the model writes. Prices vary widely between models and change often, so a reviewer should look up current prices and never rely on a figure in a book. The arithmetic is stable, and it takes one formula:
+
+```text
+cost of one run = (input tokens x input price + output tokens x output price) / 1,000,000
+```
+
+The prices are per million tokens, so the division by 1,000,000 turns a price per million into a price for the tokens you used. The total for a batch is the cost of one run, times the number of resources, times the number of runs on each. A multi-agent review that uses three agents multiplies the cost by three, and a retry after an invalid answer adds another run.
+
+**Worked example: the cost of a batch.** The prices are illustrative, at $2.00 per million input tokens and $8.00 per million output tokens. A run reads 6,000 input tokens and writes 1,000 output tokens.
+
+| Step | Calculation | Result |
+|---|---|---|
+| Input cost | 6,000 x 2.00 / 1,000,000 | $0.012 |
+| Output cost | 1,000 x 8.00 / 1,000,000 | $0.008 |
+| One run | 0.012 + 0.008 | $0.02 |
+| 500 resources, one run each | 500 x 0.02 | $10.00 |
+| 500 resources, three agents | 3 x 10.00 | $30.00 |
+
+Cost can be reduced without cutting quality. Give exact checks to free tools, which cost nothing per token. Shorten the instructions and send only the parts of the resource that a check needs. Use a smaller, cheaper model for first screens and a larger one for judgment. Test the prompt on three resources before running it on three hundred, so a flaw costs three runs and not three hundred.
+
+!!! mascot-tip "Run a Pilot Before You Run the Batch"
+    ![Echo giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    Score three resources, read the reports, and multiply the cost by the size of the collection. A pilot tells you the price and shows whether the prompt works before you commit to the whole batch.
+
+The MicroSim below practices the arithmetic. It shows five scenarios, and for each one you compute the total cost.
+
+#### Diagram: AI Cost Calculator
+
+<details markdown="1">
+<summary>AI Cost Calculator</summary>
+Type: microsim
+**sim-id:** ai-cost-calculator<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** calculate<br/>
+**Learning Objective:** The learner will calculate the total cost of each of five scenarios from tokens, prices, resources, and runs, to the nearest cent, with at least 4 of 5 correct on the first attempt.
+
+**Prerequisites:** AI Cost, Token, Context Window (defined in Chapter 12), Batch Evaluation (defined in Chapter 12) (all defined in this chapter above this block or in Chapter 12).
+
+**Evidence of Mastery:** For each scenario the learner enters the total cost in dollars before the answer is shown. An answer is correct when it equals the Total cost column in Content to the nearest cent. Mastery is at least 4 of 5 correct on the first attempt. Using the explore mode is exploration, not evidence.
+
+**Misconceptions:** (1) Input and output tokens cost the same. (2) A multi-agent review costs the same as one agent. (3) Prices in a book stay current.
+
+**Instructional Rationale:** Calculating a cost from a formula is an Apply-level action. Five scenarios that change one quantity at a time teach the learner which quantity drives the total.
+
+**Content:**
+
+The formula, shown at all times: cost of one run = (input tokens x input price + output tokens x output price) / 1,000,000, with prices in dollars per million tokens. Total cost = cost of one run x resources x runs per resource.
+
+The five scenarios (all prices are illustrative and labeled so):
+
+| # | Input tokens | Output tokens | Input price | Output price | Resources | Runs each | Cost of one run | Total cost | Why (shown as feedback) |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | 6,000 | 1,000 | $2.00 | $8.00 | 1 | 1 | $0.02 | $0.02 | (12,000 + 8,000) / 1,000,000 = 0.02. |
+| 2 | 6,000 | 1,000 | $2.00 | $8.00 | 500 | 1 | $0.02 | $10.00 | 500 runs at $0.02 each. |
+| 3 | 6,000 | 1,000 | $2.00 | $8.00 | 500 | 3 | $0.02 | $30.00 | Three agents triple the runs. |
+| 4 | 60,000 | 2,000 | $2.00 | $8.00 | 1 | 1 | $0.136 | $0.14 | (120,000 + 16,000) / 1,000,000 = 0.136, which rounds to 0.14. |
+| 5 | 6,000 | 1,000 | $10.00 | $30.00 | 500 | 1 | $0.09 | $45.00 | A model with higher prices costs $0.09 a run, and 500 runs cost $45.00. |
+
+**Provenance:** The scenarios and prices are illustrative cases written for this chapter, and the sim labels them "illustrative prices, not a price list". Real prices vary by model and change.
+
+**Rules:** The cost of one run is (input tokens x input price + output tokens x output price) / 1,000,000. The total is that cost x resources x runs, rounded to the nearest cent. In explore mode each input token count has minimum 1,000, maximum 200,000, step 1,000, default 6,000, unit tokens. Each output token count has minimum 500, maximum 10,000, step 500, default 1,000, unit tokens. Each price has minimum 0.10, maximum 50.00, step 0.10, unit dollars per million tokens. Resources have minimum 1, maximum 1,000, step 1, default 500. Runs have minimum 1, maximum 5, step 1, default 1.
+
+**Learner Activity:**
+
+1. In explore mode the learner changes the inputs and watches the cost of one run and the total.
+2. The learner should notice that the number of runs multiplies the total in the same way as the number of resources.
+3. In practice mode the sim shows scenario 1 with its numbers.
+4. The learner enters the total cost in dollars and presses Check.
+5. The sim shows the arithmetic and the correct total, then the next scenario, until scenario 5 is done.
+
+**Feedback:** 5 scenarios in the fixed order, one attempt each. Correct: "Correct: $[total]. [Why]". Incorrect: "Not quite. One run costs $[run], so the total is $[total]. [Why]". The summary shows "[n] of 5 correct on the first attempt". At 4 or more it adds "You can price a batch." Below 4 it shows the arithmetic for each missed scenario.
+
+**Starting State:** Explore mode with 6,000 input tokens, 1,000 output tokens, $2.00 and $8.00 prices, 500 resources, and 1 run, giving a total of $10.00. The prompt is "Change a number to see the cost move."
+
+**Chapter Anchors:** The chapter's worked example uses illustrative prices of $2.00 and $8.00 per million tokens, 6,000 input tokens and 1,000 output tokens, and arrives at $0.02 per run, $10.00 for 500 resources, and $30.00 for three agents.
+</details>
+
+## Student Data Privacy
+
+**Student data privacy** is the protection of information about students from being collected, shared, or used in ways they and their families have not agreed to. Student data includes names, identification numbers, grades, test results, written work, photographs, attendance, and health and disability information, and anything that could identify a student when combined with other details. The duty to protect it applies to every tool you use, and AI services need particular care because text sent to a service leaves your control. The service may store it, a company's staff may read it, and some services use submitted text to improve their models.
+
+For the work in this book, the rule is simple. An AI agent that reviews a *resource* needs only the resource, which is published or ready to publish and holds no student data. Keep student information out of the folder, the prompt, and the reports. The A/B tests in Chapters 16 and 17 do involve student data, and they need consent, anonymizing, and an approved way to handle the data. A teacher who is unsure should ask the school's privacy officer or technology office before sending anything.
+
+**Worked example: sorting what may go to an AI service.** The table sorts six items.
+
+| Item | May it be sent to an AI service? | Why |
+|---|---|---|
+| The published text of an open textbook chapter | Yes | It is public and holds no student data |
+| A rubric prompt template | Yes | It holds no student data |
+| A class's quiz scores with student names | Not as it is | Names make the scores personal data, so anonymize or get approval first |
+| A spreadsheet of grades with student ID numbers | No | It is identifiable and sensitive |
+| A student's photograph | No | It identifies a person |
+| An email thread with a parent about a student | No | It is private and identifies a student |
+
+!!! mascot-warning "Once It Is Sent, You Cannot Pull It Back"
+    ![Echo warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    Text pasted into an AI service has left your computer, and a deletion request may not undo it. Keep student names, grades, and records out of every prompt, and if you are not sure an item is safe, ask before you send it.
+
+The MicroSim below practices the sort. It shows ten items, and for each one you decide whether it is safe to send, needs approval or anonymizing first, or must not be sent.
+
+#### Diagram: Student Data Sorter
+
+<details markdown="1">
+<summary>Student Data Sorter</summary>
+Type: microsim
+**sim-id:** student-data-sorter<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Evaluate<br/>
+**Bloom Verb:** judge<br/>
+**Learning Objective:** The learner will judge whether each of ten items is safe to send to an AI service, needs approval or anonymizing first, or must not be sent, with at least 9 of 10 correct on the first attempt.
+
+**Prerequisites:** Student Data Privacy, FERPA, AI Assistant (defined in Chapter 12) (all defined in this chapter above this block or in Chapter 12).
+
+**Evidence of Mastery:** For each item the learner commits one of three bins. A placement is correct when it matches the Correct bin column in Content. Mastery is at least 9 of 10 correct on the first attempt. Reading the definitions is exploration, not evidence.
+
+**Misconceptions:** (1) Removing names always makes data anonymous. (2) A small class cannot be identified from its scores. (3) Anything a teacher already holds is safe to send.
+
+**Instructional Rationale:** Judging whether an item may be sent is an Evaluate-level action that applies a privacy rule. Ten items that include re-identifiable ones teach the learner that anonymizing takes more than deleting names.
+
+**Content:**
+
+The three bins: Safe to send (public material with no student data), Needs approval or anonymizing first (could identify students, or is sensitive), and Do not send (clearly identifies a student or is private).
+
+The ten items:
+
+| # | Item shown to the learner | Correct bin | Why (shown as feedback) |
+|---|---|---|---|
+| 1 | The published text of an open textbook chapter. | Safe to send | It is public and holds no student data. |
+| 2 | A rubric prompt template with placeholders. | Safe to send | It holds no student data. |
+| 3 | A class's quiz scores listed with student names. | Needs approval or anonymizing first | The names make the scores personal data. |
+| 4 | A spreadsheet of grades with student ID numbers. | Do not send | It is identifiable and sensitive. |
+| 5 | A photograph of a student. | Do not send | It identifies a person. |
+| 6 | Quiz results with names replaced by codes, from a class of four students. | Needs approval or anonymizing first | In a very small group, the scores may still identify students. |
+| 7 | A teacher's own lesson plan with no student information. | Safe to send | It holds no student data. |
+| 8 | An email thread with a parent about a student's progress. | Do not send | It is private and identifies a student. |
+| 9 | A public district policy document. | Safe to send | It is public and holds no student data. |
+| 10 | Unsigned survey comments from a class of 120 students. | Needs approval or anonymizing first | Comments can reveal who wrote them, so check them before sending. |
+
+**Provenance:** The items are illustrative cases written for this chapter, and the sim labels them "illustrative examples". The sim states that it is a study aid and not legal advice, and that a school's own policy decides.
+
+**Rules:** Each item has exactly one correct bin. Four items are Safe to send, three are Needs approval or anonymizing first, and three are Do not send.
+
+**Learner Activity:**
+
+1. The learner sees one item and the three bins.
+2. The learner places the item in a bin, and the placement is committed.
+3. The sim shows whether it was correct and the Why text.
+4. After item 10 the sim shows the summary.
+
+**Feedback:** 10 items in a shuffled order, one attempt each. Correct: "Correct: [bin]. [Why]". Incorrect: "Not quite. This is [bin]. [Why]". The summary shows "[n] of 10 correct on the first attempt". At 9 or more it adds "You can keep student data out of an AI service." Below 9 it lists the Why text of each missed item.
+
+**Starting State:** The first item and the three bins. The question shown is "May this go to an AI service?"
+
+**Chapter Anchors:** The chapter's worked example sorts a public textbook chapter and a rubric prompt as safe, class scores with names as needing anonymizing first, and a grade spreadsheet, a photograph, and a parent email as not to be sent.
+</details>
+
+### FERPA
+
+**FERPA**, the Family Educational Rights and Privacy Act, is a United States federal law of 1974 that protects the privacy of student education records. It applies to schools and colleges that receive funds from the U.S. Department of Education. It gives parents the right to see their children's education records and to ask for corrections, and those rights pass to the student at age 18 or on entering a college. It generally requires written consent before a school discloses personally identifiable information from a student's education record, with exceptions, such as sharing with school officials who have a legitimate educational interest. Sending identifiable student records to an AI company is a disclosure that FERPA may restrict. Other laws also apply in other places or to other data, and this book does not give legal advice, so ask your school's privacy officer which rules cover you.
+
+## Key Takeaways
+
+- **Human in the loop** means a named person reviews the agent's output where errors matter, and matches the level of checking to the risk. The decision stays with a person.
+- **Multi-agent review** compares independent runs, and a spread of more than 3 points flags a metric. Agreement among agents is not truth, and agreement with no evidence needs a check.
+- An **automated link checker**, **accessibility scan**, **license detection**, and **readability scan** each do an exact job well and miss a kind of problem, so a clean scan is never a pass.
+- **AI cost** is tokens times price, times resources, times runs. Give exact checks to free tools, and run a pilot before a batch.
+- **Student data privacy** means keeping student information out of every prompt and report. **FERPA** is the U.S. law that protects student education records, and your school's policy decides what you may send.
+
+!!! mascot-celebration "You Can Automate With Care"
+    ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
+    You can now choose which checks to automate, keep a person in the loop, triage several agents, price a batch, and keep student data out of harm's way. The agent can do the counting, and you keep the judgment and the responsibility.
+
+[See Annotated References](./references.md)

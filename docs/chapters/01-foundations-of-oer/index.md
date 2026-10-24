@@ -1,8 +1,8 @@
 ---
 title: "Foundations of Open Educational Resources"
-description: "Defines educational resources, copyright, open educational resources, and the 5R permissions, and shows how teachers adopt, adapt, and create OER."
+description: "Defines open educational resources and the 5R permissions, and explains how teachers adopt, adapt, and create OER."
 generated_by: claude skill chapter-content-generator
-date: "2026-10-20 19:50:43"
+date: "2026-10-23 21:26:42"
 version: 1.11
 ---
 
@@ -46,383 +46,575 @@ This chapter assumes only the prerequisites listed in the [course description](.
 
 ---
 
-!!! mascot-welcome "Hi, I'm Echo"
-    ![Echo the Loon waving hello](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
-    I'm Echo, a loon who is a little skeptical of anything I haven't checked. In this chapter you'll learn the words for judging any teaching material: whether it's open, whether it's free, and what you're allowed to do with it. I'll show up in six ways, so you always know why I'm here:
+!!! mascot-welcome "Meet Echo, Your Guide"
+    ![Echo waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    I'm Echo, a loon. I'm patient and sharp-eyed, and I check a claim before I trust it. Here is what you will see me do in every chapter:
 
-    1. **Welcome:** I open a chapter and tell you why it's worth your time.
-    2. **Think:** I mark an idea worth pausing on before you move on.
-    3. **Tip:** I hand you a quick check you can use right away.
-    4. **Warn:** I flag a common mistake and show you how to avoid it.
-    5. **Encourage:** I show up at a topic that is known to be hard.
-    6. **Celebrate:** I close a chapter by naming what you can now do.
+    1. **Welcome** you at the start and tell you why the chapter matters.
+    2. **Think** out loud when an idea changes how you should look at a problem.
+    3. **Tip** you off to a shortcut you can use right away.
+    4. **Warn** you about a mistake that trips up most newcomers, and show the way out.
+    5. **Encourage** you when a topic is genuinely hard.
+    6. **Celebrate** with you when you have mastered something specific.
 
     If I'm not doing one of those six things, I'm not in the chapter. Let's dive in and check the evidence!
 
-Every school year, teachers choose materials: a textbook, a slide deck, a video, a quiz. Choosing well means knowing more than whether the material is good. You also need to know who owns it, what it costs your students, and what you are allowed to do with it. This chapter gives you the vocabulary for those three questions. Later chapters build on it, because you cannot score an open educational resource for quality and reusability until you can tell what one is.
+Every teacher has handed out a worksheet, assigned a reading, or played a video. Each one is an educational resource, and each comes with rules about what you may do with it: copy it, change it, share it. Most teachers learn those rules by accident, usually when a request is refused or a link breaks.
 
-The chapter follows one running example. Sam, a ninth-grade biology teacher, is planning a unit on cell structure and has gathered five materials. Sam and the materials are fictional, and the chapter returns to them in several sections.
+This chapter replaces accident with vocabulary. You will learn what makes a resource *open*, which five things an open resource lets you do, and the three ways teachers put open resources to work. Every later chapter relies on these terms, because the book's rubric scores a resource on two things at once: how well it teaches and how freely it can be reused.
 
-## Educational Resources
+## Educational Resources: Everything You Teach With
 
-An **educational resource** is any material that supports teaching or learning. Textbooks are the obvious example, but the category is much wider. It includes articles, worksheets, slide decks, videos, podcasts, quizzes, lesson plans, data sets, images, simulations, and whole courses. A resource can be digital or printed, and it can be as small as one diagram or as large as a year-long curriculum. The handouts and quizzes you write yourself are educational resources too, and the same questions about ownership and permission apply when you make them.
+An **educational resource** is any material that a teacher or learner uses to support teaching and learning. The definition depends on purpose, not on format. A photograph of a canyon is a family snapshot in an album, and it becomes an educational resource when a teacher uses it to explain erosion.
 
-Resources also come in different sizes, which matters later in this book. A single image or quiz question is small, a worksheet or slide deck for one class is medium, and a unit, a course, or a whole textbook is large. Size affects how easily a resource can be reused, because a small, self-contained piece can drop into many courses, while a large one usually has to be taken as a whole. The table gives the common sizes with an example from Sam's unit on cell structure.
+Educational resources fall into five broad groups. *Texts* include textbooks, articles, and readings. *Media* include images, audio, and video. *Tools* include interactive simulations, spreadsheets, and data sets that learners work with. *Assessments* include quizzes, tests, and scoring rubrics. *Plans* include syllabi, lesson plans, and unit outlines. Most real lessons mix several groups at once.
 
-| Size | What it is | Example from Sam's unit |
-|------|------------|-------------------------|
-| Single item | One image, one quiz question, or one short video | A diagram of a plant cell |
-| Lesson-sized | A worksheet, a slide deck, or a reading for one class | A slide deck on organelles |
-| Unit-sized | A set of lessons around one topic | The whole cell structure unit |
-| Course-sized | Everything for a term or a year | The ninth-grade biology course |
-| Textbook-sized | A full book that covers many topics | A biology textbook |
+The following table summarizes the five groups with examples.
 
-Three questions help you size up any educational resource before you use it:
+| Group | What it does for learning | Examples |
+|---|---|---|
+| Texts | Present explanations and information | Textbook chapter, article, reading list |
+| Media | Show or tell what words alone cannot | Photograph, diagram, podcast, video |
+| Tools | Let learners work with something | Simulation, spreadsheet, data set |
+| Assessments | Check what learners know | Quiz, test, scoring rubric |
+| Plans | Organize the teaching | Syllabus, lesson plan, unit outline |
 
-- **What is it, and who made it?** The creator's expertise and the date it was made tell you how far to trust it.
-- **Does it fit my learners and outcomes?** A good resource for one course can be wrong for another.
-- **What may I do with it?** The answer depends on who owns the resource and on the terms the owner attaches to it.
+**Worked example: inventorying a unit.** A seventh-grade science teacher is planning a two-week unit on erosion, and her draft materials list has eight items. Step 1 sorts each item into one of the five groups. Step 2 asks a question that the rest of this chapter teaches you to answer: what can she see about who holds the right to copy and change this item?
 
-Most teachers ask the first two questions by habit. The third is the one this book adds, because it decides whether you can adapt a resource, share it, or keep using it next year.
+| Item | Group | What she can see about its rights |
+|---|---|---|
+| Chapter 6 of the district's textbook | Texts | A copyright notice on the title page: "All rights reserved" |
+| A video about the Grand Canyon from a streaming site | Media | Nothing, apart from the site's terms of use |
+| Her own slide deck | Plans | She wrote it; her district's policy may say who owns it |
+| A soil-erosion simulation from a university project | Tools | A footer line: "CC BY 4.0" |
+| A county soil data set | Tools | A statement that the data is in the public domain |
+| A vocabulary quiz she wrote | Assessments | She wrote it |
+| A photograph of a gully from a blog | Media | Nothing |
+| A reading on the Dust Bowl from an online encyclopedia | Texts | A footer line: "CC BY-SA 4.0" |
 
-Every page that offers a resource should carry a **rights notice**, a short statement about who owns the resource and what others may do with it. Notices such as "All rights reserved" and "CC BY 4.0" are explained in the sections that follow, so for now just notice that they differ. The table lists Sam's five materials, where Sam found each one, and what its rights notice says.
+Sorting the items took a minute. Reading the right-hand column is the skill that matters. Three items state a clear permission, one states a clear restriction, two are the teacher's own work, and two state nothing at all.
 
-| # | Resource | Where Sam found it | Rights notice on the page |
-|---|----------|--------------------|---------------------------|
-| 1 | Textbook chapter on cell structure (PDF) | A publisher's website | "© 2023 Northfield Press. All rights reserved." |
-| 2 | Slide deck on organelles | Emailed by a colleague | None |
-| 3 | Ten-minute video on how cells divide | A streaming site | "© 2022 Cell Basics Channel" |
-| 4 | Diagram of a plant cell | A U.S. federal agency's education website | "Prepared by agency staff as part of their official duties" |
-| 5 | Open textbook chapter on cell structure | An open textbook website | "Licensed under CC BY 4.0" |
+!!! mascot-thinking "Two Questions, Not One"
+    ![Echo thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    Every resource answers two separate questions: how well does it teach, and what may I do with it? A lesson that teaches beautifully but cannot be adapted is still a problem for your classroom. This book scores both.
 
-Sam can already answer the first two questions for every row. The third question is harder, because each notice says something different, and one row has no notice at all. By the end of this chapter you will be able to say, for each row, what Sam may do.
+## Copyright: The Default Rule
 
-## Copyright and the Public Domain
+**Copyright** is a legal protection that gives the creator of an original work the exclusive right to control how the work is copied and used. In the United States, protection begins automatically the moment a work is fixed in a tangible form: typed, saved to a file, recorded, or drawn. No registration and no © symbol are required. Other countries follow similar rules under international agreements, so this chapter uses U.S. law as its example. Check your own country's law before you rely on any detail here.
 
-**Copyright** is a legal right that gives the creator of an original work control over how others use it. In the United States, as in most countries, copyright begins automatically the moment an author puts a work into a lasting form, such as typing a document, recording a video, or drawing a diagram. The creator does not need to register the work or add a © symbol.
+Copyright gives the owner five exclusive rights. Three of them matter most to teachers:
 
-Copyright protects the particular way a work is expressed, not the facts or ideas inside it. Anyone may teach the fact that a plant cell has a cell wall, but copying another author's paragraph or diagram that explains it is a different matter. The copyright owner is also not always the creator. When a work is made as part of a job, the employer may own it, depending on the contract and the employer's policy, so a teacher who wants to share their own lesson openly should check who holds the rights first.
+- **Reproduce:** make copies, whether on a copier or as a saved file.
+- **Adapt:** make a changed version, such as a translation or a rewrite at a lower reading level. The law calls this a *derivative work*.
+- **Distribute:** give or sell copies to others, including by posting a file online.
 
-The owner holds a bundle of exclusive rights. The ones that matter most to teachers are the rights to copy the work, to adapt it into new versions, and to share copies with others, including by posting them online. Anyone else needs the owner's permission before doing those things, unless a legal exception applies. Exceptions such as fair use allow limited uses for purposes like criticism, teaching, and research, and Chapter 2 returns to fair use. When a creator has said nothing else, the default is "all rights reserved." This book explains concepts and is not legal advice.
+The other two rights are to perform the work in public and to display it in public.
 
-Sam's colleague emailed the slide deck in row 2 with no notice. Because copyright begins automatically, the deck is protected even though nothing says so. Suppose Sam wants to add vocabulary support for English learners and share the improved deck with the biology department. That takes permission, so Sam writes a short email asking, "May I adapt your slides and share the adapted version with our department?" and waits for a written yes. One email is easy. But a teacher who needs permission for every resource and every use spends a great deal of time asking, which is the problem open licenses were designed to solve.
+For a work by an individual author, U.S. protection lasts for the author's life plus 70 years, so most resources a teacher meets today are still protected. The default rule is often summed up as *all rights reserved*: anyone other than the owner needs permission before doing any of the five things. Permission arrives as a **license**, a statement from the owner of what others may do.
 
-!!! mascot-warning "No © Symbol Doesn't Mean Free"
-    ![Echo the Loon warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
-    A missing © symbol does not make a work free to use, because copyright starts automatically. When you find no notice, assume "all rights reserved" and either ask the creator or look for a resource that states what you may do.
+Exceptions exist. U.S. *fair use*, for example, allows limited use of a work for purposes such as teaching or commentary. Courts weigh each case separately, and fair use does not give you a blanket right to copy, revise, and share someone's whole resource. This book explains only the parts of copyright you need to read and apply open licenses, and it is not legal advice.
 
-Some works are not protected at all. The **public domain** is the set of works that no copyright protects, so anyone may copy, adapt, and share them without asking. A work reaches the public domain in one of three ways: its copyright term has ended, the law never gave it protection, or its owner gave up the rights on purpose. Works that U.S. federal government employees prepare as part of their official duties, such as the plant-cell diagram in row 4, are an example of the second kind in the United States. A U.S. arithmetic textbook published in 1910 is an example of the first. Public domain rules differ by country and by date, so a work that is free to use in one country can still be protected in another.
+The table below applies the default rule to four everyday actions.
 
-The table compares the two situations. Each row names something a teacher might want to do.
+| What you want to do | Under the default rule | Rights involved |
+|---|---|---|
+| Read a book you own or borrowed | Allowed | None |
+| Save a copy of a worksheet to your class site | Needs permission or a legal exception | Reproduce, distribute |
+| Translate a reading for your students | Needs permission or a legal exception | Adapt |
+| Post your edited version of a lesson for other schools | Needs permission or a legal exception | Adapt, distribute |
 
-| What you want to do | Copyrighted work (the default) | Public domain work |
-|---------------------|--------------------------------|--------------------|
-| Copy it | Needs the owner's permission, unless an exception such as fair use applies | Anyone may |
-| Adapt it into a new version | Needs the owner's permission | Anyone may |
-| Share copies with others | Needs the owner's permission | Anyone may |
-| Name the creator | Expected, and often required by the owner | No legal requirement, but citing the source is good practice |
+**Worked example: a worksheet with no license.** A teacher finds a fraction worksheet on a blog. The page shows no license statement.
 
-## Paying for Materials
+1. Is it protected? Yes. Copyright began when the author wrote the worksheet, and a missing notice does not remove it.
+2. What is the default? All rights reserved.
+3. What can she do? She can link to the page, read it, and ask the author for permission. She should not post an edited copy for other teachers.
+4. What is the better route? She can look for a similar worksheet that carries an open license, which the following sections explain.
 
-A **commercial textbook** is a textbook that a company publishes and sells. The publisher holds the copyright and reserves all rights, so a buyer receives a copy to read but no permission to adapt or share it. Publishers typically release new editions on a regular schedule, which can make older copies less useful for a course. Some also sell access codes for online homework that cannot be passed to another student. Commercial textbooks are often carefully edited and come with teaching supports, which is why many courses choose them. The costs fall on students, families, or schools.
+!!! mascot-warning "Public Is Not the Same as Free to Reuse"
+    ![Echo warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    A page being easy to see does not mean the owner gave permission to copy it. If you cannot find a license statement in the footer, on an "about" page, or in the file itself, treat the work as all rights reserved. Then link to it, ask the owner, or look for an open alternative.
 
-Two details matter for what follows. Many publishers sell a digital license that expires at the end of the term, so a student cannot keep the book or return to it later, which is the opposite of the Retain permission you will meet later in this chapter. Publishers also supply extras such as instructor slides and test banks, which are usually licensed only to the adopting instructor and cannot be passed on to other teachers.
+### Public Domain
 
-To see how those costs add up, take an illustrative case. Suppose a college biology section of 30 students requires a textbook that costs $90. The price is invented for this example and is not a real one. The students together spend 30 × $90 = $2,700 on that one book each term. If the department runs three sections that use it, the total is 3 × $2,700 = $8,100. A student who cannot afford the book may borrow a classmate's, wait for a library copy, or go without.
+The **public domain** is the set of creative works that no one owns, so anyone may use them in any way without asking. A work reaches the public domain in one of three ways:
 
-That pressure is the concern of **course material affordability**: the degree to which students can pay for the materials a course requires without giving up other needs or delaying purchases. The materials include the textbook and also access codes, lab kits, and software. Students who cannot afford required materials may delay buying them, share a copy with a classmate, or skip them. Affordability is about more than the sticker price: a cheaper book that must be repurchased each term, or one that arrives two weeks late, still creates a barrier. Colleges try several remedies, and each has limits:
+- **Expiration:** the term of copyright ends. A nineteenth-century novel is in the public domain.
+- **Ineligibility:** the work was never protected. In the United States, works that federal employees create as part of their official duties are not eligible for copyright, so many federal reports, maps, and images are in the public domain. Most images on NASA's websites fall into this group, but a page may credit a partner who keeps its copyright, so read the credit line.
+- **Dedication:** the owner gives up their rights on purpose, for example with the Creative Commons CC0 dedication, which [Chapter 2](../02-open-licenses-attribution/index.md) describes.
 
-- **Library reserve copies** let students borrow a textbook for a few hours, but the copies are few and the loan period is short.
-- **Used and rental books** cost less, but they can be out of date, and a new edition can make them useless.
-- **Negotiated publisher deals** lower the price for a course, but the materials still carry all rights reserved.
-- **Open resources** remove the price and add permission, but someone has to find, check, and adapt them, which is the work this book teaches.
+!!! mascot-tip "Write Down Why It Is Public Domain"
+    ![Echo giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    When you decide a work is public domain, record the reason beside it: the expiry date, the agency that made it, or the CC0 notice. Next semester you or a colleague will ask for that evidence, and the work will not announce it.
 
-Return to the illustrative biology department. Suppose it replaces the $90 book with an open textbook that students can read online at no charge. The cost to students for the book falls from $2,700 per section to $0 for those who read it on screen. Students who want a printed copy may pay a printing cost, which this example leaves out. The change does not make the course better by itself, but it removes a barrier that has nothing to do with learning.
+## What Closed Materials Cost
 
-Not every resource that costs nothing is open. A **free resource** is a resource you can access without paying. Free describes the price only. A free resource may still carry "all rights reserved," so you may read or watch it but not adapt it or share copies. Sam's video in row 3 and the colleague's deck in row 2 are both free to Sam, yet neither gives Sam permission to change it or pass it on.
+### Commercial Textbooks
 
-!!! mascot-thinking "Two Separate Questions"
-    ![Echo the Loon thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
-    Price and permission are different questions: what does it cost me, and what may I do with it? Most confusion about open resources comes from answering one when someone asked the other.
+A **commercial textbook** is a textbook that a company publishes to sell, usually under all rights reserved. Students buy, rent, or license it, and they receive a copy to read but not the right to change or share it. Many commercial textbooks come bundled with an *access code*, a one-time key that unlocks an online homework system for a single term.
+
+These books bring real strengths: professional editing, teacher resources, and tested homework platforms. They also carry limits that matter to this book's topic. A teacher cannot fix an error in the text, replace an example, or post a chapter for students, because each of those uses needs permission the publisher has not granted. New editions arrive every few years, and a used copy of the previous edition may no longer match the course.
+
+**Worked example: a bundled text.** A community-college biology course requires a commercial textbook bundled with an access code.
+
+- A student buys the bundle new, rents the book and buys the code, or goes without. The code works for one term and cannot be resold.
+- The instructor finds that chapter 4 uses an outdated classification. She can tell students about the error in class, but she cannot publish a corrected chapter.
+- When the department moves to the next edition, students repeat the purchase.
+
+### Course Material Affordability
+
+**Course material affordability** is whether students can pay for the materials a course requires without giving up other needs or skipping the materials. Textbook price is only one part of it, because access codes, lab manuals, and software add to the total. Surveys of college students repeatedly find that many have delayed buying, shared a copy, or gone without a required text because of the price. A student who lacks the text in the first weeks starts the course behind.
+
+**Worked example: one course, one section.** The figures below are illustrative, not a real price list. A section of 30 students requires a $120 textbook and a $40 access code.
+
+| Item | Per student | 30 students |
+|---|---|---|
+| Textbook | $120 | $3,600 |
+| Access code | $40 | $1,200 |
+| **Total** | **$160** | **$4,800** |
+
+If the course switches to an open textbook with free practice problems, the digital cost is $0 per student. An optional printed copy sold at cost might add $15 for a student who wants one, or $450 if all 30 students chose it. The price changes because the permissions changed: an open license lets a campus print shop make copies without asking the publisher.
+
+## Free Does Not Mean Open
+
+A **free resource** is one that costs the user nothing. That statement is only about price. A publisher's sample chapter, a video on a streaming site, and a library e-book are all free to read, yet each may forbid copying, editing, and sharing. People use *free* to mean two different things: free of charge, and free of restrictions. Open education cares about the second.
+
+The table below compares four resources on both questions.
+
+| Resource | Costs the user nothing? | May the user edit and share it? |
+|---|---|---|
+| A publisher's sample chapter marked "All rights reserved" | Yes | No |
+| A lesson plan with a CC BY license | Yes | Yes, with credit to the author |
+| A commercial textbook from the campus store | No | No |
+| An open textbook that a print shop sells at cost | Digital copy yes; printed copy no | Yes, with credit to the author |
+
+!!! mascot-thinking "Price and Permission Are Separate"
+    ![Echo thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    Price and permission are two separate dials. A zero on the price dial says nothing about the permission dial, so ask what it costs and what you may do.
 
 ## Open Educational Resources
 
-**Open educational resources (OER)** are teaching, learning, and research materials that anyone may use, adapt, and share without asking permission, because the materials are in the public domain or carry an open license. An **open license** is a public statement by the copyright owner that gives everyone advance permission to do those things, usually on the condition that users credit the creator. Chapter 2 covers open licenses in detail. The term "open educational resources" was adopted at a 2002 UNESCO forum and is now used worldwide. Do not confuse OER with open access, which usually describes research articles that anyone can read without paying. Those articles may or may not carry an open license, so open access does not by itself make something an OER.
+**Open educational resources (OER)** are educational resources that are in the public domain or carry an *open license*. An **open license** is a copyright license through which the owner gives everyone advance permission to use, adapt, and share the work, so no one has to ask first. The Creative Commons family is the most widely used set of open licenses, and [Chapter 2](../02-open-licenses-attribution/index.md) explains how to read them.
 
-Two tests together define an OER. The first is permission: the resource must be in the public domain or carry an open license. The second is access: the usual definitions expect that anyone can get the resource at no cost. A resource that passes only the second test is a free resource, not an OER. A resource that passes only the first, such as an openly licensed book that a publisher sells, is open but not free, and many people reserve the term OER for materials that are both.
+The term *open educational resources* was adopted at a 2002 UNESCO forum on open courseware. It built on projects such as MIT's OpenCourseWare, announced in 2001, which put course materials online for anyone to use. Today OER include textbooks, lesson plans, quizzes, images, videos, and simulations.
 
-Teachers choose OER for four common reasons:
+An OER is defined by its permissions, not by its quality, format, or price. A resource is OER when it passes two tests: it is an educational resource, and it is in the public domain or under an open license. Some OER are excellent, some are poor, and some resources that are not OER are excellent. That is why this book teaches evaluation. The word *open* tells you what you may do, not whether the resource is good.
 
-- **Cost:** students and schools pay nothing for access.
-- **Control:** a teacher can change a resource to fit a course instead of working around it.
-- **Currency:** a resource can be updated as soon as something changes, because no publisher has to approve the edit.
-- **Community:** improvements can be shared back so that other teachers benefit.
+**Worked example: three resources, two tests.** The table applies both tests to three resources.
 
-An open license says nothing about quality, however. OER vary in accuracy, clarity, and accessibility just as commercial materials do, which is why this book teaches a way to judge them instead of assuming they are good.
+| Resource | Educational resource? | Open license or public domain? | OER? |
+|---|---|---|---|
+| A publisher's free sample chapter marked "All rights reserved" | Yes | No | No |
+| A lesson plan on a teacher's blog with the notice "Licensed CC BY 4.0" | Yes | Yes, an open license | Yes |
+| An image on a federal agency's website, made by the agency's employees | Yes, when used to teach | Yes, public domain | Yes |
 
-Apply the two tests to Sam's five materials. The table gives the verdict for each and the reason.
+The third row carries a caution. An agency's page may include images from partners who keep their copyright, so confirm the status of each image you reuse.
 
-| # | Resource | OER? | Why |
-|---|----------|------|-----|
-| 1 | Publisher's textbook chapter | No | "All rights reserved" gives no advance permission to adapt or share |
-| 2 | Colleague's slide deck | No, not yet | With no notice, all rights are reserved by default; the colleague could add an open license to make it OER |
-| 3 | Streaming video | No | The "©" notice reserves the rights, so the video is free to watch but not open |
-| 4 | Plant-cell diagram | Yes | A U.S. federal government work is in the public domain in the United States |
-| 5 | Open textbook chapter | Yes | CC BY 4.0 is an open license, and the chapter is free to read |
+Three misunderstandings are common:
 
-Only two of Sam's five materials are OER, even though all five looked free to use. The sorter below lets you practice the same judgment on eight new resources before you read on.
+- **"OER must be digital."** An open license applies to a printed book as well as to a file. Openness is about permission, not medium.
+- **"OER must cost nothing."** A printed copy costs money to produce, and many open licenses allow a print shop to charge for it.
+- **"OER are low quality."** OER range from a single teacher's worksheet to full textbooks produced by university projects with peer review. The license tells you nothing about quality, which is why [Chapter 3](../03-ten-metric-rubric-scoring/index.md) introduces a rubric.
 
-#### Diagram: Open or Not Resource Sorter
+The MicroSim below gives you practice with the same two tests. It shows 11 resource cards and three bins. *Open (OER)* holds any resource in the public domain or under an open license, whatever its price. *Free but not open* holds resources that cost nothing but have no open license. *Not free and not open* holds resources that cost money and have no open license.
+
+#### Diagram: OER or Not Classifier
 
 <details markdown="1">
-<summary>Open or Not Resource Sorter</summary>
+<summary>OER or Not Classifier</summary>
 Type: microsim
-**sim-id:** open-or-not-resource-sorter<br/>
+**sim-id:** oer-or-not-classifier<br/>
 **Library:** p5.js<br/>
 **Status:** Specified<br/>
-**Bloom Level:** Analyze<br/>
-**Bloom Verb:** distinguish<br/>
-**Learning Objective:** The learner will distinguish open educational resources from free-but-not-open resources and commercial resources by sorting 8 described resources into three categories, using only the rights notice and price given for each.
+**Bloom Level:** Understand<br/>
+**Bloom Verb:** classify<br/>
+**Learning Objective:** The learner will classify each of 11 described resources as open (OER), free but not open, or not free and not open, by checking its license and public-domain status rather than its price.
 
-**Prerequisites:** educational resource, rights notice, copyright, public domain, free resource, commercial textbook, open license, open educational resource (all defined in the chapter above this block).
+**Prerequisites:** educational resource, copyright, license, public domain, open license, free resource, open educational resource (all defined in this chapter above this block).
 
-**Evidence of Mastery:** For each of the 8 resources, the learner chooses one of three categories and presses Check. A choice is correct when it matches the Correct category column in Content. Mastery is 7 or more of 8 correct on the first attempt. Reading a card and changing a choice before pressing Check is exploration and does not count as evidence.
+**Evidence of Mastery:** For each of the 11 resource cards the learner commits one of three bins. A placement is correct when it matches the Correct bin column in Content. Mastery is at least 9 of 11 correct on the first run. Only the first committed placement of each card on the first run counts as evidence; replays are practice.
 
-**Misconceptions:** (1) A resource that costs nothing is open. (2) A resource with no rights notice is free to adapt and share. (3) A public domain work is not an OER. (4) A license that adds the NonCommercial or ShareAlike condition is not an open license.
+**Misconceptions:** (1) A resource that is free to download is OER. (2) A resource must be free of charge to be open. (3) A resource posted publicly with no license statement may be reused.
 
-**Instructional Rationale:** Distinguishing requires the learner to separate two features that are easy to confuse, price and permission. Sorting resources that look alike on the surface forces the learner to look at the rights notice and the price instead, which is the skill the chapter is teaching.
+**Instructional Rationale:** Classifying is an Understand-level action: the learner must apply the definition of open to a concrete case instead of recalling it. Three bins separate price from permission, so a learner who sorts by price alone is shown, case by case, where that rule fails.
 
 **Content:**
 
-The three categories are: Open educational resource (public domain or openly licensed), Free but not open, and Commercial.
+The three bins, shown to the learner at all times:
 
-| # | Resource shown to the learner | Correct category | Why (shown as feedback) |
-|---|-------------------------------|------------------|-------------------------|
-| 1 | A classroom science booklet written by U.S. federal agency employees as part of their official duties. No price. Notice: "Prepared by agency staff as part of their official duties." | Open educational resource | A U.S. federal government work is in the public domain in the United States, and public domain works are OER. |
-| 2 | An arithmetic textbook published in the United States in 1910. No price. Notice: none, because the copyright has ended. | Open educational resource | Its copyright term has ended, so it is in the public domain, and public domain works are OER. |
-| 3 | A history textbook chapter, free to read online. Notice: "Licensed under CC BY 4.0." | Open educational resource | CC BY 4.0 is an open license that gives advance permission to use, adapt, and share, and the chapter is free. |
-| 4 | A set of lesson slides, free to download. Notice: "Licensed under CC BY-NC-SA 4.0." | Open educational resource | The NonCommercial and ShareAlike conditions limit how the slides may be used, but the license still grants the open permissions, so the slides are OER. |
-| 5 | A website of math worksheets, free to print. Notice: "All rights reserved. Personal use only." | Free but not open | The price is zero, but "all rights reserved" gives no permission to adapt or share. |
-| 6 | A slide deck a colleague emailed to you. No price. Notice: none. | Free but not open | Copyright begins automatically, so with no notice all rights are reserved. You could ask the colleague to add an open license. |
-| 7 | A new biology textbook sold by a publisher for a price. Notice: "All rights reserved." | Commercial | It is sold for a price and reserves all rights. |
-| 8 | A paid subscription to an online science course. Notice: "All rights reserved." | Commercial | It is sold for a price and reserves all rights. |
+- Open (OER): the resource is in the public domain or carries an open license, whatever its price.
+- Free but not open: the resource costs the user nothing but is neither in the public domain nor under an open license.
+- Not free and not open: the resource costs money and is neither in the public domain nor under an open license.
 
-**Provenance:** All 8 resources are illustrative scenarios written for this chapter. They are not real works, and no real prices are used. The public domain rulings for items 1 and 2 come from the chapter section "Copyright and the Public Domain." The treatment of item 4 comes from the chapter section "Open Educational Resources." The sim labels every resource "illustrative."
+The 11 cards:
 
-**Rules:** A resource is Open educational resource when it is in the public domain or carries an open license, whatever conditions the license adds. A resource is Free but not open when it costs nothing and is neither in the public domain nor openly licensed, including when it has no notice. A resource is Commercial when it is sold for a price and reserves all rights. Each of the 8 resources fits exactly one category. Mastery is correct first attempts >= 7 of 8.
+| # | Description shown to the learner | Correct bin | Why (shown as feedback) |
+|---|---|---|---|
+| 1 | A lesson plan on fractions on a teacher's blog, with the notice "Licensed CC BY 4.0" | Open (OER) | The CC BY license gives advance permission to retain, reuse, revise, remix, and redistribute. |
+| 2 | A publisher's sample chapter, free to download, stamped "All rights reserved" | Free but not open | It costs nothing, but all rights are reserved, so no permissions are granted. |
+| 3 | A commercial biology textbook sold in the campus bookstore | Not free and not open | It costs money and the publisher reserves all rights. |
+| 4 | A photograph taken by a NASA employee as part of their job and posted on NASA's website | Open (OER) | Works made by U.S. federal employees as part of their duties are in the public domain. |
+| 5 | A video on a streaming site, free to watch, with no license statement | Free but not open | With no license, the default is all rights reserved. A zero price does not grant permission. |
+| 6 | An open textbook from a university press under a CC BY-NC-SA 4.0 license | Open (OER) | An open license grants the permissions, with conditions: credit, non-commercial use, and share-alike. |
+| 7 | An online homework system that requires a $45 access code and forbids copying its questions | Not free and not open | It costs money and its terms forbid reuse. |
+| 8 | A quiz bank that its author dedicated to the public domain with CC0 | Open (OER) | CC0 gives up the owner's rights in advance, so anyone may use the quiz bank. |
+| 9 | A free online course whose terms say "personal use only; do not copy or share" | Free but not open | It costs nothing, but the terms forbid copying and sharing. |
+| 10 | The text of an online encyclopedia article released under CC BY-SA 4.0 | Open (OER) | The CC BY-SA license permits reuse, revision, remixing, and sharing, with credit and share-alike. |
+| 11 | An open textbook that is free online under CC BY and also sold in print at cost for $15 by a campus print shop | Open (OER) | Openness comes from the license, not the price. The printed copy costs money, but the license still grants the permissions. |
+
+**Provenance:** The 11 cards are illustrative cases written for this chapter, and the sim labels them "illustrative examples". The bin definitions follow the chapter sections "Free Does Not Mean Open" and "Open Educational Resources". The rule about federal works follows the chapter section "Public Domain". The license abbreviations (CC BY, CC BY-NC-SA, CC BY-SA, CC0) are explained in the Why text of each card, and Chapter 2 defines them in full.
+
+**Rules:** Each card has exactly one correct bin. A resource with no license statement is treated as all rights reserved. Price never moves a resource out of the Open bin: a resource that is in the public domain or under an open license belongs in Open (OER) even when a copy costs money. A resource whose terms forbid copying or sharing is not open, whatever its price.
 
 **Learner Activity:**
 
-1. The learner reads the first resource, including its price and rights notice.
-2. The learner chooses one of the three categories for it and presses Check.
-3. The sim shows whether the choice is correct and shows the Why text, then moves to the next resource.
-4. After resource 8, the sim shows the first-attempt score, lists any resource the learner missed with its Why text, and offers the learner a chance to retry the missed resources.
+1. The learner sees one card at a time, with the three bins and their definitions.
+2. The learner places the card in a bin. The placement is committed and cannot be changed.
+3. The sim shows whether the placement was correct, moves the card to its correct bin, and shows the Why text.
+4. After the 11th card the sim shows the number of cards placed correctly on the first run, and lists each missed card with its Why text.
+5. The learner may replay with a new shuffle. Replays show the same feedback but do not change the recorded first-run score.
 
-**Feedback:** Eight resources, shown in the order of the table, two attempts each. Correct: "Correct: [category]. [Why text]." Incorrect on the first attempt: "Not quite. Look again at the price and the rights notice," followed by the one-line hint for the confusion the wrong choice suggests. If the learner chose Open educational resource wrongly, the hint is "A resource must be public domain or openly licensed, not just free." If the learner chose Free but not open wrongly, the hint is "A resource with an open license or in the public domain is more than free." If the learner chose Commercial wrongly, the hint is "Check the price: a resource with no price is not commercial." After a second wrong choice the correct category and Why text are revealed and the resource counts as missed. The score "Correct on first attempt: n of 8" is shown at the end, and the sim states whether mastery was reached.
+**Feedback:** 11 cards, shuffled at the start of each run, one attempt per card. Correct: "Correct: [bin]. [Why]". Incorrect: "Not quite. This belongs in [correct bin]. [Why]". The correct bin is revealed immediately after each placement. The summary shows "[n] of 11 correct on the first run". At 9 or more it adds "You can tell open from free." Below 9 it lists the Why text of each missed card.
 
-**Starting State:** The first resource card is shown with the three category names and no choice made. The question on screen is "Is this resource open?"
+**Starting State:** The first card and the three empty bins with their definitions. The question shown is "Which bin does this resource belong in?"
 
-**Chapter Anchors:** The chapter states that there are three categories (Open educational resource, Free but not open, Commercial), that public domain works are OER, and that a resource with no notice has all rights reserved. The chapter says the sorter uses 8 new resources.
+**Chapter Anchors:** The bin names are "Open (OER)", "Free but not open" and "Not free and not open". The chapter defines OER as an educational resource that is in the public domain or carries an open license. The chapter's worked-example table (a publisher's free sample chapter, a CC BY lesson plan, and a federal agency image) matches cards 2, 1 and 4 and their bins.
 </details>
 
-Notice the pattern in the table and the sorter. Free access and open permission are separate, and a resource needs the second to be an OER.
+### Open Textbooks
 
-Two kinds of OER deserve their own names. An **open textbook** is a full-length textbook that is an OER: it is free to read online, carries an open license, and can usually be downloaded or printed. Printed copies are often sold at a low price, because the license lets anyone print them. OpenStax, a nonprofit publisher based at Rice University, produces open textbooks. The Open Textbook Library, run by the Open Education Network at the University of Minnesota, lists open textbooks that faculty have reviewed. Sam's chapter in row 5 could come from either.
+An **open textbook** is a complete textbook that carries an open license, so a teacher may adopt, revise, and share it. Most are free to read online, and many offer a printed copy sold at cost. OpenStax, based at Rice University, publishes open textbooks for high-enrollment college courses and some high school courses. The Open Textbook Library, run by the Center for Open Education at the University of Minnesota, catalogs open textbooks together with reviews from faculty.
 
-A **Zero Textbook Cost (ZTC) course** is a course in which students pay nothing for the required materials. Many colleges mark ZTC courses in their schedules so that students can choose them. ZTC and OER are related, but they are not the same thing. A ZTC course may use OER, or it may use materials the library already licenses, or free resources that keep all rights reserved.
+### Zero Textbook Cost Courses
 
-!!! mascot-warning "ZTC Is About Price, Not Permission"
-    ![Echo the Loon warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
-    A ZTC label tells you what students pay, not what you may do with the materials. If you want to adapt or share them, check the rights notice on each resource, because some of them may be free but locked.
+A **zero textbook cost (ZTC) course** is a course in which students pay nothing for required learning materials. Colleges often flag ZTC sections in the class schedule so that students can see the cost before they register. A ZTC course often relies on OER, but it need not: a course built on e-books that the library licenses is also ZTC, even though those e-books are free but not open. ZTC describes price. OER describes permissions.
 
 ## The 5R Permissions
 
-What exactly does an open license let you do? The **5R permissions** answer that question. Educator David Wiley proposed the framework, first as four permissions and later with a fifth, Retain, added. Each permission starts with the letter R and names one kind of use: retain, reuse, revise, remix, and redistribute. An open license gives all five to everyone, on the condition that users follow the license's terms.
+An open license grants permission for five kinds of actions. Open-education researcher David Wiley named them the **5R permissions**: retain, reuse, revise, remix, and redistribute. His first version of the framework had four Rs, and he later added retain. A resource that grants all five is open in the fullest sense. Most open licenses attach conditions, such as giving credit to the author, and [Chapter 2](../02-open-licenses-attribution/index.md) sorts those out. In this section the only question is what each R lets you do.
 
-The five permissions are advance permission for the things copyright otherwise reserves to the owner. Retain covers making copies, Revise and Remix cover adapting, and Redistribute covers sharing. Reuse covers using the unchanged work in a class, a course, or a video, uses that would otherwise call for the owner's permission. Where the copyright default said "ask first," an open license says "yes, within these terms."
+### Retain Permission
 
-**Retain** is the permission to make, own, and control copies of a resource. You may download it, duplicate it, back it up, and store it where you choose. This matters because a resource that exists only on someone else's website can change or vanish. Sam can save the open chapter from row 5 on a school drive, and it stays available however the website changes. Retain is the foundation of the other four, because you cannot use, change, or share what you cannot keep.
+The **retain permission** lets you make, own, and control copies of the resource: download it, duplicate it, store it, and manage your own copy. Retain matters because websites change and disappear. A teacher who keeps a copy still has the lesson next year.
 
-**Reuse** is the permission to use the original, unchanged resource in a wide range of ways. You may teach with it in a class, post it on a course website, show it in a workshop, or include it in a video. No change to the resource is involved. Sam can assign the open chapter as reading, and a colleague at another school can use the same chapter without asking Sam or the authors. Reuse is the permission most teachers think of first, and it is the one that stays the same however the resource is used.
+Keep the file, not just a link. A bookmark is not a copy: if the site disappears, the bookmark goes with it. Download the document and, when the author offers them, the editable source files.
 
-**Revise** is the permission to adapt, adjust, modify, or alter the resource itself. A revision can fix an error, update data, change examples, trim a section, or translate the text into another language. The worked example shows what revising looks like in practice.
+### Reuse Permission
 
-Suppose the open chapter in row 5 uses examples from a coastal ecosystem, and Sam's students live far from any coast. Sam makes a revised version in four steps:
+The **reuse permission** lets you use the resource in its original, unaltered form in many settings: a class, a study group, a workshop, a website, or a video.
 
-1. Sam keeps a copy of the original chapter, which is the Retain permission at work.
-2. Sam rewrites three examples to use a local pond, adds a short glossary, and translates the vocabulary list into Spanish for two students.
-3. Sam adds a credit line naming the original creators and a note saying that Sam changed the chapter.
-4. Sam labels the new version with the same open license as the original.
+Reuse stops where change begins. The moment you alter the resource, even to fix a typo, you have moved from reuse to revise, the next permission.
 
-Sam did not need to ask anyone, because the license already grants the Revise permission. Sam does need to follow the license's conditions. CC BY, for example, asks users to credit the creator and to say that changes were made, and Chapter 2 explains these conditions. The original chapter is unchanged, and Sam's version is a separate new version based on it. Revising lets a resource fit the learners in front of you rather than the learners its authors imagined.
+### Revise Permission
 
-**Remix** is the permission to combine the original or a revised resource with other open resources to make something new. The new work uses material from more than one source. Sam might take the plant-cell diagram from row 4, a quiz from a second open source, and a worksheet Sam wrote, and bind them into one study guide. Not every combination is allowed, because the licenses on the pieces must work together, and Chapter 2 explains when they do not.
+The **revise permission** lets you adapt, adjust, modify, or alter the resource itself. Typical revisions fix an error, update a statistic, translate the text, lower the reading level, or add local examples. Revise is the permission that separates an open resource from a merely free one. A free resource lets you read it, but only revise lets you improve it for your students. Revision is not limited to text: adding captions to a video, describing an image in alt text, and correcting a spreadsheet formula are all revisions.
 
-**Redistribute** is the permission to share copies of the original resource, a revision, or a remix with others. Sharing can be as small as an email to a colleague or as wide as a public website. Redistribution is what lets one teacher's improvement reach every teacher.
+**Worked example: revising a reading.** A teacher uses an openly licensed reading about watersheds.
 
-Take Sam's revised chapter from the example. Sam has three ways to share it:
+1. She saves a copy of the original, which exercises the retain permission.
+2. She replaces a river from another state with the river in her own county.
+3. She corrects an outdated population figure and adds alt text to the two maps.
+4. She records each change, and the original author's credit, at the end of the document.
 
-- Sam emails the revised chapter to the three other biology teachers in the department.
-- Sam uploads it to the district's shared drive so that any teacher in the district can find it.
-- Sam posts it on a public website so that teachers anywhere can download it.
+The result is a *revised version*, also called an adaptation: a new work derived from the original.
 
-Each one is redistribution, because each puts a copy in the hands of someone else. In all three cases, Sam keeps the credit line and the license notice with the file. Some licenses also require that shared copies carry the same license, a condition called ShareAlike that Chapter 2 explains. Giving a copy to another person is different from letting students read the chapter during class, which is Reuse.
+### Remix Permission
 
-The table summarizes the five permissions in the order we introduced them. Each row uses one of Sam's actions.
+The **remix permission** lets you combine the original or a revised copy with other open material to create something new, such as a unit built from chapters of two open textbooks plus a public-domain map. Revise changes one work, and remix joins two or more. Remixing requires that the licenses of the parts are compatible, which [Chapter 2](../02-open-licenses-attribution/index.md) explains.
 
-| Permission | What it lets you do | Sam's example |
-|------------|--------------------|---------------|
-| Retain | Make, own, and control copies | Saves the open chapter on a school drive |
-| Reuse | Use the unchanged resource in many ways | Assigns the open chapter as class reading |
-| Revise | Adapt, modify, or alter the resource | Rewrites examples and translates the vocabulary list |
-| Remix | Combine it with other open resources to make something new | Builds a study guide from a diagram, a quiz, and a worksheet |
-| Redistribute | Share copies of the original, a revision, or a remix | Posts the revised chapter on a public website |
+!!! mascot-encourage "Revise and Remix Blur Together"
+    ![Echo encouraging](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
+    If revise and remix blur together, that is normal, because most newcomers blur them. You already do both with documents: editing one file is revising, and pasting two files into one is remixing. Ask one question: did I change one work, or combine several?
 
-!!! mascot-thinking "Retain Comes First"
-    ![Echo the Loon thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
-    Notice that each permission builds on having a copy of your own. A resource you cannot keep is a resource you cannot reliably use, change, or share.
+### Redistribute Permission
 
-The opening of the chapter promised that you could say what Sam may do with each of the five materials. The table keeps that promise by applying the 5R permissions to every row.
+The **redistribute permission** lets you share copies of the original, revised, or remixed work with others: post it on a website, email it to colleagues, or upload it to a repository. Redistribution is what lets one teacher's improvement reach every other teacher.
 
-| # | Resource | 5R permissions granted in advance | What Sam can do |
-|---|----------|-----------------------------------|-----------------|
-| 1 | Publisher's textbook chapter | None | Read it, and ask the publisher for permission before adapting or sharing it, or look for an open alternative |
-| 2 | Colleague's slide deck | None, because no notice means all rights are reserved | Use it as the colleague intends, and ask permission to adapt or share it, perhaps suggesting an open license |
-| 3 | Streaming video | None | Link to the video instead of copying it, and do not edit or repost it |
-| 4 | Plant-cell diagram | All five, with no conditions | Retain, reuse, revise, remix, and redistribute it freely, and cite the source as good practice |
-| 5 | Open textbook chapter | All five, on the condition of credit | Adopt, adapt, and share it, while crediting the authors and noting any changes |
+**Worked example: sharing the revised reading.** The teacher has finished the watershed revision.
 
-One more check belongs here. A license covers what its creators own. An open chapter can include an image or a quotation that belongs to someone else and carries its own notice, so the 5R permissions may not extend to every part of the page. Chapter 2 returns to this as third-party content.
+1. She uploads the file to her district's shared site and to a public repository.
+2. She adds the license notice that the original requires, so the next teacher knows the permissions.
+3. She credits the original author and labels the file "revised version".
+4. She tells her colleagues where to find it.
 
-Now practice applying the five definitions. The sorter gives you ten teacher actions and asks which permission each one depends on most directly.
+!!! mascot-tip "Keep a Credit Note With Every File"
+    ![Echo giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    Keep a one-line credit note with every open file: title, author, license, and where you found it. When you pass the file on, the note travels with it. Credit it, share it, pass it on.
 
-#### Diagram: Five R Scenario Sorter
+### Putting the Five Together
+
+The permissions build on one another. You need a copy to use it (retain), you use it before you change it (reuse), and you change it before you combine it or share the result (revise, remix, redistribute). The table below gives each permission a test question that you can ask of any resource.
+
+| Permission | Plain-language meaning | Test question |
+|---|---|---|
+| Retain | Make and keep your own copy | Can I make and keep my own copy? |
+| Reuse | Use the work as it is | Can I use it as it is? |
+| Revise | Change the work | Can I change it? |
+| Remix | Combine the work with other open work | Can I combine it with other open work? |
+| Redistribute | Share copies with others | Can I share copies with others? |
+
+**Worked example: two resources, five questions.** Ask the five test questions of a lesson plan licensed CC BY 4.0 and of the publisher's free sample chapter marked "All rights reserved". The CC BY license attaches one condition, credit to the author.
+
+| Test question | CC BY 4.0 lesson plan | Free sample chapter, all rights reserved |
+|---|---|---|
+| Can I make and keep my own copy? | Yes | Only as far as the site's terms allow |
+| Can I use it as it is? | Yes | Only as far as the site's terms allow |
+| Can I change it? | Yes | No |
+| Can I combine it with other open work? | Yes | No |
+| Can I share copies with others? | Yes | No |
+
+Both resources cost nothing, yet they differ on every row. That difference is what the word *open* measures.
+
+The MicroSim below uses the five test questions. It presents 10 everyday teacher actions, and you name the one permission that each action uses.
+
+#### Diagram: Five R Scenario Matcher
 
 <details markdown="1">
-<summary>Five R Scenario Sorter</summary>
+<summary>Five R Scenario Matcher</summary>
 Type: microsim
-**sim-id:** five-r-scenario-sorter<br/>
+**sim-id:** five-r-scenario-matcher<br/>
 **Library:** p5.js<br/>
 **Status:** Specified<br/>
-**Template:** https://github.com/dmccreary/ibook-skills/tree/main/docs/sims/skill-permission-matrix<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** apply<br/>
-**Learning Objective:** The learner will apply the definitions of the five R permissions to 10 teacher actions by naming, for each action, the one permission it depends on most directly.
+**Learning Objective:** The learner will apply the definitions of the five R permissions to name the one permission that each of 10 classroom actions exercises, with at least 8 correct on the first attempt.
 
-**Prerequisites:** open license, retain, reuse, revise, remix, redistribute (all defined in the chapter section "The 5R Permissions" above this block).
+**Prerequisites:** open license, retain permission, reuse permission, revise permission, remix permission, redistribute permission (all defined in this chapter above this block).
 
-**Evidence of Mastery:** For each of the 10 scenarios, the learner chooses one of the five permissions and presses Check. A choice is correct when it matches the Correct permission column in Content. Mastery is 8 or more of 10 correct on the first attempt. Reading a scenario and changing a choice before pressing Check is exploration and does not count as evidence.
+**Evidence of Mastery:** For each of the 10 scenarios the learner chooses one of the five permissions. A choice is correct when it matches the Correct permission column in Content. Mastery is at least 8 of 10 scenarios answered correctly on the first attempt. Viewing a hint is not evidence.
 
-**Misconceptions:** (1) Reuse and Retain are the same, so keeping a copy is the same as using it. (2) Any change to a resource is a Remix. (3) Showing or sharing a resource with students is Redistribute. (4) Translating a resource is not a change to the resource.
+**Misconceptions:** (1) Reuse covers any use, including after changes. (2) Retain means keeping a link to a resource online. (3) Revise and remix are the same permission. (4) Sharing an unchanged copy is reuse.
 
-**Instructional Rationale:** Apply-level objectives need the learner to use a definition on a case they have not seen, and a check after each case shows whether the definition was applied correctly. Near-identical pairs of scenarios, like keeping a copy and using a copy, force the learner to apply the definitions instead of matching keywords.
+**Instructional Rationale:** Apply-level practice needs new situations and a check. Each scenario is worded as a teacher action, so the learner must map the action to a permission rather than recall a definition. The hint models the test question the learner should ask, so the question becomes a habit.
 
 **Content:**
 
-The five permissions the learner chooses from are: Retain, Reuse, Revise, Remix, Redistribute. The learner sees each permission's one-sentence definition from the chapter at all times: Retain is the permission to make, own, and control copies; Reuse is the permission to use the original resource in many ways without changing it; Revise is the permission to adapt, modify, or alter the resource itself; Remix is the permission to combine open resources into something new; Redistribute is the permission to share copies with others.
+The five permissions and their test questions:
+
+| Permission | Test question |
+|---|---|
+| Retain | Can I make and keep my own copy? |
+| Reuse | Can I use it as it is? |
+| Revise | Can I change it? |
+| Remix | Can I combine it with other open work? |
+| Redistribute | Can I share copies with others? |
+
+The 10 scenarios:
 
 | # | Scenario shown to the learner | Correct permission | Why (shown as feedback) |
-|---|-------------------------------|--------------------|-------------------------|
-| 1 | A teacher downloads an open chapter and saves it on their computer so it stays available if the website goes offline. | Retain | Keeping your own copy is Retain, and the copy does not depend on the website. |
-| 2 | A teacher assigns an open chapter, unchanged, as reading for their class. | Reuse | Using the original unchanged resource in teaching is Reuse. |
-| 3 | A teacher rewrites the examples in an open chapter to use places their students know. | Revise | Changing the content of a single resource is Revise. |
-| 4 | A teacher combines a diagram from one open resource and a quiz from another into a new study guide. | Remix | Combining material from more than one open resource into something new is Remix. The licenses must be compatible, which Chapter 2 explains. |
-| 5 | A teacher emails an unchanged open chapter to every teacher in their department. | Redistribute | Giving copies to other people is Redistribute. |
-| 6 | A teacher translates a short open reading passage into Spanish for a student who is learning English. | Revise | A translation changes the resource into a new version, which is Revise. |
-| 7 | A teacher shows an open video on the classroom projector. | Reuse | Showing the unchanged video in a class is using it, which is Reuse. |
-| 8 | A school district office downloads an open course and keeps its own copy on district servers. | Retain | Keeping a copy under your own control is Retain. |
-| 9 | A teacher adds their own worksheet to two open lesson plans from different authors to make a unit packet. | Remix | Combining two open lesson plans and an original worksheet is Remix. The licenses must be compatible, which Chapter 2 explains. |
-| 10 | A school posts an unchanged open textbook on its public website so any teacher can download it. | Redistribute | Posting copies where others can get them is Redistribute. |
+|---|---|---|---|
+| 1 | You download an openly licensed textbook's PDF and its editable source files to your own laptop, so you still have them if the website goes offline. | Retain | Making and keeping your own copy is the retain permission. |
+| 2 | You show an openly licensed diagram, unchanged, on the projector during your lesson. | Reuse | Using a work as it is, in your class, is reuse. |
+| 3 | You replace a U.S.-only example in an openly licensed science reading with an example from your own watershed. | Revise | Changing the content of a single work is revising it. |
+| 4 | You combine two chapters from different open textbooks and a public-domain map into one unit packet. | Remix | Combining two or more works into something new is remixing. |
+| 5 | A colleague asks for the open worksheet you use, and you email them an unchanged copy. | Redistribute | Sharing copies with others is redistributing. |
+| 6 | You embed an unchanged open video on your course web page. | Reuse | Using a work as it is, on a website, is reuse. |
+| 7 | You add alt text to every image in an openly licensed chapter. | Revise | Adding alt text changes the work, and changing a work is revising it. |
+| 8 | You merge the terms from two open glossaries into one list and add 20 terms of your own. | Remix | Merging works into a new one is remixing. |
+| 9 | You copy the full set of source files of an open lab manual to an external drive for safekeeping. | Retain | Keeping your own copy for safekeeping is retaining. |
+| 10 | You have already corrected the errors in an open lab handout. Now you post the corrected handout in a repository so that any teacher can download it. | Redistribute | Sharing the corrected version with others is redistributing. The correcting was revising, and it is already done. |
 
-**Provenance:** The permission definitions come from the chapter section "The 5R Permissions." The 10 scenarios are illustrative, written for this chapter, and describe no real people or schools. The sim labels the scenarios "illustrative."
+**Provenance:** The scenarios are illustrative cases written for this chapter, and the sim labels them "illustrative examples". The permission names and test questions are those in the chapter sections "The 5R Permissions" and "Putting the Five Together".
 
-**Rules:** Each scenario depends most directly on exactly one permission. Retain applies when the action makes or keeps a copy under the user's control. Reuse applies when the unchanged resource is used for teaching or display. Revise applies when the content of a single resource is changed, including by translation. Remix applies when material from two or more sources is combined into one new work. Redistribute applies when copies are given or posted so that other people can get them. Mastery is correct first attempts >= 8 of 10.
+**Rules:** Each scenario has exactly one correct permission, two scenarios per permission. Where a scenario says a step is already done, only the action described as happening now counts. The sim does not test license conditions (credit, share-alike).
 
 **Learner Activity:**
 
-1. The learner reads the first scenario.
-2. The learner chooses one of the five permissions and presses Check.
-3. The sim shows whether the choice is correct and shows the Why text, then moves to the next scenario.
-4. After scenario 10, the sim shows the first-attempt score, lists any scenario the learner missed with its Why text, and offers the learner a chance to retry the missed scenarios.
+1. The learner sees the five permission names, without their definitions, and the first scenario.
+2. The learner chooses the permission that the action uses.
+3. If the choice is correct, the sim shows the Why text and moves to the next scenario.
+4. If the choice is wrong on the first attempt, the sim shows the test question for the correct permission without naming it, and the learner chooses again.
+5. If the second choice is also wrong, the sim reveals the correct permission and the Why text, and the scenario counts as missed.
+6. After scenario 10 the sim shows the summary.
 
-**Feedback:** Ten scenarios, shown in the order of the table, two attempts each. Correct: "Correct: [permission]. [Why text]." Incorrect on the first attempt: "Not quite," followed by the hint for the permission the learner chose. If the learner chose Retain, the hint is "Retain is about keeping your own copy, and this action does more than that." If the learner chose Reuse, the hint is "Reuse is using the unchanged resource yourself, in teaching or display." If the learner chose Revise, the hint is "Revise means changing the content of the resource itself." If the learner chose Remix, the hint is "Remix means combining material from more than one source into something new." If the learner chose Redistribute, the hint is "Redistribute means giving copies to other people." After a second wrong choice the correct permission and Why text are revealed and the scenario counts as missed. The score "Correct on first attempt: n of 10" is shown at the end, and the sim states whether mastery was reached.
+**Feedback:** 10 scenarios, shuffled once per session, two attempts each. First-attempt correct answers count as evidence. Correct: "Correct: [permission]. [Why]". First wrong attempt: "Not yet. Ask yourself: [test question for the correct permission]". Second wrong attempt: "The answer is [permission]. [Why]". The summary shows "[n] of 10 correct on the first attempt". At 8 or more it adds "You can match actions to permissions." Below 8 it lists each missed scenario with its Why text.
 
-**Starting State:** The first scenario is shown with the five permission names and their definitions and no choice made. The question on screen is "Which permission does this action depend on most directly?"
+**Starting State:** The five permission names in the order retain, reuse, revise, remix, redistribute, with no definitions, and the first scenario in the shuffled order. The question shown is "Which permission does this action use?"
 
-**Chapter Anchors:** The chapter states that there are five permissions (Retain, Reuse, Revise, Remix, Redistribute), that Retain is the foundation of the other four, and that the sorter has 10 scenarios.
+**Chapter Anchors:** The five permissions are retain, reuse, revise, remix, and redistribute, in that order. The test questions match the chapter table "Putting the Five Together" word for word. The chapter says the sim presents 10 everyday teacher actions.
 </details>
 
-After the sorter, remember that the permissions come with conditions. All open licenses ask users to credit the creator, and some add further conditions. Chapter 2 sets out exactly what each common license asks. Keep the five Rs in mind as you read it, because every license is a particular combination of permissions and conditions.
+Remember that these are permissions, not duties. An open license says what you may do, and you decide what is worth doing. The next section looks at the three ways teachers decide.
 
-## Adopting, Adapting, and Creating OER
+## Adopt, Adapt, or Create
 
-Open resources give teachers three ways to work, and each uses the permissions differently. **OER adoption** is choosing an existing OER and using it in a course, usually without changing it. You can adopt a single chapter or a whole textbook. Adoption relies mainly on Retain and Reuse, and it is the lowest-effort way to start with OER because it needs no editing. It is also where problems surface, such as outcomes that do not match, missing alt text, and outdated facts, which later chapters teach you to score. Sam adopts the open chapter from row 5 and follows a short routine:
+Teachers put OER to work in three ways, listed here from least to most effort: adopt, adapt, and create. Sometimes none of them is the right first move, and the right decision is to keep searching. Each way relies on different permissions, and each trades effort against control.
 
-1. Sam reads the rights notice and confirms that the license is open.
-2. Sam saves a dated copy and records the web address.
-3. Sam checks the chapter against the unit's learning outcomes.
-4. Sam tells students where to find it and credits the authors on the course page.
-5. Sam notes which version was adopted, in case the authors update it later.
+### OER Adoption
 
-Adoption starts with a choice. **Resource selection** is the work of choosing which resources to use for a course from the candidates available. A good selection weighs fit to learning outcomes, accuracy, readability, accessibility, license, and cost. A teacher who selects well saves time later, because a resource that fits needs less repair. Later chapters give a method for scoring each of these.
+**OER adoption** means choosing an existing OER and using it as it is for a course. In higher education the word often means selecting an open textbook as the required text, and in K-12 it may mean using an open curriculum for a unit. Adoption relies on the retain and reuse permissions.
 
-Take Sam, choosing between two open chapters on cell structure. Sam asks the same five questions of each. Does it match the unit's outcomes? Are its facts right and current? Can ninth graders read it? Do its images have alt text? Is its license open? The chapter that answers yes more often wins, and the no answers show what to fix first.
+**Worked example: adopting a statistics textbook.** A college instructor wants an open text for introductory statistics.
 
-!!! mascot-tip "Save a Dated Copy"
-    ![Echo the Loon giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
-    When you adopt a resource, save a copy and write down the web address, the license, and today's date. If the website changes later, you can show what the license said when you adopted it.
+1. She compares the table of contents with her course outcomes and lists the gaps.
+2. She reads the license on the title page or the book's website.
+3. She downloads her own copy of the file, which exercises the retain permission.
+4. She gives students the link and tells them the cost: nothing.
+5. She plans short supplements for the gaps she found in step 1.
 
-When a resource almost fits, the next step is adaptation. **OER adaptation** is changing an open resource to suit your learners, and it uses the Revise and Remix permissions, often together. Typical adaptations include localizing examples, lowering the reading level, adding accessibility features such as alt text for images, translating, trimming, and adding material from other sources.
+Adoption is the fastest route, and it gives up control. She gets the text as the authors wrote it.
 
-Sam's adaptation starts with a problem. The open chapter in row 5 has no alt text on its diagrams, and its reading level is high for ninth graders. Sam first revises the text, replacing long sentences and defining three terms. Sam then writes alt text for the four diagrams so a screen reader can describe them. Finally Sam remixes a short quiz from a second open source into the chapter. Sam keeps a list of every change, credits both sources, and shares the adapted chapter under the same license, using the Redistribute permission. A record like this lets the next teacher see exactly what was altered. Later chapters show how AI agents can do much of this work and how to check it.
+Adoption still needs evaluation. An open text may be out of date, may assume different prior knowledge than her students have, or may lack practice problems. The question "may I use it?" is answered by the license, and the question "is it good?" stays open until someone checks.
 
-Teachers also make new resources. **OER creation** is writing or building a new resource and releasing it under an open license. Every handout, quiz, or lesson plan you share openly is an act of OER creation, and so is a remix of existing OER that you publish. Before you publish something you made, work through four steps:
+### OER Adaptation
 
-1. Check who owns it. Work made as part of a job may belong to your employer, so check your contract or your district's policy.
-2. Check what is inside it. Remove or replace any image, quotation, or data you do not have the right to share.
-3. Choose an open license, and put the notice on the resource itself. Chapter 2 helps with that choice.
-4. Publish it where others can find it, such as a repository, with a clear title, your name, and the license.
+**OER adaptation** means changing an existing OER to fit your course, using the revise permission and often the remix permission. Typical adaptations lower the reading level, add local examples, translate the text, add practice questions, or repair accessibility problems such as missing alt text. The adapted version is a new version, and the original stays available.
 
-Skipping step 3 is the most common mistake, because a resource with no notice is all rights reserved, however generous its creator meant to be. Creation closes the loop: resources you create can become the ones other teachers adopt and adapt.
+**Worked example: adapting a history chapter.** A tenth-grade teacher adopts an open history chapter whose vocabulary is too hard for her class.
 
-## OER Repositories
+1. She checks that the license allows revised versions to be shared.
+2. She rewrites two dense paragraphs in plainer language and defines four terms.
+3. She adds a local example and alt text for the chapter's three images.
+4. She credits the original author, notes "adapted by" with her name, and shares the new version under the terms the original license requires.
 
-An **OER repository** is an online collection where open resources are stored, described, and searched. Some repositories hold full textbooks, and others hold lessons, quizzes, images, or whole courses. OER Commons and MERLOT are two well-known collections, and the Open Textbook Library mentioned earlier is a repository of open textbooks. Regional networks keep collections too. The MNOP Clearinghouse, for example, gathers resources from past projects funded through the Minitex Network for Open & Affordable Practices.
+!!! mascot-warning "Check the License Before You Edit"
+    ![Echo warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    Some licenses let you share a resource but not a changed version of it, so check before you edit. Read the license name on the resource, and if you are unsure, ask the owner or choose another resource. Chapter 2 shows how to read each license.
 
-Each resource in a repository has a record page. The record is a short description of the resource, and its fields tell you what to check before you download or link to it. The table lists the fields to read.
+### OER Creation
 
-| Record field | Why it matters |
-|--------------|----------------|
-| Title and creator | Shows who is responsible and lets you give credit |
-| License | Tells you what you may do with the resource |
-| Date or version | Shows how current the resource is and which version you have |
-| Subject and level | Shows whether it fits your course |
-| Format | Shows whether you can edit it or only read it |
-| Source link | Lets you go back to the original and check for updates |
+**OER creation** means writing or producing a new educational resource and releasing it under an open license, so that others may use the 5R permissions on your work. It takes the most time and gives the most control. Many teachers start by adapting and remixing existing OER, and create a resource from scratch only when nothing fits.
 
-Here is how the routine works for Sam. Sam searches a repository for a cell structure quiz, filters the results to biology at the high school level, and opens the most promising quiz. Sam reads its record page, finds the license, confirms that it is open, and notes the creator and date. Only then does Sam download the quiz and save a dated copy. If the license had been missing, Sam would have looked for a different quiz.
+The table below summarizes the three pathways.
 
-!!! mascot-tip "Check Each Record"
-    ![Echo the Loon giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
-    Read the license on the resource's own record page, not just the repository's front page. One repository can list resources with different licenses, so every resource needs its own check.
+| Pathway | What you do | Permissions it relies on | Control you keep |
+|---|---|---|---|
+| Adopt | Use an existing OER as it is | Retain, reuse | Little |
+| Adapt | Change an existing OER to fit | Revise, often remix | Some |
+| Create | Make a new resource and open-license it | You hold the rights and choose the license | Most |
+
+The MicroSim below practices the choice. It uses three facts about a candidate resource and a simple rule of thumb that this chapter proposes. The rule is a heuristic, not an official standard. In four teacher cases you predict the pathway first, and then you explore how the three facts change the answer.
+
+#### Diagram: Adopt Adapt Create Pathway Chooser
+
+<details markdown="1">
+<summary>Adopt Adapt Create Pathway Chooser</summary>
+Type: microsim
+**sim-id:** adopt-adapt-create-pathway-chooser<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** use<br/>
+**Learning Objective:** The learner will use a three-fact decision rule (fit to the course, whether revision is permitted, and time available) to choose adopt, adapt, create, or keep searching for four teacher cases, with at least 3 of 4 correct on the first attempt.
+
+**Prerequisites:** OER adoption, OER adaptation, OER creation, revise permission (all defined in this chapter above this block).
+
+**Evidence of Mastery:** For each of four cases the learner commits one of four pathways before the rule is shown. A choice is correct when it matches the Correct pathway column in Content. Mastery is at least 3 of 4 correct on the first attempt. Setting the three facts in exploration mode is exploration, not evidence.
+
+**Misconceptions:** (1) Creating a resource is always the best choice because you control everything. (2) Any free resource may be adapted. (3) A partial fit can always be fixed.
+
+**Instructional Rationale:** Applying a rule to new situations is the Apply-level action. Predicting before the rule is shown makes the learner commit to a pathway, and the exploration afterward shows which of the three facts change the answer and which do not.
+
+**Content:**
+
+The three facts, each set to one of its values:
+
+| Fact | Values | Meaning |
+|---|---|---|
+| Fit to course outcomes | Full, Partial, None | Full: the resource covers what the course needs. Partial: it covers some of it and needs changes. None: it does not match. |
+| Revision permitted | Yes, No | Yes: the license grants the revise permission. No: it does not. |
+| Time available | Little, Much | Little: fewer than 40 hours of preparation. Much: 40 hours or more. (The 40-hour threshold is illustrative.) |
+
+The four pathways: Adopt, Adapt, Create, Keep searching.
+
+The rule, applied in this order:
+
+1. Fit is Full: the pathway is Adopt, whatever the other two facts are.
+2. Fit is Partial and revision is permitted: the pathway is Adapt.
+3. Fit is Partial and revision is not permitted: the pathway is Keep searching, because a partial fit that may not be changed cannot be fixed.
+4. Fit is None and time is Much: the pathway is Create.
+5. Fit is None and time is Little: the pathway is Keep searching.
+
+All 12 combinations:
+
+| Fit | Revision permitted | Time | Pathway | Rule |
+|---|---|---|---|---|
+| Full | Yes | Little | Adopt | 1 |
+| Full | Yes | Much | Adopt | 1 |
+| Full | No | Little | Adopt | 1 |
+| Full | No | Much | Adopt | 1 |
+| Partial | Yes | Little | Adapt | 2 |
+| Partial | Yes | Much | Adapt | 2 |
+| Partial | No | Little | Keep searching | 3 |
+| Partial | No | Much | Keep searching | 3 |
+| None | Yes | Little | Keep searching | 5 |
+| None | Yes | Much | Create | 4 |
+| None | No | Little | Keep searching | 5 |
+| None | No | Much | Create | 4 |
+
+The four prediction cases, in this order:
+
+| Case | Situation shown to the learner | Fit | Revision permitted | Time | Correct pathway |
+|---|---|---|---|---|---|
+| A | An open course packet covers exactly what the unit needs, and its license forbids changes. The teacher has three evenings. | Full | No | Little | Adopt |
+| B | An open reading covers most of a unit but is too hard for the class, its license allows changes, and the teacher has one evening. | Partial | Yes | Little | Adapt |
+| C | An open lab guide covers half of a unit, its license forbids changes, and the teacher has the whole summer. | Partial | No | Much | Keep searching |
+| D | Nothing found matches a unit on local water quality, and the teacher has a full summer. | None | Yes | Much | Create |
+
+**Provenance:** The rule is a heuristic written for this chapter, and the sim labels it "a simple rule of thumb, not a standard". The cases are illustrative, and the sim labels them "illustrative examples".
+
+**Rules:** The pathway for any combination of the three facts is given by the rule above and the 12-row table. Revision permission has no effect when fit is Full or None, and time has an effect only when fit is None. In exploration mode the sim names the rule number that produced the pathway.
+
+**Learner Activity:**
+
+1. The learner reads case A and chooses one of the four pathways. The rule is hidden.
+2. The sim shows the correct pathway, the three facts for the case, and the rule that applies. The learner moves on to cases B, C and D in the same way.
+3. After case D, exploration mode opens. The learner sets each of the three facts to any of its values, and the sim shows the pathway and the rule number at once.
+4. The learner should notice that changing revision permission has no effect when fit is Full or None, and that time matters only when fit is None.
+
+**Feedback:** 4 cases in fixed order, one attempt each. Correct: "Correct: [pathway]. Rule [n]: [rule text]." Incorrect: "Rule [n] applies: [rule text]. So the pathway is [pathway]." The summary shows "[n] of 4 correct on the first attempt". At 3 or more it adds "You can use the rule." Below 3 it lists each missed case with its rule.
+
+**Starting State:** Case A with the three facts shown and four pathway choices. The question shown is "Which pathway should this teacher take?"
+
+**Chapter Anchors:** The chapter names three pathways in order of effort (adopt, adapt, create) and says that sometimes the right decision is to keep searching. The chapter says the rule is a heuristic, not an official standard, and that the sim uses four cases.
+</details>
+
+## Finding OER
+
+An **OER repository** is an online collection of OER that people can search and browse. A good repository records each resource's subject, grade level, and license, so you can filter before you read. Repositories differ in focus, and the table below summarizes four well-known ones.
+
+| Collection | Focus |
+|---|---|
+| OER Commons | A public digital library of OER of many types for K-12 and higher education |
+| MERLOT | A curated collection for higher education, with peer reviews and ratings |
+| Open Textbook Library | Open textbooks with faculty reviews, from the Center for Open Education at the University of Minnesota |
+| LibreTexts | A platform of open textbooks that teachers can remix in a browser and export |
+
+**Worked example: finding a ratios lesson.** A sixth-grade teacher wants a lesson on ratios.
+
+1. She searches for "ratios" and filters by subject, grade level, and an open license.
+2. She opens three results and reads the license statement on each resource, not only in the listing.
+3. She checks the date of each and discards the one that has not been updated in many years.
+4. She downloads the best match, which exercises the retain permission, and records its title, author, and license.
+
+A listing is not an endorsement. A repository holds resources of uneven quality, and the license shown in a listing was entered by a person, so confirm it on the resource itself.
 
 ## Open Pedagogy
 
-**Open pedagogy** is a way of teaching that uses the 5R permissions as part of the learning itself. Instead of only reading an open resource, students help improve or create it. They might write glossary entries, add examples to a chapter, or translate a section for a classmate. Because the work is published openly, it can help future classes, which gives the assignment a purpose beyond a grade. David Wiley contrasts these with "disposable assignments," which students write for a teacher to grade and then throw away. An assignment whose product stays useful is a "renewable assignment." Suppose a class writes a vocabulary list and image captions for a biology unit. After grading, and with the students' agreement, the teacher posts the list under an open license for next year's class. Students must agree to have their work shared, and the work must not expose personal information. Later chapters return to student consent and privacy.
+**Open pedagogy** is a way of teaching that relies on the 5R permissions, usually by having students create or improve resources that others can use. A *disposable assignment* is written, graded, and thrown away. A *renewable assignment* adds lasting value: students in an anatomy course each write and illustrate one section of an open textbook, and later cohorts revise it. Students gain a real audience, and their work outlives the course. Students own the copyright to their own work, so they must choose to release it under an open license, and a teacher should offer a non-public alternative to any student who prefers one.
 
-## Summary
+## Resource Selection
 
-This chapter built the vocabulary for judging any teaching material by price, ownership, and permission. The key points are:
+**Resource selection** is the process of choosing which resource to use in a course. A first pass often asks five questions:
 
-- An educational resource is any material that supports teaching or learning, and a rights notice says what you may do with it.
-- Copyright starts automatically and, by default, reserves all rights to the owner; the public domain is the set of works no copyright protects.
-- Commercial textbooks are sold with all rights reserved, and course material affordability measures whether students can pay for what a course requires.
-- A free resource costs nothing but may keep all rights reserved.
-- OER are in the public domain or openly licensed, and are free to access. Open textbooks are full-length OER, and ZTC courses are about price, not permission.
-- The 5R permissions are Retain, Reuse, Revise, Remix, and Redistribute, and Retain is the foundation of the other four.
-- Teachers adopt, adapt, and create OER, selecting resources with care and finding them in OER repositories.
-- Open pedagogy invites students to improve or create OER as part of learning.
+- Does it match the course outcomes, meaning what learners should be able to do?
+- What is its license, and does the license permit what I plan to do?
+- Is it accurate and current?
+- Can every learner use it, including learners who use assistive technology?
+- Can I get the editable source so that I can improve it?
 
-!!! mascot-celebration "You Can Judge a Resource Now"
-    ![Echo the Loon celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
-    You can now look at any resource and say whether it is OER, free, public domain, or commercial, and you can name the five permissions an open license grants. That is the foundation for Chapter 2, where you will learn to read the licenses themselves.
+Most teachers answer these questions informally, and informal answers vary from one person to the next. [Chapter 3](../03-ten-metric-rubric-scoring/index.md) introduces a rubric that scores a resource on ten metrics and records the evidence for each score.
+
+## Key Takeaways
+
+- An **educational resource** is any material used to support teaching and learning, and every one is protected by **copyright** unless it is in the **public domain** or released under an open license.
+- A **free resource** costs nothing, but only an open license or the public domain makes a resource an **open educational resource (OER)**. Price and permission are separate questions.
+- The **5R permissions** are retain, reuse, revise, remix, and redistribute, each answered by a short test question.
+- Teachers **adopt**, **adapt**, or **create** OER, and sometimes the right move is to keep searching. **Repositories** help you search, and a listing is not an endorsement.
+- **Open pedagogy** invites students to create resources that others can reuse, with their consent.
+- **Resource selection** needs a repeatable method, which Chapter 3 begins to supply.
+
+!!! mascot-celebration "You Have the Vocabulary"
+    ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
+    You can now define an OER, tell open from merely free, name the 5R permissions, and choose between adopting, adapting, and creating. That vocabulary is the base every later chapter stands on.
+
+[See Annotated References](./references.md)
