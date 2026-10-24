@@ -839,3 +839,5 @@ The eight sections of the draft plan (all made up, for a Watershed Basics pilot)
 !!! mascot-celebration "You Can Design a Fair Test"
     ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now write a testable hypothesis, form two comparable groups, choose fair measures, and plan consent and privacy for a student test. The next chapter turns to the data and shows how to tell whether the improved version helped.
+
+[See Annotated References](./references.md)

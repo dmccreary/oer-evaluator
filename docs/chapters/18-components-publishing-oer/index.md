@@ -868,3 +868,5 @@ The eight questions (all about Watershed Basics v1.1):
 !!! mascot-celebration "You Can Share What You Built"
     ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now package a component, publish it with MkDocs and GitHub Pages, keep it healthy, and report honestly on what it does. The last chapter turns to the people: how to train and certify the reviewers who keep the whole loop running.
+
+[See Annotated References](./references.md)

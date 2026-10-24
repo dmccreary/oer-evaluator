@@ -815,3 +815,5 @@ The seven goals:
 !!! mascot-celebration "You Can Read a License"
     ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now tell the six Creative Commons licenses apart, write a TASL credit line, and check whether two licenses can be combined. That is the reading skill every reusability score in this book depends on.
+
+[See Annotated References](./references.md)

@@ -851,3 +851,5 @@ The pilot found equity differences of a different kind. The original version had
 !!! mascot-celebration "You Can Read the Evidence"
     ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now collect and protect test data, compare two groups, size an effect, weigh what students say, and check whether the rubric predicts learning. Next comes the work of packaging and publishing an improved resource, and of training the reviewers who will keep the loop going.
+
+[See Annotated References](./references.md)

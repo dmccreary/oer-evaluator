@@ -695,3 +695,5 @@ The five resources:
 !!! mascot-celebration "You Can Judge Practice and Feedback"
     ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now judge a quiz question, rate a feedback message, spot a missing worked example, decide when a simulation earns its place, and score practice with feedback with evidence. With this chapter, all five quality metrics are in your hands.
+
+[See Annotated References](./references.md)

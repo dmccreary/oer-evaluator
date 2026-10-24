@@ -334,3 +334,5 @@ An **adoption recommendation** is the reviewer's written advice to the decision-
 !!! mascot-celebration "You Can Review a Resource From Start to Finish"
     ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now run a full manual review, record the evidence, reconcile scores with a second reviewer, and turn the total into an adopt, revise, or reject recommendation you can defend. That is the human standard that every AI agent in the coming chapters will be measured against.
+
+[See Annotated References](./references.md)

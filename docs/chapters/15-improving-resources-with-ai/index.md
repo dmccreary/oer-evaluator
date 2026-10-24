@@ -972,3 +972,5 @@ The six quiz questions, in this order:
 !!! mascot-celebration "You Can Turn a Score Into a Better Resource"
     ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now plan an improvement, check what the license allows, fix a resource with an agent, review and log each change, and prove the gain with a full re-score. The next chapters ask the harder question of whether students learn more from the improved version.
+
+[See Annotated References](./references.md)

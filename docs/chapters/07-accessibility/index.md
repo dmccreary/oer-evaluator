@@ -824,3 +824,5 @@ The five resources:
 !!! mascot-celebration "You Can Check Who Gets Left Out"
     ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now check a resource against WCAG 2.1 AA, write useful alt text, measure a contrast ratio, test a page with a keyboard, and score accessibility with evidence. Every learner who can get through a resource is a learner your score helped to count.
+
+[See Annotated References](./references.md)

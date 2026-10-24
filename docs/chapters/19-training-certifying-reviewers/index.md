@@ -784,3 +784,5 @@ The most useful professional development is a cycle and not an event. A teacher 
 !!! mascot-celebration "You Finished the Whole Loop"
     ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now evaluate an open resource, check the agent that helped, improve the resource, test it with students, publish it, and teach others to do the same. Pick one resource you use this week, and start the loop.
+
+[See Annotated References](./references.md)

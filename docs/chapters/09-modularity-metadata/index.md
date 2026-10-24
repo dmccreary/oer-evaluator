@@ -847,3 +847,5 @@ The nine cases:
 !!! mascot-celebration "You Can Check Whether It Can Be Found and Reused"
     ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now score a resource's license, test whether its parts stand alone, read and write a metadata record, and score all three reusability metrics with evidence. A resource that can be found, understood, and lifted out is a resource that other teachers can actually use.
+
+[See Annotated References](./references.md)

@@ -389,3 +389,5 @@ The five resources:
 !!! mascot-celebration "All Ten Metrics Are in Your Hands"
     ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now test whether a resource opens in the main browsers, needs a login, embeds in another page, and moves between platforms, and you can score portability with evidence. With this chapter you have met all ten metrics, and the rest of the book puts them to work.
+
+[See Annotated References](./references.md)

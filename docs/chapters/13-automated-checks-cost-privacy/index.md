@@ -460,3 +460,5 @@ The ten items:
 !!! mascot-celebration "You Can Automate With Care"
     ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now choose which checks to automate, keep a person in the loop, triage several agents, price a batch, and keep student data out of harm's way. The agent can do the counting, and you keep the judgment and the responsibility.
+
+[See Annotated References](./references.md)

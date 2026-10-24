@@ -1122,3 +1122,5 @@ The six scenarios, in this order:
 !!! mascot-celebration "You Can Score With Evidence"
     ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now score a metric from 0 to 10, back the score with a cited observation, add ten scores into subtotals and a total, and tell whether two reviewers agree. That is the method every metric chapter from here on puts to work.
+
+[See Annotated References](./references.md)

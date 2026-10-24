@@ -616,3 +616,5 @@ Most teachers answer these questions informally, and informal answers vary from 
 !!! mascot-celebration "You Have the Vocabulary"
     ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now define an OER, tell open from merely free, name the 5R permissions, and choose between adopting, adapting, and creating. That vocabulary is the base every later chapter stands on.
+
+[See Annotated References](./references.md)

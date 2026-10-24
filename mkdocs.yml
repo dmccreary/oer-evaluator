@@ -41,25 +41,63 @@ nav:
 
   - Chapters:
       - List of Chapters: chapters/index.md
-      - 1. Foundations of Open Educational Resources: chapters/01-foundations-of-oer/index.md
-      - 2. Open Licenses and Attribution: chapters/02-open-licenses-attribution/index.md
-      - 3. The Ten-Metric Rubric and Scoring: chapters/03-ten-metric-rubric-scoring/index.md
-      - 4. Open File Formats and Version Control: chapters/04-open-formats-version-control/index.md
-      - 5. Accuracy and Currency: chapters/05-accuracy-currency/index.md
-      - 6. Alignment and Readability: chapters/06-alignment-readability/index.md
-      - 7. Accessibility: chapters/07-accessibility/index.md
-      - 8. Practice and Feedback: chapters/08-practice-feedback/index.md
-      - 9. Modularity and Metadata: chapters/09-modularity-metadata/index.md
-      - 10. Portability and Reuse Across Platforms: chapters/10-portability-reuse/index.md
-      - 11. Manual Evaluation and Adoption Decisions: chapters/11-manual-evaluation-adoption/index.md
-      - 12. AI Agents, Prompts, and Rubric Scoring: chapters/12-ai-agents-prompts-scoring/index.md
-      - 13. Automated Checks, Cost, and Student Privacy: chapters/13-automated-checks-cost-privacy/index.md
-      - 14. Checking and Calibrating AI Agent Output: chapters/14-checking-agent-output/index.md
-      - 15. Improving a Resource with AI Agents: chapters/15-improving-resources-with-ai/index.md
-      - 16. Designing an A/B Test with Students: chapters/16-ab-testing-design/index.md
-      - 17. Analyzing A/B Test Results: chapters/17-ab-testing-analysis/index.md
-      - 18. Reusable Components and Publishing OER: chapters/18-components-publishing-oer/index.md
-      - 19. Training Teachers and Certifying Reviewers: chapters/19-training-certifying-reviewers/index.md
+      - 1. Foundations of Open Educational Resources:
+          - Content: chapters/01-foundations-of-oer/index.md
+          - Annotated References: chapters/01-foundations-of-oer/references.md
+      - 2. Open Licenses and Attribution:
+          - Content: chapters/02-open-licenses-attribution/index.md
+          - Annotated References: chapters/02-open-licenses-attribution/references.md
+      - 3. The Ten-Metric Rubric and Scoring:
+          - Content: chapters/03-ten-metric-rubric-scoring/index.md
+          - Annotated References: chapters/03-ten-metric-rubric-scoring/references.md
+      - 4. Open File Formats and Version Control:
+          - Content: chapters/04-open-formats-version-control/index.md
+          - Annotated References: chapters/04-open-formats-version-control/references.md
+      - 5. Accuracy and Currency:
+          - Content: chapters/05-accuracy-currency/index.md
+          - Annotated References: chapters/05-accuracy-currency/references.md
+      - 6. Alignment and Readability:
+          - Content: chapters/06-alignment-readability/index.md
+          - Annotated References: chapters/06-alignment-readability/references.md
+      - 7. Accessibility:
+          - Content: chapters/07-accessibility/index.md
+          - Annotated References: chapters/07-accessibility/references.md
+      - 8. Practice and Feedback:
+          - Content: chapters/08-practice-feedback/index.md
+          - Annotated References: chapters/08-practice-feedback/references.md
+      - 9. Modularity and Metadata:
+          - Content: chapters/09-modularity-metadata/index.md
+          - Annotated References: chapters/09-modularity-metadata/references.md
+      - 10. Portability and Reuse Across Platforms:
+          - Content: chapters/10-portability-reuse/index.md
+          - Annotated References: chapters/10-portability-reuse/references.md
+      - 11. Manual Evaluation and Adoption Decisions:
+          - Content: chapters/11-manual-evaluation-adoption/index.md
+          - Annotated References: chapters/11-manual-evaluation-adoption/references.md
+      - 12. AI Agents, Prompts, and Rubric Scoring:
+          - Content: chapters/12-ai-agents-prompts-scoring/index.md
+          - Annotated References: chapters/12-ai-agents-prompts-scoring/references.md
+      - 13. Automated Checks, Cost, and Student Privacy:
+          - Content: chapters/13-automated-checks-cost-privacy/index.md
+          - Annotated References: chapters/13-automated-checks-cost-privacy/references.md
+      - 14. Checking and Calibrating AI Agent Output:
+          - Content: chapters/14-checking-agent-output/index.md
+          - Annotated References: chapters/14-checking-agent-output/references.md
+      - 15. Improving a Resource with AI Agents:
+          - Content: chapters/15-improving-resources-with-ai/index.md
+          - Annotated References: chapters/15-improving-resources-with-ai/references.md
+      - 16. Designing an A/B Test with Students:
+          - Content: chapters/16-ab-testing-design/index.md
+          - Annotated References: chapters/16-ab-testing-design/references.md
+      - 17. Analyzing A/B Test Results:
+          - Content: chapters/17-ab-testing-analysis/index.md
+          - Annotated References: chapters/17-ab-testing-analysis/references.md
+      - 18. Reusable Components and Publishing OER:
+          - Content: chapters/18-components-publishing-oer/index.md
+          - Annotated References: chapters/18-components-publishing-oer/references.md
+      - 19. Training Teachers and Certifying Reviewers:
+          - Content: chapters/19-training-certifying-reviewers/index.md
+          - Annotated References: chapters/19-training-certifying-reviewers/references.md
 
   - Learning Graph:
       - Introduction: learning-graph/index.md

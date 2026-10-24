@@ -705,3 +705,5 @@ The five resources:
 !!! mascot-celebration "You Can Tell Source From Cake"
     ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now tell an editable source from a locked file, name an open format, read a repository's history, and score the editable source metric with evidence. A resource you can change is a resource you can improve, and this chapter gave you the means to check.
+
+[See Annotated References](./references.md)

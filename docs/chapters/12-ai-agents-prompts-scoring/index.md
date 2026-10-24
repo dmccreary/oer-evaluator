@@ -1080,3 +1080,5 @@ The scores moved from 8 to 6 as the prompt forced evidence, and the agent still 
 !!! mascot-celebration "You Can Brief an Agent Like a Reviewer"
     ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now explain what an assistant, a model, and an agent are, write a prompt with its six parts, and build a rubric prompt that demands evidence and allows "not checkable". The agent's first pass is a draft, and the next two chapters show you how to guard it and how to check it.
+
+[See Annotated References](./references.md)

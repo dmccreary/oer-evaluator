@@ -1106,3 +1106,5 @@ The three uses, offered as choices: May be used as a first pass; May be used onl
 !!! mascot-celebration "You Can Check the Checker"
     ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now catch an agent's invented facts, citations, and license readings, log what you decided, and measure whether the agent agrees with careful humans. The next chapter turns from judging resources to improving them.
+
+[See Annotated References](./references.md)

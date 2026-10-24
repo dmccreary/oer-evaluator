@@ -741,3 +741,5 @@ The five resources:
 !!! mascot-celebration "You Can Check a Claim to Its Source"
     ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now check a sample of facts, trace a citation back to its source, spot content that has aged, test the links, and score accuracy and currency with evidence. Every quality score from here on rests on the same habit of asking what a claim stands on.
+
+[See Annotated References](./references.md)

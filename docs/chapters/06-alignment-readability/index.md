@@ -1015,3 +1015,5 @@ The six cases:
 !!! mascot-celebration "You Can Check the Match and the Words"
     ![Echo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now map a resource to its outcomes and find the gaps, rate its reading level, check its terms and structure, and score both alignment and readability with evidence. These two scores tell you whether a resource teaches what it promises in words its readers can use.
+
+[See Annotated References](./references.md)
