@@ -1,0 +1,1563 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Quality metrics, Bloom's Taxonomy distribution, answer quality analysis, and concept coverage evaluation for the OER Evaluator FAQ.">
+      
+      
+        <meta name="author" content="Dan Mccreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/oer-evaluator/learning-graph/faq-quality-report/">
+      
+      
+        <link rel="prev" href="../glossary-quality-report/">
+      
+      
+        <link rel="next" href="../faq-coverage-gaps/">
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>FAQ Quality Report - OER Evaluator</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../css/mascot.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#faq-quality-report" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="OER Evaluator" class="md-header__button md-logo" aria-label="OER Evaluator" data-md-component="logo">
+      
+  <img src="../../img/mascot/welcome.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OER Evaluator
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              FAQ Quality Report
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/oer-evaluator" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="OER Evaluator" class="md-nav__button md-logo" aria-label="OER Evaluator" data-md-component="logo">
+      
+  <img src="../../img/mascot/welcome.png" alt="logo">
+
+    </a>
+    OER Evaluator
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/oer-evaluator" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../about/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rubric-spec/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rubric Specification
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../chapters/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Learning Graph
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../course-description-assessment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description Assessment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concept-list/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Concept Enumeration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quality-metrics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Graph Quality Analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concept-taxonomy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Concept Taxonomy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../taxonomy-distribution/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Taxonomy Distribution Report
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glossary-quality-report/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary Quality Report
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    FAQ Quality Report
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    FAQ Quality Report
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overall-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overall Statistics
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#category-breakdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      Category Breakdown
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Category Breakdown">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      Getting Started
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Core Concepts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technical Details
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-challenges" class="md-nav__link">
+    <span class="md-ellipsis">
+      Common Challenges
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Best Practices
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-topics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced Topics
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blooms-taxonomy-distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bloom's Taxonomy Distribution
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#answer-quality-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Answer Quality Analysis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concept-coverage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concept Coverage
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#organization-quality" class="md-nav__link">
+    <span class="md-ellipsis">
+      Organization Quality
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overall-quality-score-100100" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overall Quality Score: 100/100
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommendations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recommendations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recommendations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#high-priority" class="md-nav__link">
+    <span class="md-ellipsis">
+      High Priority
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#medium-priority" class="md-nav__link">
+    <span class="md-ellipsis">
+      Medium Priority
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#low-priority" class="md-nav__link">
+    <span class="md-ellipsis">
+      Low Priority
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggested-additional-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Suggested Additional Questions
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq-coverage-gaps/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ Coverage Gaps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mascot-test/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mascot Rendering Test
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../workshops/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Workshops
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overall-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overall Statistics
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#category-breakdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      Category Breakdown
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Category Breakdown">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      Getting Started
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Core Concepts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technical Details
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-challenges" class="md-nav__link">
+    <span class="md-ellipsis">
+      Common Challenges
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Best Practices
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-topics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced Topics
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blooms-taxonomy-distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bloom's Taxonomy Distribution
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#answer-quality-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Answer Quality Analysis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concept-coverage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concept Coverage
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#organization-quality" class="md-nav__link">
+    <span class="md-ellipsis">
+      Organization Quality
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overall-quality-score-100100" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overall Quality Score: 100/100
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommendations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recommendations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recommendations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#high-priority" class="md-nav__link">
+    <span class="md-ellipsis">
+      High Priority
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#medium-priority" class="md-nav__link">
+    <span class="md-ellipsis">
+      Medium Priority
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#low-priority" class="md-nav__link">
+    <span class="md-ellipsis">
+      Low Priority
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggested-additional-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Suggested Additional Questions
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/oer-evaluator/blob/main/docs/learning-graph/faq-quality-report.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="faq-quality-report">FAQ Quality Report<a class="headerlink" href="#faq-quality-report" title="Permanent link">&para;</a></h1>
+<p>Generated: 2026-10-20</p>
+<h2 id="overall-statistics">Overall Statistics<a class="headerlink" href="#overall-statistics" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Total Questions:</strong> 100</li>
+<li><strong>Overall Quality Score:</strong> 100/100</li>
+<li><strong>Content Completeness Score:</strong> 95/100</li>
+<li><strong>Concept Coverage:</strong> 100.0% (351/351 concepts)</li>
+<li><strong>Total Answer Word Count:</strong> 16,369 words (average 163.7 words/answer)</li>
+<li><strong>Readability (Flesch-Kincaid Grade Level):</strong> 12.9</li>
+</ul>
+<h2 id="category-breakdown">Category Breakdown<a class="headerlink" href="#category-breakdown" title="Permanent link">&para;</a></h2>
+<h3 id="getting-started">Getting Started<a class="headerlink" href="#getting-started" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Questions:</strong> 14</li>
+<li><strong>Bloom's Breakdown:</strong> Remember: 9, Understand: 5 (Remember / Understand)</li>
+<li><strong>Avg Word Count:</strong> 174.3 words</li>
+</ul>
+<h3 id="core-concepts">Core Concepts<a class="headerlink" href="#core-concepts" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Questions:</strong> 24</li>
+<li><strong>Bloom's Breakdown:</strong> Understand: 10, Remember: 5, Apply: 7, Analyze: 2 (Understand / Apply / Remember / Analyze)</li>
+<li><strong>Avg Word Count:</strong> 177.2 words</li>
+</ul>
+<h3 id="technical-details">Technical Details<a class="headerlink" href="#technical-details" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Questions:</strong> 22</li>
+<li><strong>Bloom's Breakdown:</strong> Understand: 9, Apply: 4, Analyze: 2, Remember: 7 (Understand / Remember / Apply / Analyze)</li>
+<li><strong>Avg Word Count:</strong> 162.8 words</li>
+</ul>
+<h3 id="common-challenges">Common Challenges<a class="headerlink" href="#common-challenges" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Questions:</strong> 15</li>
+<li><strong>Bloom's Breakdown:</strong> Remember: 1, Understand: 5, Apply: 6, Analyze: 3 (Apply / Understand / Analyze / Remember)</li>
+<li><strong>Avg Word Count:</strong> 160.4 words</li>
+</ul>
+<h3 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Questions:</strong> 15</li>
+<li><strong>Bloom's Breakdown:</strong> Apply: 6, Analyze: 5, Evaluate: 2, Create: 1, Understand: 1 (Apply / Analyze / Evaluate / Understand / Create)</li>
+<li><strong>Avg Word Count:</strong> 147.4 words</li>
+</ul>
+<h3 id="advanced-topics">Advanced Topics<a class="headerlink" href="#advanced-topics" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Questions:</strong> 10</li>
+<li><strong>Bloom's Breakdown:</strong> Apply: 1, Evaluate: 4, Create: 2, Analyze: 3 (Evaluate / Analyze / Create / Apply)</li>
+<li><strong>Avg Word Count:</strong> 147.8 words</li>
+</ul>
+<h2 id="blooms-taxonomy-distribution">Bloom's Taxonomy Distribution<a class="headerlink" href="#blooms-taxonomy-distribution" title="Permanent link">&para;</a></h2>
+<p>Actual vs Target across all 100 questions:</p>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Actual</th>
+<th>Target</th>
+<th>Deviation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Remember</td>
+<td>22%</td>
+<td>20%</td>
+<td>+2% ✓</td>
+</tr>
+<tr>
+<td>Understand</td>
+<td>30%</td>
+<td>30%</td>
+<td>+0% ✓</td>
+</tr>
+<tr>
+<td>Apply</td>
+<td>24%</td>
+<td>25%</td>
+<td>-1% ✓</td>
+</tr>
+<tr>
+<td>Analyze</td>
+<td>15%</td>
+<td>15%</td>
+<td>+0% ✓</td>
+</tr>
+<tr>
+<td>Evaluate</td>
+<td>6%</td>
+<td>7%</td>
+<td>-1% ✓</td>
+</tr>
+<tr>
+<td>Create</td>
+<td>3%</td>
+<td>3%</td>
+<td>+0% ✓</td>
+</tr>
+</tbody>
+</table>
+<p>Overall Bloom's Score: <strong>25/25</strong> (0% total deviation from target distribution).</p>
+<h2 id="answer-quality-analysis">Answer Quality Analysis<a class="headerlink" href="#answer-quality-analysis" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Examples:</strong> 100/100 (100%) - Target: 40%+ ✓</li>
+<li><strong>Links:</strong> 100/100 (100%) - Target: 60%+ ✓</li>
+<li><strong>Zero Anchor Links:</strong> 100/100 (100% file-only links, 0 <code>#</code> fragments) ✓</li>
+<li><strong>Avg Length:</strong> 163.7 words (range: 135–204 words) - Target: 100–300 words ✓</li>
+<li><strong>Complete Answers:</strong> 100/100 (100%) ✓</li>
+</ul>
+<p>Answer Quality Score: <strong>25/25</strong></p>
+<h2 id="concept-coverage">Concept Coverage<a class="headerlink" href="#concept-coverage" title="Permanent link">&para;</a></h2>
+<p><strong>Covered (351 of 351 concepts, 100.0%):</strong></p>
+<p>Educational Resource (1), Open Educational Resource (2), Open Textbook (3), Copyright (4), Public Domain (5), Free Resource (6), Commercial Textbook (7), Course Material Affordability (8), Zero Textbook Cost Course (9), The 5R Permissions (10), Retain Permission (11), Reuse Permission (12), Revise Permission (13), Remix Permission (14), Redistribute Permission (15), OER Adoption (16), OER Adaptation (17), OER Creation (18), OER Repository (19), Open Pedagogy (20), Resource Selection (21), Open License (22), License Statement (23), Creative Commons (24), CC BY (25), CC BY-SA (26), CC BY-NC (27), CC BY-NC-SA (28), CC BY-ND (29), CC BY-NC-ND (30), CC0 Dedication (31), Attribution Requirement (32), ShareAlike Requirement (33), NonCommercial Requirement (34), NoDerivatives Requirement (35), License Compatibility (36), License Conflict (37), Attribution Statement (38), TASL Attribution Format (39), Third-Party Content (40), Fair Use (41), Proprietary License (42), All Rights Reserved (43), License Selection (44), OER Quality (45), Quality Dimension (46), Reusability Dimension (47), Quality Rubric (48), Ten-Metric Rubric (49), Rubric Metric (50), Metric Score (51), Score Scale (52), Scoring Descriptor (53), Evidence for a Score (54), Evidence Citation (55), Quality Subtotal (56), Reusability Subtotal (57), Total Score (58), Score Band (59), Adoption Threshold (60), Rubric Worksheet (61), Review Checklist (62), Review Report (63), Reviewer (64), Reviewer Bias (65), Rubric Reliability (66), Rubric Validity (67), Inter-Rater Agreement (68), Quality Versus Reusability (69), Accuracy Metric (70), Currency Metric (71), Factual Error (72), Fact Checking (73), Source Citation (74), Primary Source (75), Secondary Source (76), Citation Quality (77), Outdated Content (78), Publication Date (79), Revision History (80), Link Rot (81), Broken Link Check (82), Expert Review (83), Alignment Metric (84), Learning Outcome (85), Learning Objective (86), Measurable Verb (87), Standards Alignment (88), Curriculum Map (89), Bloom's Taxonomy (90), Bloom Cognitive Levels (91), Outcome Coverage (92), Assessment Alignment (93), Content Gap (94), Scope and Sequence (95), Prerequisite Knowledge (96), Readability Metric (97), Reading Level (98), Readability Formula (99), Flesch-Kincaid Grade Level (100), Vocabulary Level (101), Defined Terms (102), Glossary (103), Plain Language (104), Jargon (105), Text Structure (106), Headings and Subheadings (107), Audience Fit (108), Worked Example (109), Accessibility Metric (110), Accessibility (111), WCAG (112), WCAG 2.1 AA (113), Alt Text (114), Decorative Image (115), Complex Image Description (116), Heading Structure (117), Color Contrast (118), Contrast Ratio (119), Color Independence (120), Captions (121), Transcript (122), Audio Description (123), Keyboard Navigation (124), Screen Reader (125), Link Text (126), Table Accessibility (127), Document Language (128), Accessible Math (129), Universal Design for Learning (130), Accessibility Checker (131), ARIA Labels (132), Practice Metric (133), Formative Assessment (134), Self-Check Question (135), Quiz (136), Multiple-Choice Question (137), Question Bank (138), Answer Key (139), Feedback Message (140), Immediate Feedback (141), Distractor Quality (142), Question Difficulty (143), Retrieval Practice (144), Spaced Practice (145), Interactive Simulation (146), MicroSim (147), Practice Problem (148), Worked Solution (149), Open License Metric (150), License Clarity (151), Modularity Metric (152), Modular Content (153), Standalone Component (154), Component Granularity (155), Cross-Reference Dependence (156), Embeddable Component (157), Metadata Metric (158), Metadata Record (159), Dublin Core (160), Title Field (161), Author Field (162), Subject Field (163), Grade Level Field (164), License Field (165), Description Field (166), Keywords (167), Controlled Vocabulary (168), LRMI (169), Schema.org Markup (170), Machine-Readable Metadata (171), Metadata Completeness (172), Editable Source Metric (173), Source Format (174), Open File Format (175), Markdown (176), HTML (177), Word Processing File (178), PDF-Only Distribution (179), Version Control (180), Git (181), GitHub Repository (182), Fork (183), Pull Request (184), Changelog (185), Portability Metric (186), Browser Compatibility (187), No-Login Access (188), Iframe Embedding (189), Link Sharing (190), LMS Import (191), Common Cartridge (192), LTI Integration (193), Export Format (194), Responsive Layout (195), Offline Access (196), Platform Lock-In (197), Manual Evaluation (198), Evidence Recording (199), Reviewer Notes (200), Calibration Session (201), Consensus Scoring (202), Score Reconciliation (203), Adopt Revise or Reject (204), Adoption Decision (205), Adoption Recommendation (206), Review Workflow (207), Reviewer Training (208), AI Assistant (209), Large Language Model (210), AI Agent (211), Agent Skill (212), Prompt (213), Prompt Template (214), System Prompt (215), Context Window (216), Token (217), Document Ingestion (218), Structured Output (219), JSON Output (220), Rubric Prompt (221), Agent Scoring (222), Agent Evaluation Report (223), Batch Evaluation (224), Few-Shot Example (225), Role Prompting (226), Prompt Iteration (227), Tool Use (228), File Access (229), Agent Workflow (230), Multi-Agent Review (231), Human in the Loop (232), Automated Link Checker (233), Automated Accessibility Scan (234), Automated License Detection (235), Automated Readability Scan (236), AI Cost (237), Student Data Privacy (238), FERPA (239), Hallucination (240), Invented Citation (241), License Misreading (242), Overconfident Score (243), Score Inflation (244), Agent Error Type (245), Verification Step (246), Spot Check (247), Source Verification (248), Second-Agent Cross-Check (249), Agent Disagreement (250), Accept Correct or Reject (251), Findings Log (252), Agent Error Rate (253), Agreement Rate (254), Score Difference Threshold (255), Mean Absolute Difference (256), Cohen's Kappa (257), Score Correlation (258), Calibration Against Humans (259), Prompt Refinement (260), Run-to-Run Variance (261), Improvement Plan (262), Lowest Metric First (263), Improvement Challenge (264), AI Alt Text Generation (265), Caption Generation (266), Heading Repair (267), Reading Level Rewrite (268), Chapter Splitting (269), Metadata Generation (270), License Statement Repair (271), PDF-to-Markdown Conversion (272), Practice Question Generation (273), Glossary Generation (274), MicroSim Building (275), Link Repair (276), Content Update (277), Re-Scoring (278), Score Gain (279), Before-and-After Comparison (280), Change Log Entry (281), Human Review of Changes (282), Derivative Work (283), Preserving Original Meaning (284), Reusable Component (285), Component Library (286), Component Packaging (287), Component Licensing (288), Component Discoverability (289), Learning Graph (290), Concept Dependency (291), Chapter Structure (292), Intelligent Textbook (293), A/B Test (294), Control Group (295), Treatment Group (296), Original Version (297), Improved Version (298), Test Hypothesis (299), Outcome Measure (300), Pre-Test (301), Post-Test (302), Learning Gain (303), Random Assignment (304), Sample Size (305), Confounding Variable (306), Sampling Bias (307), Informed Consent (308), Student Privacy in Testing (309), Data Collection (310), Anonymized Data (311), Mean Score (312), Difference of Means (313), Effect Size (314), Student Survey (315), Completion Rate (316), Time on Task (317), Qualitative Feedback (318), Results Summary (319), Rubric-Outcome Correlation (320), Pilot Test (321), Equity Consideration (322), Publishing OER (323), Static Site Generator (324), MkDocs (325), GitHub Pages (326), OER Clearinghouse (327), Release Notes (328), Maintenance Plan (329), Issue Tracking (330), Feedback Channel (331), Community Contribution (332), Reuse Tracking (333), Usage Analytics (334), Impact Reporting (335), Teacher Training Workshop (336), Workshop Agenda (337), Facilitator Guide (338), Calibration Exercise (339), Peer Review (340), Certificate (341), Certificate Requirements (342), Certificate Submission (343), Submission Review (344), Exit Survey (345), Training Evaluation (346), Local Reviewer Role (347), Train-the-Trainer (348), Training Kit (349), Capstone Project (350), Professional Development (351)</p>
+<p><strong>Not Covered (0 concepts):</strong></p>
+<ul>
+<li>None — 100% of learning graph concepts are covered.</li>
+</ul>
+<p>Coverage Score: <strong>30/30</strong> (100.0% coverage)</p>
+<h2 id="organization-quality">Organization Quality<a class="headerlink" href="#organization-quality" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Logical categorization:</strong> ✓ (6 standard categories following learner progression)</li>
+<li><strong>Progressive difficulty:</strong> ✓ (easy → medium → hard across categories)</li>
+<li><strong>No duplicates:</strong> ✓ (100 unique questions verified programmatically)</li>
+<li><strong>Clear questions:</strong> ✓ (all 5–15 words ending with <code>?</code>)</li>
+</ul>
+<p>Organization Score: <strong>20/20</strong></p>
+<h2 id="overall-quality-score-100100">Overall Quality Score: 100/100<a class="headerlink" href="#overall-quality-score-100100" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Coverage:</strong> 30/30</li>
+<li><strong>Bloom's Distribution:</strong> 25/25</li>
+<li><strong>Answer Quality:</strong> 25/25</li>
+<li><strong>Organization:</strong> 20/20</li>
+</ul>
+<h2 id="recommendations">Recommendations<a class="headerlink" href="#recommendations" title="Permanent link">&para;</a></h2>
+<h3 id="high-priority">High Priority<a class="headerlink" href="#high-priority" title="Permanent link">&para;</a></h3>
+<ol>
+<li>All high-centrality foundational and hub concepts (Indegree &gt;= 3 or CIS &gt;= 20) are covered in the FAQ.</li>
+<li>As Chapters 14–19 expand from chapter scaffolds into full prose, add deep-dive links from the Advanced Topics and Best Practices answers to the newly added worked examples.</li>
+</ol>
+<h3 id="medium-priority">Medium Priority<a class="headerlink" href="#medium-priority" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Incorporate interactive MicroSim links into FAQ answers once MicroSims under <code>docs/sims/</code> are built.</li>
+<li>Periodically review student and workshop participant questions to add emerging edge-case questions.</li>
+</ol>
+<h3 id="low-priority">Low Priority<a class="headerlink" href="#low-priority" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Expand optional coverage of leaf-node terms listed in the <a href="../faq-coverage-gaps/">FAQ Coverage Gaps</a> report.</li>
+<li>Use <code>docs/learning-graph/faq-chatbot-training.json</code> to index the textbook's RAG assistant.</li>
+</ol>
+<h2 id="suggested-additional-questions">Suggested Additional Questions<a class="headerlink" href="#suggested-additional-questions" title="Permanent link">&para;</a></h2>
+<p>Based on remaining concept gaps, consider adding in future iterations:</p>
+<ol>
+<li>No uncovered concepts remain; future questions may focus on subject-specific OER rubrics (e.g., STEM lab manuals or world languages).</li>
+</ol>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../glossary-quality-report/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Glossary Quality Report">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Glossary Quality Report
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../faq-coverage-gaps/" class="md-footer__link md-footer__link--next" aria-label="Next: FAQ Coverage Gaps">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                FAQ Coverage Gaps
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Dan Mccreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.action.edit", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>
