@@ -1,0 +1,1121 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Objective steps for evaluating open educational resources (OER).  A focus on manual A/B testing with students as AI skills for automated assessments of OER textbooks.">
+      
+      
+        <meta name="author" content="Dan Mccreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/oer-evaluator/chapters/08-practice-feedback/quiz/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Quiz: Practice and Feedback - OER Evaluator</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../../css/mascot.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#quiz-practice-and-feedback" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="OER Evaluator" class="md-header__button md-logo" aria-label="OER Evaluator" data-md-component="logo">
+      
+  <img src="../../../img/mascot/welcome.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OER Evaluator
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Quiz: Practice and Feedback
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/oer-evaluator" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="OER Evaluator" class="md-nav__button md-logo" aria-label="OER Evaluator" data-md-component="logo">
+      
+  <img src="../../../img/mascot/welcome.png" alt="logo">
+
+    </a>
+    OER Evaluator
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/oer-evaluator" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../about/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../course-description/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Description
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rubric-spec/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rubric Specification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapters
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../learning-graph/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning Graph
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../sims/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MicroSims
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../workshops/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workshops
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    License
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contact
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-what-are-the-three-parts-of-a-multiple-choice-question" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. What are the three parts of a multiple-choice question?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-which-term-names-practice-in-which-the-learner-tries-to-recall-something-from-memory-without-looking-at-the-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Which term names practice in which the learner tries to recall something from memory without looking at the source?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-how-does-a-worked-solution-differ-from-a-worked-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. How does a worked solution differ from a worked example?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-which-pair-correctly-contrasts-formative-and-summative-assessment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Which pair correctly contrasts formative and summative assessment?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-why-does-the-chapter-say-that-a-quiz-ending-with-you-got-5-of-8-has-not-given-the-learner-useful-feedback" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Why does the chapter say that a quiz ending with "You got 5 of 8" has not given the learner useful feedback?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-why-do-worked-examples-often-help-learners-who-are-new-to-a-topic-more-than-solving-the-same-problems-unaided" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Why do worked examples often help learners who are new to a topic more than solving the same problems unaided?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-a-learner-answers-which-describes-infiltration-with-water-flowing-over-the-ground-which-feedback-message-best-follows-the-chapters-guidance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. A learner answers "Which describes infiltration?" with "Water flowing over the ground." Which feedback message best follows the chapter's guidance?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-a-student-closes-the-book-and-quizzes-themself-with-flash-cards-on-monday-again-on-thursday-and-again-the-following-monday-how-should-this-plan-be-classified" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. A student closes the book and quizzes themself with flash cards on Monday, again on Thursday, and again the following Monday. How should this plan be classified?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-a-reviewer-reads-this-question-which-caused-increased-runoff-a-paving-b-bare-soil-c-heavy-rain-d-all-of-the-above-what-is-the-main-flaw" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. A reviewer reads this question: "Which caused increased runoff? A. Paving. B. Bare soil. C. Heavy rain. D. All of the above." What is the main flaw?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-a-reviewer-finds-that-a-unit-has-no-practice-questions-at-all-only-one-worked-example-how-does-the-chapters-scoring-rule-treat-the-other-practice-checks-and-what-is-the-effect-on-the-score" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. A reviewer finds that a unit has no practice questions at all, only one worked example. How does the chapter's scoring rule treat the other practice checks, and what is the effect on the score?
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/dmccreary/oer-evaluator/blob/main/docs/chapters/08-practice-feedback/quiz.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="quiz-practice-and-feedback">Quiz: Practice and Feedback<a class="headerlink" href="#quiz-practice-and-feedback" title="Permanent link">&para;</a></h1>
+<p>Test your understanding of formative assessment, quiz design, feedback messages, retrieval and spaced practice, worked examples, and simulations with these review questions.</p>
+<hr />
+<h4 id="1-what-are-the-three-parts-of-a-multiple-choice-question">1. What are the three parts of a multiple-choice question?<a class="headerlink" href="#1-what-are-the-three-parts-of-a-multiple-choice-question" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>The stem, the key, and the distractors</li>
+<li>The prompt, the rubric, and the answer key</li>
+<li>The stem, the feedback message, and the question bank</li>
+<li>The key, the outcome tag, and the retry control</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>A</strong>. The stem is the question or incomplete statement, the key is the correct option, and the distractors are the wrong options. Multiple-choice questions are easy for a computer to score and fast to answer, but they test recognition more easily than the ability to produce an answer, so a good quiz includes other kinds too. A feedback message, a tag, and a retry control are useful extras and not parts of the question itself.</p>
+<p><strong>Concept Tested:</strong> Multiple-Choice Question</p>
+<p><strong>See:</strong> <a href="../#multiple-choice-question">Multiple-Choice Question</a></p>
+</details>
+<hr />
+<h4 id="2-which-term-names-practice-in-which-the-learner-tries-to-recall-something-from-memory-without-looking-at-the-source">2. Which term names practice in which the learner tries to recall something from memory without looking at the source?<a class="headerlink" href="#2-which-term-names-practice-in-which-the-learner-tries-to-recall-something-from-memory-without-looking-at-the-source" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Spaced practice</li>
+<li>Massed practice</li>
+<li>Retrieval practice</li>
+<li>Summative assessment</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. Retrieval practice includes answering a question, writing down what you remember of a chapter, and using flash cards. Research on the testing effect finds that retrieving information strengthens memory more than rereading it, and it works best when feedback follows. Spaced practice (A) and massed practice (B) describe when practice happens, not what the learner does, so a plan can be retrieval and spaced at once.</p>
+<p><strong>Concept Tested:</strong> Retrieval Practice</p>
+<p><strong>See:</strong> <a href="../#retrieval-practice">Retrieval Practice</a></p>
+</details>
+<hr />
+<h4 id="3-how-does-a-worked-solution-differ-from-a-worked-example">3. How does a worked solution differ from a worked example?<a class="headerlink" href="#3-how-does-a-worked-solution-differ-from-a-worked-example" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>A worked example gives only final answers, while a worked solution gives every step of the method</li>
+<li>A worked example comes before the learner tries, as a model, while a worked solution comes after an attempt</li>
+<li>A worked example is written for teachers, while a worked solution is written for learners</li>
+<li>A worked example appears after the attempt, while a worked solution appears before it</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>B</strong>. Both show a full step-by-step solution, and the difference is timing and purpose. A worked example comes before practice as a model of the method. A worked solution comes after the learner's attempt, so the learner can find where their own method went wrong. An answer key, by contrast, shows only the final answers (A). Option D reverses the order.</p>
+<p><strong>Concept Tested:</strong> Worked Solution</p>
+<p><strong>See:</strong> <a href="../#worked-solution">Worked Solution</a></p>
+</details>
+<hr />
+<h4 id="4-which-pair-correctly-contrasts-formative-and-summative-assessment">4. Which pair correctly contrasts formative and summative assessment?<a class="headerlink" href="#4-which-pair-correctly-contrasts-formative-and-summative-assessment" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Formative assessment is always graded, while summative assessment is never graded at all</li>
+<li>Formative assessment comes at the end of a unit, while summative assessment happens during learning</li>
+<li>Formative assessment guides learning as it happens, while summative assessment judges what was learned at the end</li>
+<li>Formative assessment uses only multiple-choice items, while summative assessment uses only essays</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. Formative assessment is assessment for learning: it is low stakes, often ungraded, repeatable, and used to adjust what comes next. Summative assessment, such as a final exam or a certificate exam, judges what was learned at the end. The same format can serve either purpose, so the question to ask is what the result is used for. A quiz in an open resource is usually a formative tool.</p>
+<p><strong>Concept Tested:</strong> Formative Assessment</p>
+<p><strong>See:</strong> <a href="../#formative-assessment">Formative Assessment</a></p>
+</details>
+<hr />
+<h4 id="5-why-does-the-chapter-say-that-a-quiz-ending-with-you-got-5-of-8-has-not-given-the-learner-useful-feedback">5. Why does the chapter say that a quiz ending with "You got 5 of 8" has not given the learner useful feedback?<a class="headerlink" href="#5-why-does-the-chapter-say-that-a-quiz-ending-with-you-got-5-of-8-has-not-given-the-learner-useful-feedback" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>A score always arrives too late to affect what the learner does next, however soon it appears</li>
+<li>Quizzes should never show scores to learners, because scores discourage them from trying again</li>
+<li>Feedback must always be delivered in person by a teacher, because software cannot explain</li>
+<li>A score says how the learner did but not why, so nothing explains or corrects a misunderstanding</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>D</strong>. A feedback message is the part of practice that does the teaching. A strong message confirms or corrects the answer, says why, and, when the answer was wrong, names the likely misunderstanding and points to what to review. A total can hide that explanations are missing, so a reviewer opens each item and looks for a message. Online resources can show this feedback immediately and automatically, which print cannot match.</p>
+<p><strong>Concept Tested:</strong> Feedback Message</p>
+<p><strong>See:</strong> <a href="../#feedback-message">Feedback Message</a></p>
+</details>
+<hr />
+<h4 id="6-why-do-worked-examples-often-help-learners-who-are-new-to-a-topic-more-than-solving-the-same-problems-unaided">6. Why do worked examples often help learners who are new to a topic more than solving the same problems unaided?<a class="headerlink" href="#6-why-do-worked-examples-often-help-learners-who-are-new-to-a-topic-more-than-solving-the-same-problems-unaided" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Beginners learn more from guessing before they see any solution, because errors are memorable</li>
+<li>Solving from scratch uses attention that a beginner needs to see the method, so studying a full solution helps</li>
+<li>Worked examples remove the need for any practice problems, because the method is already shown</li>
+<li>Worked examples let learners skip feedback because the steps are already shown to them</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>B</strong>. Research on the worked example effect, associated with John Sweller and colleagues, finds that novices often learn more from studying worked examples because problem solving from scratch takes the attention they need to see the method. The best examples show each step and the reason for it. As skill grows, examples can fade, leaving steps for the learner to fill in. Practice problems are still needed, because a worked example never lets the learner try the method.</p>
+<p><strong>Concept Tested:</strong> Worked Example</p>
+<p><strong>See:</strong> <a href="../#worked-example">Worked Example</a></p>
+</details>
+<hr />
+<h4 id="7-a-learner-answers-which-describes-infiltration-with-water-flowing-over-the-ground-which-feedback-message-best-follows-the-chapters-guidance">7. A learner answers "Which describes infiltration?" with "Water flowing over the ground." Which feedback message best follows the chapter's guidance?<a class="headerlink" href="#7-a-learner-answers-which-describes-infiltration-with-water-flowing-over-the-ground-which-feedback-message-best-follows-the-chapters-guidance" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>"Not quite. Water flowing over the ground is runoff. Infiltration is water soaking in, so review how the two differ."</li>
+<li>"Wrong. Try again, and read the question carefully this time."</li>
+<li>"Incorrect. The answer is the first option, so mark it and move on to the next question."</li>
+<li>"Good try! Keep going, because you are doing well and the next question is easier."</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>A</strong>. A strong message corrects the answer, explains why, names the likely mix-up, and points to what to review, without blaming the learner. Option A says that the chosen answer describes runoff and defines infiltration as its opposite. "Wrong" (B) and the bare answer (C) say what failed or what is right without a reason. "Good try" (D) does not even say whether the answer was correct, which makes it unhelpful.</p>
+<p><strong>Concept Tested:</strong> Feedback Message</p>
+<p><strong>See:</strong> <a href="../#feedback-message">Feedback Message</a></p>
+</details>
+<hr />
+<h4 id="8-a-student-closes-the-book-and-quizzes-themself-with-flash-cards-on-monday-again-on-thursday-and-again-the-following-monday-how-should-this-plan-be-classified">8. A student closes the book and quizzes themself with flash cards on Monday, again on Thursday, and again the following Monday. How should this plan be classified?<a class="headerlink" href="#8-a-student-closes-the-book-and-quizzes-themself-with-flash-cards-on-monday-again-on-thursday-and-again-the-following-monday-how-should-this-plan-be-classified" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Retrieval practice, spaced across several days</li>
+<li>Rereading, spaced over several days with gaps between the sessions</li>
+<li>Retrieval practice, massed into one long sitting</li>
+<li>Rereading, massed into one sitting the night before</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>A</strong>. Quizzing with the book closed is retrieval practice, because the learner tries to recall without looking. The gaps of several days between sessions make the practice spaced, and the spacing effect is among the most reliable findings in the study of learning. Retrieval and spacing are independent ideas: a plan can have one without the other. Cramming flash cards for three hours the evening before an exam would be retrieval that is massed (C).</p>
+<p><strong>Concept Tested:</strong> Spaced Practice</p>
+<p><strong>See:</strong> <a href="../#spaced-practice">Spaced Practice</a></p>
+</details>
+<hr />
+<h4 id="9-a-reviewer-reads-this-question-which-caused-increased-runoff-a-paving-b-bare-soil-c-heavy-rain-d-all-of-the-above-what-is-the-main-flaw">9. A reviewer reads this question: "Which caused increased runoff? A. Paving. B. Bare soil. C. Heavy rain. D. All of the above." What is the main flaw?<a class="headerlink" href="#9-a-reviewer-reads-this-question-which-caused-increased-runoff-a-paving-b-bare-soil-c-heavy-rain-d-all-of-the-above-what-is-the-main-flaw" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>The stem is written in the negative, which makes learners reverse their thinking before answering</li>
+<li>The key is noticeably longer than the other options, which gives the answer away</li>
+<li>A grammatical clue before the options points to the key, so learners can guess it</li>
+<li>"All of the above" lets a learner who knows two options are right guess the third without testing it</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>D</strong>. The chapter lists seven common flaws in multiple-choice questions: an ambiguous stem, an implausible distractor, a longer key, an "all of the above" option, a negative stem, a grammatical clue, and a pattern in key positions. This question has none of the others. Each option is short, the stem is positive, and no article points to an answer. A learner who recognizes two correct options can guess the third without knowing anything about it.</p>
+<p><strong>Concept Tested:</strong> Multiple-Choice Question</p>
+<p><strong>See:</strong> <a href="../#multiple-choice-question">Multiple-Choice Question</a></p>
+</details>
+<hr />
+<h4 id="10-a-reviewer-finds-that-a-unit-has-no-practice-questions-at-all-only-one-worked-example-how-does-the-chapters-scoring-rule-treat-the-other-practice-checks-and-what-is-the-effect-on-the-score">10. A reviewer finds that a unit has no practice questions at all, only one worked example. How does the chapter's scoring rule treat the other practice checks, and what is the effect on the score?<a class="headerlink" href="#10-a-reviewer-finds-that-a-unit-has-no-practice-questions-at-all-only-one-worked-example-how-does-the-chapters-scoring-rule-treat-the-other-practice-checks-and-what-is-the-effect-on-the-score" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Checks 2 to 5, 9, and 10 count as passed because they do not apply, so the score stays high</li>
+<li>Checks 2 to 5, 9, and 10 are skipped, and only check 7, the worked example, is scored</li>
+<li>Checks 2 to 5, 9, and 10 count as failed because check 1 fails, and the serious failure selects the lower number</li>
+<li>Checks 2 to 5, 9, and 10 count as failed, but the higher number applies because the worked example passes</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. Check 1 asks whether the resource offers practice with feedback on at least some items, and it is the one serious check. When it fails, the checks that depend on practice existing, which are 2 to 5, 9, and 10, count as failed. In the chapter's Reading Only Unit only the worked example passes, a share of 10 percent, and the serious failure selects the lower number, so the score is 1. Practice with no feedback, or feedback with no practice, is not enough.</p>
+<p><strong>Concept Tested:</strong> Practice Metric</p>
+<p><strong>See:</strong> <a href="../#scoring-practice-and-feedback">Scoring Practice and Feedback</a></p>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Dan Mccreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["content.code.copy", "content.action.edit", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

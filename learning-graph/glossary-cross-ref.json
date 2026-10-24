@@ -1,0 +1,2306 @@
+{
+  "terms": [
+    {
+      "term": "A/B Test",
+      "related_terms": [
+        "Control Group",
+        "Treatment Group"
+      ],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Accept Correct or Reject",
+      "related_terms": [],
+      "category": "Checking Agent Output"
+    },
+    {
+      "term": "Accessibility",
+      "related_terms": [
+        "WCAG 2.1 AA",
+        "Universal Design for Learning"
+      ],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Accessibility Checker",
+      "related_terms": [],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Accessibility Metric",
+      "related_terms": [
+        "WCAG 2.1 AA",
+        "Accessibility Checker"
+      ],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Accessible Math",
+      "related_terms": [],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Accuracy Metric",
+      "related_terms": [
+        "Factual Error",
+        "Fact Checking"
+      ],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Adopt Revise or Reject",
+      "related_terms": [
+        "Adoption Threshold",
+        "Adoption Decision"
+      ],
+      "category": "Manual Evaluation"
+    },
+    {
+      "term": "Adoption Decision",
+      "related_terms": [
+        "Adoption Recommendation",
+        "Adopt Revise or Reject"
+      ],
+      "category": "Manual Evaluation"
+    },
+    {
+      "term": "Adoption Recommendation",
+      "related_terms": [
+        "Review Report",
+        "Adoption Decision"
+      ],
+      "category": "Manual Evaluation"
+    },
+    {
+      "term": "Adoption Threshold",
+      "related_terms": [
+        "Adopt Revise or Reject",
+        "Total Score"
+      ],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "Agent Disagreement",
+      "related_terms": [],
+      "category": "Checking Agent Output"
+    },
+    {
+      "term": "Agent Error Rate",
+      "related_terms": [],
+      "category": "Checking Agent Output"
+    },
+    {
+      "term": "Agent Error Type",
+      "related_terms": [
+        "Hallucination",
+        "Findings Log"
+      ],
+      "category": "Checking Agent Output"
+    },
+    {
+      "term": "Agent Evaluation Report",
+      "related_terms": [
+        "Agent Scoring",
+        "Verification Step"
+      ],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Agent Scoring",
+      "related_terms": [
+        "Rubric Prompt",
+        "Agent Evaluation Report"
+      ],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Agent Skill",
+      "related_terms": [],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Agent Workflow",
+      "related_terms": [
+        "Human in the Loop",
+        "Review Workflow"
+      ],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Agreement Rate",
+      "related_terms": [
+        "Score Difference Threshold",
+        "Inter-Rater Agreement"
+      ],
+      "category": "Checking Agent Output"
+    },
+    {
+      "term": "AI Agent",
+      "related_terms": [
+        "Agent Skill",
+        "Agent Workflow"
+      ],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "AI Alt Text Generation",
+      "related_terms": [
+        "Alt Text",
+        "Accept Correct or Reject"
+      ],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "AI Assistant",
+      "related_terms": [
+        "AI Agent",
+        "Large Language Model"
+      ],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "AI Cost",
+      "related_terms": [
+        "Token",
+        "Batch Evaluation"
+      ],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Alignment Metric",
+      "related_terms": [
+        "Learning Outcome",
+        "Outcome Coverage"
+      ],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "All Rights Reserved",
+      "related_terms": [],
+      "category": "Open Licensing"
+    },
+    {
+      "term": "Alt Text",
+      "related_terms": [
+        "Decorative Image",
+        "AI Alt Text Generation"
+      ],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Anonymized Data",
+      "related_terms": [],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Answer Key",
+      "related_terms": [
+        "Feedback Message",
+        "Worked Solution"
+      ],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "ARIA Labels",
+      "related_terms": [],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Assessment Alignment",
+      "related_terms": [
+        "Bloom Cognitive Levels",
+        "Learning Objective"
+      ],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Attribution Requirement",
+      "related_terms": [
+        "Attribution Statement",
+        "TASL Attribution Format"
+      ],
+      "category": "Open Licensing"
+    },
+    {
+      "term": "Attribution Statement",
+      "related_terms": [],
+      "category": "Open Licensing"
+    },
+    {
+      "term": "Audience Fit",
+      "related_terms": [],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Audio Description",
+      "related_terms": [
+        "Transcript",
+        "Captions"
+      ],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Author Field",
+      "related_terms": [],
+      "category": "Modularity and Metadata"
+    },
+    {
+      "term": "Automated Accessibility Scan",
+      "related_terms": [],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Automated License Detection",
+      "related_terms": [],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Automated Link Checker",
+      "related_terms": [],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Automated Readability Scan",
+      "related_terms": [],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Batch Evaluation",
+      "related_terms": [],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Before-and-After Comparison",
+      "related_terms": [
+        "A/B Test",
+        "Control Group"
+      ],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Bloom Cognitive Levels",
+      "related_terms": [],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Bloom's Taxonomy",
+      "related_terms": [
+        "Bloom Cognitive Levels",
+        "Measurable Verb"
+      ],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Broken Link Check",
+      "related_terms": [
+        "Automated Link Checker",
+        "Link Rot"
+      ],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Browser Compatibility",
+      "related_terms": [],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "Calibration Against Humans",
+      "related_terms": [],
+      "category": "Checking Agent Output"
+    },
+    {
+      "term": "Calibration Exercise",
+      "related_terms": [
+        "Calibration Session",
+        "Calibration Against Humans"
+      ],
+      "category": "Training and Certification"
+    },
+    {
+      "term": "Calibration Session",
+      "related_terms": [
+        "Consensus Scoring",
+        "Score Reconciliation"
+      ],
+      "category": "Manual Evaluation"
+    },
+    {
+      "term": "Capstone Project",
+      "related_terms": [
+        "Improvement Challenge",
+        "Professional Development"
+      ],
+      "category": "Training and Certification"
+    },
+    {
+      "term": "Caption Generation",
+      "related_terms": [],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Captions",
+      "related_terms": [
+        "Transcript",
+        "Caption Generation"
+      ],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "CC BY",
+      "related_terms": [
+        "Attribution Requirement",
+        "TASL Attribution Format"
+      ],
+      "category": "Open Licensing"
+    },
+    {
+      "term": "CC BY-NC",
+      "related_terms": [],
+      "category": "Open Licensing"
+    },
+    {
+      "term": "CC BY-NC-ND",
+      "related_terms": [
+        "CC BY-NC",
+        "CC BY-ND"
+      ],
+      "category": "Open Licensing"
+    },
+    {
+      "term": "CC BY-NC-SA",
+      "related_terms": [
+        "ShareAlike Requirement",
+        "NonCommercial Requirement"
+      ],
+      "category": "Open Licensing"
+    },
+    {
+      "term": "CC BY-ND",
+      "related_terms": [
+        "NoDerivatives Requirement",
+        "Revise Permission"
+      ],
+      "category": "Open Licensing"
+    },
+    {
+      "term": "CC BY-SA",
+      "related_terms": [
+        "ShareAlike Requirement",
+        "License Compatibility"
+      ],
+      "category": "Open Licensing"
+    },
+    {
+      "term": "CC0 Dedication",
+      "related_terms": [
+        "Public Domain",
+        "CC BY"
+      ],
+      "category": "Open Licensing"
+    },
+    {
+      "term": "Certificate",
+      "related_terms": [
+        "Certificate Requirements",
+        "Certificate Submission"
+      ],
+      "category": "Training and Certification"
+    },
+    {
+      "term": "Certificate Requirements",
+      "related_terms": [
+        "Certificate",
+        "Certificate Submission"
+      ],
+      "category": "Training and Certification"
+    },
+    {
+      "term": "Certificate Submission",
+      "related_terms": [
+        "Submission Review",
+        "Findings Log"
+      ],
+      "category": "Training and Certification"
+    },
+    {
+      "term": "Change Log Entry",
+      "related_terms": [
+        "Changelog",
+        "Human Review of Changes"
+      ],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Changelog",
+      "related_terms": [],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "Chapter Splitting",
+      "related_terms": [],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Chapter Structure",
+      "related_terms": [
+        "Concept Dependency",
+        "Learning Graph"
+      ],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Citation Quality",
+      "related_terms": [],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Cohen's Kappa",
+      "related_terms": [],
+      "category": "Checking Agent Output"
+    },
+    {
+      "term": "Color Contrast",
+      "related_terms": [],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Color Independence",
+      "related_terms": [],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Commercial Textbook",
+      "related_terms": [],
+      "category": "OER Foundations"
+    },
+    {
+      "term": "Common Cartridge",
+      "related_terms": [],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "Community Contribution",
+      "related_terms": [
+        "Pull Request",
+        "Feedback Channel"
+      ],
+      "category": "Publishing and Sharing"
+    },
+    {
+      "term": "Completion Rate",
+      "related_terms": [],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Complex Image Description",
+      "related_terms": [],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Component Discoverability",
+      "related_terms": [
+        "Metadata Completeness",
+        "OER Clearinghouse"
+      ],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Component Granularity",
+      "related_terms": [
+        "Chapter Splitting",
+        "Modular Content"
+      ],
+      "category": "Modularity and Metadata"
+    },
+    {
+      "term": "Component Library",
+      "related_terms": [
+        "Reusable Component",
+        "Component Discoverability"
+      ],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Component Licensing",
+      "related_terms": [
+        "License Statement",
+        "Attribution Statement"
+      ],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Component Packaging",
+      "related_terms": [],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Concept Dependency",
+      "related_terms": [
+        "Learning Graph",
+        "Chapter Structure"
+      ],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Confounding Variable",
+      "related_terms": [],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Consensus Scoring",
+      "related_terms": [],
+      "category": "Manual Evaluation"
+    },
+    {
+      "term": "Content Gap",
+      "related_terms": [],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Content Update",
+      "related_terms": [],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Context Window",
+      "related_terms": [
+        "Token",
+        "Chapter Splitting"
+      ],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Contrast Ratio",
+      "related_terms": [
+        "Color Contrast",
+        "WCAG 2.1 AA"
+      ],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Control Group",
+      "related_terms": [
+        "Treatment Group",
+        "Original Version"
+      ],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Controlled Vocabulary",
+      "related_terms": [
+        "Keywords",
+        "Subject Field"
+      ],
+      "category": "Modularity and Metadata"
+    },
+    {
+      "term": "Copyright",
+      "related_terms": [],
+      "category": "OER Foundations"
+    },
+    {
+      "term": "Course Material Affordability",
+      "related_terms": [],
+      "category": "OER Foundations"
+    },
+    {
+      "term": "Creative Commons",
+      "related_terms": [
+        "CC BY",
+        "CC0 Dedication"
+      ],
+      "category": "Open Licensing"
+    },
+    {
+      "term": "Cross-Reference Dependence",
+      "related_terms": [],
+      "category": "Modularity and Metadata"
+    },
+    {
+      "term": "Currency Metric",
+      "related_terms": [
+        "Outdated Content",
+        "Link Rot"
+      ],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Curriculum Map",
+      "related_terms": [],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Data Collection",
+      "related_terms": [],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Decorative Image",
+      "related_terms": [],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Defined Terms",
+      "related_terms": [],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Derivative Work",
+      "related_terms": [
+        "Revise Permission",
+        "CC BY-ND"
+      ],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Description Field",
+      "related_terms": [],
+      "category": "Modularity and Metadata"
+    },
+    {
+      "term": "Difference of Means",
+      "related_terms": [
+        "Effect Size",
+        "Mean Score"
+      ],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Distractor Quality",
+      "related_terms": [],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Document Ingestion",
+      "related_terms": [
+        "File Access",
+        "PDF-to-Markdown Conversion"
+      ],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Document Language",
+      "related_terms": [],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Dublin Core",
+      "related_terms": [
+        "Metadata Record",
+        "LRMI"
+      ],
+      "category": "Modularity and Metadata"
+    },
+    {
+      "term": "Editable Source Metric",
+      "related_terms": [
+        "Source Format",
+        "Open File Format"
+      ],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "Educational Resource",
+      "related_terms": [],
+      "category": "OER Foundations"
+    },
+    {
+      "term": "Effect Size",
+      "related_terms": [],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Embeddable Component",
+      "related_terms": [
+        "Iframe Embedding",
+        "MicroSim"
+      ],
+      "category": "Modularity and Metadata"
+    },
+    {
+      "term": "Equity Consideration",
+      "related_terms": [
+        "Sampling Bias",
+        "Accessibility"
+      ],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Evidence Citation",
+      "related_terms": [],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "Evidence for a Score",
+      "related_terms": [
+        "Evidence Citation",
+        "Evidence Recording"
+      ],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "Evidence Recording",
+      "related_terms": [],
+      "category": "Manual Evaluation"
+    },
+    {
+      "term": "Exit Survey",
+      "related_terms": [
+        "Training Evaluation",
+        "Student Survey"
+      ],
+      "category": "Training and Certification"
+    },
+    {
+      "term": "Expert Review",
+      "related_terms": [],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Export Format",
+      "related_terms": [],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "Facilitator Guide",
+      "related_terms": [
+        "Workshop Agenda",
+        "Training Kit"
+      ],
+      "category": "Training and Certification"
+    },
+    {
+      "term": "Fact Checking",
+      "related_terms": [],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Factual Error",
+      "related_terms": [
+        "Fact Checking",
+        "Agent Error Type"
+      ],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Fair Use",
+      "related_terms": [],
+      "category": "Open Licensing"
+    },
+    {
+      "term": "Feedback Channel",
+      "related_terms": [
+        "Issue Tracking",
+        "Community Contribution"
+      ],
+      "category": "Publishing and Sharing"
+    },
+    {
+      "term": "Feedback Message",
+      "related_terms": [],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "FERPA",
+      "related_terms": [],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Few-Shot Example",
+      "related_terms": [],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "File Access",
+      "related_terms": [],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Findings Log",
+      "related_terms": [
+        "Accept Correct or Reject",
+        "Agent Error Rate"
+      ],
+      "category": "Checking Agent Output"
+    },
+    {
+      "term": "Flesch-Kincaid Grade Level",
+      "related_terms": [
+        "Readability Formula",
+        "Reading Level"
+      ],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Fork",
+      "related_terms": [],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "Formative Assessment",
+      "related_terms": [
+        "Self-Check Question",
+        "Quiz"
+      ],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Free Resource",
+      "related_terms": [
+        "Open Educational Resource",
+        "All Rights Reserved"
+      ],
+      "category": "OER Foundations"
+    },
+    {
+      "term": "Git",
+      "related_terms": [],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "GitHub Pages",
+      "related_terms": [
+        "MkDocs",
+        "Publishing OER"
+      ],
+      "category": "Publishing and Sharing"
+    },
+    {
+      "term": "GitHub Repository",
+      "related_terms": [],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "Glossary",
+      "related_terms": [],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Glossary Generation",
+      "related_terms": [],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Grade Level Field",
+      "related_terms": [],
+      "category": "Modularity and Metadata"
+    },
+    {
+      "term": "Hallucination",
+      "related_terms": [],
+      "category": "Checking Agent Output"
+    },
+    {
+      "term": "Heading Repair",
+      "related_terms": [],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Heading Structure",
+      "related_terms": [],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Headings and Subheadings",
+      "related_terms": [],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "HTML",
+      "related_terms": [
+        "Markdown",
+        "Open File Format"
+      ],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "Human in the Loop",
+      "related_terms": [
+        "Verification Step",
+        "Human Review of Changes"
+      ],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Human Review of Changes",
+      "related_terms": [
+        "Accept Correct or Reject",
+        "Human in the Loop"
+      ],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Iframe Embedding",
+      "related_terms": [],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "Immediate Feedback",
+      "related_terms": [
+        "Feedback Message",
+        "MicroSim"
+      ],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Impact Reporting",
+      "related_terms": [
+        "Usage Analytics",
+        "Reuse Tracking"
+      ],
+      "category": "Publishing and Sharing"
+    },
+    {
+      "term": "Improved Version",
+      "related_terms": [
+        "Original Version",
+        "Change Log Entry"
+      ],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Improvement Challenge",
+      "related_terms": [
+        "Re-Scoring",
+        "Capstone Project"
+      ],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Improvement Plan",
+      "related_terms": [
+        "Lowest Metric First",
+        "Score Gain"
+      ],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Informed Consent",
+      "related_terms": [],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Intelligent Textbook",
+      "related_terms": [
+        "Learning Graph",
+        "MicroSim"
+      ],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Inter-Rater Agreement",
+      "related_terms": [],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "Interactive Simulation",
+      "related_terms": [],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Invented Citation",
+      "related_terms": [],
+      "category": "Checking Agent Output"
+    },
+    {
+      "term": "Issue Tracking",
+      "related_terms": [
+        "Feedback Channel",
+        "Maintenance Plan"
+      ],
+      "category": "Publishing and Sharing"
+    },
+    {
+      "term": "Jargon",
+      "related_terms": [
+        "Defined Terms",
+        "Plain Language"
+      ],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "JSON Output",
+      "related_terms": [
+        "Structured Output",
+        "Machine-Readable Metadata"
+      ],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Keyboard Navigation",
+      "related_terms": [],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Keywords",
+      "related_terms": [],
+      "category": "Modularity and Metadata"
+    },
+    {
+      "term": "Large Language Model",
+      "related_terms": [
+        "Hallucination",
+        "Token"
+      ],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Learning Gain",
+      "related_terms": [
+        "Pre-Test",
+        "Difference of Means"
+      ],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Learning Graph",
+      "related_terms": [
+        "Concept Dependency",
+        "Intelligent Textbook"
+      ],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Learning Objective",
+      "related_terms": [
+        "Learning Outcome",
+        "Measurable Verb"
+      ],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Learning Outcome",
+      "related_terms": [
+        "Learning Objective",
+        "Measurable Verb"
+      ],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "License Clarity",
+      "related_terms": [
+        "License Statement",
+        "License Misreading"
+      ],
+      "category": "Modularity and Metadata"
+    },
+    {
+      "term": "License Compatibility",
+      "related_terms": [
+        "License Conflict",
+        "Remix Permission"
+      ],
+      "category": "Open Licensing"
+    },
+    {
+      "term": "License Conflict",
+      "related_terms": [],
+      "category": "Open Licensing"
+    },
+    {
+      "term": "License Field",
+      "related_terms": [
+        "License Statement",
+        "Machine-Readable Metadata"
+      ],
+      "category": "Modularity and Metadata"
+    },
+    {
+      "term": "License Misreading",
+      "related_terms": [
+        "Automated License Detection",
+        "Agent Error Type"
+      ],
+      "category": "Checking Agent Output"
+    },
+    {
+      "term": "License Selection",
+      "related_terms": [
+        "CC BY",
+        "License Compatibility"
+      ],
+      "category": "Open Licensing"
+    },
+    {
+      "term": "License Statement",
+      "related_terms": [
+        "License Clarity",
+        "License Statement Repair"
+      ],
+      "category": "Open Licensing"
+    },
+    {
+      "term": "License Statement Repair",
+      "related_terms": [],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Link Repair",
+      "related_terms": [],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Link Rot",
+      "related_terms": [
+        "Broken Link Check",
+        "Link Repair"
+      ],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Link Sharing",
+      "related_terms": [],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "Link Text",
+      "related_terms": [
+        "Screen Reader",
+        "Accessibility Checker"
+      ],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "LMS Import",
+      "related_terms": [],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "Local Reviewer Role",
+      "related_terms": [
+        "Reviewer",
+        "Train-the-Trainer"
+      ],
+      "category": "Training and Certification"
+    },
+    {
+      "term": "Lowest Metric First",
+      "related_terms": [],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "LRMI",
+      "related_terms": [
+        "Schema.org Markup",
+        "Dublin Core"
+      ],
+      "category": "Modularity and Metadata"
+    },
+    {
+      "term": "LTI Integration",
+      "related_terms": [
+        "LMS Import",
+        "Platform Lock-In"
+      ],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "Machine-Readable Metadata",
+      "related_terms": [
+        "Schema.org Markup",
+        "JSON Output"
+      ],
+      "category": "Modularity and Metadata"
+    },
+    {
+      "term": "Maintenance Plan",
+      "related_terms": [
+        "Issue Tracking",
+        "Release Notes"
+      ],
+      "category": "Publishing and Sharing"
+    },
+    {
+      "term": "Manual Evaluation",
+      "related_terms": [
+        "Reviewer",
+        "Review Workflow"
+      ],
+      "category": "Manual Evaluation"
+    },
+    {
+      "term": "Markdown",
+      "related_terms": [
+        "HTML",
+        "PDF-to-Markdown Conversion"
+      ],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "Mean Absolute Difference",
+      "related_terms": [],
+      "category": "Checking Agent Output"
+    },
+    {
+      "term": "Mean Score",
+      "related_terms": [],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Measurable Verb",
+      "related_terms": [],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Metadata Completeness",
+      "related_terms": [
+        "Metadata Record",
+        "Metadata Generation"
+      ],
+      "category": "Modularity and Metadata"
+    },
+    {
+      "term": "Metadata Generation",
+      "related_terms": [],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Metadata Metric",
+      "related_terms": [
+        "Metadata Record",
+        "Metadata Completeness"
+      ],
+      "category": "Modularity and Metadata"
+    },
+    {
+      "term": "Metadata Record",
+      "related_terms": [
+        "Dublin Core",
+        "Metadata Generation"
+      ],
+      "category": "Modularity and Metadata"
+    },
+    {
+      "term": "Metric Score",
+      "related_terms": [
+        "Score Scale",
+        "Evidence for a Score"
+      ],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "MicroSim",
+      "related_terms": [
+        "Interactive Simulation",
+        "Iframe Embedding"
+      ],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "MicroSim Building",
+      "related_terms": [],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "MkDocs",
+      "related_terms": [
+        "Static Site Generator",
+        "GitHub Pages"
+      ],
+      "category": "Publishing and Sharing"
+    },
+    {
+      "term": "Modular Content",
+      "related_terms": [],
+      "category": "Modularity and Metadata"
+    },
+    {
+      "term": "Modularity Metric",
+      "related_terms": [
+        "Modular Content",
+        "Standalone Component"
+      ],
+      "category": "Modularity and Metadata"
+    },
+    {
+      "term": "Multi-Agent Review",
+      "related_terms": [],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Multiple-Choice Question",
+      "related_terms": [
+        "Distractor Quality",
+        "Question Bank"
+      ],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "No-Login Access",
+      "related_terms": [],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "NoDerivatives Requirement",
+      "related_terms": [],
+      "category": "Open Licensing"
+    },
+    {
+      "term": "NonCommercial Requirement",
+      "related_terms": [],
+      "category": "Open Licensing"
+    },
+    {
+      "term": "OER Adaptation",
+      "related_terms": [],
+      "category": "OER Foundations"
+    },
+    {
+      "term": "OER Adoption",
+      "related_terms": [],
+      "category": "OER Foundations"
+    },
+    {
+      "term": "OER Clearinghouse",
+      "related_terms": [
+        "OER Repository",
+        "Component Discoverability"
+      ],
+      "category": "Publishing and Sharing"
+    },
+    {
+      "term": "OER Creation",
+      "related_terms": [],
+      "category": "OER Foundations"
+    },
+    {
+      "term": "OER Quality",
+      "related_terms": [],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "OER Repository",
+      "related_terms": [],
+      "category": "OER Foundations"
+    },
+    {
+      "term": "Offline Access",
+      "related_terms": [],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "Open Educational Resource",
+      "related_terms": [
+        "The 5R Permissions",
+        "Open License",
+        "Free Resource"
+      ],
+      "category": "OER Foundations"
+    },
+    {
+      "term": "Open File Format",
+      "related_terms": [
+        "Markdown",
+        "Platform Lock-In"
+      ],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "Open License",
+      "related_terms": [
+        "Open License Metric",
+        "Creative Commons"
+      ],
+      "category": "Open Licensing"
+    },
+    {
+      "term": "Open License Metric",
+      "related_terms": [
+        "Open License",
+        "License Clarity"
+      ],
+      "category": "Modularity and Metadata"
+    },
+    {
+      "term": "Open Pedagogy",
+      "related_terms": [],
+      "category": "OER Foundations"
+    },
+    {
+      "term": "Open Textbook",
+      "related_terms": [],
+      "category": "OER Foundations"
+    },
+    {
+      "term": "Original Version",
+      "related_terms": [],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Outcome Coverage",
+      "related_terms": [
+        "Content Gap",
+        "Learning Outcome"
+      ],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Outcome Measure",
+      "related_terms": [
+        "Pre-Test",
+        "Post-Test"
+      ],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Outdated Content",
+      "related_terms": [],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Overconfident Score",
+      "related_terms": [],
+      "category": "Checking Agent Output"
+    },
+    {
+      "term": "PDF-Only Distribution",
+      "related_terms": [
+        "PDF-to-Markdown Conversion",
+        "Editable Source Metric"
+      ],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "PDF-to-Markdown Conversion",
+      "related_terms": [
+        "PDF-Only Distribution",
+        "Markdown"
+      ],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Peer Review",
+      "related_terms": [
+        "Expert Review",
+        "Submission Review"
+      ],
+      "category": "Training and Certification"
+    },
+    {
+      "term": "Pilot Test",
+      "related_terms": [
+        "Sample Size",
+        "Results Summary"
+      ],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Plain Language",
+      "related_terms": [
+        "Jargon",
+        "Reading Level Rewrite"
+      ],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Platform Lock-In",
+      "related_terms": [],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "Portability Metric",
+      "related_terms": [
+        "Platform Lock-In",
+        "Browser Compatibility"
+      ],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "Post-Test",
+      "related_terms": [
+        "Pre-Test",
+        "Learning Gain"
+      ],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Practice Metric",
+      "related_terms": [
+        "Formative Assessment",
+        "Feedback Message"
+      ],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Practice Problem",
+      "related_terms": [],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Practice Question Generation",
+      "related_terms": [
+        "Self-Check Question",
+        "Distractor Quality"
+      ],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Pre-Test",
+      "related_terms": [
+        "Post-Test",
+        "Learning Gain"
+      ],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Prerequisite Knowledge",
+      "related_terms": [],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Preserving Original Meaning",
+      "related_terms": [
+        "Reading Level Rewrite",
+        "Human Review of Changes"
+      ],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Primary Source",
+      "related_terms": [],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Professional Development",
+      "related_terms": [
+        "Teacher Training Workshop",
+        "Certificate"
+      ],
+      "category": "Training and Certification"
+    },
+    {
+      "term": "Prompt",
+      "related_terms": [
+        "Prompt Template",
+        "System Prompt"
+      ],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Prompt Iteration",
+      "related_terms": [],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Prompt Refinement",
+      "related_terms": [],
+      "category": "Checking Agent Output"
+    },
+    {
+      "term": "Prompt Template",
+      "related_terms": [],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Proprietary License",
+      "related_terms": [],
+      "category": "Open Licensing"
+    },
+    {
+      "term": "Public Domain",
+      "related_terms": [],
+      "category": "OER Foundations"
+    },
+    {
+      "term": "Publication Date",
+      "related_terms": [],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Publishing OER",
+      "related_terms": [
+        "Static Site Generator",
+        "GitHub Pages"
+      ],
+      "category": "Publishing and Sharing"
+    },
+    {
+      "term": "Pull Request",
+      "related_terms": [],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "Qualitative Feedback",
+      "related_terms": [],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Quality Dimension",
+      "related_terms": [],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "Quality Rubric",
+      "related_terms": [
+        "Ten-Metric Rubric",
+        "Scoring Descriptor"
+      ],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "Quality Subtotal",
+      "related_terms": [
+        "Reusability Subtotal",
+        "Total Score"
+      ],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "Quality Versus Reusability",
+      "related_terms": [
+        "Quality Dimension",
+        "Reusability Dimension"
+      ],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "Question Bank",
+      "related_terms": [],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Question Difficulty",
+      "related_terms": [],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Quiz",
+      "related_terms": [
+        "Question Bank",
+        "Answer Key"
+      ],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Random Assignment",
+      "related_terms": [
+        "Confounding Variable",
+        "Sampling Bias"
+      ],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Re-Scoring",
+      "related_terms": [],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Readability Formula",
+      "related_terms": [],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Readability Metric",
+      "related_terms": [
+        "Reading Level",
+        "Audience Fit"
+      ],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Reading Level",
+      "related_terms": [],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Reading Level Rewrite",
+      "related_terms": [
+        "Plain Language",
+        "Preserving Original Meaning"
+      ],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Redistribute Permission",
+      "related_terms": [],
+      "category": "OER Foundations"
+    },
+    {
+      "term": "Release Notes",
+      "related_terms": [],
+      "category": "Publishing and Sharing"
+    },
+    {
+      "term": "Remix Permission",
+      "related_terms": [
+        "License Compatibility",
+        "License Conflict"
+      ],
+      "category": "OER Foundations"
+    },
+    {
+      "term": "Resource Selection",
+      "related_terms": [],
+      "category": "OER Foundations"
+    },
+    {
+      "term": "Responsive Layout",
+      "related_terms": [],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "Results Summary",
+      "related_terms": [
+        "Pilot Test",
+        "Impact Reporting"
+      ],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Retain Permission",
+      "related_terms": [
+        "The 5R Permissions",
+        "Offline Access"
+      ],
+      "category": "OER Foundations"
+    },
+    {
+      "term": "Retrieval Practice",
+      "related_terms": [],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Reusability Dimension",
+      "related_terms": [],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "Reusability Subtotal",
+      "related_terms": [
+        "Quality Subtotal",
+        "Total Score"
+      ],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "Reusable Component",
+      "related_terms": [
+        "Component Packaging",
+        "Component Library"
+      ],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Reuse Permission",
+      "related_terms": [],
+      "category": "OER Foundations"
+    },
+    {
+      "term": "Reuse Tracking",
+      "related_terms": [
+        "Usage Analytics",
+        "Impact Reporting"
+      ],
+      "category": "Publishing and Sharing"
+    },
+    {
+      "term": "Review Checklist",
+      "related_terms": [],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "Review Report",
+      "related_terms": [
+        "Adoption Recommendation",
+        "Rubric Worksheet"
+      ],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "Review Workflow",
+      "related_terms": [
+        "Review Checklist",
+        "Agent Workflow"
+      ],
+      "category": "Manual Evaluation"
+    },
+    {
+      "term": "Reviewer",
+      "related_terms": [],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "Reviewer Bias",
+      "related_terms": [
+        "Calibration Session",
+        "Score Inflation"
+      ],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "Reviewer Notes",
+      "related_terms": [],
+      "category": "Manual Evaluation"
+    },
+    {
+      "term": "Reviewer Training",
+      "related_terms": [
+        "Calibration Session",
+        "Teacher Training Workshop"
+      ],
+      "category": "Manual Evaluation"
+    },
+    {
+      "term": "Revise Permission",
+      "related_terms": [
+        "Derivative Work",
+        "CC BY-ND"
+      ],
+      "category": "OER Foundations"
+    },
+    {
+      "term": "Revision History",
+      "related_terms": [],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Role Prompting",
+      "related_terms": [],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Rubric Metric",
+      "related_terms": [],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "Rubric Prompt",
+      "related_terms": [
+        "Prompt Template",
+        "Agent Scoring"
+      ],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Rubric Reliability",
+      "related_terms": [],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "Rubric Validity",
+      "related_terms": [],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "Rubric Worksheet",
+      "related_terms": [
+        "Review Report",
+        "Evidence Recording"
+      ],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "Rubric-Outcome Correlation",
+      "related_terms": [
+        "Rubric Validity",
+        "Score Correlation"
+      ],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Run-to-Run Variance",
+      "related_terms": [],
+      "category": "Checking Agent Output"
+    },
+    {
+      "term": "Sample Size",
+      "related_terms": [],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Sampling Bias",
+      "related_terms": [
+        "Random Assignment",
+        "Equity Consideration"
+      ],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Schema.org Markup",
+      "related_terms": [
+        "LRMI",
+        "Machine-Readable Metadata"
+      ],
+      "category": "Modularity and Metadata"
+    },
+    {
+      "term": "Scope and Sequence",
+      "related_terms": [],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Score Band",
+      "related_terms": [],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "Score Correlation",
+      "related_terms": [],
+      "category": "Checking Agent Output"
+    },
+    {
+      "term": "Score Difference Threshold",
+      "related_terms": [],
+      "category": "Checking Agent Output"
+    },
+    {
+      "term": "Score Gain",
+      "related_terms": [
+        "Re-Scoring",
+        "Improvement Plan"
+      ],
+      "category": "Improving Resources"
+    },
+    {
+      "term": "Score Inflation",
+      "related_terms": [
+        "Overconfident Score",
+        "Calibration Against Humans"
+      ],
+      "category": "Checking Agent Output"
+    },
+    {
+      "term": "Score Reconciliation",
+      "related_terms": [],
+      "category": "Manual Evaluation"
+    },
+    {
+      "term": "Score Scale",
+      "related_terms": [],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "Scoring Descriptor",
+      "related_terms": [
+        "Score Scale",
+        "Calibration Session"
+      ],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "Screen Reader",
+      "related_terms": [],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Second-Agent Cross-Check",
+      "related_terms": [],
+      "category": "Checking Agent Output"
+    },
+    {
+      "term": "Secondary Source",
+      "related_terms": [],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Self-Check Question",
+      "related_terms": [
+        "Formative Assessment",
+        "Practice Question Generation"
+      ],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "ShareAlike Requirement",
+      "related_terms": [],
+      "category": "Open Licensing"
+    },
+    {
+      "term": "Source Citation",
+      "related_terms": [
+        "Citation Quality",
+        "Invented Citation"
+      ],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Source Format",
+      "related_terms": [
+        "Open File Format",
+        "PDF-Only Distribution"
+      ],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "Source Verification",
+      "related_terms": [],
+      "category": "Checking Agent Output"
+    },
+    {
+      "term": "Spaced Practice",
+      "related_terms": [],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Spot Check",
+      "related_terms": [],
+      "category": "Checking Agent Output"
+    },
+    {
+      "term": "Standalone Component",
+      "related_terms": [],
+      "category": "Modularity and Metadata"
+    },
+    {
+      "term": "Standards Alignment",
+      "related_terms": [],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Static Site Generator",
+      "related_terms": [
+        "MkDocs",
+        "GitHub Pages"
+      ],
+      "category": "Publishing and Sharing"
+    },
+    {
+      "term": "Structured Output",
+      "related_terms": [],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Student Data Privacy",
+      "related_terms": [],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Student Privacy in Testing",
+      "related_terms": [
+        "Anonymized Data",
+        "Student Data Privacy"
+      ],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Student Survey",
+      "related_terms": [
+        "Qualitative Feedback",
+        "Exit Survey"
+      ],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Subject Field",
+      "related_terms": [],
+      "category": "Modularity and Metadata"
+    },
+    {
+      "term": "Submission Review",
+      "related_terms": [
+        "Certificate Requirements",
+        "Peer Review"
+      ],
+      "category": "Training and Certification"
+    },
+    {
+      "term": "System Prompt",
+      "related_terms": [],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Table Accessibility",
+      "related_terms": [],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "TASL Attribution Format",
+      "related_terms": [
+        "Attribution Statement",
+        "Attribution Requirement"
+      ],
+      "category": "Open Licensing"
+    },
+    {
+      "term": "Teacher Training Workshop",
+      "related_terms": [
+        "Workshop Agenda",
+        "Facilitator Guide"
+      ],
+      "category": "Training and Certification"
+    },
+    {
+      "term": "Ten-Metric Rubric",
+      "related_terms": [
+        "Rubric Metric",
+        "Total Score"
+      ],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "Test Hypothesis",
+      "related_terms": [],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Text Structure",
+      "related_terms": [],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "The 5R Permissions",
+      "related_terms": [
+        "Retain Permission",
+        "Open License"
+      ],
+      "category": "OER Foundations"
+    },
+    {
+      "term": "Third-Party Content",
+      "related_terms": [
+        "Fair Use",
+        "License Clarity"
+      ],
+      "category": "Open Licensing"
+    },
+    {
+      "term": "Time on Task",
+      "related_terms": [],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Title Field",
+      "related_terms": [],
+      "category": "Modularity and Metadata"
+    },
+    {
+      "term": "Token",
+      "related_terms": [
+        "Context Window",
+        "AI Cost"
+      ],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Tool Use",
+      "related_terms": [],
+      "category": "AI Agents and Prompts"
+    },
+    {
+      "term": "Total Score",
+      "related_terms": [
+        "Score Band",
+        "Adoption Threshold"
+      ],
+      "category": "Rubric and Scoring"
+    },
+    {
+      "term": "Train-the-Trainer",
+      "related_terms": [
+        "Training Kit",
+        "Facilitator Guide"
+      ],
+      "category": "Training and Certification"
+    },
+    {
+      "term": "Training Evaluation",
+      "related_terms": [
+        "Exit Survey",
+        "Teacher Training Workshop"
+      ],
+      "category": "Training and Certification"
+    },
+    {
+      "term": "Training Kit",
+      "related_terms": [
+        "Facilitator Guide",
+        "Component Packaging"
+      ],
+      "category": "Training and Certification"
+    },
+    {
+      "term": "Transcript",
+      "related_terms": [],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Treatment Group",
+      "related_terms": [
+        "Control Group",
+        "Improved Version"
+      ],
+      "category": "A/B Testing with Students"
+    },
+    {
+      "term": "Universal Design for Learning",
+      "related_terms": [],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Usage Analytics",
+      "related_terms": [
+        "Reuse Tracking",
+        "Impact Reporting"
+      ],
+      "category": "Publishing and Sharing"
+    },
+    {
+      "term": "Verification Step",
+      "related_terms": [],
+      "category": "Checking Agent Output"
+    },
+    {
+      "term": "Version Control",
+      "related_terms": [],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "Vocabulary Level",
+      "related_terms": [],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "WCAG",
+      "related_terms": [],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "WCAG 2.1 AA",
+      "related_terms": [
+        "WCAG",
+        "Contrast Ratio"
+      ],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Word Processing File",
+      "related_terms": [
+        "Source Format",
+        "Version Control"
+      ],
+      "category": "Editable Source and Portability"
+    },
+    {
+      "term": "Worked Example",
+      "related_terms": [
+        "Worked Solution",
+        "Practice Problem"
+      ],
+      "category": "Content Quality Metrics"
+    },
+    {
+      "term": "Worked Solution",
+      "related_terms": [
+        "Practice Problem",
+        "Worked Example"
+      ],
+      "category": "Accessibility and Practice Metrics"
+    },
+    {
+      "term": "Workshop Agenda",
+      "related_terms": [
+        "Teacher Training Workshop",
+        "Facilitator Guide"
+      ],
+      "category": "Training and Certification"
+    },
+    {
+      "term": "Zero Textbook Cost Course",
+      "related_terms": [
+        "OER Adoption",
+        "Course Material Affordability"
+      ],
+      "category": "OER Foundations"
+    }
+  ]
+}

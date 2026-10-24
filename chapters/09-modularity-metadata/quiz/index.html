@@ -1,0 +1,1121 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Objective steps for evaluating open educational resources (OER).  A focus on manual A/B testing with students as AI skills for automated assessments of OER textbooks.">
+      
+      
+        <meta name="author" content="Dan Mccreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/oer-evaluator/chapters/09-modularity-metadata/quiz/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Quiz: Modularity and Metadata - OER Evaluator</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../../css/mascot.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#quiz-modularity-and-metadata" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="OER Evaluator" class="md-header__button md-logo" aria-label="OER Evaluator" data-md-component="logo">
+      
+  <img src="../../../img/mascot/welcome.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OER Evaluator
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Quiz: Modularity and Metadata
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/oer-evaluator" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="OER Evaluator" class="md-nav__button md-logo" aria-label="OER Evaluator" data-md-component="logo">
+      
+  <img src="../../../img/mascot/welcome.png" alt="logo">
+
+    </a>
+    OER Evaluator
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/oer-evaluator" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../about/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../course-description/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Description
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rubric-spec/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rubric Specification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapters
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../learning-graph/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning Graph
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../sims/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MicroSims
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../workshops/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workshops
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    License
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contact
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-what-does-a-reviewer-do-in-the-lift-test-for-a-standalone-component" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. What does a reviewer do in the lift test for a standalone component?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-in-dublin-core-which-element-holds-a-resources-license-or-rights-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. In Dublin Core, which element holds a resource's license or rights statement?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-why-does-the-chapter-say-that-a-wrong-value-in-a-metadata-field-is-worse-than-a-blank-field" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Why does the chapter say that a wrong value in a metadata field is worse than a blank field?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-how-do-subject-terms-differ-from-keywords-in-a-metadata-record" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. How do subject terms differ from keywords in a metadata record?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-why-do-phrases-such-as-as-shown-above-and-see-section-4-reduce-a-components-modularity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Why do phrases such as "as shown above" and "see section 4" reduce a component's modularity?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-a-teacher-embeds-a-simulation-with-an-iframe-whose-src-is-just-mainhtml-what-is-wrong-and-what-is-the-fix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. A teacher embeds a simulation with an iframe whose src is just main.html. What is wrong, and what is the fix?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-a-metadata-record-has-valid-title-author-subject-and-grade-level-fields-a-license-value-of-tbd-and-an-empty-description-using-the-six-core-fields-what-is-its-metadata-completeness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. A metadata record has valid Title, Author, Subject, and Grade level fields, a License value of "TBD," and an empty Description. Using the six core fields, what is its metadata completeness?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-a-reviewer-applies-the-ten-modularity-checks-to-a-single-long-page-checks-1-and-2-fail-which-are-serious-and-so-do-checks-3-5-8-9-and-10-only-checks-4-6-and-7-pass-what-score-does-the-chapters-rule-give" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. A reviewer applies the ten modularity checks to a single long page. Checks 1 and 2 fail, which are serious, and so do checks 3, 5, 8, 9, and 10. Only checks 4, 6, and 7 pass. What score does the chapter's rule give?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-a-teacher-searches-for-grade-6-watershed-quiz-record-a-has-a-clear-title-subject-terms-grades-6-to-7-a-license-and-a-description-of-a-reading-and-eight-question-quiz-record-b-has-only-the-title-reading-4-record-c-has-the-title-watershed-basics-and-an-author-with-nothing-else-which-analysis-is-best" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. A teacher searches for "grade 6 watershed quiz." Record A has a clear title, subject terms, grades 6 to 7, a license, and a description of a reading and eight-question quiz. Record B has only the title "Reading 4." Record C has the title "Watershed Basics" and an author, with nothing else. Which analysis is best?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-a-reviewer-finds-that-a-page-footer-says-cc-by-nc-while-the-license-field-in-the-metadata-says-cc-by-which-analysis-is-best" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. A reviewer finds that a page footer says CC BY-NC, while the license field in the metadata says CC BY. Which analysis is best?
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/dmccreary/oer-evaluator/blob/main/docs/chapters/09-modularity-metadata/quiz.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="quiz-modularity-and-metadata">Quiz: Modularity and Metadata<a class="headerlink" href="#quiz-modularity-and-metadata" title="Permanent link">&para;</a></h1>
+<p>Test your understanding of license clarity, standalone components, Dublin Core, the six core metadata fields, and metadata completeness with these review questions.</p>
+<hr />
+<h4 id="1-what-does-a-reviewer-do-in-the-lift-test-for-a-standalone-component">1. What does a reviewer do in the lift test for a standalone component?<a class="headerlink" href="#1-what-does-a-reviewer-do-in-the-lift-test-for-a-standalone-component" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Counts how many pages the component spans in the original resource and compares it with others</li>
+<li>Copies the component to a new place and checks that it still works there with everything it needs</li>
+<li>Asks the author whether the component was intended to stand alone, and accepts the answer</li>
+<li>Runs an automated accessibility checker on the component and records the number of errors</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>B</strong>. A standalone component works on its own, without the rest of the resource around it. The test is to lift it out: copy the piece into an empty file and read it cold. A reading that begins "as we saw in the last section" fails, a quiz that refers to "the diagram above" fails, and a simulation that needs a script from a sibling folder fails. A component passes when everything it needs travels with it.</p>
+<p><strong>Concept Tested:</strong> Standalone Component</p>
+<p><strong>See:</strong> <a href="../#standalone-component">Standalone Component</a></p>
+</details>
+<hr />
+<h4 id="2-in-dublin-core-which-element-holds-a-resources-license-or-rights-statement">2. In Dublin Core, which element holds a resource's license or rights statement?<a class="headerlink" href="#2-in-dublin-core-which-element-holds-a-resources-license-or-rights-statement" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Source</li>
+<li>Relation</li>
+<li>Description</li>
+<li>Rights</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>D</strong>. Dublin Core is a standard vocabulary of 15 core elements. The Rights element records the license or rights statement, which is why this book's license field maps to it. Author maps to Creator, and grade level uses the education level term because Dublin Core has no core element for it. Source (A) records a resource from which this one is derived, and Relation (B) records a related resource.</p>
+<p><strong>Concept Tested:</strong> Dublin Core</p>
+<p><strong>See:</strong> <a href="../#dublin-core">Dublin Core</a></p>
+</details>
+<hr />
+<h4 id="3-why-does-the-chapter-say-that-a-wrong-value-in-a-metadata-field-is-worse-than-a-blank-field">3. Why does the chapter say that a wrong value in a metadata field is worse than a blank field?<a class="headerlink" href="#3-why-does-the-chapter-say-that-a-wrong-value-in-a-metadata-field-is-worse-than-a-blank-field" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Blank fields are scored as valid, while wrong values are scored as invalid</li>
+<li>A blank field lets a search tool fill in the correct value automatically</li>
+<li>A wrong value makes a record look complete and sends searchers to the wrong place</li>
+<li>A wrong value always makes the resource fail the open license metric</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. Metadata completeness counts fields filled with valid values. A placeholder such as "TBD", a guess, or a license that does not match the page counts as invalid, so the record looks complete when it is not. It also misleads: a record that says CC BY next to a page that says CC BY-NC invites a dispute. Leave a field empty until you know the value, and then count it as missing.</p>
+<p><strong>Concept Tested:</strong> Metadata Completeness</p>
+<p><strong>See:</strong> <a href="../#metadata-completeness">Metadata Completeness</a></p>
+</details>
+<hr />
+<h4 id="4-how-do-subject-terms-differ-from-keywords-in-a-metadata-record">4. How do subject terms differ from keywords in a metadata record?<a class="headerlink" href="#4-how-do-subject-terms-differ-from-keywords-in-a-metadata-record" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Subject terms are written for machines to read, while keywords are written only for people</li>
+<li>Subject terms describe what the resource is about, often from a shared list, while keywords are free extra words</li>
+<li>Subject terms are free text with no rules at all, while keywords must come from a fixed list</li>
+<li>Subject terms record the grade level of the resource, while keywords record only its topic</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>B</strong>. Subject terms describe the topic, ideally from a shared list such as the ERIC Thesaurus, and two to five usually serve a resource. Keywords supplement them with everyday and alternative terms, such as "stormwater" beside "runoff." Too few keywords make a resource hard to find, and too many unrelated ones, called keyword stuffing, make it appear in searches where it does not belong. A controlled vocabulary gathers variants under one term.</p>
+<p><strong>Concept Tested:</strong> Keywords</p>
+<p><strong>See:</strong> <a href="../#keywords">Keywords</a></p>
+</details>
+<hr />
+<h4 id="5-why-do-phrases-such-as-as-shown-above-and-see-section-4-reduce-a-components-modularity">5. Why do phrases such as "as shown above" and "see section 4" reduce a component's modularity?<a class="headerlink" href="#5-why-do-phrases-such-as-as-shown-above-and-see-section-4-reduce-a-components-modularity" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Each phrase is a thread that breaks when the component is moved to a new place</li>
+<li>Each phrase makes the component too long to embed in another page</li>
+<li>The Dublin Core standard does not allow such phrases in a resource</li>
+<li>Each phrase prevents the component from carrying its own license</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>A</strong>. Cross-reference dependence is the way a component relies on other parts of its resource. When the component moves, "above" points at nothing. The fix is to restate the idea in one sentence, or to link to the other piece by its own address, so the reference works wherever the component lands. A reviewer searches for words such as "above," "below," "earlier," "next section," and "the figure" and checks each one.</p>
+<p><strong>Concept Tested:</strong> Cross-Reference Dependence</p>
+<p><strong>See:</strong> <a href="../#cross-reference-dependence">Cross-Reference Dependence</a></p>
+</details>
+<hr />
+<h4 id="6-a-teacher-embeds-a-simulation-with-an-iframe-whose-src-is-just-mainhtml-what-is-wrong-and-what-is-the-fix">6. A teacher embeds a simulation with an iframe whose <code>src</code> is just <code>main.html</code>. What is wrong, and what is the fix?<a class="headerlink" href="#6-a-teacher-embeds-a-simulation-with-an-iframe-whose-src-is-just-mainhtml-what-is-wrong-and-what-is-the-fix" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>The width is fixed at a number of pixels, so it should be changed to 100 percent</li>
+<li>The frame has no title, so a title attribute should be added for screen reader users</li>
+<li>The simulation needs a login, so the iframe should be removed from the course page</li>
+<li>A relative address points to a file that exists only beside the original page, so use a complete public address</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>D</strong>. For a component to embed, it needs its own complete address, it must open with no login, and the frame must fit any page. A relative address such as main.html works only where that file sits next to the page. Replace it with a full address such as https://example.org/sims/runoff/main.html. The snippet gives no information about the width (A), the title (B), or a login (C), so the address is the clear defect.</p>
+<p><strong>Concept Tested:</strong> Embeddable Component</p>
+<p><strong>See:</strong> <a href="../#embeddable-component">Embeddable Component</a></p>
+</details>
+<hr />
+<h4 id="7-a-metadata-record-has-valid-title-author-subject-and-grade-level-fields-a-license-value-of-tbd-and-an-empty-description-using-the-six-core-fields-what-is-its-metadata-completeness">7. A metadata record has valid Title, Author, Subject, and Grade level fields, a License value of "TBD," and an empty Description. Using the six core fields, what is its metadata completeness?<a class="headerlink" href="#7-a-metadata-record-has-valid-title-author-subject-and-grade-level-fields-a-license-value-of-tbd-and-an-empty-description-using-the-six-core-fields-what-is-its-metadata-completeness" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>67 percent</li>
+<li>83 percent</li>
+<li>100 percent</li>
+<li>50 percent</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>A</strong>. Completeness is the number of fields filled with a valid value, divided by the number of fields expected, times 100. Only four fields are valid, because a placeholder such as "TBD" counts as invalid and the Description is empty. Four divided by six is about 0.67, so completeness is 67 percent. Counting the "TBD" field as valid would give 83 percent (B). Completeness shows what is missing and says nothing about whether what is there is good.</p>
+<p><strong>Concept Tested:</strong> Metadata Completeness</p>
+<p><strong>See:</strong> <a href="../#metadata-completeness">Metadata Completeness</a></p>
+</details>
+<hr />
+<h4 id="8-a-reviewer-applies-the-ten-modularity-checks-to-a-single-long-page-checks-1-and-2-fail-which-are-serious-and-so-do-checks-3-5-8-9-and-10-only-checks-4-6-and-7-pass-what-score-does-the-chapters-rule-give">8. A reviewer applies the ten modularity checks to a single long page. Checks 1 and 2 fail, which are serious, and so do checks 3, 5, 8, 9, and 10. Only checks 4, 6, and 7 pass. What score does the chapter's rule give?<a class="headerlink" href="#8-a-reviewer-applies-the-ten-modularity-checks-to-a-single-long-page-checks-1-and-2-fail-which-are-serious-and-so-do-checks-3-5-8-9-and-10-only-checks-4-6-and-7-pass-what-score-does-the-chapters-rule-give" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>4, because 30 percent falls in the 3 to 4 band and the higher number applies</li>
+<li>5, because three checks passed and two serious checks failed, so the score is 5</li>
+<li>3, because 30 percent falls in the 3 to 4 band and failing checks 1 and 2 is serious</li>
+<li>1, because the page cannot be taken apart at all, so no points are earned</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. Three of ten checks pass, a share of 30 percent, in the 3 to 4 band. Checks 1 and 2 are serious because failing them means the resource cannot be taken apart at all. When a serious check fails, choose the lower number in a two-number band, so the score is 3. The higher number (A) applies only when no serious check fails. The score depends on the share of checks passed and not on how many serious checks failed.</p>
+<p><strong>Concept Tested:</strong> Modularity Metric</p>
+<p><strong>See:</strong> <a href="../#the-modularity-metric">The Modularity Metric</a></p>
+</details>
+<hr />
+<h4 id="9-a-teacher-searches-for-grade-6-watershed-quiz-record-a-has-a-clear-title-subject-terms-grades-6-to-7-a-license-and-a-description-of-a-reading-and-eight-question-quiz-record-b-has-only-the-title-reading-4-record-c-has-the-title-watershed-basics-and-an-author-with-nothing-else-which-analysis-is-best">9. A teacher searches for "grade 6 watershed quiz." Record A has a clear title, subject terms, grades 6 to 7, a license, and a description of a reading and eight-question quiz. Record B has only the title "Reading 4." Record C has the title "Watershed Basics" and an author, with nothing else. Which analysis is best?<a class="headerlink" href="#9-a-teacher-searches-for-grade-6-watershed-quiz-record-a-has-a-clear-title-subject-terms-grades-6-to-7-a-license-and-a-description-of-a-reading-and-eight-question-quiz-record-b-has-only-the-title-reading-4-record-c-has-the-title-watershed-basics-and-an-author-with-nothing-else-which-analysis-is-best" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>All three records are found equally, because a title alone is enough for a search to match</li>
+<li>A is found and understood, B cannot be found, and C may be found but its grade and license are unknown</li>
+<li>Record C ranks highest, because naming an author helps a search engine more than any other field</li>
+<li>Record B is found, because a unique title such as "Reading 4" always matches any search</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>B</strong>. A search matches the words in a resource's metadata. Record A has fields that mention the topic, grade, and contents, so it is found and a teacher can tell what it is. Record B has no field that mentions a watershed. Record C may match on its title, but without a grade level or license the teacher cannot tell whether it fits or whether she may reuse it. A resource whose metadata is missing may as well not exist.</p>
+<p><strong>Concept Tested:</strong> Metadata Metric</p>
+<p><strong>See:</strong> <a href="../#the-metadata-metric">The Metadata Metric</a></p>
+</details>
+<hr />
+<h4 id="10-a-reviewer-finds-that-a-page-footer-says-cc-by-nc-while-the-license-field-in-the-metadata-says-cc-by-which-analysis-is-best">10. A reviewer finds that a page footer says CC BY-NC, while the license field in the metadata says CC BY. Which analysis is best?<a class="headerlink" href="#10-a-reviewer-finds-that-a-page-footer-says-cc-by-nc-while-the-license-field-in-the-metadata-says-cc-by-which-analysis-is-best" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>The record and the page disagree, so the license is unclear and must be confirmed and made to match</li>
+<li>The page always wins automatically, so the metadata can stay as it is and be ignored</li>
+<li>There is no problem, because both are Creative Commons licenses and both allow reuse</li>
+<li>The more permissive license is the valid one, so CC BY applies to the whole resource</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>A</strong>. The license field must agree with the statement on the page, and a mismatch invites a dispute. Unclear licensing is a risk for the reuser, because the safe assumption is that no permission was granted. Both licenses are Creative Commons licenses, but they grant different permissions, since NC bars commercial use (C). The reviewer should trace the work to its owner, confirm the license, and fix both places, and a mismatched value counts as invalid.</p>
+<p><strong>Concept Tested:</strong> License Field</p>
+<p><strong>See:</strong> <a href="../#license-field">License Field</a></p>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Dan Mccreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["content.code.copy", "content.action.edit", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

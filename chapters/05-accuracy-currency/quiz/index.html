@@ -1,0 +1,1121 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Objective steps for evaluating open educational resources (OER).  A focus on manual A/B testing with students as AI skills for automated assessments of OER textbooks.">
+      
+      
+        <meta name="author" content="Dan Mccreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/oer-evaluator/chapters/05-accuracy-currency/quiz/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Quiz: Accuracy and Currency - OER Evaluator</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../../css/mascot.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#quiz-accuracy-and-currency" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="OER Evaluator" class="md-header__button md-logo" aria-label="OER Evaluator" data-md-component="logo">
+      
+  <img src="../../../img/mascot/welcome.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OER Evaluator
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Quiz: Accuracy and Currency
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/oer-evaluator" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="OER Evaluator" class="md-nav__button md-logo" aria-label="OER Evaluator" data-md-component="logo">
+      
+  <img src="../../../img/mascot/welcome.png" alt="logo">
+
+    </a>
+    OER Evaluator
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/oer-evaluator" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../about/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../course-description/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Description
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rubric-spec/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rubric Specification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapters
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../learning-graph/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning Graph
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../sims/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MicroSims
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../workshops/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workshops
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    License
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contact
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-according-to-the-chapter-when-should-a-reviewer-ask-for-an-expert-review" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. According to the chapter, when should a reviewer ask for an expert review?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-why-does-the-chapter-say-to-check-each-sampled-fact-against-a-source-that-is-independent-of-the-resource" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Why does the chapter say to check each sampled fact against a source that is independent of the resource?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-why-must-a-reviewer-record-not-addressed-as-its-own-fact-checking-result-instead-of-counting-it-as-a-match" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Why must a reviewer record "not addressed" as its own fact-checking result instead of counting it as a match?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-which-description-matches-a-secondary-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Which description matches a secondary source?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-an-ai-generated-reference-lists-a-real-author-a-working-link-and-a-reputable-publisher-why-might-it-still-be-a-weak-citation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. An AI-generated reference lists a real author, a working link, and a reputable publisher. Why might it still be a weak citation?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-a-reviewer-applies-the-ten-accuracy-and-currency-checks-to-a-clinic-guide-only-check-2-fails-because-fewer-than-9-of-every-10-sampled-facts-match-and-the-chapter-marks-that-check-as-serious-what-score-does-the-scoring-rule-give" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. A reviewer applies the ten accuracy and currency checks to a clinic guide. Only check 2 fails, because fewer than 9 of every 10 sampled facts match, and the chapter marks that check as serious. What score does the scoring rule give?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-a-link-checker-reports-a-301-result-for-a-cited-page-and-the-new-address-shows-the-same-article-what-should-the-reviewer-do" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. A link checker reports a 301 result for a cited page, and the new address shows the same article. What should the reviewer do?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-a-reviewer-reads-four-statements-in-a-lab-guide-on-12-october-2026-which-statement-shows-the-strongest-sign-of-outdated-content" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. A reviewer reads four statements in a lab guide on 12 October 2026. Which statement shows the strongest sign of outdated content?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-a-resource-states-wetlands-filter-pollutants-and-cites-a-textbook-the-textbook-cites-a-review-article-and-the-review-summarizes-several-studies-a-reviewer-stops-after-confirming-that-the-textbook-says-the-same-thing-what-has-the-reviewer-actually-shown" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. A resource states "Wetlands filter pollutants" and cites a textbook. The textbook cites a review article, and the review summarizes several studies. A reviewer stops after confirming that the textbook says the same thing. What has the reviewer actually shown?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-resource-a-was-carefully-written-in-2012-and-had-no-errors-on-the-day-it-was-published-but-it-has-never-been-updated-resource-b-was-published-last-month-and-gives-a-wrong-date-for-a-historical-event-which-analysis-is-correct" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Resource A was carefully written in 2012 and had no errors on the day it was published, but it has never been updated. Resource B was published last month and gives a wrong date for a historical event. Which analysis is correct?
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/dmccreary/oer-evaluator/blob/main/docs/chapters/05-accuracy-currency/quiz.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="quiz-accuracy-and-currency">Quiz: Accuracy and Currency<a class="headerlink" href="#quiz-accuracy-and-currency" title="Permanent link">&para;</a></h1>
+<p>Test your understanding of fact checking, citations, outdated content, link checks, and scoring the accuracy and currency metric with these review questions.</p>
+<hr />
+<h4 id="1-according-to-the-chapter-when-should-a-reviewer-ask-for-an-expert-review">1. According to the chapter, when should a reviewer ask for an expert review?<a class="headerlink" href="#1-according-to-the-chapter-when-should-a-reviewer-ask-for-an-expert-review" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>When the resource shows a publication date and a revision history that are both recent</li>
+<li>When the sampled facts all match, but the reviewer likes the writing style and the layout</li>
+<li>When the claims bear on health, safety, or law, or the sample shows two or more mismatches in ten</li>
+<li>When the resource carries an open license that allows commercial reuse and editing by anyone</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. Ask for an expert review when the topic is outside your knowledge, when the content bears on health, safety, or law, when claims are contested, or when your sample finds two or more mismatches in ten facts. A date, a revision history (A), and an open license (D) are useful evidence for other checks, and none of them calls for an expert. Liking the writing style (B) is an opinion, not evidence.</p>
+<p><strong>Concept Tested:</strong> Expert Review</p>
+<p><strong>See:</strong> <a href="../#expert-review">Expert Review</a></p>
+</details>
+<hr />
+<h4 id="2-why-does-the-chapter-say-to-check-each-sampled-fact-against-a-source-that-is-independent-of-the-resource">2. Why does the chapter say to check each sampled fact against a source that is independent of the resource?<a class="headerlink" href="#2-why-does-the-chapter-say-to-check-each-sampled-fact-against-a-source-that-is-independent-of-the-resource" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Independent sources are always free to read online, whereas the resource's references usually are not</li>
+<li>Checking against another copy of the same text proves nothing, because copied errors spread</li>
+<li>Only independent sources can be primary sources, and the resource's own references never can</li>
+<li>An independent source is much easier to cite correctly than the resource's own list of references</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>B</strong>. If a reviewer compares a claim with a copy of the same text, a copied error will match and the check proves nothing. Choose a reliable source that was produced separately, such as an agency's current data page, and compare word for word and number for number. The sample should hold at least 10 checkable facts, spread across the sections, with numbers, dates, and names favored because they are likeliest to be wrong.</p>
+<p><strong>Concept Tested:</strong> Accuracy Metric</p>
+<p><strong>See:</strong> <a href="../#the-accuracy-metric">The Accuracy Metric</a></p>
+</details>
+<hr />
+<h4 id="3-why-must-a-reviewer-record-not-addressed-as-its-own-fact-checking-result-instead-of-counting-it-as-a-match">3. Why must a reviewer record "not addressed" as its own fact-checking result instead of counting it as a match?<a class="headerlink" href="#3-why-must-a-reviewer-record-not-addressed-as-its-own-fact-checking-result-instead-of-counting-it-as-a-match" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>A source that does not mention a claim has shown that the claim is false and should be rejected</li>
+<li>A source that never mentions a claim neither supports nor contradicts it, so silence cannot count as a match</li>
+<li>Every claim that a source does not address must be removed from the resource by the reviewer</li>
+<li>A source that is silent on one claim cannot be trusted for any other claim in the resource</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>B</strong>. A source can support a claim, contradict it, or fail to address it. Silence is not support: a reviewer who counts it as a match will pass claims that no one actually checked. The reviewer should look for a source that does address the claim, or record the claim as not checkable and report it. Echo's reminder is that a source which never mentions a claim has not confirmed it.</p>
+<p><strong>Concept Tested:</strong> Fact Checking</p>
+<p><strong>See:</strong> <a href="../#fact-checking">Fact Checking</a></p>
+</details>
+<hr />
+<h4 id="4-which-description-matches-a-secondary-source">4. Which description matches a secondary source?<a class="headerlink" href="#4-which-description-matches-a-secondary-source" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>A review article that summarizes thirty studies done by other researchers</li>
+<li>A lab notebook entry that records a measurement when it was made</li>
+<li>A census table that gives the population count on the census date</li>
+<li>A photograph taken at the library while the flood water was rising</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>A</strong>. A secondary source describes, summarizes, or interprets primary sources. Textbooks, review articles, news stories about research, and histories are secondary sources, and this book treats encyclopedias the same way. The other three options are primary sources, because each is original evidence from the time or person described. Secondary sources are useful but one step removed, so for an important claim a reviewer follows them back to a primary source.</p>
+<p><strong>Concept Tested:</strong> Secondary Source</p>
+<p><strong>See:</strong> <a href="../#secondary-source">Secondary Source</a></p>
+</details>
+<hr />
+<h4 id="5-an-ai-generated-reference-lists-a-real-author-a-working-link-and-a-reputable-publisher-why-might-it-still-be-a-weak-citation">5. An AI-generated reference lists a real author, a working link, and a reputable publisher. Why might it still be a weak citation?<a class="headerlink" href="#5-an-ai-generated-reference-lists-a-real-author-a-working-link-and-a-reputable-publisher-why-might-it-still-be-a-weak-citation" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>A working link means the page will disappear soon, which is called link rot by reviewers</li>
+<li>A reputable publisher cannot be a reliable source for any claim, however well it is cited</li>
+<li>A real author's work is always a secondary source and so cannot support a claim</li>
+<li>The source may say nothing about the claim beside it, so it can fail the relevance test</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>D</strong>. Citation quality asks four questions: is the source relevant, reliable, retrievable, and current? A real source with a working link can still say nothing about the claim, and AI agents are known to produce references that look right and are not. Open the source, read the line that supports the claim, and record that you did. Neither a working link (A) nor a reputable publisher (B) is a weakness.</p>
+<p><strong>Concept Tested:</strong> Citation Quality</p>
+<p><strong>See:</strong> <a href="../#citation-quality">Citation Quality</a></p>
+</details>
+<hr />
+<h4 id="6-a-reviewer-applies-the-ten-accuracy-and-currency-checks-to-a-clinic-guide-only-check-2-fails-because-fewer-than-9-of-every-10-sampled-facts-match-and-the-chapter-marks-that-check-as-serious-what-score-does-the-scoring-rule-give">6. A reviewer applies the ten accuracy and currency checks to a clinic guide. Only check 2 fails, because fewer than 9 of every 10 sampled facts match, and the chapter marks that check as serious. What score does the scoring rule give?<a class="headerlink" href="#6-a-reviewer-applies-the-ten-accuracy-and-currency-checks-to-a-clinic-guide-only-check-2-fails-because-fewer-than-9-of-every-10-sampled-facts-match-and-the-chapter-marks-that-check-as-serious-what-score-does-the-scoring-rule-give" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>9, because 90 percent is in the 9 to 10 band and a serious failure selects the lower number</li>
+<li>10, because only one check in ten failed and the higher number in the band is always used</li>
+<li>8, because a single serious failure always moves the score down one band</li>
+<li>5, because more than one in ten sampled facts did not match, which halves the score</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>A</strong>. Nine of ten checks pass, a share of 90 percent, which falls in the 9 to 10 band. A failed check is serious when a learner could take away a false or outdated fact, and check 2 is serious, so the reviewer chooses the lower number, 9. A score of 10 requires every check to pass (B). A serious failure selects a number within the band and does not move the score to another band (C).</p>
+<p><strong>Concept Tested:</strong> Accuracy Metric</p>
+<p><strong>See:</strong> <a href="../#scoring-accuracy-and-currency">Scoring Accuracy and Currency</a></p>
+</details>
+<hr />
+<h4 id="7-a-link-checker-reports-a-301-result-for-a-cited-page-and-the-new-address-shows-the-same-article-what-should-the-reviewer-do">7. A link checker reports a 301 result for a cited page, and the new address shows the same article. What should the reviewer do?<a class="headerlink" href="#7-a-link-checker-reports-a-301-result-for-a-cited-page-and-the-new-address-shows-the-same-article-what-should-the-reviewer-do" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Keep the link unchanged, because the page still loads</li>
+<li>Replace the source, because 301 means the page is gone for good</li>
+<li>Update the link to the new address, because the page moved permanently</li>
+<li>Open the link by hand later, because 301 means the server refused the tool</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. A 301 result means the page moved permanently to a new address, so the reviewer updates the link. A 404 calls for finding the new address or replacing the source, and a 410 means the page is gone for good, so replace it. A 403 means the server refused the tool, so open the link by hand. Record the date of the test, because a link that works today may fail next month.</p>
+<p><strong>Concept Tested:</strong> Broken Link Check</p>
+<p><strong>See:</strong> <a href="../#broken-link-check">Broken Link Check</a></p>
+</details>
+<hr />
+<h4 id="8-a-reviewer-reads-four-statements-in-a-lab-guide-on-12-october-2026-which-statement-shows-the-strongest-sign-of-outdated-content">8. A reviewer reads four statements in a lab guide on 12 October 2026. Which statement shows the strongest sign of outdated content?<a class="headerlink" href="#8-a-reviewer-reads-four-statements-in-a-lab-guide-on-12-october-2026-which-statement-shows-the-strongest-sign-of-outdated-content" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Photosynthesis takes in carbon dioxide and releases oxygen as plants make food</li>
+<li>To sign in, click the blue Sign On button in the screenshot, which dates from 2015</li>
+<li>The United States Declaration of Independence was adopted in 1776 by the Continental Congress</li>
+<li>The area of a rectangle is its length times its width, measured in square units</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>B</strong>. Content ages at different speeds, so a reviewer matches the checking to how fast the topic moves. Software screenshots, prices, and web addresses age quickly, and an interface screenshot from 2015 is likely to have been redesigned. Basic science, mathematics, and historical dates change very slowly or not at all. Outdated content was correct when written, which is why the author did nothing wrong at the time and a learner is harmed all the same.</p>
+<p><strong>Concept Tested:</strong> Outdated Content</p>
+<p><strong>See:</strong> <a href="../#outdated-content">Outdated Content</a></p>
+</details>
+<hr />
+<h4 id="9-a-resource-states-wetlands-filter-pollutants-and-cites-a-textbook-the-textbook-cites-a-review-article-and-the-review-summarizes-several-studies-a-reviewer-stops-after-confirming-that-the-textbook-says-the-same-thing-what-has-the-reviewer-actually-shown">9. A resource states "Wetlands filter pollutants" and cites a textbook. The textbook cites a review article, and the review summarizes several studies. A reviewer stops after confirming that the textbook says the same thing. What has the reviewer actually shown?<a class="headerlink" href="#9-a-resource-states-wetlands-filter-pollutants-and-cites-a-textbook-the-textbook-cites-a-review-article-and-the-review-summarizes-several-studies-a-reviewer-stops-after-confirming-that-the-textbook-says-the-same-thing-what-has-the-reviewer-actually-shown" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>That the claim is fully supported by primary evidence at the end of the citation chain</li>
+<li>That the claim is false, because textbooks are never reliable sources for a scientific claim</li>
+<li>That the citation chain is broken at the textbook and cannot be followed any further back</li>
+<li>That a secondary source agrees with the resource, not that the original evidence supports the claim</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>D</strong>. Citations form chains, and an error can enter at any link. The textbook is a secondary source, and the review is another step removed. A reviewer who stops at the textbook has found only that a textbook agreed with the resource. Following the chain to the study that reported the measurements before and after water passed through a wetland gives a check that can be trusted. The further back you trace a claim, the stronger the check.</p>
+<p><strong>Concept Tested:</strong> Source Citation</p>
+<p><strong>See:</strong> <a href="../#source-citation">Source Citation</a></p>
+</details>
+<hr />
+<h4 id="10-resource-a-was-carefully-written-in-2012-and-had-no-errors-on-the-day-it-was-published-but-it-has-never-been-updated-resource-b-was-published-last-month-and-gives-a-wrong-date-for-a-historical-event-which-analysis-is-correct">10. Resource A was carefully written in 2012 and had no errors on the day it was published, but it has never been updated. Resource B was published last month and gives a wrong date for a historical event. Which analysis is correct?<a class="headerlink" href="#10-resource-a-was-carefully-written-in-2012-and-had-no-errors-on-the-day-it-was-published-but-it-has-never-been-updated-resource-b-was-published-last-month-and-gives-a-wrong-date-for-a-historical-event-which-analysis-is-correct" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Both fail on accuracy, because neither resource's facts can be trusted by a careful reader</li>
+<li>Resource A fails on accuracy, because it is old, and Resource B fails on currency</li>
+<li>Resource A passes both halves, because it contained no errors when it was published</li>
+<li>Resource A is weak on currency though accurate when written, and Resource B fails on accuracy</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>D</strong>. Accuracy asks whether the facts were correct when written, and currency asks whether they are still correct now. A careful 2012 text can score well on one half and badly on the other, because facts, figures, software, and links age. Resource A is a currency problem. Resource B contains a false statement from the start, so it is an accuracy problem. The two halves together make up the first quality metric.</p>
+<p><strong>Concept Tested:</strong> Currency Metric</p>
+<p><strong>See:</strong> <a href="../#the-currency-metric">The Currency Metric</a></p>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Dan Mccreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["content.code.copy", "content.action.edit", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
