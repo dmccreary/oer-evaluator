@@ -1,997 +1,1155 @@
 ---
 title: Frequently Asked Questions
-description: Categorized frequently asked questions and answers for OER Evaluator, covering open educational resources, open licensing, the ten-metric rubric, AI agent evaluation, resource improvement, and classroom A/B testing.
+description: Answers to the most common questions about the OER Evaluator book, the ten-metric rubric, AI-agent scoring, improving a resource, A/B testing with students, and the certificate, grouped by category.
 category_count: 6
-question_count: 100
+question_count: 103
 ---
-
 # OER Evaluator FAQ
 
-!!! mascot-welcome "Questions Worth Checking"
-    ![Echo the Loon waving welcome](img/mascot/welcome.png){ class="mascot-admonition-img" }
-    Whether you are choosing your first open textbook, checking an AI agent's rubric scores, or planning a classroom A/B test, good evaluation starts with sharp questions. Browse the six categories below to find direct answers, worked examples, and links to every chapter. Let's dive in and check the evidence!
+!!! mascot-welcome "Ask Away"
+    ![Echo waving welcome](img/mascot/welcome.png){ class="mascot-admonition-img" }
+    Every teacher who tries the rubric ends up asking a few of the same questions, and the answers here are the ones that save the most time. Skim the headings, jump to the question you have, and follow the links when you want the full story. Let's dive in and check the evidence!
 
-This page answers 100 frequently asked questions about evaluating and improving open educational resources (OER) with the ten-metric rubric, AI agents, and student A/B testing. Questions are organized into six categories progressing from foundational course orientation to advanced empirical validation and publishing.
+Questions are grouped from first steps to advanced topics. Each answer links to the chapter that teaches the idea in full, and every term is defined in the [glossary](glossary.md).
 
 ## Getting Started Questions
 
-### What is an open educational resource and how does it differ from commercial textbooks?
+### What is this book about?
 
-An **Educational Resource** is any textbook, lesson plan, video, quiz, or simulation used to support teaching and learning. An **Open Educational Resource** (OER) is a teaching, learning, or research material that resides in the public domain or has been released under an open license that permits no-cost access, use, adaptation, and redistribution by others. An **Open Textbook** is a complete textbook licensed openly so instructors and students can read, download, and modify it without paying royalties.
+The OER Evaluator teaches a repeatable method for deciding whether an open educational resource (OER) is good and whether other teachers can actually reuse it. You score a resource on 10 metrics worth 10 points each, five for quality and five for reusability, for a total out of 100. You learn to score by hand first, then to direct an AI agent to make the first pass and check its evidence. The book then moves from evaluation to improvement and shows how to test with students whether a change helped.
 
-By contrast, a **Commercial Textbook** is published under all-rights-reserved copyright, charging students high retail prices or recurring digital access fees while forbidding instructors from editing or sharing the chapters. Switching from commercial materials to open alternatives directly improves **Course Material Affordability** and enables schools to offer a **Zero Textbook Cost Course** (ZTC), where learners pay nothing for required texts.
+**Example:** A department choosing between two open algebra textbooks scores both on the same ten metrics and compares the totals and subtotals instead of relying on first impressions.
 
-**Example:** Sam replaces a commercial ninth-grade biology textbook with an open chapter on cell structure, saving thirty students from buying an expensive print book while gaining the legal right to customize the readings. Read [Chapter 1: Foundations of Open Educational Resources](chapters/01-foundations-of-oer/index.md) and the [Course Description](course-description.md) for a full overview.
+The [course description](course-description.md) lays out the full scope, and [Chapter 1](chapters/01-foundations-of-oer/index.md) starts the content.
 
-### Who is the target audience for the OER Evaluator intelligent textbook?
+### Who is this book for?
 
-This **Intelligent Textbook** is written for K-12 teachers, college instructors, instructional designers, school and academic librarians, and OER coordinators who select, adapt, or build open teaching materials. Whether you are conducting **Resource Selection** for a single classroom unit or leading a district-wide **OER Adoption** initiative, the book gives you a repeatable, evidence-based evaluation workflow.
+The book is written for teachers in K-12 and college, instructional designers, librarians, and OER coordinators who select, adapt, or create open educational resources. If you choose course materials, advise people who do, or build lessons that others will reuse, you are the intended reader.
 
-Readers use the textbook for self-paced **Professional Development** or as the core curriculum in a facilitated **Teacher Training Workshop**. Each role brings distinct strengths to a review team:
+**Example:** A school librarian who maintains a shelf of open textbooks and a high-school science teacher who wants to improve one open unit would both use the same ten-metric rubric, each on their own resources.
 
-- Classroom teachers judge curriculum fit, reading level, and practice exercises.
-- Subject-matter experts verify scientific or historical claims.
-- Librarians and OER coordinators check open licenses, attribution statements, and repository metadata.
+The [course description](course-description.md) states the audience, and the [workshop pages](workshops/index.md) show how a group of about 20 teachers uses the book over one day.
 
-**Example:** High school biology teacher Sam uses the ten-metric rubric with a department colleague and a school librarian to evaluate a candidate cell biology unit before assigning it to ninth graders. See the [Course Description](course-description.md) and [Chapter 19: Training Teachers and Certifying Reviewers](chapters/19-training-certifying-reviewers/index.md) to learn how different educators collaborate.
+### Do I need any background before I start?
 
-### What prerequisite knowledge or technical skills do I need before starting this course?
+No. The course description lists the prerequisites as none. You should be comfortable using a web browser and a word processor. Experience with an AI chat assistant helps but is not required, because the book teaches the AI-agent skills it uses.
 
-There is no formal **Prerequisite Knowledge** in programming, statistics, or copyright law required to start this course. You only need everyday familiarity with a web browser and a word processor. Prior experience chatting with an **AI Assistant** is helpful, but the chapters teach every **Prompt** technique and **Editable Source Metric** skill step by step from the ground up.
+A little Markdown and HTML appears when you publish a resource, but the book does not teach programming beyond simple prompts, Markdown, and HTML. If the vocabulary is new, [Chapter 1](chapters/01-foundations-of-oer/index.md) defines educational resource, copyright, public domain, and open educational resource before any later idea depends on them, and the [glossary](glossary.md) covers every term after that.
 
-When the course introduces technical tools such as **Markdown** files, **HTML** tags, or automated rubric prompts, it explains what each tool does in plain language before asking you to use it. It also explicitly excludes advanced software engineering, machine-learning model training, and complex statistical modeling so educators can focus on practical evaluation.
+**Example:** A teacher who has only used a word processor and a search engine can start at Chapter 1 and follow the chapters in order.
 
-**Example:** Even if you have never inspected a web page's source code or written a structured rubric prompt, Chapters 3, 4, and 12 walk you through checking image alt text, reading clean Markdown headings, and directing an agent to score a sample chapter. Review the [Course Description](course-description.md) and [Chapter 4: Open File Formats and Version Control](chapters/04-open-formats-version-control/index.md) for details on what you will learn.
+### What will I be able to do when I finish?
 
-### What are the 5R permissions that define an open educational resource?
+You will be able to carry out the whole evaluate, improve, and test cycle on a resource from your own subject. The course description states the outcomes at all six levels of Bloom's Taxonomy, from Remember to Create. Among them, you will be able to:
 
-**The 5R Permissions**, formulated by David Wiley, are the five legal rights that an open license grants to every user of an open educational resource. A resource is truly open only when its license allows educators and learners to exercise these rights without asking permission or paying fees:
+- Define open educational resource and list the 5R permissions.
+- Score a sample OER on all 10 metrics by hand and record evidence for each score.
+- Write an AI-agent prompt that scores a resource against the rubric and returns evidence.
+- Critique an agent's evaluation and decide which findings to accept, correct, or reject.
+- Judge whether an OER is ready to adopt, needs revision, or should be rejected, and justify the decision.
+- Design and run an A/B test that compares an original resource with its improved version.
 
-- **Retain Permission:** The right to make, own, and keep copies of the content indefinitely on your own devices.
-- **Reuse Permission:** The right to use the unaltered content in a classroom, study group, website, or video.
-- **Revise Permission:** The right to adapt, adjust, translate, or modify the content to suit your learners.
-- **Remix Permission:** The right to combine the original or revised content with other open materials to create something new.
-- **Redistribute Permission:** The right to share copies of the original, revised, or remixed resource with colleagues, students, and the public.
+The full list is in the [course description](course-description.md).
 
-**Example:** Because Sam's biology chapter carries a CC BY 4.0 license, Sam can download a permanent copy, fix two cell organelle errors, merge a vocabulary table from another open book, and post the updated packet for the whole district. See [Chapter 1: Foundations of Open Educational Resources](chapters/01-foundations-of-oer/index.md) for examples of each permission.
+### What is the capstone project?
 
-### How is the OER Evaluator textbook organized across its nineteen chapters?
+The capstone project is the book's culminating work. You evaluate one OER from your own subject, use AI agents to improve it on at least two quality metrics and two reusability metrics, test the change with students, and publish the result under a CC BY license.
 
-The textbook follows a carefully sequenced **Chapter Structure** and **Scope and Sequence** across 19 chapters so that every concept appears only after its prerequisites have been introduced. The progression moves through five practical phases:
+[Chapter 19](chapters/19-training-certifying-reviewers/index.md) lays the project out in seven steps that map back to earlier chapters: choose and check the resource, evaluate it, check the agent, improve, test with students, publish, and share.
 
-1. **Foundations and Licensing (Chapters 1–3):** Introduces open resources, Creative Commons licenses, and the **Ten-Metric Rubric**.
-2. **Metric-by-Metric Deep Dives (Chapters 4–10):** Examines open file formats, accuracy, alignment, readability, accessibility, practice, modularity, metadata, and portability.
-3. **Manual and AI-Assisted Evaluation (Chapters 11–14):** Covers **Manual Evaluation**, prompting an **AI Agent**, running automated checks, and verifying agent output against human reviewers.
-4. **Improvement and Student Testing (Chapters 15–17):** Guides you through repairing weak metrics and running an **A/B Test** with students.
-5. **Publishing and Certification (Chapters 18–19):** Shows how to package reusable components, publish improved OER, and train colleagues.
+The chapter sets four tests for success:
 
-**Example:** A beginner reads Chapters 1 to 3 first to master the scoring framework before jumping to Chapter 7 to audit image alt text. Browse the [List of Chapters](chapters/index.md) and the [Learning Graph](learning-graph/index.md) to plan your reading path.
+- The resource gains on at least two quality and two reusability metrics, with evidence.
+- A student test follows the consent and privacy rules.
+- The result is published under CC BY with metadata.
+- A report states the gain and the limits of the test honestly.
 
-### How do OER adoption, adaptation, and creation differ when selecting course materials?
+### How is the book organized?
 
-When educators move away from commercial textbooks, they choose among three levels of engagement based on how closely existing open materials match their students' needs:
+The book has 19 chapters covering 351 concepts. Each chapter lists the concepts it covers, and the [chapter list](chapters/index.md) gives a summary of every one. In outline:
 
-- **OER Adoption:** Selecting an existing open resource and using it as-is in your course without changing its instructional content.
-- **OER Adaptation:** Taking an existing open resource and revising, reorganizing, translating, or remixing it to fix weaknesses or fit a local curriculum.
-- **OER Creation:** Writing and publishing an entirely new open resource from scratch when no suitable open material exists in any **OER Repository**.
+- **Chapters 1 and 2** cover OER foundations and open licensing.
+- **Chapter 3** introduces the ten-metric rubric and how scoring works.
+- **Chapters 4 to 10** teach how to score the metrics: editable source, accuracy and currency, alignment and readability, accessibility, practice and feedback, open license, modularity and metadata, and portability.
+- **Chapter 11** covers scoring by hand and turning scores into an adopt, revise, or reject decision.
+- **Chapters 12 to 14** introduce AI agents and prompts, automated checks, and how to check agent output.
+- **Chapter 15** shows how to improve a resource with agents.
+- **Chapters 16 and 17** teach designing and analyzing an A/B test with students.
+- **Chapters 18 and 19** cover publishing OER and training and certifying reviewers.
 
-Thoughtful **Resource Selection** almost always starts by searching repositories and scoring candidates to see whether adoption or adaptation is feasible before investing the heavy labor of creation. Instructors can also involve students directly in updating and expanding open materials through **Open Pedagogy**.
+### Do I have to read the chapters in order?
 
-**Example:** Sam finds a cell biology chapter in an open repository; because it scores 56 out of 100 with two factual errors and missing alt text, Sam chooses adaptation rather than adoption as-is or writing a chapter from scratch. Read [Chapter 1: Foundations of Open Educational Resources](chapters/01-foundations-of-oer/index.md) for guidance on choosing the right path.
+In general, yes. The chapters introduce concepts in dependency order, so each concept appears after the concepts it relies on. If you already know a topic well, look at the chapter's list of concepts and its prerequisites, then skip ahead.
 
-### What are the ten metrics in the OER Evaluator quality and reusability rubric?
+The one chapter that is unwise to skip is [Chapter 3](chapters/03-ten-metric-rubric-scoring/index.md). Every later chapter that scores a resource, checks an agent's score, or measures improvement uses the ten-metric rubric introduced there. If you only need one skill, such as checking AI output, read Chapter 3 first and then go straight to [Chapter 14](chapters/14-checking-agent-output/index.md).
 
-The **Ten-Metric Rubric** evaluates an open educational resource across two equal dimensions of 50 points each, giving a 100-point total. Every metric is scored from 0 to 10 based on observable evidence.
+**Example:** A librarian who already knows Creative Commons licensing can skim the concept list of Chapter 2, then continue with Chapter 3.
 
-The five metrics in the **Quality Dimension** judge how well the material teaches:
+### What is a learning graph, and how does it help me?
 
-1. **Accuracy Metric** and **Currency Metric** (scored together as Accuracy and Currency): Are facts right and up to date?
-2. **Alignment Metric**: Does content match learning outcomes?
-3. **Readability Metric**: Does prose fit the target audience's reading level?
-4. **Accessibility Metric**: Can learners with diverse abilities use it?
-5. **Practice Metric**: Are there formative questions with helpful feedback?
+A learning graph is a map of the concepts of a subject in which each concept is linked to the concepts it depends on. It answers the question "What must a learner know before this?" For this book, the graph holds 351 concepts joined by 586 dependencies. It is a valid directed acyclic graph, so no concept depends on itself, even indirectly.
 
-The five metrics in the **Reusability Dimension** judge how easily other teachers can adopt and modify the material: Open License, Modularity, Metadata, Editable Source, and Portability.
+Six concepts have no prerequisites: Educational Resource, Copyright, Learning Outcome, Accessibility, AI Assistant, and Student Data Privacy. The longest chain of prerequisites runs 24 concepts deep. The graph decides the order of the chapters, and you can use it to see how a concept you are studying fits the larger picture.
 
-**Example:** Sam's candidate biology chapter earns 22 out of 50 on the five quality metrics and 34 out of 50 on the five reusability metrics for a total score of 56. See [Chapter 3: The Ten-Metric Rubric and Scoring](chapters/03-ten-metric-rubric-scoring/index.md) and the [Sample Rubric Worksheet](workshops/sample-rubric-worksheet.md).
+The [learning graph overview](learning-graph/index.md) explains the files, and the [graph quality report](learning-graph/quality-metrics.md) gives the numbers.
 
-### How do the Learning Graph and Glossary help me navigate the textbook?
+### Where do I look up a term I don't know?
 
-This book is built around an explicit **Learning Graph** that maps 351 concepts and every **Concept Dependency** between them. Each concept is sequenced so foundational ideas appear before advanced workflows that rely on them. At the top of every chapter, a "Concepts Covered" table lists the exact terms introduced in that chapter alongside links to prerequisite chapters.
+Use the [glossary](glossary.md). It defines all 351 concepts from the learning graph in alphabetical order. Each entry gives a one-sentence definition written to ISO 11179 style (precise, concise, and not circular), a note on why the term matters when you evaluate or improve an OER, an example for many terms, and related terms. The search bar at the top of every page also searches the whole book.
 
-Whenever you encounter an unfamiliar **Defined Terms** entry, you can look it up in the **Glossary**, which provides concise, non-circular ISO 11179 definitions for every concept in the course. Together, these tools support flexible **Chapter Structure** navigation: experienced educators can check a chapter's concept list and skip ahead if they already know the prerequisites, while newcomers can trace any advanced topic back to its roots.
+**Example:** Searching for Score Band finds the five named ranges of the total score: Excellent 90 to 100, Good 75 to 89, Fair 50 to 74, Weak 25 to 49, and Poor 0 to 24.
 
-**Example:** Before reading about Cohen's kappa in Chapter 14, a reader checks the prerequisite links and reviews Inter-Rater Agreement in Chapter 3 and the definition in the [Glossary](glossary.md). Explore the [Learning Graph Introduction](learning-graph/index.md) and the [Concept List](learning-graph/concept-list.md) to see all 351 concepts.
+### Is there a workshop or a certificate?
 
-### What are MicroSims and how do I use them while reading the chapters?
+Yes. The book supports a one-day workshop for about 20 teachers, from 8:30 a.m. to 3:30 p.m. Each teacher brings one OER from their own subject and leaves with an improved, openly licensed component and a checklist for the Certificate of OER Quality Evaluation Using AI Agents. The sample day moves from setup and the rubric to calibration against an agent, checking the agent's output, an improvement challenge, and peer review and publishing. After the workshop, teachers have 30 days to finish the certificate work, and a reviewer checks each submission against the rubric.
 
-A **MicroSim** is a lightweight, browser-based **Interactive Simulation** embedded directly inside a chapter to help you practice a concept hands-on rather than just reading about it. Each simulation is built as an **Embeddable Component** and **Standalone Component** that runs in any modern browser without requiring a login or software installation.
+The [workshop pages](workshops/index.md) hold a sample schedule, a rubric worksheet, and a sample timeline, and [Chapter 19](chapters/19-training-certifying-reviewers/index.md) explains how to run the workshop and the certificate program.
 
-As you read a chapter, you use the controls inside each MicroSim to sort examples, calculate rubric subtotals, inspect license combinations, or test readability formulas, receiving **Immediate Feedback** on every choice. Because every MicroSim in this textbook is openly licensed and packaged in its own folder, instructors can also embed individual simulations into their own learning management systems or workshop slides.
+### How much time should I plan to set aside?
 
-**Example:** In Chapter 3, you use the *Evidence or Opinion Sorter* MicroSim to classify ten reviewer statements and the *Rubric Score Calculator* MicroSim to compute subtotals and score bands for four sample resources. Browse the [List of MicroSims](sims/index.md) and [Chapter 8: Practice and Feedback](chapters/08-practice-feedback/index.md) to see how interactive simulations support active learning.
+The book does not set a study schedule, so plan from the pieces it does describe. The chapters range from about 5,000 to about 17,000 words each. The course description notes that a careful manual review of a single textbook can take hours, which is why the book teaches an AI-assisted first pass that you then check.
 
-### What workshop resources are included for running a teacher training session?
+The sample workshop is one day. The certificate work that follows runs 30 days. A classroom A/B test takes about four weeks in the book's pilot: a pre-test in week 1, the lesson in weeks 2 and 3, and the post-test in week 4. The [sample timeline](workshops/grant-period-timeline.md) spreads a whole program from November 2026 to May 2027.
 
-The textbook includes ready-to-use templates for organizing and leading a **Teacher Training Workshop** in your school, district, or college. In the workshops section, facilitators will find a complete **Workshop Agenda**, a **Rubric Worksheet**, and a multi-month planning calendar that form a practical **Training Kit**:
+### Do I need special software or an AI account?
 
-- [Sample One-Day Schedule](workshops/sample-one-day-schedule.md): A six-hour agenda that balances short concept briefings with hands-on scoring, a **Calibration Exercise**, and AI-assisted improvement labs.
-- [Sample Rubric Worksheet](workshops/sample-rubric-worksheet.md): A printable and digital form where each reviewer records metric scores, evidence citations, subtotals, and score bands.
-- [Grant-Period Timeline](workshops/grant-period-timeline.md): A milestone schedule for managing stipends, reviews, revisions, and classroom pilot testing over a semester or grant cycle.
+To read the book and score a resource by hand, you need a web browser and a word processor. An AI chat assistant becomes useful from [Chapter 12](chapters/12-ai-agents-prompts-scoring/index.md) on, and the workshop asks each teacher to bring a laptop with access to an AI agent tool.
 
-**Example:** A district OER coordinator downloads the one-day schedule and rubric worksheet to run a six-hour summer workshop for twelve high school science teachers, starting with a morning calibration session on Sam's biology chapter. Visit [Sample OER Evaluator Workshop Resources](workshops/index.md) and [Chapter 19: Training Teachers and Certifying Reviewers](chapters/19-training-certifying-reviewers/index.md).
+Publishing uses a few free tools. [Chapter 4](chapters/04-open-formats-version-control/index.md) introduces Markdown, HTML, Git, and GitHub, and [Chapter 18](chapters/18-components-publishing-oer/index.md) shows how to publish with MkDocs and GitHub Pages. MkDocs is a free, Python-based site generator, and GitHub Pages is a free host, with usage limits and terms that change. The course description says experience with an AI assistant is helpful but not required.
 
-### What is the capstone project and how do I earn a reviewer certificate?
+**Example:** A teacher who only reads the chapters and scores one resource by hand needs nothing beyond a browser and a word processor.
 
-To earn a **Certificate** as a certified OER evaluator, learners complete the course requirements and submit an end-to-end **Capstone Project**. The **Certificate Requirements** ask you to demonstrate both rigorous evaluation and measurable resource improvement on a real open educational resource from your own teaching subject:
+### What does this book not cover?
 
-1. Score a candidate OER on all ten metrics and document verifiable evidence citations.
-2. Use AI agents to improve the resource on at least two quality metrics and two reusability metrics, producing a documented **Score Gain**.
-3. Run or design a small student **A/B Test** comparing the original and improved versions.
-4. Publish the improved resource under a CC BY license with complete metadata and submit the portfolio for **Submission Review**.
+The [course description](course-description.md) names six topics that are out of scope:
 
-**Example:** For her **Certificate Submission**, a community college chemistry instructor scores an open stoichiometry module, adds alt text, worked examples, and Dublin Core metadata to raise its total score by 24 points, tests it with two lab sections, and publishes the revision. See [Chapter 19: Training Teachers and Certifying Reviewers](chapters/19-training-certifying-reviewers/index.md) and the [Course Description](course-description.md).
+- Writing a complete textbook from scratch, or full instructional design for a course.
+- Copyright law beyond what you need to read and apply open licenses.
+- Training or fine-tuning AI models. The book uses existing AI agents.
+- Programming beyond simple prompts, Markdown, and HTML.
+- Learning management system administration and buying commercial materials.
+- Statistical methods beyond basic comparisons of two groups.
 
-### Why does this course combine manual evaluation, AI agents, and student A/B testing?
+Nothing in the book is legal advice. Where it touches fair use or student privacy law, it explains the idea and tells you to ask a qualified person.
 
-Relying on only one evaluation method leaves critical blind spots, so this course connects **Manual Evaluation**, **Agent Scoring**, and classroom **A/B Test** experiments into a single feedback loop. Scoring a textbook by hand builds deep understanding of the rubric criteria, but reviewing an entire book manually takes hours. Directing an **AI Agent** speeds up the first pass across chapters, yet language models can produce an **Invented Citation** or an **Overconfident Score**, requiring a **Human in the Loop** to verify every claim.
+**Example:** A teacher who wants to fine-tune a language model on their own lessons will need another source, because the book works with existing agents.
 
-Finally, even a high rubric score only predicts that a resource should teach well; running a manual A/B test with students measures actual **Learning Gain** between the original and improved versions. Comparing student outcomes against rubric numbers validates and calibrates the automated scoring skills.
+### Is this book itself an OER, and what license does it use?
 
-**Example:** Sam scores one biology chapter by hand, uses an AI agent to scan the remaining chapters and repair missing alt text and practice items, and then runs an A/B test with two ninth-grade classes to confirm that the higher rubric score improved quiz performance. Read the [Course Description](course-description.md) and [Chapter 16: Designing an A/B Test with Students](chapters/16-ab-testing-design/index.md).
+The [license page](license.md) states that the book is released under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). You may copy, share, and adapt it if you credit the author, do not use it commercially, and share your adaptations under the same license. The copyright holder reserves commercial rights.
 
-### Who is Echo the Loon and what do the mascot boxes in each chapter mean?
+That puts the book at the more restrictive end of what its own rubric rewards. [Chapter 2](chapters/02-open-licenses-attribution/index.md) explains that NonCommercial terms narrow reuse, and the open license metric loses points for them. The book recommends CC BY for the components you publish yourself. In practice, treat this book as free to share and adapt for noncommercial purposes, and not as fully open in the 5R sense.
 
-Echo the Loon is the learning mascot for this **Intelligent Textbook**, designed to guide you through complex evaluation habits with short, evidence-focused prompts. Echo's signature rule is to ask "What is the evidence?" before accepting any **Metric Score** or agent claim. Rather than serving as decoration, each mascot box in the **Chapter Structure** signals a specific instructional purpose:
+### How do I report a problem or give feedback?
 
-- **Welcome (`mascot-welcome`):** Opens the chapter by explaining why the topic matters and what you will build.
-- **Thinking (`mascot-thinking`):** Highlights a key mental model, such as separating quality from reusability.
-- **Tip (`mascot-tip`):** Shares an actionable shortcut for recording **Evidence for a Score** or checking files.
-- **Warning (`mascot-warning`):** Alerts you to a common pitfall like **Reviewer Bias** or **Hallucination**.
-- **Encourage and Celebration:** Normalizes tough concepts and summarizes what you mastered at the end of a chapter.
+The [contact page](contact.md) invites feedback through the author's LinkedIn profile. The book's source is a public GitHub repository at [github.com/dmccreary/oer-evaluator](https://github.com/dmccreary/oer-evaluator), which is also where you can copy it.
 
-**Example:** In Chapter 3, Echo's tip box reminds you to write every evidence citation in three parts—where, what, and how checked—so another reviewer can verify it in under a minute. Meet Echo in [Meet Echo the Loon](img/mascot/character-sheet.md) and [Chapter 1: Foundations of Open Educational Resources](chapters/01-foundations-of-oer/index.md).
+When you report a factual error, use the habit [Chapter 3](chapters/03-ten-metric-rubric-scoring/index.md) teaches for evidence: say where you looked, what you saw, and which rule or source you compared it with. A report that names the page, the passage, and the source is quick to check and quick to fix.
 
-### How does the ten-metric classroom rubric relate to the technical Rubric Specification?
+**Example:** "Chapter 7, contrast section: the text lists one ratio, but the calculator I used gives a different ratio for the same two colors." [Chapter 18](chapters/18-components-publishing-oer/index.md) explains why a project should offer more than one feedback channel and say how quickly it will reply.
 
-This site provides two complementary views of **Quality Rubric** design: the **Ten-Metric Rubric** taught across Chapters 3 to 15 and the research-grounded [Rubric Specification](rubric-spec.md) built on the Yuan and Recker (2015) review of 14 OER rubrics. Both frameworks separate the **Quality Dimension** from the **Reusability Dimension** and require verifiable **Evidence for a Score** on every criterion.
+## Core Concepts
 
-The ten-metric rubric uses a 0 to 10 **Score Scale** for five quality metrics and five reusability metrics, making it fast and intuitive for teachers using a **Rubric Worksheet** in workshops. The technical Rubric Specification splits evaluation into Tier 1 scripted presence checks (P1–P13 and RP1–RP9) and Tier 2 anchored judgment indicators (J1–J11 and RJ1–RJ7) scored from 0 to 3, reporting overall instructional quality (Q) and reusable content (R) side by side without blending them.
+### What is an open educational resource?
 
-**Example:** When Sam checks whether images have alt text in Chapter 7, that corresponds to the Accessibility Metric in the ten-metric rubric and to presence check P13 plus judgment indicator J8 in the specification. Compare [Chapter 3: The Ten-Metric Rubric and Scoring](chapters/03-ten-metric-rubric-scoring/index.md) with the [Rubric Specification](rubric-spec.md).
+An open educational resource (OER) is a teaching, learning, or research material that is in the public domain or released under an open license that gives everyone permission to retain, reuse, revise, remix, and redistribute it. Two tests apply. First, it must be an educational resource, meaning any material a teacher or learner uses to support teaching and learning. Second, it must be either in the public domain or openly licensed.
 
-## Core Concept Questions
+The format does not matter. A textbook, a quiz, a video, an image, and a simulation can all be OER. What makes a resource open is the permission it grants, not its price or its file type.
 
-### How does an OER differ from a free resource or public domain work?
+**Example:** An introductory statistics textbook under CC BY, which teachers may download, edit, and post on a school website, is an OER. A video lecture that streams without charge but forbids copying is free, and it is not an OER.
 
-Teachers often confuse a **Free Resource** on the web with an **Open Educational Resource**, but "free to view" is not the same as openly licensed. Under default **Copyright** law, a website, blog post, or video that shows no license carries **All Rights Reserved** protection or a restrictive **Proprietary License**: students may read it online for free, but you cannot legally copy, edit, remix, or repost it.
+[Chapter 1](chapters/01-foundations-of-oer/index.md) defines the term and its related vocabulary.
 
-By contrast, an OER carries an explicit **Open License**—or sits in the **Public Domain**—granting everyone the 5R permissions to retain, reuse, revise, remix, and redistribute the work. A public domain resource has no copyright restrictions at all, either because its copyright expired, it was produced by the U.S. federal government, or the author applied a **CC0 Dedication**.
+### What are the 5R permissions?
 
-**Example:** Sam finds a free interactive cell biology article on a tutoring website whose footer says "Copyright 2025, All Rights Reserved." Even though no login or payment is required, Sam cannot copy its paragraphs into an adapted class packet; a NASA cell experiment guide in the public domain can be remixed freely. See [Chapter 1: Foundations of Open Educational Resources](chapters/01-foundations-of-oer/index.md) and [Chapter 2: Open Licenses and Attribution](chapters/02-open-licenses-attribution/index.md).
+The 5R permissions are the five rights that together define an open resource: retain, reuse, revise, remix, and redistribute. David Wiley named them. A question for each makes them easy to apply to a real resource:
 
-### What are the four Creative Commons license elements and what does each restriction require?
+- **Retain:** Can I make and keep my own copy?
+- **Reuse:** Can I use it as it is?
+- **Revise:** Can I change it?
+- **Remix:** Can I combine it with other open work?
+- **Redistribute:** Can I share copies with others?
 
-**Creative Commons** (CC) provides standardized open licenses built from four modular conditions that authors combine in a **License Statement** to tell reusers what is permitted:
+The open license metric asks which of the five a resource actually grants, and the improvement work in this book depends on revise and redistribute.
 
-- **Attribution Requirement (BY):** You must give appropriate credit to the creator, provide a link to the license, and indicate if changes were made.
-- **ShareAlike Requirement (SA):** If you remix, transform, or build upon the material, you must distribute your modified version under the exact same license as the original.
-- **NonCommercial Requirement (NC):** You may not use the material primarily for commercial advantage or monetary compensation.
-- **NoDerivatives Requirement (ND):** If you remix, transform, or build upon the material, you may not distribute the modified material.
+**Example:** A teacher downloads a chapter (retain), assigns it as written (reuse), translates it into Spanish (revise), combines it with another open chapter (remix), and emails the result to a colleague (redistribute). That one resource passed all five tests.
 
-Because the **NoDerivatives Requirement** blocks the Revise and Remix permissions of the 5Rs, materials carrying an ND clause are generally not considered full open educational resources.
+See [Chapter 1](chapters/01-foundations-of-oer/index.md).
 
-**Example:** When Sam sees a diagram marked with BY and SA, Sam knows the diagram can be edited and translated for ninth graders as long as the creator is credited and the revised diagram is shared under the same license. Read [Chapter 2: Open Licenses and Attribution](chapters/02-open-licenses-attribution/index.md) for full details.
+### What is the difference between a free resource and an open one?
 
-### What are the six standard Creative Commons licenses and how open is each one?
+Free describes price, and open describes permission. They are separate dials, and turning one tells you nothing about the other. A free resource costs the user nothing, whether or not the owner grants any permission to copy, change, or share it. An open resource grants the 5R permissions, and it may or may not cost money, for example when a print shop charges for a printed copy.
 
-Combining the four Creative Commons elements produces six standard licenses, ordered from the most permissive to the most restrictive:
+For that reason the rubric checks the legal terms, not the price. A free resource with all rights reserved scores low on the open license metric. The same distinction separates a zero textbook cost (ZTC) course, where students pay nothing, from an open course. A course built on e-books that the library licenses is ZTC, and it is not open.
 
-1. **CC BY:** Requires only attribution; allows commercial and non-commercial reuse, revision, and remixing.
-2. **CC BY-SA:** Requires attribution and demands that any derivative work carry the same license.
-3. **CC BY-NC:** Requires attribution and restricts reuse and derivatives to non-commercial purposes.
-4. **CC BY-NC-SA:** Requires attribution, restricts use to non-commercial settings, and requires derivatives to carry the same license.
-5. **CC BY-ND:** Permits redistribution verbatim with credit, even commercially, but forbids sharing modified versions.
-6. **CC BY-NC-ND:** The most restrictive license; allows only verbatim, non-commercial sharing with attribution.
+**Example:** A publisher's free online reader that students cannot download or adapt is free. An open textbook that a school prints for $15 a copy is open.
 
-On the rubric's Open License metric, **CC BY** and **CC BY-SA** earn top scores because they grant all five 5R permissions without restriction, whereas **CC BY-ND** and **CC BY-NC-ND** prevent adaptation.
+[Chapter 1](chapters/01-foundations-of-oer/index.md) explains the distinction in detail.
 
-**Example:** An OpenStax biology textbook licensed under CC BY 4.0 lets Sam edit sentences and combine chapters freely, whereas a PDF handout under CC BY-NC-ND 4.0 can only be shared unchanged. See [Chapter 2: Open Licenses and Attribution](chapters/02-open-licenses-attribution/index.md) to compare all six licenses.
+### How do OER compare with a commercial textbook?
 
-### How do I determine license compatibility when remixing two open educational resources?
+A commercial textbook is sold by a publisher for profit under traditional copyright, with most rights kept by the publisher, usually in print or as a paid digital edition. It is the cost and rights baseline against which OER are compared. Cost is a main reason teachers adopt OER, and the goal is course material affordability: the total price of materials is low enough that every student can get every item.
 
-**License Compatibility** means two open licenses permit their materials to be merged into a single **Derivative Work** without violating the terms of either original license. A **License Conflict** arises when the requirements of two licenses contradict each other, legally blocking a remix.
+The rubric adds a second question that price alone cannot answer, which is whether the low-cost resource is also good and reusable. You can score a commercial textbook with the same ten metrics to see what a switch would gain or lose.
 
-Follow three core rules when checking whether two resources can be combined:
+**Example:** The book's illustrative figures: a section of 30 students needs a $120 textbook plus a $40 access code, which is $160 per student and $4,800 in all. A digital open textbook costs $0. Optional printed copies at $15 each cost $450 for all 30 students.
 
-- Anything carrying a **NoDerivatives Requirement** (CC BY-ND or CC BY-NC-ND) cannot be remixed with any other work.
-- **CC0 Dedication** and **CC BY** materials can be remixed into almost any open license that allows derivatives (including CC BY-SA, CC BY-NC, and CC BY-NC-SA).
-- A **CC BY-SA** work and a **CC BY-NC** work cannot be remixed together, because CC BY-SA requires the combined work to be licensed as CC BY-SA (which permits commercial use), while CC BY-NC forbids commercial use.
+See [Chapter 1](chapters/01-foundations-of-oer/index.md).
 
-**Example:** Sam wants to insert a CC BY-NC cell membrane diagram into a chapter licensed under CC BY-SA. Because the ShareAlike and NonCommercial terms conflict, Sam cannot merge them into one adapted document and instead replaces the diagram with a CC BY alternative. Check the compatibility chart in [Chapter 2: Open Licenses and Attribution](chapters/02-open-licenses-attribution/index.md).
+### Does public domain content count as OER?
 
-### How do I write a proper TASL attribution statement for an adapted OER?
+Yes. The definition of OER covers resources that are in the public domain or that carry an open license. A public domain work is one that copyright does not cover, and there are three routes in: expiration of the copyright term, ineligibility for copyright, and dedication by the owner. Official work of U.S. federal employees, such as most NASA images, is ineligible, and a CC0 dedication is the common form of the third route.
 
-Every Creative Commons license carries an **Attribution Requirement**, satisfied by writing a clear **Attribution Statement** using the **TASL Attribution Format**: **T**itle, **A**uthor, **S**ource, and **L**icense. When you modify or adapt a resource, you must also describe what changes you made so readers do not assume the original author wrote your edits:
+Public domain works carry no license conditions, so they are easy to reuse. A reviewer still looks for a clear note that a work is in the public domain, because a reuser cannot simply assume it. Check each image on an agency page too, since partner images may keep their own copyright.
 
-- **Title:** The exact title of the original work.
-- **Author:** The name of the creator or organization that produced the work.
-- **Source:** A working hyperlink or URL pointing to where the original resource can be found.
-- **License:** The specific Creative Commons license name and version (such as CC BY 4.0), linked to the license deed.
+**Example:** A report that a United States federal agency wrote as part of its official duties is in the public domain. A photograph on the same page that a partner organization supplied may not be.
 
-During **License Selection** for your own adapted work, state your new license alongside the attribution for the underlying sources.
+See [Chapter 1](chapters/01-foundations-of-oer/index.md) and [Chapter 2](chapters/02-open-licenses-attribution/index.md).
 
-**Example:** At the bottom of the revised ninth-grade biology packet, Sam writes: *"Adapted from 'Cell Structure and Function' by OpenStax (https://openstax.org/books/biology-2e), licensed under CC BY 4.0. Simplified vocabulary and added four diagram descriptions by Sam Rivera, shared under CC BY 4.0."* See [Chapter 2: Open Licenses and Attribution](chapters/02-open-licenses-attribution/index.md) for templates.
+### What do BY, SA, NC, and ND mean in a Creative Commons license?
 
-### How should reviewers handle third-party content and fair use claims inside an OER?
+Creative Commons licenses are built from four elements:
 
-Many open textbooks include **Third-Party Content**—such as photographs, museum artwork, screenshots, or news excerpts—created by someone other than the book's authors. Even when a textbook's main **License Statement** says CC BY 4.0, third-party items may carry a different license, a **Proprietary License** used by permission, or a **Fair Use** rationale.
+- **Attribution (BY):** You must credit the creator, give the license and a link to it, and note any changes.
+- **ShareAlike (SA):** An adaptation must carry the same license, or a compatible one.
+- **NonCommercial (NC):** The work may not be used primarily for commercial advantage or monetary compensation.
+- **NoDerivatives (ND):** You may share only the unchanged work.
 
-When scoring the **Open License Metric** and checking **License Clarity**, reviewers inspect individual figure credits to verify whether third-party items are truly open. Content included under U.S. **Fair Use** or "used by permission" cannot be freely revised, remixed, or redistributed outside the narrow context for which it was cleared, creating a hidden barrier for downstream teachers.
+BY appears in six of the seven Creative Commons tools, and SA and ND never appear together. Each element beyond BY takes a freedom away from the person who receives the work. CC BY is the most open of the six licenses, and CC BY-NC-ND is the most restrictive.
 
-**Example:** While auditing an open biology chapter marked CC BY 4.0, Sam notices that Figure 3—an electron microscope photo of a mitochondrion—is credited "© Commercial Science Press, used with permission." Sam deducts points on the Open License metric and replaces that photo with a Wikimedia Commons CC BY image before republishing. Learn how to audit figure credits in [Chapter 2: Open Licenses and Attribution](chapters/02-open-licenses-attribution/index.md) and [Chapter 9: Modularity and Metadata](chapters/09-modularity-metadata/index.md).
+**Example:** CC BY-NC-SA asks for credit, no commercial use, and the same license on any adaptation.
 
-### Why does the rubric separate the quality dimension from the reusability dimension?
+The [License Switches MicroSim](sims/cc-license-switches/index.md) lets you flip the switches and watch the license change, and [Chapter 2](chapters/02-open-licenses-attribution/index.md) teaches the family in full.
 
-**OER Quality** encompasses two distinct properties: how effectively a resource teaches a specific audience (**Quality Dimension**) and how easily other educators can find, adapt, and embed it (**Reusability Dimension**). Evaluating **Quality Versus Reusability** separately prevents a strong performance on one side from masking a critical failure on the other.
+### What is the ten-metric rubric?
 
-In practice, candidate resources fall into four distinct profiles:
+The ten-metric rubric is the scoring guide at the center of this book. It rates an OER on ten metrics, five for quality and five for reusability, each scored as a whole number from 0 to 10, for a total out of 100. A shared rubric keeps scores comparable across reviewers, and splitting the judgment into ten metrics keeps a high total from hiding a failed area.
 
-- **High quality, high reusability:** Ideal open resources ready to adopt and share.
-- **High quality, low reusability:** Polished materials locked in a non-editable PDF or restrictive license that cannot be adapted.
-- **Low quality, high reusability:** Openly licensed, editable materials with instructional flaws that a teacher or AI agent can readily repair.
-- **Low quality, low reusability:** Weak, locked resources best skipped.
+The rubric deliberately leaves some things out: whether students learn more from the resource, how well it fits your particular students, and your schedule or budget. Chapters 16 and 17 test whether higher scores go with better learning.
 
-**Example:** Sam's candidate cell chapter earns a **Quality Subtotal** of 22 out of 50 and a **Reusability Subtotal** of 34 out of 50. Because its reusability is strong (CC BY license and editable source), Sam can fix its teaching weaknesses rather than starting from scratch. See [Chapter 3: The Ten-Metric Rubric and Scoring](chapters/03-ten-metric-rubric-scoring/index.md) and the [Rubric Specification](rubric-spec.md).
+**Example:** A reviewer gives one resource 8 for readability, 3 for accessibility, and 9 for open license, continues through all ten metrics, and adds the scores.
 
-### How do metric scores, scoring descriptors, and the score scale work in the rubric?
+Start with [Chapter 3](chapters/03-ten-metric-rubric-scoring/index.md). If you have also seen the [rubric specification](rubric-spec.md), read the answer on how the two relate in the Advanced Topic Questions.
 
-Each **Rubric Metric** in the **Ten-Metric Rubric** is evaluated independently using a 0 to 10 **Score Scale**. A **Metric Score** is always a whole number from 0 to 10 assigned after examining concrete evidence in the resource. To keep different reviewers aligned, the scale is divided into five ranges anchored by a written **Scoring Descriptor** for each metric:
+### Which five metrics measure quality and which five measure reusability?
 
-- **10:** Fully meets the criterion; no problems found in the unit examined.
-- **7 to 9:** Mostly meets the criterion; only minor gaps remain.
-- **4 to 6:** Partly meets the criterion; important gaps or inconsistencies remain.
-- **1 to 3:** Serious problems; most checks for this metric fail.
-- **0:** The criterion is completely absent or unmet.
+The five **quality** metrics measure how well the resource helps learners learn:
 
-**Example:** When scoring Accessibility on Sam's biology chapter, Sam reads the descriptor and sees that missing alt text on four diagrams, an uncaptioned video, and skipped heading levels mean most checks fail (the 1 to 3 range). Because the page text itself is readable by a screen reader, Sam assigns a score of 3. Read [Chapter 3: The Ten-Metric Rubric and Scoring](chapters/03-ten-metric-rubric-scoring/index.md) for the four-step scoring procedure.
+- Accuracy and currency ([Chapter 5](chapters/05-accuracy-currency/index.md))
+- Alignment and readability, which are two separate metrics ([Chapter 6](chapters/06-alignment-readability/index.md))
+- Accessibility ([Chapter 7](chapters/07-accessibility/index.md))
+- Practice with feedback ([Chapter 8](chapters/08-practice-feedback/index.md))
 
-### What counts as evidence for a score and how do I write a citation?
+The five **reusability** metrics measure how easily other people can find, change, and reuse the resource:
 
-**Evidence for a Score** is an observable, checkable fact about a resource that supports the **Metric Score** you assigned. Unlike a vague opinion (such as "the images are not accessible" or "the reading level is too high"), valid evidence names both a specific location and a verifiable observation so another **Reviewer** can check the exact spot.
+- Open license, modularity, and metadata ([Chapter 9](chapters/09-modularity-metadata/index.md))
+- Editable source ([Chapter 4](chapters/04-open-formats-version-control/index.md))
+- Portability ([Chapter 10](chapters/10-portability-reuse/index.md))
 
-During **Evidence Recording** on a **Rubric Worksheet**, write each **Evidence Citation** in three short parts:
+On the worksheet the metrics appear in a fixed order, quality first, and the numbers show order only. They do not show importance. Each half adds up to a subtotal of 0 to 50.
 
-1. **Where:** The exact location, such as a section heading, page number, figure label, or reference item.
-2. **What:** The specific observation or measurement found at that location.
-3. **How checked:** How you confirmed the observation—such as inspecting the HTML source, running a link checker, or checking a reference book—plus the review date for web links.
+**Example:** The book's sample resource scored 7, 6, 8, 5, and 6 on the five quality metrics, a subtotal of 32, and 9, 5, 4, 8, and 7 on the five reusability metrics, a subtotal of 33.
 
-**Example:** On the Accessibility row of the worksheet, Sam writes: *"Where: Section 3, Figures 1 to 4. What: Diagrams have no alt attribute. How checked: Inspected page HTML source on October 20, 2026."* Practice distinguishing evidence from opinion in [Chapter 3: The Ten-Metric Rubric and Scoring](chapters/03-ten-metric-rubric-scoring/index.md) and [Chapter 11: Manual Evaluation and Adoption Decisions](chapters/11-manual-evaluation-adoption/index.md).
+### How is quality different from reusability?
 
-### How do I calculate subtotals, total score, score bands, and adoption thresholds?
+Quality is the degree to which an OER helps its intended learners reach their intended learning outcomes. Reusability is how easily other people can find, change, and reuse the resource. They are independent. A resource can be strong in one and weak in the other, and all four combinations occur in practice.
 
-After scoring all ten metrics from 0 to 10, compute three numbers and map them to a decision category:
+The book names the four combinations: strong and open, good but locked, open but weak, and weak and locked. The cutoff between strong and weak is 25 of 50, and the book calls that a teaching choice, not a standard.
 
-- **Quality Subtotal:** Add the five quality metric scores (0 to 50 points).
-- **Reusability Subtotal:** Add the five reusability metric scores (0 to 50 points).
-- **Total Score:** Add the Quality Subtotal and Reusability Subtotal (0 to 100 points).
+**Example:** A well-written lesson saved only as a locked PDF teaches well but is hard to reuse. A sloppy lesson under CC BY with clean source files is easy to reuse and may not be worth reusing.
 
-Next, match the **Total Score** to its **Score Band**: **80 to 100** is *Ready to adopt*, **60 to 79** is *Adopt with improvements*, **40 to 59** is *Major revision needed*, and **0 to 39** is *Do not adopt*. Before scoring begins, a review team should also set an **Adoption Threshold** that pairs a minimum total score with a floor on individual metrics so a high total cannot hide a zero on Accessibility or Open License.
+!!! mascot-thinking "Two Scoreboards"
+    ![Echo thinking](img/mascot/thinking.png){ class="mascot-admonition-img" }
+    Picture two scoreboards side by side, one for how well the resource teaches and one for how freely it can travel. A resource can win one and lose the other, so read both before you decide anything.
 
-**Example:** Sam's chapter scores 6 + 5 + 5 + 3 + 3 = 22 on quality and 10 + 5 + 4 + 8 + 7 = 34 on reusability, giving a total score of 56 (*Major revision needed*). Because the district's adoption threshold requires a total of 70 with no metric below 3, Sam revises the chapter before adopting it. See [Chapter 3: The Ten-Metric Rubric and Scoring](chapters/03-ten-metric-rubric-scoring/index.md).
+See [Chapter 3](chapters/03-ten-metric-rubric-scoring/index.md).
 
-### What is the difference between a review checklist, a rubric worksheet, and a review report?
+### How do I choose a score from 0 to 10 for a metric?
 
-A structured **Review Workflow** uses three distinct documents at different stages of evaluating a resource:
+Each metric has ten checks, and each check is a pass or a fail. Some checks are marked serious. You count the passes, convert the share to a band, and pick a number inside it:
 
-- **Review Checklist:** A quick pre-scoring gate of yes-or-no questions completed before evaluation starts. It verifies that the entire resource opens properly, a license statement is visible, and the target audience and learning outcomes are defined.
-- **Rubric Worksheet:** The working form used during scoring. It contains one row per metric where the reviewer records **Reviewer Notes**, the three-part **Evidence Citation**, and the 0 to 10 score, plus space to compare a second reviewer's numbers.
-- **Review Report:** The finished summary shared with decision-makers to support an **Adoption Recommendation**. It presents resource details, the ten metric scores with evidence, both subtotals, the score band, and a prioritized improvement list.
+- 0 percent of checks: score 0 (Absent).
+- 1 to 24 percent: 1 to 2 (Very poor).
+- 25 to 49 percent: 3 to 4 (Weak).
+- 50 to 74 percent: 5 to 6 (Adequate).
+- 75 to 89 percent: 7 to 8 (Good).
+- 90 to 100 percent: 9 to 10 (Excellent).
 
-**Example:** Before scoring Sam's biology chapter, Sam uses a review checklist to confirm the ninth-grade unit outcomes are listed, fills in the [Sample Rubric Worksheet](workshops/sample-rubric-worksheet.md) while inspecting the pages, and compiles a one-page review report for the science department chair. See [Chapter 3: The Ten-Metric Rubric and Scoring](chapters/03-ten-metric-rubric-scoring/index.md) and [Chapter 11: Manual Evaluation and Adoption Decisions](chapters/11-manual-evaluation-adoption/index.md).
+Inside a two-number band, take the lower number if a serious check failed, and the higher number otherwise. A check that does not apply counts as passed, a check you did not test counts as failed until you test it, and a score of 10 requires every check to pass.
 
-### What types of reviewer bias affect OER evaluations and how can teams prevent them?
+**Example:** The sample resource passed 8 of 10 accuracy and currency checks, a share of 80 percent, which falls in the 7 to 8 band. One failed check was serious, because a figure was outdated, so the score is 7.
 
-**Reviewer Bias** is any systematic tendency that pulls a **Reviewer**'s scores away from what the objective evidence supports. Five forms of bias appear frequently during **Manual Evaluation**:
+[Chapter 3](chapters/03-ten-metric-rubric-scoring/index.md) states the rules, and each metric chapter lists its own ten checks.
 
-- **Halo effect:** Letting one impressive feature, such as sleek graphic design, inflate scores on unrelated metrics like Alignment or Accessibility.
-- **Leniency or harshness:** Habitually scoring every metric near the top or bottom of the scale.
-- **Anchoring:** Letting the first reviewer's numbers or an initial metric score influence subsequent ratings.
-- **Familiarity bias:** Favoring a well-known university publisher or a colleague's work without checking details.
-- **Confirmation bias:** Searching only for evidence that supports an early gut impression.
+### How do I record evidence for a score?
 
-Teams prevent bias through **Reviewer Training**, scoring each metric independently from its own **Evidence for a Score**, setting the **Adoption Threshold** before inspecting candidates, and having two reviewers score blind before comparing worksheets.
+Evidence has three parts: where you looked, what you saw, and which rule or check you compared it with. Write the citation as you find it, in that order, and add a date for anything that can change, such as a link test. If you sampled, record how you chose the sample and how large it was. Record passes as well as failures, so another reviewer can see what you actually checked.
 
-**Example:** A sleek commercial-style biology PDF tempts a teacher to give high scores across the board, but requiring an evidence citation for every metric reveals that images lack alt text and the license forbids adaptation. Read [Chapter 3: The Ten-Metric Rubric and Scoring](chapters/03-ten-metric-rubric-scoring/index.md) and [Chapter 11: Manual Evaluation and Adoption Decisions](chapters/11-manual-evaluation-adoption/index.md).
+An unchecked AI claim is not evidence, and neither is a hunch. Reviewer notes are leads that may turn into evidence once checked.
 
-### What is the difference between rubric reliability, rubric validity, and inter-rater agreement?
+**Example:** "Figure 3 has no alt text; the check requires alt text on every informative image." Or, for a changeable fact: "Link test run 2026-10-12: 2 of 14 links return page not found."
 
-A trustworthy **Quality Rubric** must demonstrate both **Rubric Reliability** and **Rubric Validity**, which measure two different properties:
+The goal is that another reviewer can repeat your check in about a minute. See [Chapter 3](chapters/03-ten-metric-rubric-scoring/index.md) and [Chapter 11](chapters/11-manual-evaluation-adoption/index.md).
 
-- **Rubric Reliability:** Consistency—whether the rubric yields the same or very similar scores when used by different reviewers or by the same reviewer on different days.
-- **Inter-Rater Agreement:** The empirical measure of reliability across reviewers, calculated via exact agreement rate, within-one-point **Agreement Rate**, or **Cohen's Kappa** (which corrects for chance agreement).
-- **Rubric Validity:** Accuracy of purpose—whether the rubric actually measures what it claims to measure, namely instructional effectiveness for learners and practical ease of reuse.
+### How do I check whether a resource's facts and citations hold up?
 
-A rubric can be highly reliable without being valid if its descriptors consistently reward superficial traits (like page length) rather than real learning value. This book tests validity through **Rubric-Outcome Correlation**, checking whether resources that earn higher rubric scores produce larger student learning gains in classroom A/B tests.
+Test a sample of at least 10 checkable facts, such as dates, numbers, names, definitions, and statements about cause. Spread them across sections. For each one, follow the fact-checking steps: write down the claim's exact words, decide what counts as a reliable source, find it (preferably the original), compare word for word and number for number, and record match, mismatch, or not addressed by the source. Silence is not support. Always check against a source independent of the resource, because copied errors spread, and report the sample size, as in "9 of 10 matched."
 
-**Example:** Think of a bathroom scale that always reads five pounds too heavy: it is reliable (consistent every morning) but not valid (wrong weight). See [Chapter 3: The Ten-Metric Rubric and Scoring](chapters/03-ten-metric-rubric-scoring/index.md) and [Chapter 14: Checking and Calibrating AI Agent Output](chapters/14-checking-agent-output/index.md).
+Then look at the citations. A complete reference has the author, year, title, publisher or journal, a link or identifier, and for a web page the date accessed. Trace important claims back to a primary source, and judge each source on four questions: is it relevant, reliable, retrievable, and current? Open each source and read the supporting line, because an AI agent can produce a reference that looks right and is not.
 
-### How do reviewers evaluate the Accuracy and Currency metric on an OER?
+Ask a subject expert when the topic is outside your knowledge, bears on health, safety, or law, or your sample finds two or more mismatches in ten facts.
 
-The **Accuracy Metric** and **Currency Metric** are scored together as the first 10-point criterion in the quality dimension because an accessible, readable chapter that teaches wrong facts harms learners. Accuracy asks whether the explanations, formulas, and diagrams are free of any **Factual Error** and supported by credible **Source Citation** records. Currency asks whether the material reflects current knowledge rather than **Outdated Content** and whether web references suffer from **Link Rot**.
+**Example:** In *Watershed Basics*, 9 of 10 sampled facts matched. The text says the Clearwater River is 410 miles long, and the State Water Agency now gives 398.
 
-Reviewers evaluate this metric by conducting targeted **Fact Checking** on core claims, inspecting the resource's **Publication Date** and revision log, running a broken link check, and flagging questionable passages for subject-matter expert review.
+See [Chapter 5](chapters/05-accuracy-currency/index.md).
 
-**Example:** When Sam reviews the candidate cell biology chapter, Sam finds two factual errors (claiming mitochondria are the only organelle with DNA and that bacteria lack ribosomes) and two dead URLs out of nine references. Because the remaining facts are sound, Sam records those three citations and assigns a score of 6 out of 10. Read [Chapter 5: Accuracy and Currency](chapters/05-accuracy-currency/index.md) for the complete checklist.
+### How do I tell whether a resource is out of date?
 
-### How do the Alignment Metric and Readability Metric evaluate whether a resource fits learners?
+Outdated content was correct when it was written and no longer is, which is why it differs from a factual error. Look for six signs: dates many years old, or "recent" and "new" with no date; replaced or discontinued products, versions, or standards; old statistics for a quantity that changes; screenshots of a redesigned interface; dead links; and no sign of an update in years for a fast-moving topic.
 
-Even when a resource is factually accurate, it must teach the right goals at a level students can comprehend. The **Alignment Metric** checks whether the text, activities, and assessments cover every stated **Learning Outcome** and **Standards Alignment** target at the right cognitive depth on **Bloom's Taxonomy**, flagging any missing **Content Gap**.
+Content ages at different speeds. Basic mathematics and definitions age very slowly. Software screenshots, prices, web addresses, laws, and contact details age quickly and need a check every year or more often.
 
-The **Readability Metric** evaluates **Audience Fit** by checking whether sentence length, **Reading Level**, and vocabulary match the target learners, whether technical terms are defined before use, and whether headings organize the prose clearly.
+Find the publication date and the update date in the header or footer, the file properties, or the repository's commit history. A missing date is a currency concern, and an update date alone does not prove real review. Then run a link checker, record the test date, and read the status codes. A 301 means update the address, a 404 means find a replacement, a 403 means open it by hand, and a 200 still needs a look, because it can lead to the wrong page.
 
-**Example:** Sam's ninth-grade biology unit requires students to compare plant and animal cells, but the candidate chapter never compares them—creating a major content gap that drops its Alignment score to 5. In Section 2 of the same chapter, the term "phospholipid bilayer" appears four paragraphs before its definition, lowering its Readability score to 5. See [Chapter 6: Alignment and Readability](chapters/06-alignment-readability/index.md) to learn how to map outcomes and measure reading level.
+**Example:** On 2026-10-12, 2 of 14 links in the sample resource returned page not found. After repair, all 14 worked on 2026-10-24.
 
-### What does the Accessibility Metric check to ensure all learners can use an OER?
+See [Chapter 5](chapters/05-accuracy-currency/index.md) and [Chapter 15](chapters/15-improving-resources-with-ai/index.md).
 
-The **Accessibility Metric** evaluates whether learners with visual, auditory, motor, or cognitive disabilities can perceive, navigate, and interact with an open resource, using **WCAG 2.1 AA** as the benchmark standard. Rather than relying on a vague impression, reviewers inspect specific technical features that assistive technologies such as a **Screen Reader** depend on:
+### How do I check that a resource aligns with my learning outcomes?
 
-- Meaningful **Alt Text** on every informative diagram or photograph.
-- Proper semantic **Heading Structure** (`h1`, `h2`, `h3`) without skipped levels.
-- Sufficient **Color Contrast** (at least 4.5:1 for normal text) and color independence.
-- Accurate synchronized **Captions** and transcripts on instructional videos.
-- Full keyboard operability for interactive controls and descriptive link text.
+Start by writing the outcomes as capabilities and not topics, using measurable verbs such as list, describe, calculate, compare, and design. Avoid "know" and "understand," which you cannot test. Then build a three-column curriculum map with a row for each outcome, a column for the activities that teach it, and a column for the assessment items that check it.
 
-**Example:** Sam inspects the biology chapter's HTML and finds four cell diagrams with missing alt text, pale gray labels on a white background (a 2:1 contrast ratio), an uncaptioned eight-minute video, and headings that jump from H2 to H4, resulting in an Accessibility score of 3 out of 10. Read [Chapter 7: Accessibility](chapters/07-accessibility/index.md) for step-by-step auditing methods.
+Compute outcome coverage: the outcomes that are both taught and assessed, divided by all outcomes. Check that the Bloom level of each activity and item matches the outcome's level. An "explain" outcome with only vocabulary-choice items has the right topic at the wrong level. For standards alignment, read the standard, find its verb, and look for an activity that asks for it. A standard code on its own is a claim and not evidence. An outcome that is not taught, not assessed, or not assessed at its level is a content gap.
 
-### What does the Practice Metric look for in a chapter's exercises and assessments?
+**Example:** In *Watershed Basics*, outcomes 1 and 2 are taught and quizzed, but outcome 3, predicting how paving changes runoff, has no section and no quiz item. Coverage is 2 of 3, or 67 percent, and the alignment score is 6.
 
-Reading passive exposition rarely builds durable understanding, so the **Practice Metric** scores whether a resource gives learners frequent opportunities for **Retrieval Practice** and **Formative Assessment** accompanied by explanatory feedback. Reviewers check for five core elements:
+See [Chapter 6](chapters/06-alignment-readability/index.md).
 
-- Step-by-step **Worked Example** walkthroughs that model how to solve a problem before asking students to try.
-- Embedded **Self-Check Question** items or end-of-section **Quiz** banks aligned to the stated learning objectives.
-- An **Answer Key** or **Feedback Message** that explains *why* an answer is right or wrong, not merely "Correct" or "Incorrect."
-- Plausible **Distractor Quality** in multiple-choice items that diagnoses common misconceptions.
-- Hands-on **Practice Problem** sets or interactive simulations (`MicroSim`) that reach beyond simple memorization.
+### What do adopt, revise, and reject mean?
 
-**Example:** Sam's candidate biology chapter includes only three recall questions at the very end with no answer key and zero worked examples, earning a 3 out of 10 on Practice with Feedback until Sam generates formative self-checks with explanatory feedback. See [Chapter 8: Practice and Feedback](chapters/08-practice-feedback/index.md).
+They are the three decisions a review can support. Adopt means use the resource now. Revise means improve it first. Reject means set it aside. The scores point toward one of the three, and the review report that ends a review states the choice with reasons and names the strongest and weakest metrics.
 
-### How do the Modularity Metric and Metadata Metric support finding and reusing OER?
+The review informs the decision and does not make it. People with authority, such as a department or a district committee, make the adoption decision, and they weigh things the rubric does not measure.
 
-As the [Rubric Specification](rubric-spec.md) states, *you cannot reuse what you cannot find, and you cannot reuse what is tangled in a monolith*. The **Metadata Metric** checks whether a resource and its components carry a complete **Metadata Record**—using standards such as **Dublin Core** and **LRMI**—with title, author, subject, grade level, license, and description so educators and search tools can discover it.
+**Example:** For the book's running sample, *Watershed Basics*, the original version scored 65 and the recommendation was revise. After improvements it scored 78, and the recommendation became adopt.
 
-Once found, the **Modularity Metric** evaluates whether the resource is organized as **Modular Content** made of self-contained chapters, sections, or simulations. A **Standalone Component** has clear **Component Granularity** and minimal **Cross-Reference Dependence**, meaning it does not rely on undefined terms or "see Chapter 3" pointers from the rest of the host book.
+The next sections give the exact thresholds. [Chapter 11](chapters/11-manual-evaluation-adoption/index.md) shows how a recommendation is written.
 
-**Example:** Sam's biology chapter is a single 6,000-word file whose catalog record lists only a title and author. It scores 5 on Modularity and 4 on Metadata until Sam splits it into three standalone organelle modules and adds complete Dublin Core fields. Read [Chapter 9: Modularity and Metadata](chapters/09-modularity-metadata/index.md).
+### How do I decide whether to adopt, adapt, or create?
 
-### Why does the Editable Source Metric penalize PDF-only distribution of an OER?
+The three pathways run from least to most effort. Adopt relies on the retain and reuse permissions. Adapt relies on revise, and often remix. Create means you hold the rights and choose the license. The book offers a heuristic, not an official standard, that depends on three facts: how well the resource fits, whether revision is permitted, and how much time you have.
 
-An open license grants the legal right to revise and remix a resource, but the **Editable Source Metric** checks whether the author provided the technical files needed to exercise that right in practice. **PDF-Only Distribution** is a major reusability barrier because PDF is a fixed page-layout format designed for printing: editing paragraphs, fixing diagrams, or extracting tables from a flattened PDF requires tedious reconstruction.
+- Full fit: adopt.
+- Partial fit and revision permitted: adapt.
+- Partial fit and revision not permitted: keep searching.
+- No fit and much time: create.
+- No fit and little time: keep searching.
 
-To earn a high score (8 to 10) on the **Editable Source Metric**, a resource must supply its **Source Format** in an **Open File Format** such as **Markdown**, clean **HTML**, or an editable **Word Processing File**, ideally hosted in a public **GitHub Repository** under **Version Control**.
+The chapter's illustrative line between little and much time is 40 hours.
 
-**Example:** A physics workbook licensed under CC BY 4.0 is available only as a scanned, two-column PDF with flattened equation images, scoring 2 out of 10 on Editable Source. By contrast, Sam's biology chapter provides clean Markdown and HTML files in a repository, earning 8 out of 10. See [Chapter 4: Open File Formats and Version Control](chapters/04-open-formats-version-control/index.md).
+**Example:** A teacher finds an open unit under CC BY that covers two of three outcomes. Revision is permitted and the fit is partial, so the rule says adapt.
 
-### What does the Portability Metric measure when moving OER across platforms and devices?
+See [Chapter 1](chapters/01-foundations-of-oer/index.md).
 
-The **Portability Metric** evaluates how effortlessly students and teachers can open, embed, and transfer a resource across different browsers, screen sizes, and learning management systems without encountering **Platform Lock-In**. Reviewers check five practical portability indicators:
+### What is the difference between an AI assistant and an AI agent?
 
-- **No-Login Access:** Students and teachers can read and run the resource immediately on the open web without creating an account or hitting a paywall.
-- **Browser Compatibility** and **Responsive Layout:** Pages and simulations work cleanly across desktop computers, Chromebooks, tablets, and phones.
-- **Iframe Embedding** and **Link Sharing:** Individual modules or MicroSims can be embedded directly into another course page.
-- **LMS Import:** The resource offers standard packages such as **Common Cartridge** or **LTI Integration**.
-- **Offline Access:** Learners with limited home internet can download an **Export Format** (such as EPUB, HTML zip, or printable PDF).
+An AI assistant answers questions and completes tasks in a conversation. It is fluent, it knows only what it learned in training plus what you give it, and it will answer even when it cannot do the task. An AI agent is built on a language model but adds tools, access to files, and a loop: it observes, decides, acts, and observes again.
 
-**Example:** Sam's biology chapter scores 7 on Portability because the text loads in any browser without a login, but its embedded video requires a proprietary streaming account. Read [Chapter 10: Portability and Reuse Across Platforms](chapters/10-portability-reuse/index.md).
+Agents work at three levels of independence: suggest only, act with approval, or act alone. For evaluation, the book uses the first two, and an agent should never change the resource it is reviewing.
 
-### How do two reviewers reconcile score disagreements during a calibration session?
+**Example:** Asking an assistant to explain the difference between CC BY and CC BY-SA is an assistant task. Having an agent read a folder of lesson files, run a link checker, and fill in the rubric worksheet is an agent task.
 
-In a **Calibration Session**, two or more reviewers independently score the same sample resource and then compare their worksheets to build shared judgment and high **Inter-Rater Agreement**. Any metric where two reviewers differ by more than the **Score Difference Threshold** of 3 points is a signal that the reviewers noticed different features or interpreted the **Scoring Descriptor** differently.
+[Chapter 12](chapters/12-ai-agents-prompts-scoring/index.md) introduces both.
 
-During **Score Reconciliation**, reviewers never simply split the difference or average their numbers, because averaging hides the underlying evidence gap. Instead, they follow a three-step **Consensus Scoring** protocol:
+### How does an AI agent score a resource against the rubric?
 
-1. Each reviewer reads aloud their recorded **Evidence Citation** for that metric.
-2. Both reviewers open the exact passage, figure, or file together to verify the observation.
-3. They match the combined list of verified findings to the rubric's scoring descriptors and agree on a single reconciled score.
+An agent reads the resource, which the book calls document ingestion. It then runs tools for the exact checks, such as a link checker, a readability calculator, an accessibility checker, and a metadata validator. A rubric prompt tells it how to apply the ten checks for each metric, and it returns a structured report.
 
-**Example:** Sam scores Readability at 5 while a colleague scores it at 9 (a 4-point gap). Looking at Section 2 together, the colleague sees that three technical terms are used before being defined and agrees on a reconciled score of 6. See [Chapter 11: Manual Evaluation and Adoption Decisions](chapters/11-manual-evaluation-adoption/index.md).
+The report gives each check's result with evidence, the passes, the band, and the score for every metric, then subtotals, the total, a list of checks it could not verify, a recommendation, limitations, and a run record of the model and date. The work divides three ways. Tools handle exact tasks such as counting and measuring, the model handles judgment about text, and a person handles real-world tests such as embedding the resource on a platform. The whole sequence is the agent workflow, and it ends with a person.
 
-### How do I turn rubric scores into an adopt, revise, or reject decision?
+**Example:** An agent runs an image tool and writes "4 of 5 images have alt text", with the tool log beside it.
 
-Once consensus scores, subtotals, and the **Total Score** are finalized, a review team translates the numbers into a concrete **Adoption Decision** by choosing to **Adopt Revise or Reject** the candidate resource:
+The agent's output is a draft that a person verifies. See [Chapter 12](chapters/12-ai-agents-prompts-scoring/index.md).
 
-- **Adopt (Ready to adopt, 80–100):** The resource meets the **Adoption Threshold** across both quality and reusability; assign it now and note minor polish items.
-- **Revise (Adopt with improvements, 60–79, or Major revision needed, 40–59 with high reusability):** The resource has a valid open license and editable source, so the team creates an **Improvement Plan** targeting the **Lowest Metric First** before classroom deployment.
-- **Reject (Do not adopt, 0–39, or 0 on Open License):** The resource is legally closed, factually broken, or lacks editable files, making replacement more practical than repair.
+### What is a hallucination, and why does it happen?
 
-The team documents this choice in an **Adoption Recommendation** inside the **Review Report**.
+A hallucination is a fluent, confident statement by a language model that is not true. It happens because a model predicts likely next text. It does not look facts up, so it can produce something that sounds right and has no basis in the source.
 
-**Example:** Sam's biology chapter scores 56 total (22 Quality, 34 Reusability). Because its license (10) and editable source (8) are strong, Sam chooses *Revise*, fixing Accessibility (3) and Practice (3) first. Read [Chapter 11: Manual Evaluation and Adoption Decisions](chapters/11-manual-evaluation-adoption/index.md).
+The book names four common forms: an invented feature, an invented quotation, an invented measurement, and an invented source. The defense is to require that every claim carry evidence a person can find. A claim with neither a findable quotation nor a tool log is a claim to reject.
 
-### How do Git, GitHub repositories, forks, and pull requests help educators maintain OER?
+**Example:** An agent reports a "Section 7 on ethics" that the resource does not contain, or quotes a contrast ratio that no tool ever measured.
 
-Storing an open textbook in a folder of renamed word-processing files (`biology_final_v3_sam.docx`) quickly leads to lost edits. **Version Control** with **Git** tracks every change to a resource's **Markdown** and **HTML** source files, recording who changed what, when, and why in a clear **Changelog**.
+See [Chapter 14](chapters/14-checking-agent-output/index.md), with the background in [Chapter 12](chapters/12-ai-agents-prompts-scoring/index.md).
 
-When authors host an OER in a public **GitHub Repository**, educators at other schools can collaborate using two standard workflows:
+### Why does a person have to check an agent's work?
 
-- **Fork:** Creating your own independent copy of the repository on GitHub so you can adapt chapters for your local curriculum without altering the original author's files.
-- **Pull Request:** Offering your bug fixes—such as corrected typos, repaired links, or new **Alt Text**—back to the original repository so the upstream author can review and merge them with one click.
+The book gives three reasons. Agents make confident mistakes. Accountability cannot be delegated, because "the agent said so" is not an answer to a department that asks why a resource was adopted. And some checks need context the agent lacks. The working method is human in the loop, which does not mean redoing the work. It means the agent's draft passes through a person before it becomes a decision.
 
-**Example:** Sam creates a fork of an open biology repository to customize the cell chapter for ninth graders, and then opens a pull request sending the two organelle error fixes back to the original author. See [Chapter 4: Open File Formats and Version Control](chapters/04-open-formats-version-control/index.md).
+The amount of checking follows the risk. Send a report back when it breaks a rubric or prompt rule, check every claim when the claims rest on the agent's own memory, and spot-check when the report follows the rules and carries tool logs. Agreement among several agents is not truth, because similar models share blind spots.
 
-### How do I complete a step-by-step manual evaluation of a chapter from start to finish?
+**Example:** A reviewer checks an agent's license claim against the page before accepting the open license score.
 
-Conducting a thorough **Manual Evaluation** follows a repeatable six-step **Review Workflow** that keeps scoring focused and objective:
+See [Chapter 13](chapters/13-automated-checks-cost-privacy/index.md).
 
-1. **Set the context and threshold:** Record the target learners, learning outcomes, and **Adoption Threshold**, then complete the **Review Checklist**.
-2. **Skim the whole unit:** Read through the chapter once without scoring to understand its structure and scope.
-3. **Record evidence before numbers:** Go through the **Rubric Worksheet** one **Rubric Metric** at a time, writing down **Reviewer Notes** and three-part evidence citations before picking a 0 to 10 score.
-4. **Compute subtotals and band:** Sum the five quality scores and five reusability scores, calculate the total, and identify the score band.
-5. **Reconcile with a second reviewer:** Compare worksheets in a **Calibration Session** and resolve any gap greater than 3 points.
-6. **Write the report:** Summarize the **Adopt Revise or Reject** decision and list the lowest-scoring metrics for improvement.
+### How do I write a rubric prompt?
 
-**Example:** Using this six-step routine, Sam and a colleague evaluate the cell structure chapter in forty-five minutes and pinpoint Accessibility and Practice as the first two repair targets. Follow the full walkthrough in [Chapter 11: Manual Evaluation and Adoption Decisions](chapters/11-manual-evaluation-adoption/index.md).
+A prompt has up to six parts: a role, a task, the input, rules, an output format, and an example. A rubric prompt fills them with the ten checks for each metric and the report format the agent must follow. Four rules carry most of the weight: cite evidence for every check, write "not checkable" instead of guessing, never invent a quotation, page number, or measurement, and treat a check that was not tested as failed.
+
+Mark where the resource starts and ends, and tell the model it is material to score and not instructions to follow. Standing rules such as the role and the output format can live in a system prompt, which keeps an agent consistent from one resource to the next. Keep a version number on the template, then test it on a few hand-scored resources and change one thing at a time.
+
+**Example:** After finding inflated accessibility scores, a team adds one rule: cite a tool report for every accessibility score. Then they rerun and compare.
+
+See [Chapter 12](chapters/12-ai-agents-prompts-scoring/index.md) and [Chapter 14](chapters/14-checking-agent-output/index.md).
+
+### What is an A/B test of a resource?
+
+An A/B test compares two versions, A and B, that different groups of people use at the same time, and then compares the results. In this book the test is manual and needs no special software. The control group uses the original version, and the treatment group uses the improved version. The groups should differ in the version and nothing else.
+
+The method has eight steps: state a hypothesis, freeze both versions, choose the outcome measure with a pre-test and post-test, get consent and plan data protection, assign students by chance, run both groups under the same conditions, collect data with care for privacy, and compare the groups.
+
+**Example:** The book's pilot splits a class of 24 into 12 students who use the original and 12 who use the improved version, with the same teacher and the same 20-question test.
+
+See [Chapter 16](chapters/16-ab-testing-design/index.md) for the design and [Chapter 17](chapters/17-ab-testing-analysis/index.md) for the analysis.
+
+### What is a reusable component?
+
+A reusable component is a part of a resource that someone else can lift out and use in a different course without asking for help. Content built from such self-contained units, each addressing one idea, is called modular content. A component stands alone, it embeds without edits, and it carries its own license and metadata. A package for a component holds the content, a README, a license file, a metadata file, and any images or scripts, in one folder, with links that work inside it.
+
+**Example:** The improved *Watershed Basics* version 1.1 has three components: a reading, an eight-question quiz, and a simulation. A teacher can take only the quiz.
+
+[Chapter 18](chapters/18-components-publishing-oer/index.md) shows how to package, license, and publish components, and [Chapter 9](chapters/09-modularity-metadata/index.md) gives the tests for modularity.
+
+### How do the five reusability metrics work together?
+
+They form a chain, and each link depends on the one before. The open license says what others may do. Editable source makes the revise permission practical, because a license that allows changes does nothing if the only copy is locked. Modularity lets someone lift out the part they need. Metadata lets a stranger find and judge it. Portability lets it run in the places where they teach.
+
+The chain also explains why license comes first. Without clear terms, nothing else in the reusability half matters. And a weak link anywhere limits the whole.
+
+**Example:** A CC BY textbook that exists only as a PDF can be revised legally, and not practically. Its license metric is high and its editable source metric is low, and a reuser needs both.
+
+See [Chapter 9](chapters/09-modularity-metadata/index.md), [Chapter 4](chapters/04-open-formats-version-control/index.md), and [Chapter 10](chapters/10-portability-reuse/index.md).
+
+### Why does the adoption rule need a floor of 5 on every metric?
+
+Because a total can hide a failed metric. If the rule asked only for a total of 75, a resource could score 1 on open license and strongly on the other nine metrics, still reach 80, and be adopted even though others could not legally reuse it. The floor says that every metric must be at least 5 before a resource can be adopted, whatever the total.
+
+The floor applies to every metric, not just the license. A resource with a total of 80 and an accessibility score of 3 is revised, not adopted, because barriers keep learners out. The book also advises reading the lowest metric before the total.
+
+**Example:** A resource that scores 85 overall but only 4 on portability is revised, not adopted.
+
+The rule is the book's starting point, not a standard, so a department may set its own. See [Chapter 3](chapters/03-ten-metric-rubric-scoring/index.md) and [Chapter 11](chapters/11-manual-evaluation-adoption/index.md).
+
+### How do I score a resource by hand, step by step?
+
+The book's review workflow has nine steps:
+
+1. Save a dated copy of the resource and fill in the resource block of the worksheet.
+2. Read the review checklist and gather your tools.
+3. Read the whole resource once without scoring.
+4. Score one metric at a time, writing the evidence as you go.
+5. Add the subtotals and the total.
+6. Hand the worksheet to a second reviewer who scored alone.
+7. Compare, and reconcile every metric on which you differ by more than 3 points.
+8. Apply the adoption threshold.
+9. Write the report and the recommendation.
+
+Scoring one metric at a time guards against the halo effect, and scoring alone before comparing guards against anchoring. Manual evaluation is slower than software, and it is the reference the book measures agents against.
+
+See [Chapter 11](chapters/11-manual-evaluation-adoption/index.md) and the [sample rubric worksheet](workshops/sample-rubric-worksheet.md).
+
+### How do I check an open license before I reuse a resource?
+
+Look in three places for a license: the page footer or an about page, the first or last page of the file, and the file's properties. If all three are silent, treat the work as all rights reserved. Then read what the statement actually names: the license and its version, a link to the license text, the owner, and what the license covers. If a statement and the source disagree, the source wins.
+
+Next, look at third-party content. A resource's overall license may not cover an image or chart that someone else made, and a caption that says "used with permission" is a separate right. Finally, build the credit line: title, author, source, and license, plus a note of any changes.
+
+**Example:** "Free to use" is not a license. "This work is licensed under CC BY 4.0," with a link, in every page footer, is clear.
+
+See [Chapter 2](chapters/02-open-licenses-attribution/index.md) and [Chapter 9](chapters/09-modularity-metadata/index.md).
+
+### Why test with students if I already have rubric scores?
+
+The rubric asks whether a resource has the properties that make it good. An A/B test asks whether students learn more from this version than from that one. They are different questions, and one does not answer the other. A resource can gain 13 rubric points from better metadata and teach no better.
+
+This is the difference between reliability and validity. A reliable rubric gives similar scores whoever applies it. A valid rubric measures what it claims to measure, which here means higher scores go with better results for learners. Consistent scores can still measure the wrong thing, so the book ends with a test of whether rubric scores relate to learning.
+
+**Example:** Adding metadata may raise the rubric total a lot and change nothing a student notices. A student test is the only way to find out.
+
+See [Chapter 16](chapters/16-ab-testing-design/index.md), [Chapter 17](chapters/17-ab-testing-analysis/index.md), and [Chapter 3](chapters/03-ten-metric-rubric-scoring/index.md).
 
 ## Technical Detail Questions
 
-### How do primary sources, secondary sources, and citation quality support fact checking?
+### How is the total score calculated, and what are the score bands?
 
-When scoring the **Accuracy Metric**, reviewers perform systematic **Fact Checking** by tracing key claims back to their underlying evidence and judging **Citation Quality**. A **Source Citation** is strong when it points to a specific, authoritative reference that a reader can locate and verify rather than a vague mention like "studies show."
+Add the ten metric scores. The five quality scores sum to the quality subtotal (0 to 50), the five reusability scores sum to the reusability subtotal (0 to 50), and the two subtotals sum to the total (0 to 100). Report the total together with both subtotals and the lowest metric, because a total can hide a weak metric.
 
-Reviewers distinguish between two levels of evidence:
+The total falls in one of five named bands, with both ends included:
 
-- **Primary Source:** An original research article, historical document, dataset, court opinion, or direct experimental measurement.
-- **Secondary Source:** A peer-reviewed textbook, systematic review, or reference encyclopedia that synthesizes and explains primary findings for learners.
+- Excellent: 90 to 100
+- Good: 75 to 89
+- Fair: 50 to 74
+- Weak: 25 to 49
+- Poor: 0 to 24
 
-When a passage contains a suspected **Factual Error** or a complex disciplinary claim that general fact checking cannot settle, the reviewer flags the passage for **Expert Review** by a subject-matter specialist.
+A band is a quick label for teachers and administrators. It is not the adoption decision, and a total in the Good band can still get a revise decision if one metric is below the floor.
 
-**Example:** In Sam's biology chapter, the claim that chloroplasts lack DNA has no source citation; checking a peer-reviewed biology secondary source confirms it is a factual error, while a disputed section on epigenetic inheritance is routed to a university genetics professor for expert review. See [Chapter 5: Accuracy and Currency](chapters/05-accuracy-currency/index.md).
+**Example:** A quality subtotal of 38 and a reusability subtotal of 31 give a total of 69, which falls in the Fair band.
 
-### How do I check publication dates, revision histories, and link rot for currency?
+See [Chapter 3](chapters/03-ten-metric-rubric-scoring/index.md).
 
-Scoring the **Currency Metric** requires checking both when the content was written and whether its external references still resolve. Start by locating the **Publication Date** and inspecting the **Revision History** (or repository **Changelog**) to see whether substantive updates have occurred or if only minor formatting tweaks were logged.
+### What score does a resource need to be adopted?
 
-Next, scan the text for **Outdated Content**—such as superseded scientific terminology, expired statistics, or references to discontinued software—and run a **Broken Link Check** across all internal and external hyperlinks to measure **Link Rot**. Record the exact percentage of working links and the date of the check in your evidence citation.
+The book's starting rule has three outcomes. **Adopt** when the total is at least 75 and every metric is at least 5. **Revise** when the total is at least 50 and the adopt rule is not met. **Reject** when the total is under 50.
 
-**Example:** Sam inspects an environmental science module whose title page says "Updated 2025," but the revision history shows the text was written in 2014 and only a typo was fixed in 2025. A broken link check reveals that 6 of 15 government dataset links return 404 errors, dropping the Currency score to 4. Learn how to audit currency in [Chapter 5: Accuracy and Currency](chapters/05-accuracy-currency/index.md).
+The edges show how it works. A total of 75 with every metric at 5 or more is adopt. A total of 74 is revise. A total of 88 with one metric at 4 is revise. A total of 50 is revise, and a total of 49 is reject. These values are the book's starting rule and not a standard, so a department may set a stricter one.
 
-### How do learning outcomes, measurable verbs, and Bloom's cognitive levels guide alignment?
+**Example:** The original *Watershed Basics* scored 65. That is below 75, and its metadata score of 4 is below the floor of 5, so the decision is revise.
 
-A **Learning Outcome** (or specific chapter **Learning Objective**) states what a learner will be able to do after completing the instruction. To be testable, every objective should begin with a **Measurable Verb**—such as *identify*, *explain*, *calculate*, *compare*, or *design*—rather than an unobservable verb like *understand* or *appreciate*.
+See [Chapter 11](chapters/11-manual-evaluation-adoption/index.md) and [Chapter 3](chapters/03-ten-metric-rubric-scoring/index.md).
 
-**Bloom's Taxonomy** organizes these verbs across six ascending **Bloom Cognitive Levels**: Remember, Understand, Apply, Analyze, Evaluate, and Create. When scoring the **Alignment Metric**, reviewers build a **Curriculum Map** that pairs each objective with the instructional passages, activities, and quiz questions that address it, checking both **Outcome Coverage** and cognitive depth.
+### What contrast ratios does WCAG 2.1 AA require?
 
-**Example:** Sam's biology unit states the Analyze-level objective *"Compare the structures of plant and animal cells."* If the chapter only lists organelle definitions (Remember level) and never contrasts plant and animal cells, the curriculum map exposes a level mismatch and a coverage gap. See [Chapter 6: Alignment and Readability](chapters/06-alignment-readability/index.md) for mapping tables.
+A contrast ratio compares the relative brightness of two colors on a scale from 1:1 to 21:1, where black on white is 21:1. WCAG 2.1 AA sets these minimums:
 
-### How do I check outcome coverage and assessment alignment to spot a content gap?
+- Normal text: 4.5 to 1.
+- Large text: 3 to 1. Large means at least 18 points, or at least 14 points if bold.
+- Meaningful parts of controls and graphics: 3 to 1.
 
-Auditing the **Alignment Metric** requires a three-way comparison across stated objectives, instructional explanations, and practice items. **Outcome Coverage** measures the share of stated learning objectives that are taught in sufficient depth in the chapter text and worked examples. **Assessment Alignment** checks whether every stated objective is tested by at least one practice or quiz item at the same cognitive level on **Bloom's Taxonomy**, and whether any quiz item tests material never taught.
+Tests use the unrounded ratio, so a ratio of 4.499 fails. Logos and purely decorative elements are not covered. Level AAA asks for 7 to 1, which is not required at AA. Free tools compute the ratio instantly, and the book advises measuring and not judging by eye.
 
-Whenever an objective has no matching instruction or no matching assessment—or when required **Standards Alignment** elements are missing—you record a **Content Gap** in your evidence table.
+**Example:** Gray #767676 on white measures 4.54 to 1 and passes. Gray #777777 on white measures 4.48 to 1 and fails, though no one can see the difference.
 
-**Example:** In Sam's cell chapter, Objective 1 (identify organelles) has text and three recall questions; Objective 2 (compare plant and animal cells) has neither text nor questions; and Objective 3 (explain membrane transport) has text and a **Worked Example** but zero quiz items. That mapping reveals one full content gap and one assessment alignment gap. Read [Chapter 6: Alignment and Readability](chapters/06-alignment-readability/index.md) and the J2 anchor in the [Rubric Specification](rubric-spec.md).
+See [Chapter 7](chapters/07-accessibility/index.md).
 
-### How is Flesch-Kincaid Grade Level calculated and why must reviewers also inspect vocabulary?
+### How do I write good alt text and handle decorative images?
 
-A **Readability Formula** estimates the **Reading Level** of a passage from surface text statistics. The most common measure, **Flesch-Kincaid Grade Level**, calculates an approximate U.S. school grade level using two variables: average sentence length (words per sentence) and average word length (syllables per word).
+Alt text answers the question "What does this image do here?" and not "What does it look like?" It lives in the image's alt attribute, and a screen reader speaks it aloud. Four habits make it good: say what matters in the context in a sentence or two, do not begin with "image of" or "picture of," do not repeat an adjacent caption, and never use a file name or a single word.
 
-While an automated scan quickly flags overly long sentences, reviewers scoring the **Readability Metric** must also inspect **Vocabulary Level**, **Jargon**, and **Text Structure** by hand. A formula cannot tell whether technical **Defined Terms** are explained before they are used, whether the prose uses clear **Plain Language**, or whether **Headings and Subheadings** guide the reader logically.
+A decorative image adds visual interest but carries nothing a learner needs. Give it an empty alt attribute, written `alt=""`, so screen readers skip it. That is different from no alt attribute at all, because many screen readers then read out the file name. When you are unsure, write a short description. A chart or diagram needs a short alt text plus a longer description or a nearby data table.
 
-**Example:** A biology passage scores at a 9.2 Flesch-Kincaid Grade Level because its sentences are short, yet it introduces five unexplained Latin terms (*endoplasmic reticulum*, *plasmodesmata*, *tonoplast*) in a single paragraph without definitions or a glossary link. Combining the formula with a vocabulary check prevents a false high score. See [Chapter 6: Alignment and Readability](chapters/06-alignment-readability/index.md).
+An agent can draft alt text if you give it the surrounding paragraph and the lesson goal. Expect generic descriptions, details that are not in the image, wrong counts, and missing decorative roles, and accept, correct, or reject each draft.
 
-### How do text structure, headings, and worked examples improve readability and audience fit?
+**Example:** For a rain barrel photo, "photo" is poor. "A rain barrel at the end of a roof downspout holds runoff from the school roof" is good.
 
-Strong **Audience Fit** depends on more than short words; it requires a predictable **Text Structure** that helps learners build mental models without cognitive overload. Clear **Headings and Subheadings** break long chapters into scannable sections that preview what comes next, while **Plain Language** keeps explanations direct.
+See [Chapter 7](chapters/07-accessibility/index.md) and [Chapter 15](chapters/15-improving-resources-with-ai/index.md).
 
-Two additional features strongly lift a resource's **Readability Metric** score:
+### What do captions, transcripts, and audio description each do?
 
-- Introducing **Defined Terms** in bold at their first appearance and linking them to a **Glossary**.
-- Following abstract rules or formulas immediately with a concrete **Worked Example** and a **Worked Solution** that show every reasoning step.
+They serve different viewers, and none replaces the others. **Captions** are text synchronized with the audio of a video that shows spoken words and important sounds, for viewers who cannot hear or who watch without sound. A **transcript** is a complete, separate text version of the speech and key sounds. It helps deaf and hard-of-hearing users, screen reader users, and anyone who prefers reading, and it makes media searchable, but it does not replace captions for video. **Audio description** is spoken narration of important visual content that the soundtrack does not give, for viewers who cannot see it.
 
-**Example:** In Sam's ninth-grade biology chapter, Section 3 originally presented a dense 700-word wall of text on osmosis. Adding three descriptive subheadings, defining *hypertonic* and *hypotonic* before using them, and inserting a step-by-step worked example of water moving across a red blood cell membrane raises the Readability score from 5 to 9. Read [Chapter 6: Alignment and Readability](chapters/06-alignment-readability/index.md) and [Chapter 8: Practice and Feedback](chapters/08-practice-feedback/index.md).
+[Chapter 7](chapters/07-accessibility/index.md) says that at level AA, prerecorded video with sound needs captions and audio description. Automatic captions need checking, because they often mishear technical terms. Watch the whole video while you read the captions.
 
-### How do I write effective alt text for informative, decorative, and complex images?
+**Example:** A lecture video shows each sentence as it is spoken, plus "[applause]" for the sound of applause. When a speaker only points at a graph, a narrator says, "The graph line climbs steeply after year three."
 
-Under **WCAG** and **WCAG 2.1 AA**, every non-text graphic must provide a text alternative so learners using a **Screen Reader** receive the same instructional information as sighted learners. How you write **Alt Text** depends on the role of the image:
+### What makes a good multiple-choice question and answer key?
 
-- **Informative image:** Write a concise `alt` attribute (typically one or two sentences) stating the specific instructional meaning the image conveys in context, without starting with "Image of" or "Picture of."
-- **Decorative Image:** If a border or icon adds no instructional content, give it an empty attribute (`alt=""`) so screen readers skip it silently.
-- **Complex Image Description:** For detailed flowcharts, multi-line graphs, or cell anatomy diagrams that cannot fit in a short attribute, provide a brief `alt` summary plus a full structured description or data table in the surrounding text or linked caption.
+A multiple-choice question has a stem, a key (the correct answer), and distractors (the plausible wrong answers). The book lists seven flaws to look for: an ambiguous stem, an implausible distractor, a correct answer that is noticeably longer, an option such as "all of the above," a negative stem such as "which is NOT," a grammatical clue such as "a" versus "an," and a pattern in where the keys fall. Some research suggests that three well-written options can work as well as four or five, so judge the quality of options and not their number.
 
-**Example:** For Figure 1 in Sam's chapter, Sam adds `alt="Diagram of an animal cell showing the nucleus, mitochondria, rough endoplasmic reticulum, Golgi apparatus, and plasma membrane"` and includes an organelle table below for full detail. See [Chapter 7: Accessibility](chapters/07-accessibility/index.md).
+Spread the difficulty. The difficulty index is the share of learners who answer correctly, and a quiz should cover a range. A question bank tags each item by topic, outcome, and difficulty. An answer key gives final answers, and a worked solution shows every step. AI-drafted questions often have weak distractors, so review them.
 
-### What are the WCAG 2.1 AA requirements for color contrast, color independence, and captions?
+**Example:** "Public Domain" is a plausible wrong answer to "Which license requires ShareAlike?" while "purple" is not.
 
-Meeting **WCAG 2.1 AA** for visual and multimedia **Accessibility** requires passing three measurable checks:
+See [Chapter 8](chapters/08-practice-feedback/index.md).
 
-- **Color Contrast** and **Contrast Ratio:** Normal body text and image labels must have a luminance contrast ratio of at least **4.5:1** against their background (and **3:1** for large text of 18 pt or 14 pt bold, as well as essential graphical icons).
-- **Color Independence:** Color must never be the sole carrier of meaning; charts, quiz feedback, and diagrams must pair color with text labels, patterns, or symbols so color-blind learners can read them.
-- **Captions**, **Transcript**, and **Audio Description:** Every instructional video needs synchronized, accurate captions for spoken dialogue and key sounds, a text transcript for audio recordings, and audio description when visual actions are not explained in the narration.
+### What are the six core metadata fields, and what is Dublin Core?
 
-**Example:** In Sam's biology chapter, pale gray labels on a white cell diagram measure only 2.1:1 in an **Accessibility Checker**; darkening the labels to charcoal raises the contrast ratio to 8.5:1, and adding captions plus a transcript fixes the eight-minute osmosis video. Read [Chapter 7: Accessibility](chapters/07-accessibility/index.md).
+The six core fields the book checks are title, author, subject, grade level, license, and description. They tell a stranger what a resource is, who made it, who it is for, and what they may do with it. Dublin Core is a metadata standard of fifteen general-purpose elements in four groups: content, responsibility, the copy, and relations. The book maps its fields onto it: author becomes Creator, license becomes Rights, and grade level becomes an education level term, since Dublin Core has no core element for it.
 
-### How do keyboard navigation, heading structure, link text, and accessible math work?
+LRMI, now part of Schema.org, adds education-specific properties such as the learning resource type and typical age range. Completeness is the share of expected fields that hold valid values. A value such as "TBD" counts as invalid.
 
-Screen-reader users and learners with motor disabilities rely on semantic markup and **Keyboard Navigation** to move through a chapter without a mouse. Reviewers check six structural accessibility features:
+**Example:** A record with only title and author filled has two of six core fields, a completeness of 33 percent.
 
-- **Heading Structure:** Headings must nest in strict hierarchy (`h1` to `h2` to `h3`) without skipping levels.
-- **Link Text:** Hyperlinks must describe their destination (such as *"Read the Sample Rubric Worksheet"*) rather than saying *"click here."* 
-- **Table Accessibility:** Data tables need header cells (`<th>`) with `scope` attributes and must never be used purely for page layout.
-- **Document Language:** The HTML root tag must declare the language (such as `lang="en"`) so speech synthesizers use the right pronunciation rules.
-- **Accessible Math:** Equations should be rendered in MathML or KaTeX with LaTeX source rather than flattened bitmap images.
-- **ARIA Labels:** Interactive widgets and MicroSim controls must expose clear roles and labels to assistive technology.
+See [Chapter 9](chapters/09-modularity-metadata/index.md).
 
-**Example:** Sam presses the `Tab` key through a cell membrane MicroSim to verify that every slider and button is operable by keyboard and carries an ARIA label. See [Chapter 7: Accessibility](chapters/07-accessibility/index.md).
+### What is the Flesch-Kincaid Grade Level, and how is it computed?
 
-### How does Universal Design for Learning relate to automated accessibility checkers?
+It is a readability formula that estimates the United States school grade needed to understand a text. It is the book's standard readability number. The formula is:
 
-**Universal Design for Learning** (UDL) is an instructional design framework that removes barriers to learning by offering multiple means of engagement, representation, and action and expression. While technical **WCAG 2.1 AA** compliance guarantees that assistive technologies can parse a page, UDL asks whether learners have flexible paths to master the concept—such as pairing a text passage with a diagram, an audio pronunciation, and an interactive **MicroSim**.
+grade = 0.39 × (words ÷ sentences) + 11.8 × (syllables ÷ words) − 15.59
 
-An **Accessibility Checker** (or **Automated Accessibility Scan** tool such as WAVE or Lighthouse) quickly detects missing `alt` attributes, low **Contrast Ratio** values, missing **Document Language** declarations, and skipped heading levels. However, automated checkers catch only about 30 to 40 percent of accessibility issues; a human reviewer must still judge whether alt text actually explains the diagram or whether captions match the spoken biology terms.
+Use passages of at least 100 words, sample at least three from different sections, and compare the result with the audience's grade. A good fit is usually within about one grade of the audience's level. The formula counts surface features only. It cannot see idea difficulty, word familiarity, or organization, so treat the number as one piece of evidence.
 
-**Example:** An automated checker passes a cell diagram whose alt text reads `alt="diagram1.png"`, so Sam manually inspects the alt text and rewrites it to describe the organelles accurately. Read [Chapter 7: Accessibility](chapters/07-accessibility/index.md) and [Chapter 13: Automated Checks, Cost, and Student Privacy](chapters/13-automated-checks-cost-privacy/index.md).
+**Example:** A passage with 6 sentences, 120 words, and 168 syllables has 20 words per sentence and 1.4 syllables per word. That gives 7.8 + 16.52 − 15.59 = 8.73, or grade 8.7.
 
-### What makes a multiple-choice question bank effective for retrieval and spaced practice?
+Do not strip needed technical terms to lower the grade. Define them at first use. See [Chapter 6](chapters/06-alignment-readability/index.md).
 
-A well-designed **Question Bank** supports **Retrieval Practice** (recalling and applying concepts from memory) and **Spaced Practice** (revisiting earlier concepts across later chapters). When evaluating a **Quiz** on the **Practice Metric**, reviewers inspect each **Multiple-Choice Question** and **Practice Problem** for four quality traits:
+### How do I judge readability beyond the grade level number?
 
-- **Question Difficulty** and cognitive alignment: Items match the target Bloom level rather than testing trivial definitions only.
-- **Distractor Quality:** Each wrong option represents a specific, plausible student misconception rather than a joke or obviously false choice.
-- **Immediate Feedback** and **Feedback Message:** Selecting any option explains *why* that choice is right or what misconception led to a wrong choice.
-- Complete **Answer Key** and **Worked Solution:** Open-ended problems include full step-by-step solutions.
+Sample at least three passages from different sections, and then check what a formula cannot see. Sort the vocabulary into tiers. Everyday words need nothing. General academic words such as "analyze," "however," and "evidence" should be taught and used consistently. Subject terms such as "runoff" should be defined where they first appear, which means in the same sentence or the next, and listed in a glossary.
 
-**Example:** In Sam's revised cell chapter, a multiple-choice question asks what happens to a plant cell in pure water; choosing "it bursts like an animal cell" triggers a feedback message explaining how the rigid cell wall creates turgor pressure instead. See [Chapter 8: Practice and Feedback](chapters/08-practice-feedback/index.md).
+Check the habits of plain language: short sentences with one idea each, the active voice, common words where they are as accurate, and examples. Apply the jargon test. If a common word says the same thing, ask for it, and if the specialized word is necessary, ask for a definition. Headings should describe their sections, and paragraphs should be short and focused. Finally, ask someone from the audience to read a section aloud. Audience fit is the measure a formula cannot give.
 
-### What fields are required in a machine-readable Dublin Core and LRMI metadata record?
+**Example:** For a grade 6 to 7 audience, the sample resource's passages measured 6.4, 6.9, and 7.3, which fits. But a technical term is used before it is defined and there is no glossary, so readability scores 8.
 
-To earn top marks on the **Metadata Metric** and achieve high **Metadata Completeness**, an OER or component needs a structured **Metadata Record** that lists six core descriptive fields:
+See [Chapter 6](chapters/06-alignment-readability/index.md).
 
-1. **Title Field:** The specific name of the textbook, chapter, or component.
-2. **Author Field:** The creator(s) to credit in attributions.
-3. **Subject Field:** Topics drawn from a standard **Controlled Vocabulary** alongside search **Keywords**.
-4. **Grade Level Field:** The target educational level or age range.
-5. **License Field:** The standard open license identifier and URL.
-6. **Description Field:** A concise summary of what the resource teaches and its learning objectives.
+### What are the certificate requirements?
 
-Combine general **Dublin Core** elements with education-specific **LRMI** (Learning Resource Metadata Initiative) properties—such as educational alignment and audience role—and embed them as **Schema.org Markup** (`JSON-LD` or `metadata.json`) so search engines and repositories can index the **Machine-Readable Metadata** automatically.
+The Certificate of OER Quality Evaluation Using AI Agents has five requirements. A teacher:
 
-**Example:** Sam adds a `metadata.json` file to the cell membrane MicroSim containing Dublin Core and LRMI fields for Grade 9 Biology and CC BY 4.0. Read [Chapter 9: Modularity and Metadata](chapters/09-modularity-metadata/index.md).
+1. Attends the full training day.
+2. Completes the calibration exercise and explains every metric on which their score and the agent's differ by more than 3 points.
+3. Submits an evaluation of one OER from their own subject, scored on all 10 metrics, with evidence for each score and a note on every agent finding they accepted, corrected, or rejected.
+4. Publishes one improved component under a CC BY license, with metadata, that gains on at least two quality and two reusability metrics.
+5. Submits both within 30 days of the workshop.
 
-### What components are evaluated under the Practice Metric in the rubric?
+A reviewer who did not take part in the work checks each submission. The certificate is not a legal license, a government accreditation, or a promise that your later evaluations will be correct. [Chapter 19](chapters/19-training-certifying-reviewers/index.md) states the requirements separately from the capstone project's tests, so ask your program which one it asks you to complete. The same five requirements appear on the [sample rubric worksheet](workshops/sample-rubric-worksheet.md).
 
-The **Practice Metric** evaluates whether an open educational resource provides active learning opportunities paired with actionable guidance rather than passive reading alone. When scoring this metric in the [Chapter 8 Practice and Feedback guide](chapters/08-practice-feedback/index.md), reviewers inspect whether the text embeds **Formative Assessment** items such as a **Self-Check Question**, an end-of-section **Quiz**, or an applied **Practice Problem** accompanied by a step-by-step **Worked Solution**.
+### What is the difference between a source format and a delivery format?
 
-To earn a top score of 9 or 10 on the [Rubric Specification](rubric-spec.md), a resource must go beyond static questions at the back of a chapter. It should supply a complete **Answer Key** alongside explanatory feedback so independent learners can diagnose their own misunderstandings immediately.
+A source format is the format in which a resource is written and can be edited. A delivery format is for reading, printing, or showing. The book's analogy is that the recipe is the source and the cake is the delivery file. A reviewer scores the editable source metric on the source files and does not count the delivery file.
 
-**Example:** A community college statistics chapter that includes five embedded self-check exercises after every major theorem, a downloadable problem set with fully worked algebraic solutions, and an interactive quiz scores 9 out of 10 on the **Practice Metric**. By contrast, a biology PDF that lists ten discussion prompts at the end of a forty-page chapter with no solutions or hints scores only 3 out of 10 because students cannot verify whether their reasoning is accurate.
+- **Good sources:** Markdown, plain text, HTML, OpenDocument text, CSV for data, and SVG for diagrams.
+- **Usually acceptable:** Word (.docx), which is a published standard whose full fidelity depends on particular software.
+- **Poor sources:** PDF, scanned pages, flattened images, and files from a page layout program you do not own.
 
-### How do Distractor Quality and Immediate Feedback improve a Multiple-Choice Question?
+An open file format is one whose specification is public and usable without a fee. A PDF alongside editable sources is fine. A PDF in place of them is a locked file, and it usually leaves the metric in the low bands.
 
-A well-designed **Multiple-Choice Question** tests genuine comprehension rather than surface-level test-taking tricks by combining strong **Distractor Quality** with targeted **Immediate Feedback**. As explained in [Chapter 8 on Practice and Feedback](chapters/08-practice-feedback/index.md), high **Distractor Quality** means every incorrect option represents a plausible misconception, calculation error, or rule overgeneralization rather than an obviously absurd choice. When a learner selects a choice from a **Question Bank**, the system should return a specific **Feedback Message** that explains why that answer is right or wrong while the reasoning is still fresh in working memory.
+See [Chapter 4](chapters/04-open-formats-version-control/index.md).
 
-Calibrating **Question Difficulty** across an **Answer Key** also allows instructors to scaffold practice from basic recall to multi-step application.
+### What is the difference between formative and summative assessment?
 
-**Example:** In an accounting module, a question asks learners to calculate straight-line depreciation after three years. Instead of random numbers, Distractor A omits salvage value, Distractor B divides by the wrong useful life, and Distractor C reports only a single year's expense. If a student clicks Distractor A, the **Immediate Feedback** states: "You forgot to subtract the salvage value from the initial cost before dividing by useful life." This turns a wrong click into a targeted tutoring moment.
+Formative assessment happens during learning. It is low stakes and repeatable, and learners and teachers use it to adjust what comes next, which is why it is called assessment for learning. Summative assessment comes at the end and judges what was learned. The practice metric favors formative assessment, because practice with feedback is how learners improve before anyone grades them.
 
-### How do Retrieval Practice, Spaced Practice, and MicroSims support active learning?
+Self-check questions, quizzes with feedback, and retrieval practice are formative. A strong feedback message confirms or corrects, says why, names the likely misunderstanding, points to what to review, and does not blame. Immediate feedback, delivered right after the answer, lets a learner fix a mistake while it is fresh.
 
-**Retrieval Practice** and **Spaced Practice** strengthen long-term memory by requiring learners to pull concepts from memory across separated intervals rather than rereading highlighted prose. In [Chapter 8 on Practice and Feedback](chapters/08-practice-feedback/index.md), resources that calibrate **Question Difficulty** and revisit foundational skills across later chapters help students consolidate durable mental models. When a concept involves dynamic variables or multi-step cause-and-effect relationships, an **Interactive Simulation**—specifically a lightweight, browser-based **MicroSim**—lets learners manipulate parameters and observe real-time visual outcomes.
+**Example:** A three-question check after each section that shows the correct answers at once is formative. A final exam is summative.
 
-Combining **Retrieval Practice** prompts with a **MicroSim** transforms abstract formulas into testable hypotheses.
+See [Chapter 8](chapters/08-practice-feedback/index.md).
 
-**Example:** In an open physics unit on projectile motion, students first adjust launch angle and initial velocity sliders inside a p5.js **MicroSim** to see how trajectory arcs change. Immediately below the canvas, a **Retrieval Practice** prompt asks them to predict which angle maximizes horizontal range when air resistance doubles, followed three chapters later by a **Spaced Practice** review problem that connects projectile kinematics to orbital mechanics.
+### What is the difference between Git, GitHub, and a fork?
 
-### What determines a high score on the Modularity Metric and Open License Metric?
+Git is a free, open-source version control tool that keeps a full record of every change to a set of files, on your own computer. Linus Torvalds created it in 2005. GitHub is a website that hosts Git repositories, which are project folders with their full history, so others can view, copy, and suggest changes. A fork is your own copy of someone else's repository on the same site. It is independent of the original and keeps a link back to it.
 
-The **Open License Metric** and **Modularity Metric** are the first two reusability dimensions in the [Ten-Metric Rubric](rubric-spec.md), measuring both legal permission and structural readiness for adaptation. High **License Clarity** requires stating the exact Creative Commons license on every page and asset so instructors know their legal rights immediately. Meanwhile, the **Modularity Metric** evaluates whether the resource is organized as **Modular Content** where each unit functions as a **Standalone Component** with appropriate **Component Granularity**.
+The four Git terms the book teaches are repository, commit (a saved snapshot with author, date, and message), branch (a separate line of work), and merge. A pull request is a proposal to merge your changes into the original, which the maintainer can accept or decline.
 
-As detailed in [Chapter 9 on Modularity and Metadata](chapters/09-modularity-metadata/index.md), modules should minimize **Cross-Reference Dependence**—such as vague pointers like "as we saw two chapters ago"—so a single lesson can be extracted as an **Embeddable Component** into another course.
+**Example:** A teacher forks a chemistry repository, translates the lessons, and sends a pull request that fixes 14 broken links.
 
-**Example:** A twelve-chapter environmental science textbook where each chapter section has its own learning objective, self-contained glossary terms, clear CC BY 4.0 footer, and zero broken dependencies on earlier storylines scores 10/10 on both metrics because an instructor can drop Section 4.2 directly into a week-three Canvas module.
+See [Chapter 4](chapters/04-open-formats-version-control/index.md).
 
-### Which core fields belong in a complete Dublin Core Metadata Record?
+### What is a MicroSim, and where does it fit in a lesson?
 
-Under the **Metadata Metric** in [Chapter 9 on Modularity and Metadata](chapters/09-modularity-metadata/index.md), a complete **Metadata Record** uses the international **Dublin Core** standard to document essential bibliographic and pedagogical attributes so educators and search engines can locate the resource. Every compliant record must populate six foundational elements:
+A MicroSim is a small, interactive, browser-based simulation that teaches one idea. It lives in its own folder, is usually built with p5.js, embeds in a page with an iframe, and is published under an open license. A simulation suits a concept where you vary a quantity and see an effect, or a procedure you practice with immediate feedback. Plain text is better for fixed facts and definitions.
 
-- **Title Field**: The clear, descriptive name of the textbook, chapter, or module.
-- **Author Field**: The creator(s) or institutional contributors responsible for the work.
-- **Subject Field**: The academic discipline or topic area covered.
-- **Grade Level Field**: The target educational stage, such as high school, lower-division undergraduate, or adult learner.
-- **License Field**: The exact URI and short code of the open license governing reuse.
-- **Description Field**: A concise summary of scope, learning outcomes, and prerequisites.
+MicroSims can raise several metrics at once. They count as practice with feedback, they can score well on modularity because each stands alone, and they test portability, because an embed has to work on more than one platform. They also need the accessibility checks, such as keyboard use.
 
-**Example:** An open algebra module includes a YAML frontmatter block listing `title: "Linear Equations in One Variable"`, `author: "Maria Chen"`, `subject: "Algebra"`, `grade_level: "Grade 9"`, `license: "CC BY 4.0"`, and a two-sentence summary in the **Description Field**, earning full credit for core field coverage.
+**Example:** The [License Switches MicroSim](sims/cc-license-switches/index.md) lets you turn the SA and NC switches on and off and see which freedom each one takes away.
 
-### How do LRMI, Schema.org Markup, and Controlled Vocabulary support Machine-Readable Metadata?
+See [Chapter 8](chapters/08-practice-feedback/index.md) for how simulations count as practice.
 
-While human readers scan page headers, digital repositories rely on **Machine-Readable Metadata** to index, filter, and recommend open educational resources across institutional catalogs. As explained in [Chapter 9 on Modularity and Metadata](chapters/09-modularity-metadata/index.md), authors achieve high **Metadata Completeness** by pairing descriptive **Keywords** from a standardized **Controlled Vocabulary** with **Subject Field**, **Grade Level Field**, and **Description Field** tags encoded in **LRMI** (Learning Resource Metadata Initiative) properties inside **Schema.org Markup**.
+### What do tokens and the context window have to do with scoring a long resource?
 
-Embedding JSON-LD or HTML microdata using **Schema.org Markup** lets search crawlers automatically extract educational alignment, target audience, and license permissions without manual data entry.
+A token is a small unit of text that a language model reads and writes, and it is also the unit of cost. One token is about three quarters of a word, so 100 words is about 133 tokens. The context window is the most text a model can consider at one time, and it has to hold the instructions, the resource, the conversation, and the model's own answer.
 
-**Example:** A web-hosted chemistry lab embeds a `<script type="application/ld+json">` block containing `@type: "LearningResource"`, `educationalAlignment: "NGSS HS-PS1-2"` from a **Controlled Vocabulary**, and `educationalUse: "Laboratory"` via **LRMI** properties. When OER Commons harvests the URL, its crawler populates every catalog filter automatically, earning a 10 on the rubric's metadata criteria.
+To estimate the fit, add the words in the instructions, the resource, and the expected answer, divide by 0.75, and compare with the window. If it will not fit, use a larger window, shorten the instructions, or split the resource. Splitting has a cost, because checks that span the whole resource can be missed.
 
-### Why does the Editable Source Metric prefer Markdown and HTML over PDF-Only Distribution?
+**Example:** 2,400 words of resource plus 600 of instructions plus 800 of answer is 3,800 words, or about 5,067 tokens. That fits in an 8,000-token window.
 
-The **Editable Source Metric** measures how easily a downstream instructor can revise, localize, and reformat an open resource without specialized proprietary tools or manual retyping. In [Chapter 4 on Open Formats and Version Control](chapters/04-open-formats-version-control/index.md), a clean **Source Format** uses an **Open File Format** such as plain-text **Markdown** or semantic **HTML**, or at minimum an editable **Word Processing File** like `.docx` or `.odt`. By contrast, **PDF-Only Distribution** locks text, equations, and figures into fixed page coordinates where reflowing paragraphs or updating tables often scrambles layout.
+See [Chapter 12](chapters/12-ai-agents-prompts-scoring/index.md).
 
-Providing **Schema.org Markup** and **Machine-Readable Metadata** inside **Markdown** frontmatter also ensures **Metadata Completeness** survives format conversions.
+### What is structured output, and why do agents use JSON?
 
-**Example:** An instructor adapting an introductory psychology textbook hosted in **Markdown** can edit a regional case study in any text editor and rebuild both web and EPUB editions in seconds (scoring 10/10). If the same book is released via **PDF-Only Distribution** with no source files, fixing a single outdated chart requires optical character recognition and complete page layout reconstruction, dropping the score to 2/10.
+Structured output is a model response organized in a predefined, regular format, so software can read it without guessing. JSON is the common choice: named fields and values in plain text, with double quotes around names, numbers unquoted, and braces and brackets for structure. The book's score schema has these fields: the metric, a list of checks (each with a number, a result of pass, fail, or not checkable, and evidence), the count of passes, the band, the score, and the checks that were not verified.
 
-### How do Git, a GitHub Repository, Forks, and Pull Requests support OER Version Control?
+Structure makes reports comparable across resources and easy to total. A script can recount the passes and recompute the band from the agent's own checks. Validation only catches form and never truth, so a well-formed report can still contain invented evidence.
 
-Maintaining an open textbook across multiple semesters and contributors requires systematic **Version Control** rather than emailing renamed `.docx` attachments back and forth. As demonstrated in [Chapter 4 on Open Formats and Version Control](chapters/04-open-formats-version-control/index.md), storing **Markdown**, **HTML**, or a **Word Processing File** inside a **Git** repository hosted as a public **GitHub Repository** gives every adopter transparent access to the full edit history and human-readable **Changelog**.
+**Example:** `{"accessibility": 4, "evidence": "Most images lack alt text"}` is a small piece of structured output.
 
-When faculty at another college want to customize a module or fix a typo, they create a **Fork**—an independent copy of the repository—edit the source files, and submit a **Pull Request** proposing that the original maintainer merge their improvements back upstream.
+See [Chapter 12](chapters/12-ai-agents-prompts-scoring/index.md).
 
-**Example:** A biology instructor forks a genetics OER repository on GitHub, updates three outdated CRISPR references in Chapter 6, records the update in `CHANGELOG.md`, and opens a **Pull Request**. The upstream author reviews the exact line-by-line diff, merges the fix in one click, and credits the contributor automatically.
+### What do agreement rate, mean absolute difference, and bias tell me?
 
-### What features are evaluated under the Portability Metric for LMS and browser delivery?
+They are three ways to compare an agent's scores with careful human scores. **Agreement rate** is the share of metrics where the agent is within a chosen threshold of the human. Report the threshold with it. **Mean absolute difference** is the average size of the gaps, ignoring sign, and a value near 0 means the agent sits close to the humans. **Bias** is the average signed difference, agent minus human. A positive bias means the agent is generous, and it is the number that detects score inflation.
 
-The **Portability Metric** in [Chapter 10 on Portability and Reuse](chapters/10-portability-reuse/index.md) measures how effortlessly learners and instructors can access, embed, and transfer a resource across devices and learning platforms without **Platform Lock-In**. Reviewers check for **Browser Compatibility** across modern desktop and mobile browsers, **No-Login Access** so students never hit registration walls, and a **Responsive Layout** paired with **Offline Access** (such as downloadable EPUB, PDF, or ZIP bundles).
+Correlation checks the pattern and not the level, so an agent that is exactly one point too high everywhere still correlates perfectly.
 
-For institutional course integration, high-scoring OER support direct **Link Sharing**, clean **Iframe Embedding** for interactive widgets, and standardized **LMS Import** via **Common Cartridge** packages or **LTI Integration**, alongside a clean **Export Format**.
+**Example:** In the book's example, the first-draft agent agrees on 10 of 10 metrics at a threshold of 1, with a correlation of 1.00. Its mean absolute difference is 1.0 and its bias is +1.0, and its total of 75 turns a revise decision into adopt.
 
-**Example:** An interactive statistics textbook hosted on a public static site that works on phones without a password, lets teachers embed individual MicroSims via an `<iframe>`, and offers a one-click **Common Cartridge** `.imscc` file for Canvas and Blackboard scores 10/10 on the **Portability Metric**.
+See [Chapter 14](chapters/14-checking-agent-output/index.md).
 
-### What are the key components of an AI Agent workflow for Rubric Prompt scoring?
+### What does Cohen's kappa add that agreement rate does not?
 
-Unlike a conversational **AI Assistant** chat session, an **AI Agent** built on a **Large Language Model** executes a repeatable **Agent Skill** that ingests chapter files and produces a verifiable **Agent Evaluation Report**. As explained in [Chapter 12 on AI Agents, Prompts, and Scoring](chapters/12-ai-agents-prompts-scoring/index.md), the workflow starts with **Document Ingestion** of source text into the model's **Context Window** (measured in **Token** units). A **System Prompt** and reusable **Prompt Template**—specifically a **Rubric Prompt**—instruct the agent to perform **Agent Scoring** against the 0–10 descriptors and return **Structured Output** formatted as **JSON Output**.
+Cohen's kappa measures how well two raters agree on categories after correcting for the agreement expected by chance alone. The formula is kappa = (po − pe) ÷ (1 − pe), where po is the observed agreement and pe is the chance agreement. A value of 1 is perfect agreement, 0 is chance level, and a negative value is worse than chance. The usual labels run from Slight (0 to 0.20) through Moderate (0.41 to 0.60) and Substantial (0.61 to 0.80) up to Almost perfect (0.81 to 1.00). The book marks them as a rule of thumb to verify before citing.
 
-Requiring **JSON Output** guarantees that every metric includes a numeric score, exact quoted evidence, and page or heading citations.
+It matters when one category is common. Two raters who both say "adopt" most of the time agree often by luck, and plain agreement hides that.
 
-**Example:** A reviewer runs a Python script that feeds a 4,500-token Markdown chapter and the **Rubric Prompt** to an **AI Agent**. Within twenty seconds, the agent returns a validated JSON object containing ten metric scores, direct text quotes, and an **Agent Evaluation Report** ready for human audit.
+**Example:** On 20 resources, an agent and a human agree on 18, which is 90 percent. But the agent found only 1 of the 2 resources the human judged ready, and kappa is 0.44, only Moderate.
+
+Always show the table of counts beside kappa. See [Chapter 14](chapters/14-checking-agent-output/index.md).
+
+### How do I write a complete attribution statement?
+
+Use the TASL pattern: Title, Author, Source, License. Add a change note if you adapted the work. Under Creative Commons 4.0, a complete credit also includes any copyright notice, the license name and a link to it, and a link to the work where practical, and it must not suggest that the creator endorses you. You need no approval from the author.
+
+**Example:** "Watershed Basics" by Maria Lopez, example.org/watershed-basics, licensed under CC BY 4.0. Adapted: reading level lowered and two examples localized.
+
+List every third-party item the same way, with its own title, author, source, and license. Agents can draft credit lines, and a person checks each against the source.
+
+See [Chapter 2](chapters/02-open-licenses-attribution/index.md) and [Chapter 18](chapters/18-components-publishing-oer/index.md).
+
+### How do I estimate the cost of running an agent on a batch of resources?
+
+Cost depends on tokens. The cost of one run is the input tokens times the input price, plus the output tokens times the output price, divided by 1,000,000, because prices are quoted per million tokens. Output tokens cost more than input tokens. The total is the cost of one run times the number of resources times the number of runs.
+
+Using illustrative prices of $2.00 per million input tokens and $8.00 per million output tokens, a run with 6,000 input tokens and 1,000 output tokens costs $0.012 plus $0.008, or $0.02. Five hundred resources at one run each cost $10.00, and three agents triple it to $30.00. Retries after an invalid answer add runs.
+
+**Example:** Pilot on three resources before three hundred, give exact checks to free tools, and send only the parts a check needs.
+
+Prices in a book go stale, so look up current rates. See [Chapter 13](chapters/13-automated-checks-cost-privacy/index.md).
+
+### How do I calculate learning gain and effect size from my A/B test data?
+
+Work in four steps. First, compute each student's gain. The raw gain is the post-test minus the pre-test. The normalized gain is (post − pre) ÷ (100 − pre), which accounts for room to improve. Second, find the mean gain for each group. Third, subtract: the difference of means is the treatment mean minus the control mean. Fourth, divide that difference by the pooled standard deviation to get Cohen's d.
+
+Compare gains and not post-test means alone, because the groups may have started at different levels.
+
+**Example:** In the pilot, the control mean gain is 15.0 and the treatment mean gain is 22.0, a difference of 7.0. The pooled standard deviation is about 6.78, so d is about 1.03. The conventions call 0.2 small, 0.5 medium, and 0.8 large, and they are rules of thumb. Impressive pilot estimates tend to shrink when repeated.
+
+See [Chapter 16](chapters/16-ab-testing-design/index.md) and [Chapter 17](chapters/17-ab-testing-analysis/index.md).
+
+### How do I make A/B test data anonymous?
+
+Coded data replaces names with codes but keeps a key, so it is not anonymous. Anonymized data has every link to a person removed, so no one, including the teacher, can tell whose scores they are. Start by collecting little: the version label, the pre-test, the post-test, and the grade level, with a code such as S01 and the key in a separate locked file.
+
+To anonymize, drop columns you do not need, generalize details such as grade level instead of birthdate, hide results for groups smaller than your district's reporting size, and clean the comments of identifying detail. Destroy the key on the deletion date you stated in the consent letter, and make sure nothing else in the table points to a person.
+
+**Example:** A class of 24 with gender, class period, and teacher name in the table can single out one student, even without names.
+
+The test: could someone who knows the class pick out a single student? See [Chapter 16](chapters/16-ab-testing-design/index.md) and [Chapter 17](chapters/17-ab-testing-analysis/index.md).
+
+### How do I get a resource to work in my learning management system?
+
+A teacher can bring an OER into a learning management system (LMS) four ways: a link, an embed, an upload of the files, or an import of a package. A reviewer tests at least link and embed. An iframe embed uses a source address, a width, a height, and a title. It fails for three common reasons: the server forbids framing, an insecure page sits inside a secure one, or the platform strips frames.
+
+Two standards from 1EdTech help. Common Cartridge packages a course into one compressed file with a manifest that other systems can import. Learning Tools Interoperability (LTI) lets an outside tool open inside a course and can send scores to the gradebook, which raises privacy questions. Both are pluses and not requirements.
+
+**Example:** Open the page in a private window with no login, paste the iframe into a blank test page, and then repeat on a second platform such as Moodle or Canvas.
+
+See [Chapter 10](chapters/10-portability-reuse/index.md) and [Chapter 9](chapters/09-modularity-metadata/index.md).
+
+### How do the 3-point flag and the 1-point calibration threshold relate?
+
+They serve different purposes. The 3-point flag from Chapters 3 and 11 is for finding disagreements worth discussing. Two reviewers agree on a metric if their scores differ by 3 or fewer, and a metric is flagged if they differ by more than 3. The workshop's calibration exercise uses the same flag between a teacher and an agent.
+
+Chapter 14 uses a threshold of 1 for deciding whether an agent can be trusted as a first pass, and labels it a provisional teaching choice. Bands are two points wide, so a difference of 2 or more always moves a score into a different band. A loose threshold also fails to separate agents.
+
+**Example:** In the book's three-agent comparison, all three agents agree on 10 of 10 metrics at a threshold of 3. At a threshold of 1, one of them agrees on only 4 of 10.
+
+Set the threshold before you look at the numbers, so it cannot be bent to fit the results. See [Chapter 14](chapters/14-checking-agent-output/index.md).
+
+### How does sample size relate to the size of effect I can detect?
+
+Larger groups smooth out chance differences, and a smaller effect is harder to tell from chance, so it needs many more students. The book gives rule-of-thumb group sizes: 5 to 10 per group for a pilot only, about 25 per group for a large difference, about 65 for a medium one, and about 400 for a small one.
+
+The planning rule is students per group ≈ 16 ÷ d², rounded up. An effect size d of 0.8 needs 25 per group, 0.5 needs 64, and 0.2 needs 400. Do not plan on the pilot's own d, since pilot estimates tend to shrink. Plan on about half of it, close to 0.5, which means about 64 per group.
+
+**Example:** A pilot with d about 1.03 would suggest 16 students per group. Planning on roughly half that effect size gives about 64 per group instead.
+
+These are rules of thumb, and a statistician should confirm them. A pilot of about 12 per group is not enough to prove an effect. Its job is to decide whether a larger test is worth running. See [Chapter 16](chapters/16-ab-testing-design/index.md) and [Chapter 17](chapters/17-ab-testing-analysis/index.md).
 
 ## Common Challenge Questions
 
-### What are the most common Agent Error Types when an AI Agent evaluates an OER?
+### The agent cited a source I can't find. What should I do?
 
-When an **AI Assistant** or **Large Language Model** performs **Agent Scoring** on an open textbook, reviewers must watch for four primary failure modes classified under **Agent Error Type** in [Chapter 14 on Checking Agent Output](chapters/14-checking-agent-output/index.md):
+Treat it as a possible invented citation: a reference to a source that does not exist, or one that exists and does not say what the agent claims. Run four checks:
 
-- **Hallucination** and **Invented Citation**: The agent fabricates a quote, section number, or external reference that does not exist in the source text.
-- **License Misreading**: The model confuses a general copyright footer with an open license or overlooks a restrictive clause such as NoDerivatives (`ND`) on third-party images.
-- **Overconfident Score**: The agent assigns a definitive 9 or 10 with authoritative-sounding prose despite missing key evidence in the chapter.
-- **Score Inflation**: A systematic upward bias where polite language models reward superficial formatting and give mediocre resources 85+ total points.
+1. Search for the exact title.
+2. Confirm that the journal exists and has the issue cited.
+3. Resolve the identifier or link. A DOI that leads nowhere, or to a different article, is a strong sign of a problem, and a missing identifier is a weaker one.
+4. Open the source and read the passage that is supposed to support the claim.
 
-**Example:** During a review of an introductory economics chapter, an agent awarded 9/10 on Accuracy and cited "Table 4.3: 2025 Bureau of Labor Statistics CPI Data." A human check revealed the chapter only contained Tables 4.1 and 4.2 from 2016—a classic **Invented Citation** paired with an **Overconfident Score**.
+If you cannot find the source, reject the claim, record the decision and the reason in the findings log, and rescore without it. Never accept a claim you could not verify in time. Mark it "not verified." To prevent a repeat, add a rule to the prompt: cite only sources that appear in the resource or that you supplied, and write "no source found" otherwise.
 
-### Why does License Misreading happen during AI evaluation, and how do you catch it?
+**Example:** An agent cites a journal article with a believable title that no library holds. The reviewer rejects the claim, and the accuracy score is recomputed without it.
 
-**License Misreading** occurs when an AI model scans a title page or footer, sees the words "Creative Commons" or "freely available for classroom use," and assumes the entire work carries a permissive open license without checking embedded **License Conflict** exceptions. As explained in [Chapter 14 on Checking Agent Output](chapters/14-checking-agent-output/index.md), language models often miss fine-print notices stating that diagrams, clinical photos, or readings are reproduced "by permission" or under `CC BY-NC-ND`.
+See [Chapter 14](chapters/14-checking-agent-output/index.md) and [Chapter 5](chapters/05-accuracy-currency/index.md).
 
-To catch this error, human reviewers perform a targeted **Verification Step** and **Source Verification** on the frontmatter, colophon, and image credits before finalizing the Open License Metric score.
+### Why do agents misread licenses, and how do I catch it?
 
-**Example:** An agent scored a nursing pharmacology OER 10/10 on the Open License Metric because page 1 displayed a `CC BY 4.0` badge. During a two-minute **Spot Check** of Chapter 3, the librarian noticed that all twelve drug-mechanism illustrations carried "© 2021 MedicalArt Inc., used with permission, do not redistribute" captions—a major **License Conflict** that lowered the verified score to 5/10.
+A license is a short, formal statement, and the neighboring licenses look alike. The book lists five predictable errors: treating one license as covering every item, confusing neighboring licenses such as reading CC BY-NC as CC BY, ignoring a restriction such as NoDerivatives, equating public with free, and missing ShareAlike. A related trap is reading the license of the site template instead of the content.
 
-### How do you conduct a Spot Check and Source Verification on an Agent Evaluation Report?
+A misread license can lead to an unsafe adoption, so go to the source. Open the page and read the license statement itself. A good prompt asks the agent to quote the statement word for word, name each item it covers, and write "not stated" for anything the page does not mention. Then compare the quote with the page.
 
-Rather than re-reading an entire 500-page textbook from scratch, reviewers use a structured **Verification Step** workflow in [Chapter 14 on Checking Agent Output](chapters/14-checking-agent-output/index.md) to audit the **Agent Evaluation Report** in 15 to 20 minutes. First, perform **Source Verification** on every quoted passage or section citation the agent used to justify scores below 6 or above 8 by searching the exact substring in the source file. Second, conduct a random **Spot Check** on at least three metrics by inspecting one chapter section independently and comparing your manual rating against the **Agent Scoring**.
+**Example:** An agent calls a resource CC BY because a link says "Creative Commons," although the terms say NonCommercial. Reading the statement catches it in seconds.
 
-For every metric item, record your decision to **Accept Correct or Reject** the agent's finding inside a structured **Findings Log**.
+See [Chapter 14](chapters/14-checking-agent-output/index.md) and [Chapter 2](chapters/02-open-licenses-attribution/index.md).
 
-**Example:** An agent reports that Chapter 5 of a U.S. History OER lacks alt text on 8 of 10 images (Accessibility score: 4/10). The reviewer opens Chapter 5, inspects three images via browser developer tools (**Spot Check**), confirms the `alt=""` attributes are indeed empty, and marks the finding `Accept` in the **Findings Log**.
+### How can I tell whether an agent's score is overconfident?
 
-### How does a Second-Agent Cross-Check help resolve Agent Disagreement and Run-to-Run Variance?
+An overconfident score is higher or more certain than its evidence supports. It is the quietest agent error because nothing is invented. Four signs give it away: a high score with no quoted evidence, a pass on a check that needs a tool but has no tool log, an empty "checks not verified" list, and round 9s and 10s across many metrics.
 
-Because large language models sample tokens probabilistically, running the exact same **Prompt** twice can produce **Run-to-Run Variance** of 1 to 2 points on subjective metrics like Readability or Alignment. Furthermore, a single model may suffer from blind spots or **Score Inflation**. In [Chapter 14 on Checking Agent Output](chapters/14-checking-agent-output/index.md), evaluators mitigate this by running a **Second-Agent Cross-Check**, where two different models (or an evaluator agent and an auditor agent) score the same chapter independently.
+Use the quick test. Recompute the band from the agent's own ten checks by dividing the passes by ten, and compare it with the reported score. Then add rules to the prompt: a check that was not tested counts as failed, a check that cannot be verified is marked "not checkable" and listed, and a 10 requires every check to pass.
 
-Whenever the two agents differ by more than the **Score Difference Threshold** of 2 points, the workflow flags an **Agent Disagreement** and tracks the overall **Agent Error Rate** for human inspection.
+**Example:** An agent reports an 8, but its own table shows 6 of 10 checks passed. Sixty percent falls in the Adequate band of 5 to 6, so the 8 is overconfident by at least two points.
 
-**Example:** Agent A (Claude) scores a sociology chapter 8/10 on Practice, while Agent B (GPT-4o) scores it 4/10 during a **Second-Agent Cross-Check**. Because the 4-point gap exceeds the **Score Difference Threshold**, the human reviewer inspects the chapter and discovers the end-of-chapter questions have no answer key—confirming Agent B was right and logging an error against Agent A.
+See [Chapter 14](chapters/14-checking-agent-output/index.md).
 
-### How do you measure Agreement Rate, Mean Absolute Difference, and Cohen's Kappa during calibration?
+### My score and the agent's score differ by more than 3 points. What now?
 
-To verify that an AI agent grades OER chapters consistently with trained faculty, teams conduct **Calibration Against Humans** as described in [Chapter 14 on Checking Agent Output](chapters/14-checking-agent-output/index.md). Evaluators compare human consensus scores against agent scores across a benchmark set of chapters using four complementary metrics:
+The worksheet flags every metric where the two scores differ by more than 3, and the calibration exercise asks you to explain which score you trust and why. A disagreement is information. It points to unclear evidence, a possible agent error, or an ambiguous check in the rubric.
 
-- **Agreement Rate**: The percentage of metric scores where the agent and human fall within the allowed **Score Difference Threshold** (typically $\pm 1$ or $\pm 2$ points).
-- **Mean Absolute Difference**: The average absolute point gap ($|S_{\text{human}} - S_{\text{agent}}|$) across all 10 metrics.
-- **Cohen's Kappa**: A chance-corrected statistic ($\kappa$) measuring inter-rater reliability for categorical adoption bands (Adopt, Revise, Reject).
-- **Score Correlation**: The Pearson or Spearman correlation coefficient tracking whether agent rankings match human rankings.
+Use the reconciliation steps. Each side states its evidence, you repeat the check that the evidence rests on, and you choose the score the checked evidence supports. If neither side has enough evidence, gather more. Do not average the two scores, because an average is a number neither reviewer found.
 
-**Example:** Across 10 benchmark chapters (100 metric ratings), an agent achieves an 88% **Agreement Rate** within $\pm 1$ point, a **Mean Absolute Difference** of 0.72 points, a **Score Correlation** of $r = 0.89$, and **Cohen's Kappa** of $\kappa = 0.78$, indicating substantial reliability before production use.
+**Example:** You scored accessibility 5 and the agent scored it 9. The agent said contrast was fine but attached no tool log, and the video has no captions. You keep your 5 and record why.
 
-### How do you use Prompt Refinement to fix Score Inflation in a Rubric Prompt?
+See [Chapter 11](chapters/11-manual-evaluation-adoption/index.md), [Chapter 14](chapters/14-checking-agent-output/index.md), and [Chapter 19](chapters/19-training-certifying-reviewers/index.md).
 
-When **Calibration Against Humans** reveals that an AI agent consistently awards 2 to 3 points more than faculty reviewers—a pattern known as **Score Inflation**—the solution is systematic **Prompt Refinement** rather than abandoning automation. As shown in [Chapter 12 on AI Agents, Prompts, and Scoring](chapters/12-ai-agents-prompts-scoring/index.md) and [Chapter 14 on Checking Agent Output](chapters/14-checking-agent-output/index.md), models inflate scores when rubric descriptors use vague adjectives like "adequate" or "mostly clear."
+### The resource is CC BY-ND or has no license. Can I still improve it?
 
-During **Prompt Refinement**, you tighten the **Rubric Prompt** by adding explicit negative constraints, deduction rules, and concrete anchor examples showing what a 4/10 versus an 8/10 looks like.
+Read the license before the first edit, because an agent's edited version is a derivative work and the license decides what you may do with it. With CC BY-ND you may share only the unchanged work. You can make private changes, but you cannot publish an improved version. Adding alt text, lowering the reading level, and fixing errors are all changes. A resource with no license, or marked all rights reserved, cannot be published in a changed form either.
 
-**Example:** An agent initially gave 8/10 on the Accessibility Metric to chapters missing image alt text because headings were present. By refining the **Rubric Prompt** to state, "Cap the Accessibility Metric score at 5/10 whenever more than 10% of informative images lack descriptive alt text, regardless of heading quality," the team reduced the **Mean Absolute Difference** from 2.4 points to 0.6 points.
+Your options are to ask the owner for written permission, or to choose another resource. Do not add a license yourself, since only the owner can grant one. If the license allows changes, the rules are simple: with CC BY credit the author and say you changed it, with CC BY-SA also release under CC BY-SA, and with a NonCommercial license avoid commercial use.
 
-### How do you evaluate a large textbook that exceeds an AI Agent's Context Window?
+**Example:** A teacher can post a CC BY-ND article for a class as it is, but cannot share a translated version.
 
-A complete 600-page textbook can easily exceed 300,000 **Token** units, which either overflows a model's **Context Window** or causes "lost-in-the-middle" attention degradation where the agent overlooks defects in middle chapters. Furthermore, stuffing an entire book into every prompt drives up **AI Cost** unnecessarily. In [Chapter 12 on AI Agents, Prompts, and Scoring](chapters/12-ai-agents-prompts-scoring/index.md) and [Chapter 13 on Automated Checks, Cost, and Privacy](chapters/13-automated-checks-cost-privacy/index.md), the recommended solution is chunking **Document Ingestion** by individual chapter or module.
+See [Chapter 15](chapters/15-improving-resources-with-ai/index.md) and [Chapter 2](chapters/02-open-licenses-attribution/index.md).
 
-You run the rubric evaluation one chapter at a time alongside global files (frontmatter, license page, and glossary), then aggregate chapter-level **JSON Output** scores into a book-wide summary.
+### The resource is only a PDF. What can I do?
 
-**Example:** Instead of sending a 250,000-token chemistry PDF in a single call, a reviewer splits the book into 16 chapter Markdown files averaging 12,000 tokens each. The agent evaluates each chapter separately with full attention accuracy at a total **AI Cost** under $0.80, flagging that Chapters 11 and 14 lack practice answer keys.
+A CC BY textbook that exists only as a PDF can be revised legally, and not practically. Start by asking the author for the Markdown, HTML, or word processing source. If none exists, you have two choices. You can convert the PDF to Markdown with a tool or an agent, or you can score the editable source metric low and note why. A PDF-only resource usually lands in the low bands of that metric.
 
-### How do you protect Student Data Privacy and comply with FERPA when using AI tools?
+Conversion needs careful review, because tables and equations convert poorly. The book lists six common errors: wrong column order, a flattened table, a lost heading, a garbled equation, a lost image, and a split word. Each has a quick check, such as reading a paragraph from each column and comparing every table and formula with the original.
 
-When evaluating OER or analyzing classroom pilot data with external AI services, educators must strictly safeguard **Student Data Privacy** and comply with **FERPA** (the Family Educational Rights and Privacy Act). As emphasized in [Chapter 13 on Automated Checks, Cost, and Privacy](chapters/13-automated-checks-cost-privacy/index.md), evaluating public OER textbook chapters poses zero privacy risk because no student records are involved. However, a serious violation occurs if an instructor uploads unredacted student essays, LMS gradebook exports with names or student IDs, or identifiable survey responses to a consumer **AI Assistant**.
+**Example:** A tool converts a PDF chapter into Markdown, and a teacher repairs a broken table and a lost heading before publishing.
 
-Before sending any classroom **Data Collection** to an AI model, strip all direct and indirect identifiers to create **Anonymized Data**, and use institutional API endpoints with zero-data-retention agreements.
+See [Chapter 4](chapters/04-open-formats-version-control/index.md) and [Chapter 15](chapters/15-improving-resources-with-ai/index.md).
 
-**Example:** After running a classroom pilot, a teacher exports quiz scores and open-ended feedback from Canvas. Before asking an agent to summarize themes in the comments, she deletes the student name, email, and SIS ID columns and replaces them with random codes (`S01`–`S45`), preserving **FERPA** compliance.
+### My accessibility checker reports no errors. Is the resource accessible?
 
-### How do you overcome PDF-Only Distribution when adapting an existing OER?
+Not necessarily. A clean scan is a starting point and never a pass. Checkers find missing alt attributes, weak contrast, unlabeled form fields, and some heading problems. They cannot judge whether alt text is useful, whether captions are accurate, or whether a heading describes its section.
 
-One of the most frequent barriers to OER adaptation is **PDF-Only Distribution**, where an author releases a textbook under an open license like `CC BY` but provides only a flattened PDF file with no editable source. As explained in [Chapter 4 on Open Formats and Version Control](chapters/04-open-formats-version-control/index.md) and [Chapter 15 on Improving Resources with AI](chapters/15-improving-resources-with-ai/index.md), editing a PDF directly causes broken line wraps, inaccessible reading order, and lost math notation, severely depressing the **Editable Source Metric**.
+Add the human checks. Read the alt text, listen to the page with a screen reader such as NVDA (free, for Windows) or VoiceOver (built into Apple devices), and put the mouse aside and press Tab through the page to see whether every function works by keyboard. Check captions on any video.
 
-To unlock the resource, adopters run a structured **PDF-to-Markdown Conversion** pipeline—combining layout-aware OCR tools with an AI agent that restores **Heading Repair**, table syntax, and LaTeX math—followed by careful **Human Review of Changes**.
+**Example:** In *Watershed Basics*, two of four alt texts are the single word "photo." A checker accepts them, and a reader using a screen reader learns nothing from them.
 
-**Example:** A math department wants to customize a 180-page open calculus workbook available only as a two-column PDF. They run an automated **PDF-to-Markdown Conversion** tool, use an AI agent to clean up broken fraction LaTeX and heading levels, verify every equation against the original PDF, and publish the clean Markdown source to a GitHub repository.
+!!! mascot-warning "A Green Report Is Not a Pass"
+    ![Echo warning](img/mascot/warning.png){ class="mascot-admonition-img" }
+    Scanners approve alt text that says only "photo," because the attribute is present. Spend two minutes with the mouse set aside, pressing Tab through the page, and listen with a screen reader before you trust the score.
 
-### How does Cross-Reference Dependence reduce modularity, and how helps Chapter Splitting fix it?
+See [Chapter 7](chapters/07-accessibility/index.md) and [Chapter 13](chapters/13-automated-checks-cost-privacy/index.md).
 
-**Cross-Reference Dependence** happens when a textbook chapter repeatedly relies on earlier chapters' narrative framing, unstated definitions, or numbered artifacts—such as writing "Use the dataset from Problem 2.4" or "Recall Maria's business from Chapter 1." In [Chapter 9 on Modularity and Metadata](chapters/09-modularity-metadata/index.md) and [Chapter 15 on Improving Resources with AI](chapters/15-improving-resources-with-ai/index.md), high **Cross-Reference Dependence** prevents instructors from assigning or remixing a single topic as a **Standalone Component**.
+### The agent's rewrite changed the meaning of a passage. How do I catch that?
 
-During **Chapter Splitting**, you break a long, monolithic chapter into focused modules and replace implicit backward references with brief self-contained context summaries, inline definitions, or explicit **Link Sharing** URLs.
+An agent can quietly alter what a passage says while it improves how it reads. The book lists five meaning-changing edits:
 
-**Example:** A 45-page business ethics chapter continuously references a fictional company introduced in Chapter 2. Using an AI agent for **Chapter Splitting**, the instructor divides the chapter into three standalone 15-page modules and adds a three-sentence background box summarizing the company case at the top of each module, raising the Modularity score from 4/10 to 9/10.
+- A changed quantity, such as "about 6,000" becoming "more than 6,000."
+- A changed strength, such as "can" becoming "always."
+- A dropped qualifier, such as "most rain" becoming "rain."
+- An added claim that the source never made.
+- A dropped item, such as "the river and its tributaries" becoming "the river."
 
-### What causes Platform Lock-In in open educational resources, and how do you avoid it?
+Do not rely on the agent's own summary, because it can leave a change out. Open a side-by-side difference view and ask the agent to list every claim it changed, added, or removed. Treat an added claim as rejected unless a source supports it, and log corrections separately from plain rewrites.
 
-**Platform Lock-In** occurs when an openly licensed resource relies on proprietary hosting software, closed database formats, or account-gated interactive widgets that cannot run outside a single vendor's website. As discussed in [Chapter 10 on Portability and Reuse](chapters/10-portability-reuse/index.md), even if a textbook carries a `CC BY` license, requiring students to create accounts on a single portal violates **No-Login Access** and blocks instructors from hosting local copies or performing an **LMS Import**.
+**Example:** Rewriting "may reduce" as "reduces" turns a possibility into a certainty and fails the check.
 
-To prevent **Platform Lock-In**, authors build content in an open **Export Format** (such as static HTML5, Markdown, or **Common Cartridge**), provide **Responsive Layout** pages, and package downloadable archives for **Offline Access**.
+See [Chapter 15](chapters/15-improving-resources-with-ai/index.md).
 
-**Example:** An open anatomy course hosts its text on a custom web app where quizzes and labeled diagrams only work when logged into the university's proprietary server (Portability score: 3/10). Migrating the text to MkDocs and converting the diagrams into self-contained HTML5 MicroSims with **Iframe Embedding** eliminates **Platform Lock-In** and raises the score to 10/10.
+### The agent gives a different score each time I run it. What should I do?
 
-### How do Confounding Variables and Sampling Bias threaten classroom A/B Test validity?
+Language models do not always give the same answer twice, so measure the variation and do not guess at it. Run the same prompt on the same resource five times. Record the lowest score, the highest, the range (highest minus lowest), and the median. The book's illustrative rule is that a range of 1 or less is stable, and a range of 2 or more is unstable. An unstable metric goes to a person.
 
-When comparing an **Original Version** of an OER against an **Improved Version** in a classroom **A/B Test**, two design flaws can invalidate the findings: **Sampling Bias** and a **Confounding Variable**. As explained in [Chapter 16 on A/B Testing Design](chapters/16-ab-testing-design/index.md), **Sampling Bias** arises when the **Control Group** and **Treatment Group** differ systematically before instruction begins—for instance, comparing an honors morning section against a remedial evening section. A **Confounding Variable** is any external factor (different instructors, unequal study time, or different exam conditions) that varies alongside the textbook version.
+A median that matches the human score does not make an unstable metric trustworthy. If a metric is unstable, tighten the prompt by asking for a pass or fail on each of the ten checks, move exact checks to tools, and measure again.
 
-Using **Random Assignment** within the same course section ensures both groups start on equal footing and experience identical classroom conditions.
+**Example:** Five runs give accessibility scores of 5, 6, 5, 7, and 5, a range of 2 with a median of 5, so it is unstable. Practice scores of 4, 7, 6, 5, and 8 have a range of 4.
 
-**Example:** If Professor Lee teaches Section A at 9:00 AM with the original chapter and Professor Patel teaches Section B at 7:00 PM with the improved chapter, instructor style and time of day act as a **Confounding Variable**. Randomly assigning half of each class to each reading removes both **Sampling Bias** and instructor confounding.
+See [Chapter 14](chapters/14-checking-agent-output/index.md).
 
-### How does Reviewer Bias affect Manual Evaluation, and how do Calibration Sessions reduce it?
+### My A/B test groups aren't comparable. What went wrong?
 
-During **Manual Evaluation**, individual faculty members often bring unconscious **Reviewer Bias** to the scoring table—such as the halo effect (giving high reusability scores because the graphic design looks polished), leniency bias, or penalizing an author's pedagogical style when it differs from their own. As detailed in [Chapter 11 on Manual Evaluation and Adoption](chapters/11-manual-evaluation-adoption/index.md), unchecked **Reviewer Bias** undermines inter-rater reliability and leads to inconsistent adoption decisions across a department.
+Most likely a confounding variable crept in, which is a second difference between the groups besides the version. Common ones are different teachers, different times of day, extra help for one group, different tests, and students choosing their own version. If the treatment group had a different teacher, you cannot tell whether the version or the teacher made the difference.
 
-Conducting a structured **Calibration Session** before independent reviews begins aligns everyone on the rubric's anchor criteria. Reviewers score one sample chapter independently, compare their **Evidence Recording** and **Reviewer Notes**, and work through **Score Reconciliation** until they reach **Consensus Scoring**.
+Defend against them with the one-difference rule: the groups differ in the version and nothing else. Assign students by chance. Simple random assignment can still be unlucky in a small class, so the book also teaches blocked assignment. Give the pre-test, sort by score, pair neighbors, and flip a coin within each pair. Also watch for sampling bias, such as only volunteers taking part.
 
-**Example:** In a calibration workshop, Reviewer A gives a sleek PDF textbook 8/10 on Modularity while Reviewer B gives it 3/10. Comparing **Reviewer Notes** reveals Reviewer A was impressed by the visual layout, whereas Reviewer B cited the lack of standalone sub-units. Discussing the rubric descriptors aligns both reviewers at 4/10.
+**Example:** In a simulation on the book's class of 24, letting students choose built in a 23.8-point gap between groups. Simple random assignment had a median gap of about 4 points. Blocked assignment had a median of about 0.6.
 
-### Why must Human Review of Changes check for Preserving Original Meaning after AI edits?
+See [Chapter 16](chapters/16-ab-testing-design/index.md).
 
-When using an AI agent to perform a **Reading Level Rewrite**, **Chapter Splitting**, or **Content Update** on an open textbook, a major **Improvement Challenge** is semantic drift—where the model simplifies a sentence so aggressively that it introduces a factual inaccuracy or alters a technical definition. In [Chapter 15 on Improving Resources with AI](chapters/15-improving-resources-with-ai/index.md), **Preserving Original Meaning** is a non-negotiable requirement whenever creating a **Derivative Work**.
+### My class is small. Can I still learn anything from an A/B test?
 
-Every AI-generated revision must undergo line-by-line **Human Review of Changes** by a subject-matter expert who compares the **Before-and-After Comparison** diff before committing the update and writing a **Change Log Entry**.
+Yes, if you call it a pilot and read the result as suggestive and not conclusive. A pilot of about 12 students per group is not enough to prove an effect. Its job is to check the procedure and the measures, to estimate the spread of the scores and the size of the effect, and to decide whether a larger test is worth running.
 
-**Example:** An AI agent asked to lower the Flesch-Kincaid grade level of a microbiology chapter rewrote "Facultative anaerobes synthesize ATP via aerobic respiration when oxygen is present but switch to fermentation in its absence" as "These bacteria only need air sometimes to make energy." During **Human Review of Changes**, the biology instructor caught the imprecise wording and restored the distinction between respiration and fermentation while keeping sentences short.
+Pilots surface practical problems. In the book's pilot, the original version's quiz would not load for two students on school tablets, and three students scored 95 to 98, so the test had little room to show growth. Both findings improved the next round. Report the limits honestly: one class, a bundle of fixes tested together, and an effect size that often shrinks when repeated.
 
-### What happens when a Sample Size is too small in a classroom A/B Test?
+**Example:** The book's pilot found a 7-point difference in mean gain. The summary recommended a larger test and did not claim proof.
 
-In [Chapter 16 on A/B Testing Design](chapters/16-ab-testing-design/index.md) and [Chapter 17 on A/B Testing Analysis](chapters/17-ab-testing-analysis/index.md), running a classroom experiment with a very small **Sample Size**—such as fewer than 12 students per group—creates high statistical noise where one or two outlier students can swing the **Mean Score** and **Difference of Means** dramatically. While a small **Pilot Test** is still valuable for gathering **Qualitative Feedback** and spotting usability bugs, it lacks the statistical power to prove a small **Test Hypothesis** with certainty.
+See [Chapter 16](chapters/16-ab-testing-design/index.md) and [Chapter 17](chapters/17-ab-testing-analysis/index.md).
 
-When **Sample Size** is constrained by class enrollment, educators should pair **Pre-Test** and **Post-Test** **Learning Gain** calculations with **Effect Size** (Cohen's $d$) and multi-semester pooling.
+### How do I handle third-party images with unclear licenses?
 
-**Example:** A seminar instructor tests an improved chapter with only 16 students total (8 in the Control Group, 8 in the Treatment Group). Even though the treatment group's average **Learning Gain** is 11 percentage points higher, one absent student heavily skews the variance; pooling data across two consecutive terms ($N = 34$) stabilizes the **Effect Size** estimate.
+A resource's overall license may not cover an image, chart, or quotation that someone else made. A caption that says "used with permission" gives a separate right that does not travel with the rest. The phrase "except where otherwise noted" is a warning to check every image caption.
+
+For each third-party item, find its own notice and record the title, author, source, and license. If you cannot find the terms, replace the item. An image whose terms forbid changes must be replaced and not edited. Also remember that someone who copied an image from a publisher cannot grant you a Creative Commons license for it, so trace it to the original creator. When two items carry licenses that cannot be satisfied together, you can pick a different resource, ask an owner in writing, or keep the works separate with their own notices.
+
+**Example:** A photo in a CC BY chapter that is labeled "used with permission" has rights separate from the chapter's.
+
+See [Chapter 2](chapters/02-open-licenses-attribution/index.md) and [Chapter 9](chapters/09-modularity-metadata/index.md).
 
 ## Best Practice Questions
 
-### How do you structure a Review Workflow for Score Reconciliation and an Adoption Decision?
+### How do I decide which metric to improve first?
 
-An effective **Review Workflow** in [Chapter 11 on Manual Evaluation and Adoption](chapters/11-manual-evaluation-adoption/index.md) combines independent evidence gathering with structured **Score Reconciliation** so a curriculum committee can make a defensible **Adoption Decision**. First, at least two reviewers complete **Reviewer Training** and score the candidate OER independently on the [Sample Rubric Worksheet](workshops/sample-rubric-worksheet.md), logging specific section citations in their **Reviewer Notes**. Second, the team meets to compare ratings and perform **Score Reconciliation** on any metric where scores differ by 2 or more points.
+Start with the lowest-scoring metric, unless fixing it is too costly or needs the author's decision. There are three reasons. The adoption floor means any metric under 5 blocks adoption. The lowest scores are often the cheapest to raise. And the total hides the weakest area. If the lowest metric is expensive, do the cheaper fixes first and flag the expensive one.
 
-Finally, the reconciled total score and metric floors guide the **Adopt Revise or Reject** classification, which is documented in a formal **Adoption Recommendation** memo.
+Then write an improvement plan with five parts: the baseline, the gaps, the fixes, the order and budget in human hours, and the target. The plan is a forecast, written before the work and compared with the result afterward.
 
-**Example:** Two chemistry faculty evaluate an open organic chemistry text. They reconcile a 3-point difference on Accessibility after inspecting equation screen-reader output together, reach a consensus total of 78/100 (`Adopt with Minor Revisions`), and submit their **Adoption Recommendation** to the department chair.
+**Example:** For *Watershed Basics*, the plan starts with metadata (4 to 8, half an hour, +4), then accessibility (5 to 8, two hours, +3), then modularity, practice, and accuracy. It totals 7.5 hours, a projected gain of 14, and a target of 79. Accessibility goes before the cheaper modularity fix because a barrier to learners matters more.
 
-### How do Role Prompting and Few-Shot Examples improve AI Agent rubric scoring accuracy?
+See [Chapter 15](chapters/15-improving-resources-with-ai/index.md).
 
-When designing a prompt for automated OER evaluation in [Chapter 12 on AI Agents, Prompts, and Scoring](chapters/12-ai-agents-prompts-scoring/index.md), combining **Role Prompting**, a calibrated **Few-Shot Example** set, and iterative **Prompt Iteration** dramatically reduces scoring variance. **Role Prompting** instructs the model in the system message to act as a rigorous, evidence-based instructional design auditor who never awards points without direct textual proof. Including two or three **Few-Shot Example** evaluations—showing a low-scoring excerpt (e.g., 3/10), a mid-scoring excerpt (6/10), and a high-scoring excerpt (9/10) with their exact JSON rationales—anchors the model's internal scale.
+### How do I review a change an agent made before I publish it?
 
-When evaluating an entire repository of chapters, this calibrated prompt powers reliable **Batch Evaluation** across dozens of files.
+A named person examines each change in a difference view and decides whether to keep it. Nothing goes live on the agent's say-so, and the agent's own summary is not enough, because an agent can leave a change out. Match the depth of the check to the risk. High-risk changes, such as facts, numbers, quotations, citations, captions, license statements, and anything that touches meaning, get a full check. Low-risk changes, such as heading levels and formatting, get a spot check.
 
-**Example:** Adding two **Few-Shot Example** blocks demonstrating how to penalize vague "click here" links and missing alt text improved an agent's agreement rate with human accessibility reviewers from 64% to 91% during a 20-chapter **Batch Evaluation**.
+Record each decision in a change log entry with seven fields: when, where, what changed, why, who or what made it, who reviewed it, and the decision. Reusers need the log, since CC BY asks you to indicate changes. Future reviewers and your own re-score need it too.
 
-### Why should an Agent Workflow combine deterministic scripts with Multi-Agent Review and Human in the Loop?
+**Example:** "May 3, section 2: shortened sentences; made by agent; reviewed by T. Nguyen; accepted."
 
-Language models excel at evaluating semantic alignment and explanation clarity, but they are slow and error-prone when counting broken URLs, computing exact color contrast ratios, or calculating readability formulas. As detailed in [Chapter 13 on Automated Checks, Cost, and Privacy](chapters/13-automated-checks-cost-privacy/index.md), a best-practice **Agent Workflow** grants the agent **Tool Use** and local **File Access** to run deterministic pre-checks first:
+See [Chapter 15](chapters/15-improving-resources-with-ai/index.md).
 
-- **Automated Link Checker**: Tests every HTTP hyperlink for 404 errors.
-- **Automated Accessibility Scan**: Verifies `alt` attributes, heading hierarchy, and contrast.
-- **Automated License Detection** and **Automated Readability Scan**: Extracts CC license URIs and Flesch-Kincaid scores.
+### How much of an agent's output should I verify?
 
-Feeding those deterministic outputs into a **Multi-Agent Review** pipeline with a **Human in the Loop** combines speed, mathematical precision, and expert judgment.
+Match the checking to the risk, because the two extremes both fail. With no oversight, a blind learner meets an uncaptioned video. Checking everything is accurate but saves no time. Risk-matched oversight catches errors where they occur and keeps most of the time saving.
 
-**Example:** Before the LLM scores Chapter 7, a Python script runs an **Automated Link Checker** (finding 3 dead links) and an **Automated Readability Scan** (Flesch-Kincaid grade 11.4), passing both exact numbers into the agent's context.
+Send the report back when it breaks a rule, such as a total that does not equal the sum of the scores. Check every claim when the claims rest on the agent's memory with no source. Spot-check when the report follows the rules and carries tool logs. A good sample includes at least one claim from each metric, every claim that decides a band or the floor of 5, and a few at random. Widen the sample if you find an error, and record which claims you checked.
 
-### How do Automated Accessibility, License, and Readability Scans complement manual review?
+!!! mascot-tip "Check the Decisive Claims First"
+    ![Echo giving a tip](img/mascot/tip.png){ class="mascot-admonition-img" }
+    Before anything else, find the claims that decide a band or the floor of 5. A mistake there flips the decision, while a mistake in a claim that moves no threshold costs you very little.
 
-In [Chapter 13 on Automated Checks, Cost, and Privacy](chapters/13-automated-checks-cost-privacy/index.md), running an **Automated Accessibility Scan**, **Automated License Detection**, and an **Automated Readability Scan** provides objective baseline data across every page of an OER in seconds, freeing human reviewers to focus on pedagogical quality. An **Automated Accessibility Scan** instantly flags missing `alt` attributes, skipped heading levels (`H2` to `H4`), and low-contrast text, while **Automated License Detection** locates machine-readable Creative Commons metadata or flags missing license footers. Meanwhile, an **Automated Readability Scan** computes sentence-length and syllable statistics across every section.
+**Example:** A reviewer verifies 12 of 40 claims and records which ones were checked.
 
-However, human judgment remains essential to verify whether alt text is meaningful, whether third-party figures carry compatible permissions, and whether technical terms are explained clearly.
+See [Chapter 13](chapters/13-automated-checks-cost-privacy/index.md) and [Chapter 14](chapters/14-checking-agent-output/index.md).
 
-**Example:** An **Automated Accessibility Scan** confirms that all 45 figures in an earth science textbook have non-empty `alt` strings, but a human spot check notices three of those strings simply say `alt="diagram.png"`, prompting a targeted revision.
+### Which license should I choose for what I publish?
 
-### Why should an Improvement Plan tackle the Lowest Metric First when revising an OER?
+Ask three questions: do you allow commercial reuse, do you allow shared changes, and must changes carry the same license? The answers map to the license:
 
-When an evaluation reveals several weaknesses across a textbook, teams get the highest return on effort by building an **Improvement Plan** around the **Lowest Metric First** strategy described in [Chapter 15 on Improving Resources with AI](chapters/15-improving-resources-with-ai/index.md). Under the [Ten-Metric Rubric](rubric-spec.md), a single metric scoring 2 or 3 out of 10—such as missing metadata, broken accessibility, or nonexistent practice feedback—can disqualify an otherwise strong textbook from institutional adoption even if its other metrics average 8/10.
+- Yes, yes, no: CC BY.
+- Yes, yes, yes: CC BY-SA.
+- No, yes, no: CC BY-NC.
+- No, yes, yes: CC BY-NC-SA.
+- Choose CC0 if you want no conditions at all.
 
-Raising a metric from 2/10 to 8/10 adds 6 full points to the total score and removes an adoption blocker, whereas polishing an already strong 8/10 metric to 9/10 yields only 1 point at much higher effort.
+The book favors CC BY for the components teachers publish, because it grants all five permissions with a single condition. The trade-offs are real. ShareAlike keeps adaptations open but limits what a remix can be combined with. NonCommercial blurs at the edges, such as a paid class, and it lowers the open license score. A published CC BY cannot be taken back for copies already out. Also check ownership, funders' requirements, third-party content, and, for software, use a license designed for code.
 
-**Example:** A biology OER scores 68/100 overall, with 9/10 on Accuracy and Alignment but 2/10 on Metadata and 3/10 on Accessibility. Targeting those two lowest metrics first with AI-assisted **Metadata Generation** and **AI Alt Text Generation** lifts the total score to 80/100 in a single afternoon.
+**Example:** An author who wants adaptations to stay open picks CC BY-SA, while one who wants the widest reuse picks CC BY.
 
-### What are best practices for AI Alt Text Generation, Caption Generation, and Heading Repair?
+See [Chapter 2](chapters/02-open-licenses-attribution/index.md). The capstone expects CC BY.
 
-Using AI agents to remediate accessibility barriers in [Chapter 15 on Improving Resources with AI](chapters/15-improving-resources-with-ai/index.md) and [Chapter 7 on Accessibility](chapters/07-accessibility/index.md) can turn a 3/10 Accessibility score into a 9/10 when guided by strict quality rules:
+### How should I run a calibration session?
 
-- **AI Alt Text Generation**: Pass both the image file and the surrounding paragraph to a multimodal agent so the generated description highlights the exact pedagogical takeaway rather than generic visual details.
-- **Caption Generation**: Use speech-to-text and LLM post-processing to add punctuation, speaker labels, and accurate technical terminology to video **Captions** and transcripts.
-- **Heading Repair**: Have the agent audit Markdown or HTML files so every page has one `H1` and sequential `H2`–`H3` headings without visual-only bold lines.
+Have the reviewers score the same sample resources alone, then compare metric by metric, discuss every flagged metric until the evidence settles it, and record how to score similar cases in the future. That is consensus scoring, and it is not averaging. A suggested goal, which a team may change, is agreement within 3 points on at least 8 of 10 metrics. If a team misses it, repeat with a new sample.
 
-**Example:** When generating alt text for a supply-and-demand graph in Economics Chapter 3, passing the surrounding paragraph allows **AI Alt Text Generation** to write: "Supply and demand curves intersecting at equilibrium price $15 and quantity 400 units, showing a surplus shaded above $20."
+To calibrate an agent, follow six steps. Build a calibration set of 10 to 20 resources, scored to consensus by two or more trained humans and hidden from the agent. Run the agent. Compute agreement rate, mean absolute difference, and bias. Trace the largest disagreements to causes by error type. Refine the prompt, one change per observed error, and rerun. Then confirm on a fresh set, because a prompt tuned on one set learns that set's quirks.
 
-### How do you use AI agents for Metadata Generation and License Statement Repair?
+**Example:** Four reviewers each score two sample resources alone, then meet to discuss every metric on which they differ.
 
-Many faculty-created open textbooks lose reusability points simply because they lack structured catalog headers or clear per-page license notices. In [Chapter 15 on Improving Resources with AI](chapters/15-improving-resources-with-ai/index.md), **Metadata Generation** uses an AI agent to read a chapter's text and draft a complete YAML frontmatter or JSON-LD **Metadata Record** containing **Dublin Core** and **LRMI** fields—title, author, subject, target grade level, controlled keywords, and a concise summary.
+See [Chapter 11](chapters/11-manual-evaluation-adoption/index.md) and [Chapter 14](chapters/14-checking-agent-output/index.md).
 
-Simultaneously, **License Statement Repair** standardizes ambiguous footers (such as "Free for teachers") into an explicit Creative Commons **License Statement** with the full license name, version 4.0 hyperlink, and **TASL Attribution Format** string after the human author confirms the intended license.
+### How big should a reusable component be?
 
-**Example:** An instructor runs a **Metadata Generation** skill across 12 Markdown chapters of an environmental geology reader; the agent populates standardized YAML frontmatter and appends a verified **License Statement Repair** footer (`CC BY-SA 4.0` with link and author attribution) to every file, raising Metadata and Open License scores to 10/10.
+Usually one idea or one learning objective, with its explanation, an example, and a check question. A piece that is too big cannot be partly reused, and one that is too small is not worth finding. Apply the lift test: copy the piece somewhere new, and it must still make sense and work.
 
-### How do you guide an AI agent during Practice Question Generation, Glossary Generation, and MicroSim Building?
+Search the text for words that depend on the rest of the resource, such as "above," "below," "earlier," "next section," and "the figure." Phrases like these break when the piece is moved. Fix them by restating the idea or linking to the other piece by its own address. Giving a piece its own file does not make it standalone.
 
-To raise a textbook's Practice and Readability scores, educators use three targeted content-creation skills detailed in [Chapter 15 on Improving Resources with AI](chapters/15-improving-resources-with-ai/index.md):
+**Example:** A 12-page chapter split into six two-page lessons, each with its own objective and quiz, is far easier to reuse than the whole chapter. A quiz that says "use the table from Chapter 2" fails the lift test.
 
-- **Practice Question Generation**: Prompt the agent with the chapter's learning outcomes and text to create multiple-choice and worked practice problems aligned to specific Bloom levels, including diagnostic distractor rationales.
-- **Glossary Generation**: Extract bolded technical terms from the chapter and generate ISO 11179-compliant definitions that are concise, non-circular, and matched to the student reading level.
-- **MicroSim Building**: Direct a coding agent to build an interactive HTML5/p5.js or Chart.js simulation that lets learners manipulate key chapter variables visually.
+See [Chapter 9](chapters/09-modularity-metadata/index.md) and [Chapter 15](chapters/15-improving-resources-with-ai/index.md).
 
-**Example:** For a chapter on compound interest that scored 3/10 on Practice, the instructor runs **Practice Question Generation** to add six self-check questions with immediate feedback, uses **Glossary Generation** to define twelve financial terms, and completes **MicroSim Building** for an interactive interest growth explorer, lifting Practice to 9/10.
+### How do I keep student data away from AI services?
 
-### How do Link Repair, Content Updates, and Re-Scoring verify a measurable Score Gain?
+Reviewing a resource needs no student data, so never paste student names, grades, or private records into an assistant. Student data covers names, ID numbers, grades, test results, written work, photographs, attendance, health and disability information, and anything identifying when combined with other details. Pasted text cannot be pulled back, and a deletion request may not undo it, because the service may store the text, staff may read it, and some services use it to improve models.
 
-Improving Accuracy and Currency requires replacing broken references and refreshing dated statistics, followed by a formal verification pass. As explained in [Chapter 15 on Improving Resources with AI](chapters/15-improving-resources-with-ai/index.md), **Link Repair** replaces dead URLs (flagged by an automated link checker) with current canonical links or Internet Archive Wayback Machine snapshots. A **Content Update** revises outdated figures, laws, or scientific findings using verified primary sources.
+In the United States, FERPA restricts disclosure of identifiable student education records, and sending them to an AI company can be such a disclosure. The book gives no legal advice, so ask your school's privacy officer or technology office. Give agents the least file access they need, read-only if possible, and keep student records out of the folder.
 
-Once all edits pass **Human Review of Changes**, you perform **Re-Scoring** with the rubric to calculate the exact **Score Gain** and document a **Before-and-After Comparison** alongside a dated **Change Log Entry** in the repository's **Changelog**.
+**Example:** A published textbook chapter can go to an AI service. A grade spreadsheet with student IDs, a student photo, or a parent email thread cannot.
 
-**Example:** In a public health OER from 2018, the author performs **Link Repair** on 14 broken CDC links and a **Content Update** adding 2024 epidemiological tables. **Re-Scoring** shows Currency rose from 4/10 to 9/10—a **Score Gain** of +5 points recorded in the **Change Log Entry**.
+An A/B test does involve student data, so it needs consent, anonymizing, and an approved way to handle the data. See [Chapter 13](chapters/13-automated-checks-cost-privacy/index.md) and [Chapter 16](chapters/16-ab-testing-design/index.md).
 
-### How do you organize a Teacher Training Workshop using a Workshop Agenda and Facilitator Guide?
+### When does a second agent add value, and when does it only add cost?
 
-Scaling OER evaluation across a school district, community college system, or university consortium works best through a hands-on **Teacher Training Workshop** supported by a structured **Workshop Agenda** and **Facilitator Guide**. As outlined in [Chapter 19 on Training and Certifying Reviewers](chapters/19-training-certifying-reviewers/index.md) and the [Sample One-Day Workshop Schedule](workshops/sample-one-day-schedule.md), effective **Professional Development** avoids day-long lecture slides and instead alternates 20-minute concept briefings with active scoring labs.
+A second agent helps when it narrows what a person must check, and it adds only cost when it is treated as proof. In multi-agent review, several agents score the same resource independently. The spread is the highest score minus the lowest, and a triage rule sorts the results. A spread over 3 is flagged. Otherwise, if any agent quoted no evidence, check anyway. Otherwise accept for a spot check.
 
-The **Facilitator Guide** provides timing cues, discussion prompts, pre-scored anchor chapters, and troubleshooting tips so facilitators can lead a **Calibration Exercise** where participants score the same OER excerpt by hand before testing AI agent prompts.
+The cost multiplies, since three agents cost three times as much as one. Agreement among agents is not truth, because similar models share blind spots, and unanimous agreement with no evidence is especially suspect. A second-agent cross-check, in which the second agent hunts for faults in the first report instead of producing a fresh score, is a cheap first filter. It can miss errors and raise false alarms.
 
-**Example:** During a six-hour faculty workshop following the [Sample One-Day Workshop Schedule](workshops/sample-one-day-schedule.md), morning sessions cover the 10-metric rubric and a group **Calibration Exercise** on one biology chapter, while afternoon sessions walk teachers through AI-assisted evaluation, spot-checking, and remediation.
+**Example:** In a test with 5 planted errors, a cross-check flagged 3 of 5, missed 2, and raised 1 false alarm.
 
-### How do Peer Review and Calibration Exercises prepare faculty for the Certificate Submission?
+See [Chapter 13](chapters/13-automated-checks-cost-privacy/index.md) and [Chapter 14](chapters/14-checking-agent-output/index.md).
 
-Before educators earn a formal **Certificate** in OER evaluation, they practice aligning their judgments through a collaborative **Calibration Exercise** and structured **Peer Review** as described in [Chapter 19 on Training and Certifying Reviewers](chapters/19-training-certifying-reviewers/index.md). In a **Calibration Exercise**, every participant scores the same benchmark resource and compares their evidence citations against an expert anchor scorecard. Next, during **Peer Review**, two colleagues exchange their independent **Certificate Submission** packets—each containing a manual rubric scorecard, a verified AI agent evaluation, and a findings log—and critique the specificity of each other's evidence.
+### How do changes in one metric affect the others when I improve a resource?
 
-Completing **Peer Review** catches missing citations or unverified agent claims before formal **Submission Review**.
+Fixes can have side effects, so re-score all ten metrics and not only the ones you touched. Re-scoring only the metrics you changed hides what else moved. Use the same rubric, evidence rules, prompt, and tools as the first scoring, and use a fresh agent session, because an agent that edited the resource scores it generously. Have a person verify every changed score and sample the rest.
 
-**Example:** Before submitting her **Capstone Project** packet for official **Submission Review**, a high school history teacher swaps scorecards with a partner during **Peer Review**, discovering she forgot to document how she resolved a 3-point disagreement between her manual Readability score and the agent's score.
+**Example:** The improved *Watershed Basics* gained on five metrics, and its portability score fell from 7 to 6, because the new simulation's script is blocked on 1 of 3 test platforms. A partial re-score would have missed the drop. The total rose from 65 to 78, a gain of 13 against a projected 14.
 
-### How do Exit Surveys, Training Evaluations, and a Train-the-Trainer kit scale reviewer capacity?
+The book's success test for an improvement is that at least two quality and two reusability metrics rise, every change is reviewed and logged, and no metric falls without a stated reason. See [Chapter 15](chapters/15-improving-resources-with-ai/index.md).
 
-To build sustainable institutional capacity rather than relying on external consultants, OER programs establish a **Local Reviewer Role** and equip lead faculty with a reusable **Training Kit** under a **Train-the-Trainer** model. As explained in [Chapter 19 on Training and Certifying Reviewers](chapters/19-training-certifying-reviewers/index.md) and the [Workshops Overview](workshops/index.md), every workshop concludes with an **Exit Survey** and a formal **Training Evaluation** that measure participant confidence, rubric calibration accuracy, and facilitator effectiveness.
+### How do I judge whether an improvement actually helped learners?
 
-Certified graduates who step into the **Local Reviewer Role** receive the complete open-licensed **Training Kit**—slides, sample chapters, rubric worksheets, and prompt templates—so they can lead departmental workshops on their own campuses.
+A score gain is not a learning gain. The score gain is the new total minus the old total, and it shows that the resource passes more of the rubric's checks. Whether students learn more is a different question that only a student test can answer. The book's example gains 13 points, which is 13 for 7.5 hours of work, or about 1.7 points per hour. A gain from better metadata may change nothing a student notices.
 
-**Example:** A state university system trains 20 campus OER coordinators in a two-day **Train-the-Trainer** institute. Using feedback from the **Exit Survey** and the downloadable **Training Kit**, those 20 coordinators return home and certify 180 departmental reviewers over the following academic year.
+Then test. The A/B test compares gains between a control and a treatment group, and it can show only whether the whole bundle of fixes helped, not which fix did the work. Testing one fix at a time takes more students and time. Over many resources, the rubric-outcome correlation shows whether higher-scoring resources tend to produce larger gains.
 
-### How do Informed Consent and Equity Considerations shape ethical classroom A/B Testing?
+**Example:** In the pilot, the improved version's mean gain was 22.0 against 15.0 for the original, a difference of 7.0 points.
 
-Running a classroom comparison between an **Original Version** and an **Improved Version** of a learning resource requires close attention to **Informed Consent**, **Student Privacy in Testing**, and **Equity Consideration** principles in [Chapter 16 on A/B Testing Design](chapters/16-ab-testing-design/index.md). Students must receive clear disclosure about how instructional materials and assessment data are used, and **Student Privacy in Testing** requires storing all scores in de-identified form.
+See [Chapter 15](chapters/15-improving-resources-with-ai/index.md), [Chapter 16](chapters/16-ab-testing-design/index.md), and [Chapter 17](chapters/17-ab-testing-analysis/index.md).
 
-Crucially, an **Equity Consideration** requires that neither the Control Group nor the Treatment Group is permanently disadvantaged on high-stakes course grades. After the short module **Post-Test** concludes, the instructor should give both groups full access to the **Improved Version** (including all new worked examples, alt text, and MicroSims) before the midterm or final exam.
+### How would I build a reusable component from a lesson I already teach?
 
-**Example:** An instructor runs a one-week A/B test on a stoichiometry unit using a low-stakes 10-point quiz as the outcome measure, then unlocks the interactive **Improved Version** for all students during exam review week.
+Work in six steps:
 
-### Why should A/B Test analysis combine Completion Rate, Time on Task, and Student Surveys?
+1. Pick one idea or objective, and remove references that depend on the rest of the lesson, such as "as shown above."
+2. Give it a descriptive name, such as `watershed-quiz`, and not a name like `final-v2`.
+3. Put everything in one folder: the content, a README, a license file, a metadata file, and any images or scripts, with links that stay inside the folder.
+4. Add the license in three places, the visible page footer, the license file, and the metadata record, and list every third-party item with its title, author, source, and license.
+5. Write a one- or two-sentence description that starts with what the component does, and record subject, grade level, and keywords.
+6. Test it. Apply the lift test, then embed it by iframe on at least two platforms.
 
-Focusing solely on quiz scores can miss important behavioral impacts when evaluating an improved OER chapter. In [Chapter 17 on A/B Testing Analysis](chapters/17-ab-testing-analysis/index.md), researchers supplement the primary cognitive **Outcome Measure** with three engagement indicators:
+Finally, list it in an index page or catalog so teachers can find it.
 
-- **Completion Rate**: The percentage of assigned learners who finish the reading and embedded practice problems.
-- **Time on Task**: How many minutes students spend actively engaging with the module.
-- **Student Survey** and **Qualitative Feedback**: Short Likert-scale ratings and open-ended responses asking what helped or confused learners.
+**Example:** A folder with `index.html`, `quiz.js`, `README.md`, `LICENSE.txt`, `metadata.json`, and an `img` folder holds one packaged quiz.
 
-Synthesizing these metrics in a **Results Summary** reveals whether an improvement boosted efficiency, reduced frustration, or increased persistence.
+See [Chapter 18](chapters/18-components-publishing-oer/index.md) and [Chapter 9](chapters/09-modularity-metadata/index.md).
 
-**Example:** In a nursing dosage calculation test, both groups scored 86% on the post-test, but the **Results Summary** showed the Improved Version cut average **Time on Task** from 52 minutes to 31 minutes, raised **Completion Rate** from 78% to 96%, and earned high **Student Survey** ratings for its worked examples.
+### How do I use student surveys and comments alongside test scores?
 
-### How do a Maintenance Plan, Issue Tracking, and a Feedback Channel keep published OER current?
+Test scores say what students learned, and a survey and comments say what they experienced, including barriers. Follow five rules for the survey: ask the same questions of both groups, keep them neutral, put one idea in each, make them specific, and keep responses anonymous. A common format rates each statement from 1 (strongly disagree) to 5 (strongly agree). Avoid leading questions such as "Did you enjoy the great new simulation?", double-barreled ones such as "clear and fair," and vague ones such as "The lesson was good."
 
-Publishing an improved open textbook is the beginning of its lifecycle, not the end. Without ongoing stewardship, external links break, disciplinary statistics age, and adopter errata go unfixed. As detailed in [Chapter 18 on Components and Publishing OER](chapters/18-components-publishing-oer/index.md), every published project should include a documented **Maintenance Plan**, public **Issue Tracking**, an accessible **Feedback Channel**, and clear **Release Notes**.
+Ratings report opinion and not learning, and novelty can inflate them. For comments, code them into themes and count the students in each theme. Have two people code independently and resolve differences, and remove identifying detail before you quote anyone. Comments hint at causes without proving them.
 
-A **Feedback Channel**—such as a "Report an Error" link on every page that pre-populates a GitHub issue or web form—channels reader reports directly into **Issue Tracking**, inviting **Community Contribution** from adopting faculty and students.
+**Example:** In the pilot, "helped me understand" averaged 3.5 for the control group and 4.3 for the treatment group. Seven of the 12 treatment students said the simulation helped. Two control students could not get the original quiz to load on school tablets, which explained a completion rate of 10 of 12, against 12 of 12 for treatment.
 
-**Example:** An open statistics textbook includes a footer link to its GitHub **Issue Tracking** board and follows an annual summer **Maintenance Plan**. Over two semesters, adopting instructors log 11 minor typos and 2 broken dataset links; the maintainer merges the fixes in June and publishes v1.2 **Release Notes**.
+See [Chapter 17](chapters/17-ab-testing-analysis/index.md).
+
+### How do I publish an improved resource so others can find and reuse it?
+
+Publishing means a stable public address, an open license, and complete metadata. A file on a shared drive may be visible, and it is not open. The book gives eight steps in order: confirm the license, finish the metadata, freeze the tested version with release notes, package each component, build the site, deploy it, open the feedback channel and publish the maintenance plan, and list the resource in a clearinghouse and tell colleagues. Listing comes last, so a reader who arrives finds a finished resource.
+
+A static site generator turns Markdown files and a settings file into finished web pages. MkDocs, Jekyll, and Hugo are examples. This book uses MkDocs with the Material theme, and GitHub Pages serves such a site at an address of the form `username.github.io/repository`. The first page should show the title, the license with a link, a citation, the version, a link to the source, and a contact for the author. Release notes use four headings: Added, Changed, Fixed, and Removed.
+
+**Example:** A teacher publishes a library of four items, a reading, a quiz, a simulation, and a glossary, each as its own component under CC BY 4.0, and submits it to a catalog such as OER Commons or MERLOT.
+
+A clearinghouse listing points to your site and does not move the resource. See [Chapter 18](chapters/18-components-publishing-oer/index.md).
+
+### How do I find out whether anyone is reusing what I published?
+
+An open license lets people reuse a resource without asking or telling you, so the picture is always partial. Read the signals by strength. Strong signals are a course page that links to you and credits you, a fork with changes, and a teacher's message. Weak signals are downloads, page views, and a star. Your own visits and automated crawlers are not evidence at all. Search for the resource's title and your attribution line.
+
+Choose an analytics tool that records counts and not individuals, and remember that a page view is not a reader and a reader is not a learner. A drop over a holiday reflects the calendar. Combine four kinds of evidence in an impact report, keep them apart, and say how strong each is: reach (analytics), reuse (reuse tracking), learning (the A/B test), and experience (surveys, comments, and the issue list).
+
+**Example:** A sample report cites about 3,500 page views in six months, reuse by at least three teachers, a learning gain of 22.0 against 15.0 in a pilot of 24, and 11 issues of which 7 are fixed, and it notes that the pilot was small and that a larger test is planned.
+
+See [Chapter 18](chapters/18-components-publishing-oer/index.md).
+
+### Why does a published resource need a maintenance plan and a feedback channel?
+
+Without a maintenance plan, a resource drifts out of date, and a reuser cannot tell whether it is still safe to trust. A plan states who is responsible, what is checked, how often, and when the resource will be retired. The book's sample schedule runs the link checker every three months, checks changeable facts once a year, runs an accessibility scan once a year and after any large change, reviews open issues at every release, and decides once a year whether to retire the resource. Retiring is part of maintaining: mark the resource archived, with a note on its first page.
+
+Offer more than one feedback channel, such as an issue tracker, a plain email address, and a short form, because a required account excludes some teachers. Never ask for student information, and state how quickly you will reply. A channel that is promised and then ignored is worse than none.
+
+See [Chapter 18](chapters/18-components-publishing-oer/index.md).
 
 ## Advanced Topic Questions
 
-### How do you calculate Difference of Means and Effect Size (Cohen's d) in an A/B Test?
+### Does a higher rubric score predict more student learning?
 
-In [Chapter 17 on A/B Testing Analysis](chapters/17-ab-testing-analysis/index.md), evaluators quantify the impact of an OER improvement by computing each group's **Mean Score**, the **Difference of Means**, and the standardized **Effect Size** (Cohen's $d$). First, calculate the **Learning Gain** ($G = \text{Post-Test} - \text{Pre-Test}$) for every student, then find the **Mean Score** of gains for the Treatment Group ($\bar{X}_T$) and Control Group ($\bar{X}_C$). The **Difference of Means** is simply $\bar{X}_T - \bar{X}_C$.
+That is the question of rubric validity, and the book answers it with a method and an illustration, not a finding. The method compares each resource's rubric total with the mean normalized gain its students achieved in an A/B test, using the normalized gain because pilots use different tests. A Pearson correlation near 1 would mean higher-scoring resources tend to produce larger gains.
 
-To compare results across different assessments, divide the **Difference of Means** by the pooled standard deviation ($SD_{\text{pooled}}$) to obtain **Effect Size** $d = (\bar{X}_T - \bar{X}_C) / SD_{\text{pooled}}$, where $d \approx 0.2$ is small, $d \approx 0.5$ is medium, and $d \ge 0.8$ is large.
+In the chapter's illustration of seven resources, r is about 0.93, which means roughly 87 percent of the variation in gains goes with the rubric score. Read that number with care. Only two of the seven points, the original and improved *Watershed Basics*, come from the real pilot, and the other five are made-up pilots. With the weakest resource removed, r is still 0.92. A serious check needs 20 or more resources. And correlation does not show cause.
 
-**Example:** If the Treatment Group gains an average of 24.0 points ($SD = 10$) and the Control Group gains 18.0 points ($SD = 10$), the **Difference of Means** is $+6.0$ points and Cohen's $d = 6.0 / 10.0 = 0.60$, demonstrating a medium-to-large positive instructional effect.
+The illustration also teaches a habit: among three resources with the same total of 65, the gains differ, so read the lowest metric before the total.
 
-### How do you evaluate Rubric-Outcome Correlation to validate automated AI scoring?
+See [Chapter 17](chapters/17-ab-testing-analysis/index.md) and [Chapter 3](chapters/03-ten-metric-rubric-scoring/index.md).
 
-**Rubric-Outcome Correlation** tests whether higher scores on the [Ten-Metric Rubric](rubric-spec.md) actually predict stronger student **Learning Gain** and **Completion Rate** in real classrooms, providing empirical validity for both the rubric and automated AI scoring skills. As explained in [Chapter 17 on A/B Testing Analysis](chapters/17-ab-testing-analysis/index.md), evaluators plot the rubric **Score Gain** ($\Delta \text{Rubric}$) of improved chapters against the measured classroom **Effect Size** ($d$) across multiple A/B tests.
+### Should an AI agent's score ever replace a human review?
 
-Analyzing which individual quality metrics (such as Practice with Feedback or Readability) correlate most strongly with student **Outcome Measure** gains allows teams to calibrate rubric weights and refine AI evaluation prompts.
+The book's answer is no. The agent drafts and a person verifies, because accountability cannot be delegated and because even a well-calibrated agent makes errors that only checking finds. What calibration can earn is a more limited role: the agent becomes a first pass, with a person still verifying the claims that decide the outcome.
 
-**Example:** Across 12 community college course pilots, chapters that gained +5 points on the Practice Metric produced an average student **Effect Size** of $d = 0.54$ ($r = 0.76$), whereas chapters that only repaired metadata showed $d = 0.04$ on student quiz scores (while boosting instructor reuse rates instead).
+The book offers an illustrative first-pass standard, which each team should reset after its own pilot:
 
-### How do you design a Reusable Component Library with proper Component Packaging and Licensing?
+- Agreement rate at a threshold of 1: 80 percent or more.
+- Absolute bias: 0.5 or less.
+- Mean absolute difference: 1.0 or less.
+- Kappa on the adoption decision: 0.61 or more.
+- Run-to-run range per metric: 1 or less, or that metric goes to a person.
 
-Rather than treating a textbook as a single monolithic file, advanced OER authors organize quizzes, interactive MicroSims, worked problem sets, and glossary modules into a structured **Component Library** where every item is a self-contained **Reusable Component**. In [Chapter 18 on Components and Publishing OER](chapters/18-components-publishing-oer/index.md), effective **Component Packaging** places each asset in its own directory with an `index.md` documentation page, a standalone `main.html` or data file, and machine-readable metadata for **Component Discoverability**.
+An agent that misses the standard only drafts evidence for a person. In the book's example, the first-draft agent has perfect agreement and correlation but a bias of +1.0, so it fails, because that bias turns a revise decision into adopt. Metrics that rest on exact checks suit a first pass best, and judgment metrics need close human checking.
 
-Clear **Component Licensing**—typically `CC BY 4.0` or `CC0` declared inside the component folder—ensures other educators can embed an individual **Embeddable Component** without legal ambiguity.
+See [Chapter 14](chapters/14-checking-agent-output/index.md) and [Chapter 12](chapters/12-ai-agents-prompts-scoring/index.md).
 
-**Example:** This textbook's `docs/sims/` folder functions as a **Component Library**: each simulation resides in its own kebab-case folder (`docs/sims/rubric-scorer/`) with `main.html`, `index.md`, Dublin Core metadata, and `CC BY 4.0` **Component Licensing** so any instructor can embed it via an `<iframe>`.
+### What patterns do AI agent errors follow, and how does each type point to a fix?
 
-### How do a Learning Graph and Concept Dependency structure an Intelligent Textbook?
+Agent errors fall into four types, and each type tells you both how to catch it and how to change the prompt.
 
-An **Intelligent Textbook** goes beyond static digital pages by organizing domain knowledge around an explicit **Learning Graph**—a directed acyclic graph that maps every concept and its prerequisite **Concept Dependency** relationships. As shown in [Chapter 18 on Components and Publishing OER](chapters/18-components-publishing-oer/index.md) and the [Learning Graph Overview](learning-graph/index.md), each node represents a single teachable concept, and each directed edge indicates that Concept A must be understood before Concept B. Analyzing the **Learning Graph** determines the optimal **Chapter Structure** so no chapter introduces an advanced workflow before its foundational terms.
+- **Factual error:** the report says something the resource does not. Catch it by opening the resource and checking the claim. Fix the prompt by demanding a quotation or location for every claim and a tool log for every measurement.
+- **License error:** the license is misread. Compare the claim with the statement itself. Require the agent to quote the statement word for word.
+- **Citation error:** the source is invented or does not support the claim. Look up the source and read the passage. Allow only sources that appear in the resource or that you supplied.
+- **Scoring error:** the arithmetic or the band is wrong. Recount the passes, recompute the band, and re-add the total. Ask for a pass or fail on each of the ten checks, and let a spreadsheet or script add the total.
 
-Graph centrality metrics (such as Concept Impact Score) also guide how much explanation depth, worked examples, and interactive MicroSims each concept receives.
+The patterns across types are telling. Errors cluster where a check needs a tool but no tool ran, where the agent relies on memory, and where scores run high with no evidence beside them. A small positive bias on every metric is score inflation, which no single claim check will reveal.
 
-**Example:** In this book's 351-node **Learning Graph**, `Rubric Metric` and `AI Agent` are prerequisite dependencies for `Rubric Prompt`, which in turn precedes `Second-Agent Cross-Check`, guaranteeing a logical **Chapter Structure** from Chapter 3 to Chapter 12 to Chapter 14.
+**Example:** A count that is off by one is a factual error, while a total that does not add up is a scoring error.
 
-### How do Static Site Generators like MkDocs and GitHub Pages streamline Publishing OER?
+Track the types in the findings log, because a type that keeps recurring tells you which prompt rule to add next. See [Chapter 14](chapters/14-checking-agent-output/index.md).
 
-Modern workflows for **Publishing OER** avoid heavy database servers by using a **Static Site Generator** such as **MkDocs** paired with free hosting on **GitHub Pages**, as demonstrated in [Chapter 18 on Components and Publishing OER](chapters/18-components-publishing-oer/index.md). Authors write chapters in plain-text Markdown inside a Git repository, and **MkDocs** compiles those files into fast, mobile-friendly, WCAG-accessible HTML pages with built-in client-side search and navigation. Pushing a commit to the repository deploys the updated site to **GitHub Pages** automatically.
+### What are the trade-offs between automated checks and manual review?
 
-To maximize global discovery, authors also register the published URL and metadata record in an external **OER Clearinghouse** such as OER Commons, MERLOT, or LibreTexts.
+Automation gives speed, repeatability, and low cost on exact tasks. It lacks context and judgment, so each tool has a blind spot. The book names four checks worth automating, and what each cannot find:
 
-**Example:** When a maintainer merges a pull request fixing three practice questions in this book's repository, `mkdocs gh-deploy` rebuilds the static HTML site and publishes it live to **GitHub Pages** in under 30 seconds with zero hosting fees.
+- **Link checker:** finds links that fail or have moved. It cannot tell that a working link leads to the wrong content.
+- **Accessibility scan:** finds missing alt attributes and weak contrast. It cannot judge whether alt text is useful or captions are accurate.
+- **License detection:** finds a missing license or a mismatch between page and metadata. It cannot tell whether the claim is true, and it can miss a license that appears only in an image.
+- **Readability scan:** gives a reading level for sampled passages. It cannot see undefined terms or audience fit.
 
-### How do Reuse Tracking, Usage Analytics, and Impact Reporting demonstrate OER grant success?
+Manual review is slow, and it is the reference that software is measured against. It brings context, judgment, and real-world tests such as embedding a resource on a platform. The practical split is that tools take the exact checks, the model drafts judgments about text, and a person takes the real-world tests and verifies what decides the outcome. Cost also matters, and batches multiply it.
 
-Institutional OER initiatives and grant funders require empirical evidence of adoption reach, cost savings, and learning quality through **Reuse Tracking**, privacy-respecting **Usage Analytics**, and comprehensive **Impact Reporting**. As explained in [Chapter 18 on Components and Publishing OER](chapters/18-components-publishing-oer/index.md) and the [Grant Period Timeline](workshops/grant-period-timeline.md), **Reuse Tracking** monitors GitHub forks, Common Cartridge downloads, iframe embeds, and clearinghouse adoptions across partner institutions. **Usage Analytics** tracks pageviews, MicroSim interactions, and chapter completion trends without collecting personally identifiable student data.
+See [Chapter 13](chapters/13-automated-checks-cost-privacy/index.md) and [Chapter 12](chapters/12-ai-agents-prompts-scoring/index.md).
 
-Synthesizing these metrics alongside before-and-after rubric **Score Gain** and classroom A/B test results produces a rigorous **Impact Reporting** portfolio.
+### How does the rubric specification differ from the ten-metric rubric?
 
-**Example:** At the end of a two-year state grant, a project lead's **Impact Reporting** brief documents 14 textbook revisions (average rubric score rising from 58 to 86), 42 campus forks via **Reuse Tracking**, 18,500 student readers in **Usage Analytics**, and $1.4 million in textbook savings.
+They are two different documents, and the book does not yet reconcile them. The ten-metric rubric in [Chapter 3](chapters/03-ten-metric-rubric-scoring/index.md) is the one every chapter teaches. It scores a resource on ten metrics from 0 to 10, adds them to a total out of 100, and ends in an adopt, revise, or reject decision.
 
-### How do you appraise whether an AI-improved OER meets the Capstone Project and Certificate standard?
+The [rubric specification](rubric-spec.md) is marked as a draft, version 0.4, a design specification that has not yet been implemented or tested. It describes an evaluator for LLM agent skills with a 0 to 3 scale, 22 scripted checks, and 17 judgment indicators. Its two headline numbers, one for overall quality and one for reusable content, are deliberately never combined into a single total, and it sets no adopt or reject rule. It builds on a review of 14 earlier rubrics by Yuan and Recker (2015), which found, among other things, that 5 of the 14 had no rating scale and only 3 had a detailed scoring guide.
 
-In [Chapter 19 on Training and Certifying Reviewers](chapters/19-training-certifying-reviewers/index.md), evaluating a candidate's **Capstone Project** during **Submission Review** requires checking four rigorous **Certificate Requirements** before awarding the **Certificate**:
+For anything you do with this book, such as scoring by hand, writing a prompt, or preparing for the certificate, use the Chapter 3 rubric. Treat the specification as a draft for the automated evaluator.
 
-1. **Baseline Evaluation & Verification**: A complete 10-metric manual scorecard paired with an **Agent Evaluation Report** and a verified **Findings Log** showing where agent claims were accepted, corrected, or rejected.
-2. **Multi-Dimensional Improvement**: Documented revisions using AI agents that raise the resource's score on at least two Quality metrics and two Reusability metrics.
-3. **Empirical Classroom Validation**: A small **A/B Test** or **Pilot Test** comparing learner outcomes or engagement between the original and improved versions.
-4. **Open Publication**: Publishing the **Derivative Work** with complete **Dublin Core** metadata and an open license.
+### How would I design a calibration and certification program for my district?
 
-**Example:** A reviewer's **Certificate Submission** demonstrates a +22 point total rubric gain across Accessibility, Practice, Modularity, and Metadata, backed by a 36-student A/B test ($d = 0.48$) and a live GitHub Pages URL, passing **Submission Review** with distinction.
+Combine the book's pieces into one loop. Train reviewers first: they read Chapters 3 to 10, score two samples with evidence, compare their scores with an experienced reviewer, and join a calibration session. Build a calibration set of 10 to 20 resources scored to consensus by trained humans, and use it to check both new reviewers and any agent. Run a workshop of about 20 teachers, with a facilitator guide for each session that gives the time, goal, materials, steps, and the common problems with their fixes, so a colleague who did not write the workshop can run it. Use the certificate requirements, which tie each requirement to evidence, as the standard. Have a reviewer who did not take part in the work check each submission.
 
-### How do you distinguish cosmetic rubric Score Gains from improvements that raise student learning?
+Certified teachers can then serve as local reviewers, the first reviewers for a school or district. The role has limits: they flag license problems without ruling on legal questions, never send student information to an agent, advise and do not make adoption decisions, and do not certify other teachers. They repeat the calibration on a reference set at least once a year.
 
-Not every point gained on the [Ten-Metric Rubric](rubric-spec.md) affects learners in the same way, so advanced evaluators in [Chapter 17 on A/B Testing Analysis](chapters/17-ab-testing-analysis/index.md) distinguish between reusability gains, cosmetic compliance, and genuine pedagogical improvements. Upgrading **Metadata Completeness** or converting a file to **Markdown** raises the Reusability Subtotal significantly—making it much easier for instructors to find and adapt the book—but won't directly raise a student's **Post-Test** score next Tuesday. Even within Quality metrics, a superficial fix (such as adding generic one-word alt text or trivial true/false questions) can game an uncalibrated agent into reporting a **Score Gain** without improving comprehension.
+To grow the program, use train-the-trainer: co-facilitate, then lead with an experienced facilitator watching, then lead alone. Keep quality by using the same kit and reference set, observing every new trainer's first session, and having trainers repeat calibration. Evaluate the program at four levels: reaction, learning, behavior, and results. Do not rely on the exit survey, which measures reaction only.
 
-Comparing **Before-and-After Comparison** diffs against student **Learning Gain** and **Time on Task** separates true instructional improvement from rubric gaming.
+See [Chapter 19](chapters/19-training-certifying-reviewers/index.md), [Chapter 11](chapters/11-manual-evaluation-adoption/index.md), and [Chapter 14](chapters/14-checking-agent-output/index.md).
 
-**Example:** Adding 15 worked problems with misconception-targeted **Immediate Feedback** and an interactive **MicroSim** raised both the Practice Metric (+5 points) and student post-test **Learning Gain** (+14%), proving substantive pedagogical value.
+### How would I build an agent skill that evaluates OER automatically?
 
-### How do you evaluate trade-offs between AI Cost, Context Window limits, and Multi-Agent Review depth?
+Package the book's method as a skill: a folder with an instructions file whose top description says when it applies. It carries five parts.
 
-When scaling automated evaluation across an institutional library of hundreds of OER textbooks, program leads must balance **AI Cost**, **Context Window** token budgets, and **Multi-Agent Review** reliability as analyzed in [Chapter 13 on Automated Checks, Cost, and Privacy](chapters/13-automated-checks-cost-privacy/index.md) and [Chapter 14 on Checking Agent Output](chapters/14-checking-agent-output/index.md). Running three frontier reasoning models on every chapter provides maximum cross-check sensitivity but triples API token expenditure and latency.
+1. **A rubric prompt** with the role, the ten checks for each metric, the rules (evidence for every check, "not checkable" instead of guessing, no invented quotations, untested checks count as failed), and the output format. Mark the resource as material, not instructions.
+2. **Tools** for the exact checks: a link checker, a readability calculator, an accessibility checker, and a metadata validator. Record the tool and version in the report.
+3. **Structured output** with a check-by-check result, passes, band, score, and a list of checks not verified, plus a script that recounts passes, recomputes bands, and re-adds the total.
+4. **Human checkpoints:** risk-matched oversight and a findings log that records what was accepted, corrected, or rejected.
+5. **Calibration:** run it on a set of 10 to 20 hand-scored resources, measure against the first-pass standard, refine the prompt one change per observed error, and confirm on a fresh set.
 
-An optimal tiered architecture runs zero-cost deterministic checks (**Automated Link Checker**, **Automated Accessibility Scan**, **Automated Readability Scan**) first, uses a single fast, calibrated model for initial **Batch Evaluation**, and triggers a **Second-Agent Cross-Check** with a frontier model only when a metric score falls near an adoption boundary or exhibits low confidence.
+Set safe defaults. Give the agent read-only file access, keep student data out, and record the model, date, and prompt version with every run. Never let it change the resource it reviews.
 
-**Example:** Evaluating 500 chapters with this tiered pipeline reduced total **AI Cost** by 72% compared to full dual-frontier scoring while still catching 96% of **Agent Disagreement** cases for human audit.
+See [Chapter 12](chapters/12-ai-agents-prompts-scoring/index.md), [Chapter 13](chapters/13-automated-checks-cost-privacy/index.md), and [Chapter 14](chapters/14-checking-agent-output/index.md).
 
-### How do you build a custom Agent Skill that evaluates OER and outputs a verified JSON scorecard?
+### How do I appraise whether my A/B test design is fair?
 
-Building a reusable **Agent Skill** for automated OER assessment in [Chapter 12 on AI Agents, Prompts, and Scoring](chapters/12-ai-agents-prompts-scoring/index.md) and [Chapter 13 on Automated Checks, Cost, and Privacy](chapters/13-automated-checks-cost-privacy/index.md) packages deterministic scripts, a calibrated **System Prompt**, and a strict schema validator into a modular workflow:
+Apply a checklist drawn from [Chapter 16](chapters/16-ab-testing-design/index.md), and treat any failure as a reason to revise the plan before collecting data.
 
-1. **Pre-Processing & Tool Use**: Write a script with local **File Access** that ingests the chapter's Markdown/HTML and runs link, accessibility, license, and readability scans.
-2. **Rubric Prompt Assembly**: Inject the pre-scan metrics, the 0–10 rubric descriptors from the [Rubric Specification](rubric-spec.md), and two **Few-Shot Example** scorecards into a **Prompt Template**.
-3. **Structured Output Enforcement**: Call the LLM API with a JSON schema requiring `metric_id`, `score`, `evidence_quotes`, `section_citation`, and `confidence` for all 10 metrics.
-4. **Automated Verification Step**: Verify via substring matching that every quoted citation actually appears in the source file before rendering the markdown **Agent Evaluation Report**.
+- **Hypothesis:** written before the test, and specific, measurable, directional, sized, and falsifiable.
+- **Versions:** both frozen and labeled, with the change log listing the differences.
+- **One difference:** the groups differ in the version and nothing else, with the same teacher, instructions, time, and test.
+- **Outcome measure:** one primary outcome, from a separate test and not the resource's own quiz.
+- **Assignment:** by chance, blocked by pre-test score if the class is small.
+- **Sample size:** stated honestly. A group of about 12 is a pilot, and its result is suggestive.
+- **Consent and privacy:** consent before any data is collected, a real choice to decline at no cost, little data collected, and codes with a separate key.
+- **Equity:** both versions work for every student, including those using assistive technology and those without a fast home connection, and the report says who took part.
 
-**Example:** A library technology team packages this four-step **Agent Skill** as a CLI command (`oer-eval score chapter.md`) that outputs both `scorecard.json` and a human-auditable `findings-log.md`.
+Remember that a bundle of fixes shows only whether the bundle helped. For red flags, look at the book's own failures: students choosing their own version, a pre-test given before consent, and a small test claimed as proof.
 
-!!! mascot-celebration "Ready to Put These Answers to Work"
-    ![Echo the Loon celebrating](img/mascot/celebration.png){ class="mascot-admonition-img" }
-    You now have quick reference answers across all 10 rubric metrics, AI agent verification workflows, and classroom A/B testing. Pick a candidate resource from your own course and start scoring with evidence!
+See [Chapter 16](chapters/16-ab-testing-design/index.md) and [Chapter 17](chapters/17-ab-testing-analysis/index.md).
