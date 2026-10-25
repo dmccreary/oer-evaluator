@@ -9,7 +9,7 @@ Test your understanding of WCAG 2.1 AA, alt text, contrast, media alternatives, 
 <div class="upper-alpha" markdown>
 1. Perceivable, organized, usable, and reliable
 2. Photographic, operable, universal, and readable
-3. Practical, open, understandable, and responsive
+3. Practical, open, understandable, and responsive across devices
 4. Perceivable, operable, understandable, and robust
 </div>
 
@@ -43,7 +43,7 @@ Test your understanding of WCAG 2.1 AA, alt text, contrast, media alternatives, 
 #### 3. How should a decorative image, such as a thin border line, be marked in HTML so that a screen reader skips it?
 
 <div class="upper-alpha" markdown>
-1. Leave out the alt attribute entirely so that the reader skips the image
+1. Leave out the alt attribute entirely so that the reader skips the image altogether
 2. Give it alt text that says "decoration" so that readers know it is not content
 3. Use its file name as the alt text so that the image is still identified
 4. Give it an empty alt attribute, written as `alt=""`, so that the reader skips it
@@ -61,7 +61,7 @@ Test your understanding of WCAG 2.1 AA, alt text, contrast, media alternatives, 
 #### 4. Why should alt text describe what an image does in its context instead of only how it looks?
 
 <div class="upper-alpha" markdown>
-1. Screen readers cannot announce descriptions that are longer than one word, so short text is required
+1. Screen readers cannot announce descriptions that are longer than one word, so short text is always required
 2. A reader who cannot see the image needs text that does the same job the image does for a sighted reader
 3. Alt text is shown only on printed copies of a page, where the appearance of an image does not matter
 4. Describing the appearance would repeat the page's heading and so add nothing for the reader

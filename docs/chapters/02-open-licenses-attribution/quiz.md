@@ -40,21 +40,21 @@ Test your understanding of Creative Commons licenses, license statements, attrib
 
 ---
 
-#### 3. What does the CC0 dedication do?
+#### 3. Which statement best describes an open license?
 
 <div class="upper-alpha" markdown>
-1. It grants a license that requires credit to the creator but allows no changed versions
-2. It registers the work with Creative Commons so that every later user must ask permission first
-3. It places a work in the public domain by giving up copyright and related rights as far as the law allows
-4. It lets the creator keep every right while allowing free use in classrooms only
+1. A license in which the owner gives one named person permission to use a work after that person asks
+2. A license in which the owner keeps every right and allows the work to be viewed online
+3. A license in which the owner gives everyone permission in advance, at no charge, to do things that copyright would otherwise reserve
+4. A license in which the owner sells the right to change a work to anyone who pays a fee
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **C**. CC0 1.0 Universal is a Creative Commons tool for placing a work in the public domain. It is not a license with conditions: the creator gives up copyright and related rights as far as the law of their country allows, and where the law does not allow that, CC0 acts as a license with no conditions. Credit is not legally required, though it is good practice. Creators use it for data sets and quiz banks.
+    The correct answer is **C**. An open license is public, in advance, and standing. The owner offers it to everyone and not to a named person, grants it before anyone asks, and people who received the work keep their rights even if the owner later stops offering it. It grants the five R permissions to the whole public, usually with conditions such as credit. Option A describes a one-time permission, and option B describes all rights reserved.
 
-    **Concept Tested:** CC0 Dedication
+    **Concept Tested:** Open License
 
-    **See:** [CC0 Dedication](index.md#cc0-dedication)
+    **See:** [What an Open License Grants](index.md#what-an-open-license-grants)
 
 ---
 

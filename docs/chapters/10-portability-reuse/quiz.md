@@ -7,10 +7,10 @@ Test your understanding of browser compatibility, no-login access, embedding, LM
 #### 1. What is a responsive layout?
 
 <div class="upper-alpha" markdown>
-1. A page design that adapts to the screen size, so the same page reads well on a phone, tablet, and monitor
+1. A page design that adapts to the screen size, so one page reads well on phone, tablet, and monitor
 2. A page that responds to each quiz answer with a feedback message that explains the answer
 3. A page that loads faster when the learner is signed in to the learning platform
-4. A page that saves a copy of itself automatically so that it can be used offline
+4. A page that saves a copy of itself automatically so that it can be used offline when needed
 </div>
 
 ??? question "Show Answer"
@@ -44,7 +44,7 @@ Test your understanding of browser compatibility, no-login access, embedding, LM
 
 <div class="upper-alpha" markdown>
 1. It always makes the resource cost money, because every account requires a paid subscription
-2. It makes the resource unreadable on phones, because login pages never adapt to small screens
+2. It makes the resource unreadable on phones, because login pages never adapt to small screens or to tablets
 3. It prevents the resource from carrying an open license, because licenses cannot cover accounts
 4. It stops embedding because the frame shows a sign-in form, blocks link sharing, and adds a privacy burden
 </div>
@@ -79,9 +79,9 @@ Test your understanding of browser compatibility, no-login access, embedding, LM
 #### 5. Why are resources built from plain HTML, CSS, and JavaScript usually more portable than resources that rely on browser plug-ins?
 
 <div class="upper-alpha" markdown>
-1. Plug-ins cannot display text or images, so pages built with them are always blank
+1. Plug-ins cannot display text or images, so pages that are built with them are always blank for readers
 2. Open web standards work in the main browsers, while a plug-in like Flash can be discontinued and stop working
-3. Plain HTML always downloads faster than any plug-in, so pages load more quickly
+3. Plain HTML always downloads faster than any plug-in, so pages built from it load more quickly for readers
 4. Browsers require the learner to install a plug-in before they open any page at all
 </div>
 
@@ -133,7 +133,7 @@ Test your understanding of browser compatibility, no-login access, embedding, LM
 #### 8. A reviewer applies the ten portability checks to a page that does not open in the main browsers. Checks 1 and 5 fail, and the other eight pass. What score does the chapter's rule give?
 
 <div class="upper-alpha" markdown>
-1. 8, because 80 percent falls in the 7 to 8 band and the higher number applies
+1. 8, because 80 percent falls in the 7 to 8 band and the higher number in the band applies
 2. 6, because two checks failed and each failed check subtracts two points from 10
 3. 7, because 80 percent falls in the 7 to 8 band and failing the browser check is serious
 4. 5, because failing the browser check caps the score at 5 whatever else passes
@@ -153,7 +153,7 @@ Test your understanding of browser compatibility, no-login access, embedding, LM
 <div class="upper-alpha" markdown>
 1. Check 2, because a login is needed to view the content
 2. Check 5, because the layout does not adapt to a phone-width screen
-3. Check 6, because no downloadable copy in an open format is offered
+3. Check 6, because no downloadable copy in an open format is offered with the page
 4. Check 9, because the resource cannot be used offline from a saved copy
 </div>
 

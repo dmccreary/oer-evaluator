@@ -79,7 +79,7 @@ Test your understanding of formative assessment, quiz design, feedback messages,
 #### 5. Why does the chapter say that a quiz ending with "You got 5 of 8" has not given the learner useful feedback?
 
 <div class="upper-alpha" markdown>
-1. A score always arrives too late to affect what the learner does next, however soon it appears
+1. A score always arrives too late to affect what the learner does next, however soon it is shown to them
 2. Quizzes should never show scores to learners, because scores discourage them from trying again
 3. Feedback must always be delivered in person by a teacher, because software cannot explain
 4. A score says how the learner did but not why, so nothing explains or corrects a misunderstanding
@@ -115,10 +115,10 @@ Test your understanding of formative assessment, quiz design, feedback messages,
 #### 7. A learner answers "Which describes infiltration?" with "Water flowing over the ground." Which feedback message best follows the chapter's guidance?
 
 <div class="upper-alpha" markdown>
-1. "Not quite. Water flowing over the ground is runoff. Infiltration is water soaking in, so review how the two differ."
-2. "Wrong. Try again, and read the question carefully this time."
-3. "Incorrect. The answer is the first option, so mark it and move on to the next question."
-4. "Good try! Keep going, because you are doing well and the next question is easier."
+1. "Not quite. That is runoff, which flows over the ground. Infiltration is water soaking in, so review the two."
+2. "Wrong. Try again, and this time read the question and all four options more carefully before you answer."
+3. "Incorrect. The answer is the first option, so mark it as correct and move on to the next question when you are ready."
+4. "Good try! Keep going, because you are doing well and the next question is easier than this one was."
 </div>
 
 ??? question "Show Answer"

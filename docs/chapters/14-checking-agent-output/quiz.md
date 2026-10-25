@@ -22,28 +22,28 @@ Test your understanding of agent error types, verification, accept-correct-rejec
 
 ---
 
-#### 2. What does a findings log record?
+#### 2. Which description matches a hallucination in an agent's evaluation report?
 
 <div class="upper-alpha" markdown>
-1. Only the claims that were rejected, with the agent's own explanation of each rejected claim
-2. Every agent claim a reviewer checked, the decision (accepted, corrected, or rejected), and the reason
-3. The cost of each run, the name of the model that was used, and the date of the run
-4. The reviewer's final adoption decision and nothing else, such as the evidence or the reasons
+1. A score that is correct but lower than the score a human reviewer gave it, so the two differ by a point
+2. A fluent, confident statement that is not true, such as a quotation that does not appear in the resource
+3. A result of "not checkable" for a check that the text alone cannot verify, listed in the report as unverified
+4. A link checker's log that shows an error for a link that is really broken, tested on the day of the review
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. The log makes a review auditable, because anyone can see what was checked. It feeds the measurement of the agent error rate, since the share of rejected or corrected claims comes straight from it. And it feeds prompt refinement, because the rejected claims show which instructions the prompt needs. Recording the accepted claims matters as much as recording the failures, so that the log shows what the agent got right.
+    The correct answer is **B**. A hallucination is a statement by a language model that is fluent and confident and not true: an invented feature, quotation, measurement, count, or source. It does not look different from a true statement, because the model writes both in the same confident voice. The defense is the rule that every claim carries evidence a person can find. Search for every quotation, trace every number to a tool log, and treat a claim you cannot find as false.
 
-    **Concept Tested:** Findings Log
+    **Concept Tested:** Hallucination
 
-    **See:** [Findings Log](index.md#findings-log)
+    **See:** [Hallucination](index.md#hallucination)
 
 ---
 
 #### 3. Why does the chapter rank "ask the agent whether it is sure" as the weakest verification step?
 
 <div class="upper-alpha" markdown>
-1. Agents refuse to answer questions about their own confidence in a claim
+1. Agents refuse to answer any question that asks about their own confidence in a claim
 2. It takes longer than opening the cited source and reading the passage
 3. Agents always reply that they are unsure, so the answer is never useful
 4. The same model answers again, so the reply proves nothing about the claim

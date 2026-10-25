@@ -169,8 +169,8 @@ Test your understanding of packaging, learning graphs, publishing with MkDocs an
 #### 10. A draft impact report says, "The library had 3,500 page views in six months, so students learned more from it." What is the best judgment of this sentence?
 
 <div class="upper-alpha" markdown>
-1. It is sound, because page views indicate learning and 3,500 is a large number
-2. It is sound, because a count of 3,500 is large enough to show that students learned
+1. It is sound, because page views indicate learning and 3,500 views is a large number for a small resource
+2. It is sound, because a count of 3,500 views is large enough to show that students learned from it
 3. It is flawed only because it should give the number of downloads in place of the views
 4. It claims learning from page views, but views show reach, and learning evidence comes from the A/B test
 </div>

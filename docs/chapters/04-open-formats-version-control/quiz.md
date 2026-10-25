@@ -43,9 +43,9 @@ Test your understanding of the editable source metric, open file formats, Markdo
 #### 3. Why is a resource that offers only a PDF a poor choice for a teacher who wants to revise it?
 
 <div class="upper-alpha" markdown>
-1. A PDF is a closed format that no free software can open, so it cannot be edited at all
+1. A PDF is a closed format that no free software can open, so it cannot be edited or even read at all
 2. A PDF cannot carry an open license, so revision is not permitted even if the owner agrees
-3. A PDF records how pages look, not how content is built, so a change means rebuilding headings, tables, and layout
+3. A PDF records how pages look, not how content is built, so a change means rebuilding the structure
 4. A PDF is too large to download without creating a login, which blocks every revision attempt
 </div>
 

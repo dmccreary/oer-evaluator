@@ -7,7 +7,7 @@ Test your understanding of license clarity, standalone components, Dublin Core, 
 #### 1. What does a reviewer do in the lift test for a standalone component?
 
 <div class="upper-alpha" markdown>
-1. Counts how many pages the component spans in the original resource and compares it with others
+1. Counts how many pages the component spans in the original resource and compares it with the other components
 2. Copies the component to a new place and checks that it still works there with everything it needs
 3. Asks the author whether the component was intended to stand alone, and accepts the answer
 4. Runs an automated accessibility checker on the component and records the number of errors
@@ -100,7 +100,7 @@ Test your understanding of license clarity, standalone components, Dublin Core, 
 1. The width is fixed at a number of pixels, so it should be changed to 100 percent
 2. The frame has no title, so a title attribute should be added for screen reader users
 3. The simulation needs a login, so the iframe should be removed from the course page
-4. A relative address points to a file that exists only beside the original page, so use a complete public address
+4. A relative address works only beside the original page, so use a complete public address
 </div>
 
 ??? question "Show Answer"
@@ -133,7 +133,7 @@ Test your understanding of license clarity, standalone components, Dublin Core, 
 #### 8. A reviewer applies the ten modularity checks to a single long page. Checks 1 and 2 fail, which are serious, and so do checks 3, 5, 8, 9, and 10. Only checks 4, 6, and 7 pass. What score does the chapter's rule give?
 
 <div class="upper-alpha" markdown>
-1. 4, because 30 percent falls in the 3 to 4 band and the higher number applies
+1. 4, because 30 percent falls in the 3 to 4 band and the higher number in the band applies
 2. 5, because three checks passed and two serious checks failed, so the score is 5
 3. 3, because 30 percent falls in the 3 to 4 band and failing checks 1 and 2 is serious
 4. 1, because the page cannot be taken apart at all, so no points are earned
@@ -153,7 +153,7 @@ Test your understanding of license clarity, standalone components, Dublin Core, 
 <div class="upper-alpha" markdown>
 1. All three records are found equally, because a title alone is enough for a search to match
 2. A is found and understood, B cannot be found, and C may be found but its grade and license are unknown
-3. Record C ranks highest, because naming an author helps a search engine more than any other field
+3. Record C ranks highest, because naming an author helps a search engine more than any other field of the record
 4. Record B is found, because a unique title such as "Reading 4" always matches any search
 </div>
 

@@ -79,10 +79,10 @@ Test your understanding of workshop design, calibration exercises, certificate r
 #### 5. In the calibration exercise, a teacher scores Accessibility 5 and the agent scores it 9. What should the teacher do?
 
 <div class="upper-alpha" markdown>
-1. Flag it, because 4 is more than 3, trace it to the evidence, and record which score is trusted and why
+1. Flag it, because 4 is more than 3, then trace it to the evidence and record which score is trusted
 2. Average the two scores to 7 and move on, since the difference is only one band
 3. Accept the agent's score, because the agent works faster than a teacher can
-4. Ignore the difference, because it is within the agreement threshold for a flagged metric
+4. Ignore the difference, because it is within the agreement threshold and so needs no further comment
 </div>
 
 ??? question "Show Answer"
@@ -153,7 +153,7 @@ Test your understanding of workshop design, calibration exercises, certificate r
 <div class="upper-alpha" markdown>
 1. It is outside the local reviewer's role, because legal questions go to the school's counsel
 2. It is inside the role, because the teacher can read licenses and flag problems
-3. It is inside the role, because the teacher holds the certificate and has been trained
+3. It is inside the role, because the teacher holds the certificate and has been trained for the role
 4. It is inside the role if the agent agrees with the teacher's reading of the license
 </div>
 

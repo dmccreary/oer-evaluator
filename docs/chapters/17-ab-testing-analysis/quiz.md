@@ -25,7 +25,7 @@ Test your understanding of data collection, anonymized data, means, effect size,
 #### 2. How is a completion rate calculated?
 
 <div class="upper-alpha" markdown>
-1. The number of students who started divided by the number invited, as a percentage
+1. The number of students who started divided by the number who were invited, as a percentage
 2. The minutes of work divided by the intended length of the quiz, as a percentage
 3. The number of students who finished divided by the number who started, as a percentage
 4. The post-test mean divided by the pre-test mean, as a percentage of the class
@@ -44,7 +44,7 @@ Test your understanding of data collection, anonymized data, means, effect size,
 
 <div class="upper-alpha" markdown>
 1. Coded data keeps a key that can rebuild the link to a person, while anonymized data has no such link
-2. Anonymized data replaces names with codes, while coded data removes them completely
+2. Anonymized data replaces names with codes, while coded data removes them completely from every table in the study
 3. Coded data can never be shared with anyone outside the research team or school
 4. Anonymized data still contains names but hides the scores of each individual student
 </div>
@@ -116,9 +116,9 @@ Test your understanding of data collection, anonymized data, means, effect size,
 
 <div class="upper-alpha" markdown>
 1. Pilot effect sizes tend to be inflated, so plan on about half, which calls for about 64 students per group
-2. The rule works only when d is larger than 1.5, so it cannot be used for this pilot
-3. The pilot's effect size is too small to use for planning, so a larger one is needed
-4. The rule produces too many students when d is large, so the number must be cut
+2. The rule works only when d is larger than 1.5, so it cannot be used for this pilot or for any other
+3. The pilot's effect size is too small to use for planning, so a larger one is needed from some other study
+4. The rule produces too many students when d is large, so the number must be cut to fit the budget
 </div>
 
 ??? question "Show Answer"
@@ -153,7 +153,7 @@ Test your understanding of data collection, anonymized data, means, effect size,
 <div class="upper-alpha" markdown>
 1. It is supported, because the simulation was the biggest change made to the resource
 2. It is supported, because the effect size was large enough to show which fix mattered
-3. It is supported, because the treatment group's gain was larger than the control group's
+3. It is supported, because the treatment group's gain was larger than the control group's gain in the pilot
 4. It is not shown by this test, because the fixes arrived together and one cannot be singled out
 </div>
 

@@ -4,21 +4,21 @@ Test your understanding of language models, prompts, agents, tool use, structure
 
 ---
 
-#### 1. What is a token in a language model?
+#### 1. Which description best fits an AI assistant?
 
 <div class="upper-alpha" markdown>
-1. A secret key that lets a user sign in to an AI service and pay for each request
-2. The small piece of text a model reads and writes, such as a short word or part of a word
-3. A single learning outcome written inside a prompt so the model knows the goal
-4. A score the model assigns to its own answer to show how confident it is
+1. A program that works toward a goal over many steps, using tools and files, until the task is finished
+2. A program that you talk to in ordinary language and that answers in ordinary language, powered by a large language model
+3. A database of verified facts that a teacher searches by keyword to find a source
+4. A scoring tool that applies a rubric to a resource without needing any written request
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. A model does not see letters or whole sentences. It sees a stream of tokens, and for ordinary English a token averages about three quarters of a word, so 100 words come to about 133 tokens. Tokens matter because every model limits how many it can handle at once, which is its context window, and because many services charge by the token. Numbers, unusual words, and other languages break into more tokens.
+    The correct answer is **B**. An AI assistant is a computer program you talk to in ordinary language and that answers in ordinary language, powered by a large language model. Teachers use assistants to draft quiz questions, rewrite a paragraph at a lower reading level, and explain an idea in a new way. Option A describes an agent, which adds tools, files, and a loop. An assistant is fluent, so its answers sound authoritative whether they are right or wrong.
 
-    **Concept Tested:** Token
+    **Concept Tested:** AI Assistant
 
-    **See:** [Token](index.md#token)
+    **See:** [AI Assistant](index.md#ai-assistant)
 
 ---
 
@@ -43,10 +43,10 @@ Test your understanding of language models, prompts, agents, tool use, structure
 #### 3. Why can an AI assistant write a confident review of a resource it has never seen?
 
 <div class="upper-alpha" markdown>
-1. It stores a copy of every web page and checks the copy against the resource
-2. It runs a built-in accessibility checker on any resource name that it is given
-3. Every open educational resource is part of its training data, so it has read them
-4. A language model predicts likely text and does not look facts up, so it answers even without the resource
+1. It stores a copy of every web page it has seen and checks the copy against the resource
+2. It runs a built-in accessibility checker on any resource name that it is given by a user
+3. Every open educational resource is part of its training data, so it has already read them all
+4. A language model predicts likely text and does not look facts up, so it answers without the resource
 </div>
 
 ??? question "Show Answer"
@@ -61,7 +61,7 @@ Test your understanding of language models, prompts, agents, tool use, structure
 #### 4. How does an AI agent differ from an AI assistant?
 
 <div class="upper-alpha" markdown>
-1. An agent is a larger language model, while an assistant is a smaller one of the same kind
+1. An agent is a larger language model, while an assistant is a smaller one of the same kind, sold at a lower price
 2. An assistant answers and waits, while an agent plans, uses tools, observes results, and acts again until done
 3. An assistant can use tools and files freely, while an agent can only reply in plain text
 4. An agent works only on resources that a human reviewer has already scored by hand first
@@ -100,7 +100,7 @@ Test your understanding of language models, prompts, agents, tool use, structure
 1. Yes, because the resource alone is only 6,000 words, which is less than the window
 2. Yes, because the expected answer does not count against the window of the model
 3. No, because it needs about 10,800 tokens, so she needs a larger window or a shorter request
-4. No, because it needs about 8,100 tokens, since words and tokens are the same thing
+4. No, because it needs about 8,100 tokens, since words and tokens are the same thing in plain English
 </div>
 
 ??? question "Show Answer"

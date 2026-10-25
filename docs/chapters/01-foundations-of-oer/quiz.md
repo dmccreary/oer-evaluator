@@ -58,21 +58,21 @@ Test your understanding of open educational resources, the 5R permissions, and t
 
 ---
 
-#### 4. What is an open textbook?
+#### 4. What makes a material an educational resource?
 
 <div class="upper-alpha" markdown>
-1. A textbook that students can read and use without having to buy a separate access code
-2. A textbook that a campus bookstore allows customers to browse in the store before they buy it
-3. A complete textbook that carries an open license so a teacher may adopt, revise, and share it
-4. A textbook that a publisher posts online as a web page with a free sample chapter, while the full book costs money
+1. Its format, because only textbooks, articles, and readings count as resources
+2. Its price, because a resource must be free of charge to be used in teaching
+3. Its purpose, because any material that supports teaching and learning counts, whatever its format
+4. Its publisher, because the material must come from a school or a university
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **C**. An open textbook is a complete textbook under an open license. Most are free to read online, and many offer a printed copy sold at cost. Options A, B, and D describe price or access, which the license does not guarantee. A textbook can be free to read without being open, because only the license grants permission to revise and share it. OpenStax is one well-known publisher of open textbooks.
+    The correct answer is **C**. An educational resource is any material that a teacher or learner uses to support teaching and learning. The definition depends on purpose and not on format: a photograph of a canyon is a family snapshot in an album, and it becomes an educational resource when a teacher uses it to explain erosion. Texts, media, tools, assessments, and plans all qualify, so format (A), price (B), and publisher (D) do not decide it.
 
-    **Concept Tested:** Open Textbook
+    **Concept Tested:** Educational Resource
 
-    **See:** [Open Textbooks](index.md#open-textbooks)
+    **See:** [Educational Resources: Everything You Teach With](index.md#educational-resources-everything-you-teach-with)
 
 ---
 
@@ -82,7 +82,7 @@ Test your understanding of open educational resources, the 5R permissions, and t
 1. It is only an excerpt, and OER must be complete books
 2. It costs nothing but grants no permission to edit or share it
 3. It comes from a company, and OER must come from universities
-4. It is protected by copyright, and OER cannot be copyrighted
+4. It is protected by copyright, and OER cannot be copyrighted by their creators
 </div>
 
 ??? question "Show Answer"
@@ -135,7 +135,7 @@ Test your understanding of open educational resources, the 5R permissions, and t
 <div class="upper-alpha" markdown>
 1. The license shows whether you may use the book, but not whether the book is good
 2. Adopted resources must be revised before any student is allowed to read them
-3. Open licenses expire unless the adopter checks the resource each year
+3. Open licenses expire unless the adopter checks the resource and renews the license each year
 4. Adopting an open textbook transfers its copyright to the adopting teacher
 </div>
 

@@ -10,7 +10,7 @@ Test your understanding of fact checking, citations, outdated content, link chec
 1. When the resource shows a publication date and a revision history that are both recent
 2. When the sampled facts all match, but the reviewer likes the writing style and the layout
 3. When the claims bear on health, safety, or law, or the sample shows two or more mismatches in ten
-4. When the resource carries an open license that allows commercial reuse and editing by anyone
+4. When the resource carries an open license that allows commercial reuse and editing by anyone, anywhere
 </div>
 
 ??? question "Show Answer"
@@ -98,7 +98,7 @@ Test your understanding of fact checking, citations, outdated content, link chec
 
 <div class="upper-alpha" markdown>
 1. 9, because 90 percent is in the 9 to 10 band and a serious failure selects the lower number
-2. 10, because only one check in ten failed and the higher number in the band is always used
+2. 10, because only one check in ten failed and so the higher number in the band is always used
 3. 8, because a single serious failure always moves the score down one band
 4. 5, because more than one in ten sampled facts did not match, which halves the score
 </div>
@@ -169,7 +169,7 @@ Test your understanding of fact checking, citations, outdated content, link chec
 #### 10. Resource A was carefully written in 2012 and had no errors on the day it was published, but it has never been updated. Resource B was published last month and gives a wrong date for a historical event. Which analysis is correct?
 
 <div class="upper-alpha" markdown>
-1. Both fail on accuracy, because neither resource's facts can be trusted by a careful reader
+1. Both fail on accuracy, because neither resource's facts can be trusted by a careful reader today
 2. Resource A fails on accuracy, because it is old, and Resource B fails on currency
 3. Resource A passes both halves, because it contained no errors when it was published
 4. Resource A is weak on currency though accurate when written, and Resource B fails on accuracy

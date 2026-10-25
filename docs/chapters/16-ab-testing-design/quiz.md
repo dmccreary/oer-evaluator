@@ -28,7 +28,7 @@ Test your understanding of control and treatment groups, hypotheses, learning ga
 1. The gain divided by the room available: (post − pre) ÷ (100 − pre)
 2. The raw difference between the two scores: post − pre
 3. The gain divided by the starting score: (post − pre) ÷ pre
-4. The ratio of the final score to the starting score: post ÷ pre
+4. The ratio of the final score to the starting score on the same test: post ÷ pre
 </div>
 
 ??? question "Show Answer"
@@ -43,7 +43,7 @@ Test your understanding of control and treatment groups, hypotheses, learning ga
 #### 3. Why does an A/B test use a control group instead of only comparing one group's scores before and after the lesson?
 
 <div class="upper-alpha" markdown>
-1. A single group cannot take both a pre-test and a post-test on the same set of questions
+1. A single group cannot take both a pre-test and a post-test on the same set of questions in the same school week
 2. Anything that happened between the tests can explain the gain, and a control group shares that time
 3. A control group makes the sample size larger, which makes every result more reliable
 4. A report is never allowed to include a before-and-after result from a single group
@@ -97,9 +97,9 @@ Test your understanding of control and treatment groups, hypotheses, learning ga
 #### 6. Which statement is a testable hypothesis for the Watershed Basics pilot?
 
 <div class="upper-alpha" markdown>
-1. The improved version is better than the original version for the students who use it
-2. Students will like the improved version more than they like the original version
-3. Every student will learn more from the improved version than from the original version
+1. The improved version is better than the original version for the students who use it in class
+2. Students will like the improved version more than they like the original version of the lesson
+3. Every student will learn more from the improved version than from the original version of the lesson
 4. Grade 6 students on the improved version will have a larger mean learning gain than those on the original
 </div>
 
@@ -136,7 +136,7 @@ Test your understanding of control and treatment groups, hypotheses, learning ga
 1. The improved version is proven better, because its group scored higher than the other group
 2. The sample is too large to trust, because larger samples contain more unusual students
 3. Time of day and the students in each section also differ, so the version cannot be separated from them
-4. The result is valid, because the same teacher taught both sections and removed every other difference
+4. The result is valid, because the same teacher taught both sections and so removed every other difference
 </div>
 
 ??? question "Show Answer"

@@ -26,7 +26,7 @@ Test your understanding of the manual review workflow, calibration, consensus sc
 
 <div class="upper-alpha" markdown>
 1. A person or group with authority, such as a department committee, who weigh the review against cost and fit
-2. The reviewer alone, because the total score decides the matter automatically and cannot be changed
+2. The reviewer alone, because the total score decides the matter automatically and cannot be changed by anyone
 3. The resource's author, who accepts or rejects the reviewer's findings before the report is final
 4. An AI agent, which converts the total score into a decision and records it for the district
 </div>
@@ -43,7 +43,7 @@ Test your understanding of the manual review workflow, calibration, consensus sc
 #### 3. How do reviewer notes differ from evidence?
 
 <div class="upper-alpha" markdown>
-1. Notes are shared with the resource's author, while evidence stays private to the review team
+1. Notes are shared with the resource's author, while evidence stays private to the review team of the school
 2. Notes are written after the review, while evidence is written before it
 3. Notes are always correct, while evidence may turn out to be wrong
 4. Evidence is a checked observation that supports a score, while a note is a lead that may become evidence
@@ -79,7 +79,7 @@ Test your understanding of the manual review workflow, calibration, consensus sc
 #### 5. Why does the chapter say that consensus scoring should not average two reviewers' scores?
 
 <div class="upper-alpha" markdown>
-1. Averages always round up and so inflate the final score of every resource that is reviewed
+1. Averages always round up and so inflate the final score of every resource that is reviewed in the district
 2. Averaging is allowed only for the quality metrics and not for the reusability metrics
 3. An average such as 7 from a 5 and a 9 hides the disagreement and gives a number nobody found
 4. Averaging is allowed only when the reviewers differ by more than 3 points
@@ -171,7 +171,7 @@ Test your understanding of the manual review workflow, calibration, consensus sc
 <div class="upper-alpha" markdown>
 1. Calibration failed, because the number of flagged metrics changed between the two samples
 2. The shared readings brought agreement within 3 points on 9 of 10 metrics, which meets the goal, so scoring can begin
-3. The team must repeat the session with a new sample, because any flagged metric means failure
+3. The team must repeat the session with a new sample, because any flagged metric means that calibration has failed
 4. The team should average the reviewers' scores to remove the one remaining flagged metric
 </div>
 

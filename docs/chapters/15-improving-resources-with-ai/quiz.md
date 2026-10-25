@@ -10,7 +10,7 @@ Test your understanding of improvement plans, derivative works, the fix toolkit,
 1. Title, author, subject, grade level, license, description, and keywords
 2. The baseline, the gaps, the fixes, the order and the budget, and the target
 3. Role, task, input, rules, output format, and a worked example
-4. Stem, key, distractors, feedback message, outcome tag, and difficulty tag
+4. Stem, key, distractors, feedback message, outcome tag, difficulty tag, and retry control
 </div>
 
 ??? question "Show Answer"
@@ -43,7 +43,7 @@ Test your understanding of improvement plans, derivative works, the fix toolkit,
 #### 3. Why should a reviewer read a resource's license before an agent makes the first edit?
 
 <div class="upper-alpha" markdown>
-1. Agents are unable to edit any resource that carries an open license, so a license must be removed first
+1. Agents are unable to edit any resource that carries an open license of any kind, so the license must be removed first
 2. An edited version is a derivative work, and a NoDerivatives or missing license does not allow sharing it
 3. The license decides which agent and which model to use, since each model has its own license
 4. The license determines the reading level of the improved version, so it limits the rewrite
@@ -136,7 +136,7 @@ Test your understanding of improvement plans, derivative works, the fix toolkit,
 1. Cheap fixes to the lowest metric return the most per hour, and the slowest fix returned the least
 2. The simulation was the best investment of time, because it took the longest to build
 3. Accessibility fixes are not worth doing, because they take 2.0 hours for only 3 points
-4. Gain per hour is nearly identical across all fixes, so the order of the work does not matter
+4. Gain per hour is nearly identical across all fixes, so the order in which the work is done does not matter
 </div>
 
 ??? question "Show Answer"
@@ -154,7 +154,7 @@ Test your understanding of improvement plans, derivative works, the fix toolkit,
 1. Rely on the difference view and review every change, because an agent's summary can omit a change
 2. Trust the agent's summary, because the agent made the changes and so knows what it did
 3. Reject all of the agent's changes without reading them, since the summary is unreliable
-4. Ignore the three extra changes, because they were probably low risk and can be checked later
+4. Ignore the three extra changes, because they were probably low risk and can safely be checked later on
 </div>
 
 ??? question "Show Answer"
