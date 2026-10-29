@@ -1,0 +1,103 @@
+{
+  "title": "Feedback That Teaches",
+  "image": "feedback-that-teaches.svg",
+  "layout": "grid",
+  "showLabels": false,
+  "palette": [
+    "#b71c1c",
+    "#8a5a00",
+    "#1b5e20"
+  ],
+  "zones": [
+    {
+      "id": "wrong",
+      "label": "Message 1: Wrong.",
+      "color": "#b71c1c",
+      "x1": 2.5,
+      "y1": 25.1,
+      "x2": 25.4,
+      "y2": 92.9,
+      "summary": "Says the answer failed and says nothing else. Rated weak.",
+      "facts": [
+        "Message: \"Wrong.\"",
+        "Says the answer was wrong: yes.",
+        "Explains why: no.",
+        "Points toward the right idea: no.",
+        "Does not blame: yes."
+      ]
+    },
+    {
+      "id": "good-try",
+      "label": "Message 2: Good try!",
+      "color": "#8a5a00",
+      "x1": 26.5,
+      "y1": 25.1,
+      "x2": 49.4,
+      "y2": 92.9,
+      "summary": "Does not say whether the answer was right. Rated weak.",
+      "facts": [
+        "Message: \"Good try!\"",
+        "Says the answer was wrong: no.",
+        "Explains why: no.",
+        "Points toward the right idea: no.",
+        "Does not blame: yes."
+      ]
+    },
+    {
+      "id": "incorrect-a",
+      "label": "Message 3: Incorrect. The answer is A.",
+      "color": "#8a5a00",
+      "x1": 50.6,
+      "y1": 25.1,
+      "x2": 73.5,
+      "y2": 92.9,
+      "summary": "Gives the answer and no reason. Rated weak.",
+      "facts": [
+        "Message: \"Incorrect. The answer is A.\"",
+        "Says the answer was wrong: yes.",
+        "Explains why: no.",
+        "Points toward the right idea: no.",
+        "Does not blame: yes."
+      ]
+    },
+    {
+      "id": "not-quite",
+      "label": "Message 4: Not quite...",
+      "color": "#1b5e20",
+      "x1": 74.6,
+      "y1": 25.1,
+      "x2": 97.5,
+      "y2": 92.9,
+      "summary": "Corrects, explains, and names the mix-up. Rated strong.",
+      "facts": [
+        "Message: \"Not quite. Water flowing over the ground is runoff. Infiltration is water soaking into the ground, so the answer is A.\"",
+        "Says the answer was wrong: yes.",
+        "Explains why: yes.",
+        "Points toward the right idea: yes.",
+        "Does not blame: yes."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which message says only that the answer failed and nothing else?",
+      "correct_zone": "wrong",
+      "explanation": "\"Wrong.\" is weak."
+    },
+    {
+      "question": "Which message does not say whether the answer was right?",
+      "correct_zone": "good-try",
+      "explanation": "\"Good try!\" is weak."
+    },
+    {
+      "question": "Which message gives the answer and no reason?",
+      "correct_zone": "incorrect-a",
+      "explanation": "\"Incorrect. The answer is A.\" is weak."
+    },
+    {
+      "question": "Which message passes all four criteria?",
+      "correct_zone": "not-quite",
+      "explanation": "It corrects, explains, and names the mix-up."
+    }
+  ]
+}
