@@ -189,6 +189,10 @@ The MicroSim below tests your judgment on ten uses of a CC BY-NC worksheet. For 
 
 #### Diagram: NonCommercial Gray Area Sorter
 
+<iframe src="../../sims/noncommercial-gray-area-sorter/main.html" height="710px" width="100%" scrolling="no"></iframe>
+
+[Run the NonCommercial Gray Area Sorter MicroSim Fullscreen](../../sims/noncommercial-gray-area-sorter/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>NonCommercial Gray Area Sorter</summary>
 Type: microsim
@@ -298,6 +302,10 @@ Creative Commons orders the licenses from most to least permissive: CC0, CC BY, 
 
 #### Diagram: Creative Commons Element Explorer
 
+<iframe src="../../sims/cc-element-explorer/main.html" height="690px" width="100%" scrolling="no"></iframe>
+
+[Run the Creative Commons Element Explorer MicroSim Fullscreen](../../sims/cc-element-explorer/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Creative Commons Element Explorer</summary>
 Type: microsim
@@ -374,6 +382,10 @@ The eight predictions, in this order:
 The second MicroSim is a comparison poster. A poster suits the six licenses because the reader's question is "which license is which?", and a labeled picture with hover zones answers it faster than a paragraph.
 
 #### Diagram: Six Creative Commons Licenses Poster
+
+<iframe src="../../sims/six-cc-licenses-poster/main.html" height="702px" width="100%" scrolling="no"></iframe>
+
+[Run the Six Creative Commons Licenses Poster MicroSim Fullscreen](../../sims/six-cc-licenses-poster/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Six Creative Commons Licenses Poster</summary>
@@ -470,6 +482,10 @@ The MicroSim below puts a license statement under a magnifying glass. The illust
 
 #### Diagram: Anatomy of a License Statement
 
+<iframe src="../../sims/license-statement-anatomy/main.html" height="702px" width="100%" scrolling="no"></iframe>
+
+[Run the Anatomy of a License Statement MicroSim Fullscreen](../../sims/license-statement-anatomy/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Anatomy of a License Statement</summary>
 Type: infographic
@@ -543,6 +559,10 @@ Joined together, the credit reads: "Watershed Basics" by Maria Lopez, https://ex
 The MicroSim below gives you eight credit lines to inspect. For each one you decide which TASL parts are missing, and whether a change note is also needed.
 
 #### Diagram: Attribution Statement Checker
+
+<iframe src="../../sims/attribution-statement-checker/main.html" height="814px" width="100%" scrolling="no"></iframe>
+
+[Run the Attribution Statement Checker MicroSim Fullscreen](../../sims/attribution-statement-checker/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Attribution Statement Checker</summary>
@@ -641,6 +661,10 @@ A **license conflict** is a case where no single license satisfies all the sourc
 The MicroSim below gives you ten pairs of sources to combine. For each pair you choose the license the combined work may carry, or you recognize a conflict or a blocked combination.
 
 #### Diagram: License Compatibility Checker
+
+<iframe src="../../sims/license-compatibility-checker/main.html" height="614px" width="100%" scrolling="no"></iframe>
+
+[Run the License Compatibility Checker MicroSim Fullscreen](../../sims/license-compatibility-checker/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>License Compatibility Checker</summary>
@@ -748,6 +772,10 @@ If you want no conditions at all, CC0 does that. Five practical points apply bef
 The default advice in OER work is CC BY for the widest reuse, or CC BY-SA when you want improvements to stay open. NC and ND licenses reduce reuse, so choose them for a reason you can state. [Chapter 9](../09-modularity-metadata/index.md) shows how the rubric scores that choice. The last MicroSim of the chapter is a practice round. You read a teacher's goal and choose the license that serves it.
 
 #### Diagram: License Selection Advisor
+
+<iframe src="../../sims/license-selection-advisor/main.html" height="686px" width="100%" scrolling="no"></iframe>
+
+[Run the License Selection Advisor MicroSim Fullscreen](../../sims/license-selection-advisor/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>License Selection Advisor</summary>

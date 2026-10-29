@@ -219,6 +219,10 @@ The MicroSim below gives you practice with the same two tests. It shows 11 resou
 
 #### Diagram: OER or Not Classifier
 
+<iframe src="../../sims/oer-or-not-classifier/main.html" height="690px" width="100%" scrolling="no"></iframe>
+
+[Run the OER or Not Classifier MicroSim Fullscreen](../../sims/oer-or-not-classifier/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>OER or Not Classifier</summary>
 Type: microsim
@@ -368,6 +372,10 @@ The MicroSim below uses the five test questions. It presents 10 everyday teacher
 
 #### Diagram: Five R Scenario Matcher
 
+<iframe src="../../sims/five-r-scenario-matcher/main.html" height="634px" width="100%" scrolling="no"></iframe>
+
+[Run the Five R Scenario Matcher MicroSim Fullscreen](../../sims/five-r-scenario-matcher/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Five R Scenario Matcher</summary>
 Type: microsim
@@ -485,6 +493,10 @@ The table below summarizes the three pathways.
 The MicroSim below practices the choice. It uses three facts about a candidate resource and a simple rule of thumb that this chapter proposes. The rule is a heuristic, not an official standard. In four teacher cases you predict the pathway first, and then you explore how the three facts change the answer.
 
 #### Diagram: Adopt Adapt Create Pathway Chooser
+
+<iframe src="../../sims/adopt-adapt-create-pathway-chooser/main.html" height="690px" width="100%" scrolling="no"></iframe>
+
+[Run the Adopt, Adapt, or Create Pathway Chooser MicroSim Fullscreen](../../sims/adopt-adapt-create-pathway-chooser/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Adopt Adapt Create Pathway Chooser</summary>

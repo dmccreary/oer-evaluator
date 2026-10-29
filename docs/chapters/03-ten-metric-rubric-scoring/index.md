@@ -145,6 +145,10 @@ The first MicroSim below shows the whole structure as a map. The rubric is at th
 
 #### Diagram: Ten-Metric Rubric Map
 
+<iframe src="../../sims/rubric-structure-map/main.html" height="562px" width="100%" scrolling="no"></iframe>
+
+[Run the Ten-Metric Rubric Map MicroSim Fullscreen](../../sims/rubric-structure-map/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Ten-Metric Rubric Map</summary>
 Type: graph-model
@@ -309,6 +313,10 @@ The second MicroSim is a sorting practice with eight resource profiles. For each
 
 #### Diagram: Quality and Reusability Quadrant Sorter
 
+<iframe src="../../sims/quality-reusability-quadrant/main.html" height="750px" width="100%" scrolling="no"></iframe>
+
+[Run the Quality and Reusability Quadrant Sorter MicroSim Fullscreen](../../sims/quality-reusability-quadrant/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Quality and Reusability Quadrant Sorter</summary>
 Type: microsim
@@ -392,6 +400,10 @@ A **scoring descriptor** is a short statement that tells a reviewer what one lev
 The MicroSim below gives you nine observations. Each states what share of one metric's check a resource meets, and you choose the descriptor band that fits.
 
 #### Diagram: Score Descriptor Matcher
+
+<iframe src="../../sims/score-descriptor-matcher/main.html" height="614px" width="100%" scrolling="no"></iframe>
+
+[Run the Score Descriptor Matcher MicroSim Fullscreen](../../sims/score-descriptor-matcher/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Score Descriptor Matcher</summary>
@@ -524,6 +536,10 @@ An **evidence citation** is a short written record of one piece of evidence, in 
 The MicroSim below tests whether you can tell checkable evidence from opinion. It shows ten review notes, and for each one you decide whether it is evidence yet.
 
 #### Diagram: Evidence or Opinion Sorter
+
+<iframe src="../../sims/evidence-quality-sorter/main.html" height="654px" width="100%" scrolling="no"></iframe>
+
+[Run the Evidence or Opinion Sorter MicroSim Fullscreen](../../sims/evidence-quality-sorter/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Evidence or Opinion Sorter</summary>
@@ -679,6 +695,10 @@ The MicroSim below puts all of this together. In explore mode you set the ten me
 
 #### Diagram: Total Score Calculator
 
+<iframe src="../../sims/total-score-calculator/main.html" height="862px" width="100%" scrolling="no"></iframe>
+
+[Run the Total Score Calculator MicroSim Fullscreen](../../sims/total-score-calculator/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Total Score Calculator</summary>
 Type: microsim
@@ -765,6 +785,10 @@ The totals box reads: quality subtotal 32 of 50, reusability subtotal 33 of 50, 
 Before the next MicroSim, notice that a worksheet is an object with parts, and each part has a job. The illustration in the MicroSim shows a printed worksheet seen from above. In explore mode you hover the eight numbered markers to learn what each part is for. In quiz mode you read a description of how a part looks and click the marker it describes.
 
 #### Diagram: Anatomy of a Rubric Worksheet
+
+<iframe src="../../sims/rubric-worksheet-anatomy/main.html" height="702px" width="100%" scrolling="no"></iframe>
+
+[Run the Anatomy of a Rubric Worksheet MicroSim Fullscreen](../../sims/rubric-worksheet-anatomy/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Anatomy of a Rubric Worksheet</summary>
@@ -892,6 +916,10 @@ The MicroSim below gives you eight review notes written by imaginary reviewers. 
 
 #### Diagram: Reviewer Bias Spotter
 
+<iframe src="../../sims/reviewer-bias-spotter/main.html" height="666px" width="100%" scrolling="no"></iframe>
+
+[Run the Reviewer Bias Spotter MicroSim Fullscreen](../../sims/reviewer-bias-spotter/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Reviewer Bias Spotter</summary>
 Type: microsim
@@ -978,6 +1006,10 @@ The MicroSim below lets you practice with agreement. It shows Reviewer 1's score
 
 #### Diagram: Inter-Rater Agreement Explorer
 
+<iframe src="../../sims/inter-rater-agreement-explorer/main.html" height="888px" width="100%" scrolling="no"></iframe>
+
+[Run the Inter-Rater Agreement Explorer MicroSim Fullscreen](../../sims/inter-rater-agreement-explorer/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Inter-Rater Agreement Explorer</summary>
 Type: microsim
@@ -1050,6 +1082,10 @@ A rubric is a measuring tool, and a measuring tool can be wrong in two different
 The last MicroSim of the chapter is a comparison poster of four targets. A target is a picture of the idea: shots clustered close together are reliable, and shots centered on the bullseye are valid. In explore mode you hover each target to read what it means for a rubric. In quiz mode you read a scenario about a rubric and click the target that matches it.
 
 #### Diagram: Reliability and Validity Targets Poster
+
+<iframe src="../../sims/reliability-validity-targets/main.html" height="702px" width="100%" scrolling="no"></iframe>
+
+[Run the Reliability and Validity Targets Poster MicroSim Fullscreen](../../sims/reliability-validity-targets/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Reliability and Validity Targets Poster</summary>
