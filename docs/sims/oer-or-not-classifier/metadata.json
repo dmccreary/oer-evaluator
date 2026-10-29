@@ -1,0 +1,85 @@
+{
+  "title": "OER or Not Classifier",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Place eleven resource cards in three bins (Open OER, Free but not open, Not free and not open) to see that openness comes from the license, not the price.",
+  "date": "2026-10-24",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Open versus free resources",
+    "learningObjectives": [
+      "The learner will classify each of 11 described resources as open (OER), free but not open, or not free and not open, by checking its license and public-domain status rather than its price."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The terms educational resource, copyright, license, public domain, open license, free resource, and open educational resource"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 688
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Predict, commit an answer, and read the reason",
+    "keyQuestions": [
+      "Does a license or the public domain grant permission?",
+      "Does the price change whether a resource is open?"
+    ],
+    "commonMisconceptions": [
+      "A resource that is free to download is OER",
+      "A resource must be free of charge to be open",
+      "A resource posted publicly with no license statement may be reused"
+    ],
+    "assessmentOpportunities": [
+      "A quiz bank under CC0 is sold on a marketplace for $5. Which bin?",
+      "A video streams free of charge and shows no license. Which bin?",
+      "Why is a photograph taken by a NASA employee as part of their job an open resource?",
+      "What single question separates the Open bin from the other two?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Three bin buttons",
+      "type": "button",
+      "description": " place the current card. The placement is final."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": " moves to the next card after you read the feedback."
+    },
+    {
+      "name": "Show definitions",
+      "type": "button",
+      "description": " on a narrow screen the bin definitions move behind this button."
+    },
+    {
+      "name": "Previous missed / Next missed",
+      "type": "button",
+      "description": " on the results screen, page through the cards you missed."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": " shuffles the cards for a practice run."
+    }
+  ],
+  "chapter": "01-foundations-of-oer"
+}

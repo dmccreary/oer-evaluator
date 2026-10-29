@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Ten-Metric Rubric Map MicroSim using vis-network</title>
+    <script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="left">
+            <div id="bar">
+                <button id="btn-explore" class="on" aria-pressed="true">Explore</button>
+                <button id="btn-quiz" aria-pressed="false">Quiz me</button>
+                <span id="zoom-buttons">
+                    <button id="btn-zoom-in" aria-label="Zoom in" title="Zoom in">+</button>
+                    <button id="btn-zoom-out" aria-label="Zoom out" title="Zoom out">&minus;</button>
+                    <button id="btn-fit" aria-label="Fit the whole map" title="Fit the whole map">Fit</button>
+                </span>
+                <span id="progress" aria-hidden="true"></span>
+            </div>
+            <div id="network" role="img" aria-label="Tree diagram of the Ten-Metric Rubric: the root splits into a Quality dimension and a Reusability dimension, and each dimension has five metrics. Use the node buttons below the map to read about each node."></div>
+        </div>
+        <aside id="panel" aria-live="polite"></aside>
+    </main>
+    <div id="node-list" class="sr-only" role="group" aria-label="Rubric nodes"></div>
+    <div id="actions">
+        <button id="btn-next" hidden>Next &rarr;</button>
+        <button id="btn-again" hidden>Play again</button>
+        <a href=".">Back to Lesson Plan</a>
+    </div>
+    <script src="rubric-structure-map.js"></script>
+</body>
+</html>

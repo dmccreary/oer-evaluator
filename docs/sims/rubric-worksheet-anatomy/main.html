@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Anatomy of a Rubric Worksheet MicroSim using SVG and JavaScript</title>
+    <style>
+        html, body { height: 100%; margin: 0; }
+        body { font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: black; background: aliceblue; }
+        main { height: 100%; box-sizing: border-box; padding: 8px 12px 6px 12px; display: flex; flex-direction: column; gap: 8px; }
+        #bar { flex: 0 0 auto; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+        button { font: inherit; padding: 5px 14px; color: black; background: white; border: 2px solid dimgray; border-radius: 8px; cursor: pointer; }
+        button:hover:not(:disabled) { background: lightcyan; border-color: navy; }
+        button.on, #btn-next, #btn-again { color: white; background: navy; border-color: navy; font-weight: bold; }
+        button:disabled { color: white; background: lightsteelblue; border-color: lightsteelblue; cursor: default; }
+        button:focus-visible, .zone:focus-visible { outline: 3px solid black; outline-offset: 2px; }
+        button[hidden] { display: none; }
+        #progress { display: inline-flex; gap: 3px; margin-left: auto; }
+        .seg { width: 20px; height: 16px; border: 1px solid silver; border-radius: 3px; background: gainsboro; }
+        .seg.ok { background: seagreen; }
+        .seg.miss { background: firebrick; }
+        .seg.cur { border: 2px solid black; }
+        #stage { flex: 0 1 auto; min-height: 0; display: flex; justify-content: center; }
+        #poster { width: 100%; height: auto; max-height: 54vh; background: white; border: 1px solid silver; border-radius: 10px; }
+        #panel { flex: 1 1 auto; min-height: 0; overflow: auto; background: white; border: 2px solid slategray; border-radius: 10px; padding: 4px 12px 8px 12px; line-height: 1.3; }
+        #panel h2 { margin: 6px 0 2px 0; font-size: 20px; }
+        #panel h2.pass { color: darkgreen; }
+        #panel p { margin: 4px 0; }
+        #panel ul { margin: 2px 0 2px 0; padding-left: 22px; }
+        #panel .prompt { color: dimgray; }
+        #panel .tip { color: dimgray; font-style: italic; }
+        #panel .qhead { font-weight: bold; color: dimgray; margin-bottom: 0; }
+        #panel .question { font-size: 18px; }
+        #panel .feedback { padding: 6px 10px; border-radius: 8px; border: 3px solid; }
+        #panel .feedback.good { color: darkgreen; background: honeydew; border-color: seagreen; }
+        #panel .feedback.bad { color: firebrick; background: mistyrose; border-color: firebrick; }
+        #panel .feedback.hint { color: saddlebrown; background: lemonchiffon; border-color: darkgoldenrod; }
+        #actions { flex: 0 0 auto; display: flex; align-items: center; gap: 8px; min-height: 36px; }
+        #actions a { margin-left: auto; font-size: 14px; }
+        .zone { cursor: pointer; outline: none; }
+        .zone .region { fill: rgba(255, 215, 0, 0.25); stroke: darkorange; stroke-width: 4; opacity: 0; pointer-events: none; }
+        .zone:hover .region, .zone.active .region, .zone:focus-visible .region { opacity: 1; }
+        .zone.correct .region { opacity: 1; fill: rgba(46, 139, 87, 0.25); stroke: seagreen; }
+        .zone.wrong .region { opacity: 1; fill: rgba(178, 34, 34, 0.2); stroke: firebrick; }
+        .marker circle { fill: navy; stroke: white; stroke-width: 3; }
+        .marker text { fill: white; font: bold 19px Arial, Helvetica, sans-serif; text-anchor: middle; dominant-baseline: central; pointer-events: none; }
+        .zone:hover .marker circle, .zone.active .marker circle, .zone:focus-visible .marker circle { fill: darkorange; }
+        .zone.correct .marker circle { fill: seagreen; }
+        .zone.wrong .marker circle { fill: firebrick; }
+        .ptitle { font: bold 30px Arial, Helvetica, sans-serif; fill: #1b2a41; pointer-events: none; }
+        .ttitle { font: bold 24px Arial, Helvetica, sans-serif; fill: #1b2a41; text-anchor: middle; pointer-events: none; }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="bar">
+            <button id="btn-explore" class="on" aria-pressed="true">Explore</button>
+            <button id="btn-quiz" aria-pressed="false">Quiz me</button>
+            <span id="progress" aria-hidden="true"></span>
+        </div>
+        <div id="stage">
+<svg id="poster" viewBox="0 0 900 560" role="group" aria-label="Flat drawing of a printed scoring worksheet on a desk, seen from above. A block of six empty lines sits at the top. Two stacked tables of five rows each follow. Each table has two wide columns at the left, two narrow number columns marked with a person icon and a robot icon, and a wide notes column at the right. A small summary box with three rows sits at the lower right, and a pencil lies beside the sheet. Eight numbered markers point at the parts." xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="560" fill="#d9b98c"/>
+<path d="M0,60 H900 M0,160 H900 M0,260 H900 M0,360 H900 M0,460 H900" stroke="#cfa979" stroke-width="2" opacity="0.6"/>
+<rect x="86" y="26" width="620" height="520" fill="#8f7352" opacity="0.35"/>
+<rect x="80" y="20" width="620" height="520" fill="#ffffff" stroke="#b9b9b9" stroke-width="2"/>
+<rect x="104" y="46" width="200" height="7" rx="3" fill="none" stroke="#9aa5b1" stroke-width="1.5"/>
+<rect x="104" y="53" width="200" height="1.5" fill="#9aa5b1"/>
+<rect x="104" y="60" width="200" height="7" rx="3" fill="none" stroke="#9aa5b1" stroke-width="1.5"/>
+<rect x="104" y="67" width="200" height="1.5" fill="#9aa5b1"/>
+<rect x="104" y="74" width="200" height="7" rx="3" fill="none" stroke="#9aa5b1" stroke-width="1.5"/>
+<rect x="104" y="81" width="200" height="1.5" fill="#9aa5b1"/>
+<rect x="104" y="88" width="200" height="7" rx="3" fill="none" stroke="#9aa5b1" stroke-width="1.5"/>
+<rect x="104" y="95" width="200" height="1.5" fill="#9aa5b1"/>
+<rect x="104" y="102" width="200" height="7" rx="3" fill="none" stroke="#9aa5b1" stroke-width="1.5"/>
+<rect x="104" y="109" width="200" height="1.5" fill="#9aa5b1"/>
+<rect x="104" y="116" width="200" height="7" rx="3" fill="none" stroke="#9aa5b1" stroke-width="1.5"/>
+<rect x="104" y="123" width="200" height="1.5" fill="#9aa5b1"/>
+<rect x="96" y="150" width="590" height="24" fill="#e6ebf0"/>
+<rect x="96" y="174" width="590" height="24" fill="none"/>
+<rect x="96" y="198" width="590" height="24" fill="none"/>
+<rect x="96" y="222" width="590" height="24" fill="none"/>
+<rect x="96" y="246" width="590" height="24" fill="none"/>
+<rect x="96" y="270" width="590" height="24" fill="none"/>
+<rect x="96" y="294" width="590" height="24" fill="none"/>
+<rect x="96" y="150" width="590" height="144" fill="none" stroke="#6b7785" stroke-width="2"/>
+<path d="M96,174 H686" stroke="#9aa5b1" stroke-width="1.5"/>
+<path d="M96,198 H686" stroke="#9aa5b1" stroke-width="1.5"/>
+<path d="M96,222 H686" stroke="#9aa5b1" stroke-width="1.5"/>
+<path d="M96,246 H686" stroke="#9aa5b1" stroke-width="1.5"/>
+<path d="M96,270 H686" stroke="#9aa5b1" stroke-width="1.5"/>
+<path d="M206,150 V294" stroke="#6b7785" stroke-width="2"/>
+<path d="M326,150 V294" stroke="#6b7785" stroke-width="2"/>
+<path d="M362,150 V294" stroke="#6b7785" stroke-width="2"/>
+<path d="M398,150 V294" stroke="#6b7785" stroke-width="2"/>
+<rect x="104" y="159" width="70" height="6" rx="3" fill="#9aa5b1"/>
+<rect x="214" y="159" width="90" height="6" rx="3" fill="#9aa5b1"/>
+<rect x="410" y="159" width="120" height="6" rx="3" fill="#9aa5b1"/>
+<circle cx="344" cy="158" r="4" fill="#34495e"/><path d="M337,170 v-3 a7,7 0 0 1 14,0 v3 Z" fill="#34495e"/>
+<rect x="372" y="156" width="16" height="12" rx="3" fill="#34495e"/><circle cx="377" cy="162" r="1.8" fill="white"/><circle cx="383" cy="162" r="1.8" fill="white"/><path d="M380,156 v-4" stroke="#34495e" stroke-width="2"/>
+<rect x="104" y="183" width="67" height="6" rx="3" fill="#cfd6dd"/>
+<rect x="214" y="183" width="91" height="6" rx="3" fill="#cfd6dd"/>
+<rect x="104" y="207" width="74" height="6" rx="3" fill="#cfd6dd"/>
+<rect x="214" y="207" width="102" height="6" rx="3" fill="#cfd6dd"/>
+<rect x="104" y="231" width="81" height="6" rx="3" fill="#cfd6dd"/>
+<rect x="214" y="231" width="83" height="6" rx="3" fill="#cfd6dd"/>
+<rect x="104" y="255" width="88" height="6" rx="3" fill="#cfd6dd"/>
+<rect x="214" y="255" width="94" height="6" rx="3" fill="#cfd6dd"/>
+<rect x="104" y="279" width="65" height="6" rx="3" fill="#cfd6dd"/>
+<rect x="214" y="279" width="105" height="6" rx="3" fill="#cfd6dd"/>
+<rect x="96" y="322" width="590" height="24" fill="#e6ebf0"/>
+<rect x="96" y="346" width="590" height="24" fill="none"/>
+<rect x="96" y="370" width="590" height="24" fill="none"/>
+<rect x="96" y="394" width="590" height="24" fill="none"/>
+<rect x="96" y="418" width="590" height="24" fill="none"/>
+<rect x="96" y="442" width="590" height="24" fill="none"/>
+<rect x="96" y="466" width="590" height="24" fill="none"/>
+<rect x="96" y="322" width="590" height="144" fill="none" stroke="#6b7785" stroke-width="2"/>
+<path d="M96,346 H686" stroke="#9aa5b1" stroke-width="1.5"/>
+<path d="M96,370 H686" stroke="#9aa5b1" stroke-width="1.5"/>
+<path d="M96,394 H686" stroke="#9aa5b1" stroke-width="1.5"/>
+<path d="M96,418 H686" stroke="#9aa5b1" stroke-width="1.5"/>
+<path d="M96,442 H686" stroke="#9aa5b1" stroke-width="1.5"/>
+<path d="M206,322 V466" stroke="#6b7785" stroke-width="2"/>
+<path d="M326,322 V466" stroke="#6b7785" stroke-width="2"/>
+<path d="M362,322 V466" stroke="#6b7785" stroke-width="2"/>
+<path d="M398,322 V466" stroke="#6b7785" stroke-width="2"/>
+<rect x="104" y="331" width="70" height="6" rx="3" fill="#9aa5b1"/>
+<rect x="214" y="331" width="90" height="6" rx="3" fill="#9aa5b1"/>
+<rect x="410" y="331" width="120" height="6" rx="3" fill="#9aa5b1"/>
+<circle cx="344" cy="330" r="4" fill="#34495e"/><path d="M337,342 v-3 a7,7 0 0 1 14,0 v3 Z" fill="#34495e"/>
+<rect x="372" y="328" width="16" height="12" rx="3" fill="#34495e"/><circle cx="377" cy="334" r="1.8" fill="white"/><circle cx="383" cy="334" r="1.8" fill="white"/><path d="M380,328 v-4" stroke="#34495e" stroke-width="2"/>
+<rect x="104" y="355" width="67" height="6" rx="3" fill="#cfd6dd"/>
+<rect x="214" y="355" width="91" height="6" rx="3" fill="#cfd6dd"/>
+<rect x="104" y="379" width="74" height="6" rx="3" fill="#cfd6dd"/>
+<rect x="214" y="379" width="102" height="6" rx="3" fill="#cfd6dd"/>
+<rect x="104" y="403" width="81" height="6" rx="3" fill="#cfd6dd"/>
+<rect x="214" y="403" width="83" height="6" rx="3" fill="#cfd6dd"/>
+<rect x="104" y="427" width="88" height="6" rx="3" fill="#cfd6dd"/>
+<rect x="214" y="427" width="94" height="6" rx="3" fill="#cfd6dd"/>
+<rect x="104" y="451" width="65" height="6" rx="3" fill="#cfd6dd"/>
+<rect x="214" y="451" width="105" height="6" rx="3" fill="#cfd6dd"/>
+<rect x="496" y="486" width="190" height="48" fill="white" stroke="#6b7785" stroke-width="2"/>
+<path d="M496,502 H686" stroke="#9aa5b1" stroke-width="1.5"/>
+<path d="M496,518 H686" stroke="#9aa5b1" stroke-width="1.5"/>
+<path d="M606,486 V534" stroke="#6b7785" stroke-width="2"/>
+<rect x="504" y="491" width="70" height="5" rx="2.5" fill="#9aa5b1"/>
+<rect x="504" y="507" width="70" height="5" rx="2.5" fill="#9aa5b1"/>
+<rect x="504" y="523" width="70" height="5" rx="2.5" fill="#9aa5b1"/>
+<g transform="translate(790 300) rotate(62)"><rect x="-8" y="-110" width="16" height="190" fill="#f5b041" stroke="#7a5200" stroke-width="2.5"/><path d="M-8,80 L0,112 L8,80 Z" fill="#f9e0b0" stroke="#7a5200" stroke-width="2.5"/><path d="M-3,102 L0,112 L3,102 Z" fill="#444"/><rect x="-8" y="-128" width="16" height="18" fill="#e57373" stroke="#7a5200" stroke-width="2.5"/><rect x="-8" y="-114" width="16" height="6" fill="#c0c0c0"/></g>
+<g class="zone" data-zone="1">
+  <rect class="region" x="96" y="38" width="216" height="92" rx="4"/>
+  <g class="marker"><circle cx="80" cy="82" r="17"/><text x="80" y="83">1</text></g>
+</g>
+<g class="zone" data-zone="2">
+  <rect class="region" x="94" y="148" width="234" height="148" rx="4"/>
+  <rect class="region" x="94" y="320" width="234" height="148" rx="4"/>
+  <g class="marker"><circle cx="80" cy="226" r="17"/><text x="80" y="227">2</text></g>
+</g>
+<g class="zone" data-zone="3">
+  <rect class="region" x="324" y="148" width="40" height="148" rx="4"/>
+  <rect class="region" x="324" y="320" width="40" height="148" rx="4"/>
+  <g class="marker"><circle cx="344" cy="138" r="17"/><text x="344" y="139">3</text></g>
+</g>
+<g class="zone" data-zone="4">
+  <rect class="region" x="360" y="148" width="40" height="148" rx="4"/>
+  <rect class="region" x="360" y="320" width="40" height="148" rx="4"/>
+  <g class="marker"><circle cx="380" cy="138" r="17"/><text x="380" y="139">4</text></g>
+</g>
+<g class="zone" data-zone="5">
+  <rect class="region" x="396" y="148" width="292" height="148" rx="4"/>
+  <rect class="region" x="396" y="320" width="292" height="148" rx="4"/>
+  <g class="marker"><circle cx="542" cy="138" r="17"/><text x="542" y="139">5</text></g>
+</g>
+<g class="zone" data-zone="6">
+  <rect class="region" x="94" y="148" width="594" height="148" rx="4"/>
+  <g class="marker"><circle cx="722" cy="222" r="17"/><text x="722" y="223">6</text></g>
+</g>
+<g class="zone" data-zone="7">
+  <rect class="region" x="94" y="320" width="594" height="148" rx="4"/>
+  <g class="marker"><circle cx="722" cy="394" r="17"/><text x="722" y="395">7</text></g>
+</g>
+<g class="zone" data-zone="8">
+  <rect class="region" x="494" y="484" width="194" height="52" rx="4"/>
+  <g class="marker"><circle cx="462" cy="510" r="17"/><text x="462" y="511">8</text></g>
+</g>
+</svg>
+        </div>
+        <section id="panel" aria-live="polite"></section>
+        <div id="actions">
+            <button id="btn-next" hidden>Next &rarr;</button>
+            <button id="btn-again" hidden>Play again</button>
+            <a href=".">Back to Lesson Plan</a>
+        </div>
+    </main>
+    <script src="rubric-worksheet-anatomy.js"></script>
+</body>
+</html>

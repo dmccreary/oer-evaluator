@@ -1,0 +1,80 @@
+{
+  "title": "Six Creative Commons Licenses Poster",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Explore a poster of the six Creative Commons licenses, then click the panel that matches each of six descriptions.",
+  "date": "2026-10-24",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "The six Creative Commons licenses",
+    "learningObjectives": [
+      "The learner will identify which of the six Creative Commons licenses matches each of six descriptions, with at least 5 of 6 correct on the first attempt."
+    ],
+    "bloomsTaxonomy": "Remember",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "The six licenses CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, CC BY-ND, and CC BY-NC-ND"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG and JavaScript",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "None. The drawing is inline SVG and the script is plain JavaScript."
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore, then quiz on the same picture",
+    "keyQuestions": [
+      "Which elements does this license combine?",
+      "Which freedom does each element take away?"
+    ],
+    "commonMisconceptions": [
+      "CC BY-NC allows no adaptations",
+      "CC BY-ND forbids commercial use",
+      "CC BY-SA forbids commercial use"
+    ],
+    "assessmentOpportunities": [
+      "Which license allows commercial use but forbids sharing changed versions?",
+      "Which license puts no condition on the work beyond credit?",
+      "Which license text does Wikipedia use?",
+      "Does CC BY-NC allow adaptations?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz me buttons",
+      "type": "interactive SVG zone",
+      "description": " switch modes. Quiz me starts a new run."
+    },
+    {
+      "name": "The six panels",
+      "type": "interactive SVG zone",
+      "description": " hover, focus with the Tab key, or click. In quiz mode a click is your answer."
+    },
+    {
+      "name": "Next",
+      "type": "interactive SVG zone",
+      "description": " moves to the next question."
+    },
+    {
+      "name": "Play again",
+      "type": "interactive SVG zone",
+      "description": " repeats the quiz as practice."
+    }
+  ],
+  "chapter": "02-open-licenses-attribution"
+}

@@ -1,0 +1,85 @@
+{
+  "title": "Inter-Rater Agreement Explorer",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Explore how two reviewers' scores agree or disagree, then count the agreeing metrics and name the flagged metrics for three pairs of scores.",
+  "date": "2026-10-24",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Inter-rater agreement",
+    "learningObjectives": [
+      "The learner will calculate the number of agreeing metrics and name the flagged metrics for each of three pairs of reviewer scores, with at least 2 of 3 pairs fully correct on the first attempt."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "15-20 minutes",
+    "prerequisites": [
+      "The terms inter-rater agreement, agreeing metric, flagged metric, and percent agreement"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 886
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Predict, commit an answer, and read the reason",
+    "keyQuestions": [
+      "Which metrics differ by more than 3?",
+      "Do equal totals show agreement?"
+    ],
+    "commonMisconceptions": [
+      "Equal totals mean the reviewers agree",
+      "A difference of 3 points is flagged",
+      "Percent agreement counts total points"
+    ],
+    "assessmentOpportunities": [
+      "Two scores are 5 and 9. Agree or flagged?",
+      "Two scores are 7 and 4. Agree or flagged?",
+      "Reviewer totals are both 65. Do the reviewers agree?",
+      "Seven of ten metrics agree. What is the percent agreement?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Ten sliders",
+      "type": "button",
+      "description": " in explore mode, set Reviewer 2's scores from 0 to 10 in whole points. They start equal to Reviewer 1's."
+    },
+    {
+      "name": "Start practice",
+      "type": "button",
+      "description": " leaves explore mode."
+    },
+    {
+      "name": "Agreeing metrics box",
+      "type": "button",
+      "description": " type a whole number from 0 to 10."
+    },
+    {
+      "name": "Ten metric buttons and None flagged",
+      "type": "button",
+      "description": " mark every flagged metric, or choose None flagged."
+    },
+    {
+      "name": "Check",
+      "type": "button",
+      "description": " commits the answer. Back to explore is on the results screen."
+    }
+  ],
+  "chapter": "03-ten-metric-rubric-scoring"
+}

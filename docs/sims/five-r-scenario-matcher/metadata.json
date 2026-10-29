@@ -1,0 +1,81 @@
+{
+  "title": "Five R Scenario Matcher",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Match ten everyday teacher actions to the one of the five R permissions (retain, reuse, revise, remix, redistribute) that each action uses.",
+  "date": "2026-10-24",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "The 5R permissions",
+    "learningObjectives": [
+      "The learner will apply the definitions of the five R permissions to name the one permission that each of 10 classroom actions exercises, with at least 8 correct on the first attempt."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The terms open license and the five permissions retain, reuse, revise, remix, and redistribute"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 632
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Predict, commit an answer, and read the reason",
+    "keyQuestions": [
+      "Which test question does this action answer?",
+      "Is the work changed, combined, or shared as it is?"
+    ],
+    "commonMisconceptions": [
+      "Reuse covers any use, including after changes",
+      "Retain means keeping a link to a resource online",
+      "Revise and remix are the same permission",
+      "Sharing an unchanged copy is reuse"
+    ],
+    "assessmentOpportunities": [
+      "You email a colleague an unchanged copy of an open worksheet. Which permission?",
+      "You add alt text to every image in an open chapter. Which permission?",
+      "You download the editable source files of an open lab manual for safekeeping. Which permission?",
+      "What is the difference between revise and remix?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Five permission buttons",
+      "type": "button",
+      "description": " choose the permission the action uses."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": " moves on after you read the feedback."
+    },
+    {
+      "name": "Previous missed / Next missed",
+      "type": "button",
+      "description": " on the results screen, page through the actions you missed."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": " reshuffles the ten actions for a practice run."
+    }
+  ],
+  "chapter": "01-foundations-of-oer"
+}

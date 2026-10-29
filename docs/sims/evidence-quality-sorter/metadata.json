@@ -1,0 +1,81 @@
+{
+  "title": "Evidence or Opinion Sorter",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Judge ten review notes as checkable evidence or not evidence yet by looking for a location, an observation, and a rule.",
+  "date": "2026-10-24",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Evidence for a score",
+    "learningObjectives": [
+      "The learner will judge whether each of ten review notes is checkable evidence or not yet evidence, by looking for a location, an observation, and a rule, with at least 9 of 10 correct on the first attempt."
+    ],
+    "bloomsTaxonomy": "Evaluate",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The ideas of evidence for a score and evidence citation"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 652
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Predict, commit an answer, and read the reason",
+    "keyQuestions": [
+      "Where did the reviewer look?",
+      "What did the reviewer see?",
+      "What rule was it compared with?"
+    ],
+    "commonMisconceptions": [
+      "A confident note is evidence",
+      "An opinion about the resource is evidence",
+      "An AI agent's statement is evidence"
+    ],
+    "assessmentOpportunities": [
+      "\"The alt text is probably fine.\" Evidence?",
+      "\"Page 7 link returns an error, tested on 2026-10-12.\" Evidence?",
+      "\"The AI agent said the license is CC BY.\" Evidence?",
+      "Why does a count help?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Two bin buttons",
+      "type": "button",
+      "description": " place the note. The placement is final."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": " moves to the next note."
+    },
+    {
+      "name": "Show definitions",
+      "type": "button",
+      "description": " on a narrow screen the test and bin definitions move behind this button."
+    },
+    {
+      "name": "Play again** and the missed-note review on the results screen.",
+      "type": "button",
+      "description": ""
+    }
+  ],
+  "chapter": "03-ten-metric-rubric-scoring"
+}

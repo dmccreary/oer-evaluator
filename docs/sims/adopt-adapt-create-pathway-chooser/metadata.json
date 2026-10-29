@@ -1,0 +1,86 @@
+{
+  "title": "Adopt, Adapt, or Create Pathway Chooser",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Use a three-fact rule of thumb to choose adopt, adapt, create, or keep searching for four teacher cases, then explore which facts change the answer.",
+  "date": "2026-10-24",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Adopt, adapt, create decision",
+    "learningObjectives": [
+      "The learner will use a three-fact decision rule (fit to the course, whether revision is permitted, and time available) to choose adopt, adapt, create, or keep searching for four teacher cases, with at least 3 of 4 correct on the first attempt."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The terms OER adoption, OER adaptation, OER creation, and revise permission"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 688
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Predict, commit an answer, and read the reason",
+    "keyQuestions": [
+      "Does the resource fit the course outcomes?",
+      "Does the license allow changes?",
+      "How much time is there?"
+    ],
+    "commonMisconceptions": [
+      "Creating a resource is always the best choice because you control everything",
+      "Any free resource may be adapted",
+      "A partial fit can always be fixed"
+    ],
+    "assessmentOpportunities": [
+      "Fit is Full, revision is not permitted, time is Little. Which pathway?",
+      "Fit is None, revision is permitted, time is Little. Which pathway?",
+      "Which one fact changes the answer only when fit is None?",
+      "Why is \"create\" not always the best choice?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Four pathway buttons",
+      "type": "button",
+      "description": " choose Adopt, Adapt, Create, or Keep searching for the case."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": " moves to the next case."
+    },
+    {
+      "name": "Explore the rule",
+      "type": "button",
+      "description": " on the results screen, opens three drop-down lists (fit, revision permitted, time available) that show the pathway, the rule number, and which facts matter."
+    },
+    {
+      "name": "Back to results",
+      "type": "button",
+      "description": " returns from the explore screen."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": " repeats the four cases."
+    }
+  ],
+  "chapter": "01-foundations-of-oer"
+}

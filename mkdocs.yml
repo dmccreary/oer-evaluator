@@ -138,8 +138,29 @@ nav:
       # - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
 
   - MicroSims:
-      - List of MicroSims: sims/index.md
-      - Creative Commons License Switches: sims/cc-license-switches/index.md
+    - List of MicroSims: sims/index.md
+    - Adopt, Adapt, or Create Pathway Chooser: sims/adopt-adapt-create-pathway-chooser/index.md
+    - Anatomy of a License Statement: sims/license-statement-anatomy/index.md
+    - Anatomy of a Rubric Worksheet: sims/rubric-worksheet-anatomy/index.md
+    - Attribution Statement Checker: sims/attribution-statement-checker/index.md
+    - Creative Commons Element Explorer: sims/cc-element-explorer/index.md
+    - Creative Commons License Switches: sims/cc-license-switches/index.md
+    - Evidence or Opinion Sorter: sims/evidence-quality-sorter/index.md
+    - Five R Scenario Matcher: sims/five-r-scenario-matcher/index.md
+    - Inter-Rater Agreement Explorer: sims/inter-rater-agreement-explorer/index.md
+    - License Compatibility Checker: sims/license-compatibility-checker/index.md
+    - License Selection Advisor: sims/license-selection-advisor/index.md
+    - NonCommercial Gray Area Sorter: sims/noncommercial-gray-area-sorter/index.md
+    - OER or Not Classifier: sims/oer-or-not-classifier/index.md
+    - Quality and Reusability Quadrant Sorter: sims/quality-reusability-quadrant/index.md
+    - Reliability and Validity Targets Poster: sims/reliability-validity-targets/index.md
+    - Reviewer Bias Spotter: sims/reviewer-bias-spotter/index.md
+    - Score Descriptor Matcher: sims/score-descriptor-matcher/index.md
+    - Six Creative Commons Licenses Poster: sims/six-cc-licenses-poster/index.md
+    - Ten-Metric Rubric Map: sims/rubric-structure-map/index.md
+    - Total Score Calculator: sims/total-score-calculator/index.md
+
+
 
   - Workshops:
       - workshops/index.md

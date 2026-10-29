@@ -25,14 +25,14 @@
   },
   "technical": {
     "framework": "p5.js",
-    "version": "2.3.2",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
       "height": 560
     },
     "responsive": true,
     "dependencies": [
-      "p5.js 2.3.2 from the jsDelivr CDN"
+      "p5.js 2.3.4 from the jsDelivr CDN"
     ],
     "accessibility": {
       "hasAltText": true,

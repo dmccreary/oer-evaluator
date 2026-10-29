@@ -1,0 +1,80 @@
+{
+  "title": "Anatomy of a License Statement",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Find the seven parts of a complete license statement on a drawing of a lesson page footer, then identify each part from a description of how it looks.",
+  "date": "2026-10-24",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Parts of a license statement",
+    "learningObjectives": [
+      "The learner will identify the seven parts of a complete license statement on an annotated page footer from a description of each part, with at least 6 of 7 correct on the first attempt."
+    ],
+    "bloomsTaxonomy": "Remember",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "The terms license statement, license name and version, and third-party content"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG and JavaScript",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "None. The drawing is inline SVG and the script is plain JavaScript."
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore, then quiz on the same picture",
+    "keyQuestions": [
+      "Which part of the footer tells readers the license version?",
+      "Which part can a reader not see?"
+    ],
+    "commonMisconceptions": [
+      "The license icons alone are the license",
+      "\"CC BY\" without a version is a complete statement",
+      "A license statement on a page covers every image on it"
+    ],
+    "assessmentOpportunities": [
+      "Why is \"CC BY\" with no version an incomplete statement?",
+      "Do the license icons alone make a license statement?",
+      "Does a license statement on a page cover every image on it?",
+      "Where can a reader find the machine-readable marking?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz me buttons",
+      "type": "interactive SVG zone",
+      "description": " switch modes. Quiz me starts a new run."
+    },
+    {
+      "name": "The seven numbered markers",
+      "type": "interactive SVG zone",
+      "description": " hover, focus with the Tab key, or click."
+    },
+    {
+      "name": "Next",
+      "type": "interactive SVG zone",
+      "description": " moves to the next hint."
+    },
+    {
+      "name": "Play again",
+      "type": "interactive SVG zone",
+      "description": " repeats the quiz as practice."
+    }
+  ],
+  "chapter": "02-open-licenses-attribution"
+}
