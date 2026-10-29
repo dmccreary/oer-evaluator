@@ -1,0 +1,77 @@
+{
+  "title": "Safe to Send? Student Data and AI Services",
+  "image": "safe-to-send.svg",
+  "layout": "grid",
+  "showLabels": false,
+  "palette": [
+    "#1b5e20",
+    "#8a5a00",
+    "#b71c1c"
+  ],
+  "zones": [
+    {
+      "id": "send-it",
+      "label": "Send it",
+      "color": "#1b5e20",
+      "x1": 2.5,
+      "y1": 15.4,
+      "x2": 33.3,
+      "y2": 84.3,
+      "summary": "Safe to send.",
+      "facts": [
+        "The published text of an open textbook chapter: It is public and holds no student data.",
+        "A rubric prompt template: It holds no student data."
+      ]
+    },
+    {
+      "id": "fix-it-first",
+      "label": "Fix it first",
+      "color": "#8a5a00",
+      "x1": 34.6,
+      "y1": 15.4,
+      "x2": 65.4,
+      "y2": 84.3,
+      "summary": "Anonymize or get approval.",
+      "facts": [
+        "A class's quiz scores with student names: Names make the scores personal data, so anonymize or get approval first."
+      ]
+    },
+    {
+      "id": "never-send",
+      "label": "Never send it",
+      "color": "#b71c1c",
+      "x1": 66.7,
+      "y1": 15.4,
+      "x2": 97.5,
+      "y2": 84.3,
+      "summary": "Do not send.",
+      "facts": [
+        "A spreadsheet of grades with student ID numbers: It is identifiable and sensitive.",
+        "A student's photograph: It identifies a person.",
+        "An email thread with a parent about a student: It is private and identifies a student."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which chute holds the published text of an open textbook chapter and a rubric prompt template?",
+      "correct_zone": "send-it",
+      "explanation": "Both are public or hold no student data."
+    },
+    {
+      "question": "Which chute holds a class's quiz scores listed with student names?",
+      "correct_zone": "fix-it-first",
+      "explanation": "Names make the scores personal data."
+    },
+    {
+      "question": "Which chute holds a spreadsheet of grades with student ID numbers?",
+      "correct_zone": "never-send",
+      "explanation": "It is identifiable and sensitive."
+    },
+    {
+      "question": "Which chute holds an email thread with a parent about a student?",
+      "correct_zone": "never-send",
+      "explanation": "It is private and identifies a student."
+    }
+  ]
+}
