@@ -25,9 +25,9 @@
     "version": "n/a",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 781
+      "height": 806
     },
-    "canvasHeight": 781,
+    "canvasHeight": 806,
     "responsive": true,
     "dependencies": [
       "../shared-libs/diagram.js, style.css"

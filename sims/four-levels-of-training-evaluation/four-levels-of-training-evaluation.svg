@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" role="img">
+<title>Four Levels of Training Evaluation</title>
+<desc>A four-step staircase rising from left to right. Reaction: did participants find the day useful? Illustrative evidence: 19 of 20 returned the exit survey, and 18 rated the day 4 or 5. Learning: did they gain the skills? 17 of 20 earned the certificate, and their calibration scores differed from the consensus by 1.1 points on average. Behavior: do they use the skills afterward? 12 of the 17 certified teachers scored another resource within three months. Results: did it change outcomes? 20 improved components were published, and 9 were reused by another teacher within three months. An arrow beneath says later levels take longer to collect. Every number is marked illustrative.</desc>
+<rect width="1200" height="700" fill="#f7f9fc"/>
+<text x="40" y="50" font-size="32" fill="#1b2a41" font-weight="bold">Four Levels of Training Evaluation</text>
+<text x="40" y="80" font-size="18" fill="#4a5666">A happy survey measures only the first level. What would stronger evidence look like?</text>
+<rect x="30" y="266" width="276" height="330" rx="12" fill="#ffffff" stroke="#00796b" stroke-width="3"/>
+<rect x="30" y="266" width="276" height="50" rx="12" fill="#00796b"/>
+<rect x="30" y="292" width="276" height="24" rx="0" fill="#00796b"/>
+<circle cx="56" cy="291" r="15" fill="#ffffff"/>
+<text x="56" y="297" font-size="17" fill="#00796b" font-weight="bold" text-anchor="middle">1</text>
+<text x="82" y="299" font-size="24" fill="#ffffff" font-weight="bold">Reaction</text>
+<text x="46" y="348" font-size="21" fill="#1b2a41" font-weight="bold">Did participants find</text>
+<text x="46" y="373.2" font-size="21" fill="#1b2a41" font-weight="bold">the day useful?</text>
+<text x="46" y="412.4" font-size="12" fill="#00796b" font-weight="bold" letter-spacing="1">EVIDENCE FOR 20 TEACHERS</text>
+<circle cx="52" cy="431.4" r="4" fill="#00796b"/>
+<text x="64" y="436.4" font-size="16.5" fill="#1b2a41">19 of 20 returned the exit</text>
+<text x="64" y="456.5" font-size="16.5" fill="#1b2a41">survey</text>
+<circle cx="52" cy="477.7" r="4" fill="#00796b"/>
+<text x="64" y="482.7" font-size="16.5" fill="#1b2a41">18 rated the day 4 or 5</text>
+<rect x="46" y="558" width="94.5" height="24" rx="12" fill="#eef1f5" stroke="#6b7785" stroke-width="1.5"/>
+<text x="93.2" y="574.8" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">illustrative</text>
+<rect x="318" y="220" width="276" height="376" rx="12" fill="#ffffff" stroke="#1d4f86" stroke-width="3"/>
+<rect x="318" y="220" width="276" height="50" rx="12" fill="#1d4f86"/>
+<rect x="318" y="246" width="276" height="24" rx="0" fill="#1d4f86"/>
+<circle cx="344" cy="245" r="15" fill="#ffffff"/>
+<text x="344" y="251" font-size="17" fill="#1d4f86" font-weight="bold" text-anchor="middle">2</text>
+<text x="370" y="253" font-size="24" fill="#ffffff" font-weight="bold">Learning</text>
+<text x="334" y="302" font-size="21" fill="#1b2a41" font-weight="bold">Did they gain the</text>
+<text x="334" y="327.2" font-size="21" fill="#1b2a41" font-weight="bold">skills?</text>
+<text x="334" y="366.4" font-size="12" fill="#1d4f86" font-weight="bold" letter-spacing="1">EVIDENCE FOR 20 TEACHERS</text>
+<circle cx="340" cy="385.4" r="4" fill="#1d4f86"/>
+<text x="352" y="390.4" font-size="16.5" fill="#1b2a41">17 of 20 earned the</text>
+<text x="352" y="410.5" font-size="16.5" fill="#1b2a41">certificate</text>
+<circle cx="340" cy="431.7" r="4" fill="#1d4f86"/>
+<text x="352" y="436.7" font-size="16.5" fill="#1b2a41">Calibration scores differed</text>
+<text x="352" y="456.8" font-size="16.5" fill="#1b2a41">from the consensus by 1.1</text>
+<text x="352" y="476.9" font-size="16.5" fill="#1b2a41">points on average</text>
+<rect x="334" y="558" width="94.5" height="24" rx="12" fill="#eef1f5" stroke="#6b7785" stroke-width="1.5"/>
+<text x="381.2" y="574.8" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">illustrative</text>
+<rect x="606" y="174" width="276" height="422" rx="12" fill="#ffffff" stroke="#8a5a00" stroke-width="3"/>
+<rect x="606" y="174" width="276" height="50" rx="12" fill="#8a5a00"/>
+<rect x="606" y="200" width="276" height="24" rx="0" fill="#8a5a00"/>
+<circle cx="632" cy="199" r="15" fill="#ffffff"/>
+<text x="632" y="205" font-size="17" fill="#8a5a00" font-weight="bold" text-anchor="middle">3</text>
+<text x="658" y="207" font-size="24" fill="#ffffff" font-weight="bold">Behavior</text>
+<text x="622" y="256" font-size="21" fill="#1b2a41" font-weight="bold">Do they use the skills</text>
+<text x="622" y="281.2" font-size="21" fill="#1b2a41" font-weight="bold">afterward?</text>
+<text x="622" y="320.4" font-size="12" fill="#8a5a00" font-weight="bold" letter-spacing="1">EVIDENCE FOR 20 TEACHERS</text>
+<circle cx="628" cy="339.4" r="4" fill="#8a5a00"/>
+<text x="640" y="344.4" font-size="16.5" fill="#1b2a41">12 of the 17 certified</text>
+<text x="640" y="364.5" font-size="16.5" fill="#1b2a41">teachers scored another</text>
+<text x="640" y="384.7" font-size="16.5" fill="#1b2a41">resource within three months</text>
+<rect x="622" y="558" width="94.5" height="24" rx="12" fill="#eef1f5" stroke="#6b7785" stroke-width="1.5"/>
+<text x="669.2" y="574.8" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">illustrative</text>
+<rect x="894" y="128" width="276" height="468" rx="12" fill="#ffffff" stroke="#573379" stroke-width="3"/>
+<rect x="894" y="128" width="276" height="50" rx="12" fill="#573379"/>
+<rect x="894" y="154" width="276" height="24" rx="0" fill="#573379"/>
+<circle cx="920" cy="153" r="15" fill="#ffffff"/>
+<text x="920" y="159" font-size="17" fill="#573379" font-weight="bold" text-anchor="middle">4</text>
+<text x="946" y="161" font-size="24" fill="#ffffff" font-weight="bold">Results</text>
+<text x="910" y="210" font-size="21" fill="#1b2a41" font-weight="bold">Did it change</text>
+<text x="910" y="235.2" font-size="21" fill="#1b2a41" font-weight="bold">outcomes?</text>
+<text x="910" y="274.4" font-size="12" fill="#573379" font-weight="bold" letter-spacing="1">EVIDENCE FOR 20 TEACHERS</text>
+<circle cx="916" cy="293.4" r="4" fill="#573379"/>
+<text x="928" y="298.4" font-size="16.5" fill="#1b2a41">20 improved components</text>
+<text x="928" y="318.5" font-size="16.5" fill="#1b2a41">were published</text>
+<circle cx="916" cy="339.7" r="4" fill="#573379"/>
+<text x="928" y="344.7" font-size="16.5" fill="#1b2a41">9 were reused by another</text>
+<text x="928" y="364.8" font-size="16.5" fill="#1b2a41">teacher within three months</text>
+<rect x="910" y="558" width="94.5" height="24" rx="12" fill="#eef1f5" stroke="#6b7785" stroke-width="1.5"/>
+<text x="957.2" y="574.8" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">illustrative</text>
+<line x1="60" y1="628" x2="1127.2" y2="628" stroke="#6b7785" stroke-width="5" stroke-linecap="butt"/>
+<polygon points="1140,628 1126.1,636 1126.1,620" fill="#6b7785" stroke-linejoin="miter"/>
+<text x="60" y="660" font-size="13" fill="#4a5666" font-weight="bold" letter-spacing="1">EASIER AND FASTER TO COLLECT</text>
+<text x="1140" y="660" font-size="13" fill="#4a5666" font-weight="bold" text-anchor="end" letter-spacing="1">HARDER AND SLOWER TO COLLECT</text>
+<text x="600" y="690" font-size="15" fill="#4a5666" text-anchor="middle">Without a comparison group a change may have other causes, and counts of reuse are weaker than evidence of learning.</text>
+</svg>

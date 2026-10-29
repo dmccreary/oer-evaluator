@@ -5,7 +5,7 @@
   "showLabels": false,
   "palette": [
     "#00796b",
-    "#c77700",
+    "#8a5a00",
     "#b71c1c"
   ],
   "zones": [
@@ -29,7 +29,7 @@
     {
       "id": "usually-acceptable",
       "label": "Usually acceptable",
-      "color": "#c77700",
+      "color": "#8a5a00",
       "x1": 46.3,
       "y1": 19.4,
       "x2": 67.2,

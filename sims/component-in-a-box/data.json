@@ -1,0 +1,93 @@
+{
+  "title": "Component in a Box",
+  "orientation": "landscape",
+  "image": "component-in-a-box.svg",
+  "layout": "dual-panel",
+  "showNumbers": true,
+  "callouts": [
+    {
+      "id": 3,
+      "label": "README.md",
+      "x": 35.4,
+      "y": 13.2,
+      "radius": 2.8,
+      "color": "#2c6fb7",
+      "hint": "A page with a round information mark.",
+      "description": "What the component is, how to embed it, and how to credit it.",
+      "tip": "Nothing explains a component without a README.",
+      "panel": "left"
+    },
+    {
+      "id": 2,
+      "label": "quiz.js",
+      "x": 23.4,
+      "y": 17.5,
+      "radius": 2.8,
+      "color": "#e69500",
+      "hint": "A page with two orange curly braces.",
+      "description": "The script the page needs, kept inside the folder. If it lived in a sibling folder, it would not travel with the component.",
+      "tip": "A script path that points outside the folder is the classic broken package.",
+      "panel": "left"
+    },
+    {
+      "id": 1,
+      "label": "index.html",
+      "x": 11.4,
+      "y": 25.2,
+      "radius": 2.8,
+      "color": "#2c6fb7",
+      "hint": "A page with a blue picture box and lines, the first of the six floating parts.",
+      "description": "The quiz page itself. A reuser opens this file to see and use the component. All links in it must be complete addresses or point to files inside the folder.",
+      "tip": "The dotted line leaving this page is the broken link that packaging prevents.",
+      "panel": "left"
+    },
+    {
+      "id": 4,
+      "label": "LICENSE.txt",
+      "x": 58.6,
+      "y": 13.2,
+      "radius": 2.8,
+      "color": "#7b4aa5",
+      "hint": "A page with an orange seal.",
+      "description": "The license text or a link to it, so a reuser knows what they may do.",
+      "tip": "A resource with no license cannot be reused with confidence.",
+      "panel": "right"
+    },
+    {
+      "id": 5,
+      "label": "metadata.json",
+      "x": 70.6,
+      "y": 17.5,
+      "radius": 2.8,
+      "color": "#7b4aa5",
+      "hint": "A purple tag with a hole and short lines.",
+      "description": "The metadata record of Chapter 9 in a form a program can read, so a catalog can find and describe the component.",
+      "tip": "Metadata is for people and for machines.",
+      "panel": "right"
+    },
+    {
+      "id": 6,
+      "label": "img/",
+      "x": 82.6,
+      "y": 25.2,
+      "radius": 2.8,
+      "color": "#2e7d32",
+      "hint": "A yellow folder with a green hill picture.",
+      "description": "The images the component uses, kept inside the package with complete addresses or paths inside the folder.",
+      "tip": "Each image should have its own caption and alt text.",
+      "panel": "right"
+    },
+    {
+      "id": 7,
+      "label": "Three finished boxes for Watershed Basics v1.1",
+      "x": 56.0,
+      "y": 88.0,
+      "radius": 2.8,
+      "color": "#2e7d32",
+      "hint": "Three closed boxes in a row at the bottom, each with a green check.",
+      "description": "After splitting, Watershed Basics v1.1 has three components: the reading, the quiz, and the simulation. Each is packaged in its own box with its own license and metadata.",
+      "tip": "Ready means every file is present and every link works from anywhere.",
+      "panel": "right"
+    }
+  ]
+}

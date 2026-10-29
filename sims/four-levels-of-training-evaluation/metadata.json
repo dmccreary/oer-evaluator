@@ -1,0 +1,74 @@
+{
+  "title": "Four Levels of Training Evaluation",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "A four-step staircase of reaction, learning, behavior, and results, with the illustrative evidence for a workshop of 20 teachers at each step.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "The four levels of training evaluation and the evidence that belongs at each",
+    "learningObjectives": [
+      "The learner will place a piece of workshop evidence at the right level of training evaluation and explain why a happy survey is not enough."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "Training evaluation from [Chapter 19](../../chapters/19-training-certifying-reviewers/index.md) and the cautions of Chapters 16 and 17."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (grid-diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 741
+    },
+    "canvasHeight": 741,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/grid-diagram.js, grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "Which level does this evidence measure?",
+      "What would stronger evidence look like?"
+    ],
+    "commonMisconceptions": [
+      "A happy exit survey shows the training worked",
+      "Counts of reuse prove learning"
+    ],
+    "assessmentOpportunities": [
+      "\"17 of 20 teachers earned the certificate\" belongs to which level?",
+      "\"9 components were reused by another teacher\" belongs to which level?",
+      "Why is a count of reuse weaker than evidence of learning?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Poster zones",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "19-training-certifying-reviewers"
+}

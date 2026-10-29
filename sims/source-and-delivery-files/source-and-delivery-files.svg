@@ -69,17 +69,17 @@
 <path d="M310.6666666666667,595 l5,6 l9,-12" fill="none" stroke="#2e7d32" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="252.3" y="624" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">Open?</text>
 <text x="317.7" y="624" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">Source?</text>
-<rect x="556" y="136" width="250" height="504" rx="14" fill="#fdf1d6" stroke="#c77700" stroke-width="3"/>
-<rect x="556" y="136" width="250" height="52" rx="14" fill="#c77700"/>
-<rect x="556" y="164" width="250" height="24" rx="0" fill="#c77700"/>
+<rect x="556" y="136" width="250" height="504" rx="14" fill="#fdf1d6" stroke="#8a5a00" stroke-width="3"/>
+<rect x="556" y="136" width="250" height="52" rx="14" fill="#8a5a00"/>
+<rect x="556" y="164" width="250" height="24" rx="0" fill="#8a5a00"/>
 <polygon points="586,148 600.7,173.2 571.3,173.2" fill="#ffffff" stroke-linejoin="round"/>
-<line x1="586" y1="157.8" x2="586" y2="165.5" stroke="#7a4a00" stroke-width="2.8" stroke-linecap="round"/>
-<circle cx="586" cy="169.7" r="2.3" fill="#7a4a00"/>
+<line x1="586" y1="157.8" x2="586" y2="165.5" stroke="#5c3c00" stroke-width="2.8" stroke-linecap="round"/>
+<circle cx="586" cy="169.7" r="2.3" fill="#5c3c00"/>
 <text x="612" y="169" font-size="18.5" fill="#ffffff" font-weight="bold">Usually acceptable</text>
-<text x="572" y="214" font-size="13" fill="#7a4a00">Works if you have the right software</text>
+<text x="572" y="214" font-size="13" fill="#5c3c00">Works if you have the right software</text>
 <polygon points="650,240 694.6,240 712,257.4 712,318 650,318" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
 <polygon points="694.6,240 694.6,257.4 712,257.4" fill="#c9d1db" stroke="#1b2a41" stroke-width="2" stroke-linejoin="round"/>
-<text x="681" y="291.5" font-size="17" fill="#c77700" font-weight="bold" text-anchor="middle">.docx</text>
+<text x="681" y="291.5" font-size="17" fill="#8a5a00" font-weight="bold" text-anchor="middle">.docx</text>
 <text x="681" y="344" font-size="16" fill="#1b2a41" font-weight="bold" text-anchor="middle">Word document</text>
 <circle cx="635" cy="388" r="15" fill="#ffffff" stroke="#e69500" stroke-width="3"/>
 <line x1="635" y1="381" x2="635" y2="390" stroke="#1b2a41" stroke-width="3.5" stroke-linecap="round"/>

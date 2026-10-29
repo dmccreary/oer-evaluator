@@ -1,0 +1,74 @@
+{
+  "title": "The A/B Test on One Page",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "A left-to-right flow of the whole A/B test: a pool of students is randomly assigned to the original or the improved version, both groups take the same pre-test and post-test, and learning gain is compared.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "The whole design of a classroom A/B test on one page",
+    "learningObjectives": [
+      "The learner will describe the parts of a classroom A/B test and explain why the two groups must differ only in the version."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "Control group, treatment group, and random assignment from [Chapter 16](../../chapters/16-ab-testing-design/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 753
+    },
+    "canvasHeight": 753,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/diagram.js, style.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "What is the one difference between the groups?",
+      "Did both groups take the same tests?"
+    ],
+    "commonMisconceptions": [
+      "The control group gets no teaching",
+      "Volunteers make a fair treatment group"
+    ],
+    "assessmentOpportunities": [
+      "What does the control group receive?",
+      "Why is assignment random?",
+      "What is the comparison at the end?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Numbered markers",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "16-ab-testing-design"
+}

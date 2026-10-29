@@ -25,9 +25,9 @@
     "version": "n/a",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 760
+      "height": 741
     },
-    "canvasHeight": 760,
+    "canvasHeight": 741,
     "responsive": true,
     "dependencies": [
       "../shared-libs/grid-diagram.js, grid-overlay.css"

@@ -1,0 +1,74 @@
+{
+  "title": "The Fix Toolkit",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "A pegboard of thirteen tools, one for each fix in Chapter 15, hung in eight panels by the metric each mainly raises, each with a human-check badge.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "The thirteen fixes an agent can help with, grouped by the metric each raises",
+    "learningObjectives": [
+      "The learner will match each of the thirteen fixes to the metric it mainly raises, and state the human check for one of them."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "The ten metrics from [Chapter 3](../../chapters/03-ten-metric-rubric-scoring/index.md) and the improvement plan from [Chapter 15](../../chapters/15-improving-resources-with-ai/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 557
+    },
+    "canvasHeight": 557,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/diagram.js, style.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "Which metric is lowest?",
+      "What mistake should I expect, and how do I check it?"
+    ],
+    "commonMisconceptions": [
+      "An agent's fix can be applied without review",
+      "A fix for one metric has no side effects on the others"
+    ],
+    "assessmentOpportunities": [
+      "Which metric does PDF-to-Markdown conversion mainly raise?",
+      "What is the human check for link repair?",
+      "What is the typical agent mistake in metadata generation?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Numbered markers",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "15-improving-resources-with-ai"
+}
