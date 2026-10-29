@@ -1,0 +1,96 @@
+{
+  "title": "Model, Assistant, Agent, Skill",
+  "image": "model-assistant-agent-skill.svg",
+  "layout": "grid",
+  "showLabels": false,
+  "palette": [
+    "#8a5a00",
+    "#1d4f86",
+    "#00796b",
+    "#573379"
+  ],
+  "zones": [
+    {
+      "id": "model",
+      "label": "Large language model",
+      "color": "#8a5a00",
+      "x1": 2.5,
+      "y1": 78.6,
+      "x2": 97.5,
+      "y2": 95.4,
+      "summary": "Predicts the next piece of text, one piece at a time.",
+      "facts": [
+        "Predicts the next piece of text, one piece at a time.",
+        "Limits: it does not look facts up, and it can sound sure when it is wrong.",
+        "The book's example: Filling in the next word."
+      ]
+    },
+    {
+      "id": "assistant",
+      "label": "AI assistant",
+      "color": "#1d4f86",
+      "x1": 2.5,
+      "y1": 57.1,
+      "x2": 97.5,
+      "y2": 74.0,
+      "summary": "A program you talk to in ordinary language. It answers and waits.",
+      "facts": [
+        "A program you talk to in ordinary language. It answers and waits.",
+        "Powered by a model.",
+        "The book's example: Paste in a resource and ask for problems."
+      ]
+    },
+    {
+      "id": "agent",
+      "label": "AI agent",
+      "color": "#00796b",
+      "x1": 2.5,
+      "y1": 35.7,
+      "x2": 97.5,
+      "y2": 52.6,
+      "summary": "Works toward a goal over several steps, using tools and files.",
+      "facts": [
+        "Works toward a goal over several steps, using tools and files.",
+        "Loop: observe, decide, act, observe the result.",
+        "The book's example: List 14 links and test each one."
+      ]
+    },
+    {
+      "id": "skill",
+      "label": "Agent skill",
+      "color": "#573379",
+      "x1": 2.5,
+      "y1": 14.3,
+      "x2": 97.5,
+      "y2": 31.1,
+      "summary": "A saved set of instructions that an agent loads when a task matches.",
+      "facts": [
+        "A saved set of instructions that an agent loads when a task matches.",
+        "The durable, shareable form of a rubric prompt.",
+        "The book's example: The ten-metric rubric packaged as a skill."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which layer works toward a goal over several steps, using tools and files?",
+      "correct_zone": "agent",
+      "explanation": "An agent plans, acts, looks at what happened, and acts again."
+    },
+    {
+      "question": "Which layer is a program you talk to that answers and waits?",
+      "correct_zone": "assistant",
+      "explanation": "An assistant answers and waits."
+    },
+    {
+      "question": "Which layer does not look facts up and can sound sure when it is wrong?",
+      "correct_zone": "model",
+      "explanation": "A model completes likely text."
+    },
+    {
+      "question": "Which layer is a saved procedure in a folder that is the durable form of a rubric prompt?",
+      "correct_zone": "skill",
+      "explanation": "A skill packages instructions for reuse."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "title": "Model, Assistant, Agent, Skill",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Four stacked layers, each built on the one below it: a language model, an AI assistant, an AI agent, and an agent skill, with the book's own example for each.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "The four layers of AI vocabulary: model, assistant, agent, and skill",
+    "learningObjectives": [
+      "The learner will distinguish a language model, an assistant, an agent, and a skill, and say which layer adds tools and a loop."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "The vocabulary of [Chapter 12](../../chapters/12-ai-agents-prompts-scoring/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (grid-diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 741
+    },
+    "canvasHeight": 741,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/grid-diagram.js, grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "Does it answer and wait, or act across steps?",
+      "Does it look facts up?"
+    ],
+    "commonMisconceptions": [
+      "A language model looks facts up",
+      "An assistant and an agent are the same thing"
+    ],
+    "assessmentOpportunities": [
+      "Which layer answers and waits?",
+      "Which layer plans, acts, looks at what happened, and acts again?",
+      "What does a language model not do?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Poster zones",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "12-ai-agents-prompts-scoring"
+}
