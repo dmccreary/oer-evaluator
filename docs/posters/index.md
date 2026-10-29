@@ -1,3 +1,9 @@
+---
+title: List of Infographic Posters
+hide:
+  - toc
+---
+
 # List of Infographic Posters
 
 - [The Sixth R: Regenerate](sixth-r/index.md) - Wiley's 5Rs act on the finished book. The proposed sixth R, regenerate, is the right to rebuild the book from its source.

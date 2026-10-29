@@ -74,9 +74,14 @@ See the full [list of chapters](chapters/index.md) for a summary of each one.
 
 ## Learn by Doing
 
-- **[MicroSims](sims/index.md)**: 20 interactive simulations so far. Match
-  scenarios to the 5R permissions, move sliders to score a sample resource and
-  see the adopt, revise, or reject decision, or compare two reviewers' scores.
+- **[MicroSims](sims/index.md)**: 51 interactive simulations, 30 of them
+  overlay posters. Match scenarios to the 5R permissions, move sliders to score
+  a sample resource and see the adopt, revise, or reject decision, or compare
+  two reviewers' scores.
+- **[Posters](posters/index.md)**: 31 reference posters, one or more for each
+  stage of the book. Hover or press to explore each one, then take its quiz.
+- **[Stories](stories/index.md)**: six short, illustrated graphic-novel stories
+  that help you remember how to evaluate OER, with and without AI agents.
 - **Chapter quizzes**: 190 questions across 19 chapters, with an annotated
   reference list for every chapter.
 - **[Glossary](glossary.md)**: 351 defined terms.

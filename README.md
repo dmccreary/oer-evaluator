@@ -17,7 +17,7 @@ Objective steps for evaluating open educational resources (OER).  A focus on man
 
 This is an interactive, AI-assisted intelligent textbook built with MkDocs and the Material theme. It is organized around a learning graph of **351 concepts** with explicit prerequisite dependencies, so that no chapter relies on a concept that has not yet been introduced. Content is organized into **19 chapters** and uses Bloom's Taxonomy (2001 revision) to target learning outcomes from remembering through creating.
 
-The book includes **20 interactive MicroSims**, a glossary of 351 terms, 100 FAQ entries and 190 quiz questions. Whether you are a student, an educator, or a self-learner, everything runs directly in your browser.
+The book includes **51 interactive MicroSims**, a glossary of 351 terms, 100 FAQ entries and 190 quiz questions. Whether you are a student, an educator, or a self-learner, everything runs directly in your browser.
 
 ## Site Status and Metrics
 
@@ -25,7 +25,7 @@ The book includes **20 interactive MicroSims**, a glossary of 351 terms, 100 FAQ
 |--------|-------|
 | Concepts in Learning Graph | 351 |
 | Chapters | 19 |
-| MicroSims | 20 |
+| MicroSims | 51 |
 | Glossary Terms | 351 |
 | FAQ Questions | 100 |
 | Quiz Questions | 190 |
