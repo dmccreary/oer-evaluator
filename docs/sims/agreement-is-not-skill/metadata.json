@@ -1,0 +1,74 @@
+{
+  "title": "Agreement Is Not Skill",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Three panels walk through the Chapter 14 example: 18 of 20 agree, most of that agreement is expected by chance, and kappa is only 0.44.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Why a high agreement rate can hide a low kappa",
+    "learningObjectives": [
+      "The learner will compute Cohen's kappa from a count table and explain why 90 percent agreement can be a kappa of only 0.44."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "Inter-rater agreement and Cohen's kappa from [Chapter 14](../../chapters/14-checking-agent-output/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (grid-diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 765
+    },
+    "canvasHeight": 765,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/grid-diagram.js, grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "How much agreement would chance alone give?",
+      "Which resources did the agent miss?"
+    ],
+    "commonMisconceptions": [
+      "High agreement means high skill",
+      "Kappa and percent agreement are the same number"
+    ],
+    "assessmentOpportunities": [
+      "Why is a 90 percent agreement not impressive in this example?",
+      "What is the formula for kappa?",
+      "What should you always show beside kappa?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Poster zones",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "14-checking-agent-output"
+}
