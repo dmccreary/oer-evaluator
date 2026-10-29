@@ -1,6 +1,6 @@
 ---
-title: From Ten Scores to One Decision
-description: A funnel that narrows ten metric scores to two subtotals, a total out of 100, a score band, and one decision, with the floor shown as a gate.
+title: "From Ten Scores to One Decision"
+description: "A funnel that narrows ten metric scores to two subtotals, a total out of 100, a score band, and one decision, with the floor shown as a gate."
 image: /sims/ten-scores-to-one-decision/ten-scores-to-one-decision.png
 og:image: /sims/ten-scores-to-one-decision/ten-scores-to-one-decision.png
 twitter:image: /sims/ten-scores-to-one-decision/ten-scores-to-one-decision.png
@@ -53,6 +53,7 @@ This MicroSim is a **callout overlay**: the poster is a drawing made for this bo
 ### Good to Know
 
 Quiz mode scores each marker as you answer it. The MicroSim does not store your answers. The artwork carries no text, so every name and number you read comes from the overlay.
+
 - The thresholds are this book's starting rule, not a standard.
 - Watershed Basics and One Gap are illustrative examples from Chapter 3.
 
