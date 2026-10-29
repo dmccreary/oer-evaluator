@@ -1,0 +1,69 @@
+{
+  "title": "Weak Prompt, Strong Prompt",
+  "image": "weak-and-strong-prompt.svg",
+  "layout": "grid",
+  "showLabels": false,
+  "palette": [
+    "#b71c1c",
+    "#1b5e20"
+  ],
+  "zones": [
+    {
+      "id": "weak",
+      "label": "Weak prompt",
+      "color": "#b71c1c",
+      "x1": 2.5,
+      "y1": 15.1,
+      "x2": 40.0,
+      "y2": 90.3,
+      "summary": "The weak prompt fills only the task band.",
+      "facts": [
+        "Task: \"Check accessibility.\"",
+        "Role: none.",
+        "Input: the resource is not included.",
+        "Rules: none.",
+        "Output format: none.",
+        "With no role, input, rules, or format, the model has to guess what to check and how to answer."
+      ]
+    },
+    {
+      "id": "strong",
+      "label": "Strong prompt",
+      "color": "#1b5e20",
+      "x1": 42.5,
+      "y1": 15.1,
+      "x2": 97.5,
+      "y2": 90.3,
+      "summary": "The strong prompt fills all five bands.",
+      "facts": [
+        "Role: You are a careful reviewer of open educational resources.",
+        "Task: Apply the ten accessibility checks listed below to the resource.",
+        "Input: The full text of the resource, pasted below the checks.",
+        "Rules: Quote evidence for every result. If a check cannot be verified from the text, write \"not checkable\".",
+        "Output format: A table with the columns check, result, and evidence."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which card has a role, a task, input, rules, and an output format?",
+      "correct_zone": "strong",
+      "explanation": "The strong prompt fills all five bands."
+    },
+    {
+      "question": "Which card says only \"Check accessibility.\" and leaves four bands empty?",
+      "correct_zone": "weak",
+      "explanation": "The weak prompt has only a task."
+    },
+    {
+      "question": "Which card tells the model to write \"not checkable\" when it cannot verify a check?",
+      "correct_zone": "strong",
+      "explanation": "That is in the rules band of the strong prompt."
+    },
+    {
+      "question": "Which card gives the model no resource text to check?",
+      "correct_zone": "weak",
+      "explanation": "The input band is empty, so the resource is not included."
+    }
+  ]
+}

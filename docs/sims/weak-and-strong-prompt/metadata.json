@@ -1,0 +1,74 @@
+{
+  "title": "Weak Prompt, Strong Prompt",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Two prompt cards side by side, each divided into the five parts of a prompt; the weak card fills one band and leaves four empty, and the strong card fills all five.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "The five parts of a rubric prompt: role, task, input, rules, and output format",
+    "learningObjectives": [
+      "The learner will evaluate a prompt against the five parts of a rubric prompt and name the part that is missing."
+    ],
+    "bloomsTaxonomy": "Evaluate",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "Prompts and the parts of a rubric prompt from [Chapter 12](../../chapters/12-ai-agents-prompts-scoring/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (grid-diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 813
+    },
+    "canvasHeight": 813,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/grid-diagram.js, grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "Which of the five bands is empty?",
+      "What should the model write when it cannot tell?"
+    ],
+    "commonMisconceptions": [
+      "A short prompt is a good prompt",
+      "A good prompt guarantees a good answer"
+    ],
+    "assessmentOpportunities": [
+      "Which part tells the model what to do when it cannot tell?",
+      "Why does the strong prompt include the full text of the resource?",
+      "Does a strong prompt guarantee a correct answer?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Poster zones",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "12-ai-agents-prompts-scoring"
+}
