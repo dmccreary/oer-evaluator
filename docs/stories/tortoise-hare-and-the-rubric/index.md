@@ -10,7 +10,7 @@ social:
 
 # The Tortoise, the Hare, and the Rubric
 
-<!-- ![](./cover.png) -->
+![Cover of The Tortoise, the Hare, and the Rubric](cover.png)
 <details>
 <summary>Cover Image Prompt</summary>
 (This is the Cover Image. Do not include this label in the image.)
@@ -50,7 +50,7 @@ Once upon a semester, in a chemistry department with a tight budget and a very l
 
 ## Panel 1: The Ribbon Across the Hallway
 
-<!-- ![](./panel-01.png) -->
+![Panel 1: The Ribbon Across the Hallway](panel-01.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 01. Do not include the panel number in the image.)
 I am about to ask you to generate a series of images for a graphic novel.
@@ -79,7 +79,7 @@ Dean Pemberton snipped a ribbon across the department hallway with his ceremonia
 
 ## Panel 2: The Hare Bolts
 
-<!-- ![](./panel-02.png) -->
+![Panel 2: The Hare Bolts](panel-02.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 02. Do not include the panel number in the image.)
 Please generate a 16:9 image in a storybook fable style depicting panel 2 of 8. Make the characters and style consistent with the prior panel. Flat cartoon illustration, modern vector style, clean confident outlines, bold simple shapes, gentle humor, warm cream and soft gray neutrals with indigo (#3949ab) and burnt orange (#b45309) as the two accent colors, wide landscape 16:9 composition. Storybook fable costume: soft watercolor edges and a faint paper texture around the frame, with a wry fable-narrator mood.
@@ -101,7 +101,7 @@ Tomás loaded the books into Quill before the ribbon touched the floor. By Tuesd
 
 ## Panel 3: The Tortoise Takes Notes
 
-<!-- ![](./panel-03.png) -->
+![Panel 3: The Tortoise Takes Notes](panel-03.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 03. Do not include the panel number in the image.)
 Please generate a 16:9 image in a storybook fable style depicting panel 3 of 8. Make the characters and style consistent with the prior panel. Flat cartoon illustration, modern vector style, clean confident outlines, bold simple shapes, gentle humor, warm cream and soft gray neutrals with indigo (#3949ab) and burnt orange (#b45309) as the two accent colors, wide landscape 16:9 composition. Storybook fable costume: soft watercolor edges and a faint paper texture around the frame, with a wry fable-narrator mood.
@@ -121,7 +121,7 @@ Dr. Raman did not hurry, because she had learned long ago that a score without e
 
 ## Panel 4: The Hare's Haul
 
-<!-- ![](./panel-04.png) -->
+![Panel 4: The Hare's Haul](panel-04.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 04. Do not include the panel number in the image.)
 Please generate a 16:9 image in a storybook fable style depicting panel 4 of 8. Make the characters and style consistent with the prior panel. Flat cartoon illustration, modern vector style, clean confident outlines, bold simple shapes, gentle humor, warm cream and soft gray neutrals with indigo (#3949ab) and burnt orange (#b45309) as the two accent colors, wide landscape 16:9 composition. Storybook fable costume: soft watercolor edges and a faint paper texture around the frame, with a wry fable-narrator mood.
@@ -144,7 +144,7 @@ On Wednesday Tomás presented his haul: all five books reviewed, 61 missing alt 
 
 ## Panel 5: Page 212
 
-<!-- ![](./panel-05.png) -->
+![Panel 5: Page 212](panel-05.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 05. Do not include the panel number in the image.)
 Please generate a 16:9 image in a storybook fable style depicting panel 5 of 8. Make the characters and style consistent with the prior panel. Flat cartoon illustration, modern vector style, clean confident outlines, bold simple shapes, gentle humor, warm cream and soft gray neutrals with indigo (#3949ab) and burnt orange (#b45309) as the two accent colors, wide landscape 16:9 composition. Storybook fable costume: soft watercolor edges and a faint paper texture around the frame, with a wry fable-narrator mood.
@@ -164,7 +164,7 @@ On Thursday night, deep in book three, Dr. Raman stopped. A worked example repor
 
 ## Panel 6: The Referee Checks the Hare
 
-<!-- ![](./panel-06.png) -->
+![Panel 6: The Referee Checks the Hare](panel-06.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 06. Do not include the panel number in the image.)
 Please generate a 16:9 image in a storybook fable style depicting panel 6 of 8. Make the characters and style consistent with the prior panel. Flat cartoon illustration, modern vector style, clean confident outlines, bold simple shapes, gentle humor, warm cream and soft gray neutrals with indigo (#3949ab) and burnt orange (#b45309) as the two accent colors, wide landscape 16:9 composition. Storybook fable costume: soft watercolor edges and a faint paper texture around the frame, with a wry fable-narrator mood.
@@ -186,7 +186,7 @@ Margie carried Tomás's report to the library table and verified it, starting wi
 
 ## Panel 7: Photo Finish
 
-<!-- ![](./panel-07.png) -->
+![Panel 7: Photo Finish](panel-07.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 07. Do not include the panel number in the image.)
 Please generate a 16:9 image in a storybook fable style depicting panel 7 of 8. Make the characters and style consistent with the prior panel. Flat cartoon illustration, modern vector style, clean confident outlines, bold simple shapes, gentle humor, warm cream and soft gray neutrals with indigo (#3949ab) and burnt orange (#b45309) as the two accent colors, wide landscape 16:9 composition. Storybook fable costume: soft watercolor edges and a faint paper texture around the frame, with a wry fable-narrator mood.
@@ -210,7 +210,7 @@ On Friday the Dean stood at the finish line, the ribbon taped back together, and
 
 ## Panel 8: The Last Slice
 
-<!-- ![](./panel-08.png) -->
+![Panel 8: The Last Slice](panel-08.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 08. Do not include the panel number in the image.)
 Please generate a 16:9 image in a storybook fable style depicting panel 8 of 8. Make the characters and style consistent with the prior panel. Flat cartoon illustration, modern vector style, clean confident outlines, bold simple shapes, gentle humor, warm cream and soft gray neutrals with indigo (#3949ab) and burnt orange (#b45309) as the two accent colors, wide landscape 16:9 composition. Storybook fable costume: soft watercolor edges and a faint paper texture around the frame, with a wry fable-narrator mood.
