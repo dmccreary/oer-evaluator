@@ -1,0 +1,76 @@
+{
+  "title": "The Sixth R: Regenerate",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "A source-to-book picture that shows what the proposed sixth R, regenerate, adds to the 5Rs: the right to rebuild an intelligent textbook from its course description, learning graph, and agentic skills.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "The proposed sixth R, regenerate, and the source behind an AI-built textbook",
+    "learningObjectives": [
+      "The learner will explain how the proposed sixth R, regenerate, differs from the 5Rs, using the source and the book on the poster."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "The 5R permissions from [Chapter 1](../../chapters/01-foundations-of-oer/index.md).",
+      "The meaning of an intelligent textbook and a learning graph from [Chapter 18](../../chapters/18-components-publishing-oer/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (grid-diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 811
+    },
+    "canvasHeight": 811,
+    "responsive": true,
+    "dependencies": [
+      "../../sims/shared-libs/grid-diagram.js, grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "Can I recreate it from its source?",
+      "Which parts of the source are published with the book?"
+    ],
+    "commonMisconceptions": [
+      "An open license on the rendered book is enough to rebuild the book",
+      "Regenerate is one of Wiley's original 5Rs",
+      "Regenerate means hand-editing the text again"
+    ],
+    "assessmentOpportunities": [
+      "An author posts a textbook under an open license but keeps the learning graph and skills private. Which right is missing?",
+      "A teacher translates one chapter of an open textbook by hand. Is that regenerate?",
+      "Is regenerate one of David Wiley's original 5Rs?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Poster zones",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "01-foundations-of-oer"
+}
