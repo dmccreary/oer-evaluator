@@ -1,0 +1,139 @@
+{
+  "title": "Can I Publish My Improved Version?",
+  "image": "can-i-publish-my-improved-version.svg",
+  "layout": "grid",
+  "showLabels": false,
+  "palette": [
+    "#1b5e20",
+    "#8a5a00",
+    "#b71c1c"
+  ],
+  "zones": [
+    {
+      "id": "cc0",
+      "label": "CC0",
+      "color": "#1b5e20",
+      "x1": 2.5,
+      "y1": 15.7,
+      "x2": 17.6,
+      "y2": 78.9,
+      "summary": "Yes: Nothing is required, and giving credit is good practice.",
+      "facts": [
+        "May you publish an improved version? Yes.",
+        "What you must do: Nothing is required, and giving credit is good practice."
+      ]
+    },
+    {
+      "id": "cc-by",
+      "label": "CC BY",
+      "color": "#8a5a00",
+      "x1": 18.5,
+      "y1": 15.7,
+      "x2": 33.6,
+      "y2": 78.9,
+      "summary": "Yes, with conditions: Credit the author, link to the license, and say that you changed the work.",
+      "facts": [
+        "May you publish an improved version? Yes, with conditions.",
+        "What you must do: Credit the author, link to the license, and say that you changed the work."
+      ]
+    },
+    {
+      "id": "cc-by-sa",
+      "label": "CC BY-SA",
+      "color": "#8a5a00",
+      "x1": 34.4,
+      "y1": 15.7,
+      "x2": 49.6,
+      "y2": 78.9,
+      "summary": "Yes, with conditions: The same as CC BY, and release your version under CC BY-SA.",
+      "facts": [
+        "May you publish an improved version? Yes, with conditions.",
+        "What you must do: The same as CC BY, and release your version under CC BY-SA."
+      ]
+    },
+    {
+      "id": "cc-by-nc",
+      "label": "CC BY-NC",
+      "color": "#8a5a00",
+      "x1": 50.4,
+      "y1": 15.7,
+      "x2": 65.6,
+      "y2": 78.9,
+      "summary": "Yes, without commercial use: The same as CC BY, and do not sell or use it for commercial gain.",
+      "facts": [
+        "May you publish an improved version? Yes, without commercial use.",
+        "What you must do: The same as CC BY, and do not sell or use it for commercial gain."
+      ]
+    },
+    {
+      "id": "cc-by-nc-sa",
+      "label": "CC BY-NC-SA",
+      "color": "#8a5a00",
+      "x1": 66.4,
+      "y1": 15.7,
+      "x2": 81.5,
+      "y2": 78.9,
+      "summary": "Yes, without commercial use: The same as CC BY, release under CC BY-NC-SA, and do not use it commercially.",
+      "facts": [
+        "May you publish an improved version? Yes, without commercial use.",
+        "What you must do: The same as CC BY, release under CC BY-NC-SA, and do not use it commercially."
+      ]
+    },
+    {
+      "id": "cc-by-nd",
+      "label": "CC BY-ND",
+      "color": "#b71c1c",
+      "x1": 82.4,
+      "y1": 15.7,
+      "x2": 97.5,
+      "y2": 78.9,
+      "summary": "No: You may not share a changed version. You may make changes for your own private use only.",
+      "facts": [
+        "May you publish an improved version? No.",
+        "What you must do: You may not share a changed version. You may make changes for your own private use only."
+      ]
+    },
+    {
+      "id": "no-license",
+      "label": "No license, all rights reserved",
+      "color": "#b71c1c",
+      "x1": 2.5,
+      "y1": 80.9,
+      "x2": 97.5,
+      "y2": 94.9,
+      "summary": "No. Ask the owner for permission first.",
+      "facts": [
+        "With no license, the default is all rights reserved.",
+        "An improved version is a derivative work, which the owner controls.",
+        "Ask the owner for permission before you edit or share it."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which card says you may not share a changed version, only change it for private use?",
+      "correct_zone": "cc-by-nd",
+      "explanation": "ND means no derivatives to share."
+    },
+    {
+      "question": "Which card says nothing is required, though credit is good practice?",
+      "correct_zone": "cc0",
+      "explanation": "CC0 puts the work in the public domain."
+    },
+    {
+      "question": "Which card says release your version under the same license and credit the author?",
+      "correct_zone": "cc-by-sa",
+      "explanation": "ShareAlike keeps adaptations open the same way."
+    },
+    {
+      "question": "Which zone says ask the owner for permission first?",
+      "correct_zone": "no-license",
+      "explanation": "All rights are reserved by default."
+    },
+    {
+      "question": "Which card allows publishing an improved version only without commercial use, under the same license?",
+      "correct_zone": "cc-by-nc-sa",
+      "explanation": "NC plus SA."
+    }
+  ]
+}

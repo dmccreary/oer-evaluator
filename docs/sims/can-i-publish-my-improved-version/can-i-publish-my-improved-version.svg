@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" role="img">
+<title>Can I Publish My Improved Version?</title>
+<desc>Six license cards from most to least permissive, and a footer band. CC0: yes, nothing is required, and giving credit is good practice. CC BY: yes with conditions: credit the author, link to the license, and say that you changed the work. CC BY-SA: yes with conditions: the same as CC BY, and release your version under CC BY-SA. CC BY-NC: yes without commercial use: the same as CC BY, and do not sell or use it for commercial gain. CC BY-NC-SA: yes without commercial use: the same as CC BY, release under CC BY-NC-SA, and do not use it commercially. CC BY-ND: no, you may not share a changed version; you may make changes for your own private use only. Footer: with no license, all rights reserved: no; ask the owner for permission first.</desc>
+<rect width="1200" height="700" fill="#f7f9fc"/>
+<text x="40" y="50" font-size="32" fill="#1b2a41" font-weight="bold">Can I Publish My Improved Version?</text>
+<text x="40" y="80" font-size="18" fill="#4a5666">An agent&#x27;s edited copy is a derivative work. Read the license before the first edit.</text>
+<circle cx="700" cy="34" r="12" fill="#2e7d32"/>
+<path d="M694.6,34 L698.8,38.6 L706,29.4" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="718" y="40" font-size="15" fill="#1b2a41" font-weight="bold">Yes</text>
+<polygon points="780,22 792.6,43.6 767.4,43.6" fill="#e69500" stroke-linejoin="round"/>
+<line x1="780" y1="30.4" x2="780" y2="37" stroke="#1b2a41" stroke-width="2.4" stroke-linecap="round"/>
+<circle cx="780" cy="40.6" r="2.1" fill="#1b2a41"/>
+<text x="798" y="40" font-size="15" fill="#1b2a41" font-weight="bold">Yes, with conditions</text>
+<circle cx="980" cy="34" r="12" fill="#b71c1c"/>
+<line x1="975.2" y1="29.2" x2="984.8" y2="38.8" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="975.2" y1="38.8" x2="984.8" y2="29.2" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round"/>
+<text x="998" y="40" font-size="15" fill="#1b2a41" font-weight="bold">No</text>
+<rect x="30" y="110" width="181.7" height="442" rx="14" fill="#e5f2e6" stroke="#1b5e20" stroke-width="3"/>
+<rect x="30" y="110" width="181.7" height="56" rx="14" fill="#1b5e20"/>
+<rect x="30" y="140" width="181.7" height="26" rx="0" fill="#1b5e20"/>
+<text x="120.8" y="147" font-size="22" fill="#ffffff" font-weight="bold" text-anchor="middle">CC0</text>
+<circle cx="120.8" cy="218" r="30" fill="#ffffff" stroke="#1b5e20" stroke-width="3"/>
+<circle cx="120.8" cy="218" r="20" fill="#2e7d32"/>
+<path d="M111.8,218 L118.8,225.6 L130.8,210.4" fill="none" stroke="#ffffff" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="120.8" y="276" font-size="18" fill="#14471a" font-weight="bold" text-anchor="middle">Yes</text>
+<text x="44" y="352" font-size="12" fill="#14471a" font-weight="bold" letter-spacing="1">WHAT YOU MUST DO</text>
+<text x="44" y="378" font-size="16" fill="#1b2a41">Nothing is required,</text>
+<text x="44" y="398" font-size="16" fill="#1b2a41">and giving credit is</text>
+<text x="44" y="418" font-size="16" fill="#1b2a41">good practice.</text>
+<rect x="221.7" y="110" width="181.7" height="442" rx="14" fill="#fdf1d6" stroke="#8a5a00" stroke-width="3"/>
+<rect x="221.7" y="110" width="181.7" height="56" rx="14" fill="#8a5a00"/>
+<rect x="221.7" y="140" width="181.7" height="26" rx="0" fill="#8a5a00"/>
+<text x="312.5" y="147" font-size="22" fill="#ffffff" font-weight="bold" text-anchor="middle">CC BY</text>
+<circle cx="312.5" cy="218" r="30" fill="#ffffff" stroke="#8a5a00" stroke-width="3"/>
+<polygon points="312.5,198 333.5,234 291.5,234" fill="#e69500" stroke-linejoin="round"/>
+<line x1="312.5" y1="212" x2="312.5" y2="223" stroke="#1b2a41" stroke-width="4" stroke-linecap="round"/>
+<circle cx="312.5" cy="229" r="2.8" fill="#1b2a41"/>
+<text x="312.5" y="276" font-size="18" fill="#5c3c00" font-weight="bold" text-anchor="middle">Yes, with</text>
+<text x="312.5" y="297.6" font-size="18" fill="#5c3c00" font-weight="bold" text-anchor="middle">conditions</text>
+<text x="235.7" y="352" font-size="12" fill="#5c3c00" font-weight="bold" letter-spacing="1">WHAT YOU MUST DO</text>
+<text x="235.7" y="378" font-size="16" fill="#1b2a41">Credit the author,</text>
+<text x="235.7" y="398" font-size="16" fill="#1b2a41">link to the license,</text>
+<text x="235.7" y="418" font-size="16" fill="#1b2a41">and say that you</text>
+<text x="235.7" y="438" font-size="16" fill="#1b2a41">changed the work.</text>
+<rect x="413.3" y="110" width="181.7" height="442" rx="14" fill="#fdf1d6" stroke="#8a5a00" stroke-width="3"/>
+<rect x="413.3" y="110" width="181.7" height="56" rx="14" fill="#8a5a00"/>
+<rect x="413.3" y="140" width="181.7" height="26" rx="0" fill="#8a5a00"/>
+<text x="504.2" y="147" font-size="22" fill="#ffffff" font-weight="bold" text-anchor="middle">CC BY-SA</text>
+<circle cx="504.2" cy="218" r="30" fill="#ffffff" stroke="#8a5a00" stroke-width="3"/>
+<polygon points="504.2,198 525.2,234 483.2,234" fill="#e69500" stroke-linejoin="round"/>
+<line x1="504.2" y1="212" x2="504.2" y2="223" stroke="#1b2a41" stroke-width="4" stroke-linecap="round"/>
+<circle cx="504.2" cy="229" r="2.8" fill="#1b2a41"/>
+<text x="504.2" y="276" font-size="18" fill="#5c3c00" font-weight="bold" text-anchor="middle">Yes, with</text>
+<text x="504.2" y="297.6" font-size="18" fill="#5c3c00" font-weight="bold" text-anchor="middle">conditions</text>
+<text x="427.3" y="352" font-size="12" fill="#5c3c00" font-weight="bold" letter-spacing="1">WHAT YOU MUST DO</text>
+<text x="427.3" y="378" font-size="16" fill="#1b2a41">The same as CC</text>
+<text x="427.3" y="398" font-size="16" fill="#1b2a41">BY, and release</text>
+<text x="427.3" y="418" font-size="16" fill="#1b2a41">your version under</text>
+<text x="427.3" y="438" font-size="16" fill="#1b2a41">CC BY-SA.</text>
+<rect x="605" y="110" width="181.7" height="442" rx="14" fill="#fdf1d6" stroke="#8a5a00" stroke-width="3"/>
+<rect x="605" y="110" width="181.7" height="56" rx="14" fill="#8a5a00"/>
+<rect x="605" y="140" width="181.7" height="26" rx="0" fill="#8a5a00"/>
+<text x="695.8" y="147" font-size="22" fill="#ffffff" font-weight="bold" text-anchor="middle">CC BY-NC</text>
+<circle cx="695.8" cy="218" r="30" fill="#ffffff" stroke="#8a5a00" stroke-width="3"/>
+<polygon points="695.8,198 716.8,234 674.8,234" fill="#e69500" stroke-linejoin="round"/>
+<line x1="695.8" y1="212" x2="695.8" y2="223" stroke="#1b2a41" stroke-width="4" stroke-linecap="round"/>
+<circle cx="695.8" cy="229" r="2.8" fill="#1b2a41"/>
+<text x="695.8" y="276" font-size="18" fill="#5c3c00" font-weight="bold" text-anchor="middle">Yes, without</text>
+<text x="695.8" y="297.6" font-size="18" fill="#5c3c00" font-weight="bold" text-anchor="middle">commercial use</text>
+<text x="619" y="352" font-size="12" fill="#5c3c00" font-weight="bold" letter-spacing="1">WHAT YOU MUST DO</text>
+<text x="619" y="378" font-size="16" fill="#1b2a41">The same as CC</text>
+<text x="619" y="398" font-size="16" fill="#1b2a41">BY, and do not sell</text>
+<text x="619" y="418" font-size="16" fill="#1b2a41">or use it for</text>
+<text x="619" y="438" font-size="16" fill="#1b2a41">commercial gain.</text>
+<rect x="796.7" y="110" width="181.7" height="442" rx="14" fill="#fdf1d6" stroke="#8a5a00" stroke-width="3"/>
+<rect x="796.7" y="110" width="181.7" height="56" rx="14" fill="#8a5a00"/>
+<rect x="796.7" y="140" width="181.7" height="26" rx="0" fill="#8a5a00"/>
+<text x="887.5" y="147" font-size="22" fill="#ffffff" font-weight="bold" text-anchor="middle">CC BY-NC-SA</text>
+<circle cx="887.5" cy="218" r="30" fill="#ffffff" stroke="#8a5a00" stroke-width="3"/>
+<polygon points="887.5,198 908.5,234 866.5,234" fill="#e69500" stroke-linejoin="round"/>
+<line x1="887.5" y1="212" x2="887.5" y2="223" stroke="#1b2a41" stroke-width="4" stroke-linecap="round"/>
+<circle cx="887.5" cy="229" r="2.8" fill="#1b2a41"/>
+<text x="887.5" y="276" font-size="18" fill="#5c3c00" font-weight="bold" text-anchor="middle">Yes, without</text>
+<text x="887.5" y="297.6" font-size="18" fill="#5c3c00" font-weight="bold" text-anchor="middle">commercial use</text>
+<text x="810.7" y="352" font-size="12" fill="#5c3c00" font-weight="bold" letter-spacing="1">WHAT YOU MUST DO</text>
+<text x="810.7" y="378" font-size="16" fill="#1b2a41">The same as CC</text>
+<text x="810.7" y="398" font-size="16" fill="#1b2a41">BY, release under</text>
+<text x="810.7" y="418" font-size="16" fill="#1b2a41">CC BY-NC-SA, and</text>
+<text x="810.7" y="438" font-size="16" fill="#1b2a41">do not use it</text>
+<text x="810.7" y="458" font-size="16" fill="#1b2a41">commercially.</text>
+<rect x="988.3" y="110" width="181.7" height="442" rx="14" fill="#fde8e8" stroke="#b71c1c" stroke-width="3"/>
+<rect x="988.3" y="110" width="181.7" height="56" rx="14" fill="#b71c1c"/>
+<rect x="988.3" y="140" width="181.7" height="26" rx="0" fill="#b71c1c"/>
+<text x="1079.2" y="147" font-size="22" fill="#ffffff" font-weight="bold" text-anchor="middle">CC BY-ND</text>
+<circle cx="1079.2" cy="218" r="30" fill="#ffffff" stroke="#b71c1c" stroke-width="3"/>
+<circle cx="1079.2" cy="218" r="20" fill="#b71c1c"/>
+<line x1="1071.2" y1="210" x2="1087.2" y2="226" stroke="#ffffff" stroke-width="4.4" stroke-linecap="round"/>
+<line x1="1071.2" y1="226" x2="1087.2" y2="210" stroke="#ffffff" stroke-width="4.4" stroke-linecap="round"/>
+<text x="1079.2" y="276" font-size="18" fill="#7f1313" font-weight="bold" text-anchor="middle">No</text>
+<text x="1002.3" y="352" font-size="12" fill="#7f1313" font-weight="bold" letter-spacing="1">WHAT YOU MUST DO</text>
+<text x="1002.3" y="378" font-size="16" fill="#1b2a41">You may not share</text>
+<text x="1002.3" y="398" font-size="16" fill="#1b2a41">a changed version.</text>
+<text x="1002.3" y="418" font-size="16" fill="#1b2a41">You may make</text>
+<text x="1002.3" y="438" font-size="16" fill="#1b2a41">changes for your</text>
+<text x="1002.3" y="458" font-size="16" fill="#1b2a41">own private use</text>
+<text x="1002.3" y="478" font-size="16" fill="#1b2a41">only.</text>
+<rect x="30" y="566" width="1140" height="98" rx="14" fill="#fde8e8" stroke="#b71c1c" stroke-width="3"/>
+<circle cx="78" cy="615" r="30" fill="#ffffff" stroke="#b71c1c" stroke-width="3"/>
+<polygon points="96.5,622.7 85.7,633.5 70.3,633.5 59.5,622.7 59.5,607.3 70.3,596.5 85.7,596.5 96.5,607.3" fill="#b71c1c" stroke-linejoin="round"/>
+<rect x="68" y="612.6" width="20" height="4.8" rx="2" fill="#ffffff"/>
+<text x="126" y="604" font-size="24" fill="#7f1313" font-weight="bold">No license: all rights reserved</text>
+<text x="126" y="630" font-size="19" fill="#1b2a41" font-weight="bold">No. You may not publish an improved version.</text>
+<text x="126" y="654" font-size="18" fill="#1b2a41">Ask the owner for permission first.</text>
+<text x="1160" y="654" font-size="14" fill="#4a5666" text-anchor="end">Cards run from most to least permissive.</text>
+</svg>
