@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" role="img">
+<title>Source Files and Delivery Files</title>
+<desc>Three zones under an arrow from source, change this, to delivery, read this. Good source: Markdown and plain text, HTML, OpenDocument text, CSV for data, and SVG for diagrams. All five are open formats and good sources. Usually acceptable: a Word document, whose format is a published standard but whose full fidelity depends on particular software. Poor source: a PDF, which is an open international standard but is built for reading, and a page layout or design-program file, which is closed and poor unless you own the program. Each tile has a round badge for open and a square badge for good source.</desc>
+<rect width="1200" height="700" fill="#f7f9fc"/>
+<text x="40" y="50" font-size="32" fill="#1b2a41" font-weight="bold">Source Files and Delivery Files</text>
+<text x="40" y="80" font-size="18" fill="#4a5666">Open is not the same as editable. The round badge asks &quot;is it open?&quot; The square badge asks &quot;is it a good source?&quot;</text>
+<line x1="60" y1="112" x2="1128.8" y2="112" stroke="#6b7785" stroke-width="4" stroke-linecap="butt"/>
+<polygon points="1140,112 1127.9,119 1127.9,105" fill="#6b7785" stroke-linejoin="miter"/>
+<rect x="60" y="90" width="186.3" height="26" rx="13" fill="#1b2a41"/>
+<text x="153.2" y="108.1" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle">SOURCE: change this</text>
+<rect x="964.2" y="90" width="175.8" height="26" rx="13" fill="#6b7785"/>
+<text x="1052.1" y="108.1" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle">DELIVERY: read this</text>
+<rect x="30" y="136" width="510" height="504" rx="14" fill="#e3f4f1" stroke="#00796b" stroke-width="3"/>
+<rect x="30" y="136" width="510" height="52" rx="14" fill="#00796b"/>
+<rect x="30" y="164" width="510" height="24" rx="0" fill="#00796b"/>
+<circle cx="60" cy="162" r="14" fill="#ffffff"/>
+<path d="M53,163 l5,6 l9,-12" fill="none" stroke="#1b5e20" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="86" y="169" font-size="23" fill="#ffffff" font-weight="bold">Good source</text>
+<text x="46" y="214" font-size="16" fill="#004d40">Open formats you can edit and reuse</text>
+<polygon points="90.7,240 135.3,240 152.7,257.4 152.7,318 90.7,318" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="135.3,240 135.3,257.4 152.7,257.4" fill="#c9d1db" stroke="#1b2a41" stroke-width="2" stroke-linejoin="round"/>
+<text x="121.7" y="291.5" font-size="19" fill="#00796b" font-weight="bold" text-anchor="middle">.md</text>
+<text x="121.7" y="344" font-size="16" fill="#1b2a41" font-weight="bold" text-anchor="middle">Markdown and</text>
+<text x="121.7" y="362.9" font-size="16" fill="#1b2a41" font-weight="bold" text-anchor="middle">plain text</text>
+<circle cx="89" cy="388" r="15" fill="#ffffff" stroke="#2e7d32" stroke-width="3"/>
+<path d="M82.0,389 l5,6 l9,-12" fill="none" stroke="#2e7d32" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="139.3" y="373" width="30" height="30" rx="5" fill="#ffffff" stroke="#2e7d32" stroke-width="3"/>
+<path d="M147.33333333333334,389 l5,6 l9,-12" fill="none" stroke="#2e7d32" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="89" y="418" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">Open?</text>
+<text x="154.3" y="418" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">Source?</text>
+<polygon points="254,240 298.6,240 316,257.4 316,318 254,318" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="298.6,240 298.6,257.4 316,257.4" fill="#c9d1db" stroke="#1b2a41" stroke-width="2" stroke-linejoin="round"/>
+<text x="285" y="291.5" font-size="17" fill="#00796b" font-weight="bold" text-anchor="middle">.html</text>
+<text x="285" y="344" font-size="16" fill="#1b2a41" font-weight="bold" text-anchor="middle">HTML</text>
+<circle cx="252.3" cy="388" r="15" fill="#ffffff" stroke="#2e7d32" stroke-width="3"/>
+<path d="M245.33333333333331,389 l5,6 l9,-12" fill="none" stroke="#2e7d32" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="302.7" y="373" width="30" height="30" rx="5" fill="#ffffff" stroke="#2e7d32" stroke-width="3"/>
+<path d="M310.6666666666667,389 l5,6 l9,-12" fill="none" stroke="#2e7d32" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="252.3" y="418" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">Open?</text>
+<text x="317.7" y="418" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">Source?</text>
+<polygon points="417.3,240 462,240 479.3,257.4 479.3,318 417.3,318" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="462,240 462,257.4 479.3,257.4" fill="#c9d1db" stroke="#1b2a41" stroke-width="2" stroke-linejoin="round"/>
+<text x="448.3" y="291.5" font-size="19" fill="#00796b" font-weight="bold" text-anchor="middle">.odt</text>
+<text x="448.3" y="344" font-size="16" fill="#1b2a41" font-weight="bold" text-anchor="middle">OpenDocument</text>
+<text x="448.3" y="362.9" font-size="16" fill="#1b2a41" font-weight="bold" text-anchor="middle">text</text>
+<circle cx="415.7" cy="388" r="15" fill="#ffffff" stroke="#2e7d32" stroke-width="3"/>
+<path d="M408.6666666666667,389 l5,6 l9,-12" fill="none" stroke="#2e7d32" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="466" y="373" width="30" height="30" rx="5" fill="#ffffff" stroke="#2e7d32" stroke-width="3"/>
+<path d="M474.00000000000006,389 l5,6 l9,-12" fill="none" stroke="#2e7d32" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="415.7" y="418" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">Open?</text>
+<text x="481" y="418" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">Source?</text>
+<polygon points="90.7,446 135.3,446 152.7,463.4 152.7,524 90.7,524" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="135.3,446 135.3,463.4 152.7,463.4" fill="#c9d1db" stroke="#1b2a41" stroke-width="2" stroke-linejoin="round"/>
+<text x="121.7" y="497.5" font-size="19" fill="#00796b" font-weight="bold" text-anchor="middle">.csv</text>
+<text x="121.7" y="550" font-size="16" fill="#1b2a41" font-weight="bold" text-anchor="middle">CSV</text>
+<circle cx="89" cy="594" r="15" fill="#ffffff" stroke="#2e7d32" stroke-width="3"/>
+<path d="M82.0,595 l5,6 l9,-12" fill="none" stroke="#2e7d32" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="139.3" y="579" width="30" height="30" rx="5" fill="#ffffff" stroke="#2e7d32" stroke-width="3"/>
+<path d="M147.33333333333334,595 l5,6 l9,-12" fill="none" stroke="#2e7d32" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="89" y="624" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">Open?</text>
+<text x="154.3" y="624" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">Source?</text>
+<polygon points="254,446 298.6,446 316,463.4 316,524 254,524" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="298.6,446 298.6,463.4 316,463.4" fill="#c9d1db" stroke="#1b2a41" stroke-width="2" stroke-linejoin="round"/>
+<text x="285" y="497.5" font-size="19" fill="#00796b" font-weight="bold" text-anchor="middle">.svg</text>
+<text x="285" y="550" font-size="16" fill="#1b2a41" font-weight="bold" text-anchor="middle">SVG</text>
+<circle cx="252.3" cy="594" r="15" fill="#ffffff" stroke="#2e7d32" stroke-width="3"/>
+<path d="M245.33333333333331,595 l5,6 l9,-12" fill="none" stroke="#2e7d32" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="302.7" y="579" width="30" height="30" rx="5" fill="#ffffff" stroke="#2e7d32" stroke-width="3"/>
+<path d="M310.6666666666667,595 l5,6 l9,-12" fill="none" stroke="#2e7d32" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="252.3" y="624" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">Open?</text>
+<text x="317.7" y="624" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">Source?</text>
+<rect x="556" y="136" width="250" height="504" rx="14" fill="#fdf1d6" stroke="#8a5a00" stroke-width="3"/>
+<rect x="556" y="136" width="250" height="52" rx="14" fill="#8a5a00"/>
+<rect x="556" y="164" width="250" height="24" rx="0" fill="#8a5a00"/>
+<polygon points="586,148 600.7,173.2 571.3,173.2" fill="#ffffff" stroke-linejoin="round"/>
+<line x1="586" y1="157.8" x2="586" y2="165.5" stroke="#5c3c00" stroke-width="2.8" stroke-linecap="round"/>
+<circle cx="586" cy="169.7" r="2.3" fill="#5c3c00"/>
+<text x="612" y="169" font-size="18.5" fill="#ffffff" font-weight="bold">Usually acceptable</text>
+<text x="572" y="214" font-size="13" fill="#5c3c00">Works if you have the right software</text>
+<polygon points="650,240 694.6,240 712,257.4 712,318 650,318" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="694.6,240 694.6,257.4 712,257.4" fill="#c9d1db" stroke="#1b2a41" stroke-width="2" stroke-linejoin="round"/>
+<text x="681" y="291.5" font-size="17" fill="#8a5a00" font-weight="bold" text-anchor="middle">.docx</text>
+<text x="681" y="344" font-size="16" fill="#1b2a41" font-weight="bold" text-anchor="middle">Word document</text>
+<circle cx="635" cy="388" r="15" fill="#ffffff" stroke="#e69500" stroke-width="3"/>
+<line x1="635" y1="381" x2="635" y2="390" stroke="#1b2a41" stroke-width="3.5" stroke-linecap="round"/>
+<circle cx="635" cy="396" r="2.2" fill="#1b2a41"/>
+<rect x="712" y="373" width="30" height="30" rx="5" fill="#ffffff" stroke="#e69500" stroke-width="3"/>
+<line x1="727" y1="381" x2="727" y2="390" stroke="#1b2a41" stroke-width="3.5" stroke-linecap="round"/>
+<circle cx="727" cy="396" r="2.2" fill="#1b2a41"/>
+<text x="635" y="418" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">Open?</text>
+<text x="727" y="418" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">Source?</text>
+<text x="681" y="476" font-size="16" fill="#1b2a41" text-anchor="middle">A published standard, but</text>
+<text x="681" y="496" font-size="16" fill="#1b2a41" text-anchor="middle">full fidelity depends on</text>
+<text x="681" y="516" font-size="16" fill="#1b2a41" text-anchor="middle">particular software.</text>
+<rect x="822" y="136" width="348" height="504" rx="14" fill="#fde8e8" stroke="#b71c1c" stroke-width="3"/>
+<rect x="822" y="136" width="348" height="52" rx="14" fill="#b71c1c"/>
+<rect x="822" y="164" width="348" height="24" rx="0" fill="#b71c1c"/>
+<circle cx="852" cy="162" r="14" fill="#ffffff"/>
+<line x1="846.4" y1="156.4" x2="857.6" y2="167.6" stroke="#b71c1c" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="846.4" y1="167.6" x2="857.6" y2="156.4" stroke="#b71c1c" stroke-width="3.5" stroke-linecap="round"/>
+<text x="878" y="169" font-size="23" fill="#ffffff" font-weight="bold">Poor source</text>
+<text x="838" y="214" font-size="16" fill="#7f1313">Built for reading, or closed</text>
+<polygon points="883,240 927.6,240 945,257.4 945,318 883,318" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="927.6,240 927.6,257.4 945,257.4" fill="#c9d1db" stroke="#1b2a41" stroke-width="2" stroke-linejoin="round"/>
+<text x="914" y="291.5" font-size="19" fill="#b71c1c" font-weight="bold" text-anchor="middle">.pdf</text>
+<text x="914" y="344" font-size="16" fill="#1b2a41" font-weight="bold" text-anchor="middle">PDF</text>
+<circle cx="881.2" cy="388" r="15" fill="#ffffff" stroke="#2e7d32" stroke-width="3"/>
+<path d="M874.2,389 l5,6 l9,-12" fill="none" stroke="#2e7d32" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="931.8" y="373" width="30" height="30" rx="5" fill="#ffffff" stroke="#b71c1c" stroke-width="3"/>
+<line x1="940.8" y1="382" x2="952.8" y2="394" stroke="#b71c1c" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="940.8" y1="394" x2="952.8" y2="382" stroke="#b71c1c" stroke-width="3.5" stroke-linecap="round"/>
+<text x="881.2" y="418" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">Open?</text>
+<text x="946.8" y="418" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">Source?</text>
+<polygon points="1047,240 1091.6,240 1109,257.4 1109,318 1047,318" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="1091.6,240 1091.6,257.4 1109,257.4" fill="#c9d1db" stroke="#1b2a41" stroke-width="2" stroke-linejoin="round"/>
+<rect x="1057" y="254" width="18" height="22" rx="0" fill="#c9d1db"/>
+<rect x="1081" y="254" width="18" height="10" rx="0" fill="#c9d1db"/>
+<rect x="1081" y="268" width="18" height="8" rx="0" fill="#c9d1db"/>
+<line x1="1057" y1="288" x2="1099" y2="288" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<line x1="1057" y1="298" x2="1084" y2="298" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<text x="1078" y="344" font-size="16" fill="#1b2a41" font-weight="bold" text-anchor="middle">Page layout or</text>
+<text x="1078" y="362.9" font-size="16" fill="#1b2a41" font-weight="bold" text-anchor="middle">design file</text>
+<circle cx="1045.2" cy="388" r="15" fill="#ffffff" stroke="#b71c1c" stroke-width="3"/>
+<line x1="1039.2" y1="382" x2="1051.2" y2="394" stroke="#b71c1c" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="1039.2" y1="394" x2="1051.2" y2="382" stroke="#b71c1c" stroke-width="3.5" stroke-linecap="round"/>
+<rect x="1095.8" y="373" width="30" height="30" rx="5" fill="#ffffff" stroke="#b71c1c" stroke-width="3"/>
+<line x1="1104.8" y1="382" x2="1116.8" y2="394" stroke="#b71c1c" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="1104.8" y1="394" x2="1116.8" y2="382" stroke="#b71c1c" stroke-width="3.5" stroke-linecap="round"/>
+<text x="1045.2" y="418" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">Open?</text>
+<text x="1110.8" y="418" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">Source?</text>
+<text x="996" y="476" font-size="16" fill="#1b2a41" text-anchor="middle">A PDF is an open international standard,</text>
+<text x="996" y="496" font-size="16" fill="#1b2a41" text-anchor="middle">and still a poor source because it is built</text>
+<text x="996" y="516" font-size="16" fill="#1b2a41" text-anchor="middle">for reading.</text>
+<text x="996" y="546" font-size="16" fill="#1b2a41" text-anchor="middle">A design-program file is poor unless you</text>
+<text x="996" y="566" font-size="16" fill="#1b2a41" text-anchor="middle">own the program.</text>
+<text x="40" y="674" font-size="15" fill="#4a5666">Open here means the specification is public. The last badge says whether the format is a good source for editing.</text>
+</svg>

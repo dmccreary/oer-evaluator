@@ -1,0 +1,82 @@
+{
+  "title": "Source Files and Delivery Files",
+  "image": "source-and-delivery-files.svg",
+  "layout": "grid",
+  "showLabels": false,
+  "palette": [
+    "#00796b",
+    "#8a5a00",
+    "#b71c1c"
+  ],
+  "zones": [
+    {
+      "id": "good-source",
+      "label": "Good source",
+      "color": "#00796b",
+      "x1": 2.5,
+      "y1": 19.4,
+      "x2": 45.0,
+      "y2": 91.4,
+      "summary": "Five formats that are open and good sources for editing.",
+      "facts": [
+        "Markdown (.md) and plain text (.txt): open, plain text.",
+        "HTML (.html): open, public web standards.",
+        "OpenDocument text (.odt): open, an international standard.",
+        "CSV (.csv): open plain text table, good for data.",
+        "SVG (.svg): open web standard for drawings, good for diagrams."
+      ]
+    },
+    {
+      "id": "usually-acceptable",
+      "label": "Usually acceptable",
+      "color": "#8a5a00",
+      "x1": 46.3,
+      "y1": 19.4,
+      "x2": 67.2,
+      "y2": 91.4,
+      "summary": "The Word document is a published standard, but fidelity depends on software.",
+      "facts": [
+        "Word document (.docx): a published standard.",
+        "Full fidelity depends on particular software.",
+        "A reasonable source format when your colleagues have a word processor."
+      ]
+    },
+    {
+      "id": "poor-source",
+      "label": "Poor source",
+      "color": "#b71c1c",
+      "x1": 68.5,
+      "y1": 19.4,
+      "x2": 97.5,
+      "y2": 91.4,
+      "summary": "A PDF is open but built for reading; a design-program file is closed.",
+      "facts": [
+        "PDF (.pdf): an open international standard, poor as a source because it is built for reading.",
+        "A page layout or design-program file: closed, poor unless you own the program.",
+        "A PDF records how each page looks, not the structure, so changing a sentence means copying text out of the page."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which zone holds the PDF, a format that is open but a poor source?",
+      "correct_zone": "poor-source",
+      "explanation": "A PDF is built for reading."
+    },
+    {
+      "question": "Which zone holds the Word document?",
+      "correct_zone": "usually-acceptable",
+      "explanation": "Full fidelity depends on particular software."
+    },
+    {
+      "question": "Which zone holds Markdown, HTML, OpenDocument text, CSV, and SVG?",
+      "correct_zone": "good-source",
+      "explanation": "All five are open and good sources."
+    },
+    {
+      "question": "Which zone holds a page layout file that you can edit only if you own the program?",
+      "correct_zone": "poor-source",
+      "explanation": "It is closed, so it is a poor source."
+    }
+  ]
+}
