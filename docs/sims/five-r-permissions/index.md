@@ -1,6 +1,6 @@
 ---
-title: The 5R Permissions: Five Things You May Do
-description: Five panels, one for each of the 5R permissions, each with the plain meaning, the test question to ask, and a classroom scene.
+title: "The 5R Permissions: Five Things You May Do"
+description: "Five panels, one for each of the 5R permissions, each with the plain meaning, the test question to ask, and a classroom scene."
 image: /sims/five-r-permissions/five-r-permissions.png
 og:image: /sims/five-r-permissions/five-r-permissions.png
 twitter:image: /sims/five-r-permissions/five-r-permissions.png
@@ -15,7 +15,7 @@ hide:
 
 <iframe src="main.html" height="741px" width="100%" scrolling="no"></iframe>
 
-[Run the The 5R Permissions: Five Things You May Do MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the 5R Permissions: Five Things You May Do MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>
 [Chapter 1: Foundations of Open Educational Resources](../../chapters/01-foundations-of-oer/index.md){ .md-button }
 
@@ -54,6 +54,7 @@ This MicroSim is a **grid overlay**: the poster is a drawing made for this book 
 ### Good to Know
 
 Quiz mode scores each question as you answer it. The MicroSim does not store your answers. The poster prints its own headings, so the sim adds no labels on top of it.
+
 - The five panels run in sequence, not in rank. No permission is more important than another.
 
 ## Lesson Plan
