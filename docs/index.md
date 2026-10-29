@@ -5,14 +5,17 @@ image: img/cover.png
 hide:
   - toc
 ---
+<style>
+.md-content__inner h1 {display: none !important;}
+</style>
 
 # OER Evaluator
 
-**Evaluating and Improving Open Educational Resources with AI Agents**
-
 <figure markdown>
-  ![OER Evaluator cover: Echo the Loon holding a magnifying glass beside cards for the six Creative Commons licenses, the ten-metric rubric, a quality and reusability chart, a score of 100, an AI agent checking evidence, and an A/B test with students](./img/cover.png){ width="100%" }
+  ![OER Evaluator: Evaluating and Improving Open Educational Resources with AI Agents. Cover image of Echo the Loon, a common loon in an indigo scarf holding a magnifying glass, beside cards for the six Creative Commons licenses, the ten-metric rubric, a quality and reusability chart, a score of 100, an AI agent checking evidence, and an A/B test with students](./img/cover.png){ width="100%" }
 </figure>
+
+**Evaluating and Improving Open Educational Resources with AI Agents**
 
 Finding open educational resources (OER) is easy. Knowing whether one is good,
 and whether you can reuse it in your own course, is hard. A careful review of

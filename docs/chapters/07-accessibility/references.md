@@ -19,3 +19,5 @@
 9. [Keyboard Accessibility](https://webaim.org/techniques/keyboard/) - WebAIM - Explains how people use a page without a mouse, including tab order, visible focus, and skip links. Gives a simple procedure for the chapter's keyboard test.
 
 10. [WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/) - WebAIM - A free tool that marks errors and alerts directly on a web page. Shows which accessibility problems automated checks can find and which still need a human reviewer.
+
+11. [The 6th "R" of Intelligent Textbooks](https://dmccreary.github.io/intelligent-textbooks/appendices/five-rs-of-intelligent-textbooks/) - Dan McCreary, Intelligent Textbooks - Extends David Wiley's 5Rs of open content (retain, reuse, revise, remix, redistribute) with a sixth right, regenerate, for rebuilding a textbook from its learning graph and course description. The rights to revise and remix are what let someone other than the author fix a missing alt text or caption.

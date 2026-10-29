@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" role="img">
+<title>Five Resources, Five Shapes</title>
+<desc>Five radar charts side by side, ordered from the lowest total to the highest. Thin Material: quality 14, reusability 23, total 37, Weak, Reject. Watershed Basics: 32 and 33, total 65, Fair, Revise; a balanced, middling shape. Locked Chemistry E-book: 44 and 21, total 65, Fair, Revise; strong on the quality side and collapsed on the reusability side. One Gap: 45 and 40, total 85, Good, Revise; round except for one dent at portability. Open Algebra: 43 and 47, total 90, Excellent, Adopt; a large, even shape. A bracket joins the two charts with total 65 and reads same total, different shape.</desc>
+<rect width="1200" height="700" fill="#f7f9fc"/>
+<text x="40" y="50" font-size="32" fill="#1b2a41" font-weight="bold">Five Resources, Five Shapes</text>
+<text x="40" y="80" font-size="18" fill="#4a5666">Ten metric scores per resource, from the lowest total to the highest. Illustrative examples from Chapter 3.</text>
+<rect x="30" y="124" width="218.4" height="494" rx="14" fill="#ffffff" stroke="#c9d1db" stroke-width="2.5"/>
+<text x="139.2" y="154" font-size="19" fill="#1b2a41" font-weight="bold" text-anchor="middle">Thin Material</text>
+<polygon points="139.2,250 195.6,268.3 230.5,316.3 230.5,375.7 195.6,423.7 139.2,442 82.8,423.7 47.9,375.7 47.9,316.3 82.8,268.3" fill="none" stroke="#c9d1db" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="139.2,298 167.4,307.2 184.9,331.2 184.9,360.8 167.4,384.8 139.2,394 111,384.8 93.5,360.8 93.5,331.2 111,307.2" fill="none" stroke="#e69500" stroke-width="2.5" stroke-dasharray="6 5" stroke-linejoin="round"/>
+<line x1="139.2" y1="346" x2="139.2" y2="250" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="139.2" y1="346" x2="195.6" y2="268.3" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="139.2" y1="346" x2="230.5" y2="316.3" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="139.2" y1="346" x2="230.5" y2="375.7" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="139.2" y1="346" x2="195.6" y2="423.7" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="139.2" y1="346" x2="139.2" y2="442" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="139.2" y1="346" x2="82.8" y2="423.7" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="139.2" y1="346" x2="47.9" y2="375.7" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="139.2" y1="346" x2="47.9" y2="316.3" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="139.2" y1="346" x2="82.8" y2="268.3" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<polygon points="139.2,317.2 150.5,330.5 175.7,334.1 166.6,354.9 150.5,361.5 139.2,394 116.6,377.1 111.8,354.9 84.4,328.2 111,307.2" fill="#1b2a41" stroke="#1b2a41" stroke-width="2.5" opacity="0.13" stroke-linejoin="round"/>
+<polygon points="139.2,317.2 150.5,330.5 175.7,334.1 166.6,354.9 150.5,361.5 139.2,394 116.6,377.1 111.8,354.9 84.4,328.2 111,307.2" fill="none" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="139.2" y1="346" x2="139.2" y2="317.2" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="139.2" cy="317.2" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="139.2" y1="346" x2="150.5" y2="330.5" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="150.5" cy="330.5" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="139.2" y1="346" x2="175.7" y2="334.1" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="175.7" cy="334.1" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="139.2" y1="346" x2="166.6" y2="354.9" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="166.6" cy="354.9" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="139.2" y1="346" x2="150.5" y2="361.5" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="150.5" cy="361.5" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="139.2" y1="346" x2="139.2" y2="394" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="133.2" y="388" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<line x1="139.2" y1="346" x2="116.6" y2="377.1" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="110.6" y="371.1" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<line x1="139.2" y1="346" x2="111.8" y2="354.9" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="105.8" y="348.9" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<line x1="139.2" y1="346" x2="84.4" y2="328.2" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="78.4" y="322.2" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<line x1="139.2" y1="346" x2="111" y2="307.2" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="105" y="301.2" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<text x="139.2" y="479" font-size="30" fill="#1b2a41" font-weight="bold" text-anchor="middle">Total 37</text>
+<text x="139.2" y="507" font-size="18" fill="#1b2a41" text-anchor="middle">Weak band</text>
+<rect x="44" y="524" width="190.4" height="36" rx="18" fill="#fde3e3" stroke="#b71c1c" stroke-width="2.5"/>
+<circle cx="66" cy="542" r="12" fill="#b71c1c"/>
+<line x1="61.2" y1="537.2" x2="70.8" y2="546.8" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="61.2" y1="546.8" x2="70.8" y2="537.2" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round"/>
+<text x="88" y="549" font-size="20" fill="#b71c1c" font-weight="bold">Reject</text>
+<text x="139.2" y="590" font-size="15" fill="#4a5666" text-anchor="middle">Quality 14 · Reusability 23</text>
+<rect x="260.4" y="124" width="218.4" height="494" rx="14" fill="#ffffff" stroke="#c9d1db" stroke-width="2.5"/>
+<text x="369.6" y="154" font-size="19" fill="#1b2a41" font-weight="bold" text-anchor="middle">Watershed Basics</text>
+<polygon points="369.6,250 426,268.3 460.9,316.3 460.9,375.7 426,423.7 369.6,442 313.2,423.7 278.3,375.7 278.3,316.3 313.2,268.3" fill="none" stroke="#c9d1db" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="369.6,298 397.8,307.2 415.3,331.2 415.3,360.8 397.8,384.8 369.6,394 341.4,384.8 323.9,360.8 323.9,331.2 341.4,307.2" fill="none" stroke="#e69500" stroke-width="2.5" stroke-dasharray="6 5" stroke-linejoin="round"/>
+<line x1="369.6" y1="346" x2="369.6" y2="250" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="369.6" y1="346" x2="426" y2="268.3" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="369.6" y1="346" x2="460.9" y2="316.3" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="369.6" y1="346" x2="460.9" y2="375.7" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="369.6" y1="346" x2="426" y2="423.7" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="369.6" y1="346" x2="369.6" y2="442" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="369.6" y1="346" x2="313.2" y2="423.7" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="369.6" y1="346" x2="278.3" y2="375.7" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="369.6" y1="346" x2="278.3" y2="316.3" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="369.6" y1="346" x2="313.2" y2="268.3" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<polygon points="369.6,278.8 403.5,299.4 442.6,322.3 415.3,360.8 403.5,392.6 369.6,432.4 341.4,384.8 333.1,357.9 296.6,322.3 330.1,291.6" fill="#1b2a41" stroke="#1b2a41" stroke-width="2.5" opacity="0.13" stroke-linejoin="round"/>
+<polygon points="369.6,278.8 403.5,299.4 442.6,322.3 415.3,360.8 403.5,392.6 369.6,432.4 341.4,384.8 333.1,357.9 296.6,322.3 330.1,291.6" fill="none" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="369.6" y1="346" x2="369.6" y2="278.8" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="369.6" cy="278.8" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="369.6" y1="346" x2="403.5" y2="299.4" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="403.5" cy="299.4" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="369.6" y1="346" x2="442.6" y2="322.3" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="442.6" cy="322.3" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="369.6" y1="346" x2="415.3" y2="360.8" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="415.3" cy="360.8" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="369.6" y1="346" x2="403.5" y2="392.6" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="403.5" cy="392.6" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="369.6" y1="346" x2="369.6" y2="432.4" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="363.6" y="426.4" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<line x1="369.6" y1="346" x2="341.4" y2="384.8" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="335.4" y="378.8" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<line x1="369.6" y1="346" x2="333.1" y2="357.9" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="327.1" y="351.9" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<line x1="369.6" y1="346" x2="296.6" y2="322.3" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="290.6" y="316.3" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<line x1="369.6" y1="346" x2="330.1" y2="291.6" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="324.1" y="285.6" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<text x="369.6" y="479" font-size="30" fill="#1b2a41" font-weight="bold" text-anchor="middle">Total 65</text>
+<text x="369.6" y="507" font-size="18" fill="#1b2a41" text-anchor="middle">Fair band</text>
+<rect x="274.4" y="524" width="190.4" height="36" rx="18" fill="#fdf1d6" stroke="#8a5a00" stroke-width="2.5"/>
+<circle cx="296.4" cy="542" r="12" fill="#8a5a00"/>
+<polygon points="291,547.4 291.6,543.2 299.4,535.4 303,539 295.2,546.8" fill="#1b2a41" stroke-linejoin="round"/>
+<text x="318.4" y="549" font-size="20" fill="#8a5a00" font-weight="bold">Revise</text>
+<text x="369.6" y="590" font-size="15" fill="#4a5666" text-anchor="middle">Quality 32 · Reusability 33</text>
+<rect x="490.8" y="124" width="218.4" height="494" rx="14" fill="#ffffff" stroke="#c9d1db" stroke-width="2.5"/>
+<text x="600" y="154" font-size="19" fill="#1b2a41" font-weight="bold" text-anchor="middle">Locked Chemistry</text>
+<text x="600" y="175.8" font-size="19" fill="#1b2a41" font-weight="bold" text-anchor="middle">E-book</text>
+<polygon points="600,250 656.4,268.3 691.3,316.3 691.3,375.7 656.4,423.7 600,442 543.6,423.7 508.7,375.7 508.7,316.3 543.6,268.3" fill="none" stroke="#c9d1db" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="600,298 628.2,307.2 645.7,331.2 645.7,360.8 628.2,384.8 600,394 571.8,384.8 554.3,360.8 554.3,331.2 571.8,307.2" fill="none" stroke="#e69500" stroke-width="2.5" stroke-dasharray="6 5" stroke-linejoin="round"/>
+<line x1="600" y1="346" x2="600" y2="250" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="600" y1="346" x2="656.4" y2="268.3" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="600" y1="346" x2="691.3" y2="316.3" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="600" y1="346" x2="691.3" y2="375.7" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="600" y1="346" x2="656.4" y2="423.7" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="600" y1="346" x2="600" y2="442" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="600" y1="346" x2="543.6" y2="423.7" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="600" y1="346" x2="508.7" y2="375.7" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="600" y1="346" x2="508.7" y2="316.3" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="600" y1="346" x2="543.6" y2="268.3" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<polygon points="600,259.6 650.8,276.1 682.2,319.3 673,369.7 650.8,415.9 600,355.6 571.8,384.8 545.2,363.8 581.7,340.1 560.5,291.6" fill="#1b2a41" stroke="#1b2a41" stroke-width="2.5" opacity="0.13" stroke-linejoin="round"/>
+<polygon points="600,259.6 650.8,276.1 682.2,319.3 673,369.7 650.8,415.9 600,355.6 571.8,384.8 545.2,363.8 581.7,340.1 560.5,291.6" fill="none" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="600" y1="346" x2="600" y2="259.6" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="600" cy="259.6" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="600" y1="346" x2="650.8" y2="276.1" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="650.8" cy="276.1" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="600" y1="346" x2="682.2" y2="319.3" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="682.2" cy="319.3" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="600" y1="346" x2="673" y2="369.7" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="673" cy="369.7" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="600" y1="346" x2="650.8" y2="415.9" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="650.8" cy="415.9" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="600" y1="346" x2="600" y2="355.6" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="594" y="349.6" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<line x1="600" y1="346" x2="571.8" y2="384.8" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="565.8" y="378.8" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<line x1="600" y1="346" x2="545.2" y2="363.8" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="539.2" y="357.8" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<line x1="600" y1="346" x2="581.7" y2="340.1" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="575.7" y="334.1" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<line x1="600" y1="346" x2="560.5" y2="291.6" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="554.5" y="285.6" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<text x="600" y="479" font-size="30" fill="#1b2a41" font-weight="bold" text-anchor="middle">Total 65</text>
+<text x="600" y="507" font-size="18" fill="#1b2a41" text-anchor="middle">Fair band</text>
+<rect x="504.8" y="524" width="190.4" height="36" rx="18" fill="#fdf1d6" stroke="#8a5a00" stroke-width="2.5"/>
+<circle cx="526.8" cy="542" r="12" fill="#8a5a00"/>
+<polygon points="521.4,547.4 522,543.2 529.8,535.4 533.4,539 525.6,546.8" fill="#1b2a41" stroke-linejoin="round"/>
+<text x="548.8" y="549" font-size="20" fill="#8a5a00" font-weight="bold">Revise</text>
+<text x="600" y="590" font-size="15" fill="#4a5666" text-anchor="middle">Quality 44 · Reusability 21</text>
+<rect x="721.2" y="124" width="218.4" height="494" rx="14" fill="#ffffff" stroke="#c9d1db" stroke-width="2.5"/>
+<text x="830.4" y="154" font-size="19" fill="#1b2a41" font-weight="bold" text-anchor="middle">One Gap</text>
+<polygon points="830.4,250 886.8,268.3 921.7,316.3 921.7,375.7 886.8,423.7 830.4,442 774,423.7 739.1,375.7 739.1,316.3 774,268.3" fill="none" stroke="#c9d1db" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="830.4,298 858.6,307.2 876.1,331.2 876.1,360.8 858.6,384.8 830.4,394 802.2,384.8 784.7,360.8 784.7,331.2 802.2,307.2" fill="none" stroke="#e69500" stroke-width="2.5" stroke-dasharray="6 5" stroke-linejoin="round"/>
+<line x1="830.4" y1="346" x2="830.4" y2="250" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="830.4" y1="346" x2="886.8" y2="268.3" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="830.4" y1="346" x2="921.7" y2="316.3" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="830.4" y1="346" x2="921.7" y2="375.7" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="830.4" y1="346" x2="886.8" y2="423.7" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="830.4" y1="346" x2="830.4" y2="442" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="830.4" y1="346" x2="774" y2="423.7" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="830.4" y1="346" x2="739.1" y2="375.7" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="830.4" y1="346" x2="739.1" y2="316.3" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="830.4" y1="346" x2="774" y2="268.3" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<polygon points="830.4,259.6 881.2,276.1 912.6,319.3 912.6,372.7 881.2,415.9 830.4,432.4 779.6,415.9 748.2,372.7 748.2,319.3 807.8,314.9" fill="#1b2a41" stroke="#1b2a41" stroke-width="2.5" opacity="0.13" stroke-linejoin="round"/>
+<polygon points="830.4,259.6 881.2,276.1 912.6,319.3 912.6,372.7 881.2,415.9 830.4,432.4 779.6,415.9 748.2,372.7 748.2,319.3 807.8,314.9" fill="none" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="830.4" y1="346" x2="830.4" y2="259.6" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="830.4" cy="259.6" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="830.4" y1="346" x2="881.2" y2="276.1" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="881.2" cy="276.1" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="830.4" y1="346" x2="912.6" y2="319.3" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="912.6" cy="319.3" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="830.4" y1="346" x2="912.6" y2="372.7" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="912.6" cy="372.7" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="830.4" y1="346" x2="881.2" y2="415.9" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="881.2" cy="415.9" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="830.4" y1="346" x2="830.4" y2="432.4" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="824.4" y="426.4" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<line x1="830.4" y1="346" x2="779.6" y2="415.9" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="773.6" y="409.9" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<line x1="830.4" y1="346" x2="748.2" y2="372.7" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="742.2" y="366.7" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<line x1="830.4" y1="346" x2="748.2" y2="319.3" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="742.2" y="313.3" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<line x1="830.4" y1="346" x2="807.8" y2="314.9" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="801.8" y="308.9" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<text x="830.4" y="479" font-size="30" fill="#1b2a41" font-weight="bold" text-anchor="middle">Total 85</text>
+<text x="830.4" y="507" font-size="18" fill="#1b2a41" text-anchor="middle">Good band</text>
+<rect x="735.2" y="524" width="190.4" height="36" rx="18" fill="#fdf1d6" stroke="#8a5a00" stroke-width="2.5"/>
+<circle cx="757.2" cy="542" r="12" fill="#8a5a00"/>
+<polygon points="751.8,547.4 752.4,543.2 760.2,535.4 763.8,539 756,546.8" fill="#1b2a41" stroke-linejoin="round"/>
+<text x="779.2" y="549" font-size="20" fill="#8a5a00" font-weight="bold">Revise</text>
+<text x="830.4" y="590" font-size="15" fill="#4a5666" text-anchor="middle">Quality 45 · Reusability 40</text>
+<rect x="951.6" y="124" width="218.4" height="494" rx="14" fill="#ffffff" stroke="#c9d1db" stroke-width="2.5"/>
+<text x="1060.8" y="154" font-size="19" fill="#1b2a41" font-weight="bold" text-anchor="middle">Open Algebra</text>
+<polygon points="1060.8,250 1117.2,268.3 1152.1,316.3 1152.1,375.7 1117.2,423.7 1060.8,442 1004.4,423.7 969.5,375.7 969.5,316.3 1004.4,268.3" fill="none" stroke="#c9d1db" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1060.8,298 1089,307.2 1106.5,331.2 1106.5,360.8 1089,384.8 1060.8,394 1032.6,384.8 1015.1,360.8 1015.1,331.2 1032.6,307.2" fill="none" stroke="#e69500" stroke-width="2.5" stroke-dasharray="6 5" stroke-linejoin="round"/>
+<line x1="1060.8" y1="346" x2="1060.8" y2="250" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="1060.8" y1="346" x2="1117.2" y2="268.3" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="1060.8" y1="346" x2="1152.1" y2="316.3" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="1060.8" y1="346" x2="1152.1" y2="375.7" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="1060.8" y1="346" x2="1117.2" y2="423.7" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="1060.8" y1="346" x2="1060.8" y2="442" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="1060.8" y1="346" x2="1004.4" y2="423.7" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="1060.8" y1="346" x2="969.5" y2="375.7" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="1060.8" y1="346" x2="969.5" y2="316.3" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<line x1="1060.8" y1="346" x2="1004.4" y2="268.3" stroke="#c9d1db" stroke-width="1" stroke-linecap="round"/>
+<polygon points="1060.8,259.6 1105.9,283.9 1133.8,322.3 1143,372.7 1111.6,415.9 1060.8,442 1010,415.9 978.6,372.7 969.5,316.3 1010,276.1" fill="#1b2a41" stroke="#1b2a41" stroke-width="2.5" opacity="0.13" stroke-linejoin="round"/>
+<polygon points="1060.8,259.6 1105.9,283.9 1133.8,322.3 1143,372.7 1111.6,415.9 1060.8,442 1010,415.9 978.6,372.7 969.5,316.3 1010,276.1" fill="none" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="1060.8" y1="346" x2="1060.8" y2="259.6" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="1060.8" cy="259.6" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="1060.8" y1="346" x2="1105.9" y2="283.9" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="1105.9" cy="283.9" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="1060.8" y1="346" x2="1133.8" y2="322.3" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="1133.8" cy="322.3" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="1060.8" y1="346" x2="1143" y2="372.7" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="1143" cy="372.7" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="1060.8" y1="346" x2="1111.6" y2="415.9" stroke="#2c6fb7" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="1111.6" cy="415.9" r="6.5" fill="#2c6fb7" stroke="#ffffff" stroke-width="2"/>
+<line x1="1060.8" y1="346" x2="1060.8" y2="442" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="1054.8" y="436" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<line x1="1060.8" y1="346" x2="1010" y2="415.9" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="1004" y="409.9" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<line x1="1060.8" y1="346" x2="978.6" y2="372.7" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="972.6" y="366.7" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<line x1="1060.8" y1="346" x2="969.5" y2="316.3" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="963.5" y="310.3" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<line x1="1060.8" y1="346" x2="1010" y2="276.1" stroke="#7b4aa5" stroke-width="4.5" stroke-linecap="round"/>
+<rect x="1004" y="270.1" width="12" height="12" rx="0" fill="#7b4aa5" stroke="#ffffff" stroke-width="2"/>
+<text x="1060.8" y="479" font-size="30" fill="#1b2a41" font-weight="bold" text-anchor="middle">Total 90</text>
+<text x="1060.8" y="507" font-size="18" fill="#1b2a41" text-anchor="middle">Excellent band</text>
+<rect x="965.6" y="524" width="190.4" height="36" rx="18" fill="#e5f2e6" stroke="#2e7d32" stroke-width="2.5"/>
+<circle cx="987.6" cy="542" r="12" fill="#2e7d32"/>
+<path d="M982.2,542 L986.4,546.6 L993.6,537.4" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1009.6" y="549" font-size="20" fill="#2e7d32" font-weight="bold">Adopt</text>
+<text x="1060.8" y="590" font-size="15" fill="#4a5666" text-anchor="middle">Quality 43 · Reusability 47</text>
+<path d="M274.4,120 v-12 H695.2 v12" fill="none" stroke="#8a5a00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="366.2" y="88" width="237.3" height="26" rx="13" fill="#e69500"/>
+<text x="484.8" y="106.4" font-size="16" fill="#1b2a41" font-weight="bold" text-anchor="middle">Same total, different shape</text>
+<circle cx="48" cy="648" r="7" fill="#2c6fb7"/>
+<text x="62" y="654" font-size="15" fill="#1b2a41">Quality metrics 1 to 5 (right half)</text>
+<rect x="330" y="642" width="12" height="12" rx="0" fill="#7b4aa5"/>
+<text x="350" y="654" font-size="15" fill="#1b2a41">Reusability metrics 6 to 10 (left half)</text>
+<line x1="660" y1="648" x2="700" y2="648" stroke="#e69500" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 5"/>
+<text x="708" y="654" font-size="15" fill="#1b2a41">Floor: a score of 5</text>
+<text x="40" y="684" font-size="14" fill="#4a5666">Each spoke runs from 0 at the center to 10 at the outer ring. Bands and decisions use the chapter&#x27;s starting values.</text>
+</svg>

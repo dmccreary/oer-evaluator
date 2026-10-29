@@ -1,0 +1,79 @@
+{
+  "title": "The 5R Permissions: Five Things You May Do",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Five panels, one for each of the 5R permissions, each with the plain meaning, the test question to ask, and a classroom scene.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "The 5R permissions: retain, reuse, revise, remix, redistribute",
+    "learningObjectives": [
+      "The learner will identify which of the 5R permissions a classroom action uses, with at least 4 of 5 correct on the first attempt."
+    ],
+    "bloomsTaxonomy": "Remember",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "The meaning of an open license from [Chapter 1](../../chapters/01-foundations-of-oer/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (grid-diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 741
+    },
+    "canvasHeight": 741,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/grid-diagram.js, grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "Can I make and keep my own copy?",
+      "Can I use it as it is?",
+      "Can I change it?",
+      "Can I combine it with other open work?",
+      "Can I share copies with others?"
+    ],
+    "commonMisconceptions": [
+      "Reuse covers any use, including after changes",
+      "Retain means keeping a link to a resource online",
+      "Revise and remix are the same permission",
+      "Sharing an unchanged copy is reuse"
+    ],
+    "assessmentOpportunities": [
+      "You fix a typo in an open worksheet. Which permission is that?",
+      "You email an unchanged open worksheet to a colleague. Which permission?",
+      "Which permission lets you build one unit from chapters of two open textbooks?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Poster zones",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "01-foundations-of-oer"
+}

@@ -1,0 +1,74 @@
+{
+  "title": "Five Resources, Five Shapes",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Five radar charts, one for each resource in the Chapter 3 total score example, showing that equal totals can hide very different shapes.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "The shape of ten metric scores behind one total",
+    "learningObjectives": [
+      "The learner will distinguish resources with the same total score by the shape of their ten metric scores, and name the metric to fix first."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "The ten metrics and the 0 to 10 scale from [Chapter 3](../../chapters/03-ten-metric-rubric-scoring/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (grid-diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 741
+    },
+    "canvasHeight": 741,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/grid-diagram.js, grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "Which half of the chart is bigger?",
+      "Which spoke dips inside the floor ring?"
+    ],
+    "commonMisconceptions": [
+      "A total of 75 or more always means Adopt",
+      "Equal totals mean equal resources"
+    ],
+    "assessmentOpportunities": [
+      "Two resources total 65. Can you say how they differ from the total alone?",
+      "Which resource has nine metrics of 9 and one of 4, and what is its decision?",
+      "What does the dashed ring on each chart mark?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Poster zones",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "03-ten-metric-rubric-scoring"
+}

@@ -1,0 +1,115 @@
+{
+  "title": "Five Resources, Five Shapes",
+  "image": "five-resources-five-shapes.svg",
+  "layout": "grid",
+  "showLabels": false,
+  "palette": [
+    "#b71c1c",
+    "#8a5a00",
+    "#2e7d32"
+  ],
+  "zones": [
+    {
+      "id": "thin-material",
+      "label": "Thin Material",
+      "color": "#b71c1c",
+      "x1": 2.5,
+      "y1": 17.7,
+      "x2": 20.7,
+      "y2": 88.3,
+      "summary": "Total 37, Weak band, decision Reject. Quality 14, reusability 23.",
+      "facts": [
+        "Quality scores 3, 2, 4, 3, 2: accuracy and currency, alignment, readability, accessibility, practice with feedback.",
+        "Reusability scores 5, 4, 3, 6, 5: open license, modularity, metadata, editable source, portability.",
+        "Lowest metric: Alignment and Practice with feedback, at 2."
+      ]
+    },
+    {
+      "id": "watershed-basics",
+      "label": "Watershed Basics",
+      "color": "#8a5a00",
+      "x1": 21.7,
+      "y1": 17.7,
+      "x2": 39.9,
+      "y2": 88.3,
+      "summary": "Total 65, Fair band, decision Revise. Quality 32, reusability 33.",
+      "facts": [
+        "Quality scores 7, 6, 8, 5, 6: accuracy and currency, alignment, readability, accessibility, practice with feedback.",
+        "Reusability scores 9, 5, 4, 8, 7: open license, modularity, metadata, editable source, portability.",
+        "Lowest metric: Metadata, at 4."
+      ]
+    },
+    {
+      "id": "locked-chemistry-ebook",
+      "label": "Locked Chemistry E-book",
+      "color": "#8a5a00",
+      "x1": 40.9,
+      "y1": 17.7,
+      "x2": 59.1,
+      "y2": 88.3,
+      "summary": "Total 65, Fair band, decision Revise. Quality 44, reusability 21.",
+      "facts": [
+        "Quality scores 9, 9, 9, 8, 9: accuracy and currency, alignment, readability, accessibility, practice with feedback.",
+        "Reusability scores 1, 5, 6, 2, 7: open license, modularity, metadata, editable source, portability.",
+        "Lowest metric: Open license, at 1."
+      ]
+    },
+    {
+      "id": "one-gap",
+      "label": "One Gap",
+      "color": "#8a5a00",
+      "x1": 60.1,
+      "y1": 17.7,
+      "x2": 78.3,
+      "y2": 88.3,
+      "summary": "Total 85, Good band, decision Revise. Quality 45, reusability 40.",
+      "facts": [
+        "Quality scores 9, 9, 9, 9, 9: accuracy and currency, alignment, readability, accessibility, practice with feedback.",
+        "Reusability scores 9, 9, 9, 9, 4: open license, modularity, metadata, editable source, portability.",
+        "Lowest metric: Portability, at 4."
+      ]
+    },
+    {
+      "id": "open-algebra",
+      "label": "Open Algebra",
+      "color": "#2e7d32",
+      "x1": 79.3,
+      "y1": 17.7,
+      "x2": 97.5,
+      "y2": 88.3,
+      "summary": "Total 90, Excellent band, decision Adopt. Quality 43, reusability 47.",
+      "facts": [
+        "Quality scores 9, 8, 8, 9, 9: accuracy and currency, alignment, readability, accessibility, practice with feedback.",
+        "Reusability scores 10, 9, 9, 10, 9: open license, modularity, metadata, editable source, portability.",
+        "Lowest metric: Alignment and Readability, at 8."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which resource has nine metrics of 9 and one of 4, so it is Good but still Revise?",
+      "correct_zone": "one-gap",
+      "explanation": "Total 85 is Good, but one metric is below the floor of 5."
+    },
+    {
+      "question": "Which resource has strong quality metrics but a collapsed reusability side, and a total of 65?",
+      "correct_zone": "locked-chemistry-ebook",
+      "explanation": "Quality 44, reusability 21: strong on one side and locked down on the other."
+    },
+    {
+      "question": "Which resource is balanced and middling, with a total of 65 and metadata as its lowest metric?",
+      "correct_zone": "watershed-basics",
+      "explanation": "Quality 32 and reusability 33, with metadata at 4."
+    },
+    {
+      "question": "Which resource has the largest, most even shape and the decision Adopt?",
+      "correct_zone": "open-algebra",
+      "explanation": "Total 90, Excellent, with every metric at 8 or higher."
+    },
+    {
+      "question": "Which resource has the smallest shape and the decision Reject?",
+      "correct_zone": "thin-material",
+      "explanation": "Total 37 is below 50, so the decision is Reject."
+    }
+  ]
+}

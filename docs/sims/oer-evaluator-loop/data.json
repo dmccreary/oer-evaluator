@@ -1,0 +1,105 @@
+{
+  "title": "The OER Evaluator Loop",
+  "orientation": "landscape",
+  "image": "oer-evaluator-loop.svg",
+  "layout": "dual-panel",
+  "showNumbers": true,
+  "callouts": [
+    {
+      "id": 1,
+      "label": "Understand OER and licenses",
+      "x": 31.0,
+      "y": 17.0,
+      "radius": 3.0,
+      "color": "#00796b",
+      "hint": "A book with an open lock on its cover, at the start of the loop.",
+      "description": "Learn what makes a resource open and how the six Creative Commons licenses work. Chapters 1 and 2.",
+      "tip": "Open means permission, not price. Everything later in the loop depends on reading a license correctly.",
+      "panel": "left"
+    },
+    {
+      "id": 8,
+      "label": "Publish and train others",
+      "x": 11.5,
+      "y": 36.3,
+      "radius": 3.0,
+      "color": "#ad1457",
+      "hint": "A ribbon badge with a star, just before the loop closes.",
+      "description": "Package improved components with a license and metadata, publish them openly, and train other teachers. Chapters 18 and 19.",
+      "tip": "Published work and trained reviewers bring new resources back to station 1.",
+      "panel": "left"
+    },
+    {
+      "id": 7,
+      "label": "Calibrate the agent against the test results",
+      "x": 11.5,
+      "y": 63.7,
+      "radius": 3.0,
+      "color": "#ad1457",
+      "hint": "A dial with a needle, at the start of the thick return arrow.",
+      "description": "Compare the agent's scores with what the students actually learned, then adjust the prompt. Chapters 14 and 17.",
+      "tip": "This is the thick return arrow to station 3. It is how automated scores earn trust.",
+      "panel": "left"
+    },
+    {
+      "id": 6,
+      "label": "Test the change with students in an A/B test",
+      "x": 31.0,
+      "y": 83.0,
+      "radius": 3.0,
+      "color": "#ad1457",
+      "hint": "Two groups of people separated by a vertical divider.",
+      "description": "Randomly assign students to the original or the improved version, and compare learning gain. Chapters 16 and 17.",
+      "tip": "Change one thing at a time, and say that a small test is evidence, not proof.",
+      "panel": "left"
+    },
+    {
+      "id": 2,
+      "label": "Score a resource by hand with the ten-metric rubric",
+      "x": 69.0,
+      "y": 17.0,
+      "radius": 3.0,
+      "color": "#00796b",
+      "hint": "A worksheet with a column of check boxes.",
+      "description": "Score ten metrics, five for quality and five for reusability, and add them up to a total out of 100. Chapters 3 to 11.",
+      "tip": "Scoring by hand first gives you the human judgment that the agent will later be compared with.",
+      "panel": "right"
+    },
+    {
+      "id": 3,
+      "label": "Direct an AI agent to make a first pass",
+      "x": 88.5,
+      "y": 36.3,
+      "radius": 3.0,
+      "color": "#00796b",
+      "hint": "A window with a prompt arrow, where the return arrow ends.",
+      "description": "Write a rubric prompt, run the agent, and collect its scores with evidence. Chapters 12 and 13.",
+      "tip": "The return arrow from station 7 ends here: each pass should be better calibrated than the last.",
+      "panel": "right"
+    },
+    {
+      "id": 4,
+      "label": "Check the agent's evidence",
+      "x": 88.5,
+      "y": 63.7,
+      "radius": 3.0,
+      "color": "#00796b",
+      "hint": "A magnifying glass over a page.",
+      "description": "Open each quoted source and recompute each score. Look for factual, license, citation, and scoring errors. Chapter 14.",
+      "tip": "A fluent report is not a correct report. Agreement with a human can also come from chance.",
+      "panel": "right"
+    },
+    {
+      "id": 5,
+      "label": "Improve the lowest metrics with agents",
+      "x": 69.0,
+      "y": 83.0,
+      "radius": 3.0,
+      "color": "#c77700",
+      "hint": "A wrench beside an upward arrow, the only marker in its color.",
+      "description": "Fix the lowest-scoring metric first, using agents for alt text, readability, metadata, and more, with a human check on every change. Chapter 15.",
+      "tip": "An agent's edited copy is a derivative work, so read the license before the first edit.",
+      "panel": "right"
+    }
+  ]
+}

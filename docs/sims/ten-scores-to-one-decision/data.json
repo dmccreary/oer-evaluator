@@ -1,0 +1,81 @@
+{
+  "title": "From Ten Scores to One Decision",
+  "orientation": "landscape",
+  "image": "ten-scores-to-one-decision.svg",
+  "layout": "top-bottom",
+  "showNumbers": true,
+  "callouts": [
+    {
+      "id": 1,
+      "label": "Ten metric scores",
+      "x": 4.8,
+      "y": 15.0,
+      "radius": 3.2,
+      "color": "#2c6fb7",
+      "hint": "Ten vertical bars, five in one color and five in a patterned second color, with a dashed line across them.",
+      "description": "Each metric is scored as a whole number from 0 to 10. Metrics 1 to 5 are quality and metrics 6 to 10 are reusability. The dashed line is the floor of 5. The example is Watershed Basics: 7, 6, 8, 5, 6 and 9, 5, 4, 8, 7.",
+      "tip": "Report the lowest metrics beside every subtotal. The subtotal alone hides them.",
+      "panel": "top"
+    },
+    {
+      "id": 2,
+      "label": "Two subtotals of 50 points",
+      "x": 33.2,
+      "y": 21.4,
+      "radius": 3.2,
+      "color": "#7b4aa5",
+      "hint": "Two tall bars side by side, each with a dashed outline showing how full it could be.",
+      "description": "The quality subtotal is the sum of metrics 1 to 5 and the reusability subtotal is the sum of metrics 6 to 10. Each is out of 50. Watershed Basics has 32 and 33.",
+      "tip": "Two resources can share a subtotal and need very different fixes.",
+      "panel": "top"
+    },
+    {
+      "id": 3,
+      "label": "The total out of 100",
+      "x": 53.2,
+      "y": 27.1,
+      "radius": 3.2,
+      "color": "#1b2a41",
+      "hint": "A single stacked bar, shorter than the stage before it.",
+      "description": "The total is the quality subtotal plus the reusability subtotal, from 0 to 100. Watershed Basics totals 65. It is the number people ask for and the least informative number in a report.",
+      "tip": "Three resources can each total 65 and need three different actions.",
+      "panel": "top"
+    },
+    {
+      "id": 4,
+      "label": "The score band",
+      "x": 69.0,
+      "y": 52.3,
+      "radius": 3.2,
+      "color": "#6b7785",
+      "hint": "A strip of five segments from light to dark, with a pointer above one of them.",
+      "description": "The total falls into a band: Excellent 90 to 100, Good 75 to 89, Fair 50 to 74, Weak 25 to 49, and Poor 0 to 24. A total of 65 is Fair.",
+      "tip": "The bands are this book's starting values, not a standard.",
+      "panel": "bottom"
+    },
+    {
+      "id": 6,
+      "label": "The floor gate and the One Gap example",
+      "x": 69.8,
+      "y": 76.0,
+      "radius": 3.2,
+      "color": "#b71c1c",
+      "hint": "A small inset with nine tall bars and one short bar that dips below the dashed line, beside a padlock.",
+      "description": "One Gap has nine metrics of 9 and one of 4. The total is 85, which is Good, yet the decision is still Revise because one metric is below the floor of 5.",
+      "tip": "A total of 75 or more does not always mean Adopt. The floor is why.",
+      "panel": "bottom"
+    },
+    {
+      "id": 5,
+      "label": "The decision",
+      "x": 88.8,
+      "y": 49.1,
+      "radius": 3.2,
+      "color": "#2e7d32",
+      "hint": "Three small icons stacked in a column, one of them circled.",
+      "description": "Adopt when the total is at least 75 and every metric is at least 5. Reject when the total is below 50. Otherwise Revise. Watershed Basics is Revise, shown by the pencil.",
+      "tip": "Color alone never carries the decision: a check, a pencil, and a cross do too.",
+      "panel": "bottom"
+    }
+  ]
+}

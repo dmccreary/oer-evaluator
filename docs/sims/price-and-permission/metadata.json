@@ -1,0 +1,75 @@
+{
+  "title": "Free Is Not Open: Price and Permission",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "A two-by-two matrix that shows price and permission are separate dials, so a free resource can be closed and a paid copy of an open resource can still be open.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Free versus open: price and permission are independent",
+    "learningObjectives": [
+      "The learner will explain why a resource that costs nothing is not necessarily open, using the four cells of the price and permission matrix."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "The definition of an open educational resource from [Chapter 1](../../chapters/01-foundations-of-oer/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (grid-diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 765
+    },
+    "canvasHeight": 765,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/grid-diagram.js, grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "What does this cost the user?",
+      "What may the user do with it?"
+    ],
+    "commonMisconceptions": [
+      "OER must cost nothing",
+      "Anything free to read is open",
+      "A resource that is sold in print cannot be OER"
+    ],
+    "assessmentOpportunities": [
+      "A library e-book costs the reader nothing but forbids copying. Which zone is it in?",
+      "A lesson plan licensed CC BY 4.0 is posted on a teacher blog. Is it OER?",
+      "A print shop sells an open textbook at cost. Is the printed copy still OER?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Poster zones",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "01-foundations-of-oer"
+}

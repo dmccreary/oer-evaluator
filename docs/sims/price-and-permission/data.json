@@ -1,0 +1,95 @@
+{
+  "title": "Free Is Not Open: Price and Permission",
+  "image": "price-and-permission.svg",
+  "layout": "grid",
+  "showLabels": false,
+  "palette": [
+    "#00796b",
+    "#6b7785"
+  ],
+  "zones": [
+    {
+      "id": "free-open",
+      "label": "Free and open",
+      "color": "#00796b",
+      "x1": 20.8,
+      "y1": 30.3,
+      "x2": 58.1,
+      "y2": 60.0,
+      "summary": "Free and open: costs nothing and grants permissions.",
+      "facts": [
+        "Chapter 1 example: a lesson plan with a CC BY license.",
+        "The user pays nothing and may edit and share it, with credit to the author.",
+        "It passes both OER tests: an educational resource, under an open license."
+      ]
+    },
+    {
+      "id": "open-paid-print",
+      "label": "Open, with a paid print copy",
+      "color": "#00796b",
+      "x1": 59.4,
+      "y1": 30.3,
+      "x2": 96.7,
+      "y2": 60.0,
+      "summary": "Open, with a paid print copy: the license, not the price, makes it OER.",
+      "facts": [
+        "Chapter 1 example: an open textbook that a print shop sells at cost.",
+        "The digital copy is free; the printed copy costs money.",
+        "The license still lets a campus print shop make copies without asking the publisher.",
+        "It is OER. \"OER must cost nothing\" is a common misunderstanding."
+      ]
+    },
+    {
+      "id": "free-closed",
+      "label": "Free but closed",
+      "color": "#6b7785",
+      "x1": 20.8,
+      "y1": 63.4,
+      "x2": 58.1,
+      "y2": 93.1,
+      "summary": "Free but closed: no price, but no permission to edit or share.",
+      "facts": [
+        "Chapter 1 example: a publisher's sample chapter marked \"All rights reserved\".",
+        "You may read it, but copyright's default of all rights reserved still applies.",
+        "It is not OER because it has no open license."
+      ]
+    },
+    {
+      "id": "paid-closed",
+      "label": "Paid and closed",
+      "color": "#6b7785",
+      "x1": 59.4,
+      "y1": 63.4,
+      "x2": 96.7,
+      "y2": 93.1,
+      "summary": "Paid and closed: costs money and grants no permissions.",
+      "facts": [
+        "Chapter 1 example: a commercial textbook from the campus store.",
+        "The student pays and still may not edit or share it.",
+        "Many resources you meet in school sit in this zone."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which zone holds a publisher's sample chapter marked \"All rights reserved\"?",
+      "correct_zone": "free-closed",
+      "explanation": "It costs nothing, but all rights are reserved."
+    },
+    {
+      "question": "Which zone holds a lesson plan licensed CC BY 4.0 that costs the user nothing?",
+      "correct_zone": "free-open",
+      "explanation": "It is free and open."
+    },
+    {
+      "question": "Which zone shows an open resource where only the printed copy costs money?",
+      "correct_zone": "open-paid-print",
+      "explanation": "The license grants the permissions, so the paid print copy is still OER."
+    },
+    {
+      "question": "Which zone holds a commercial textbook from the campus store?",
+      "correct_zone": "paid-closed",
+      "explanation": "It costs money and grants no permissions."
+    }
+  ]
+}

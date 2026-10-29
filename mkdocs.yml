@@ -160,6 +160,17 @@ nav:
     - Ten-Metric Rubric Map: sims/rubric-structure-map/index.md
     - Total Score Calculator: sims/total-score-calculator/index.md
 
+  - Stories:
+      - Overview: stories/index.md
+      - Story Ideas: stories/story-ideas.md
+      - Cast and Style Sheet: stories/cast-sheet.md
+      - Blue Ribbon Casserole: stories/blue-ribbon-casserole/index.md
+      - The Floor Beneath the Total: stories/floor-beneath-the-total/index.md
+      - The Citation That Never Was: stories/citation-that-never-was/index.md
+      - The Tortoise, the Hare, and the Rubric: stories/tortoise-hare-and-the-rubric/index.md
+      - Minnesota Nice Is Not a Scoring Method: stories/minnesota-nice-scoring/index.md
+      - The Lake Effect Workshop: stories/lake-effect-workshop/index.md
+
 
 
   - Workshops:

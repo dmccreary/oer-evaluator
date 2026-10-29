@@ -1,0 +1,116 @@
+{
+  "title": "The 5R Permissions: Five Things You May Do",
+  "image": "five-r-permissions.svg",
+  "layout": "grid",
+  "showLabels": false,
+  "palette": [
+    "#00796b",
+    "#1d4f86",
+    "#8a5a00",
+    "#573379",
+    "#1b5e20"
+  ],
+  "zones": [
+    {
+      "id": "retain",
+      "label": "Retain",
+      "color": "#00796b",
+      "x1": 2.5,
+      "y1": 16.6,
+      "x2": 20.6,
+      "y2": 87.4,
+      "summary": "Make, own, and control copies of the resource.",
+      "facts": [
+        "Download it, duplicate it, store it, and manage your own copy.",
+        "Keep the file, not just a link. A bookmark is not a copy.",
+        "Retain matters because websites change and disappear."
+      ]
+    },
+    {
+      "id": "reuse",
+      "label": "Reuse",
+      "color": "#1d4f86",
+      "x1": 21.7,
+      "y1": 16.6,
+      "x2": 39.8,
+      "y2": 87.4,
+      "summary": "Use the resource in its original, unaltered form.",
+      "facts": [
+        "In a class, a study group, a workshop, a website, or a video.",
+        "Reuse stops where change begins.",
+        "The moment you alter it, even to fix a typo, you have moved to revise."
+      ]
+    },
+    {
+      "id": "revise",
+      "label": "Revise",
+      "color": "#8a5a00",
+      "x1": 41.0,
+      "y1": 16.6,
+      "x2": 59.0,
+      "y2": 87.4,
+      "summary": "Adapt, adjust, modify, or alter the resource itself.",
+      "facts": [
+        "Fix an error, update a statistic, translate, lower the reading level, or add local examples.",
+        "Adding captions or alt text is also a revision.",
+        "Revise is the permission that separates an open resource from a merely free one."
+      ]
+    },
+    {
+      "id": "remix",
+      "label": "Remix",
+      "color": "#573379",
+      "x1": 60.2,
+      "y1": 16.6,
+      "x2": 78.3,
+      "y2": 87.4,
+      "summary": "Combine the work with other open material to create something new.",
+      "facts": [
+        "Revise changes one work; remix joins two or more.",
+        "Remixing requires that the licenses of the parts are compatible. Chapter 2 explains how."
+      ]
+    },
+    {
+      "id": "redistribute",
+      "label": "Redistribute",
+      "color": "#1b5e20",
+      "x1": 79.4,
+      "y1": 16.6,
+      "x2": 97.5,
+      "y2": 87.4,
+      "summary": "Share copies of the original, revised, or remixed work with others.",
+      "facts": [
+        "Post it on a website, email it to colleagues, or upload it to a repository.",
+        "Redistribution is what lets one teacher's improvement reach every other teacher.",
+        "Keep a credit note and the license notice with the file when you pass it on."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "You add alt text to every image in an openly licensed chapter. Which permission is that?",
+      "correct_zone": "revise",
+      "explanation": "Adding alt text changes the work, and changing a work is revising it."
+    },
+    {
+      "question": "You show an openly licensed diagram, unchanged, on the projector. Which permission is that?",
+      "correct_zone": "reuse",
+      "explanation": "Using a work as it is, in your class, is reuse."
+    },
+    {
+      "question": "You copy the full set of source files of an open lab manual to an external drive. Which permission is that?",
+      "correct_zone": "retain",
+      "explanation": "Keeping your own copy for safekeeping is retaining."
+    },
+    {
+      "question": "You combine two chapters from different open textbooks and a public-domain map into one unit packet. Which permission is that?",
+      "correct_zone": "remix",
+      "explanation": "Combining two or more works into something new is remixing."
+    },
+    {
+      "question": "A colleague asks for the open worksheet you use, and you email them an unchanged copy. Which permission is that?",
+      "correct_zone": "redistribute",
+      "explanation": "Sharing copies with others is redistributing."
+    }
+  ]
+}
