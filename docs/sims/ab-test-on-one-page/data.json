@@ -1,0 +1,93 @@
+{
+  "title": "The A/B Test on One Page",
+  "orientation": "landscape",
+  "image": "ab-test-on-one-page.svg",
+  "layout": "top-bottom",
+  "showNumbers": true,
+  "callouts": [
+    {
+      "id": 7,
+      "label": "Consent and privacy",
+      "x": 3.3,
+      "y": 17.1,
+      "radius": 3.2,
+      "color": "#00796b",
+      "hint": "A form with a check mark and a shield above the crowd of students.",
+      "description": "Students and families are informed, and student data is protected. The pool is drawn as plain silhouettes with no identifying features.",
+      "tip": "Keep names and records out of every prompt and report.",
+      "panel": "top"
+    },
+    {
+      "id": 2,
+      "label": "Random assignment",
+      "x": 25.0,
+      "y": 33.6,
+      "radius": 3.2,
+      "color": "#1b2a41",
+      "hint": "Four colored tokens being shuffled between a crowd of students and the two lanes.",
+      "description": "Students are assigned to the two groups at random, like shuffled tokens. Random assignment spreads motivation and ability evenly, so students do not choose their group.",
+      "tip": "Never let volunteers pick a version. Student choice is a confounder.",
+      "panel": "top"
+    },
+    {
+      "id": 3,
+      "label": "The control group",
+      "x": 40.7,
+      "y": 20.0,
+      "radius": 3.2,
+      "color": "#1d4f86",
+      "hint": "The upper lane, where a group of students uses a plain document, version v1.",
+      "description": "The control group uses the original version, v1, with a rubric total of 65 (Revise). It receives ordinary teaching with the original, not no teaching.",
+      "tip": "The two lanes are mirror images. The only visible difference is the version.",
+      "panel": "top"
+    },
+    {
+      "id": 1,
+      "label": "The hypothesis",
+      "x": 55.8,
+      "y": 5.4,
+      "radius": 3.2,
+      "color": "#e69500",
+      "hint": "A glowing lightbulb above the two lanes.",
+      "description": "The hypothesis states what you expect, such as that the improved version gives a larger learning gain than the original. In the pilot it set a threshold of 5 points.",
+      "tip": "Write the hypothesis before the test, so the result cannot choose it.",
+      "panel": "top"
+    },
+    {
+      "id": 4,
+      "label": "The treatment group",
+      "x": 40.7,
+      "y": 52.1,
+      "radius": 3.2,
+      "color": "#00796b",
+      "hint": "The lower lane, where a group of students uses a document with a small upward chevron, version v1.1.",
+      "description": "The treatment group uses the improved version, v1.1, with a rubric total of 78 (Adopt). Everything else is the same as for the control group.",
+      "tip": "Change one thing at a time, or say that you tested a bundle.",
+      "panel": "bottom"
+    },
+    {
+      "id": 5,
+      "label": "The pre-test",
+      "x": 49.0,
+      "y": 64.3,
+      "radius": 3.2,
+      "color": "#2c6fb7",
+      "hint": "A sheet with check boxes, at the start of each lane, before the version document.",
+      "description": "Both groups take the same pre-test before the lesson, in week 1. It shows where each student starts, so the gain can be measured.",
+      "tip": "Use the same test and key for both groups.",
+      "panel": "bottom"
+    },
+    {
+      "id": 6,
+      "label": "The post-test and the learning gain",
+      "x": 67.3,
+      "y": 64.3,
+      "radius": 3.2,
+      "color": "#7b4aa5",
+      "hint": "A second sheet at the end of each lane, with arrows leading up to two bars of different heights.",
+      "description": "Both groups take the same post-test in week 4. The comparison is the learning gain of each group, the post-test score minus the pre-test score.",
+      "tip": "A difference from a small test may partly be luck. Chapter 17 puts it in context with an effect size.",
+      "panel": "bottom"
+    }
+  ]
+}
