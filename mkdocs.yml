@@ -262,6 +262,7 @@ exclude_docs: |
   **/cover-prompt.md
   **/cover-image-prompt.md
   **/TODO.md
+  /sims/TODO/
 
 # Rebuild on changes during `mkdocs serve`
 watch:
