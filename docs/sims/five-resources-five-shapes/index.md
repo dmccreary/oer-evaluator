@@ -1,6 +1,6 @@
 ---
-title: Five Resources, Five Shapes
-description: Five radar charts, one for each resource in the Chapter 3 total score example, showing that equal totals can hide very different shapes.
+title: "Five Resources, Five Shapes"
+description: "Five radar charts, one for each resource in the Chapter 3 total score example, showing that equal totals can hide very different shapes."
 image: /sims/five-resources-five-shapes/five-resources-five-shapes.png
 og:image: /sims/five-resources-five-shapes/five-resources-five-shapes.png
 twitter:image: /sims/five-resources-five-shapes/five-resources-five-shapes.png
@@ -54,6 +54,7 @@ This MicroSim is a **grid overlay**: the poster is a drawing made for this book 
 ### Good to Know
 
 Quiz mode scores each question as you answer it. The MicroSim does not store your answers. The poster prints its own headings, so the sim adds no labels on top of it.
+
 - The five resources, their scores, and their decisions are illustrative examples from Chapter 3.
 - The bands and the decision rule are this book's starting values, not a standard.
 
