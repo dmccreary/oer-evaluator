@@ -42,7 +42,9 @@ def main():
         b = p.chromium.launch()
         for s, home in slugs(wanted):
             svg = home / (s + '.svg')
-            pg = b.new_page(viewport={'width': width, 'height': round(700 * width / 1200)})
+            import re
+            vb = re.search(r'viewBox="0 0 (\d+) (\d+)"', svg.read_text())
+            pg = b.new_page(viewport={'width': width, 'height': round(int(vb.group(2)) * width / int(vb.group(1)))})
             html = '<body style="margin:0"><img src="file://%s" style="width:%dpx;display:block"></body>' % (svg, width)
             tmp = HERE / '.render.html'
             tmp.write_text(html)

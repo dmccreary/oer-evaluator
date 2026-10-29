@@ -74,6 +74,11 @@ def lib_prefix(meta):
     return '../shared-libs/' if home_of(meta) == 'sims' else '../../sims/shared-libs/'
 
 
+def yq(text):
+    """Escape text for a double-quoted YAML scalar."""
+    return text.replace('\\', '\\\\').replace('"', '\\"')
+
+
 def jdump(obj):
     return json.dumps(obj, indent=2, ensure_ascii=False) + '\n'
 
@@ -169,6 +174,7 @@ GRID_HTML = '''<!DOCTYPE html>
   <link rel="stylesheet" href="{lib}grid-overlay.css">
 </head>
 <body>
+<main>
 
 <div id="image-wrapper">
   <!-- image and zone overlay injected by grid-diagram.js -->
@@ -204,6 +210,8 @@ GRID_HTML = '''<!DOCTYPE html>
   </div>
 </div>
 
+</main>
+
 <script src="{lib}grid-diagram.js"></script>
 </body>
 </html>
@@ -219,6 +227,7 @@ CALLOUT_HTML = '''<!DOCTYPE html>
   <link rel="stylesheet" href="{lib}style.css">
 </head>
 <body>
+<main>
 
 <div id="layout">
   <svg id="leaders-svg"></svg>
@@ -260,6 +269,8 @@ CALLOUT_HTML = '''<!DOCTYPE html>
     <span id="copy-confirm"></span>
   </div>
 </div>
+
+</main>
 
 <script src="{lib}diagram.js"></script>
 </body>
@@ -312,13 +323,14 @@ def index_md(meta, engine, items, height):
                 'The artwork carries no text, so every name and number you read comes from the overlay.')
         h1 = ''
         kind = 'a **callout overlay**: the poster is a drawing made for this book (SVG) with no text in it, and every label comes from the numbered markers.'
-    extra_good = ''.join('\n- %s' % g for g in meta.get('good', []))
+    # A list needs a blank line before it, or MkDocs folds the bullets into the paragraph above.
+    extra_good = ('\n' + ''.join('\n- %s' % g for g in meta['good'])) if meta.get('good') else ''
     acts = '\n'.join('%d. %s' % (i + 1, a) for i, a in enumerate(meta['activities']))
     qa = '\n'.join('%d. %s *(%s)*' % (i + 1, q, a) for i, (q, a) in enumerate(meta['assessment']))
     prereq = '\n'.join('- %s' % p for p in meta['prereq'])
     return '''---
-title: {title}
-description: {desc}
+title: "{ytitle}"
+description: "{ydesc}"
 image: /{home}/{slug}/{slug}.png
 og:image: /{home}/{slug}/{slug}.png
 twitter:image: /{home}/{slug}/{slug}.png
@@ -331,7 +343,7 @@ hide:
 
 {h1}<iframe src="main.html" height="{height}px" width="100%" scrolling="no"></iframe>
 
-[Run the {title} MicroSim Fullscreen](./main.html){{ .md-button .md-button--primary }}
+[Run the {run_title} MicroSim Fullscreen](./main.html){{ .md-button .md-button--primary }}
 <br/>
 [{ch_label}]({ch_href}){{ .md-button }}
 
@@ -397,7 +409,9 @@ Ask learners to answer without the MicroSim, then check each answer against the 
 ## References
 
 {refs}
-'''.format(title=title, desc=meta['desc'], slug=slug, home=home_of(meta), h1=h1, height=height, ch_label=ch_label,
+'''.format(title=title, run_title=title[4:] if title.startswith('The ') else title,
+           ytitle=yq(title), ydesc=yq(meta['desc']),
+           desc=meta['desc'], slug=slug, home=home_of(meta), h1=h1, height=height, ch_label=ch_label,
            ch_href=ch_href, site=SITE, intro=meta['intro'], kind=kind, table=zone_table(engine, items),
            controls=controls, good=good, extra_good=extra_good, objective=meta['objective'],
            bloom=meta['bloom'], prereq=prereq, acts=acts, qa=qa, connection=meta['connection'],
