@@ -1,6 +1,6 @@
 ---
-title: The OER Evaluator Loop
-description: A closed loop with eight numbered stations that shows how the chapters fit together, and why test results are used to calibrate the AI agent.
+title: "The OER Evaluator Loop"
+description: "A closed loop with eight numbered stations that shows how the chapters fit together, and why test results are used to calibrate the AI agent."
 image: /sims/oer-evaluator-loop/oer-evaluator-loop.png
 og:image: /sims/oer-evaluator-loop/oer-evaluator-loop.png
 twitter:image: /sims/oer-evaluator-loop/oer-evaluator-loop.png
@@ -11,9 +11,9 @@ hide:
   - toc
 ---
 
-<iframe src="main.html" height="900px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="575px" width="100%" scrolling="no"></iframe>
 
-[Run the The OER Evaluator Loop MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the OER Evaluator Loop MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>
 [Chapters](../../chapters/index.md){ .md-button }
 
@@ -23,7 +23,7 @@ You can add this MicroSim to any web page with this `iframe`:
 
 ```html
 <iframe src="https://dmccreary.github.io/oer-evaluator/sims/oer-evaluator-loop/main.html"
-        height="900px"
+        height="575px"
         width="100%"
         scrolling="no"></iframe>
 ```
@@ -55,6 +55,7 @@ This MicroSim is a **callout overlay**: the poster is a drawing made for this bo
 ### Good to Know
 
 Quiz mode scores each marker as you answer it. The MicroSim does not store your answers. The artwork carries no text, so every name and number you read comes from the overlay.
+
 - Chapter numbers come from the chapter list. If chapters move, update the marker descriptions in `data.json`.
 
 ## Lesson Plan
