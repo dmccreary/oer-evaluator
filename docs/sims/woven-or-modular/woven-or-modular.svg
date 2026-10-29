@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" role="img">
+<title>Woven or Modular? The Lift-Out Test</title>
+<desc>Two zones. Woven design: one long page in which a reading, a quiz, and a simulation are interlaced threads of one cloth, with sticky notes &quot;as we saw in the last section&quot; and &quot;the diagram above&quot;. Modular design: a reading, a quiz, and a simulation as three separate blocks in separate folders, with the quiz block lifted away. Four comparison rows. Structure: one long page that mixes explanation, a quiz, and a simulation, against separate pieces. Taking out the quiz: copy it from the middle of the page and repair the links, against link or embed the quiz&#x27;s own page. Revising the simulation: edit the whole page and risk breaking the reading, against edit the simulation&#x27;s folder. Reuse by another teacher: take everything or nothing, against take any piece. A strip shows degrees of modularity from a single page, to a page with sections, to one file per part, to each part packaged with its own license and metadata.</desc>
+<rect width="1200" height="700" fill="#f7f9fc"/>
+<text x="40" y="50" font-size="32" fill="#1b2a41" font-weight="bold">Woven or Modular? The Lift-Out Test</text>
+<text x="40" y="80" font-size="18" fill="#4a5666">The same three pieces, built two ways. Try to lift the quiz out.</text>
+<rect x="30" y="100" width="560" height="542" rx="14" fill="#ffffff" stroke="#8a5a00" stroke-width="3"/>
+<rect x="30" y="100" width="560" height="46" rx="14" fill="#8a5a00"/>
+<rect x="30" y="124" width="560" height="22" rx="0" fill="#8a5a00"/>
+<text x="48" y="132" font-size="24" fill="#ffffff" font-weight="bold">Woven design</text>
+<text x="572" y="132" font-size="18" fill="#ffffff" text-anchor="end">one cloth</text>
+<rect x="60" y="168" width="250" height="17.1" rx="0" fill="#2c6fb7" opacity="0.95"/>
+<rect x="60" y="189.1" width="250" height="17.1" rx="0" fill="#2c6fb7" opacity="0.95"/>
+<rect x="60" y="210.2" width="250" height="17.1" rx="0" fill="#2c6fb7" opacity="0.95"/>
+<rect x="60" y="231.3" width="250" height="17.1" rx="0" fill="#e69500" opacity="0.95"/>
+<rect x="60" y="252.4" width="250" height="17.1" rx="0" fill="#e69500" opacity="0.95"/>
+<rect x="60" y="273.6" width="250" height="17.1" rx="0" fill="#e69500" opacity="0.95"/>
+<rect x="60" y="294.7" width="250" height="17.1" rx="0" fill="#00796b" opacity="0.95"/>
+<rect x="60" y="315.8" width="250" height="17.1" rx="0" fill="#00796b" opacity="0.95"/>
+<rect x="60" y="336.9" width="250" height="17.1" rx="0" fill="#00796b" opacity="0.95"/>
+<rect x="62" y="165" width="16.8" height="23.1" rx="3" fill="#2c6fb7" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="62" y="207.2" width="16.8" height="23.1" rx="3" fill="#2c6fb7" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="62" y="249.4" width="16.8" height="23.1" rx="3" fill="#2c6fb7" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="62" y="291.7" width="16.8" height="23.1" rx="3" fill="#2c6fb7" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="62" y="333.9" width="16.8" height="23.1" rx="3" fill="#2c6fb7" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="82.8" y="186.1" width="16.8" height="23.1" rx="3" fill="#e69500" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="82.8" y="228.3" width="16.8" height="23.1" rx="3" fill="#e69500" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="82.8" y="270.6" width="16.8" height="23.1" rx="3" fill="#e69500" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="82.8" y="312.8" width="16.8" height="23.1" rx="3" fill="#e69500" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="103.7" y="165" width="16.8" height="23.1" rx="3" fill="#00796b" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="103.7" y="207.2" width="16.8" height="23.1" rx="3" fill="#00796b" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="103.7" y="249.4" width="16.8" height="23.1" rx="3" fill="#00796b" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="103.7" y="291.7" width="16.8" height="23.1" rx="3" fill="#00796b" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="103.7" y="333.9" width="16.8" height="23.1" rx="3" fill="#00796b" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="124.5" y="186.1" width="16.8" height="23.1" rx="3" fill="#2c6fb7" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="124.5" y="228.3" width="16.8" height="23.1" rx="3" fill="#2c6fb7" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="124.5" y="270.6" width="16.8" height="23.1" rx="3" fill="#2c6fb7" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="124.5" y="312.8" width="16.8" height="23.1" rx="3" fill="#2c6fb7" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="145.3" y="165" width="16.8" height="23.1" rx="3" fill="#e69500" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="145.3" y="207.2" width="16.8" height="23.1" rx="3" fill="#e69500" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="145.3" y="249.4" width="16.8" height="23.1" rx="3" fill="#e69500" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="145.3" y="291.7" width="16.8" height="23.1" rx="3" fill="#e69500" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="145.3" y="333.9" width="16.8" height="23.1" rx="3" fill="#e69500" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="166.2" y="186.1" width="16.8" height="23.1" rx="3" fill="#00796b" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="166.2" y="228.3" width="16.8" height="23.1" rx="3" fill="#00796b" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="166.2" y="270.6" width="16.8" height="23.1" rx="3" fill="#00796b" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="166.2" y="312.8" width="16.8" height="23.1" rx="3" fill="#00796b" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="187" y="165" width="16.8" height="23.1" rx="3" fill="#2c6fb7" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="187" y="207.2" width="16.8" height="23.1" rx="3" fill="#2c6fb7" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="187" y="249.4" width="16.8" height="23.1" rx="3" fill="#2c6fb7" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="187" y="291.7" width="16.8" height="23.1" rx="3" fill="#2c6fb7" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="187" y="333.9" width="16.8" height="23.1" rx="3" fill="#2c6fb7" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="207.8" y="186.1" width="16.8" height="23.1" rx="3" fill="#e69500" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="207.8" y="228.3" width="16.8" height="23.1" rx="3" fill="#e69500" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="207.8" y="270.6" width="16.8" height="23.1" rx="3" fill="#e69500" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="207.8" y="312.8" width="16.8" height="23.1" rx="3" fill="#e69500" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="228.7" y="165" width="16.8" height="23.1" rx="3" fill="#00796b" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="228.7" y="207.2" width="16.8" height="23.1" rx="3" fill="#00796b" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="228.7" y="249.4" width="16.8" height="23.1" rx="3" fill="#00796b" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="228.7" y="291.7" width="16.8" height="23.1" rx="3" fill="#00796b" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="228.7" y="333.9" width="16.8" height="23.1" rx="3" fill="#00796b" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="249.5" y="186.1" width="16.8" height="23.1" rx="3" fill="#2c6fb7" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="249.5" y="228.3" width="16.8" height="23.1" rx="3" fill="#2c6fb7" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="249.5" y="270.6" width="16.8" height="23.1" rx="3" fill="#2c6fb7" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="249.5" y="312.8" width="16.8" height="23.1" rx="3" fill="#2c6fb7" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="270.3" y="165" width="16.8" height="23.1" rx="3" fill="#e69500" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="270.3" y="207.2" width="16.8" height="23.1" rx="3" fill="#e69500" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="270.3" y="249.4" width="16.8" height="23.1" rx="3" fill="#e69500" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="270.3" y="291.7" width="16.8" height="23.1" rx="3" fill="#e69500" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="270.3" y="333.9" width="16.8" height="23.1" rx="3" fill="#e69500" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="291.2" y="186.1" width="16.8" height="23.1" rx="3" fill="#00796b" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="291.2" y="228.3" width="16.8" height="23.1" rx="3" fill="#00796b" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="291.2" y="270.6" width="16.8" height="23.1" rx="3" fill="#00796b" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="291.2" y="312.8" width="16.8" height="23.1" rx="3" fill="#00796b" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="60" y="166" width="250" height="190" rx="0" fill="none" stroke="#1b2a41" stroke-width="3"/>
+<polygon points="268,180 418,176 420,236 270,238" fill="#ffe66d" stroke="#1b2a41" stroke-width="2" stroke-linejoin="round"/>
+<text x="343" y="202" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">&quot;as we saw in the</text>
+<text x="343" y="218.8" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">last section&quot;</text>
+<polygon points="360,260 510,256 512,316 362,318" fill="#ffe66d" stroke="#1b2a41" stroke-width="2" stroke-linejoin="round"/>
+<text x="435" y="282" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">&quot;the diagram</text>
+<text x="435" y="298.8" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">above&quot;</text>
+<line x1="430" y1="362" x2="368.5" y2="330.4" stroke="#b71c1c" stroke-width="4" stroke-linecap="butt"/>
+<polygon points="360,326 372,325.4 366.5,336.1" fill="#b71c1c" stroke-linejoin="miter"/>
+<rect x="60" y="368" width="18" height="18" rx="3" fill="#2c6fb7"/>
+<text x="84" y="383" font-size="16" fill="#1b2a41">reading</text>
+<rect x="190" y="368" width="18" height="18" rx="3" fill="#e69500"/>
+<text x="214" y="383" font-size="16" fill="#1b2a41">quiz</text>
+<rect x="320" y="368" width="18" height="18" rx="3" fill="#00796b"/>
+<text x="344" y="383" font-size="16" fill="#1b2a41">simulation</text>
+<rect x="610" y="100" width="560" height="542" rx="14" fill="#ffffff" stroke="#1a6559" stroke-width="3"/>
+<rect x="610" y="100" width="560" height="46" rx="14" fill="#1a6559"/>
+<rect x="610" y="124" width="560" height="22" rx="0" fill="#1a6559"/>
+<text x="628" y="132" font-size="24" fill="#ffffff" font-weight="bold">Modular design</text>
+<text x="1152" y="132" font-size="18" fill="#ffffff" text-anchor="end">separate blocks</text>
+<polygon points="638,298 692.7,298 704.2,290 741.7,290 750.3,298 782,298 782,368 638,368" fill="#fff3b0" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="650" y="200" width="120" height="92" rx="8" fill="#2c6fb7" stroke="#1b2a41" stroke-width="2.5"/>
+<rect x="658" y="208" width="104" height="14" rx="3" fill="#ffffff" opacity="0.9"/>
+<line x1="664" y1="240" x2="756" y2="240" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+<line x1="664" y1="254" x2="756" y2="254" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+<line x1="664" y1="268" x2="756" y2="268" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+<line x1="664" y1="282" x2="740" y2="282" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+<polygon points="808,298 862.7,298 874.2,290 911.7,290 920.3,298 952,298 952,368 808,368" fill="#fff3b0" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="820" y="154" width="120" height="100" rx="8" fill="none" stroke="#6b7785" stroke-width="2.5" stroke-dasharray="6 5"/>
+<rect x="820" y="162" width="120" height="100" rx="8" fill="#e69500" stroke="#1b2a41" stroke-width="2.5"/>
+<rect x="828" y="170" width="104" height="14" rx="3" fill="#ffffff" opacity="0.9"/>
+<circle cx="840" cy="202" r="5" fill="#ffffff"/>
+<line x1="852" y1="202" x2="926" y2="202" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+<circle cx="840" cy="222" r="5" fill="#ffffff"/>
+<line x1="852" y1="222" x2="926" y2="222" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+<circle cx="840" cy="242" r="5" fill="#ffffff"/>
+<line x1="852" y1="242" x2="926" y2="242" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+<rect x="820" y="154" width="120" height="100" rx="0" fill="none"/>
+<polygon points="978,298 1032.7,298 1044.2,290 1081.7,290 1090.3,298 1122,298 1122,368 978,368" fill="#fff3b0" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="990" y="200" width="120" height="92" rx="8" fill="#00796b" stroke="#1b2a41" stroke-width="2.5"/>
+<rect x="998" y="208" width="104" height="14" rx="3" fill="#ffffff" opacity="0.9"/>
+<path d="M1004,278 l16,-22 l16,10 l16,-26" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="960" y1="250" x2="960" y2="189.2" stroke="#1b2a41" stroke-width="5" stroke-linecap="butt"/>
+<polygon points="960,178 967,190.1 953,190.1" fill="#1b2a41" stroke-linejoin="miter"/>
+<text x="48" y="422" font-size="12" fill="#4a5666" font-weight="bold" letter-spacing="1">FOUR ROWS FROM THE CHAPTER</text>
+<text x="628" y="422" font-size="12" fill="#4a5666" font-weight="bold" letter-spacing="1">FOUR ROWS FROM THE CHAPTER</text>
+<rect x="40" y="436" width="540" height="44" rx="8" fill="#fdf1d6"/>
+<rect x="620" y="436" width="540" height="44" rx="8" fill="#e3f4f1"/>
+<text x="50" y="453" font-size="13.5" fill="#5c3c00" font-weight="bold">Structure</text>
+<text x="50" y="473" font-size="14.5" fill="#1b2a41">One long page that mixes explanation, a quiz, and a simulation</text>
+<text x="630" y="453" font-size="13.5" fill="#0e4a41" font-weight="bold">Structure</text>
+<text x="630" y="473" font-size="14.5" fill="#1b2a41">Separate pieces: a reading, a quiz, and a simulation</text>
+<rect x="40" y="486" width="540" height="44" rx="8" fill="#fdf1d6"/>
+<rect x="620" y="486" width="540" height="44" rx="8" fill="#e3f4f1"/>
+<text x="50" y="503" font-size="13.5" fill="#5c3c00" font-weight="bold">Taking out the quiz</text>
+<text x="50" y="523" font-size="14.5" fill="#1b2a41">Copy it from the middle of the page and repair the links</text>
+<text x="630" y="503" font-size="13.5" fill="#0e4a41" font-weight="bold">Taking out the quiz</text>
+<text x="630" y="523" font-size="14.5" fill="#1b2a41">Link or embed the quiz&#x27;s own page</text>
+<rect x="40" y="536" width="540" height="44" rx="8" fill="#fdf1d6"/>
+<rect x="620" y="536" width="540" height="44" rx="8" fill="#e3f4f1"/>
+<text x="50" y="553" font-size="13.5" fill="#5c3c00" font-weight="bold">Revising the simulation</text>
+<text x="50" y="573" font-size="14.5" fill="#1b2a41">Edit the whole page and risk breaking the reading</text>
+<text x="630" y="553" font-size="13.5" fill="#0e4a41" font-weight="bold">Revising the simulation</text>
+<text x="630" y="573" font-size="14.5" fill="#1b2a41">Edit the simulation&#x27;s folder</text>
+<rect x="40" y="586" width="540" height="44" rx="8" fill="#fdf1d6"/>
+<rect x="620" y="586" width="540" height="44" rx="8" fill="#e3f4f1"/>
+<text x="50" y="603" font-size="13.5" fill="#5c3c00" font-weight="bold">Reuse by another teacher</text>
+<text x="50" y="623" font-size="14.5" fill="#1b2a41">Take everything or nothing</text>
+<text x="630" y="603" font-size="13.5" fill="#0e4a41" font-weight="bold">Reuse by another teacher</text>
+<text x="630" y="623" font-size="14.5" fill="#1b2a41">Take any piece</text>
+<text x="30" y="666" font-size="12" fill="#4a5666" font-weight="bold" letter-spacing="1">DEGREES OF MODULARITY</text>
+<rect x="250" y="650" width="140" height="30" rx="6" fill="#c9d1db"/>
+<text x="320" y="670" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">A single page</text>
+<polygon points="398,665 388.5,670.5 388.5,659.5" fill="#6b7785" stroke-linejoin="miter"/>
+<rect x="406" y="650" width="190" height="30" rx="6" fill="#a8d5cc"/>
+<text x="501" y="670" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">A page with sections</text>
+<polygon points="604,665 594.5,670.5 594.5,659.5" fill="#6b7785" stroke-linejoin="miter"/>
+<rect x="612" y="650" width="160" height="30" rx="6" fill="#5fb3a4"/>
+<text x="692" y="670" font-size="14" fill="#1b2a41" font-weight="bold" text-anchor="middle">One file per part</text>
+<polygon points="780,665 770.5,670.5 770.5,659.5" fill="#6b7785" stroke-linejoin="miter"/>
+<rect x="788" y="650" width="330" height="30" rx="6" fill="#1a6559"/>
+<text x="953" y="670" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">Each part with its own license and metadata</text>
+</svg>

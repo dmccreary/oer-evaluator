@@ -1,0 +1,68 @@
+{
+  "title": "Woven or Modular? The Lift-Out Test",
+  "image": "woven-or-modular.svg",
+  "layout": "grid",
+  "showLabels": false,
+  "palette": [
+    "#8a5a00",
+    "#1a6559"
+  ],
+  "zones": [
+    {
+      "id": "woven",
+      "label": "Woven design",
+      "color": "#8a5a00",
+      "x1": 2.5,
+      "y1": 14.3,
+      "x2": 49.2,
+      "y2": 91.7,
+      "summary": "One long page where explanation, quiz, and simulation are threads of one cloth.",
+      "facts": [
+        "Structure: One long page that mixes explanation, a quiz, and a simulation",
+        "Taking out the quiz: Copy it from the middle of the page and repair the links.",
+        "Revising the simulation: Edit the whole page and risk breaking the reading.",
+        "Reuse by another teacher: Take everything or nothing.",
+        "Failure phrases: \"as we saw in the last section\" and \"the diagram above\"."
+      ]
+    },
+    {
+      "id": "modular",
+      "label": "Modular design",
+      "color": "#1a6559",
+      "x1": 50.8,
+      "y1": 14.3,
+      "x2": 97.5,
+      "y2": 91.7,
+      "summary": "A reading, a quiz, and a simulation as separate pieces, each in its own folder.",
+      "facts": [
+        "Structure: Separate pieces: a reading, a quiz, and a simulation.",
+        "Taking out the quiz: Link or embed the quiz's own page.",
+        "Revising the simulation: Edit the simulation's folder.",
+        "Reuse by another teacher: Take any piece.",
+        "Modularity is a matter of degree: a single page, a page with sections, one file per part, each part with its own license and metadata."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which design makes another teacher take everything or nothing?",
+      "correct_zone": "woven",
+      "explanation": "Woven pages cannot be taken apart."
+    },
+    {
+      "question": "Which design lets you link or embed the quiz's own page?",
+      "correct_zone": "modular",
+      "explanation": "Each piece has its own page."
+    },
+    {
+      "question": "Which design risks breaking the reading when you revise the simulation?",
+      "correct_zone": "woven",
+      "explanation": "You edit the whole page."
+    },
+    {
+      "question": "Which design lets you edit the simulation's folder and leave the rest alone?",
+      "correct_zone": "modular",
+      "explanation": "Each part is in its own folder."
+    }
+  ]
+}

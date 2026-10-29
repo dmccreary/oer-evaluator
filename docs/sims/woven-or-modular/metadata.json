@@ -1,0 +1,74 @@
+{
+  "title": "Woven or Modular? The Lift-Out Test",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "A woven cloth beside three separate building blocks shows why a quiz that is woven into one page cannot be lifted out, while a modular one can.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Woven versus modular design and the lift-out test",
+    "learningObjectives": [
+      "The learner will apply the lift-out test to decide whether a resource is woven or modular, and place it on the degrees of modularity."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "The modularity metric and the standalone component from [Chapter 9](../../chapters/09-modularity-metadata/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (grid-diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 811
+    },
+    "canvasHeight": 811,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/grid-diagram.js, grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "Can I lift this out and have it still make sense?",
+      "What breaks if I change this part?"
+    ],
+    "commonMisconceptions": [
+      "Modular means short",
+      "A long page with headings is already modular"
+    ],
+    "assessmentOpportunities": [
+      "A quiz refers to \"the diagram above\". Does it pass the lift-out test?",
+      "How does another teacher reuse a woven page?",
+      "What is the far end of the degrees of modularity?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Poster zones",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "09-modularity-metadata"
+}
