@@ -1,0 +1,75 @@
+{
+  "title": "You Can't Reuse What You Can't Find",
+  "image": "cant-reuse-what-you-cant-find.svg",
+  "layout": "grid",
+  "showLabels": false,
+  "palette": [
+    "#2e7d32",
+    "#b71c1c",
+    "#8a5a00"
+  ],
+  "zones": [
+    {
+      "id": "a",
+      "label": "Resource A: found, ranks high",
+      "color": "#2e7d32",
+      "x1": 2.5,
+      "y1": 22.9,
+      "x2": 33.3,
+      "y2": 91.1,
+      "summary": "Yes, and it ranks high.",
+      "facts": [
+        "Fields filled: title, author, subject, grade level, license, description.",
+        "Fields missing: none.",
+        "Does the search find it? Yes, and it ranks high."
+      ]
+    },
+    {
+      "id": "b",
+      "label": "Resource B: not found",
+      "color": "#b71c1c",
+      "x1": 34.6,
+      "y1": 22.9,
+      "x2": 65.4,
+      "y2": 91.1,
+      "summary": "No: no field mentions a watershed.",
+      "facts": [
+        "Fields filled: title.",
+        "Fields missing: author, subject, grade level, license, description.",
+        "Does the search find it? No: no field mentions a watershed."
+      ]
+    },
+    {
+      "id": "c",
+      "label": "Resource C: found, but unclear",
+      "color": "#8a5a00",
+      "x1": 66.7,
+      "y1": 22.9,
+      "x2": 97.5,
+      "y2": 91.1,
+      "summary": "Possibly, but the teacher cannot tell the grade or whether she may reuse it.",
+      "facts": [
+        "Fields filled: title, author.",
+        "Fields missing: subject, grade level, license, description.",
+        "Does the search find it? Possibly, but the teacher cannot tell the grade or whether she may reuse it."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which record has all six fields and ranks high for the search?",
+      "correct_zone": "a",
+      "explanation": "Resource A is complete."
+    },
+    {
+      "question": "Which record has only the title \"Reading 4\" and cannot be found?",
+      "correct_zone": "b",
+      "explanation": "No field mentions a watershed."
+    },
+    {
+      "question": "Which record may be found, but leaves the teacher unable to tell the grade or whether she may reuse it?",
+      "correct_zone": "c",
+      "explanation": "It lacks subject, grade level, license, and description."
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" role="img">
+<title>What Each Automated Check Can and Cannot Find</title>
+<desc>Four tools, each with a finds half and a cannot-find half. Link checker: finds links that return errors or have moved; cannot find a working link that leads to the wrong content. Accessibility scan: finds missing alt attributes, weak contrast, and missing labels; cannot find whether alt text is useful or captions are accurate. License detection: finds missing, mismatched, or unrecognized license statements; cannot find whether the license claim is true. Readability scan: gives a reading level for each passage; cannot find undefined terms, dense ideas, or audience fit. A footer says keep a human in the loop.</desc>
+<rect width="1200" height="700" fill="#f7f9fc"/>
+<text x="40" y="50" font-size="32" fill="#1b2a41" font-weight="bold">What Each Automated Check Can and Cannot Find</text>
+<text x="40" y="80" font-size="18" fill="#4a5666">A clean scan is not a finished review. Every tool has a lit half and a dark half.</text>
+<rect x="30" y="106" width="274.5" height="510" rx="14" fill="#ffffff" stroke="#1d4f86" stroke-width="3"/>
+<rect x="30" y="106" width="274.5" height="52" rx="14" fill="#1d4f86"/>
+<rect x="30" y="134" width="274.5" height="24" rx="0" fill="#1d4f86"/>
+<text x="46" y="140" font-size="22" fill="#ffffff" font-weight="bold">Link checker</text>
+<circle cx="167.2" cy="194" r="30" fill="#ffffff" stroke="#1d4f86" stroke-width="4"/>
+<rect x="153.2" y="189.1" width="16.8" height="9.8" rx="4.9" fill="none" stroke="#1d4f86" stroke-width="2.8"/>
+<rect x="164.4" y="189.1" width="16.8" height="9.8" rx="4.9" fill="none" stroke="#1d4f86" stroke-width="2.8"/>
+<polygon points="157.2,222 177.2,222 274.5,284 60,284" fill="#fff3b0" opacity="0.9" stroke-linejoin="round"/>
+<rect x="42" y="290" width="250.5" height="184" rx="10" fill="#e6eef8" stroke="#1d4f86" stroke-width="2.5"/>
+<circle cx="64" cy="314" r="11" fill="#2e7d32"/>
+<path d="M59,314 L62.9,318.2 L69.5,309.8" fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="84" y="320" font-size="15" fill="#1b5e20" font-weight="bold">FINDS</text>
+<circle cx="58" cy="345" r="3.5" fill="#1d4f86"/>
+<text x="68" y="350" font-size="14.5" fill="#1b2a41">Links that return errors</text>
+<circle cx="58" cy="366.4" r="3.5" fill="#1d4f86"/>
+<text x="68" y="371.4" font-size="14.5" fill="#1b2a41">Links that have moved</text>
+<rect x="42" y="486" width="250.5" height="122" rx="10" fill="#e1e5ea" stroke="#1b2a41" stroke-width="2.5" stroke-dasharray="2 6"/>
+<circle cx="64" cy="510" r="11" fill="#b71c1c"/>
+<line x1="59.6" y1="505.6" x2="68.4" y2="514.4" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="59.6" y1="514.4" x2="68.4" y2="505.6" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
+<text x="84" y="516" font-size="15" fill="#7f1313" font-weight="bold">CANNOT FIND</text>
+<circle cx="58" cy="539" r="3.5" fill="#1b2a41"/>
+<text x="68" y="544" font-size="14.5" fill="#1b2a41">A working link that leads to the</text>
+<text x="68" y="561.4" font-size="14.5" fill="#1b2a41">wrong content</text>
+<rect x="318.5" y="106" width="274.5" height="510" rx="14" fill="#ffffff" stroke="#00796b" stroke-width="3"/>
+<rect x="318.5" y="106" width="274.5" height="52" rx="14" fill="#00796b"/>
+<rect x="318.5" y="134" width="274.5" height="24" rx="0" fill="#00796b"/>
+<text x="334.5" y="140" font-size="22" fill="#ffffff" font-weight="bold">Accessibility scan</text>
+<circle cx="455.8" cy="194" r="30" fill="#ffffff" stroke="#00796b" stroke-width="4"/>
+<circle cx="455.8" cy="182" r="5" fill="#00796b"/>
+<line x1="443.8" y1="190" x2="467.8" y2="190" stroke="#00796b" stroke-width="4" stroke-linecap="round"/>
+<line x1="455.8" y1="190" x2="455.8" y2="200" stroke="#00796b" stroke-width="4" stroke-linecap="round"/>
+<line x1="455.8" y1="200" x2="447.8" y2="210" stroke="#00796b" stroke-width="4" stroke-linecap="round"/>
+<line x1="455.8" y1="200" x2="463.8" y2="210" stroke="#00796b" stroke-width="4" stroke-linecap="round"/>
+<polygon points="445.8,222 465.8,222 563,284 348.5,284" fill="#fff3b0" opacity="0.9" stroke-linejoin="round"/>
+<rect x="330.5" y="290" width="250.5" height="184" rx="10" fill="#e3f4f1" stroke="#00796b" stroke-width="2.5"/>
+<circle cx="352.5" cy="314" r="11" fill="#2e7d32"/>
+<path d="M347.6,314 L351.4,318.2 L358,309.8" fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="372.5" y="320" font-size="15" fill="#1b5e20" font-weight="bold">FINDS</text>
+<circle cx="346.5" cy="345" r="3.5" fill="#00796b"/>
+<text x="356.5" y="350" font-size="14.5" fill="#1b2a41">Missing alt attributes</text>
+<circle cx="346.5" cy="366.4" r="3.5" fill="#00796b"/>
+<text x="356.5" y="371.4" font-size="14.5" fill="#1b2a41">Weak contrast</text>
+<circle cx="346.5" cy="387.8" r="3.5" fill="#00796b"/>
+<text x="356.5" y="392.8" font-size="14.5" fill="#1b2a41">Missing labels</text>
+<rect x="330.5" y="486" width="250.5" height="122" rx="10" fill="#e1e5ea" stroke="#1b2a41" stroke-width="2.5" stroke-dasharray="2 6"/>
+<circle cx="352.5" cy="510" r="11" fill="#b71c1c"/>
+<line x1="348.1" y1="505.6" x2="356.9" y2="514.4" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="348.1" y1="514.4" x2="356.9" y2="505.6" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
+<text x="372.5" y="516" font-size="15" fill="#7f1313" font-weight="bold">CANNOT FIND</text>
+<circle cx="346.5" cy="539" r="3.5" fill="#1b2a41"/>
+<text x="356.5" y="544" font-size="14.5" fill="#1b2a41">Whether alt text is useful</text>
+<circle cx="346.5" cy="560.4" r="3.5" fill="#1b2a41"/>
+<text x="356.5" y="565.4" font-size="14.5" fill="#1b2a41">Whether captions are accurate</text>
+<rect x="607" y="106" width="274.5" height="510" rx="14" fill="#ffffff" stroke="#8a5a00" stroke-width="3"/>
+<rect x="607" y="106" width="274.5" height="52" rx="14" fill="#8a5a00"/>
+<rect x="607" y="134" width="274.5" height="24" rx="0" fill="#8a5a00"/>
+<text x="623" y="140" font-size="22" fill="#ffffff" font-weight="bold">License detection</text>
+<circle cx="744.2" cy="194" r="30" fill="#ffffff" stroke="#8a5a00" stroke-width="4"/>
+<circle cx="744.2" cy="194" r="14" fill="none" stroke="#8a5a00" stroke-width="3.5"/>
+<text x="744.2" y="201" font-size="20" fill="#8a5a00" font-weight="bold" text-anchor="middle">c</text>
+<polygon points="734.2,222 754.2,222 851.5,284 637,284" fill="#fff3b0" opacity="0.9" stroke-linejoin="round"/>
+<rect x="619" y="290" width="250.5" height="184" rx="10" fill="#fdf1d6" stroke="#8a5a00" stroke-width="2.5"/>
+<circle cx="641" cy="314" r="11" fill="#2e7d32"/>
+<path d="M636,314 L639.9,318.2 L646.5,309.8" fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="661" y="320" font-size="15" fill="#1b5e20" font-weight="bold">FINDS</text>
+<circle cx="635" cy="345" r="3.5" fill="#8a5a00"/>
+<text x="645" y="350" font-size="14.5" fill="#1b2a41">Missing license statements</text>
+<circle cx="635" cy="366.4" r="3.5" fill="#8a5a00"/>
+<text x="645" y="371.4" font-size="14.5" fill="#1b2a41">Mismatched license statements</text>
+<circle cx="635" cy="387.8" r="3.5" fill="#8a5a00"/>
+<text x="645" y="392.8" font-size="14.5" fill="#1b2a41">Unrecognized license</text>
+<text x="645" y="410.2" font-size="14.5" fill="#1b2a41">statements</text>
+<rect x="619" y="486" width="250.5" height="122" rx="10" fill="#e1e5ea" stroke="#1b2a41" stroke-width="2.5" stroke-dasharray="2 6"/>
+<circle cx="641" cy="510" r="11" fill="#b71c1c"/>
+<line x1="636.6" y1="505.6" x2="645.4" y2="514.4" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="636.6" y1="514.4" x2="645.4" y2="505.6" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
+<text x="661" y="516" font-size="15" fill="#7f1313" font-weight="bold">CANNOT FIND</text>
+<circle cx="635" cy="539" r="3.5" fill="#1b2a41"/>
+<text x="645" y="544" font-size="14.5" fill="#1b2a41">Whether the license claim is</text>
+<text x="645" y="561.4" font-size="14.5" fill="#1b2a41">true</text>
+<rect x="895.5" y="106" width="274.5" height="510" rx="14" fill="#ffffff" stroke="#573379" stroke-width="3"/>
+<rect x="895.5" y="106" width="274.5" height="52" rx="14" fill="#573379"/>
+<rect x="895.5" y="134" width="274.5" height="24" rx="0" fill="#573379"/>
+<text x="911.5" y="140" font-size="22" fill="#ffffff" font-weight="bold">Readability scan</text>
+<circle cx="1032.8" cy="194" r="30" fill="#ffffff" stroke="#573379" stroke-width="4"/>
+<rect x="1016.8" y="186" width="32" height="16" rx="2" fill="none" stroke="#573379" stroke-width="3"/>
+<line x1="1020.8" y1="186" x2="1020.8" y2="191" stroke="#573379" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="1026.8" y1="186" x2="1026.8" y2="193" stroke="#573379" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="1032.8" y1="186" x2="1032.8" y2="191" stroke="#573379" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="1038.8" y1="186" x2="1038.8" y2="193" stroke="#573379" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="1044.8" y1="186" x2="1044.8" y2="191" stroke="#573379" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="1022.8,222 1042.8,222 1140,284 925.5,284" fill="#fff3b0" opacity="0.9" stroke-linejoin="round"/>
+<rect x="907.5" y="290" width="250.5" height="184" rx="10" fill="#efe6f6" stroke="#573379" stroke-width="2.5"/>
+<circle cx="929.5" cy="314" r="11" fill="#2e7d32"/>
+<path d="M924.5,314 L928.4,318.2 L935,309.8" fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="949.5" y="320" font-size="15" fill="#1b5e20" font-weight="bold">FINDS</text>
+<circle cx="923.5" cy="345" r="3.5" fill="#573379"/>
+<text x="933.5" y="350" font-size="14.5" fill="#1b2a41">A reading level for each</text>
+<text x="933.5" y="367.4" font-size="14.5" fill="#1b2a41">passage</text>
+<rect x="907.5" y="486" width="250.5" height="122" rx="10" fill="#e1e5ea" stroke="#1b2a41" stroke-width="2.5" stroke-dasharray="2 6"/>
+<circle cx="929.5" cy="510" r="11" fill="#b71c1c"/>
+<line x1="925.1" y1="505.6" x2="933.9" y2="514.4" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="925.1" y1="514.4" x2="933.9" y2="505.6" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
+<text x="949.5" y="516" font-size="15" fill="#7f1313" font-weight="bold">CANNOT FIND</text>
+<circle cx="923.5" cy="539" r="3.5" fill="#1b2a41"/>
+<text x="933.5" y="544" font-size="14.5" fill="#1b2a41">Undefined terms</text>
+<circle cx="923.5" cy="560.4" r="3.5" fill="#1b2a41"/>
+<text x="933.5" y="565.4" font-size="14.5" fill="#1b2a41">Dense ideas</text>
+<circle cx="923.5" cy="581.8" r="3.5" fill="#1b2a41"/>
+<text x="933.5" y="586.8" font-size="14.5" fill="#1b2a41">Audience fit</text>
+<rect x="30" y="630" width="1140" height="52" rx="12" fill="#eef1f5" stroke="#6b7785" stroke-width="2.5"/>
+<circle cx="62" cy="649.2" r="5.7" fill="#1b2a41"/>
+<path d="M51.5,668.8 a10.5,12.8 0 0 1 21,0 z" fill="#1b2a41" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="97.9" cy="653.9" r="8.4" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5"/>
+<line x1="104.2" y1="660.2" x2="111.9" y2="667.9" stroke="#1b2a41" stroke-width="3.4" stroke-linecap="round"/>
+<text x="132" y="663" font-size="18" fill="#1b2a41" font-weight="bold">Keep a human in the loop. Automated checks find what they can measure and miss what needs judgment.</text>
+</svg>

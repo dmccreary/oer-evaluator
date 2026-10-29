@@ -1,0 +1,57 @@
+{
+  "title": "Following a Claim Back to Its Source",
+  "orientation": "landscape",
+  "image": "claim-source-chain.svg",
+  "layout": "top-bottom",
+  "showNumbers": true,
+  "callouts": [
+    {
+      "id": 1,
+      "label": "Footnote 4 of the resource",
+      "x": 7.3,
+      "y": 26.6,
+      "radius": 3.2,
+      "color": "#6b7785",
+      "hint": "A page with a small footnote mark at the bottom, inside a speech bubble.",
+      "description": "The claim \"Wetlands filter pollutants\" appears in the resource. Footnote 4 cites a textbook. This link is someone's summary and is not the original.",
+      "tip": "A footnote tells you where to look next. It is not evidence by itself.",
+      "panel": "top"
+    },
+    {
+      "id": 2,
+      "label": "The textbook",
+      "x": 29.0,
+      "y": 26.6,
+      "radius": 3.2,
+      "color": "#b71c1c",
+      "hint": "A closed book with a red stop sign on a flag pole.",
+      "description": "The textbook says wetlands filter pollutants and cites a review. A reviewer who stops here, at the red flag, has found only that a textbook agrees with the resource.",
+      "tip": "This is the early stop the poster exists to prevent.",
+      "panel": "top"
+    },
+    {
+      "id": 3,
+      "label": "The review article",
+      "x": 50.7,
+      "y": 26.6,
+      "radius": 3.2,
+      "color": "#6b7785",
+      "hint": "Stacked pages in two columns, inside a speech bubble.",
+      "description": "The review article summarizes several studies of wetland filtering. It is another summary, so it is not the original either.",
+      "tip": "Secondary sources describe, summarize, or interpret primary sources.",
+      "panel": "top"
+    },
+    {
+      "id": 4,
+      "label": "The original study",
+      "x": 74.2,
+      "y": 30.7,
+      "radius": 3.2,
+      "color": "#2e7d32",
+      "hint": "A laboratory bench with a flask and a gauge inside a six-sided shape, the only link not in a speech bubble.",
+      "description": "One of those studies reports measurements of pollutant levels before and after water passed through a wetland. This is the original, and the claim is supported by it.",
+      "tip": "The further back you trace a claim, the more you can trust the check. The sources in this example are invented.",
+      "panel": "top"
+    }
+  ]
+}

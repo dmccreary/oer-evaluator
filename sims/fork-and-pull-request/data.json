@@ -1,0 +1,93 @@
+{
+  "title": "Fork and Pull Request: Two Lanes, Seven Steps",
+  "orientation": "landscape",
+  "image": "fork-and-pull-request.svg",
+  "layout": "top-bottom",
+  "showNumbers": true,
+  "callouts": [
+    {
+      "id": 1,
+      "label": "Find the repository",
+      "x": 12.8,
+      "y": 22.0,
+      "radius": 2.8,
+      "color": "#1d4f86",
+      "hint": "A binder with a magnifying glass, in the top lane.",
+      "description": "Find the repository of the resource you want to improve. You cannot copy what you have not found.",
+      "tip": "The repository is the original, and the maintainer owns it.",
+      "panel": "top"
+    },
+    {
+      "id": 5,
+      "label": "The maintainer reads and comments",
+      "x": 66.2,
+      "y": 20.7,
+      "radius": 2.8,
+      "color": "#1d4f86",
+      "hint": "A person beside a speech bubble, in the top lane, with a faint dotted branch ending in a cross.",
+      "description": "The maintainer reads your pull request and leaves comments. The review follows the proposal.",
+      "tip": "The faint dotted branch is the other ending: a maintainer may also decline a pull request.",
+      "panel": "top"
+    },
+    {
+      "id": 7,
+      "label": "The maintainer merges",
+      "x": 88.7,
+      "y": 13.7,
+      "radius": 2.8,
+      "color": "#2e7d32",
+      "hint": "A rubber stamp pressing a page with a green check, at the right end of the top lane.",
+      "description": "The maintainer merges the pull request into the original. Merging is the last step, after the review is satisfied.",
+      "tip": "Only now does the original change. The sequence shows the successful path.",
+      "panel": "top"
+    },
+    {
+      "id": 2,
+      "label": "Fork it to make your own copy",
+      "x": 25.8,
+      "y": 67.0,
+      "radius": 2.8,
+      "color": "#a85d00",
+      "hint": "A binder with a dotted copy of itself, in the bottom lane, at the end of the first crossing arrow.",
+      "description": "Fork the repository to make your own copy. You change your copy, not the original.",
+      "tip": "A fork keeps a link back to the source. It is the repository version of the revise and remix permissions.",
+      "panel": "bottom"
+    },
+    {
+      "id": 3,
+      "label": "Make your change and save it with a message",
+      "x": 39.7,
+      "y": 64.3,
+      "radius": 2.8,
+      "color": "#a85d00",
+      "hint": "A page with a pencil and a small note, in the bottom lane.",
+      "description": "Make your change in your copy and save it with a message that says what you did. A pull request needs a change to propose.",
+      "tip": "Write the message for the maintainer who will read it.",
+      "panel": "bottom"
+    },
+    {
+      "id": 4,
+      "label": "Open a pull request",
+      "x": 55.5,
+      "y": 45.0,
+      "radius": 2.8,
+      "color": "#1b2a41",
+      "hint": "A yellow sticky note on the arrow that crosses up to the top lane.",
+      "description": "Open a pull request that proposes your change to the original repository. The maintainer can only review a change that has been proposed.",
+      "tip": "A pull request is a proposal. It does not change the original until it is merged.",
+      "panel": "bottom"
+    },
+    {
+      "id": 6,
+      "label": "You answer with more changes",
+      "x": 78.8,
+      "y": 64.3,
+      "radius": 2.8,
+      "color": "#a85d00",
+      "hint": "A page with a pencil and a small grey speech bubble, in the bottom lane.",
+      "description": "You answer any comments by adding more changes to your copy. You respond to what the review found.",
+      "tip": "The thin dashed arrow carries the comments back to your copy.",
+      "panel": "bottom"
+    }
+  ]
+}

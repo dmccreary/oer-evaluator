@@ -1,0 +1,80 @@
+{
+  "title": "Reliability and Validity Targets Poster",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Explore four archery targets that show reliable and valid, reliable but not valid, valid but not reliable, and neither, then classify six rubric scenarios.",
+  "date": "2026-10-24",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Reliability and validity",
+    "learningObjectives": [
+      "The learner will classify each of six rubric scenarios as reliable and valid, reliable but not valid, valid on average but not reliable, or neither, with at least 5 of 6 correct on the first attempt."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "The terms rubric reliability and rubric validity"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG and JavaScript",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "None. The drawing is inline SVG and the script is plain JavaScript."
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore, then quiz on the same picture",
+    "keyQuestions": [
+      "Are the scores close together?",
+      "Are they centered on what matters?"
+    ],
+    "commonMisconceptions": [
+      "A rubric that gives consistent scores is valid",
+      "A rubric with scattered scores is useless",
+      "Reliability and validity are the same thing"
+    ],
+    "assessmentOpportunities": [
+      "Two reviewers always agree, but the scores do not predict learning. Which target?",
+      "Scores vary widely, but their average tracks student performance. Which target?",
+      "Is a rubric with scattered scores useless?",
+      "Can agreement alone prove a rubric is right?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz me buttons",
+      "type": "interactive SVG zone",
+      "description": " switch modes. Quiz me starts a new run."
+    },
+    {
+      "name": "The four targets",
+      "type": "interactive SVG zone",
+      "description": " hover, focus with the Tab key, or click. In quiz mode a click is your answer."
+    },
+    {
+      "name": "Next",
+      "type": "interactive SVG zone",
+      "description": " moves to the next scenario."
+    },
+    {
+      "name": "Play again",
+      "type": "interactive SVG zone",
+      "description": " repeats the quiz as practice."
+    }
+  ],
+  "chapter": "03-ten-metric-rubric-scoring"
+}

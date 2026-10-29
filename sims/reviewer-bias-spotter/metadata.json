@@ -1,0 +1,80 @@
+{
+  "title": "Reviewer Bias Spotter",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Distinguish the bias shown in each of eight reviewer notes from six named biases and a no-bias option, and learn the defense for each.",
+  "date": "2026-10-24",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Reviewer bias",
+    "learningObjectives": [
+      "The learner will distinguish the bias shown in each of eight reviewer notes from six named biases and a no-bias option, with at least 7 of 8 correct on the first attempt."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The term reviewer bias and the six biases listed in [Chapter 3](../../chapters/03-ten-metric-rubric-scoring/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 664
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Predict, commit an answer, and read the reason",
+    "keyQuestions": [
+      "What moved the score: the descriptors or something else?",
+      "What would defend against it?"
+    ],
+    "commonMisconceptions": [
+      "Anchoring and the halo effect are the same",
+      "Only careless reviewers show bias",
+      "A confident note shows no bias"
+    ],
+    "assessmentOpportunities": [
+      "\"The graphics are gorgeous, so I gave every metric an 8 or higher.\" Which bias?",
+      "\"It comes from a famous university press, so I skipped the link check.\" Which bias?",
+      "How does anchoring differ from the halo effect?",
+      "What does a note with no bias look like?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Seven option buttons",
+      "type": "button",
+      "description": " the six biases and No bias. The choice is final."
+    },
+    {
+      "name": "Show bias table",
+      "type": "button",
+      "description": " opens a table of the six biases, what happens, and the defense. Opening it is exploration, not evidence."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": " moves to the next note."
+    },
+    {
+      "name": "Play again** and the missed-note review on the results screen.",
+      "type": "button",
+      "description": ""
+    }
+  ],
+  "chapter": "03-ten-metric-rubric-scoring"
+}

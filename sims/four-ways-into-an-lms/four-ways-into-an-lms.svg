@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" role="img">
+<title>Link, Embed, Import, or LTI: Four Ways Into an LMS</title>
+<desc>Four zones, each showing a resource and a generic learning management system. Link: students open the resource at its own address; one arrow runs from the course page to the resource, which stays on its own host. Embed: the resource appears on the course page through a frame; the arrow runs from the resource into the page; it needs a host that allows framing. Common Cartridge import: a whole unit is copied into the LMS as one compressed file with a manifest; one arrow into the LMS. LTI tool: an external tool opens inside the LMS and can send results back to the gradebook; a two-way arrow and a shield for learner privacy; the tool runs on another company&#x27;s server. A footer says platform lock-in stops all four.</desc>
+<rect width="1200" height="700" fill="#f7f9fc"/>
+<text x="40" y="50" font-size="32" fill="#1b2a41" font-weight="bold">Link, Embed, Import, or LTI: Four Ways Into an LMS</text>
+<text x="40" y="80" font-size="18" fill="#4a5666">The same resource, the same generic LMS, four ways in. The arrows show which way information flows.</text>
+<rect x="30" y="108" width="274.5" height="504" rx="14" fill="#ffffff" stroke="#1d4f86" stroke-width="3"/>
+<rect x="30" y="108" width="274.5" height="52" rx="14" fill="#1d4f86"/>
+<rect x="30" y="136" width="274.5" height="24" rx="0" fill="#1d4f86"/>
+<text x="46" y="142" font-size="22" fill="#ffffff" font-weight="bold">Link</text>
+<rect x="40" y="172" width="254.5" height="150" rx="10" fill="#e6eef8"/>
+<rect x="166.5" y="200" width="112" height="96" rx="8" fill="#ffffff" stroke="#1b2a41" stroke-width="3"/>
+<rect x="166.5" y="200" width="112" height="20" rx="8" fill="#1b2a41"/>
+<rect x="166.5" y="210" width="112" height="10" rx="0" fill="#1b2a41"/>
+<circle cx="178.5" cy="210" r="3" fill="#ffffff"/>
+<circle cx="190.5" cy="210" r="3" fill="#ffffff"/>
+<circle cx="202.5" cy="210" r="3" fill="#ffffff"/>
+<line x1="178.5" y1="234" x2="266.5" y2="234" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<line x1="178.5" y1="246" x2="238.5" y2="246" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<rect x="180.5" y="258" width="52" height="20" rx="10" fill="#1d4f86"/>
+<text x="206.5" y="273" font-size="13" fill="#ffffff" font-weight="bold" text-anchor="middle">link</text>
+<rect x="56" y="210" width="92" height="76" rx="6" fill="#ffffff" stroke="#1d4f86" stroke-width="3"/>
+<rect x="56" y="210" width="92" height="16" rx="6" fill="#1d4f86"/>
+<rect x="56" y="218" width="92" height="8" rx="0" fill="#1d4f86"/>
+<line x1="64" y1="238" x2="140" y2="238" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<line x1="64" y1="248" x2="128" y2="248" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<rect x="64" y="194" width="76" height="14" rx="7" fill="#ffffff" stroke="#1d4f86" stroke-width="2"/>
+<line x1="232.5" y1="268" x2="159.5" y2="255.6" stroke="#1d4f86" stroke-width="4" stroke-linecap="butt"/>
+<polygon points="150,254 161.2,249.8 159.2,261.7" fill="#1d4f86" stroke-linejoin="miter"/>
+<rect x="126.2" y="308" width="82" height="24" rx="12" fill="#1d4f86"/>
+<text x="167.2" y="324.8" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">One-way</text>
+<text x="46" y="366" font-size="12" fill="#1d4f86" font-weight="bold" letter-spacing="1">WHAT IT DOES</text>
+<text x="46" y="390" font-size="17" fill="#1b2a41" font-weight="bold">Students open the resource</text>
+<text x="46" y="410.7" font-size="17" fill="#1b2a41" font-weight="bold">at its own address.</text>
+<text x="46" y="443.5" font-size="12" fill="#1d4f86" font-weight="bold" letter-spacing="1">WHAT STAYS</text>
+<text x="46" y="467.5" font-size="16" fill="#1b2a41">The resource stays on its own</text>
+<text x="46" y="487" font-size="16" fill="#1b2a41">host.</text>
+<text x="46" y="518.5" font-size="12" fill="#1d4f86" font-weight="bold" letter-spacing="1">WHAT IT NEEDS</text>
+<text x="46" y="542.5" font-size="16" fill="#1b2a41">Needs a good link: permanent,</text>
+<text x="46" y="562" font-size="16" fill="#1b2a41">direct, and working for the</text>
+<text x="46" y="581.6" font-size="16" fill="#1b2a41">person who receives it.</text>
+<rect x="318.5" y="108" width="274.5" height="504" rx="14" fill="#ffffff" stroke="#00796b" stroke-width="3"/>
+<rect x="318.5" y="108" width="274.5" height="52" rx="14" fill="#00796b"/>
+<rect x="318.5" y="136" width="274.5" height="24" rx="0" fill="#00796b"/>
+<text x="334.5" y="142" font-size="22" fill="#ffffff" font-weight="bold">Embed</text>
+<rect x="328.5" y="172" width="254.5" height="150" rx="10" fill="#e3f4f1"/>
+<rect x="433" y="200" width="134" height="100" rx="8" fill="#ffffff" stroke="#1b2a41" stroke-width="3"/>
+<rect x="433" y="200" width="134" height="20" rx="8" fill="#1b2a41"/>
+<rect x="433" y="210" width="134" height="10" rx="0" fill="#1b2a41"/>
+<circle cx="445" cy="210" r="3" fill="#ffffff"/>
+<circle cx="457" cy="210" r="3" fill="#ffffff"/>
+<circle cx="469" cy="210" r="3" fill="#ffffff"/>
+<line x1="445" y1="234" x2="555" y2="234" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<line x1="445" y1="246" x2="527" y2="246" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<rect x="457" y="240" width="82" height="54" rx="6" fill="#ffffff" stroke="#00796b" stroke-width="3"/>
+<rect x="457" y="240" width="82" height="16" rx="6" fill="#00796b"/>
+<rect x="457" y="248" width="82" height="8" rx="0" fill="#00796b"/>
+<line x1="465" y1="268" x2="531" y2="268" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<line x1="465" y1="278" x2="519" y2="278" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<rect x="457" y="240" width="82" height="54" rx="6" fill="none" stroke="#00796b" stroke-width="2.5" stroke-dasharray="5 4"/>
+<rect x="344.5" y="214" width="78" height="66" rx="6" fill="#ffffff" stroke="#00796b" stroke-width="3"/>
+<rect x="344.5" y="214" width="78" height="16" rx="6" fill="#00796b"/>
+<rect x="344.5" y="222" width="78" height="8" rx="0" fill="#00796b"/>
+<line x1="352.5" y1="242" x2="414.5" y2="242" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<line x1="352.5" y1="252" x2="402.5" y2="252" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<line x1="424.5" y1="248" x2="444.4" y2="257.8" stroke="#00796b" stroke-width="4" stroke-linecap="butt"/>
+<polygon points="453,262 441,262.8 446.3,252" fill="#00796b" stroke-linejoin="miter"/>
+<rect x="414.7" y="308" width="82" height="24" rx="12" fill="#00796b"/>
+<text x="455.8" y="324.8" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">One-way</text>
+<text x="334.5" y="366" font-size="12" fill="#00796b" font-weight="bold" letter-spacing="1">WHAT IT DOES</text>
+<text x="334.5" y="390" font-size="17" fill="#1b2a41" font-weight="bold">The resource appears on</text>
+<text x="334.5" y="410.7" font-size="17" fill="#1b2a41" font-weight="bold">your course page through a</text>
+<text x="334.5" y="431.5" font-size="17" fill="#1b2a41" font-weight="bold">frame.</text>
+<text x="334.5" y="464.2" font-size="12" fill="#00796b" font-weight="bold" letter-spacing="1">WHAT STAYS</text>
+<text x="334.5" y="488.2" font-size="16" fill="#1b2a41">The page shows it without</text>
+<text x="334.5" y="507.7" font-size="16" fill="#1b2a41">leaving your course.</text>
+<text x="334.5" y="539.3" font-size="12" fill="#00796b" font-weight="bold" letter-spacing="1">WHAT IT NEEDS</text>
+<text x="334.5" y="563.3" font-size="16" fill="#1b2a41">Needs a host that allows</text>
+<text x="334.5" y="582.8" font-size="16" fill="#1b2a41">framing, and no login.</text>
+<rect x="607" y="108" width="274.5" height="504" rx="14" fill="#ffffff" stroke="#8a5a00" stroke-width="3"/>
+<rect x="607" y="108" width="274.5" height="52" rx="14" fill="#8a5a00"/>
+<rect x="607" y="136" width="274.5" height="24" rx="0" fill="#8a5a00"/>
+<text x="623" y="142" font-size="18.5" fill="#ffffff" font-weight="bold">Common Cartridge import</text>
+<rect x="617" y="172" width="254.5" height="150" rx="10" fill="#fdf1d6"/>
+<rect x="743.5" y="200" width="112" height="96" rx="8" fill="#ffffff" stroke="#1b2a41" stroke-width="3"/>
+<rect x="743.5" y="200" width="112" height="20" rx="8" fill="#1b2a41"/>
+<rect x="743.5" y="210" width="112" height="10" rx="0" fill="#1b2a41"/>
+<circle cx="755.5" cy="210" r="3" fill="#ffffff"/>
+<circle cx="767.5" cy="210" r="3" fill="#ffffff"/>
+<circle cx="779.5" cy="210" r="3" fill="#ffffff"/>
+<line x1="755.5" y1="234" x2="843.5" y2="234" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<line x1="755.5" y1="246" x2="815.5" y2="246" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<rect x="633" y="214" width="84" height="70" rx="6" fill="#ffe8b0" stroke="#1b2a41" stroke-width="3"/>
+<line x1="675" y1="214" x2="675" y2="284" stroke="#1b2a41" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4"/>
+<rect x="685" y="226" width="24" height="34" rx="0" fill="#ffffff" stroke="#1b2a41" stroke-width="2"/>
+<line x1="689" y1="234" x2="705" y2="234" stroke="#c9d1db" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="689" y1="242" x2="705" y2="242" stroke="#c9d1db" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="689" y1="250" x2="705" y2="250" stroke="#c9d1db" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="721" y1="250" x2="739.9" y2="250" stroke="#8a5a00" stroke-width="4" stroke-linecap="butt"/>
+<polygon points="749.5,250 739.1,256 739.1,244" fill="#8a5a00" stroke-linejoin="miter"/>
+<rect x="703.2" y="308" width="82" height="24" rx="12" fill="#8a5a00"/>
+<text x="744.2" y="324.8" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">One-way</text>
+<text x="623" y="366" font-size="12" fill="#8a5a00" font-weight="bold" letter-spacing="1">WHAT IT DOES</text>
+<text x="623" y="390" font-size="17" fill="#1b2a41" font-weight="bold">A whole unit is copied into</text>
+<text x="623" y="410.7" font-size="17" fill="#1b2a41" font-weight="bold">the LMS as a package.</text>
+<text x="623" y="443.5" font-size="12" fill="#8a5a00" font-weight="bold" letter-spacing="1">WHAT STAYS</text>
+<text x="623" y="467.5" font-size="16" fill="#1b2a41">A single compressed file with a</text>
+<text x="623" y="487" font-size="16" fill="#1b2a41">manifest.</text>
+<text x="623" y="518.5" font-size="12" fill="#8a5a00" font-weight="bold" letter-spacing="1">WHAT IT NEEDS</text>
+<text x="623" y="542.5" font-size="16" fill="#1b2a41">The common exchange form</text>
+<text x="623" y="562" font-size="16" fill="#1b2a41">between LMSs. Not every</text>
+<text x="623" y="581.6" font-size="16" fill="#1b2a41">resource offers one.</text>
+<rect x="895.5" y="108" width="274.5" height="504" rx="14" fill="#ffffff" stroke="#573379" stroke-width="3"/>
+<rect x="895.5" y="108" width="274.5" height="52" rx="14" fill="#573379"/>
+<rect x="895.5" y="136" width="274.5" height="24" rx="0" fill="#573379"/>
+<text x="911.5" y="142" font-size="22" fill="#ffffff" font-weight="bold">LTI tool</text>
+<rect x="905.5" y="172" width="254.5" height="150" rx="10" fill="#efe6f6"/>
+<rect x="1032" y="200" width="112" height="96" rx="8" fill="#ffffff" stroke="#1b2a41" stroke-width="3"/>
+<rect x="1032" y="200" width="112" height="20" rx="8" fill="#1b2a41"/>
+<rect x="1032" y="210" width="112" height="10" rx="0" fill="#1b2a41"/>
+<circle cx="1044" cy="210" r="3" fill="#ffffff"/>
+<circle cx="1056" cy="210" r="3" fill="#ffffff"/>
+<circle cx="1068" cy="210" r="3" fill="#ffffff"/>
+<line x1="1044" y1="234" x2="1132" y2="234" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<line x1="1044" y1="246" x2="1104" y2="246" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<rect x="1042" y="258" width="40" height="28" rx="4" fill="#efe6f6" stroke="#573379" stroke-width="2"/>
+<path d="M1048.0,280 l8,-10 l8,6 l10,-14" fill="none" stroke="#573379" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="921.5" y="218" width="82" height="60" rx="6" fill="#ffffff" stroke="#573379" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="962.5" y="252" font-size="15" fill="#573379" font-weight="bold" text-anchor="middle">tool</text>
+<line x1="1017.1" y1="250" x2="1018.4" y2="250" stroke="#573379" stroke-width="4" stroke-linecap="butt"/>
+<polygon points="1028,250 1017.6,256 1017.6,244" fill="#573379" stroke-linejoin="miter"/>
+<polygon points="1007.5,250 1017.9,244 1017.9,256" fill="#573379" stroke-linejoin="miter"/>
+<path d="M1022.4,188.9 L1032.8,185 L1043.2,188.9 Q1043.2,204.5 1032.8,211 Q1022.4,204.5 1022.4,188.9 z" fill="#00796b" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1028.8,198 L1032.1,201.6 L1037.3,195.1" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="991.4" y="308" width="82.8" height="24" rx="12" fill="#573379"/>
+<text x="1032.8" y="324.8" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">Two-way</text>
+<text x="911.5" y="366" font-size="12" fill="#573379" font-weight="bold" letter-spacing="1">WHAT IT DOES</text>
+<text x="911.5" y="390" font-size="17" fill="#1b2a41" font-weight="bold">An external tool opens</text>
+<text x="911.5" y="410.7" font-size="17" fill="#1b2a41" font-weight="bold">inside the LMS and can</text>
+<text x="911.5" y="431.5" font-size="17" fill="#1b2a41" font-weight="bold">send results back.</text>
+<text x="911.5" y="464.2" font-size="12" fill="#573379" font-weight="bold" letter-spacing="1">WHAT STAYS</text>
+<text x="911.5" y="488.2" font-size="16" fill="#1b2a41">It runs on another company&#x27;s</text>
+<text x="911.5" y="507.7" font-size="16" fill="#1b2a41">server.</text>
+<text x="911.5" y="539.3" font-size="12" fill="#573379" font-weight="bold" letter-spacing="1">WHAT IT NEEDS</text>
+<text x="911.5" y="563.3" font-size="16" fill="#1b2a41">Passes learner information,</text>
+<text x="911.5" y="582.8" font-size="16" fill="#1b2a41">which raises the privacy</text>
+<text x="911.5" y="602.3" font-size="16" fill="#1b2a41">questions of Chapter 13.</text>
+<rect x="30" y="626" width="1140" height="52" rx="12" fill="#eef1f5" stroke="#6b7785" stroke-width="2.5"/>
+<rect x="50.8" y="650.4" width="22.4" height="16" rx="2.4" fill="#1b2a41"/>
+<path d="M56.4,650.4 v-4.8 a5.6,5.6 0 0 1 11.2,0 v4.8" fill="none" stroke="#1b2a41" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="62" cy="657.6" r="1.9" fill="#ffffff"/>
+<text x="92" y="658" font-size="18" fill="#1b2a41" font-weight="bold">Platform lock-in is the barrier that stops all four: leaving a platform should not cost you the resource.</text>
+</svg>

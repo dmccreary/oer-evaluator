@@ -1,0 +1,80 @@
+{
+  "title": "Anatomy of a Rubric Worksheet",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Find the eight parts of a rubric worksheet on a drawing of a printed sheet, then identify each part from a description of how it looks.",
+  "date": "2026-10-24",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Parts of a rubric worksheet",
+    "learningObjectives": [
+      "The learner will identify the eight parts of a rubric worksheet from a description of each part's appearance, with at least 7 of 8 correct on the first attempt."
+    ],
+    "bloomsTaxonomy": "Remember",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "The terms rubric worksheet and review checklist"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG and JavaScript",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "None. The drawing is inline SVG and the script is plain JavaScript."
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore, then quiz on the same picture",
+    "keyQuestions": [
+      "Which part of the sheet records the evidence?",
+      "Which half of the sheet holds which five metrics?"
+    ],
+    "commonMisconceptions": [
+      "The agent column must be filled in a manual review",
+      "The evidence column is optional when the score is obvious",
+      "The total box replaces the two subtotals"
+    ],
+    "assessmentOpportunities": [
+      "Which column holds where you looked, what you saw, and the rule you applied?",
+      "Which half of the sheet is worth 50 points and holds Open license?",
+      "Is the agent column filled in during a manual review?",
+      "Does the total box replace the two subtotals?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz me buttons",
+      "type": "interactive SVG zone",
+      "description": " switch modes. Quiz me starts a new run."
+    },
+    {
+      "name": "The eight numbered markers",
+      "type": "interactive SVG zone",
+      "description": " hover, focus with the Tab key, or click."
+    },
+    {
+      "name": "Next",
+      "type": "interactive SVG zone",
+      "description": " moves to the next hint."
+    },
+    {
+      "name": "Play again",
+      "type": "interactive SVG zone",
+      "description": " repeats the quiz as practice."
+    }
+  ],
+  "chapter": "03-ten-metric-rubric-scoring"
+}

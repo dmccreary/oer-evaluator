@@ -1,0 +1,144 @@
+{
+  "title": "Bloom's Ladder: Six Levels, Measurable Verbs",
+  "image": "bloom-ladder.svg",
+  "layout": "grid",
+  "showLabels": false,
+  "palette": [
+    "#00796b",
+    "#1a6559",
+    "#0e4a41",
+    "#e69500"
+  ],
+  "zones": [
+    {
+      "id": "remember",
+      "label": "Remember",
+      "color": "#00796b",
+      "x1": 2.5,
+      "y1": 45.7,
+      "x2": 15.0,
+      "y2": 92.9,
+      "summary": "Remember: recall facts and terms.",
+      "facts": [
+        "Measurable verbs: list, name, define.",
+        "Example objective: List the five parts of a lesson plan."
+      ]
+    },
+    {
+      "id": "understand",
+      "label": "Understand",
+      "color": "#00796b",
+      "x1": 15.5,
+      "y1": 39.1,
+      "x2": 28.0,
+      "y2": 92.9,
+      "summary": "Understand: explain ideas in your own words.",
+      "facts": [
+        "Measurable verbs: explain, summarize, interpret.",
+        "Example objective: Explain why the seasons change."
+      ]
+    },
+    {
+      "id": "apply",
+      "label": "Apply",
+      "color": "#00796b",
+      "x1": 28.5,
+      "y1": 32.6,
+      "x2": 41.0,
+      "y2": 92.9,
+      "summary": "Apply: use knowledge in a new situation.",
+      "facts": [
+        "Measurable verbs: calculate, use, solve.",
+        "Example objective: Calculate the perimeter of a garden."
+      ]
+    },
+    {
+      "id": "analyze",
+      "label": "Analyze",
+      "color": "#1a6559",
+      "x1": 41.5,
+      "y1": 26.0,
+      "x2": 54.0,
+      "y2": 92.9,
+      "summary": "Analyze: break material into parts and see how they relate.",
+      "facts": [
+        "Measurable verbs: distinguish, differentiate, examine.",
+        "Example objective: Differentiate a cause from an effect in a historical event."
+      ]
+    },
+    {
+      "id": "evaluate",
+      "label": "Evaluate",
+      "color": "#1a6559",
+      "x1": 54.5,
+      "y1": 19.4,
+      "x2": 67.0,
+      "y2": 92.9,
+      "summary": "Evaluate: judge using criteria.",
+      "facts": [
+        "Measurable verbs: judge, critique, justify.",
+        "Example objective: Judge which of two designs is fairer, and justify the choice."
+      ]
+    },
+    {
+      "id": "create",
+      "label": "Create",
+      "color": "#0e4a41",
+      "x1": 67.5,
+      "y1": 12.9,
+      "x2": 80.0,
+      "y2": 92.9,
+      "summary": "Create: put parts together into something new.",
+      "facts": [
+        "Measurable verbs: design, compose, construct.",
+        "Example objective: Design an experiment to test how light affects plant growth."
+      ]
+    },
+    {
+      "id": "level-mismatch",
+      "label": "Level mismatch",
+      "color": "#e69500",
+      "x1": 82.5,
+      "y1": 21.4,
+      "x2": 97.5,
+      "y2": 92.9,
+      "summary": "An outcome and its activities should sit at the same level.",
+      "facts": [
+        "If an outcome says \"predict\" and every activity asks only for recall, learners practice a skill that the outcome does not ask for.",
+        "They never practice the skill the outcome does ask for."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which level uses the verbs explain, summarize, and interpret?",
+      "correct_zone": "understand",
+      "explanation": "These verbs ask learners to explain ideas in their own words."
+    },
+    {
+      "question": "Which level asks learners to design, compose, or construct something new?",
+      "correct_zone": "create",
+      "explanation": "Create puts parts together into something new."
+    },
+    {
+      "question": "Which level has the example \"Calculate the perimeter of a garden\"?",
+      "correct_zone": "apply",
+      "explanation": "Using knowledge in a new situation is Apply."
+    },
+    {
+      "question": "Which level has the verbs judge, critique, and justify?",
+      "correct_zone": "evaluate",
+      "explanation": "Evaluate means judging using criteria."
+    },
+    {
+      "question": "Which zone shows an outcome that says \"predict\" taught by activities that ask only for recall?",
+      "correct_zone": "level-mismatch",
+      "explanation": "Outcome and activities sit at different levels."
+    },
+    {
+      "question": "Which level has the verbs list, name, and define?",
+      "correct_zone": "remember",
+      "explanation": "Remember recalls facts and terms."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "title": "Four Principles, Five Learners",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Four zones for the WCAG principles Perceivable, Operable, Understandable, and Robust, each pairing an example criterion with the learners it protects.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "The four WCAG principles and the learners each one protects",
+    "learningObjectives": [
+      "The learner will match each learner support to the WCAG principle it serves, and state one example criterion for each principle."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "The accessibility metric from [Chapter 7](../../chapters/07-accessibility/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (grid-diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 760
+    },
+    "canvasHeight": 760,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/grid-diagram.js, grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "Who cannot use this yet?",
+      "Which principle does the missing support belong to?"
+    ],
+    "commonMisconceptions": [
+      "Accessibility only matters for a few learners",
+      "Captions are only for deaf learners",
+      "A support belongs to exactly one principle"
+    ],
+    "assessmentOpportunities": [
+      "Which principle do captions for a deaf learner belong to?",
+      "Which principle asks that all functions work with a keyboard?",
+      "What does Robust ask about a custom control?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Poster zones",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "07-accessibility"
+}

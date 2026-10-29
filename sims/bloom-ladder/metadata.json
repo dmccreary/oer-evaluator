@@ -1,0 +1,74 @@
+{
+  "title": "Bloom's Ladder: Six Levels, Measurable Verbs",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "A six-step staircase of the revised Bloom taxonomy with measurable verbs and an example objective for each level, plus a panel on matching outcomes to activities.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "The six levels of the revised Bloom taxonomy and their measurable verbs",
+    "learningObjectives": [
+      "The learner will name the six levels of the revised Bloom taxonomy in order and match measurable verbs to their levels."
+    ],
+    "bloomsTaxonomy": "Remember",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "The alignment metric from [Chapter 6](../../chapters/06-alignment-readability/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (grid-diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 760
+    },
+    "canvasHeight": 760,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/grid-diagram.js, grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "What verb does this outcome use?",
+      "Do the activities ask for the same level?"
+    ],
+    "commonMisconceptions": [
+      "Higher levels matter more than lower ones",
+      "Bloom's taxonomy is a pyramid with fewer outcomes at the top"
+    ],
+    "assessmentOpportunities": [
+      "Which level are \"explain\", \"summarize\", and \"interpret\"?",
+      "Which level asks learners to put parts together into something new?",
+      "An outcome says \"predict\" and every activity asks only for recall. What is wrong?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Poster zones",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "06-alignment-readability"
+}

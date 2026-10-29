@@ -1,0 +1,77 @@
+{
+  "title": "How Fast Does Content Spoil?",
+  "image": "content-shelf-life.svg",
+  "layout": "grid",
+  "showLabels": false,
+  "palette": [
+    "#00796b",
+    "#c77700",
+    "#b71c1c"
+  ],
+  "zones": [
+    {
+      "id": "slow-shelf",
+      "label": "Slow shelf",
+      "color": "#00796b",
+      "x1": 2.5,
+      "y1": 15.4,
+      "x2": 97.5,
+      "y2": 40.0,
+      "summary": "Slow shelf: ages very slowly to slowly.",
+      "facts": [
+        "Basic mathematics and definitions. Ages very slowly. Check at each major review.",
+        "The sequence of historical events. Ages slowly. Check at each major review."
+      ]
+    },
+    {
+      "id": "middle-shelf",
+      "label": "Middle shelf",
+      "color": "#c77700",
+      "x1": 2.5,
+      "y1": 41.7,
+      "x2": 97.5,
+      "y2": 66.3,
+      "summary": "Middle shelf: ages moderately.",
+      "facts": [
+        "Statistics and survey results. Ages moderately. Check every few years, or whenever new data appear.",
+        "Standards, curricula, and guidelines. Ages moderately. Check every few years, and when a standard is revised."
+      ]
+    },
+    {
+      "id": "fast-shelf",
+      "label": "Fast shelf",
+      "color": "#b71c1c",
+      "x1": 2.5,
+      "y1": 68.0,
+      "x2": 97.5,
+      "y2": 92.6,
+      "summary": "Fast shelf: ages quickly.",
+      "facts": [
+        "Software screenshots, prices, and web addresses. Ages quickly. Check every year or more often.",
+        "Laws, policies, and contact details. Ages quickly. Check every year or more often."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which shelf holds software screenshots, prices, and web addresses?",
+      "correct_zone": "fast-shelf",
+      "explanation": "They age quickly, so check every year or more often."
+    },
+    {
+      "question": "Which shelf holds basic mathematics and definitions?",
+      "correct_zone": "slow-shelf",
+      "explanation": "They age very slowly, so check at each major review."
+    },
+    {
+      "question": "Which shelf holds statistics and survey results, checked every few years or whenever new data appear?",
+      "correct_zone": "middle-shelf",
+      "explanation": "They age moderately."
+    },
+    {
+      "question": "Which shelf holds laws, policies, and contact details?",
+      "correct_zone": "fast-shelf",
+      "explanation": "They age quickly."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "title": "What a Screen Reader Hears",
+  "image": "what-a-screen-reader-hears.svg",
+  "layout": "grid",
+  "showLabels": false,
+  "palette": [
+    "#1d4f86",
+    "#573379"
+  ],
+  "zones": [
+    {
+      "id": "seen",
+      "label": "What is seen",
+      "color": "#1d4f86",
+      "x1": 2.5,
+      "y1": 15.4,
+      "x2": 49.2,
+      "y2": 91.7,
+      "summary": "Four rows a sighted reader sees: a heading and the same photograph with three kinds of alt markup.",
+      "facts": [
+        "Row 1: a heading that reads \"How water moves\".",
+        "Row 2: the photograph with alt text \"A river meandering through a valley\".",
+        "Row 3: the same photograph with no alt attribute; the file is river.png.",
+        "Row 4: the same photograph with an empty alt attribute.",
+        "The picture looks identical in rows 2 to 4. Only the markup differs."
+      ]
+    },
+    {
+      "id": "heard",
+      "label": "What is heard",
+      "color": "#573379",
+      "x1": 50.8,
+      "y1": 15.4,
+      "x2": 97.5,
+      "y2": 91.7,
+      "summary": "What a screen reader typically announces for each of the four rows.",
+      "facts": [
+        "Row 1: \"Heading level 2, How water moves\". Real headings are announced with their level.",
+        "Row 2: \"Image, A river meandering through a valley\". The alt text does its job.",
+        "Row 3: \"Image, river.png\". The file name is read, which is useless.",
+        "Row 4: nothing. The image is skipped, which is correct only for a decorative image."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which zone shows what a screen reader announces, such as \"Heading level 2, How water moves\"?",
+      "correct_zone": "heard",
+      "explanation": "The right-hand column is what is heard."
+    },
+    {
+      "question": "Which zone shows the page as a sighted reader sees it, with the same river photograph in three rows?",
+      "correct_zone": "seen",
+      "explanation": "The left-hand column is what is seen."
+    },
+    {
+      "question": "Which zone shows the useless announcement \"Image, river.png\" for an image with no alt attribute?",
+      "correct_zone": "heard",
+      "explanation": "The file name is read, which is useless."
+    },
+    {
+      "question": "Which zone shows an image with an empty alt attribute that looks exactly like the others?",
+      "correct_zone": "seen",
+      "explanation": "Only the markup differs, so the picture looks the same."
+    }
+  ]
+}

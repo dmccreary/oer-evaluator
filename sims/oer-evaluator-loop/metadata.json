@@ -1,0 +1,74 @@
+{
+  "title": "The OER Evaluator Loop",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "A closed loop with eight numbered stations that shows how the chapters fit together, and why test results are used to calibrate the AI agent.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "The whole book as one closed loop of evaluation, improvement, testing, and publishing",
+    "learningObjectives": [
+      "The learner will describe the eight stations of the OER Evaluator loop in order and explain why test results are used to calibrate the AI agent."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "None. This poster is the overview, so it works before or after any chapter."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 575
+    },
+    "canvasHeight": 575,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/diagram.js, style.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "Where am I on the loop?",
+      "What evidence lets me trust an automated score?"
+    ],
+    "commonMisconceptions": [
+      "An AI agent can replace the human review",
+      "The loop ends when a resource is published"
+    ],
+    "assessmentOpportunities": [
+      "Which station comes right after \"check the agent\"?",
+      "What does the return arrow from station 7 to station 3 mean?",
+      "Which chapters teach scoring by hand?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Numbered markers",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "all"
+}

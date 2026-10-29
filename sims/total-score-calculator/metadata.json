@@ -1,0 +1,85 @@
+{
+  "title": "Total Score Calculator",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Explore how ten metric scores add up to subtotals, a total, a band, and an adoption decision, then calculate the total and decision for five resources.",
+  "date": "2026-10-24",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Total score and adoption decision",
+    "learningObjectives": [
+      "The learner will calculate the quality subtotal, reusability subtotal, total score, band, and adoption decision for each of five scored resources, with the total and the decision both correct on at least 4 of 5."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "15-20 minutes",
+    "prerequisites": [
+      "The terms quality subtotal, reusability subtotal, total score, score band, and adoption threshold"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 860
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Predict, commit an answer, and read the reason",
+    "keyQuestions": [
+      "What are the two subtotals and the total?",
+      "Is any metric below the floor of 5?"
+    ],
+    "commonMisconceptions": [
+      "A total of 75 or more always means Adopt",
+      "A total of 50 or more always means Revise",
+      "The floor applies only to the license metric"
+    ],
+    "assessmentOpportunities": [
+      "A resource totals 85 and one metric is 4. What is the decision?",
+      "A resource totals 37. What is the decision?",
+      "Does a total of 75 always mean Adopt?",
+      "Does the floor apply only to the license metric?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Ten sliders",
+      "type": "button",
+      "description": " in explore mode, set each metric score from 0 to 10 in whole points. The start position is 5 for every metric."
+    },
+    {
+      "name": "Start practice",
+      "type": "button",
+      "description": " leaves explore mode."
+    },
+    {
+      "name": "Total score box",
+      "type": "button",
+      "description": " type a whole number from 0 to 100."
+    },
+    {
+      "name": "Adopt, Revise, Reject buttons",
+      "type": "button",
+      "description": " choose the decision."
+    },
+    {
+      "name": "Check",
+      "type": "button",
+      "description": " commits the answer. Back to explore is on the results screen."
+    }
+  ],
+  "chapter": "03-ten-metric-rubric-scoring"
+}

@@ -1,0 +1,74 @@
+{
+  "title": "Can I Publish My Improved Version?",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "A traffic-light card for each license that answers one question: may you publish an improved version, and what must you do?",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "What each license allows when you publish an improved version",
+    "learningObjectives": [
+      "The learner will decide whether an improved version of a resource may be published under its license, and state what you must do."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "The six Creative Commons licenses from [Chapter 2](../../chapters/02-open-licenses-attribution/index.md) and derivative works from [Chapter 15](../../chapters/15-improving-resources-with-ai/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (grid-diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 760
+    },
+    "canvasHeight": 760,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/grid-diagram.js, grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "What does the license say about derivatives?",
+      "What must I add to my version?"
+    ],
+    "commonMisconceptions": [
+      "An AI edit removes the original license",
+      "Any open license lets you publish a changed version"
+    ],
+    "assessmentOpportunities": [
+      "A resource is CC BY-ND. May you publish your improved version?",
+      "A resource is CC BY-SA. What must you do?",
+      "A resource has no license. May you publish an improved version?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Poster zones",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "15-improving-resources-with-ai"
+}

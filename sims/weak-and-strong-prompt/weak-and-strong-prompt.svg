@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" role="img">
+<title>Weak Prompt, Strong Prompt</title>
+<desc>Two prompt cards, each with five bands: role, task, input, rules, and output format. The weak prompt has only the task, &quot;Check accessibility.&quot;, and the other four bands are empty and hatched. The strong prompt has all five. Role: You are a careful reviewer of open educational resources. Task: Apply the ten accessibility checks listed below to the resource. Input: the full text of the resource, pasted below the checks. Rules: Quote evidence for every result. If a check cannot be verified from the text, write &quot;not checkable&quot;. Output format: a table with the columns check, result, and evidence. An arrow from the evidence column points to Chapter 14, where the evidence gets verified. A footer says a good prompt does not guarantee a good answer.</desc>
+<rect width="1200" height="700" fill="#f7f9fc"/>
+<defs><pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#f7f9fc"/><line x1="0" y1="0" x2="0" y2="8" stroke="#d3d9e0" stroke-width="3"/></pattern></defs>
+<text x="40" y="50" font-size="32" fill="#1b2a41" font-weight="bold">Weak Prompt, Strong Prompt</text>
+<text x="40" y="80" font-size="18" fill="#4a5666">Every rubric prompt has the same five parts. How many does yours have?</text>
+<rect x="30" y="106" width="450" height="526" rx="14" fill="#fde8e8" stroke="#b71c1c" stroke-width="3"/>
+<text x="48" y="140" font-size="26" fill="#b71c1c" font-weight="bold">Weak prompt</text>
+<rect x="318.2" y="120" width="145.8" height="28" rx="14" fill="#b71c1c"/>
+<text x="391.1" y="139.1" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle">One of five parts</text>
+<rect x="51" y="166" width="418" height="448" rx="10" fill="#c9d1db"/>
+<rect x="46" y="160" width="418" height="448" rx="10" fill="#ffffff" stroke="#1b2a41" stroke-width="3"/>
+<rect x="54" y="168" width="116" height="80.4" rx="6" fill="#1d4f86"/>
+<text x="112" y="215.2" font-size="16" fill="#ffffff" font-weight="bold" text-anchor="middle">Role</text>
+<rect x="176" y="168" width="280" height="80.4" rx="6" fill="url(#hatch)" stroke="#6b7785" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="316" y="215.2" font-size="15" fill="#4a5666" text-anchor="middle" font-style="italic">empty</text>
+<rect x="54" y="254.4" width="116" height="80.4" rx="6" fill="#00796b"/>
+<text x="112" y="301.6" font-size="16" fill="#ffffff" font-weight="bold" text-anchor="middle">Task</text>
+<rect x="176" y="254.4" width="280" height="80.4" rx="6" fill="#ffffff" stroke="#00796b" stroke-width="2.5"/>
+<text x="188" y="278.4" font-size="21" fill="#1b2a41" font-weight="bold">Check accessibility.</text>
+<rect x="54" y="340.8" width="116" height="80.4" rx="6" fill="#8a5a00"/>
+<text x="112" y="388" font-size="16" fill="#ffffff" font-weight="bold" text-anchor="middle">Input</text>
+<rect x="176" y="340.8" width="280" height="80.4" rx="6" fill="url(#hatch)" stroke="#6b7785" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="316" y="388" font-size="15" fill="#4a5666" text-anchor="middle" font-style="italic">empty</text>
+<rect x="54" y="427.2" width="116" height="80.4" rx="6" fill="#573379"/>
+<text x="112" y="474.4" font-size="16" fill="#ffffff" font-weight="bold" text-anchor="middle">Rules</text>
+<rect x="176" y="427.2" width="280" height="80.4" rx="6" fill="url(#hatch)" stroke="#6b7785" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="316" y="474.4" font-size="15" fill="#4a5666" text-anchor="middle" font-style="italic">empty</text>
+<rect x="54" y="513.6" width="116" height="80.4" rx="6" fill="#1b5e20"/>
+<text x="112" y="560.8" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle">Output format</text>
+<rect x="176" y="513.6" width="280" height="80.4" rx="6" fill="url(#hatch)" stroke="#6b7785" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="316" y="560.8" font-size="15" fill="#4a5666" text-anchor="middle" font-style="italic">empty</text>
+<rect x="510" y="106" width="660" height="526" rx="14" fill="#e5f2e6" stroke="#1b5e20" stroke-width="3"/>
+<text x="528" y="140" font-size="26" fill="#1b5e20" font-weight="bold">Strong prompt</text>
+<rect x="1038.3" y="120" width="115.7" height="28" rx="14" fill="#1b5e20"/>
+<text x="1096.1" y="139.1" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle">All five parts</text>
+<rect x="531" y="166" width="628" height="448" rx="10" fill="#c9d1db"/>
+<rect x="526" y="160" width="628" height="448" rx="10" fill="#ffffff" stroke="#1b2a41" stroke-width="3"/>
+<rect x="534" y="168" width="116" height="80.4" rx="6" fill="#1d4f86"/>
+<text x="592" y="215.2" font-size="16" fill="#ffffff" font-weight="bold" text-anchor="middle">Role</text>
+<rect x="656" y="168" width="490" height="80.4" rx="6" fill="#ffffff" stroke="#1d4f86" stroke-width="2.5"/>
+<text x="668" y="192" font-size="16" fill="#1b2a41">You are a careful reviewer of open educational resources.</text>
+<rect x="534" y="254.4" width="116" height="80.4" rx="6" fill="#00796b"/>
+<text x="592" y="301.6" font-size="16" fill="#ffffff" font-weight="bold" text-anchor="middle">Task</text>
+<rect x="656" y="254.4" width="490" height="80.4" rx="6" fill="#ffffff" stroke="#00796b" stroke-width="2.5"/>
+<text x="668" y="278.4" font-size="16" fill="#1b2a41">Apply the ten accessibility checks listed below to the</text>
+<text x="668" y="297.3" font-size="16" fill="#1b2a41">resource.</text>
+<rect x="534" y="340.8" width="116" height="80.4" rx="6" fill="#8a5a00"/>
+<text x="592" y="388" font-size="16" fill="#ffffff" font-weight="bold" text-anchor="middle">Input</text>
+<rect x="656" y="340.8" width="490" height="80.4" rx="6" fill="#ffffff" stroke="#8a5a00" stroke-width="2.5"/>
+<text x="668" y="364.8" font-size="16" fill="#1b2a41">The full text of the resource, pasted below the checks.</text>
+<rect x="534" y="427.2" width="116" height="80.4" rx="6" fill="#573379"/>
+<text x="592" y="474.4" font-size="16" fill="#ffffff" font-weight="bold" text-anchor="middle">Rules</text>
+<rect x="656" y="427.2" width="490" height="80.4" rx="6" fill="#ffffff" stroke="#573379" stroke-width="2.5"/>
+<text x="668" y="451.2" font-size="16" fill="#1b2a41">Quote evidence for every result. If a check cannot be verified</text>
+<text x="668" y="470.1" font-size="16" fill="#1b2a41">from the text, write &quot;not checkable&quot;.</text>
+<rect x="534" y="513.6" width="116" height="80.4" rx="6" fill="#1b5e20"/>
+<text x="592" y="560.8" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle">Output format</text>
+<rect x="656" y="513.6" width="490" height="80.4" rx="6" fill="#ffffff" stroke="#1b5e20" stroke-width="2.5"/>
+<text x="668" y="537.6" font-size="16" fill="#1b2a41">A table with the columns check, result, and evidence.</text>
+<rect x="896.2" y="620" width="251.8" height="26" rx="13" fill="#1b2a41"/>
+<text x="1022.1" y="637.8" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">Chapter 14 verifies this evidence</text>
+<text x="40" y="670" font-size="17" fill="#1b2a41" font-weight="bold">A good prompt does not guarantee a good answer. Chapters 13 and 14 exist because answers still need checking.</text>
+</svg>

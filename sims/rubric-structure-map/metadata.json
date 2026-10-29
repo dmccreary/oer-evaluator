@@ -1,0 +1,80 @@
+{
+  "title": "Ten-Metric Rubric Map",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Explore the structure of the ten-metric rubric as a tree, then click the metric that each of ten teacher complaints tests.",
+  "date": "2026-10-24",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Structure of the ten-metric rubric",
+    "learningObjectives": [
+      "The learner will attribute each of ten teacher complaints to the one rubric metric it tests, with at least 9 of 10 correct on the first attempt."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The ten rubric metrics and the quality and reusability dimensions"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "vis-network",
+    "version": "9.1.9",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 560
+    },
+    "responsive": true,
+    "dependencies": [
+      "vis-network 9.1.9 from the unpkg CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a tree, then attribute problems to its nodes",
+    "keyQuestions": [
+      "What is broken in this complaint?",
+      "Which metric asks the question that this complaint raises?"
+    ],
+    "commonMisconceptions": [
+      "Readability and accessibility are the same metric",
+      "Open license and metadata both describe the license",
+      "A resource that is free to read is portable"
+    ],
+    "assessmentOpportunities": [
+      "\"A screen reader reads the picture names as image1.png.\" Which metric?",
+      "\"I cannot tell whether I may translate this.\" Which metric?",
+      "Which dimension holds Editable source?",
+      "Are readability and accessibility the same metric?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz me buttons",
+      "type": "button",
+      "description": " switch modes. Quiz me starts a new run."
+    },
+    {
+      "name": "Nodes",
+      "type": "button",
+      "description": " click a node. The same nodes are reachable by keyboard through a hidden list of buttons, and a screen reader announces each node."
+    },
+    {
+      "name": "+, minus, and Fit",
+      "type": "button",
+      "description": " zoom the map. The map does not zoom with the mouse wheel, so it never captures page scrolling. Once zoomed in, drag to pan."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": " moves to the next complaint. Play again repeats the quiz."
+    }
+  ],
+  "chapter": "03-ten-metric-rubric-scoring"
+}

@@ -1,0 +1,74 @@
+{
+  "title": "How Fast Does Content Spoil?",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "A three-shelf market stall that sorts six kinds of content by how quickly they go out of date, with a date stamp telling a reviewer how often to check each one.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Matching the checking schedule to how fast content ages",
+    "learningObjectives": [
+      "The learner will match each of six kinds of content to how fast it ages and how often a reviewer should check it."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "The currency half of the accuracy and currency metric from [Chapter 5](../../chapters/05-accuracy-currency/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (grid-diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 717
+    },
+    "canvasHeight": 717,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/grid-diagram.js, grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "How fast does this kind of content age?",
+      "When was it last checked?"
+    ],
+    "commonMisconceptions": [
+      "Every page needs the same checking schedule",
+      "Old content is always outdated"
+    ],
+    "assessmentOpportunities": [
+      "Which shelf holds software screenshots?",
+      "How often do you check standards, curricula, and guidelines?",
+      "Why not use one currency rule for every page?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Poster zones",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "05-accuracy-currency"
+}

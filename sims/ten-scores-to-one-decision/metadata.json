@@ -1,0 +1,74 @@
+{
+  "title": "From Ten Scores to One Decision",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "A funnel that narrows ten metric scores to two subtotals, a total out of 100, a score band, and one decision, with the floor shown as a gate.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "How ten metric scores combine into subtotals, a total, a band, and a decision",
+    "learningObjectives": [
+      "The learner will trace ten metric scores through subtotals, a total, a band, and a decision, and explain why the floor can override a high total."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "The ten metrics from [Chapter 3](../../chapters/03-ten-metric-rubric-scoring/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 850
+    },
+    "canvasHeight": 850,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/diagram.js, style.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "What does each layer keep, and what does it lose?",
+      "Which metric is below the floor?"
+    ],
+    "commonMisconceptions": [
+      "A total of 75 or more always means Adopt",
+      "The total is the most informative number in a report"
+    ],
+    "assessmentOpportunities": [
+      "What is the Adopt rule?",
+      "What band is a total of 65?",
+      "A resource totals 85. Is it always Adopt?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Numbered markers",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "03-ten-metric-rubric-scoring"
+}

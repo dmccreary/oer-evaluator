@@ -1,0 +1,74 @@
+{
+  "title": "Safe to Send? Student Data and AI Services",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Three chutes sort six items into send it, fix it first, and never send it, with a warning that text sent to an AI service cannot be pulled back.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Which materials are safe to send to an AI service",
+    "learningObjectives": [
+      "The learner will sort six items into send it, fix it first, and never send it, and state why the sorting matters."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "Student data privacy and FERPA from [Chapter 13](../../chapters/13-automated-checks-cost-privacy/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (grid-diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 760
+    },
+    "canvasHeight": 760,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/grid-diagram.js, grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "Does it name or identify a student?",
+      "Can I take it back once it is sent?"
+    ],
+    "commonMisconceptions": [
+      "Deleting a chat removes what was sent",
+      "Removing the name from a gradebook is always enough"
+    ],
+    "assessmentOpportunities": [
+      "Why are quiz scores with names not safe as they are?",
+      "Can you take back text you pasted into an AI service?",
+      "What do you do if you are not sure an item is safe?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Poster zones",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "13-automated-checks-cost-privacy"
+}

@@ -1,0 +1,74 @@
+{
+  "title": "Feedback That Teaches",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "One question and one wrong answer, answered four ways, with each message rated against four criteria; only the last one passes all four.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "What makes a feedback message teach",
+    "learningObjectives": [
+      "The learner will rate a feedback message against four criteria and explain why only one of four messages for the same wrong answer is strong."
+    ],
+    "bloomsTaxonomy": "Evaluate",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "The feedback metric from [Chapter 8](../../chapters/08-practice-feedback/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (grid-diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 760
+    },
+    "canvasHeight": 760,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/grid-diagram.js, grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "Does the message name the likely mix-up?",
+      "Does it point to what to do next?"
+    ],
+    "commonMisconceptions": [
+      "Telling the learner the right answer is enough",
+      "Encouragement alone is helpful feedback"
+    ],
+    "assessmentOpportunities": [
+      "A message says \"Incorrect. The answer is A.\" Is it strong?",
+      "What does \"Good try!\" fail to do?",
+      "What four things does a helpful message do?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Poster zones",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "08-practice-feedback"
+}

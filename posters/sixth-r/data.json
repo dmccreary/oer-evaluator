@@ -1,0 +1,136 @@
+{
+  "title": "The Sixth R: Regenerate",
+  "image": "sixth-r.svg",
+  "layout": "grid",
+  "showLabels": false,
+  "palette": [
+    "#c77700",
+    "#00796b"
+  ],
+  "zones": [
+    {
+      "id": "course-description",
+      "label": "Course description",
+      "color": "#c77700",
+      "x1": 5.0,
+      "y1": 23.1,
+      "x2": 35.8,
+      "y2": 42.0,
+      "summary": "Course description: where the book starts. Agents build the chapters from it.",
+      "facts": [
+        "Agentic workflows turn a course description into chapters, simulations, quizzes, and a learning graph.",
+        "It is part of the source. The rendered book on its own does not include it.",
+        "Publishing it lets another author start from the same description, or change it, which supports remix and regenerate."
+      ]
+    },
+    {
+      "id": "learning-graph",
+      "label": "Learning graph",
+      "color": "#c77700",
+      "x1": 5.0,
+      "y1": 43.4,
+      "x2": 35.8,
+      "y2": 62.3,
+      "summary": "Learning graph: a map of the book's concepts and what each one depends on.",
+      "facts": [
+        "Chapter 18 defines it as a map of the concepts of a subject, each linked to the concepts it depends on.",
+        "It is part of the source of an intelligent textbook, so retaining the book means retaining the graph too.",
+        "Publishing it supports remix and regenerate."
+      ]
+    },
+    {
+      "id": "agentic-skills",
+      "label": "Agentic skills",
+      "color": "#c77700",
+      "x1": 5.0,
+      "y1": 63.7,
+      "x2": 35.8,
+      "y2": 82.6,
+      "summary": "Agentic skills: reusable, documented steps an AI agent follows to build the book.",
+      "facts": [
+        "Documented, reusable skills let another author regenerate a textbook from a different course description.",
+        "Platform-independent instructions can produce versions of the book across different AI tools.",
+        "Without the skills, the book is a finished artifact. With them, it can be rebuilt."
+      ]
+    },
+    {
+      "id": "regenerate",
+      "label": "Regenerate",
+      "color": "#c77700",
+      "x1": 38.0,
+      "y1": 37.4,
+      "x2": 59.5,
+      "y2": 63.4,
+      "summary": "Regenerate, the proposed sixth R: the right to recreate, update, or produce new versions of an intelligent textbook.",
+      "facts": [
+        "It applies to the source (the course description, learning graph, and agentic skills), not only to the rendered book.",
+        "Test question, written for this poster: Can I recreate it from its source?",
+        "An open license on the rendered Markdown gives you the output but not the means of production. Regenerate closes that gap.",
+        "It is a proposal on the Intelligent Textbooks site. It is not part of Wiley's original framework.",
+        "The site weighed three other candidates (reason, respond, reflect) and chose regenerate. Those three describe what an AI does when a learner uses the book. Regenerate is a freedom over the book itself, like the other five."
+      ]
+    },
+    {
+      "id": "the-book",
+      "label": "The book",
+      "color": "#00796b",
+      "x1": 60.0,
+      "y1": 14.9,
+      "x2": 96.7,
+      "y2": 42.9,
+      "summary": "The book: the rendered output that readers see and the 5Rs act on.",
+      "facts": [
+        "The rendered Markdown: chapters, MicroSims, and quizzes.",
+        "Markdown output is only half the story. Without the source, the book is no more adaptable than a PDF.",
+        "David Wiley proposed the 5Rs in 2014 to describe what an open license lets you do with a finished resource like this."
+      ]
+    },
+    {
+      "id": "five-rs",
+      "label": "The 5Rs",
+      "color": "#00796b",
+      "x1": 60.0,
+      "y1": 44.6,
+      "x2": 96.7,
+      "y2": 85.7,
+      "summary": "The 5Rs: five permissions that an open license grants on the finished book.",
+      "facts": [
+        "Retain, reuse, revise, remix, and redistribute. The Intelligent Textbooks site calls them cumulative: you cannot revise what you cannot retain.",
+        "The test question beside each name is the one Chapter 1 teaches.",
+        "For an AI-built book, each R gets a wider meaning. Retain, for example, includes the prompts, skills, and learning graph that generated the book."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which zone is the right to recreate, update, or produce new versions of the textbook?",
+      "correct_zone": "regenerate",
+      "explanation": "That is the definition of regenerate, the proposed sixth R."
+    },
+    {
+      "question": "Which zone holds the five permissions that David Wiley named?",
+      "correct_zone": "five-rs",
+      "explanation": "The 5Rs describe what you may do with the finished book."
+    },
+    {
+      "question": "Which zone is the map of the book's concepts and what each one depends on?",
+      "correct_zone": "learning-graph",
+      "explanation": "A learning graph links each concept to the concepts it depends on."
+    },
+    {
+      "question": "Which zone is the starting point that agents turn into chapters, simulations, and quizzes?",
+      "correct_zone": "course-description",
+      "explanation": "Agentic workflows begin with the course description."
+    },
+    {
+      "question": "Which zone holds the reusable, documented steps an AI agent follows to build the book?",
+      "correct_zone": "agentic-skills",
+      "explanation": "Those steps are the agentic skills. With them, another author can rebuild the book for a different course."
+    },
+    {
+      "question": "Which zone is the rendered output, the chapters, MicroSims, and quizzes that readers see?",
+      "correct_zone": "the-book",
+      "explanation": "The book is the output. The source is what produces it."
+    }
+  ]
+}

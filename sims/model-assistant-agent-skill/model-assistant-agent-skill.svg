@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" role="img">
+<title>Model, Assistant, Agent, Skill</title>
+<desc>Four horizontal layers stacked from the bottom. Bottom, Large language model: predicts the next piece of text, one piece at a time; it does not look facts up, and it can sound sure when it is wrong. Example: filling in the next word. Above it, AI assistant: a program you talk to in ordinary language that answers and waits, powered by a model. Example: pasting in a resource and asking for problems. Above that, AI agent: adds tools, files, and a loop of observe, decide, act, and observe the result. Example: listing 14 links and testing each. Top, Agent skill: a packaged set of instructions in a folder, with a short description that tells the agent when to use it. Example: the ten-metric rubric packaged as a skill. The step from model to assistant adds a conversation; from assistant to agent adds tools and a loop; from agent to skill adds a saved procedure.</desc>
+<rect width="1200" height="700" fill="#f7f9fc"/>
+<text x="40" y="50" font-size="32" fill="#1b2a41" font-weight="bold">Model, Assistant, Agent, Skill</text>
+<text x="40" y="80" font-size="18" fill="#4a5666">Four layers, each built on the one below. What does each step add?</text>
+<rect x="30" y="550" width="1140" height="118" rx="14" fill="#fdf1d6" stroke="#8a5a00" stroke-width="3"/>
+<rect x="30" y="550" width="230" height="118" rx="14" fill="#8a5a00"/>
+<rect x="230" y="550" width="30" height="118" rx="0" fill="#8a5a00"/>
+<text x="50" y="590" font-size="36" fill="#ffffff" font-weight="bold">1</text>
+<text x="92" y="596" font-size="20" fill="#ffffff" font-weight="bold">Large language</text>
+<text x="92" y="619" font-size="20" fill="#ffffff" font-weight="bold">model</text>
+<circle cx="100" cy="642" r="5" fill="#ffffff"/>
+<circle cx="118" cy="642" r="5" fill="#ffffff"/>
+<circle cx="136" cy="642" r="5" fill="#ffffff"/>
+<text x="280" y="594" font-size="24" fill="#1b2a41" font-weight="bold">Predicts the next piece of text, one piece</text>
+<text x="280" y="621.6" font-size="24" fill="#1b2a41" font-weight="bold">at a time.</text>
+<text x="280" y="648" font-size="15" fill="#8a5a00">Limits: it does not look facts up, and it can sound sure when it is wrong.</text>
+<rect x="830" y="564" width="326" height="90" rx="10" fill="#ffffff" stroke="#8a5a00" stroke-width="2"/>
+<text x="846" y="588" font-size="12" fill="#8a5a00" font-weight="bold" letter-spacing="1">THE BOOK&#x27;S EXAMPLE</text>
+<text x="846" y="616" font-size="19" fill="#1b2a41" font-weight="bold">Filling in the next word.</text>
+<polygon points="1130,624 1144.7,649.2 1115.3,649.2" fill="#e69500" stroke-linejoin="round"/>
+<line x1="1130" y1="633.8" x2="1130" y2="641.5" stroke="#1b2a41" stroke-width="2.8" stroke-linecap="round"/>
+<circle cx="1130" cy="645.7" r="2.3" fill="#1b2a41"/>
+<line x1="600" y1="700" x2="600" y2="685.2" stroke="#6b7785" stroke-width="5" stroke-linecap="butt"/>
+<polygon points="600,674 607,686.1 593,686.1" fill="#6b7785" stroke-linejoin="miter"/>
+<rect x="630" y="675" width="183.8" height="26" rx="13" fill="#1b2a41"/>
+<text x="721.9" y="693.1" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle">adds tools and a loop</text>
+<rect x="30" y="400" width="1140" height="118" rx="14" fill="#e6eef8" stroke="#1d4f86" stroke-width="3"/>
+<rect x="30" y="400" width="230" height="118" rx="14" fill="#1d4f86"/>
+<rect x="230" y="400" width="30" height="118" rx="0" fill="#1d4f86"/>
+<text x="50" y="440" font-size="36" fill="#ffffff" font-weight="bold">2</text>
+<text x="92" y="446" font-size="20" fill="#ffffff" font-weight="bold">AI assistant</text>
+<rect x="96" y="478" width="62" height="26" rx="10" fill="#ffffff" stroke="#ffffff" stroke-width="2.5"/>
+<polygon points="98,487.1 82,491 98,494.9" fill="#ffffff" stroke="#ffffff" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="97.2" y1="487.9" x2="97.2" y2="494.1" stroke="#ffffff" stroke-width="3.5" stroke-linecap="butt"/>
+<text x="280" y="444" font-size="24" fill="#1b2a41" font-weight="bold">A program you talk to in ordinary</text>
+<text x="280" y="471.6" font-size="24" fill="#1b2a41" font-weight="bold">language. It answers and waits.</text>
+<text x="280" y="498" font-size="16" fill="#1d4f86">Powered by a model.</text>
+<rect x="830" y="414" width="326" height="90" rx="10" fill="#ffffff" stroke="#1d4f86" stroke-width="2"/>
+<text x="846" y="438" font-size="12" fill="#1d4f86" font-weight="bold" letter-spacing="1">THE BOOK&#x27;S EXAMPLE</text>
+<text x="846" y="466" font-size="19" fill="#1b2a41" font-weight="bold">Paste in a resource and ask</text>
+<text x="846" y="488.8" font-size="19" fill="#1b2a41" font-weight="bold">for problems.</text>
+<line x1="600" y1="550" x2="600" y2="535.2" stroke="#6b7785" stroke-width="5" stroke-linecap="butt"/>
+<polygon points="600,524 607,536.1 593,536.1" fill="#6b7785" stroke-linejoin="miter"/>
+<rect x="630" y="525" width="174.2" height="26" rx="13" fill="#1b2a41"/>
+<text x="717.1" y="543.1" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle">adds a conversation</text>
+<rect x="30" y="250" width="1140" height="118" rx="14" fill="#e3f4f1" stroke="#00796b" stroke-width="3"/>
+<rect x="30" y="250" width="230" height="118" rx="14" fill="#00796b"/>
+<rect x="230" y="250" width="30" height="118" rx="0" fill="#00796b"/>
+<text x="50" y="290" font-size="36" fill="#ffffff" font-weight="bold">3</text>
+<text x="92" y="296" font-size="20" fill="#ffffff" font-weight="bold">AI agent</text>
+<circle cx="126.3" cy="340" r="3.6" fill="#ffffff"/>
+<circle cx="122.7" cy="348.7" r="3.6" fill="#ffffff"/>
+<circle cx="114" cy="352.3" r="3.6" fill="#ffffff"/>
+<circle cx="105.3" cy="348.7" r="3.6" fill="#ffffff"/>
+<circle cx="101.7" cy="340" r="3.6" fill="#ffffff"/>
+<circle cx="105.3" cy="331.3" r="3.6" fill="#ffffff"/>
+<circle cx="114" cy="327.7" r="3.6" fill="#ffffff"/>
+<circle cx="122.7" cy="331.3" r="3.6" fill="#ffffff"/>
+<circle cx="114" cy="340" r="10.8" fill="#ffffff"/>
+<circle cx="114" cy="340" r="4.5" fill="#ffffff"/>
+<text x="280" y="294" font-size="24" fill="#1b2a41" font-weight="bold">Works toward a goal over several steps,</text>
+<text x="280" y="321.6" font-size="24" fill="#1b2a41" font-weight="bold">using tools and files.</text>
+<text x="280" y="348" font-size="16" fill="#00796b">Loop: observe, decide, act, observe the result.</text>
+<rect x="830" y="264" width="326" height="90" rx="10" fill="#ffffff" stroke="#00796b" stroke-width="2"/>
+<text x="846" y="288" font-size="12" fill="#00796b" font-weight="bold" letter-spacing="1">THE BOOK&#x27;S EXAMPLE</text>
+<text x="846" y="316" font-size="19" fill="#1b2a41" font-weight="bold">List 14 links and test each</text>
+<text x="846" y="338.8" font-size="19" fill="#1b2a41" font-weight="bold">one.</text>
+<line x1="600" y1="400" x2="600" y2="385.2" stroke="#6b7785" stroke-width="5" stroke-linecap="butt"/>
+<polygon points="600,374 607,386.1 593,386.1" fill="#6b7785" stroke-linejoin="miter"/>
+<rect x="630" y="375" width="183.8" height="26" rx="13" fill="#1b2a41"/>
+<text x="721.9" y="393.1" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle">adds tools and a loop</text>
+<rect x="30" y="100" width="1140" height="118" rx="14" fill="#efe6f6" stroke="#573379" stroke-width="3"/>
+<rect x="30" y="100" width="230" height="118" rx="14" fill="#573379"/>
+<rect x="230" y="100" width="30" height="118" rx="0" fill="#573379"/>
+<text x="50" y="140" font-size="36" fill="#ffffff" font-weight="bold">4</text>
+<text x="92" y="146" font-size="20" fill="#ffffff" font-weight="bold">Agent skill</text>
+<polygon points="92,186 110.2,186 114.1,178 126.6,178 129.4,186 140,186 140,212 92,212" fill="#fff3b0" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="280" y="144" font-size="24" fill="#1b2a41" font-weight="bold">A saved set of instructions that an agent</text>
+<text x="280" y="171.6" font-size="24" fill="#1b2a41" font-weight="bold">loads when a task matches.</text>
+<text x="280" y="198" font-size="16" fill="#573379">The durable, shareable form of a rubric prompt.</text>
+<rect x="830" y="114" width="326" height="90" rx="10" fill="#ffffff" stroke="#573379" stroke-width="2"/>
+<text x="846" y="138" font-size="12" fill="#573379" font-weight="bold" letter-spacing="1">THE BOOK&#x27;S EXAMPLE</text>
+<text x="846" y="166" font-size="19" fill="#1b2a41" font-weight="bold">The ten-metric rubric</text>
+<text x="846" y="188.8" font-size="19" fill="#1b2a41" font-weight="bold">packaged as a skill.</text>
+<line x1="600" y1="250" x2="600" y2="235.2" stroke="#6b7785" stroke-width="5" stroke-linecap="butt"/>
+<polygon points="600,224 607,236.1 593,236.1" fill="#6b7785" stroke-linejoin="miter"/>
+<rect x="630" y="225" width="202.7" height="26" rx="13" fill="#1b2a41"/>
+<text x="731.3" y="243.1" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle">adds a saved procedure</text>
+</svg>

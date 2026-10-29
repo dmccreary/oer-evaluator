@@ -1,0 +1,81 @@
+{
+  "title": "License Selection Advisor",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Apply three questions to choose the license that serves each of seven stated creator goals.",
+  "date": "2026-10-24",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Choosing a license",
+    "learningObjectives": [
+      "The learner will apply the three license-selection questions to choose the license that serves each of seven stated goals, with at least 6 of 7 correct on the first attempt."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The idea of license selection and the licenses CC0, CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, CC BY-ND, and CC BY-NC-ND"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 684
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Predict, commit an answer, and read the reason",
+    "keyQuestions": [
+      "Will you allow commercial reuse?",
+      "Will you allow others to share changed versions?",
+      "Must changed versions carry the same license?"
+    ],
+    "commonMisconceptions": [
+      "The most restrictive license is always the safest",
+      "CC0 is just another Creative Commons license with no conditions on commercial use",
+      "ShareAlike and NoDerivatives can be combined"
+    ],
+    "assessmentOpportunities": [
+      "Others may change my lesson noncommercially, and every changed version must carry my license. Which license?",
+      "Anyone may share my finished report, even for sale, but nobody may share a changed version. Which license?",
+      "When is CC0 the right choice?",
+      "Name two checks to make before you pick any license."
+    ]
+  },
+  "controls": [
+    {
+      "name": "Seven license buttons",
+      "type": "button",
+      "description": " CC0, CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, CC BY-ND, CC BY-NC-ND."
+    },
+    {
+      "name": "Show the three questions",
+      "type": "button",
+      "description": " opens the table above."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": " moves to the next goal."
+    },
+    {
+      "name": "Play again** and the missed-goal review on the results screen.",
+      "type": "button",
+      "description": ""
+    }
+  ],
+  "chapter": "02-open-licenses-attribution"
+}

@@ -1,0 +1,75 @@
+{
+  "title": "Fork and Pull Request: Two Lanes, Seven Steps",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "A two-lane diagram of the seven steps for improving a resource you do not own: find it, fork it, change your copy, propose the change, review, respond, and merge.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "The fork and pull request workflow for improving someone else's resource",
+    "learningObjectives": [
+      "The learner will order the seven steps of the fork and pull request workflow and say in which copy each step happens."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "The meaning of a repository, a fork, and a pull request from [Chapter 4](../../chapters/04-open-formats-version-control/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 781
+    },
+    "canvasHeight": 781,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/diagram.js, style.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "Whose copy is this step in?",
+      "What does the maintainer see?"
+    ],
+    "commonMisconceptions": [
+      "You edit the original repository directly",
+      "A pull request is sent before the change is made",
+      "The maintainer must accept every pull request"
+    ],
+    "assessmentOpportunities": [
+      "Where do you make your change?",
+      "Can a pull request be sent before the change is made?",
+      "Must the maintainer accept every pull request?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Numbered markers",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "04-open-formats-version-control"
+}

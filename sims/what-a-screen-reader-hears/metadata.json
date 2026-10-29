@@ -1,0 +1,74 @@
+{
+  "title": "What a Screen Reader Hears",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "A page on the left and speech bubbles on the right show what a screen reader announces for a heading, an image with good alt text, an image with no alt attribute, and an image with an empty alt attribute.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "How headings and alt text are announced by a screen reader",
+    "learningObjectives": [
+      "The learner will predict what a screen reader announces for a heading and for images with good, missing, and empty alt text."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "Alt text, decorative images, and heading structure from [Chapter 7](../../chapters/07-accessibility/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (grid-diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 760
+    },
+    "canvasHeight": 760,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/grid-diagram.js, grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "What would I hear?",
+      "Is anything missing?"
+    ],
+    "commonMisconceptions": [
+      "An image with no alt attribute is the same as an image with an empty one",
+      "Every image needs a long alt text"
+    ],
+    "assessmentOpportunities": [
+      "What does a screen reader say for an image with no alt attribute?",
+      "When is an empty alt attribute correct?",
+      "How does a screen reader announce a real heading?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Poster zones",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "07-accessibility"
+}

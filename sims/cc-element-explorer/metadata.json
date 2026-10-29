@@ -1,0 +1,81 @@
+{
+  "title": "Creative Commons Element Explorer",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Switch the ShareAlike, NonCommercial, and NoDerivatives elements on and off, then predict what each resulting license allows.",
+  "date": "2026-10-24",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Creative Commons license elements",
+    "learningObjectives": [
+      "The learner will infer whether each of five actions is allowed under a given Creative Commons license by reasoning from its elements, with at least 7 of 8 predictions correct on the first attempt."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The four elements Attribution, ShareAlike, NonCommercial, and NoDerivatives, and the six licenses they form,"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 688
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Predict, commit an answer, and read the reason",
+    "keyQuestions": [
+      "Which element takes away this freedom?",
+      "Is the action a change, a sale, or a plain share?"
+    ],
+    "commonMisconceptions": [
+      "NoDerivatives forbids all changes, including private ones",
+      "NonCommercial only forbids selling the exact file",
+      "ShareAlike applies to unchanged copies",
+      "Any element can be combined with any other"
+    ],
+    "assessmentOpportunities": [
+      "A translation of a CC BY-ND work: allowed to post?",
+      "Can you sell printed copies of a CC BY-NC work?",
+      "Can you privately change a CC BY-NC-ND work?",
+      "Why can SA and ND not both be on?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "SA, NC, and ND switches",
+      "type": "button",
+      "description": " turn each element on or off. Turning on SA while ND is on, or the reverse, shows an explanation instead of changing the license."
+    },
+    {
+      "name": "Start the predictions",
+      "type": "button",
+      "description": " leaves explore mode."
+    },
+    {
+      "name": "Yes and No buttons",
+      "type": "button",
+      "description": " commit a prediction."
+    },
+    {
+      "name": "Back to explore",
+      "type": "button",
+      "description": " on the results screen, returns to the switches."
+    }
+  ],
+  "chapter": "02-open-licenses-attribution"
+}

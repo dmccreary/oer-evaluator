@@ -1,0 +1,117 @@
+{
+  "title": "Five Ways a Test Can Lie to You",
+  "image": "five-confounders.svg",
+  "layout": "grid",
+  "showLabels": false,
+  "palette": [
+    "#1d4f86",
+    "#00796b",
+    "#8a5a00",
+    "#573379",
+    "#b71c1c"
+  ],
+  "zones": [
+    {
+      "id": "different-teachers",
+      "label": "Different teachers",
+      "color": "#1d4f86",
+      "x1": 2.5,
+      "y1": 14.9,
+      "x2": 20.7,
+      "y2": 91.4,
+      "summary": "How it misleads: One teacher's enthusiasm lifts one group. The defense: One teacher for both groups.",
+      "facts": [
+        "How it misleads: One teacher's enthusiasm lifts one group.",
+        "The defense: One teacher for both groups.",
+        "Ask: what else is different besides the version?"
+      ]
+    },
+    {
+      "id": "different-times",
+      "label": "Different times of day",
+      "color": "#00796b",
+      "x1": 21.7,
+      "y1": 14.9,
+      "x2": 39.9,
+      "y2": 91.4,
+      "summary": "How it misleads: Students are more alert at one time. The defense: Both groups at the same time.",
+      "facts": [
+        "How it misleads: Students are more alert at one time.",
+        "The defense: Both groups at the same time.",
+        "Ask: what else is different besides the version?"
+      ]
+    },
+    {
+      "id": "extra-help",
+      "label": "Extra help",
+      "color": "#8a5a00",
+      "x1": 40.9,
+      "y1": 14.9,
+      "x2": 59.1,
+      "y2": 91.4,
+      "summary": "How it misleads: One group gets a review or hints. The defense: The same script and help for both.",
+      "facts": [
+        "How it misleads: One group gets a review or hints.",
+        "The defense: The same script and help for both.",
+        "Ask: what else is different besides the version?"
+      ]
+    },
+    {
+      "id": "different-tests",
+      "label": "Different tests",
+      "color": "#573379",
+      "x1": 60.1,
+      "y1": 14.9,
+      "x2": 78.3,
+      "y2": 91.4,
+      "summary": "How it misleads: The versions are measured in different ways. The defense: The same test and key for both.",
+      "facts": [
+        "How it misleads: The versions are measured in different ways.",
+        "The defense: The same test and key for both.",
+        "Ask: what else is different besides the version?"
+      ]
+    },
+    {
+      "id": "student-choice",
+      "label": "Student choice",
+      "color": "#b71c1c",
+      "x1": 79.3,
+      "y1": 14.9,
+      "x2": 97.5,
+      "y2": 91.4,
+      "summary": "How it misleads: Motivated students choose one version. The defense: Random assignment.",
+      "facts": [
+        "How it misleads: Motivated students choose one version.",
+        "The defense: Random assignment.",
+        "Ask: what else is different besides the version?"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which confounder do you defend against by using one teacher for both groups?",
+      "correct_zone": "different-teachers",
+      "explanation": "One teacher's enthusiasm lifts one group."
+    },
+    {
+      "question": "Which confounder do you defend against by running both groups at the same time?",
+      "correct_zone": "different-times",
+      "explanation": "Students are more alert at one time."
+    },
+    {
+      "question": "Which confounder is solved by the same script and help for both groups?",
+      "correct_zone": "extra-help",
+      "explanation": "One group gets a review or hints."
+    },
+    {
+      "question": "Which confounder is solved by the same test and key for both?",
+      "correct_zone": "different-tests",
+      "explanation": "The versions are measured in different ways."
+    },
+    {
+      "question": "Which confounder is solved by random assignment?",
+      "correct_zone": "student-choice",
+      "explanation": "Motivated students choose one version."
+    }
+  ]
+}

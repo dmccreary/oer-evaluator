@@ -1,0 +1,74 @@
+{
+  "title": "Five Ways a Test Can Lie to You",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Five paired panels, one per confounder, each showing a tilted balance scale for how it misleads and a level scale for the defense.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Five confounding variables in a classroom A/B test and their defenses",
+    "learningObjectives": [
+      "The learner will identify the confounder in a test setup and name its defense."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "The control group and the one-difference rule from [Chapter 16](../../chapters/16-ab-testing-design/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (grid-diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 760
+    },
+    "canvasHeight": 760,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/grid-diagram.js, grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "What else is different between the groups?",
+      "Which defense removes it?"
+    ],
+    "commonMisconceptions": [
+      "A big difference proves the version caused it",
+      "Volunteers make a fair comparison"
+    ],
+    "assessmentOpportunities": [
+      "Students choose which version to use. What is the confounder, and what is the defense?",
+      "One group takes the test in the morning and the other after lunch. Which confounder?",
+      "What question should you ask before trusting a difference between groups?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Poster zones",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "16-ab-testing-design"
+}

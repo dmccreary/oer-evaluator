@@ -1,0 +1,74 @@
+{
+  "title": "You Can't Reuse What You Can't Find",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "A mock search for \"watershed grade 6 reading open license\" shows three resource records: one found and clear, one not found, and one found but unclear.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Why metadata decides whether a resource is found and trusted",
+    "learningObjectives": [
+      "The learner will explain why a record with missing metadata is found, not found, or found but unclear for the same search."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "The six core metadata fields from [Chapter 9](../../chapters/09-modularity-metadata/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (grid-diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 760
+    },
+    "canvasHeight": 760,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/grid-diagram.js, grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "Which fields does the search read?",
+      "What would a teacher still need to know?"
+    ],
+    "commonMisconceptions": [
+      "A good resource will be found by its title alone",
+      "Metadata is part of the content"
+    ],
+    "assessmentOpportunities": [
+      "Why is resource B not found by the search?",
+      "Why is resource C found but unclear?",
+      "Which six fields make up a core record?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Poster zones",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "09-modularity-metadata"
+}

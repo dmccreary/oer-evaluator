@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" role="img">
+<title>The 5R Permissions: Five Things You May Do</title>
+<desc>Five equal panels in a row, numbered 1 to 5. Retain: make and keep your own copy; the question is can I make and keep my own copy. Reuse: use the work as it is; can I use it as it is. Revise: change the work; can I change it. Remix: combine the work with other open work; can I combine it with other open work. Redistribute: share copies with others; can I share copies with others. An arrow under the panels reads: have a copy, use it, change it, combine it, share it.</desc>
+<rect width="1200" height="700" fill="#f7f9fc"/>
+<text x="40" y="50" font-size="32" fill="#1b2a41" font-weight="bold">The 5R Permissions: Five Things You May Do</text>
+<text x="40" y="80" font-size="18" fill="#4a5666">An open license grants five permissions. Ask the test question of any resource.</text>
+<rect x="30" y="116" width="216.8" height="496" rx="14" fill="#ffffff" stroke="#00796b" stroke-width="3"/>
+<rect x="30" y="116" width="216.8" height="52" rx="14" fill="#00796b"/>
+<rect x="30" y="146" width="216.8" height="22" rx="0" fill="#00796b"/>
+<circle cx="58" cy="142" r="15" fill="#ffffff"/>
+<text x="58" y="148" font-size="18" fill="#00796b" font-weight="bold" text-anchor="middle">1</text>
+<text x="82" y="150" font-size="24" fill="#ffffff" font-weight="bold">Retain</text>
+<rect x="40" y="178" width="196.8" height="118" rx="10" fill="#e3f4f1"/>
+<polygon points="68.4,197 103,197 116.4,210.4 116.4,259 68.4,259" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="103,197 103,210.4 116.4,210.4" fill="#c9d1db" stroke="#1b2a41" stroke-width="2" stroke-linejoin="round"/>
+<line x1="76.4" y1="223" x2="106.4" y2="223" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<line x1="76.4" y1="232" x2="106.4" y2="232" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<line x1="76.4" y1="241" x2="94.4" y2="241" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<line x1="124.4" y1="229" x2="153.6" y2="229" stroke="#00796b" stroke-width="4" stroke-linecap="butt"/>
+<polygon points="162.4,229 152.9,234.5 152.9,223.5" fill="#00796b" stroke-linejoin="miter"/>
+<polygon points="166.4,217 187.7,217 192.2,209 206.7,209 210.1,217 222.4,217 222.4,253 166.4,253" fill="#fff3b0" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="178.4,199 200.4,199 208.4,207 208.4,237 178.4,237" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="200.4,199 200.4,207 208.4,207" fill="#c9d1db" stroke="#1b2a41" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="194.4" cy="268.7" r="5.3" fill="#00796b"/>
+<path d="M184.6,286.9 a9.8,11.9 0 0 1 19.6,0 z" fill="#00796b" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="44" y="324" font-size="17" fill="#1b2a41" font-weight="bold">Make and keep your</text>
+<text x="44" y="345.2" font-size="17" fill="#1b2a41" font-weight="bold">own copy</text>
+<rect x="40" y="368" width="196.8" height="118" rx="10" fill="#e3f4f1"/>
+<text x="48" y="388" font-size="12" fill="#00796b" font-weight="bold" letter-spacing="1">TEST QUESTION</text>
+<text x="48" y="418" font-size="22" fill="#00796b" font-weight="bold">Can I make and</text>
+<text x="48" y="444" font-size="22" fill="#00796b" font-weight="bold">keep my own</text>
+<text x="48" y="469.9" font-size="22" fill="#00796b" font-weight="bold">copy?</text>
+<text x="44" y="512" font-size="12" fill="#4a5666" font-weight="bold" letter-spacing="1">EXAMPLE</text>
+<text x="44" y="536" font-size="16" fill="#1b2a41">Copy the source files of</text>
+<text x="44" y="556.5" font-size="16" fill="#1b2a41">an open lab manual to</text>
+<text x="44" y="577" font-size="16" fill="#1b2a41">an external drive.</text>
+<rect x="260.8" y="116" width="216.8" height="496" rx="14" fill="#ffffff" stroke="#1d4f86" stroke-width="3"/>
+<rect x="260.8" y="116" width="216.8" height="52" rx="14" fill="#1d4f86"/>
+<rect x="260.8" y="146" width="216.8" height="22" rx="0" fill="#1d4f86"/>
+<circle cx="288.8" cy="142" r="15" fill="#ffffff"/>
+<text x="288.8" y="148" font-size="18" fill="#1d4f86" font-weight="bold" text-anchor="middle">2</text>
+<text x="312.8" y="150" font-size="24" fill="#ffffff" font-weight="bold">Reuse</text>
+<rect x="270.8" y="178" width="196.8" height="118" rx="10" fill="#e6eef8"/>
+<rect x="293.2" y="193" width="152" height="80" rx="4" fill="#ffffff" stroke="#1d4f86" stroke-width="3"/>
+<polygon points="347.2,201 378.9,201 391.2,213.3 391.2,259 347.2,259" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="378.9,201 378.9,213.3 391.2,213.3" fill="#c9d1db" stroke="#1b2a41" stroke-width="2" stroke-linejoin="round"/>
+<line x1="355.2" y1="229" x2="383.2" y2="229" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<line x1="355.2" y1="238" x2="383.2" y2="238" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<line x1="355.2" y1="247" x2="372" y2="247" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<line x1="369.2" y1="273" x2="369.2" y2="283" stroke="#1d4f86" stroke-width="4" stroke-linecap="round"/>
+<line x1="347.2" y1="283" x2="391.2" y2="283" stroke="#1d4f86" stroke-width="4" stroke-linecap="round"/>
+<text x="274.8" y="324" font-size="17" fill="#1b2a41" font-weight="bold">Use the work as it is</text>
+<rect x="270.8" y="368" width="196.8" height="118" rx="10" fill="#e6eef8"/>
+<text x="278.8" y="388" font-size="12" fill="#1d4f86" font-weight="bold" letter-spacing="1">TEST QUESTION</text>
+<text x="278.8" y="418" font-size="22" fill="#1d4f86" font-weight="bold">Can I use it as it</text>
+<text x="278.8" y="444" font-size="22" fill="#1d4f86" font-weight="bold">is?</text>
+<text x="274.8" y="512" font-size="12" fill="#4a5666" font-weight="bold" letter-spacing="1">EXAMPLE</text>
+<text x="274.8" y="536" font-size="16" fill="#1b2a41">Show an open diagram,</text>
+<text x="274.8" y="556.5" font-size="16" fill="#1b2a41">unchanged, on the</text>
+<text x="274.8" y="577" font-size="16" fill="#1b2a41">projector.</text>
+<rect x="491.6" y="116" width="216.8" height="496" rx="14" fill="#ffffff" stroke="#8a5a00" stroke-width="3"/>
+<rect x="491.6" y="116" width="216.8" height="52" rx="14" fill="#8a5a00"/>
+<rect x="491.6" y="146" width="216.8" height="22" rx="0" fill="#8a5a00"/>
+<circle cx="519.6" cy="142" r="15" fill="#ffffff"/>
+<text x="519.6" y="148" font-size="18" fill="#8a5a00" font-weight="bold" text-anchor="middle">3</text>
+<text x="543.6" y="150" font-size="24" fill="#ffffff" font-weight="bold">Revise</text>
+<rect x="501.6" y="178" width="196.8" height="118" rx="10" fill="#fdf1d6"/>
+<polygon points="550,191 600.4,191 620,210.6 620,281 550,281" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="600.4,191 600.4,210.6 620,210.6" fill="#c9d1db" stroke="#1b2a41" stroke-width="2" stroke-linejoin="round"/>
+<line x1="560" y1="223" x2="604" y2="223" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<line x1="560" y1="232" x2="604" y2="232" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<line x1="560" y1="241" x2="586.4" y2="241" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<rect x="560" y="209" width="30" height="7" rx="2" fill="#8a5a00"/>
+<polygon points="608,255 658,205 670,217 620,267 606,269" fill="#e69500" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="505.6" y="324" font-size="17" fill="#1b2a41" font-weight="bold">Change the work</text>
+<rect x="501.6" y="368" width="196.8" height="118" rx="10" fill="#fdf1d6"/>
+<text x="509.6" y="388" font-size="12" fill="#8a5a00" font-weight="bold" letter-spacing="1">TEST QUESTION</text>
+<text x="509.6" y="418" font-size="22" fill="#8a5a00" font-weight="bold">Can I change it?</text>
+<text x="505.6" y="512" font-size="12" fill="#4a5666" font-weight="bold" letter-spacing="1">EXAMPLE</text>
+<text x="505.6" y="536" font-size="16" fill="#1b2a41">Add alt text to every</text>
+<text x="505.6" y="556.5" font-size="16" fill="#1b2a41">image in an open</text>
+<text x="505.6" y="577" font-size="16" fill="#1b2a41">chapter.</text>
+<rect x="722.4" y="116" width="216.8" height="496" rx="14" fill="#ffffff" stroke="#573379" stroke-width="3"/>
+<rect x="722.4" y="116" width="216.8" height="52" rx="14" fill="#573379"/>
+<rect x="722.4" y="146" width="216.8" height="22" rx="0" fill="#573379"/>
+<circle cx="750.4" cy="142" r="15" fill="#ffffff"/>
+<text x="750.4" y="148" font-size="18" fill="#573379" font-weight="bold" text-anchor="middle">4</text>
+<text x="774.4" y="150" font-size="24" fill="#ffffff" font-weight="bold">Remix</text>
+<rect x="732.4" y="178" width="196.8" height="118" rx="10" fill="#efe6f6"/>
+<polygon points="752.8,193 784.5,193 796.8,205.3 796.8,249 752.8,249" fill="#e6eef8" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="784.5,193 784.5,205.3 796.8,205.3" fill="#c9d1db" stroke="#1b2a41" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="752.8,245 784.5,245 796.8,257.3 796.8,285 752.8,285" fill="#fdf1d6" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="784.5,245 784.5,257.3 796.8,257.3" fill="#c9d1db" stroke="#1b2a41" stroke-width="2" stroke-linejoin="round"/>
+<line x1="802.8" y1="221" x2="828.8" y2="233.3" stroke="#573379" stroke-width="4" stroke-linecap="butt"/>
+<polygon points="836.8,237 825.8,237.9 830.5,228" fill="#573379" stroke-linejoin="miter"/>
+<line x1="802.8" y1="265" x2="829.4" y2="247.8" stroke="#573379" stroke-width="4" stroke-linecap="butt"/>
+<polygon points="836.8,243 831.8,252.8 825.8,243.6" fill="#573379" stroke-linejoin="miter"/>
+<polygon points="842.8,197 887.4,197 904.8,214.4 904.8,277 842.8,277" fill="#efe6f6" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="887.4,197 887.4,214.4 904.8,214.4" fill="#c9d1db" stroke="#1b2a41" stroke-width="2" stroke-linejoin="round"/>
+<rect x="850.8" y="221" width="20" height="20" rx="0" fill="#e6eef8" stroke="#1b2a41" stroke-width="1.5"/>
+<rect x="874.8" y="221" width="20" height="20" rx="0" fill="#fdf1d6" stroke="#1b2a41" stroke-width="1.5"/>
+<line x1="852.8" y1="253" x2="888.8" y2="253" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<line x1="852.8" y1="262" x2="874.4" y2="262" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<text x="736.4" y="324" font-size="17" fill="#1b2a41" font-weight="bold">Combine the work</text>
+<text x="736.4" y="345.2" font-size="17" fill="#1b2a41" font-weight="bold">with other open work</text>
+<rect x="732.4" y="368" width="196.8" height="118" rx="10" fill="#efe6f6"/>
+<text x="740.4" y="388" font-size="12" fill="#573379" font-weight="bold" letter-spacing="1">TEST QUESTION</text>
+<text x="740.4" y="418" font-size="22" fill="#573379" font-weight="bold">Can I combine it</text>
+<text x="740.4" y="444" font-size="22" fill="#573379" font-weight="bold">with other open</text>
+<text x="740.4" y="469.9" font-size="22" fill="#573379" font-weight="bold">work?</text>
+<text x="736.4" y="512" font-size="12" fill="#4a5666" font-weight="bold" letter-spacing="1">EXAMPLE</text>
+<text x="736.4" y="536" font-size="16" fill="#1b2a41">Combine chapters from</text>
+<text x="736.4" y="556.5" font-size="16" fill="#1b2a41">two open textbooks and</text>
+<text x="736.4" y="577" font-size="16" fill="#1b2a41">a public-domain map.</text>
+<rect x="953.2" y="116" width="216.8" height="496" rx="14" fill="#ffffff" stroke="#1b5e20" stroke-width="3"/>
+<rect x="953.2" y="116" width="216.8" height="52" rx="14" fill="#1b5e20"/>
+<rect x="953.2" y="146" width="216.8" height="22" rx="0" fill="#1b5e20"/>
+<circle cx="981.2" cy="142" r="15" fill="#ffffff"/>
+<text x="981.2" y="148" font-size="18" fill="#1b5e20" font-weight="bold" text-anchor="middle">5</text>
+<text x="1005.2" y="150" font-size="24" fill="#ffffff" font-weight="bold">Redistribute</text>
+<rect x="963.2" y="178" width="196.8" height="118" rx="10" fill="#e5f2e6"/>
+<polygon points="1039.6,191 1071.3,191 1083.6,203.3 1083.6,249 1039.6,249" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="1071.3,191 1071.3,203.3 1083.6,203.3" fill="#c9d1db" stroke="#1b2a41" stroke-width="2" stroke-linejoin="round"/>
+<line x1="1047.6" y1="219" x2="1075.6" y2="219" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<line x1="1047.6" y1="228" x2="1075.6" y2="228" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<line x1="1047.6" y1="237" x2="1064.4" y2="237" stroke="#c9d1db" stroke-width="3" stroke-linecap="round"/>
+<line x1="1039.9" y1="255" x2="1006.7" y2="261.6" stroke="#1b5e20" stroke-width="3" stroke-linecap="butt"/>
+<polygon points="999.6,263 1006.4,257.1 1008.1,265.9" fill="#1b5e20" stroke-linejoin="miter"/>
+<circle cx="999.6" cy="270.2" r="5.7" fill="#1b5e20"/>
+<path d="M989.1,289.8 a10.5,12.8 0 0 1 21,0 z" fill="#1b5e20" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1061.6" y1="255" x2="1061.6" y2="255.8" stroke="#1b5e20" stroke-width="3" stroke-linecap="butt"/>
+<polygon points="1061.6,263 1057.1,255.2 1066.1,255.2" fill="#1b5e20" stroke-linejoin="miter"/>
+<circle cx="1061.6" cy="270.2" r="5.7" fill="#1b5e20"/>
+<path d="M1051.1,289.8 a10.5,12.8 0 0 1 21,0 z" fill="#1b5e20" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1083.3" y1="255" x2="1116.5" y2="261.6" stroke="#1b5e20" stroke-width="3" stroke-linecap="butt"/>
+<polygon points="1123.6,263 1115.1,265.9 1116.8,257.1" fill="#1b5e20" stroke-linejoin="miter"/>
+<circle cx="1123.6" cy="270.2" r="5.7" fill="#1b5e20"/>
+<path d="M1113.1,289.8 a10.5,12.8 0 0 1 21,0 z" fill="#1b5e20" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="967.2" y="324" font-size="17" fill="#1b2a41" font-weight="bold">Share copies with</text>
+<text x="967.2" y="345.2" font-size="17" fill="#1b2a41" font-weight="bold">others</text>
+<rect x="963.2" y="368" width="196.8" height="118" rx="10" fill="#e5f2e6"/>
+<text x="971.2" y="388" font-size="12" fill="#1b5e20" font-weight="bold" letter-spacing="1">TEST QUESTION</text>
+<text x="971.2" y="418" font-size="22" fill="#1b5e20" font-weight="bold">Can I share</text>
+<text x="971.2" y="444" font-size="22" fill="#1b5e20" font-weight="bold">copies with</text>
+<text x="971.2" y="469.9" font-size="22" fill="#1b5e20" font-weight="bold">others?</text>
+<text x="967.2" y="512" font-size="12" fill="#4a5666" font-weight="bold" letter-spacing="1">EXAMPLE</text>
+<text x="967.2" y="536" font-size="16" fill="#1b2a41">Email an unchanged</text>
+<text x="967.2" y="556.5" font-size="16" fill="#1b2a41">open worksheet to a</text>
+<text x="967.2" y="577" font-size="16" fill="#1b2a41">colleague.</text>
+<line x1="60" y1="634" x2="1140" y2="634" stroke="#6b7785" stroke-width="4" stroke-linecap="round"/>
+<polygon points="1150,634 1136.1,642 1136.1,626" fill="#6b7785" stroke-linejoin="miter"/>
+<circle cx="138.4" cy="634" r="8" fill="#00796b"/>
+<text x="138.4" y="670" font-size="17" fill="#1b2a41" font-weight="bold" text-anchor="middle">have a copy</text>
+<circle cx="369.2" cy="634" r="8" fill="#1d4f86"/>
+<text x="369.2" y="670" font-size="17" fill="#1b2a41" font-weight="bold" text-anchor="middle">use it</text>
+<circle cx="600" cy="634" r="8" fill="#8a5a00"/>
+<text x="600" y="670" font-size="17" fill="#1b2a41" font-weight="bold" text-anchor="middle">change it</text>
+<circle cx="830.8" cy="634" r="8" fill="#573379"/>
+<text x="830.8" y="670" font-size="17" fill="#1b2a41" font-weight="bold" text-anchor="middle">combine it</text>
+<circle cx="1061.6" cy="634" r="8" fill="#1b5e20"/>
+<text x="1061.6" y="670" font-size="17" fill="#1b2a41" font-weight="bold" text-anchor="middle">share it</text>
+</svg>

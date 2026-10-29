@@ -1,0 +1,81 @@
+{
+  "title": "NonCommercial Gray Area Sorter",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Judge ten uses of a CC BY-NC worksheet as clearly allowed, unclear (ask the owner), or likely not allowed.",
+  "date": "2026-10-24",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "NonCommercial interpretation",
+    "learningObjectives": [
+      "The learner will judge whether each of ten uses of a CC BY-NC resource is clearly allowed, unclear, or likely not allowed, with at least 8 of 10 correct on the first attempt."
+    ],
+    "bloomsTaxonomy": "Evaluate",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The terms NonCommercial requirement, CC BY-NC, and attribution requirement"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 708
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Predict, commit an answer, and read the reason",
+    "keyQuestions": [
+      "Does anyone earn money from this use?",
+      "When is the right answer to ask the owner?"
+    ],
+    "commonMisconceptions": [
+      "NonCommercial means free of charge",
+      "A nonprofit is always noncommercial",
+      "Selling at cost is always noncommercial",
+      "Advertising on a free page does not count as commercial"
+    ],
+    "assessmentOpportunities": [
+      "A blog with paid ads posts the worksheet. Which bin?",
+      "A nonprofit workshop charges $20 to cover room and printing. Which bin?",
+      "Is a nonprofit always noncommercial?",
+      "Does \"free of charge\" settle the question?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Three bin buttons",
+      "type": "button",
+      "description": " place the use in a bin. The placement is final."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": " moves to the next use."
+    },
+    {
+      "name": "Show definitions",
+      "type": "button",
+      "description": " on a narrow screen the criterion and bin definitions move behind this button."
+    },
+    {
+      "name": "Previous missed / Next missed** and **Play again** on the results screen.",
+      "type": "button",
+      "description": ""
+    }
+  ],
+  "chapter": "02-open-licenses-attribution"
+}

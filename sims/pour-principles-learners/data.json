@@ -1,0 +1,103 @@
+{
+  "title": "Four Principles, Five Learners",
+  "image": "pour-principles-learners.svg",
+  "layout": "grid",
+  "showLabels": false,
+  "palette": [
+    "#1d4f86",
+    "#1a6559",
+    "#8a5a00",
+    "#573379"
+  ],
+  "zones": [
+    {
+      "id": "perceivable",
+      "label": "Perceivable (P)",
+      "color": "#1d4f86",
+      "x1": 2.5,
+      "y1": 15.4,
+      "x2": 25.4,
+      "y2": 91.4,
+      "summary": "Perceivable: Can users perceive the content?",
+      "facts": [
+        "Question: Can users perceive the content?",
+        "Example criterion: Non-text content has a text alternative.",
+        "Blind learner: Text descriptions of images and a clear heading structure.",
+        "Deaf learner: Captions on video.",
+        "Learner with low vision: Strong color contrast and text that enlarges."
+      ]
+    },
+    {
+      "id": "operable",
+      "label": "Operable (O)",
+      "color": "#1a6559",
+      "x1": 26.5,
+      "y1": 15.4,
+      "x2": 49.4,
+      "y2": 91.4,
+      "summary": "Operable: Can users operate the controls?",
+      "facts": [
+        "Question: Can users operate the controls?",
+        "Example criterion: All functions work with a keyboard.",
+        "Learner who cannot use a mouse: Keyboard navigation."
+      ]
+    },
+    {
+      "id": "understandable",
+      "label": "Understandable (U)",
+      "color": "#8a5a00",
+      "x1": 50.6,
+      "y1": 15.4,
+      "x2": 73.5,
+      "y2": 91.4,
+      "summary": "Understandable: Can users follow it?",
+      "facts": [
+        "Question: Can users follow it?",
+        "Example criterion: The language of the page is identified.",
+        "Learner with a reading disability: Clear structure, short paragraphs, and alternative formats."
+      ]
+    },
+    {
+      "id": "robust",
+      "label": "Robust (R)",
+      "color": "#573379",
+      "x1": 74.6,
+      "y1": 15.4,
+      "x2": 97.5,
+      "y2": 91.4,
+      "summary": "Robust: Does it work with assistive technology?",
+      "facts": [
+        "Question: Does it work with assistive technology?",
+        "Example criterion: Custom controls expose a name and role.",
+        "Assistive technology: A name and a role it can read and operate."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which principle do captions for a deaf learner serve?",
+      "correct_zone": "perceivable",
+      "explanation": "A user who cannot hear needs another way to perceive the content."
+    },
+    {
+      "question": "Which principle asks that all functions work with a keyboard?",
+      "correct_zone": "operable",
+      "explanation": "A user who cannot use a mouse must be able to control the page."
+    },
+    {
+      "question": "Which principle includes identifying the language of the page and keeping paragraphs short?",
+      "correct_zone": "understandable",
+      "explanation": "Users can follow a page that is clearly structured and identified."
+    },
+    {
+      "question": "Which principle says custom controls must expose a name and a role?",
+      "correct_zone": "robust",
+      "explanation": "Assistive technology must be able to read and operate them."
+    },
+    {
+      "question": "Which principle do strong color contrast and enlargeable text for low vision serve?",
+      "correct_zone": "perceivable",
+      "explanation": "A user with low vision must be able to see the content."
+    }
+  ]
+}

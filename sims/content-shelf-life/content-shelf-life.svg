@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" role="img">
+<title>How Fast Does Content Spoil?</title>
+<desc>Three shelves of a market stall, from slow to fast. Slow shelf: basic mathematics and definitions, which age very slowly, checked at each major review; and the sequence of historical events, which ages slowly, checked at each major review. Middle shelf: statistics and survey results, which age moderately, checked every few years or whenever new data appear; and standards, curricula, and guidelines, which age moderately, checked every few years and when a standard is revised. Fast shelf: software screenshots, prices, and web addresses, and laws, policies, and contact details, which age quickly, checked every year or more often.</desc>
+<rect width="1200" height="700" fill="#f7f9fc"/>
+<text x="40" y="50" font-size="32" fill="#1b2a41" font-weight="bold">How Fast Does Content Spoil?</text>
+<text x="40" y="80" font-size="18" fill="#4a5666">Match the amount of checking to how fast the topic moves. Six kinds of content, three shelves.</text>
+<rect x="30" y="108" width="1140" height="172" rx="14" fill="#e3f4f1" stroke="#00796b" stroke-width="3"/>
+<rect x="30" y="108" width="200" height="172" rx="14" fill="#00796b"/>
+<rect x="180" y="108" width="50" height="172" rx="0" fill="#00796b"/>
+<rect x="104" y="137.9" width="52" height="46.8" rx="3" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5"/>
+<rect x="104" y="137.9" width="52" height="13" rx="3" fill="#004d40" stroke="#1b2a41" stroke-width="2.5"/>
+<rect x="111.8" y="157.4" width="7.8" height="7.8" rx="0" fill="#1b2a41"/>
+<rect x="111.8" y="170.4" width="7.8" height="7.8" rx="0" fill="#1b2a41"/>
+<rect x="126.1" y="157.4" width="7.8" height="7.8" rx="0" fill="#1b2a41"/>
+<rect x="126.1" y="170.4" width="7.8" height="7.8" rx="0" fill="#1b2a41"/>
+<rect x="140.4" y="157.4" width="7.8" height="7.8" rx="0" fill="#1b2a41"/>
+<rect x="140.4" y="170.4" width="7.8" height="7.8" rx="0" fill="#1b2a41"/>
+<text x="130" y="220" font-size="22" fill="#ffffff" font-weight="bold" text-anchor="middle">Slow shelf</text>
+<text x="130" y="246" font-size="15" fill="#ffffff" text-anchor="middle">Ages very slowly to</text>
+<text x="130" y="264" font-size="15" fill="#ffffff" text-anchor="middle">slowly</text>
+<rect x="250" y="124" width="440" height="140" rx="10" fill="#ffffff" stroke="#00796b" stroke-width="3"/>
+<rect x="250" y="124" width="440" height="8" rx="4" fill="#00796b"/>
+<text x="266" y="164" font-size="19" fill="#1b2a41" font-weight="bold">Basic mathematics and</text>
+<text x="266" y="186.8" font-size="19" fill="#1b2a41" font-weight="bold">definitions</text>
+<text x="266" y="246" font-size="15" fill="#4a5666">Ages very slowly</text>
+<rect x="524" y="138" width="152" height="112" rx="8" fill="#00796b"/>
+<rect x="587" y="150.9" width="26" height="23.4" rx="3" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5"/>
+<rect x="587" y="150.9" width="26" height="6.5" rx="3" fill="#004d40" stroke="#1b2a41" stroke-width="2.5"/>
+<rect x="590.9" y="160.7" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="590.9" y="167.2" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="598" y="160.7" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="598" y="167.2" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="605.2" y="160.7" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="605.2" y="167.2" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<text x="600" y="198" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">Check at each</text>
+<text x="600" y="214.8" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">major review</text>
+<rect x="710" y="124" width="440" height="140" rx="10" fill="#ffffff" stroke="#00796b" stroke-width="3"/>
+<rect x="710" y="124" width="440" height="8" rx="4" fill="#00796b"/>
+<text x="726" y="164" font-size="19" fill="#1b2a41" font-weight="bold">The sequence of</text>
+<text x="726" y="186.8" font-size="19" fill="#1b2a41" font-weight="bold">historical events</text>
+<text x="726" y="246" font-size="15" fill="#4a5666">Ages slowly</text>
+<rect x="984" y="138" width="152" height="112" rx="8" fill="#00796b"/>
+<rect x="1047" y="150.9" width="26" height="23.4" rx="3" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5"/>
+<rect x="1047" y="150.9" width="26" height="6.5" rx="3" fill="#004d40" stroke="#1b2a41" stroke-width="2.5"/>
+<rect x="1050.9" y="160.7" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="1050.9" y="167.2" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="1058.1" y="160.7" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="1058.1" y="167.2" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="1065.2" y="160.7" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="1065.2" y="167.2" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<text x="1060" y="198" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">Check at each</text>
+<text x="1060" y="214.8" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">major review</text>
+<rect x="30" y="272" width="1140" height="8" rx="0" fill="#8d6e4b"/>
+<rect x="30" y="292" width="1140" height="172" rx="14" fill="#fdf1d6" stroke="#c77700" stroke-width="3"/>
+<rect x="30" y="292" width="200" height="172" rx="14" fill="#c77700"/>
+<rect x="180" y="292" width="50" height="172" rx="0" fill="#c77700"/>
+<rect x="104" y="321.9" width="52" height="46.8" rx="3" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5"/>
+<rect x="104" y="321.9" width="52" height="13" rx="3" fill="#7a4a00" stroke="#1b2a41" stroke-width="2.5"/>
+<rect x="111.8" y="341.4" width="7.8" height="7.8" rx="0" fill="#1b2a41"/>
+<rect x="111.8" y="354.4" width="7.8" height="7.8" rx="0" fill="#1b2a41"/>
+<rect x="126.1" y="341.4" width="7.8" height="7.8" rx="0" fill="#1b2a41"/>
+<rect x="126.1" y="354.4" width="7.8" height="7.8" rx="0" fill="#1b2a41"/>
+<rect x="140.4" y="341.4" width="7.8" height="7.8" rx="0" fill="#1b2a41"/>
+<rect x="140.4" y="354.4" width="7.8" height="7.8" rx="0" fill="#1b2a41"/>
+<text x="130" y="404" font-size="22" fill="#ffffff" font-weight="bold" text-anchor="middle">Middle shelf</text>
+<text x="130" y="430" font-size="15" fill="#ffffff" text-anchor="middle">Ages moderately</text>
+<rect x="250" y="308" width="440" height="140" rx="10" fill="#ffffff" stroke="#c77700" stroke-width="3"/>
+<rect x="250" y="308" width="440" height="8" rx="4" fill="#c77700"/>
+<text x="266" y="348" font-size="19" fill="#1b2a41" font-weight="bold">Statistics and survey</text>
+<text x="266" y="370.8" font-size="19" fill="#1b2a41" font-weight="bold">results</text>
+<text x="266" y="430" font-size="15" fill="#4a5666">Ages moderately</text>
+<rect x="524" y="322" width="152" height="112" rx="8" fill="#c77700"/>
+<rect x="587" y="334.9" width="26" height="23.4" rx="3" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5"/>
+<rect x="587" y="334.9" width="26" height="6.5" rx="3" fill="#7a4a00" stroke="#1b2a41" stroke-width="2.5"/>
+<rect x="590.9" y="344.7" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="590.9" y="351.2" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="598" y="344.7" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="598" y="351.2" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="605.2" y="344.7" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="605.2" y="351.2" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<text x="600" y="382" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">Check every few</text>
+<text x="600" y="398.8" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">years, or whenever</text>
+<text x="600" y="415.6" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">new data appear</text>
+<rect x="710" y="308" width="440" height="140" rx="10" fill="#ffffff" stroke="#c77700" stroke-width="3"/>
+<rect x="710" y="308" width="440" height="8" rx="4" fill="#c77700"/>
+<text x="726" y="348" font-size="19" fill="#1b2a41" font-weight="bold">Standards, curricula, and</text>
+<text x="726" y="370.8" font-size="19" fill="#1b2a41" font-weight="bold">guidelines</text>
+<text x="726" y="430" font-size="15" fill="#4a5666">Ages moderately</text>
+<rect x="984" y="322" width="152" height="112" rx="8" fill="#c77700"/>
+<rect x="1047" y="334.9" width="26" height="23.4" rx="3" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5"/>
+<rect x="1047" y="334.9" width="26" height="6.5" rx="3" fill="#7a4a00" stroke="#1b2a41" stroke-width="2.5"/>
+<rect x="1050.9" y="344.7" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="1050.9" y="351.2" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="1058.1" y="344.7" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="1058.1" y="351.2" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="1065.2" y="344.7" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="1065.2" y="351.2" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<text x="1060" y="382" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">Check every few</text>
+<text x="1060" y="398.8" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">years, and when a</text>
+<text x="1060" y="415.6" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">standard is revised</text>
+<rect x="30" y="456" width="1140" height="8" rx="0" fill="#8d6e4b"/>
+<rect x="30" y="476" width="1140" height="172" rx="14" fill="#fde8e8" stroke="#b71c1c" stroke-width="3"/>
+<rect x="30" y="476" width="200" height="172" rx="14" fill="#b71c1c"/>
+<rect x="180" y="476" width="50" height="172" rx="0" fill="#b71c1c"/>
+<circle cx="130" cy="528" r="28" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5"/>
+<line x1="130" y1="528" x2="130" y2="511.2" stroke="#1b2a41" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="130" y1="528" x2="142.6" y2="533.6" stroke="#1b2a41" stroke-width="2.5" stroke-linecap="round"/>
+<text x="130" y="588" font-size="22" fill="#ffffff" font-weight="bold" text-anchor="middle">Fast shelf</text>
+<text x="130" y="614" font-size="15" fill="#ffffff" text-anchor="middle">Ages quickly</text>
+<rect x="250" y="492" width="440" height="140" rx="10" fill="#ffffff" stroke="#b71c1c" stroke-width="3"/>
+<rect x="250" y="492" width="440" height="8" rx="4" fill="#b71c1c"/>
+<text x="266" y="532" font-size="19" fill="#1b2a41" font-weight="bold">Software screenshots,</text>
+<text x="266" y="554.8" font-size="19" fill="#1b2a41" font-weight="bold">prices, and web</text>
+<text x="266" y="577.6" font-size="19" fill="#1b2a41" font-weight="bold">addresses</text>
+<text x="266" y="614" font-size="15" fill="#4a5666">Ages quickly</text>
+<rect x="524" y="506" width="152" height="112" rx="8" fill="#b71c1c"/>
+<rect x="587" y="519" width="26" height="23.4" rx="3" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5"/>
+<rect x="587" y="519" width="26" height="6.5" rx="3" fill="#7f1313" stroke="#1b2a41" stroke-width="2.5"/>
+<rect x="590.9" y="528.7" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="590.9" y="535.2" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="598" y="528.7" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="598" y="535.2" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="605.2" y="528.7" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="605.2" y="535.2" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<text x="600" y="566" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">Check every year</text>
+<text x="600" y="582.8" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">or more often</text>
+<rect x="710" y="492" width="440" height="140" rx="10" fill="#ffffff" stroke="#b71c1c" stroke-width="3"/>
+<rect x="710" y="492" width="440" height="8" rx="4" fill="#b71c1c"/>
+<text x="726" y="532" font-size="19" fill="#1b2a41" font-weight="bold">Laws, policies, and</text>
+<text x="726" y="554.8" font-size="19" fill="#1b2a41" font-weight="bold">contact details</text>
+<text x="726" y="614" font-size="15" fill="#4a5666">Ages quickly</text>
+<rect x="984" y="506" width="152" height="112" rx="8" fill="#b71c1c"/>
+<rect x="1047" y="519" width="26" height="23.4" rx="3" fill="#ffffff" stroke="#1b2a41" stroke-width="2.5"/>
+<rect x="1047" y="519" width="26" height="6.5" rx="3" fill="#7f1313" stroke="#1b2a41" stroke-width="2.5"/>
+<rect x="1050.9" y="528.7" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="1050.9" y="535.2" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="1058.1" y="528.7" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="1058.1" y="535.2" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="1065.2" y="528.7" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<rect x="1065.2" y="535.2" width="3.9" height="3.9" rx="0" fill="#1b2a41"/>
+<text x="1060" y="566" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">Check every year</text>
+<text x="1060" y="582.8" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">or more often</text>
+<rect x="30" y="640" width="1140" height="8" rx="0" fill="#8d6e4b"/>
+<text x="40" y="690" font-size="14" fill="#4a5666">Wording for how often to check is taken from the Chapter 5 table. The multiplication table does not change; a software screenshot can change within a year.</text>
+</svg>

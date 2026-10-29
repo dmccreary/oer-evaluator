@@ -1,0 +1,82 @@
+{
+  "title": "Agreement Is Not Skill",
+  "image": "agreement-is-not-skill.svg",
+  "layout": "grid",
+  "showLabels": false,
+  "palette": [
+    "#1d4f86",
+    "#8a5a00",
+    "#573379"
+  ],
+  "zones": [
+    {
+      "id": "count-table",
+      "label": "1: Count the agreements",
+      "color": "#1d4f86",
+      "x1": 2.5,
+      "y1": 15.1,
+      "x2": 34.2,
+      "y2": 91.4,
+      "summary": "The agent and the human agree on 18 of 20 resources, an agreement rate of 0.90.",
+      "facts": [
+        "Both say ready: 1. Both say not ready: 17. They disagree on 2, one each way.",
+        "Agreement rate po = (1 + 17) / 20 = 0.90.",
+        "The agent says ready 2 of 20 times and the human says ready 2 of 20 times."
+      ]
+    },
+    {
+      "id": "chance-baseline",
+      "label": "2: Subtract what luck gives",
+      "color": "#8a5a00",
+      "x1": 35.3,
+      "y1": 15.1,
+      "x2": 67.0,
+      "y2": 91.4,
+      "summary": "Chance agreement is 0.82, so most of the 0.90 agreement is expected by luck.",
+      "facts": [
+        "Chance of both saying ready: 0.10 × 0.10 = 0.01.",
+        "Chance of both saying not ready: 0.90 × 0.90 = 0.81.",
+        "The two add to pe = 0.82.",
+        "Two raters who answered \"not ready\" at random 90 percent of the time would agree 82 percent of the time."
+      ]
+    },
+    {
+      "id": "kappa",
+      "label": "3: Kappa",
+      "color": "#573379",
+      "x1": 68.2,
+      "y1": 15.1,
+      "x2": 97.5,
+      "y2": 91.4,
+      "summary": "Kappa = (0.90 − 0.82) / (1 − 0.82) = 0.08 / 0.18, about 0.44.",
+      "facts": [
+        "Kappa corrects agreement for chance.",
+        "It is the observed agreement beyond chance, divided by the most agreement chance leaves room for.",
+        "The agent found only one of the two resources that the human judged ready.",
+        "Always show the count table beside kappa."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which panel shows that the agent and human agree on 18 of 20 resources?",
+      "correct_zone": "count-table",
+      "explanation": "1 + 17 = 18 of 20 is 0.90."
+    },
+    {
+      "question": "Which panel shows that most of the 0.90 agreement is expected by chance?",
+      "correct_zone": "chance-baseline",
+      "explanation": "Chance agreement is 0.82."
+    },
+    {
+      "question": "Which panel gives the number 0.44?",
+      "correct_zone": "kappa",
+      "explanation": "(0.90 − 0.82) / (1 − 0.82) is about 0.44."
+    },
+    {
+      "question": "Which panel adds 0.10 × 0.10 and 0.90 × 0.90 to get 0.82?",
+      "correct_zone": "chance-baseline",
+      "explanation": "Both say ready, plus both say not ready."
+    }
+  ]
+}

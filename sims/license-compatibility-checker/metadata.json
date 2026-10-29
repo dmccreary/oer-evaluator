@@ -1,0 +1,80 @@
+{
+  "title": "License Compatibility Checker",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Solve ten license-combination problems by finding the license a combined work may carry, or by spotting a conflict or a blocked combination.",
+  "date": "2026-10-24",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Combining openly licensed works",
+    "learningObjectives": [
+      "The learner will solve ten license-combination problems by finding the license a combined work may carry, or by recognizing a conflict or a blocked combination, with at least 8 of 10 correct on the first attempt."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The licenses CC0, CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, CC BY-ND, and CC BY-NC-ND and the idea of license compatibility"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 612
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Predict, commit an answer, and read the reason",
+    "keyQuestions": [
+      "Which licenses does each source allow for the result?",
+      "Does either source forbid changes?"
+    ],
+    "commonMisconceptions": [
+      "Any two Creative Commons licenses can be combined",
+      "CC BY-SA and CC BY-NC combine into CC BY-NC-SA",
+      "An ND source can be remixed if credit is given"
+    ],
+    "assessmentOpportunities": [
+      "CC BY with CC BY-SA. What may the combined work carry?",
+      "CC BY-SA with CC BY-NC. What is the outcome?",
+      "CC BY with CC BY-ND. What is the outcome?",
+      "CC0 with CC BY-SA. What may the combined work carry?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Six outcome buttons",
+      "type": "button",
+      "description": " CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, Conflict, Blocked."
+    },
+    {
+      "name": "Show requirements table",
+      "type": "button",
+      "description": " opens the table above. Opening it is exploration, not evidence. On a narrow screen a long table has page buttons."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": " moves to the next pair."
+    },
+    {
+      "name": "Play again** and the missed-pair review on the results screen.",
+      "type": "button",
+      "description": ""
+    }
+  ],
+  "chapter": "02-open-licenses-attribution"
+}

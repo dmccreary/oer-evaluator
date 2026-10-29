@@ -1,0 +1,74 @@
+{
+  "title": "Source Files and Delivery Files",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Three zones sort common file formats into good source, usually acceptable, and poor source, with two badges that separate \"is the format open?\" from \"is it a good source for editing?\".",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Open file formats versus good editable source formats",
+    "learningObjectives": [
+      "The learner will explain why an open file format is not always a good source for editing, using the PDF as the example."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "The editable source metric from [Chapter 4](../../chapters/04-open-formats-version-control/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (grid-diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 789
+    },
+    "canvasHeight": 789,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/grid-diagram.js, grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "Is the format open?",
+      "Could someone edit this file and keep its structure?"
+    ],
+    "commonMisconceptions": [
+      "An open format is an editable format",
+      "A PDF is a good way to share something others will change"
+    ],
+    "assessmentOpportunities": [
+      "Is a PDF an open format? Is it a good source?",
+      "Why is a Word document only usually acceptable?",
+      "Which formats are good sources for data and for diagrams?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Poster zones",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "04-open-formats-version-control"
+}
