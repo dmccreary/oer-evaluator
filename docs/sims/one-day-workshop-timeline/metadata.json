@@ -1,0 +1,74 @@
+{
+  "title": "A One-Day Workshop Timeline",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "A horizontal timeline from 8:30 to 3:30 built from the chapter's sample agenda, with block widths in proportion to time and a token for what teachers leave with.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "The order of a one-day OER reviewer workshop and what teachers leave with",
+    "learningObjectives": [
+      "The learner will order the blocks of the one-day workshop and explain why the rubric comes before calibration and checking comes before improving."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "The sample agenda from [Chapter 19](../../chapters/19-training-certifying-reviewers/index.md) and the [Sample One-Day Schedule](../../workshops/sample-one-day-schedule.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 751
+    },
+    "canvasHeight": 751,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/diagram.js, style.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "What do teachers leave with from this block?",
+      "What must come before it?"
+    ],
+    "commonMisconceptions": [
+      "A workshop is a lecture followed by a survey",
+      "The order of the blocks does not matter"
+    ],
+    "assessmentOpportunities": [
+      "Which block comes right after calibration and the break?",
+      "What do teachers leave with from the improvement challenge?",
+      "Why does the rubric come before calibration?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Numbered markers",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "19-training-certifying-reviewers"
+}
