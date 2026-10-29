@@ -1,0 +1,217 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" role="img">
+<title>Five Ways a Test Can Lie to You</title>
+<desc>Five panels, each with a tilted scale above a level scale. Different teachers: one teacher&#x27;s enthusiasm lifts one group; use one teacher for both groups. Different times of day: students are more alert at one time; run both groups at the same time. Extra help: one group gets a review or hints; use the same script and help for both. Different tests: the versions are measured in different ways; use the same test and key for both. Student choice: motivated students choose one version; assign at random.</desc>
+<rect width="1200" height="700" fill="#f7f9fc"/>
+<text x="40" y="50" font-size="32" fill="#1b2a41" font-weight="bold">Five Ways a Test Can Lie to You</text>
+<text x="40" y="80" font-size="18" fill="#4a5666">Before you trust a difference between groups, ask what else was different besides the version.</text>
+<rect x="30" y="104" width="218.4" height="536" rx="14" fill="#ffffff" stroke="#1d4f86" stroke-width="3"/>
+<rect x="30" y="104" width="218.4" height="56" rx="14" fill="#1d4f86"/>
+<rect x="30" y="134" width="218.4" height="26" rx="0" fill="#1d4f86"/>
+<circle cx="60" cy="132" r="20" fill="#ffffff"/>
+<circle cx="60" cy="125.7" r="5.3" fill="#1d4f86"/>
+<path d="M50.2,143.9 a9.8,11.9 0 0 1 19.6,0 z" fill="#1d4f86" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="70" y1="124" x2="84" y2="114" stroke="#1d4f86" stroke-width="3" stroke-linecap="round"/>
+<text x="88" y="130" font-size="18" fill="#ffffff" font-weight="bold">Different</text>
+<text x="88" y="149.8" font-size="18" fill="#ffffff" font-weight="bold">teachers</text>
+<rect x="38" y="170" width="202.4" height="232" rx="10" fill="#e6eef8"/>
+<text x="48" y="192" font-size="12" fill="#1d4f86" font-weight="bold" letter-spacing="1">HOW IT MISLEADS</text>
+<line x1="139.2" y1="316" x2="139.2" y2="226" stroke="#1b2a41" stroke-width="5" stroke-linecap="round"/>
+<rect x="103.2" y="312" width="72" height="12" rx="3" fill="#1b2a41"/>
+<line x1="76" y1="216" x2="202.4" y2="236" stroke="#1b2a41" stroke-width="5" stroke-linecap="round"/>
+<circle cx="139.2" cy="226" r="7" fill="#1b2a41"/>
+<line x1="76" y1="216" x2="48" y2="256" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<line x1="76" y1="216" x2="104" y2="256" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<path d="M48,256 h56 a28,18 0 0 1 -56,0 z" fill="#eef1f5" stroke="#1b2a41" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="202.4" y1="236" x2="174.4" y2="276" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<line x1="202.4" y1="236" x2="230.4" y2="276" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<path d="M174.4,276 h56 a28,18 0 0 1 -56,0 z" fill="#eef1f5" stroke="#1b2a41" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="184.4" y="246" width="36" height="28" rx="3" fill="#6b7785" stroke="#1b2a41" stroke-width="2.5"/>
+<text x="202.4" y="266" font-size="20" fill="#ffffff" font-weight="bold" text-anchor="middle">?</text>
+<rect x="62" y="238" width="28" height="16" rx="2" fill="#d6e6f7" stroke="#1b2a41" stroke-width="2"/>
+<text x="139.2" y="356" font-size="15.5" fill="#1b2a41" font-weight="bold" text-anchor="middle">One teacher&#x27;s</text>
+<text x="139.2" y="374.6" font-size="15.5" fill="#1b2a41" font-weight="bold" text-anchor="middle">enthusiasm lifts one</text>
+<text x="139.2" y="393.2" font-size="15.5" fill="#1b2a41" font-weight="bold" text-anchor="middle">group.</text>
+<rect x="38" y="412" width="202.4" height="218" rx="10" fill="#e5f2e6"/>
+<text x="48" y="434" font-size="12" fill="#1b5e20" font-weight="bold" letter-spacing="1">THE DEFENSE</text>
+<line x1="139.2" y1="550" x2="139.2" y2="460" stroke="#1b2a41" stroke-width="5" stroke-linecap="round"/>
+<rect x="103.2" y="546" width="72" height="12" rx="3" fill="#1b2a41"/>
+<line x1="75.2" y1="460" x2="203.2" y2="460" stroke="#1b2a41" stroke-width="5" stroke-linecap="round"/>
+<circle cx="139.2" cy="460" r="7" fill="#1b2a41"/>
+<line x1="75.2" y1="460" x2="47.2" y2="500" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<line x1="75.2" y1="460" x2="103.2" y2="500" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<path d="M47.2,500 h56 a28,18 0 0 1 -56,0 z" fill="#eef1f5" stroke="#1b2a41" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="203.2" y1="460" x2="175.2" y2="500" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<line x1="203.2" y1="460" x2="231.2" y2="500" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<path d="M175.2,500 h56 a28,18 0 0 1 -56,0 z" fill="#eef1f5" stroke="#1b2a41" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="189.2" y="482" width="28" height="16" rx="2" fill="#fdf1d6" stroke="#1b2a41" stroke-width="2"/>
+<rect x="61.2" y="482" width="28" height="16" rx="2" fill="#d6e6f7" stroke="#1b2a41" stroke-width="2"/>
+<text x="139.2" y="586" font-size="15.5" fill="#1b5e20" font-weight="bold" text-anchor="middle">One teacher for both</text>
+<text x="139.2" y="604.6" font-size="15.5" fill="#1b5e20" font-weight="bold" text-anchor="middle">groups.</text>
+<rect x="260.4" y="104" width="218.4" height="536" rx="14" fill="#ffffff" stroke="#00796b" stroke-width="3"/>
+<rect x="260.4" y="104" width="218.4" height="56" rx="14" fill="#00796b"/>
+<rect x="260.4" y="134" width="218.4" height="26" rx="0" fill="#00796b"/>
+<circle cx="290.4" cy="132" r="20" fill="#ffffff"/>
+<circle cx="290.4" cy="132" r="14" fill="#ffffff" stroke="#00796b" stroke-width="2.5"/>
+<line x1="290.4" y1="132" x2="290.4" y2="123.6" stroke="#00796b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="290.4" y1="132" x2="296.7" y2="134.8" stroke="#00796b" stroke-width="2.5" stroke-linecap="round"/>
+<text x="318.4" y="130" font-size="18" fill="#ffffff" font-weight="bold">Different times</text>
+<text x="318.4" y="149.8" font-size="18" fill="#ffffff" font-weight="bold">of day</text>
+<rect x="268.4" y="170" width="202.4" height="232" rx="10" fill="#e3f4f1"/>
+<text x="278.4" y="192" font-size="12" fill="#00796b" font-weight="bold" letter-spacing="1">HOW IT MISLEADS</text>
+<line x1="369.6" y1="316" x2="369.6" y2="226" stroke="#1b2a41" stroke-width="5" stroke-linecap="round"/>
+<rect x="333.6" y="312" width="72" height="12" rx="3" fill="#1b2a41"/>
+<line x1="306.4" y1="216" x2="432.8" y2="236" stroke="#1b2a41" stroke-width="5" stroke-linecap="round"/>
+<circle cx="369.6" cy="226" r="7" fill="#1b2a41"/>
+<line x1="306.4" y1="216" x2="278.4" y2="256" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<line x1="306.4" y1="216" x2="334.4" y2="256" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<path d="M278.4,256 h56 a28,18 0 0 1 -56,0 z" fill="#eef1f5" stroke="#1b2a41" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="432.8" y1="236" x2="404.8" y2="276" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<line x1="432.8" y1="236" x2="460.8" y2="276" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<path d="M404.8,276 h56 a28,18 0 0 1 -56,0 z" fill="#eef1f5" stroke="#1b2a41" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="414.8" y="246" width="36" height="28" rx="3" fill="#6b7785" stroke="#1b2a41" stroke-width="2.5"/>
+<text x="432.8" y="266" font-size="20" fill="#ffffff" font-weight="bold" text-anchor="middle">?</text>
+<rect x="292.4" y="238" width="28" height="16" rx="2" fill="#d6e6f7" stroke="#1b2a41" stroke-width="2"/>
+<text x="369.6" y="356" font-size="15.5" fill="#1b2a41" font-weight="bold" text-anchor="middle">Students are more alert</text>
+<text x="369.6" y="374.6" font-size="15.5" fill="#1b2a41" font-weight="bold" text-anchor="middle">at one time.</text>
+<rect x="268.4" y="412" width="202.4" height="218" rx="10" fill="#e5f2e6"/>
+<text x="278.4" y="434" font-size="12" fill="#1b5e20" font-weight="bold" letter-spacing="1">THE DEFENSE</text>
+<line x1="369.6" y1="550" x2="369.6" y2="460" stroke="#1b2a41" stroke-width="5" stroke-linecap="round"/>
+<rect x="333.6" y="546" width="72" height="12" rx="3" fill="#1b2a41"/>
+<line x1="305.6" y1="460" x2="433.6" y2="460" stroke="#1b2a41" stroke-width="5" stroke-linecap="round"/>
+<circle cx="369.6" cy="460" r="7" fill="#1b2a41"/>
+<line x1="305.6" y1="460" x2="277.6" y2="500" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<line x1="305.6" y1="460" x2="333.6" y2="500" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<path d="M277.6,500 h56 a28,18 0 0 1 -56,0 z" fill="#eef1f5" stroke="#1b2a41" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="433.6" y1="460" x2="405.6" y2="500" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<line x1="433.6" y1="460" x2="461.6" y2="500" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<path d="M405.6,500 h56 a28,18 0 0 1 -56,0 z" fill="#eef1f5" stroke="#1b2a41" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="419.6" y="482" width="28" height="16" rx="2" fill="#fdf1d6" stroke="#1b2a41" stroke-width="2"/>
+<rect x="291.6" y="482" width="28" height="16" rx="2" fill="#d6e6f7" stroke="#1b2a41" stroke-width="2"/>
+<text x="369.6" y="586" font-size="15.5" fill="#1b5e20" font-weight="bold" text-anchor="middle">Both groups at the</text>
+<text x="369.6" y="604.6" font-size="15.5" fill="#1b5e20" font-weight="bold" text-anchor="middle">same time.</text>
+<rect x="490.8" y="104" width="218.4" height="536" rx="14" fill="#ffffff" stroke="#8a5a00" stroke-width="3"/>
+<rect x="490.8" y="104" width="218.4" height="56" rx="14" fill="#8a5a00"/>
+<rect x="490.8" y="134" width="218.4" height="26" rx="0" fill="#8a5a00"/>
+<circle cx="520.8" cy="132" r="20" fill="#ffffff"/>
+<circle cx="520.8" cy="132" r="13" fill="none" stroke="#8a5a00" stroke-width="6"/>
+<circle cx="520.8" cy="132" r="13" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="6 9"/>
+<text x="548.8" y="130" font-size="18" fill="#ffffff" font-weight="bold">Extra help</text>
+<rect x="498.8" y="170" width="202.4" height="232" rx="10" fill="#fdf1d6"/>
+<text x="508.8" y="192" font-size="12" fill="#8a5a00" font-weight="bold" letter-spacing="1">HOW IT MISLEADS</text>
+<line x1="600" y1="316" x2="600" y2="226" stroke="#1b2a41" stroke-width="5" stroke-linecap="round"/>
+<rect x="564" y="312" width="72" height="12" rx="3" fill="#1b2a41"/>
+<line x1="536.8" y1="216" x2="663.2" y2="236" stroke="#1b2a41" stroke-width="5" stroke-linecap="round"/>
+<circle cx="600" cy="226" r="7" fill="#1b2a41"/>
+<line x1="536.8" y1="216" x2="508.8" y2="256" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<line x1="536.8" y1="216" x2="564.8" y2="256" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<path d="M508.8,256 h56 a28,18 0 0 1 -56,0 z" fill="#eef1f5" stroke="#1b2a41" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="663.2" y1="236" x2="635.2" y2="276" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<line x1="663.2" y1="236" x2="691.2" y2="276" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<path d="M635.2,276 h56 a28,18 0 0 1 -56,0 z" fill="#eef1f5" stroke="#1b2a41" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="645.2" y="246" width="36" height="28" rx="3" fill="#6b7785" stroke="#1b2a41" stroke-width="2.5"/>
+<text x="663.2" y="266" font-size="20" fill="#ffffff" font-weight="bold" text-anchor="middle">?</text>
+<rect x="522.8" y="238" width="28" height="16" rx="2" fill="#d6e6f7" stroke="#1b2a41" stroke-width="2"/>
+<text x="600" y="356" font-size="15.5" fill="#1b2a41" font-weight="bold" text-anchor="middle">One group gets a</text>
+<text x="600" y="374.6" font-size="15.5" fill="#1b2a41" font-weight="bold" text-anchor="middle">review or hints.</text>
+<rect x="498.8" y="412" width="202.4" height="218" rx="10" fill="#e5f2e6"/>
+<text x="508.8" y="434" font-size="12" fill="#1b5e20" font-weight="bold" letter-spacing="1">THE DEFENSE</text>
+<line x1="600" y1="550" x2="600" y2="460" stroke="#1b2a41" stroke-width="5" stroke-linecap="round"/>
+<rect x="564" y="546" width="72" height="12" rx="3" fill="#1b2a41"/>
+<line x1="536" y1="460" x2="664" y2="460" stroke="#1b2a41" stroke-width="5" stroke-linecap="round"/>
+<circle cx="600" cy="460" r="7" fill="#1b2a41"/>
+<line x1="536" y1="460" x2="508" y2="500" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<line x1="536" y1="460" x2="564" y2="500" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<path d="M508,500 h56 a28,18 0 0 1 -56,0 z" fill="#eef1f5" stroke="#1b2a41" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="664" y1="460" x2="636" y2="500" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<line x1="664" y1="460" x2="692" y2="500" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<path d="M636,500 h56 a28,18 0 0 1 -56,0 z" fill="#eef1f5" stroke="#1b2a41" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="650" y="482" width="28" height="16" rx="2" fill="#fdf1d6" stroke="#1b2a41" stroke-width="2"/>
+<rect x="522" y="482" width="28" height="16" rx="2" fill="#d6e6f7" stroke="#1b2a41" stroke-width="2"/>
+<text x="600" y="586" font-size="15.5" fill="#1b5e20" font-weight="bold" text-anchor="middle">The same script and</text>
+<text x="600" y="604.6" font-size="15.5" fill="#1b5e20" font-weight="bold" text-anchor="middle">help for both.</text>
+<rect x="721.2" y="104" width="218.4" height="536" rx="14" fill="#ffffff" stroke="#573379" stroke-width="3"/>
+<rect x="721.2" y="104" width="218.4" height="56" rx="14" fill="#573379"/>
+<rect x="721.2" y="134" width="218.4" height="26" rx="0" fill="#573379"/>
+<circle cx="751.2" cy="132" r="20" fill="#ffffff"/>
+<polygon points="740.2,118 756.2,118 762.2,124 762.2,146 740.2,146" fill="#ffffff" stroke="#573379" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="756.2,118 756.2,124 762.2,124" fill="#c9d1db" stroke="#573379" stroke-width="2" stroke-linejoin="round"/>
+<line x1="745.2" y1="130" x2="757.2" y2="130" stroke="#573379" stroke-width="2" stroke-linecap="round"/>
+<line x1="745.2" y1="136" x2="752.4" y2="136" stroke="#573379" stroke-width="2" stroke-linecap="round"/>
+<text x="779.2" y="130" font-size="18" fill="#ffffff" font-weight="bold">Different tests</text>
+<rect x="729.2" y="170" width="202.4" height="232" rx="10" fill="#efe6f6"/>
+<text x="739.2" y="192" font-size="12" fill="#573379" font-weight="bold" letter-spacing="1">HOW IT MISLEADS</text>
+<line x1="830.4" y1="316" x2="830.4" y2="226" stroke="#1b2a41" stroke-width="5" stroke-linecap="round"/>
+<rect x="794.4" y="312" width="72" height="12" rx="3" fill="#1b2a41"/>
+<line x1="767.2" y1="216" x2="893.6" y2="236" stroke="#1b2a41" stroke-width="5" stroke-linecap="round"/>
+<circle cx="830.4" cy="226" r="7" fill="#1b2a41"/>
+<line x1="767.2" y1="216" x2="739.2" y2="256" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<line x1="767.2" y1="216" x2="795.2" y2="256" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<path d="M739.2,256 h56 a28,18 0 0 1 -56,0 z" fill="#eef1f5" stroke="#1b2a41" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="893.6" y1="236" x2="865.6" y2="276" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<line x1="893.6" y1="236" x2="921.6" y2="276" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<path d="M865.6,276 h56 a28,18 0 0 1 -56,0 z" fill="#eef1f5" stroke="#1b2a41" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="875.6" y="246" width="36" height="28" rx="3" fill="#6b7785" stroke="#1b2a41" stroke-width="2.5"/>
+<text x="893.6" y="266" font-size="20" fill="#ffffff" font-weight="bold" text-anchor="middle">?</text>
+<rect x="753.2" y="238" width="28" height="16" rx="2" fill="#d6e6f7" stroke="#1b2a41" stroke-width="2"/>
+<text x="830.4" y="356" font-size="15.5" fill="#1b2a41" font-weight="bold" text-anchor="middle">The versions are</text>
+<text x="830.4" y="374.6" font-size="15.5" fill="#1b2a41" font-weight="bold" text-anchor="middle">measured in different</text>
+<text x="830.4" y="393.2" font-size="15.5" fill="#1b2a41" font-weight="bold" text-anchor="middle">ways.</text>
+<rect x="729.2" y="412" width="202.4" height="218" rx="10" fill="#e5f2e6"/>
+<text x="739.2" y="434" font-size="12" fill="#1b5e20" font-weight="bold" letter-spacing="1">THE DEFENSE</text>
+<line x1="830.4" y1="550" x2="830.4" y2="460" stroke="#1b2a41" stroke-width="5" stroke-linecap="round"/>
+<rect x="794.4" y="546" width="72" height="12" rx="3" fill="#1b2a41"/>
+<line x1="766.4" y1="460" x2="894.4" y2="460" stroke="#1b2a41" stroke-width="5" stroke-linecap="round"/>
+<circle cx="830.4" cy="460" r="7" fill="#1b2a41"/>
+<line x1="766.4" y1="460" x2="738.4" y2="500" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<line x1="766.4" y1="460" x2="794.4" y2="500" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<path d="M738.4,500 h56 a28,18 0 0 1 -56,0 z" fill="#eef1f5" stroke="#1b2a41" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="894.4" y1="460" x2="866.4" y2="500" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<line x1="894.4" y1="460" x2="922.4" y2="500" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<path d="M866.4,500 h56 a28,18 0 0 1 -56,0 z" fill="#eef1f5" stroke="#1b2a41" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="880.4" y="482" width="28" height="16" rx="2" fill="#fdf1d6" stroke="#1b2a41" stroke-width="2"/>
+<rect x="752.4" y="482" width="28" height="16" rx="2" fill="#d6e6f7" stroke="#1b2a41" stroke-width="2"/>
+<text x="830.4" y="586" font-size="15.5" fill="#1b5e20" font-weight="bold" text-anchor="middle">The same test and key</text>
+<text x="830.4" y="604.6" font-size="15.5" fill="#1b5e20" font-weight="bold" text-anchor="middle">for both.</text>
+<rect x="951.6" y="104" width="218.4" height="536" rx="14" fill="#ffffff" stroke="#b71c1c" stroke-width="3"/>
+<rect x="951.6" y="104" width="218.4" height="56" rx="14" fill="#b71c1c"/>
+<rect x="951.6" y="134" width="218.4" height="26" rx="0" fill="#b71c1c"/>
+<circle cx="981.6" cy="132" r="20" fill="#ffffff"/>
+<line x1="981.6" y1="146" x2="981.6" y2="128" stroke="#b71c1c" stroke-width="5" stroke-linecap="round"/>
+<circle cx="981.6" cy="122" r="6" fill="#b71c1c"/>
+<line x1="974.6" y1="126" x2="974.6" y2="114" stroke="#b71c1c" stroke-width="4" stroke-linecap="round"/>
+<line x1="988.6" y1="126" x2="988.6" y2="114" stroke="#b71c1c" stroke-width="4" stroke-linecap="round"/>
+<text x="1009.6" y="130" font-size="18" fill="#ffffff" font-weight="bold">Student choice</text>
+<rect x="959.6" y="170" width="202.4" height="232" rx="10" fill="#fde8e8"/>
+<text x="969.6" y="192" font-size="12" fill="#b71c1c" font-weight="bold" letter-spacing="1">HOW IT MISLEADS</text>
+<line x1="1060.8" y1="316" x2="1060.8" y2="226" stroke="#1b2a41" stroke-width="5" stroke-linecap="round"/>
+<rect x="1024.8" y="312" width="72" height="12" rx="3" fill="#1b2a41"/>
+<line x1="997.6" y1="216" x2="1124" y2="236" stroke="#1b2a41" stroke-width="5" stroke-linecap="round"/>
+<circle cx="1060.8" cy="226" r="7" fill="#1b2a41"/>
+<line x1="997.6" y1="216" x2="969.6" y2="256" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<line x1="997.6" y1="216" x2="1025.6" y2="256" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<path d="M969.6,256 h56 a28,18 0 0 1 -56,0 z" fill="#eef1f5" stroke="#1b2a41" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1124" y1="236" x2="1096" y2="276" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<line x1="1124" y1="236" x2="1152" y2="276" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<path d="M1096,276 h56 a28,18 0 0 1 -56,0 z" fill="#eef1f5" stroke="#1b2a41" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1106" y="246" width="36" height="28" rx="3" fill="#6b7785" stroke="#1b2a41" stroke-width="2.5"/>
+<text x="1124" y="266" font-size="20" fill="#ffffff" font-weight="bold" text-anchor="middle">?</text>
+<rect x="983.6" y="238" width="28" height="16" rx="2" fill="#d6e6f7" stroke="#1b2a41" stroke-width="2"/>
+<text x="1060.8" y="356" font-size="15.5" fill="#1b2a41" font-weight="bold" text-anchor="middle">Motivated students</text>
+<text x="1060.8" y="374.6" font-size="15.5" fill="#1b2a41" font-weight="bold" text-anchor="middle">choose one version.</text>
+<rect x="959.6" y="412" width="202.4" height="218" rx="10" fill="#e5f2e6"/>
+<text x="969.6" y="434" font-size="12" fill="#1b5e20" font-weight="bold" letter-spacing="1">THE DEFENSE</text>
+<line x1="1060.8" y1="550" x2="1060.8" y2="460" stroke="#1b2a41" stroke-width="5" stroke-linecap="round"/>
+<rect x="1024.8" y="546" width="72" height="12" rx="3" fill="#1b2a41"/>
+<line x1="996.8" y1="460" x2="1124.8" y2="460" stroke="#1b2a41" stroke-width="5" stroke-linecap="round"/>
+<circle cx="1060.8" cy="460" r="7" fill="#1b2a41"/>
+<line x1="996.8" y1="460" x2="968.8" y2="500" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<line x1="996.8" y1="460" x2="1024.8" y2="500" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<path d="M968.8,500 h56 a28,18 0 0 1 -56,0 z" fill="#eef1f5" stroke="#1b2a41" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1124.8" y1="460" x2="1096.8" y2="500" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<line x1="1124.8" y1="460" x2="1152.8" y2="500" stroke="#1b2a41" stroke-width="2" stroke-linecap="round"/>
+<path d="M1096.8,500 h56 a28,18 0 0 1 -56,0 z" fill="#eef1f5" stroke="#1b2a41" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1110.8" y="482" width="28" height="16" rx="2" fill="#fdf1d6" stroke="#1b2a41" stroke-width="2"/>
+<rect x="982.8" y="482" width="28" height="16" rx="2" fill="#d6e6f7" stroke="#1b2a41" stroke-width="2"/>
+<text x="1060.8" y="586" font-size="15.5" fill="#1b5e20" font-weight="bold" text-anchor="middle">Random assignment.</text>
+<text x="40" y="672" font-size="15" fill="#4a5666">Tilted scale: a hidden weight tips the comparison. Level scale: the defense makes the groups equal except for the version.</text>
+</svg>
