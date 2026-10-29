@@ -160,6 +160,41 @@ nav:
     - Ten-Metric Rubric Map: sims/rubric-structure-map/index.md
     - Total Score Calculator: sims/total-score-calculator/index.md
 
+  - Posters:
+      - List of Posters: posters/index.md
+      - Poster Ideas: posters/poster-ideas.md
+      - "The Sixth R: Regenerate": posters/sixth-r/index.md
+      - "The OER Evaluator Loop": sims/oer-evaluator-loop/index.md
+      - "Free Is Not Open: Price and Permission": sims/price-and-permission/index.md
+      - "The 5R Permissions: Five Things You May Do": sims/five-r-permissions/index.md
+      - "From Ten Scores to One Decision": sims/ten-scores-to-one-decision/index.md
+      - "Five Resources, Five Shapes": sims/five-resources-five-shapes/index.md
+      - "Source Files and Delivery Files": sims/source-and-delivery-files/index.md
+      - "Fork and Pull Request: Two Lanes, Seven Steps": sims/fork-and-pull-request/index.md
+      - "Following a Claim Back to Its Source": sims/claim-source-chain/index.md
+      - "How Fast Does Content Spoil?": sims/content-shelf-life/index.md
+      - "Bloom's Ladder: Six Levels, Measurable Verbs": sims/bloom-ladder/index.md
+      - "Four Principles, Five Learners": sims/pour-principles-learners/index.md
+      - "What a Screen Reader Hears": sims/what-a-screen-reader-hears/index.md
+      - "Feedback That Teaches": sims/feedback-that-teaches/index.md
+      - "Woven or Modular? The Lift-Out Test": sims/woven-or-modular/index.md
+      - "You Can't Reuse What You Can't Find": sims/cant-reuse-what-you-cant-find/index.md
+      - "Link, Embed, Import, or LTI: Four Ways Into an LMS": sims/four-ways-into-an-lms/index.md
+      - "Model, Assistant, Agent, Skill": sims/model-assistant-agent-skill/index.md
+      - "Weak Prompt, Strong Prompt": sims/weak-and-strong-prompt/index.md
+      - "What Each Automated Check Can and Cannot Find": sims/automated-checks-finds-and-misses/index.md
+      - "Safe to Send? Student Data and AI Services": sims/safe-to-send/index.md
+      - "Four Ways an Agent Gets It Wrong": sims/four-agent-error-types/index.md
+      - "Agreement Is Not Skill": sims/agreement-is-not-skill/index.md
+      - "The Fix Toolkit": sims/fix-toolkit/index.md
+      - "Can I Publish My Improved Version?": sims/can-i-publish-my-improved-version/index.md
+      - "The A/B Test on One Page": sims/ab-test-on-one-page/index.md
+      - "Five Ways a Test Can Lie to You": sims/five-confounders/index.md
+      - "Reading an Effect Size": sims/reading-an-effect-size/index.md
+      - "Component in a Box": sims/component-in-a-box/index.md
+      - "A One-Day Workshop Timeline": sims/one-day-workshop-timeline/index.md
+      - "Four Levels of Training Evaluation": sims/four-levels-of-training-evaluation/index.md
+
   - Stories:
       - Overview: stories/index.md
       - Story Ideas: stories/story-ideas.md
@@ -262,9 +297,9 @@ extra_css:
   - css/extra.css
   - css/mascot.css
 
-# Custom JavaScript — uncomment once a corresponding file exists
-# extra_javascript:
-#   - js/extra.js
+# Custom JavaScript — resizes MicroSim iframes to the height the overlay engines report
+extra_javascript:
+  - js/extra.js
 
 # Exclude prompt scratch files and TODOs from build/search/sitemap
 exclude_docs: |
