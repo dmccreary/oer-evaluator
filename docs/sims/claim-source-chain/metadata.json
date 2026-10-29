@@ -1,0 +1,74 @@
+{
+  "title": "Following a Claim Back to Its Source",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "A chain of four links that follows the claim \"Wetlands filter pollutants\" from a footnote to a textbook, a review article, and the study where the measurement was made.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Tracing a claim through a citation chain to the original source",
+    "learningObjectives": [
+      "The learner will trace a claim through a chain of citations to its original source and explain why stopping at the first link is not enough."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "Primary and secondary sources from [Chapter 5](../../chapters/05-accuracy-currency/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 670
+    },
+    "canvasHeight": 670,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/diagram.js, style.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "Is this link the original?",
+      "Who made the measurement?"
+    ],
+    "commonMisconceptions": [
+      "A citation that exists proves the claim",
+      "A textbook agreeing with a resource is evidence"
+    ],
+    "assessmentOpportunities": [
+      "A reviewer stops at link 2. What has the reviewer found?",
+      "Which link is the original source?",
+      "The further back you trace a claim, what happens to the check?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Numbered markers",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "05-accuracy-currency"
+}
