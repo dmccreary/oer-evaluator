@@ -1,6 +1,6 @@
 ---
-title: Free Is Not Open: Price and Permission
-description: A two-by-two matrix that shows price and permission are separate dials, so a free resource can be closed and a paid copy of an open resource can still be open.
+title: "Free Is Not Open: Price and Permission"
+description: "A two-by-two matrix that shows price and permission are separate dials, so a free resource can be closed and a paid copy of an open resource can still be open."
 image: /sims/price-and-permission/price-and-permission.png
 og:image: /sims/price-and-permission/price-and-permission.png
 twitter:image: /sims/price-and-permission/price-and-permission.png
@@ -53,6 +53,7 @@ This MicroSim is a **grid overlay**: the poster is a drawing made for this book 
 ### Good to Know
 
 Quiz mode scores each question as you answer it. The MicroSim does not store your answers. The poster prints its own headings, so the sim adds no labels on top of it.
+
 - The dollar amounts in the chapter, such as the $15 printed copy, are illustrative and are left off the poster.
 
 ## Lesson Plan
