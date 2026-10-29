@@ -1,0 +1,74 @@
+{
+  "title": "Four Ways an Agent Gets It Wrong",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Four field-guide cards for the agent error types, each with what it looks like, how a reviewer catches it, and how a prompt prevents it, plus the worked example \"A 9 that should be a 5\".",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "The four types of AI agent error: factual, license, citation, and scoring",
+    "learningObjectives": [
+      "The learner will classify an agent error as factual, license, citation, or scoring, and name the reviewer check and the prompt fix for it."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "Hallucination and agent error types from [Chapter 14](../../chapters/14-checking-agent-output/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (grid-diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 789
+    },
+    "canvasHeight": 789,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/grid-diagram.js, grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "What kind of mistake could this be?",
+      "What would expose it?"
+    ],
+    "commonMisconceptions": [
+      "A fluent report is a correct report",
+      "An agent's evidence is always real"
+    ],
+    "assessmentOpportunities": [
+      "A reference does not exist. Which error type is it?",
+      "What do you do to catch a scoring error?",
+      "How can a prompt prevent a license error?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Poster zones",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "14-checking-agent-output"
+}

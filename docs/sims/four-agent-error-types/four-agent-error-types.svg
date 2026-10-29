@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" role="img">
+<title>Four Ways an Agent Gets It Wrong</title>
+<desc>Four cards and an inset. Factual error: a wrong claim about the resource, such as a feature that is absent or a count that is off; catch it by opening the resource and checking the claim; prevent it by requiring a quotation or a location for every claim and a tool log for every measurement. License error: a wrong reading of the resource&#x27;s license, or a missed or mismatched license; compare the claim with the statement itself; require the license statement quoted word for word, and &quot;not stated&quot; for anything it does not mention. Citation error: a reference that does not exist or does not support its claim; look up the source and read the passage; allow only sources found in the resource or supplied by the reviewer. Scoring error: a score that does not follow from the agent&#x27;s own checks, or arithmetic that does not add up; recount the passes, recompute the band, and re-add the total; ask for the list of checks with a pass or fail on each, and have a spreadsheet or script add the total. Inset: the agent reported accessibility 9; the evidence supports five passing checks, which gives a 5.</desc>
+<rect width="1200" height="700" fill="#f7f9fc"/>
+<text x="40" y="50" font-size="32" fill="#1b2a41" font-weight="bold">Four Ways an Agent Gets It Wrong</text>
+<text x="40" y="80" font-size="18" fill="#4a5666">A field guide for the review desk. The type of error tells you how to catch it and how to prevent it.</text>
+<rect x="30" y="104" width="274.5" height="396" rx="14" fill="#ffffff" stroke="#1d4f86" stroke-width="3"/>
+<rect x="30" y="104" width="274.5" height="48" rx="14" fill="#1d4f86"/>
+<rect x="30" y="130" width="274.5" height="22" rx="0" fill="#1d4f86"/>
+<circle cx="58" cy="128" r="14" fill="#ffffff"/>
+<circle cx="56.2" cy="126.2" r="7.2" fill="#ffffff" stroke="#1d4f86" stroke-width="2.5"/>
+<line x1="61.6" y1="131.6" x2="68.2" y2="138.2" stroke="#1d4f86" stroke-width="3" stroke-linecap="round"/>
+<text x="82" y="136" font-size="21" fill="#ffffff" font-weight="bold">Factual error</text>
+<text x="46" y="174" font-size="12" fill="#1d4f86" font-weight="bold" letter-spacing="1">WHAT IT LOOKS LIKE</text>
+<text x="46" y="196" font-size="15.5" fill="#1b2a41">A wrong claim about the</text>
+<text x="46" y="214.9" font-size="15.5" fill="#1b2a41">resource, such as a feature that</text>
+<text x="46" y="233.8" font-size="15.5" fill="#1b2a41">is absent or a count that is off.</text>
+<text x="46" y="264.7" font-size="12" fill="#1d4f86" font-weight="bold" letter-spacing="1">HOW TO CATCH IT</text>
+<text x="46" y="286.7" font-size="15.5" fill="#1b2a41">Open the resource and check</text>
+<text x="46" y="305.6" font-size="15.5" fill="#1b2a41">the claim.</text>
+<text x="46" y="336.6" font-size="12" fill="#1d4f86" font-weight="bold" letter-spacing="1">HOW TO PREVENT IT</text>
+<text x="46" y="358.6" font-size="15.5" fill="#1b2a41">Require a quotation or a location</text>
+<text x="46" y="377.5" font-size="15.5" fill="#1b2a41">for every claim, and a tool log for</text>
+<text x="46" y="396.4" font-size="15.5" fill="#1b2a41">every measurement.</text>
+<rect x="318.5" y="104" width="274.5" height="396" rx="14" fill="#ffffff" stroke="#8a5a00" stroke-width="3"/>
+<rect x="318.5" y="104" width="274.5" height="48" rx="14" fill="#8a5a00"/>
+<rect x="318.5" y="130" width="274.5" height="22" rx="0" fill="#8a5a00"/>
+<circle cx="346.5" cy="128" r="14" fill="#ffffff"/>
+<circle cx="344.7" cy="126.2" r="7.2" fill="#ffffff" stroke="#8a5a00" stroke-width="2.5"/>
+<line x1="350.1" y1="131.6" x2="356.7" y2="138.2" stroke="#8a5a00" stroke-width="3" stroke-linecap="round"/>
+<text x="370.5" y="136" font-size="21" fill="#ffffff" font-weight="bold">License error</text>
+<text x="334.5" y="174" font-size="12" fill="#8a5a00" font-weight="bold" letter-spacing="1">WHAT IT LOOKS LIKE</text>
+<text x="334.5" y="196" font-size="15.5" fill="#1b2a41">A wrong reading of the</text>
+<text x="334.5" y="214.9" font-size="15.5" fill="#1b2a41">resource&#x27;s license, or a missed</text>
+<text x="334.5" y="233.8" font-size="15.5" fill="#1b2a41">or mismatched license.</text>
+<text x="334.5" y="264.7" font-size="12" fill="#8a5a00" font-weight="bold" letter-spacing="1">HOW TO CATCH IT</text>
+<text x="334.5" y="286.7" font-size="15.5" fill="#1b2a41">Compare the claim with the</text>
+<text x="334.5" y="305.6" font-size="15.5" fill="#1b2a41">statement itself.</text>
+<text x="334.5" y="336.6" font-size="12" fill="#8a5a00" font-weight="bold" letter-spacing="1">HOW TO PREVENT IT</text>
+<text x="334.5" y="358.6" font-size="15.5" fill="#1b2a41">Require the license statement</text>
+<text x="334.5" y="377.5" font-size="15.5" fill="#1b2a41">quoted word for word, and &quot;not</text>
+<text x="334.5" y="396.4" font-size="15.5" fill="#1b2a41">stated&quot; for anything it does not</text>
+<text x="334.5" y="415.3" font-size="15.5" fill="#1b2a41">mention.</text>
+<rect x="607" y="104" width="274.5" height="396" rx="14" fill="#ffffff" stroke="#573379" stroke-width="3"/>
+<rect x="607" y="104" width="274.5" height="48" rx="14" fill="#573379"/>
+<rect x="607" y="130" width="274.5" height="22" rx="0" fill="#573379"/>
+<circle cx="635" cy="128" r="14" fill="#ffffff"/>
+<circle cx="633.2" cy="126.2" r="7.2" fill="#ffffff" stroke="#573379" stroke-width="2.5"/>
+<line x1="638.6" y1="131.6" x2="645.2" y2="138.2" stroke="#573379" stroke-width="3" stroke-linecap="round"/>
+<text x="659" y="136" font-size="21" fill="#ffffff" font-weight="bold">Citation error</text>
+<text x="623" y="174" font-size="12" fill="#573379" font-weight="bold" letter-spacing="1">WHAT IT LOOKS LIKE</text>
+<text x="623" y="196" font-size="15.5" fill="#1b2a41">A reference that does not exist</text>
+<text x="623" y="214.9" font-size="15.5" fill="#1b2a41">or does not support its claim.</text>
+<text x="623" y="245.8" font-size="12" fill="#573379" font-weight="bold" letter-spacing="1">HOW TO CATCH IT</text>
+<text x="623" y="267.8" font-size="15.5" fill="#1b2a41">Look up the source and read the</text>
+<text x="623" y="286.7" font-size="15.5" fill="#1b2a41">passage.</text>
+<text x="623" y="317.6" font-size="12" fill="#573379" font-weight="bold" letter-spacing="1">HOW TO PREVENT IT</text>
+<text x="623" y="339.6" font-size="15.5" fill="#1b2a41">Allow only sources found in the</text>
+<text x="623" y="358.6" font-size="15.5" fill="#1b2a41">resource or supplied by the</text>
+<text x="623" y="377.5" font-size="15.5" fill="#1b2a41">reviewer.</text>
+<rect x="895.5" y="104" width="274.5" height="396" rx="14" fill="#ffffff" stroke="#b71c1c" stroke-width="3"/>
+<rect x="895.5" y="104" width="274.5" height="48" rx="14" fill="#b71c1c"/>
+<rect x="895.5" y="130" width="274.5" height="22" rx="0" fill="#b71c1c"/>
+<circle cx="923.5" cy="128" r="14" fill="#ffffff"/>
+<circle cx="921.7" cy="126.2" r="7.2" fill="#ffffff" stroke="#b71c1c" stroke-width="2.5"/>
+<line x1="927.1" y1="131.6" x2="933.7" y2="138.2" stroke="#b71c1c" stroke-width="3" stroke-linecap="round"/>
+<text x="947.5" y="136" font-size="21" fill="#ffffff" font-weight="bold">Scoring error</text>
+<text x="911.5" y="174" font-size="12" fill="#b71c1c" font-weight="bold" letter-spacing="1">WHAT IT LOOKS LIKE</text>
+<text x="911.5" y="196" font-size="15.5" fill="#1b2a41">A score that does not follow from</text>
+<text x="911.5" y="214.9" font-size="15.5" fill="#1b2a41">the agent&#x27;s own checks, or</text>
+<text x="911.5" y="233.8" font-size="15.5" fill="#1b2a41">arithmetic that does not add up.</text>
+<text x="911.5" y="264.7" font-size="12" fill="#b71c1c" font-weight="bold" letter-spacing="1">HOW TO CATCH IT</text>
+<text x="911.5" y="286.7" font-size="15.5" fill="#1b2a41">Recount the passes, recompute</text>
+<text x="911.5" y="305.6" font-size="15.5" fill="#1b2a41">the band, and re-add the total.</text>
+<text x="911.5" y="336.6" font-size="12" fill="#b71c1c" font-weight="bold" letter-spacing="1">HOW TO PREVENT IT</text>
+<text x="911.5" y="358.6" font-size="15.5" fill="#1b2a41">Ask for the list of checks with a</text>
+<text x="911.5" y="377.5" font-size="15.5" fill="#1b2a41">pass or fail on each, and have a</text>
+<text x="911.5" y="396.4" font-size="15.5" fill="#1b2a41">spreadsheet or script add the</text>
+<text x="911.5" y="415.3" font-size="15.5" fill="#1b2a41">total.</text>
+<rect x="30" y="516" width="1140" height="168" rx="14" fill="#fff7e6" stroke="#e69500" stroke-width="3"/>
+<text x="48" y="546" font-size="21" fill="#1b2a41" font-weight="bold">Worked example: a 9 that should be a 5</text>
+<text x="48" y="570" font-size="16" fill="#4a5666">The agent gave accessibility a 9. The human reviewer scored it 5.</text>
+<text x="48" y="600" font-size="12" fill="#4a5666" font-weight="bold" letter-spacing="1">WHAT THE AGENT REPORTED</text>
+<text x="470" y="600" font-size="12" fill="#4a5666" font-weight="bold" letter-spacing="1">WHAT THE EVIDENCE SUPPORTS</text>
+<text x="48" y="624" font-size="15.5" fill="#1b2a41">&quot;Images have alt text&quot; with no count</text>
+<line x1="432" y1="619" x2="451.6" y2="619" stroke="#6b7785" stroke-width="2.5" stroke-linecap="butt"/>
+<polygon points="458,619 451.1,623 451.1,615" fill="#6b7785" stroke-linejoin="miter"/>
+<text x="470" y="624" font-size="15.5" fill="#1b2a41">The count is 4 of 5, and 2 of the 4 are one word</text>
+<text x="48" y="648" font-size="15.5" fill="#1b2a41">&quot;Video is accessible&quot; with no quote</text>
+<line x1="432" y1="643" x2="451.6" y2="643" stroke="#6b7785" stroke-width="2.5" stroke-linecap="butt"/>
+<polygon points="458,643 451.1,647 451.1,639" fill="#6b7785" stroke-linejoin="miter"/>
+<text x="470" y="648" font-size="15.5" fill="#1b2a41">The video has no captions</text>
+<text x="48" y="672" font-size="15.5" fill="#1b2a41">&quot;Contrast is fine&quot; with no tool log</text>
+<line x1="432" y1="667" x2="451.6" y2="667" stroke="#6b7785" stroke-width="2.5" stroke-linecap="butt"/>
+<polygon points="458,667 451.1,671 451.1,663" fill="#6b7785" stroke-linejoin="miter"/>
+<text x="470" y="672" font-size="15.5" fill="#1b2a41">The contrast was never tested, so the check counts as failed</text>
+<rect x="990" y="538" width="80" height="70" rx="10" fill="#ffffff" stroke="#b71c1c" stroke-width="3"/>
+<text x="1030" y="586" font-size="44" fill="#b71c1c" font-weight="bold" text-anchor="middle">9</text>
+<text x="1030" y="624" font-size="14" fill="#1b2a41" text-anchor="middle">reported</text>
+<line x1="1076" y1="573" x2="1089.2" y2="573" stroke="#1b2a41" stroke-width="3.5" stroke-linecap="butt"/>
+<polygon points="1098,573 1088.5,578.5 1088.5,567.5" fill="#1b2a41" stroke-linejoin="miter"/>
+<rect x="1104" y="538" width="56" height="70" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="3"/>
+<text x="1132" y="586" font-size="44" fill="#2e7d32" font-weight="bold" text-anchor="middle">5</text>
+<text x="1132" y="624" font-size="14" fill="#1b2a41" text-anchor="middle">supported</text>
+</svg>

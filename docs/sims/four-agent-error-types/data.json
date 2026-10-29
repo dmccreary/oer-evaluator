@@ -1,0 +1,115 @@
+{
+  "title": "Four Ways an Agent Gets It Wrong",
+  "image": "four-agent-error-types.svg",
+  "layout": "grid",
+  "showLabels": false,
+  "palette": [
+    "#1d4f86",
+    "#8a5a00",
+    "#573379",
+    "#b71c1c",
+    "#e69500"
+  ],
+  "zones": [
+    {
+      "id": "factual-error",
+      "label": "Factual error",
+      "color": "#1d4f86",
+      "x1": 2.5,
+      "y1": 14.9,
+      "x2": 25.4,
+      "y2": 71.4,
+      "summary": "A wrong claim about the resource, such as a feature that is absent or a count that is off.",
+      "facts": [
+        "How to catch it: Open the resource and check the claim.",
+        "How to prevent it: Require a quotation or a location for every claim, and a tool log for every measurement."
+      ]
+    },
+    {
+      "id": "license-error",
+      "label": "License error",
+      "color": "#8a5a00",
+      "x1": 26.5,
+      "y1": 14.9,
+      "x2": 49.4,
+      "y2": 71.4,
+      "summary": "A wrong reading of the resource's license, or a missed or mismatched license.",
+      "facts": [
+        "How to catch it: Compare the claim with the statement itself.",
+        "How to prevent it: Require the license statement quoted word for word, and \"not stated\" for anything it does not mention."
+      ]
+    },
+    {
+      "id": "citation-error",
+      "label": "Citation error",
+      "color": "#573379",
+      "x1": 50.6,
+      "y1": 14.9,
+      "x2": 73.5,
+      "y2": 71.4,
+      "summary": "A reference that does not exist or does not support its claim.",
+      "facts": [
+        "How to catch it: Look up the source and read the passage.",
+        "How to prevent it: Allow only sources found in the resource or supplied by the reviewer."
+      ]
+    },
+    {
+      "id": "scoring-error",
+      "label": "Scoring error",
+      "color": "#b71c1c",
+      "x1": 74.6,
+      "y1": 14.9,
+      "x2": 97.5,
+      "y2": 71.4,
+      "summary": "A score that does not follow from the agent's own checks, or arithmetic that does not add up.",
+      "facts": [
+        "How to catch it: Recount the passes, recompute the band, and re-add the total.",
+        "How to prevent it: Ask for the list of checks with a pass or fail on each, and have a spreadsheet or script add the total."
+      ]
+    },
+    {
+      "id": "nine-that-should-be-five",
+      "label": "A 9 that should be a 5",
+      "color": "#e69500",
+      "x1": 2.5,
+      "y1": 73.7,
+      "x2": 97.5,
+      "y2": 97.7,
+      "summary": "The agent reported accessibility 9. Its evidence supports five passing checks, so the score is 5.",
+      "facts": [
+        "\"Images have alt text\" with no count: the count is 4 of 5, and 2 of the 4 are one word.",
+        "\"Video is accessible\" with no quote: the video has no captions.",
+        "\"Contrast is fine\" with no tool log: the contrast was never tested, so the check counts as failed.",
+        "Checks not verified: an empty list, but several checks were never verified.",
+        "Five checks pass, which gives a score of 5."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which card is a reference that does not exist or does not support its claim?",
+      "correct_zone": "citation-error",
+      "explanation": "Look up the source and read the passage."
+    },
+    {
+      "question": "Which card is a wrong claim such as a feature that is absent or a count that is off?",
+      "correct_zone": "factual-error",
+      "explanation": "Open the resource and check the claim."
+    },
+    {
+      "question": "Which card is caught by comparing the claim with the license statement itself?",
+      "correct_zone": "license-error",
+      "explanation": "Quote the statement word for word."
+    },
+    {
+      "question": "Which card is caught by recounting the passes and re-adding the total?",
+      "correct_zone": "scoring-error",
+      "explanation": "A score must follow from the agent's own checks."
+    },
+    {
+      "question": "Which zone shows an agent score of 9 that its own evidence supports as a 5?",
+      "correct_zone": "nine-that-should-be-five",
+      "explanation": "Five checks pass, so the score is 5."
+    }
+  ]
+}
