@@ -1,0 +1,74 @@
+{
+  "title": "What Each Automated Check Can and Cannot Find",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Four automated tools, each split into what it finds and what it cannot find, with a reminder to keep a human in the loop.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "What automated checks find and what they miss",
+    "learningObjectives": [
+      "The learner will state what each of four automated checks can find and what it cannot, and explain why a clean scan is not a finished review."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "Automated checks and the human in the loop from [Chapter 13](../../chapters/13-automated-checks-cost-privacy/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (grid-diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 789
+    },
+    "canvasHeight": 789,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/grid-diagram.js, grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "What did this tool actually look at?",
+      "What would a person still need to check?"
+    ],
+    "commonMisconceptions": [
+      "A clean scan means the resource is accessible",
+      "Automated checks replace the human reviewer"
+    ],
+    "assessmentOpportunities": [
+      "A link checker reports no broken links. What can it not tell you?",
+      "Can an accessibility scan tell you whether alt text is useful?",
+      "What can a readability scan not find?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Poster zones",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "13-automated-checks-cost-privacy"
+}
