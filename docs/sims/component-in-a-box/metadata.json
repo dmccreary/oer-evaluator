@@ -1,0 +1,74 @@
+{
+  "title": "Component in a Box",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "An exploded view of a cardboard box holding the six parts of the Chapter 18 quiz package, with a broken link outside the box and three finished boxes for Watershed Basics v1.1.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "What goes into a packaged, reusable component",
+    "learningObjectives": [
+      "The learner will list the files in a packaged component, say what each is for, and explain why a link that leaves the folder breaks the package."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "Standalone components from [Chapter 9](../../chapters/09-modularity-metadata/index.md) and packaging from [Chapter 18](../../chapters/18-components-publishing-oer/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 552
+    },
+    "canvasHeight": 552,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/diagram.js, style.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "Does everything it needs travel with it?",
+      "Do all links stay inside the folder or use complete addresses?"
+    ],
+    "commonMisconceptions": [
+      "A link to a shared folder is fine",
+      "A license can be added later"
+    ],
+    "assessmentOpportunities": [
+      "Where must the script a page needs be kept?",
+      "Why does the box include a license file and a metadata file?",
+      "What should links inside a package be?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Numbered markers",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "18-components-publishing-oer"
+}
