@@ -1,0 +1,100 @@
+{
+  "title": "Link, Embed, Import, or LTI: Four Ways Into an LMS",
+  "image": "four-ways-into-an-lms.svg",
+  "layout": "grid",
+  "showLabels": false,
+  "palette": [
+    "#1d4f86",
+    "#00796b",
+    "#8a5a00",
+    "#573379"
+  ],
+  "zones": [
+    {
+      "id": "link",
+      "label": "Link",
+      "color": "#1d4f86",
+      "x1": 2.5,
+      "y1": 15.4,
+      "x2": 25.4,
+      "y2": 87.4,
+      "summary": "Students open the resource at its own address.",
+      "facts": [
+        "Students open the resource at its own address.",
+        "Information flow: one-way.",
+        "The resource stays on its own host.",
+        "Needs a good link: permanent, direct, and working for the person who receives it."
+      ]
+    },
+    {
+      "id": "embed",
+      "label": "Embed",
+      "color": "#00796b",
+      "x1": 26.5,
+      "y1": 15.4,
+      "x2": 49.4,
+      "y2": 87.4,
+      "summary": "The resource appears on your course page through a frame.",
+      "facts": [
+        "The resource appears on your course page through a frame.",
+        "Information flow: one-way.",
+        "The page shows it without leaving your course.",
+        "Needs a host that allows framing, and no login."
+      ]
+    },
+    {
+      "id": "cartridge",
+      "label": "Common Cartridge import",
+      "color": "#8a5a00",
+      "x1": 50.6,
+      "y1": 15.4,
+      "x2": 73.5,
+      "y2": 87.4,
+      "summary": "A whole unit is copied into the LMS as a package.",
+      "facts": [
+        "A whole unit is copied into the LMS as a package.",
+        "Information flow: one-way.",
+        "A single compressed file with a manifest.",
+        "The common exchange form between LMSs. Not every resource offers one."
+      ]
+    },
+    {
+      "id": "lti",
+      "label": "LTI tool",
+      "color": "#573379",
+      "x1": 74.6,
+      "y1": 15.4,
+      "x2": 97.5,
+      "y2": 87.4,
+      "summary": "An external tool opens inside the LMS and can send results back.",
+      "facts": [
+        "An external tool opens inside the LMS and can send results back.",
+        "Information flow: two-way.",
+        "It runs on another company's server.",
+        "Passes learner information, which raises the privacy questions of Chapter 13."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which method lets an external quiz tool send each student's score to the LMS gradebook?",
+      "correct_zone": "lti",
+      "explanation": "LTI lets the tool exchange information with the LMS."
+    },
+    {
+      "question": "Which method makes a simulation appear on your course page through a frame?",
+      "correct_zone": "embed",
+      "explanation": "A frame shows the simulation inside the page."
+    },
+    {
+      "question": "Which method copies a whole unit, with pages, quizzes, and files, into your course as one package?",
+      "correct_zone": "cartridge",
+      "explanation": "A package carries the whole unit into the LMS."
+    },
+    {
+      "question": "Which method just lets students open one reading in a new tab at its own address?",
+      "correct_zone": "link",
+      "explanation": "A link opens the resource at its own address."
+    }
+  ]
+}

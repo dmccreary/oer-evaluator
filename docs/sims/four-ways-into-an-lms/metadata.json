@@ -1,0 +1,74 @@
+{
+  "title": "Link, Embed, Import, or LTI: Four Ways Into an LMS",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "The same resource moving four ways toward the same generic learning management system: a link, an embed, a Common Cartridge import, and an LTI tool.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "Four ways to bring an OER into a learning management system",
+    "learningObjectives": [
+      "The learner will choose the right way to bring a resource into an LMS for each of four teacher needs."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "LMS import, Common Cartridge, and LTI from [Chapter 10](../../chapters/10-portability-reuse/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (grid-diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 765
+    },
+    "canvasHeight": 765,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/grid-diagram.js, grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "Where does the resource live afterward?",
+      "Does anything need to come back to the gradebook?"
+    ],
+    "commonMisconceptions": [
+      "A link that fails is an embedding problem",
+      "LTI and a link do the same thing"
+    ],
+    "assessmentOpportunities": [
+      "You want an external quiz tool to send each student's score to the gradebook. Which method?",
+      "You want a simulation to appear on your course page. Which method?",
+      "You want colleagues with a different LMS to receive the same unit. Which method?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Poster zones",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "10-portability-reuse"
+}
