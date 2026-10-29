@@ -1,0 +1,74 @@
+{
+  "title": "Reading an Effect Size",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Three pairs of overlapping bell curves show d of 0.2 (small), 0.5 (medium), and 0.8 (large), with a caution about a pilot whose d was about 1.03.",
+  "date": "2026-10-29",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "What Cohen's d of 0.2, 0.5, and 0.8 look like",
+    "learningObjectives": [
+      "The learner will interpret d values of 0.2, 0.5, and 0.8 as the overlap between two groups, and explain why a large d from a small test deserves caution."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "5-10 minutes",
+    "prerequisites": [
+      "Means, spread, and effect size from [Chapter 17](../../chapters/17-ab-testing-analysis/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "SVG poster with shared overlay (grid-diagram.js)",
+    "version": "n/a",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 765
+    },
+    "canvasHeight": 765,
+    "responsive": true,
+    "dependencies": [
+      "../shared-libs/grid-diagram.js, grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a reference picture, then quiz on the same picture",
+    "keyQuestions": [
+      "How far apart are the group means, in units of spread?",
+      "How many students are behind this number?"
+    ],
+    "commonMisconceptions": [
+      "A bigger difference always means a bigger effect",
+      "A large d from a small test is a sure thing"
+    ],
+    "assessmentOpportunities": [
+      "What does d measure?",
+      "What size is d = 0.5 by convention?",
+      "Why is the pilot's d of about 1.03 not the number to plan the next test on?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore and Quiz buttons",
+      "type": "button",
+      "description": "switch between exploring the poster and answering quiz questions."
+    },
+    {
+      "name": "Poster zones",
+      "type": "interactive overlay",
+      "description": "hover or press to read about that part of the poster. In quiz mode a press is your answer."
+    },
+    {
+      "name": "Try Again",
+      "type": "button",
+      "description": "repeats the quiz after the last question."
+    }
+  ],
+  "chapter": "17-ab-testing-analysis"
+}
