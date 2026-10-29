@@ -1,0 +1,95 @@
+{
+  "title": "Four Levels of Training Evaluation",
+  "image": "four-levels-of-training-evaluation.svg",
+  "layout": "grid",
+  "showLabels": false,
+  "palette": [
+    "#00796b",
+    "#1d4f86",
+    "#8a5a00",
+    "#573379"
+  ],
+  "zones": [
+    {
+      "id": "reaction",
+      "label": "1. Reaction",
+      "color": "#00796b",
+      "x1": 2.5,
+      "y1": 38.0,
+      "x2": 25.5,
+      "y2": 85.1,
+      "summary": "Did participants find the day useful? Illustrative evidence for a workshop of 20 teachers.",
+      "facts": [
+        "19 of 20 returned the exit survey",
+        "18 rated the day 4 or 5",
+        "These numbers are made up in the chapter to show the form."
+      ]
+    },
+    {
+      "id": "learning",
+      "label": "2. Learning",
+      "color": "#1d4f86",
+      "x1": 26.5,
+      "y1": 31.4,
+      "x2": 49.5,
+      "y2": 85.1,
+      "summary": "Did they gain the skills? Illustrative evidence for a workshop of 20 teachers.",
+      "facts": [
+        "17 of 20 earned the certificate",
+        "Calibration scores differed from the consensus by 1.1 points on average",
+        "These numbers are made up in the chapter to show the form."
+      ]
+    },
+    {
+      "id": "behavior",
+      "label": "3. Behavior",
+      "color": "#8a5a00",
+      "x1": 50.5,
+      "y1": 24.9,
+      "x2": 73.5,
+      "y2": 85.1,
+      "summary": "Do they use the skills afterward? Illustrative evidence for a workshop of 20 teachers.",
+      "facts": [
+        "12 of the 17 certified teachers scored another resource within three months",
+        "These numbers are made up in the chapter to show the form."
+      ]
+    },
+    {
+      "id": "results",
+      "label": "4. Results",
+      "color": "#573379",
+      "x1": 74.5,
+      "y1": 18.3,
+      "x2": 97.5,
+      "y2": 85.1,
+      "summary": "Did it change outcomes? Illustrative evidence for a workshop of 20 teachers.",
+      "facts": [
+        "20 improved components were published",
+        "9 were reused by another teacher within three months",
+        "These numbers are made up in the chapter to show the form."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which level does \"17 of 20 earned the certificate\" belong to?",
+      "correct_zone": "learning",
+      "explanation": "It shows the skills were demonstrated."
+    },
+    {
+      "question": "Which level does \"19 of 20 returned the exit survey\" belong to?",
+      "correct_zone": "reaction",
+      "explanation": "The exit survey measures only the first level."
+    },
+    {
+      "question": "Which level does \"12 of the 17 certified teachers scored another resource within three months\" belong to?",
+      "correct_zone": "behavior",
+      "explanation": "It shows the skills are used afterward."
+    },
+    {
+      "question": "Which level does \"9 components were reused by another teacher\" belong to?",
+      "correct_zone": "results",
+      "explanation": "Reuse is an outcome beyond the participants."
+    }
+  ]
+}
