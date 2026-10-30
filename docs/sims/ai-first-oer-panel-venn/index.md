@@ -27,7 +27,7 @@ You can add this MicroSim to any web page with this `iframe`:
 
 ## Description
 
-Delmar Larsen has proposed a 90-minute online panel called **"What would an AI-first OER infrastructure look like?"** The panelists are Dan McCreary, David Wiley, and Joel Gladd, and Delmar is the host. The date has not been set, and it has not yet been decided whether the panel will be public.
+Delmar Larsen (LibreTexts) is organizing a 90-minute online panel called **"What would an AI-first OER infrastructure look like?"** The panelists are Dan McCreary, David Wiley, and Joel Gladd, and Delmar is the host and moderator. The panel will be **public**. The date has not been set yet; a Tuesday in mid-to-late November 2026 has been proposed. The discussion is aimed at intermediate to advanced users and focuses on practical uses and real impact.
 
 This MicroSim draws one translucent circle for each person. Each label sits in the region for the people who share that interest. **Gold labels** are interests that all four people share.
 
