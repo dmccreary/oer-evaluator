@@ -4,6 +4,7 @@ description: "Walks through scoring an OER by hand, recording evidence, calibrat
 generated_by: claude skill chapter-content-generator
 date: "2026-10-23 22:27:21"
 version: 1.11
+status: built
 ---
 
 # Manual Evaluation and Adoption Decisions

@@ -58,6 +58,23 @@ Each idea is built on one thing a reader should still remember a month later, an
 
 Total: 29 stories, 223 panels, 252 images including covers.
 
+## Implementation Status
+
+!!! note "Seven of the 29 stories are implemented"
+    These stories have a full page with text and image prompts, and are listed on the [Stories overview](index.md). The remaining 22 are ideas only. As of this writing, the images for the implemented stories may still be pending generation.
+
+| # | Story | Page |
+|--:|-------|------|
+| 5 | Blue Ribbon Casserole | [Read the story](blue-ribbon-casserole/index.md) |
+| 11 | The Orphan MicroSim | [Read the story](orphan-microsim/index.md) |
+| 13 | The Floor Beneath the Total | [Read the story](floor-beneath-the-total/index.md) |
+| 17 | The Citation That Never Was | [Read the story](citation-that-never-was/index.md) |
+| 22 | The Tortoise, the Hare, and the Rubric | [Read the story](tortoise-hare-and-the-rubric/index.md) |
+| 26 | Minnesota Nice Is Not a Scoring Method | [Read the story](minnesota-nice-scoring/index.md) |
+| 27 | The Lake Effect Workshop | [Read the story](lake-effect-workshop/index.md) |
+
+When you implement another story, add it to this table and to the Stories section of `mkdocs.yml`.
+
 ## The Recurring Cast
 
 A small repeating cast makes the stories feel like one universe and lets readers meet the same people again in a different chapter. None is a real person.

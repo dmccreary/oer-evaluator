@@ -4,6 +4,7 @@ description: "Covers the practice metric: worked examples, formative assessment,
 generated_by: claude skill chapter-content-generator
 date: "2026-10-23 22:18:31"
 version: 1.11
+status: built
 ---
 
 # Practice and Feedback

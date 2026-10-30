@@ -4,6 +4,7 @@ description: "Shows how to score alignment to learning outcomes, standards, and 
 generated_by: claude skill chapter-content-generator
 date: "2026-10-23 22:09:25"
 version: 1.11
+status: built
 ---
 
 # Alignment and Readability

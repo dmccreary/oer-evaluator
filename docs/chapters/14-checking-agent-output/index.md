@@ -4,6 +4,7 @@ description: "Teaches teachers to catch hallucinations, invented citations, lice
 generated_by: claude skill chapter-content-generator
 date: "2026-10-23 22:45:07"
 version: 1.11
+status: built
 ---
 
 # Checking and Calibrating AI Agent Output

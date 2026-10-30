@@ -4,6 +4,7 @@ description: "Explains how to score portability: browser compatibility, no-login
 generated_by: claude skill chapter-content-generator
 date: "2026-10-23 22:25:16"
 version: 1.11
+status: built
 ---
 
 # Portability and Reuse Across Platforms

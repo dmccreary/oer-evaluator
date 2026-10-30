@@ -5,11 +5,15 @@ description: 'Draft specification for a tiered, scoring-guide-anchored rubric th
 
 # OER Evaluator Rubric Specification
 
-!!! warning "Draft v0.4 — design specification, not yet validated"
-    Nothing in this page has been implemented or tested. The anchors and
+!!! warning "Draft v0.4 - skill still in testing"
+    The main process in the automated AI evaluation is an AI skill that
+    evaluates a textbooks. The anchors and
     thresholds are proposals for the author to accept or change. Section 11
     lists the eighteen decisions, all resolved, and the parameters still to be
     set before the first run.
+
+The source code for the AI Skill is [here](https://github.com/dmccreary/oer-evaluator/tree/main/skills/oer-evaluator).  We are looking for ANY feedback and would gladly accept any [GitHub pull requests](./glossary.md#pull-request).
+
 
 !!! info "Foundation and credit"
     This specification rests on the systematic review by **Min Yuan and Mimi

@@ -1117,6 +1117,16 @@ It lets an agent open a resource's source files and save a report, and it create
 
 **Example:** An agent has read-only access to a folder of lesson files.
 
+#### Findability
+
+The degree to which a resource can be located by a stranger using the words they would naturally search for, which depends on its title, description, subject, and other metadata.
+
+A resource that cannot be found cannot be reused, however good it is. Findability is why the Metadata metric matters.
+
+**Example:** A superb slope simulation sits in a folder named `untitled-3`, so a teacher searching for "interactive slope" never sees it. After a librarian adds a clear title, subject, grade level, license, and description, a stranger finds it in four seconds. You can't reuse what you can't find.
+
+*See also:* Metadata Record, Metadata Metric, Metadata Completeness
+
 #### Findings Log
 
 A record of every agent claim a reviewer checked and what was decided, with columns for the finding, the decision, and the reason.
@@ -1126,6 +1136,16 @@ The log makes the review auditable and supplies the numbers for measuring an age
 **Example:** A log of five entries shows three accepted, one corrected, and one rejected, each with a reason.
 
 *See also:* Accept Correct or Reject, Agent Error Rate
+
+#### Five Level Model
+
+A classification framework for intelligent textbooks that sorts them into five levels of capability, modeled on the SAE J3016 levels of driving automation: Level 1 static, Level 2 interactive, Level 3 adaptive, Level 4 chatbot, and Level 5 autonomous AI.
+
+Level 1 textbooks have fixed content and no interactivity. Level 2 adds MicroSims, learning graphs, and path recommendations. Level 3 adapts to student goals and progress, which requires storing student records. Level 4 adds chatbots and large language models for conversational tutoring. Level 5 generates content in real time and personalizes instruction fully. Level 3 is a privacy inflection point, because from there up the system needs detailed learning histories, which raises concerns under FERPA, COPPA, and GDPR.
+
+**Example:** A textbook with embedded MicroSims and a learning graph but no student accounts is Level 2. Adding a tutoring chatbot that remembers each student's progress moves it to Level 4 and brings student-privacy rules into play.
+
+*See also:* MicroSim, Learning Graph, FERPA
 
 #### Flesch-Kincaid Grade Level
 

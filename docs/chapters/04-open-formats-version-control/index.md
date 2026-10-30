@@ -4,6 +4,7 @@ description: "Covers the editable source metric: open file formats, Markdown and
 generated_by: claude skill chapter-content-generator
 date: "2026-10-23 21:58:07"
 version: 1.11
+status: built
 ---
 
 # Open File Formats and Version Control

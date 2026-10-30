@@ -4,6 +4,7 @@ description: "Defines open educational resources and the 5R permissions, and exp
 generated_by: claude skill chapter-content-generator
 date: "2026-10-23 21:26:42"
 version: 1.11
+status: built
 ---
 
 # Foundations of Open Educational Resources

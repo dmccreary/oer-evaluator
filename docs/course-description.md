@@ -40,6 +40,7 @@ The course then turns evaluation into improvement. Readers use AI agents to rais
 - Analyzing A/B test results and comparing them with rubric scores
 - Publishing, sharing, and maintaining improved OER, including repositories and version control
 - Training others and earning a certificate in OER quality evaluation with AI agents
+- The Five Level Model for classifying intelligent textbooks, from static (Level 1) to autonomous AI (Level 5), and why Level 3 is a privacy inflection point
 
 ## Topics Not Covered
 

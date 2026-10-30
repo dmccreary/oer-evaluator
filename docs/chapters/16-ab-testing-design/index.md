@@ -4,6 +4,7 @@ description: "Explains how to compare an original and an improved resource with 
 generated_by: claude skill chapter-content-generator
 date: "2026-10-23 23:00:09"
 version: 1.11
+status: built
 ---
 
 # Designing an A/B Test with Students

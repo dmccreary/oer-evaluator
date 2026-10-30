@@ -4,6 +4,7 @@ description: "Shows how to score the open license, modularity, and metadata metr
 generated_by: claude skill chapter-content-generator
 date: "2026-10-23 22:22:46"
 version: 1.11
+status: built
 ---
 
 # Modularity and Metadata

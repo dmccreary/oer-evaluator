@@ -4,6 +4,7 @@ description: "Teaches teachers to score accuracy and currency by fact checking, 
 generated_by: claude skill chapter-content-generator
 date: "2026-10-23 22:03:25"
 version: 1.11
+status: built
 ---
 
 # Accuracy and Currency

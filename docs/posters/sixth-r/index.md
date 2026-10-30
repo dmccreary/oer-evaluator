@@ -1,6 +1,6 @@
 ---
-title: The Sixth R: Regenerate
-description: A source-to-book picture that shows what the proposed sixth R, regenerate, adds to the 5Rs: the right to rebuild an intelligent textbook from its course description, learning graph, and agentic skills.
+title: "The Sixth R: Regenerate"
+description: "A source-to-book picture that shows what the proposed sixth R, regenerate, adds to the 5Rs: the right to rebuild an intelligent textbook from its course description, learning graph, and agentic skills."
 image: /posters/sixth-r/sixth-r.png
 og:image: /posters/sixth-r/sixth-r.png
 twitter:image: /posters/sixth-r/sixth-r.png

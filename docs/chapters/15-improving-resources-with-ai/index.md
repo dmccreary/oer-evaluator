@@ -4,6 +4,7 @@ description: "Guides teachers through an improvement plan that uses agents to fi
 generated_by: claude skill chapter-content-generator
 date: "2026-10-23 22:54:40"
 version: 1.11
+status: built
 ---
 
 # Improving a Resource with AI Agents

@@ -4,6 +4,7 @@ description: "Describes how to run a teacher training workshop, set certificate 
 generated_by: claude skill chapter-content-generator
 date: "2026-10-23 23:15:44"
 version: 1.11
+status: built
 ---
 
 # Training Teachers and Certifying Reviewers

@@ -4,6 +4,7 @@ description: "Explains the Creative Commons license family, its elements, attrib
 generated_by: claude skill chapter-content-generator
 date: "2026-10-23 21:41:53"
 version: 1.11
+status: built
 ---
 
 # Open Licenses and Attribution

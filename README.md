@@ -17,7 +17,7 @@ Objective steps for evaluating open educational resources (OER).  A focus on man
 
 This is an interactive, AI-assisted intelligent textbook built with MkDocs and the Material theme. It is organized around a learning graph of **351 concepts** with explicit prerequisite dependencies, so that no chapter relies on a concept that has not yet been introduced. Content is organized into **19 chapters** and uses Bloom's Taxonomy (2001 revision) to target learning outcomes from remembering through creating.
 
-The book includes **51 interactive MicroSims**, a glossary of 351 terms, 100 FAQ entries and 190 quiz questions. Whether you are a student, an educator, or a self-learner, everything runs directly in your browser.
+The book includes **52 interactive MicroSims**, **7 illustrated stories**, a glossary of 365 terms, 103 FAQ entries and 190 quiz questions. Chapters average a Flesch-Kincaid reading level of grade 7.8. Whether you are a student, an educator, or a self-learner, everything runs directly in your browser.
 
 ## Site Status and Metrics
 
@@ -25,17 +25,22 @@ The book includes **51 interactive MicroSims**, a glossary of 351 terms, 100 FAQ
 |--------|-------|
 | Concepts in Learning Graph | 351 |
 | Chapters | 19 |
-| MicroSims | 51 |
-| Glossary Terms | 351 |
-| FAQ Questions | 100 |
+| MicroSims | 52 |
+| Stories | 7 |
+| Glossary Terms | 365 |
+| FAQ Questions | 103 |
 | Quiz Questions | 190 |
+| References | 191 |
 | Diagrams | 150 |
-| Equations | 30 |
-| Total Words | 323,789 |
-| Links | 996 |
-| Equivalent Pages | 1,342 |
+| Equations | 1 |
+| Total Words | 427,027 |
+| Links | 1,466 |
+| Equivalent Pages | 1,771 |
+| Average Reading Level (Flesch-Kincaid) | Grade 7.8 |
 
 **Development Stage:** Not specified
+
+Per-chapter counts and reading levels are in [Chapter Metrics](https://dmccreary.github.io/oer-evaluator/learning-graph/chapter-metrics/).
 
 Metrics are generated from `docs/learning-graph/book-metrics.json`.
 
@@ -76,10 +81,13 @@ oer-evaluator/
 ├── docs/                          # MkDocs documentation source
 │   ├── chapters/                  # Chapter content (index.md per chapter)
 │   ├── sims/                      # Interactive MicroSims (main.html, script.js, index.md)
+│   ├── stories/                   # Illustrated graphic-novel stories
+│   ├── workshops/                 # Workshop agendas and templates
 │   ├── learning-graph/            # Learning graph CSV/JSON and quality reports
 │   │   ├── learning-graph.csv     # Concept dependencies
 │   │   ├── learning-graph.json    # vis-network format
-│   │   └── book-metrics.json      # Canonical book metrics
+│   │   ├── book-metrics.json      # Canonical book metrics
+│   │   └── chapter-metrics.md     # Per-chapter counts and reading level
 │   ├── glossary.md                # ISO 11179-style definitions
 │   └── faq.md                     # Frequently asked questions
 ├── mkdocs.yml                     # MkDocs configuration

@@ -4,6 +4,7 @@ description: "Explains how to score accessibility against WCAG 2.1 AA, covering 
 generated_by: claude skill chapter-content-generator
 date: "2026-10-23 22:14:36"
 version: 1.11
+status: built
 ---
 
 # Accessibility

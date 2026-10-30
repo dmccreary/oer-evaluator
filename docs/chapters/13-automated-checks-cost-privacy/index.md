@@ -4,6 +4,7 @@ description: "Covers multi-agent review, keeping a human in the loop, automated 
 generated_by: claude skill chapter-content-generator
 date: "2026-10-23 22:36:18"
 version: 1.11
+status: built
 ---
 
 # Automated Checks, Cost, and Student Privacy

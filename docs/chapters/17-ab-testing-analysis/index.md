@@ -4,6 +4,7 @@ description: "Shows how to collect and anonymize data, compare group means, read
 generated_by: claude skill chapter-content-generator
 date: "2026-10-23 23:05:46"
 version: 1.11
+status: built
 ---
 
 # Analyzing A/B Test Results

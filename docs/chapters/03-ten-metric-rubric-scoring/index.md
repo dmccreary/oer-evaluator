@@ -4,6 +4,7 @@ description: "Introduces the rubric that scores an OER on five quality and five 
 generated_by: claude skill chapter-content-generator
 date: "2026-10-23 21:52:04"
 version: 1.11
+status: built
 ---
 
 # The Ten-Metric Rubric and Scoring

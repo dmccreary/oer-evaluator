@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{#- Giscus comments rendered just above the footer of every page.
+    Settings live in mkdocs.yml under extra.giscus. Skipped until category_id is set. -#}
+{% block footer %}
+  {% if config.extra.giscus and config.extra.giscus.category_id %}
+  {% set g = config.extra.giscus %}
+  <div class="md-grid giscus-footer" style="padding: 0 1.2rem;">
+    <h2 id="__comments">Feedback</h2>
+    <script src="https://giscus.app/client.js"
+            data-repo="{{ g.repo }}"
+            data-repo-id="{{ g.repo_id }}"
+            data-category="{{ g.category }}"
+            data-category-id="{{ g.category_id }}"
+            data-mapping="{{ g.mapping }}"
+            data-strict="0"
+            data-reactions-enabled="{{ g.reactions_enabled }}"
+            data-emit-metadata="{{ g.emit_metadata }}"
+            data-input-position="top"
+            data-theme="{{ g.theme }}"
+            data-lang="{{ g.lang }}"
+            data-loading="lazy"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </div>
+  <script>
+    /* Keep the giscus iframe in sync with the Material light/dark palette toggle */
+    var palette = __md_get("__palette");
+    if (palette && typeof palette.color === "object") {
+      var theme = palette.color.scheme === "slate" ? "dark" : "light";
+      var g = document.querySelector(".giscus-footer script");
+      if (g) g.setAttribute("data-theme", theme);
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll("[data-md-component=palette] input").forEach(function (el) {
+        el.addEventListener("change", function () {
+          var frame = document.querySelector(".giscus-frame");
+          if (!frame) return;
+          var p = __md_get("__palette");
+          var t = p && p.color && p.color.scheme === "slate" ? "dark" : "light";
+          frame.contentWindow.postMessage({ giscus: { setConfig: { theme: t } } }, "https://giscus.app");
+        });
+      });
+    });
+  </script>
+  {% endif %}
+  {{ super() }}
+{% endblock %}
