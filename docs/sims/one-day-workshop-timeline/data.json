@@ -9,7 +9,7 @@
       "id": 1,
       "label": "Check-in and setup",
       "x": 4.5,
-      "y": 50.8,
+      "y": 28.5,
       "radius": 2.3,
       "color": "#00796b",
       "hint": "A laptop with a prompt, in the shortest session block at the start.",
@@ -21,19 +21,19 @@
       "id": 2,
       "label": "The ten metrics",
       "x": 11.2,
-      "y": 50.8,
+      "y": 28.5,
       "radius": 2.3,
       "color": "#1d4f86",
       "hint": "A sheet of ten small boxes in two rows, the first arc starts here.",
       "description": "9:00 to 9:45. Teachers leave with: a rubric card.",
       "tip": "Arc 1: the rubric comes before calibration, so teachers have a human score to compare the agent with.",
-      "panel": "top"
+      "panel": "bottom"
     },
     {
       "id": 3,
       "label": "Calibration by hand, then with the agent",
       "x": 21.2,
-      "y": 50.8,
+      "y": 28.5,
       "radius": 2.3,
       "color": "#1d4f86",
       "hint": "Bars of unequal heights under a dashed line, where the first arc lands.",
@@ -45,19 +45,19 @@
       "id": 4,
       "label": "Checking the agent",
       "x": 37.8,
-      "y": 50.8,
+      "y": 28.5,
       "radius": 2.3,
       "color": "#00796b",
       "hint": "A page under a magnifying glass, where the second arc starts.",
       "description": "11:00 to 12:00. Teachers leave with: a verified evaluation of the sample.",
       "tip": "Arc 2: checking comes before improving, so teachers fix a resource only after they trust the evidence.",
-      "panel": "top"
+      "panel": "bottom"
     },
     {
       "id": 5,
       "label": "Lunch",
       "x": 51.2,
-      "y": 50.8,
+      "y": 28.5,
       "radius": 2.3,
       "color": "#6b7785",
       "hint": "A plate with a knife and fork in a dashed block.",
@@ -69,19 +69,19 @@
       "id": 6,
       "label": "The improvement challenge",
       "x": 61.2,
-      "y": 50.8,
+      "y": 28.5,
       "radius": 2.3,
       "color": "#8a5a00",
       "hint": "The longest block, with a wrench and a staircase of bars, where the second arc lands.",
       "description": "12:45 to 2:15. Teachers leave with: an improved component and its new score.",
       "tip": "The longest block, because teachers do the real work here.",
-      "panel": "top"
+      "panel": "bottom"
     },
     {
       "id": 7,
       "label": "Peer review and publishing",
       "x": 84.5,
-      "y": 50.8,
+      "y": 28.5,
       "radius": 2.3,
       "color": "#573379",
       "hint": "Two people and an upward arrow.",
@@ -93,13 +93,13 @@
       "id": 8,
       "label": "Next steps",
       "x": 95.0,
-      "y": 50.8,
+      "y": 28.5,
       "radius": 2.3,
       "color": "#573379",
       "hint": "The smallest block at the right end, with a small certificate.",
       "description": "3:15 to 3:30. Teachers leave with: a certificate checklist.",
       "tip": "The exit survey measures only the first level of training evaluation.",
-      "panel": "top"
+      "panel": "bottom"
     }
   ]
 }

@@ -11,7 +11,7 @@ hide:
   - toc
 ---
 
-<iframe src="main.html" height="751px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="640px" width="100%" scrolling="no"></iframe>
 
 [Run the A One-Day Workshop Timeline MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>
@@ -23,7 +23,7 @@ You can add this MicroSim to any web page with this `iframe`:
 
 ```html
 <iframe src="https://dmccreary.github.io/oer-evaluator/sims/one-day-workshop-timeline/main.html"
-        height="751px"
+        height="640px"
         width="100%"
         scrolling="no"></iframe>
 ```
