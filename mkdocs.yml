@@ -304,7 +304,7 @@ extra_css:
 extra_javascript:
   - js/extra.js
 
-# Exclude prompt scratch files and TODOs from build/search/sitemap
+# Exclude prompt scratch files, TODOs and private workshop drafts from build/search/sitemap
 exclude_docs: |
   **/image-prompt*.md
   **/image-prompts*.md
@@ -312,6 +312,8 @@ exclude_docs: |
   **/cover-image-prompt.md
   **/TODO.md
   /sims/TODO/
+  /workshops/karen-agenda.md
+  /workshops/oer-influencer-email-template.md
 
 # Rebuild on changes during `mkdocs serve`
 watch:
