@@ -1,0 +1,23 @@
+{
+  "title": "AI-First OER Panel Interest Venn",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Interactive Venn diagram of the interests shared by the panelists and host of the proposed panel 'What would an AI-first OER infrastructure look like?'",
+  "date": "2026-10-30",
+  "educational": {
+    "gradeLevel": ["Adult"],
+    "subjectArea": "Other",
+    "topic": "AI-first OER infrastructure panel",
+    "learningObjectives": ["The learner will analyze where the speakers' interests overlap and write a panel question that draws on a shared interest."],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10 minutes",
+    "prerequisites": [],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {"width": "responsive", "height": 660},
+    "responsive": true
+  }
+}
