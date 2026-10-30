@@ -1,8 +1,12 @@
+---
+hide:
+    toc
+---
 # OER Evaluator Stories
 
 Short, lighthearted graphic-novel stories that help OER evangelists, librarians, and faculty remember how to evaluate open educational resources, with and without AI agents.
 
-The [Story Ideas](story-ideas.md) page lists 29 planned stories. The six stories below have illustrated covers and complete panel artwork. The [Cast and Style Sheet](cast-sheet.md) keeps the characters looking the same from story to story.
+The [Story Ideas](story-ideas.md) page lists 29 planned stories. All seven stories below have illustrated covers and complete panel artwork. The [Cast and Style Sheet](cast-sheet.md) keeps the characters looking the same from story to story.
 
 ## Stories
 
@@ -15,6 +19,14 @@ The [Story Ideas](story-ideas.md) page lists 29 planned stories. The six stories
     A county-fair hotdish contest shows why a great resource that nobody can reuse, and a perfectly portable bad one, both need work.
 
     *Chapters 1 and 3*
+
+-   ### [The Orphan MicroSim](orphan-microsim/index.md)
+
+    [![Cover of The Orphan MicroSim](orphan-microsim/cover.png){ loading=lazy }](orphan-microsim/index.md)
+
+    A superb slope simulation sits in a folder called untitled-3 until a librarian fills in six fields and a stranger finds it in four seconds.
+
+    *Chapter 9*
 
 -   ### [The Floor Beneath the Total](floor-beneath-the-total/index.md)
 
