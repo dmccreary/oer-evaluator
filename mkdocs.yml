@@ -348,7 +348,7 @@ extra:
   textbook_name: 'OER Evaluator'
   textbook_version: '0.1'
 
-  # Google Analytics — uncomment once a property ID exists:
-  # analytics:
-  #   provider: google
-  #   property: G-XXXXXXXXXX
+  # Google Analytics (GA4) G-6HXPJDQB43
+  analytics:
+    provider: google
+    property: G-6HXPJDQB43
