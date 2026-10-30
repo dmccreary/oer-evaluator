@@ -11,7 +11,7 @@ status: built
 
 # AI-First OER Panel Interest Venn
 
-<iframe src="main.html" height="662px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="692px" width="100%" scrolling="no"></iframe>
 
 [Run the AI-First OER Panel Venn MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 [Send Feedback](https://github.com/dmccreary/oer-evaluator/issues/new?title=AI-First%20OER%20Panel%20Venn%20feedback){ .md-button }
@@ -20,7 +20,7 @@ You can add this MicroSim to any web page with this `iframe`:
 
 ```html
 <iframe src="https://dmccreary.github.io/oer-evaluator/sims/ai-first-oer-panel-venn/main.html"
-        height="662px"
+        height="692px"
         width="100%"
         scrolling="no"></iframe>
 ```

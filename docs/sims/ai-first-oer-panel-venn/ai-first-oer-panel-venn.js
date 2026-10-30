@@ -1,5 +1,5 @@
 // AI-First OER Panel Interest Venn MicroSim (p5.js)
-// CANVAS_HEIGHT: 660
+// CANVAS_HEIGHT: 690
 // Four translucent circles, one per panelist plus the host. Gold labels mark interests
 // all four share. Hover any label to see who shares it. Interests come from public pages
 // and email; see index.md Sources. Edit the PEOPLE and REGIONS blocks to update.
@@ -26,7 +26,7 @@ const REGIONS = [
   { who: 'L', labels: ['LibreTexts founder', 'Chemistry', 'ADAPT homework'] }
 ];
 
-const DRAW_H = 600, CTRL_H = 60;
+const DRAW_H = 630, CTRL_H = 60;
 let W = 800, items = [], hovered = null;
 
 function setup() {
@@ -71,6 +71,20 @@ function draw() {
     fill(p.col[0], p.col[1], p.col[2], 50); stroke(p.col[0], p.col[1], p.col[2]); strokeWeight(2);
     circle(x, y, 2 * g.r);
   }
+  // names on the outer edge of each circle
+  textStyle(BOLD); textSize(16 * max(g.s, 0.8)); noStroke();
+  for (const p of PEOPLE) {
+    const [x, y] = g.ctr[p.key];
+    const top = p.key === 'D' || p.key === 'W';
+    const left = p.key === 'D' || p.key === 'L';
+    const t = p.name + (p.key === 'L' ? ' (host)' : '');
+    const tw = textWidth(t);
+    let nx = x + (left ? -1 : 1) * g.r * 0.45;
+    nx = constrain(nx, tw / 2 + 6, W - tw / 2 - 6);
+    const ny = y + (top ? -1 : 1) * (g.r + 14 * max(g.s, 0.8));
+    fill(p.col[0] * 0.75, p.col[1] * 0.75, p.col[2] * 0.75);
+    textAlign(CENTER, CENTER); text(t, nx, ny);
+  }
   textStyle(NORMAL);
   items = []; hovered = null;
   const ts = 12.5 * max(g.s, 0.75);
@@ -100,14 +114,8 @@ function draw() {
     const names = PEOPLE.filter(p => hovered.who.includes(p.key)).map(p => p.name);
     text('"' + hovered.lab + '" is shared by: ' + names.join(', '), 12, DRAW_H + CTRL_H / 2);
   } else {
-    let x = 12;
-    for (const p of PEOPLE) {
-      fill(p.col[0], p.col[1], p.col[2]); rect(x, DRAW_H + 10, 14, 14, 3);
-      fill(30); const t = p.name + (p.key === 'L' ? ' (host)' : '');
-      text(t, x + 20, DRAW_H + 17); x += textWidth(t) + 40;
-    }
-    fill(255, 215, 0); rect(12, DRAW_H + 34, 14, 14, 3);
-    fill(30); text('Gold = shared by all four. Hover any label to see who shares it.', 32, DRAW_H + 41);
+    fill(255, 215, 0); rect(12, DRAW_H + 23, 14, 14, 3);
+    fill(30); text('Gold = shared by all four. Hover any label to see who shares it.', 32, DRAW_H + 30);
   }
 }
 
