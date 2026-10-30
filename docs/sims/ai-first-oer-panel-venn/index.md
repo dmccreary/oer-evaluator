@@ -35,7 +35,8 @@ The interests are a first draft drawn from public pages and the panel invitation
 
 ### How to Use
 
-- **Hover a label** to see, in the bar at the bottom, the names of everyone who shares that interest.
+- **Hover a label** to open an infobox with a short definition of the term, the names of everyone who shares it, and a link to the term in the [Glossary](../../glossary.md).
+- **Click a label** to pin the infobox so you can follow the glossary link. Click it again, or click empty space, to close it.
 - **Read from the center out.** The center holds what everyone shares. The regions where two circles meet hold interests shared by two people, and the outer parts hold interests unique to one person.
 - The diagram resizes to fit the width of the window.
 

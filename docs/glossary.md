@@ -65,6 +65,14 @@ It is one of the five quality metrics. Evidence includes checked facts, the qual
 
 *See also:* Factual Error, Fact Checking
 
+#### ADAPT Homework System
+
+The open online homework and assessment system run by LibreTexts, in which instructors build, share, and automatically grade problem sets.
+
+It shows how an OER platform can supply practice and feedback as well as reading material.
+
+*See also:* LibreTexts
+
 #### Adopt Revise or Reject
 
 The three decisions a review can lead to: use the resource now, improve it first, or set it aside, chosen by applying the adoption threshold to its scores.
@@ -214,6 +222,22 @@ Cost shapes how many resources a department can score with agents, and prices ch
 **Example:** A batch of fifty chapters costs more than a single chapter because it processes far more tokens.
 
 *See also:* Token, Batch Evaluation
+
+#### AI Literacy
+
+The knowledge and skills a person needs to understand what AI tools can and cannot do, to use them well, and to judge their outputs and risks.
+
+Reviewers who use AI agents to score OER need it to catch an agent's errors.
+
+*See also:* AI Agent, Generative AI
+
+#### AI-First OER
+
+An open educational resource whose source files, metadata, and structure are designed from the start so that AI tools can generate, adapt, evaluate, and personalize it.
+
+This is a working concept from current OER discussions, not a settled standard. Editable source files and open licenses are its preconditions.
+
+*See also:* OER Infrastructure, Generative AI
 
 #### Alignment Metric
 
@@ -589,6 +613,14 @@ A structure that breaks the order makes readers meet a term before it is defined
 
 *See also:* Concept Dependency, Learning Graph
 
+#### Chemistry
+
+The science of the composition, structure, properties, and reactions of matter.
+
+Chemistry is one of the subjects with the largest collections of open textbooks.
+
+*See also:* Open Textbook
+
 #### Citation Quality
 
 The degree to which a resource's references are real, complete, relevant to the claims they support, and drawn from credible sources.
@@ -632,6 +664,14 @@ An IMS Global (1EdTech) standard file format that packages course content, such 
 Exporting to it is a sign of portability. The OER Evaluator notes whether a resource offers it.
 
 **Example:** A teacher exports a unit as a Common Cartridge file from one system and imports it into another.
+
+#### Community College
+
+A public two-year college that offers associate degrees, certificates, and courses that transfer to four-year schools, usually with open admission.
+
+Community colleges are among the largest adopters of OER and zero textbook cost courses.
+
+*See also:* Zero Textbook Cost Course
 
 #### Community Contribution
 
@@ -1125,6 +1165,14 @@ Free to read is not the same as open. The OER Evaluator checks the legal terms a
 
 *See also:* Open Educational Resource, All Rights Reserved
 
+#### Generative AI
+
+A type of AI model that produces new text, images, code, or other content in response to a prompt, based on patterns learned from training data.
+
+Generative AI can draft and revise OER quickly, so its output needs the same evaluation as any other resource.
+
+*See also:* Large Language Model, AI-First OER
+
 #### Git
 
 A free, open-source version control tool that tracks changes to files in a project and lets many people work on copies and merge their changes.
@@ -1369,6 +1417,14 @@ Words or short phrases attached to a resource that capture its main topics and h
 
 Good keywords match the words a teacher would type into a search box.
 
+#### Knowledge Graph
+
+A data structure that represents entities as nodes and the relationships between them as labeled edges, so that both can be queried.
+
+A learning graph is a knowledge graph of concepts and their dependencies.
+
+*See also:* Learning Graph
+
 #### Large Language Model
 
 A machine-learning system trained on very large amounts of text to predict and generate language, so that it can answer questions, summarize, and write.
@@ -1418,6 +1474,14 @@ Outcomes are what the alignment metric measures a resource against. Their wordin
 **Example:** "Students will evaluate an open resource using a ten-metric rubric."
 
 *See also:* Learning Objective, Measurable Verb
+
+#### LibreTexts
+
+A nonprofit open education project, founded by Delmar Larsen at the University of California, Davis, that hosts openly licensed textbooks and the tools to write and remix them.
+
+It is one of the largest platforms for finding and adapting open textbooks.
+
+*See also:* Open Textbook, ADAPT Homework System
 
 #### License Clarity
 
@@ -1574,6 +1638,14 @@ LTI lets a hosted simulation run within a course page and, in some cases, send s
 **Example:** A simulation hosted elsewhere opens inside a course module.
 
 *See also:* LMS Import, Platform Lock-In
+
+#### Lumen Learning
+
+A company, co-founded by David Wiley, that builds courseware for college courses from open educational resources.
+
+It is an example of a business model built on top of OER.
+
+*See also:* The 5R Permissions, OER Efficacy Research
 
 #### Machine-Readable Metadata
 
@@ -1798,6 +1870,22 @@ A listing makes a resource easier to discover, though each catalog has its own s
 The act of authoring a new teaching or learning material from scratch and releasing it for others to retain, reuse, revise, remix, and redistribute.
 
 Creation is the most labor-intensive route to OER. Applying the rubric while writing helps avoid fixing the same problems later.
+
+#### OER Efficacy Research
+
+Research that measures whether using open educational resources changes student outcomes, such as grades, course completion, or cost, compared with commercial materials.
+
+It provides the evidence for adopting OER on grounds of learning as well as cost.
+
+*See also:* A/B Test, Course Material Affordability
+
+#### OER Infrastructure
+
+The shared platforms, tools, standards, and services used to write, store, find, adapt, deliver, and evaluate open educational resources.
+
+Good infrastructure makes the editable source files and metadata the rubric checks easy to provide.
+
+*See also:* AI-First OER, LibreTexts
 
 #### OER Quality
 
@@ -2994,6 +3082,14 @@ A good agenda orders the sessions so that each one prepares the next.
 **Example:** A one-day agenda that moves from the rubric to calibration, then to checking the agent, then to improvement.
 
 *See also:* Teacher Training Workshop, Facilitator Guide
+
+#### Writing and Rhetoric
+
+The academic field that studies and teaches how writers compose texts for a particular audience and purpose.
+
+Writing courses are common early adopters of open textbooks and open pedagogy.
+
+*See also:* Open Pedagogy
 
 #### Zero Textbook Cost Course
 
