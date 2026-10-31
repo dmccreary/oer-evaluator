@@ -32,7 +32,7 @@ Review of 14 OER rubrics (Yuan and Recker 2015): 5 no scale, 3 detailed scoring 
 |----------|------|--------|
 | Yuan and Recker counts | cited data | irrodl article text (verified in the article, not only the book's spec) |
 | 10 textbook scores | AI-agent case studies, two passes | `figures/public-oer-scores.csv` (three chapters), `public-oer-scores-onechapter.csv`, `public-oer-chapters.csv`; agents' evidence recorded per metric |
-| 101-book census | scripted checks | `figures/census-book-checks.csv`; oer-evaluator skill v0.1 |
+| 101-book census | scripted checks on MkDocs book projects chosen by file layout (160 folders, 143 with mkdocs.yml, 111 with docs/chapters, 101 with at least 5 entries); each updated first with `git pull --ff-only` (76 current, 6 updated, 19 refused); 40 dirty, 5 with unmerged files | `figures/census-book-checks.csv`, `census-book-versions.csv`, `census-pull-log.csv`; code in `src/census/` |
 | Cost: tokens, seconds | measured | agent harness usage reports |
 
 ## Run log (time, tokens, disk) -- requested by the author

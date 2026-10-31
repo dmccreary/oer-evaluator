@@ -35,7 +35,8 @@ src/
 │   ├── common.py                shared helpers and version numbers
 │   └── selftest.py              62 self-checks on a small synthetic book
 └── census/
-    ├── run_census.py            runs `inspect` over every textbook found under a folder
+    ├── pull_books.py            brings every candidate book repository up to date (git pull --ff-only)
+    ├── run_census.py            runs `inspect` over every book project found under a folder
     └── summarize_census.py      prints the census statistics and writes the per-book CSV
 ```
 
@@ -168,11 +169,40 @@ This reproduces the census reported in the paper.
 
 ### Step 1: choose a folder that contains your book folders
 
-The runner treats every direct subfolder of `--root` as a candidate book. A folder counts as a
-textbook when it has `mkdocs.yml` and a `docs/chapters/` folder with at least `--min-chapters`
-entries (default 5). Under `~/Documents/ws` that finds 101 books.
+The runner treats every direct subfolder of `--root` as a candidate book. A folder is selected
+when it has `mkdocs.yml` and a `docs/chapters/` folder with at least `--min-chapters` entries
+(default 5). Under `~/Documents/ws` that is a funnel of 160 top-level folders, 143 with
+`mkdocs.yml`, 111 that also have `docs/chapters/`, and 101 with at least five entries there.
 
-### Step 2: run the inspection over all of them
+**The rule looks only at file layout, not content.** The 101 are therefore "MkDocs book
+projects", not all textbooks: they include tooling and documentation repositories and the
+`oer-evaluator` book itself. The threshold of 5 is a choice made to skip scaffolds; with
+`--min-chapters 1` the census would include 111 books.
+
+### Step 2: update every book to its latest version
+
+```bash
+python3 src/census/pull_books.py --root ~/Documents/ws --out pull-log.csv --jobs 4
+```
+
+This runs `git pull --ff-only` in each of the 111 candidate repositories (30 seconds with four
+jobs). `--ff-only` only ever fast-forwards: it never merges, rebases or creates a worktree, so
+it cannot damage your work. A repository that cannot be fast-forwarded is reported and left
+exactly as it was. `pull-log.csv` records, for each book, the branch, the commit before and
+after, whether the working tree had uncommitted changes, and one of these outcomes:
+
+| Outcome | Meaning |
+|---|---|
+| `up to date` | Nothing to pull. |
+| `updated` | Fast-forwarded to the remote's latest commit. |
+| `refused` | Not changed. Typical reasons: your local history has diverged from the remote, a merge conflict is already unresolved, or local edits would be overwritten. Resolve these yourself if you want the latest remote version. |
+| `no upstream branch`, `timeout`, `not a git repository` | Not pulled; reason shown. |
+
+On 31 October 2026 the 101 census books came out as 76 up to date, 6 updated and 19 refused
+(11 diverged, 5 with unresolved conflicts, 3 with local edits in the way). Refused books are
+inspected as they stand locally.
+
+### Step 3: run the inspection over all of them
 
 ```bash
 python3 src/census/run_census.py --root ~/Documents/ws --out ~/oer-census --jobs 4
@@ -181,16 +211,18 @@ python3 src/census/run_census.py --root ~/Documents/ws --out ~/oer-census --jobs
 For each book it runs the `inspect` command of section 3 with a time limit
 (`--limit-seconds`, default 150) and writes `~/oer-census/<book>/inspect.json` and
 `~/oer-census/<book>.log`. It finishes with an index, `~/oer-census/census-index.json`
-(books run, failures, seconds), and prints a line like:
+(books run, failures, seconds, and for every book its git commit `head`, whether its working
+tree was `dirty` and whether it had `unmerged` files), and prints a line like:
 
 ```
 Done: 101 ok, 0 failed, 51.5 s total
 ```
 
-With `--jobs 4` the 101 books took 51.5 seconds on the author's laptop. The census output takes
+The checks read the **working tree**, not a commit, so a book with uncommitted edits is
+inspected with those edits; the `dirty` flag in the index tells you which. With `--jobs 4` the 101 books took 51.5 seconds on the author's laptop. The census output takes
 about 114 MB. Use `--only name1 name2` to rerun a few books.
 
-### Step 3: summarize
+### Step 4: summarize
 
 ```bash
 python3 src/census/summarize_census.py ~/oer-census --csv census-book-checks.csv
@@ -201,11 +233,12 @@ count for each check, the share of internal links that resolve (check P11) and t
 components by type. With `--csv` it also writes the per-book table used for the histogram
 figure in the paper.
 
-### Step 4: compare with the paper
+### Step 5: compare with the paper
 
 On the author's workspace the summary reads: 101 books; mean 6.4, median 6 of 13 checks passed;
-32 books pass five or fewer; 1 passes ten; no book passes P11 (median 97.8 percent of internal
-links resolve); 15,851 components. The CSV matches
+32 books pass five or fewer; 1 passes ten; no book passes P11 (median 97.9 percent of internal
+links resolve); 15,960 components. Of the 101, 40 had uncommitted edits and 5 had unresolved
+merge conflicts when inspected. The CSV matches
 `papers/openbook-qr-score/figures/census-book-checks.csv` line for line when the books have not
 changed. Books that you edit after the census will, of course, give different numbers.
 

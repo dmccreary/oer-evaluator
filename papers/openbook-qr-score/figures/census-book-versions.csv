@@ -1,0 +1,102 @@
+book,git_head,dirty_working_tree,unmerged_files,pull_status
+3d-printing-course,72ae887,no,no,up to date
+Dementia,50cb9cf8,yes,no,refused
+Digital-Transformation-with-AI-Spring-2026,384bb61,yes,no,refused
+ai-for-ee-research,4f41dfa,no,no,up to date
+ai-persona-testing,29185e0,no,no,up to date
+ai-strategy-for-education,5368f5c,no,no,up to date
+algebra-1,bde0bb5,no,no,up to date
+ancient-history,aebab05,no,no,up to date
+asl-book,6d401e9,no,no,up to date
+atam,f08e09d,yes,no,refused
+automating-instructional-design,c1aa856,yes,no,refused
+beginning-electronics,46d1a55,no,no,up to date
+bioinformatics,007d2a2,no,no,up to date
+biology,9dad09d,no,no,up to date
+blockchain,336ff69,no,no,up to date
+business,ee85a82,no,no,up to date
+calculus,0161d11,no,no,up to date
+challenger-selling,15edf74,yes,no,up to date
+chemistry,991fb4c,no,no,up to date
+circuits,c06e6d53,no,no,up to date
+clocks-and-watches,4c987cd8,no,no,updated
+coding-club,557735c,yes,no,updated
+computer-science,c5d6320,yes,yes,refused
+context-graph,f4059e0,no,no,up to date
+control-systems,054f0d8,no,no,refused
+conversational-ai,4eba036,yes,no,refused
+cybersecurity,ad1a473,yes,no,up to date
+data-science-course,3777d01,yes,no,up to date
+deep-learning-course,362561c,no,no,up to date
+dgx-eval,a4fdd1c,no,no,up to date
+digital-citizenship,4567783,no,no,up to date
+digital-electronics,04e678d,yes,no,up to date
+ecology,570b9b5,no,no,up to date
+economics-course,effe5ae,yes,yes,refused
+eight-hour-entrepreneur,1d340c6,no,no,up to date
+english-language-arts,a592192,no,no,up to date
+ethics-course,449f6bb,yes,yes,refused
+fft-benchmarking,c30b8c0,no,no,up to date
+fluid-power-systems,f250241,no,no,up to date
+food-science,f191b1e,no,no,up to date
+forensic-science,cae3c61,no,no,up to date
+functions,ed85373,no,no,up to date
+genetics,35d80f9,yes,no,up to date
+geometry-course,24aff42,yes,no,up to date
+graph-data-modeling-course,7cf78a2,yes,no,up to date
+hydroponics,ca9a002,yes,no,up to date
+ibook-skills,23bb0a17,yes,no,up to date
+infographics,6dbcd81,no,no,up to date
+information-systems,383788a,no,no,up to date
+intro-to-graph,7cebf72,yes,no,up to date
+intro-to-physics-course,87fb425,yes,no,refused
+ir-textbook,a140bd6,yes,no,up to date
+it-management-graph,33f14a1,yes,no,up to date
+learning-graphs,34f5b8a,no,no,up to date
+learning-linux,de9564e,yes,no,up to date
+learning-micropython,41b89cef2,no,no,updated
+learning-python,a0f1d1d6,no,no,up to date
+learning-record-store,5c6e7bb,no,no,up to date
+learning-sciences,983ad40,no,no,up to date
+linear-algebra,0077378,yes,no,refused
+microsims,7a8fc98d,no,no,updated
+mini-mba-for-startups,da561be,no,no,up to date
+modeling-healthcare-data,a53eb9b,no,no,up to date
+moss,80a9c1e,no,no,up to date
+moving-rainbow,d27163d0,no,no,up to date
+networking,50391bb,yes,no,up to date
+oer-evaluator,289a2c9,yes,no,up to date
+open-study-buddy,1c4c592,yes,no,up to date
+organizational-analytics,23e2ab0,no,no,up to date
+p5-textbook,2dd1aba,yes,no,up to date
+personal-finance,1a34d1b,yes,no,refused
+pi-env-monitor,510d85d,no,no,updated
+power-generation-and-distribution,7de6081,no,no,up to date
+pre-calc,3903788,yes,no,up to date
+prompt-class,ca96e7d,yes,no,refused
+psychology,19a20fc,no,no,up to date
+public-health,e69df4e,yes,no,refused
+quantum-computing,9b9894b,no,no,up to date
+raspberry-pi-stem,91f6841,yes,no,up to date
+reading-for-kindergarten,4702402,yes,no,up to date
+right-database,30708b8,no,no,up to date
+robot-arm,ca452db,no,no,up to date
+robot-faces,188d30c,yes,no,up to date
+science-of-the-built-environment,3aee1e0,no,no,up to date
+scratch,7d4827c,no,no,up to date
+scratch-textbook,296fa80,yes,no,refused
+search-microsims,10df064,no,no,updated
+semiconductor-physics-course,857bac6,no,no,refused
+signal-processing,5109a56,no,no,up to date
+statistics-course,079b6b0,no,no,up to date
+stem-robots,8a5323e,no,no,up to date
+systems-thinking,77add7d9,yes,no,up to date
+theory-of-knowledge,5bb24fe,no,no,up to date
+token-efficiency,3be2cf6,no,no,refused
+tracking-ai-course,14e0dd3,yes,no,up to date
+unicorns,d01e25a,no,no,up to date
+us-geography,f7e4ef9,yes,yes,refused
+us-government,7d79164,no,no,up to date
+us-history,056b7de,no,no,up to date
+x-marketing-frontier-textbook,e78b558,no,no,up to date
+xapi-course,d29ecd2,yes,yes,refused

@@ -1,0 +1,112 @@
+book,branch,head_before,head_after,dirty,status
+3d-printing-course,main,72ae887,72ae887,no,up to date
+Dementia,main,50cb9cf8,50cb9cf8,yes,"refused: fatal: Not possible to fast-forward, aborting."
+Digital-Transformation-with-AI-Spring-2026,main,384bb61,384bb61,yes,"refused: fatal: Not possible to fast-forward, aborting."
+ai-for-ee-research,main,4f41dfa,4f41dfa,no,up to date
+ai-persona-testing,main,29185e0,29185e0,no,up to date
+ai-strategy-for-education,main,5368f5c,5368f5c,no,up to date
+algebra-1,main,bde0bb5,bde0bb5,no,up to date
+ancient-history,main,aebab05,aebab05,no,up to date
+asl-book,hand-viewer,6d401e9,6d401e9,no,up to date
+atam,main,f08e09d,f08e09d,yes,"refused: fatal: Not possible to fast-forward, aborting."
+automating-instructional-design,main,c1aa856,c1aa856,yes,refused: Aborting
+beginning-electronics,main,46d1a55,46d1a55,no,up to date
+bioinformatics,main,007d2a2,007d2a2,no,up to date
+biology,main,9dad09d,9dad09d,no,up to date
+blockchain,main,336ff69,336ff69,no,up to date
+business,main,ee85a82,ee85a82,no,up to date
+calculus,main,0161d11,0161d11,no,up to date
+challenger-selling,main,15edf74,15edf74,yes,up to date
+chemistry,main,991fb4c,991fb4c,no,up to date
+circuit-simulator,main,fabcc89,fabcc89,no,up to date
+circuits,main,c06e6d53,c06e6d53,no,up to date
+clocks-and-watches,main,4f2d88ae,4c987cd8,no,updated
+coding-club,main,de3b89f,557735c,yes,updated
+computer-science,main,c5d6320,c5d6320,yes,refused: fatal: Exiting because of an unresolved conflict.
+context-graph,main,f4059e0,f4059e0,no,up to date
+control-systems,main,054f0d8,054f0d8,no,"refused: fatal: Not possible to fast-forward, aborting."
+conversational-ai,main,4eba036,4eba036,yes,"refused: fatal: Not possible to fast-forward, aborting."
+cybersecurity,main,ad1a473,ad1a473,yes,up to date
+data-science-course,main,3777d01,3777d01,yes,up to date
+deep-learning-course,main,362561c,362561c,no,up to date
+dgx-eval,main,a4fdd1c,a4fdd1c,no,up to date
+digital-citizenship,main,4567783,4567783,no,up to date
+digital-electronics,main,04e678d,04e678d,yes,up to date
+ecology,main,570b9b5,570b9b5,no,up to date
+economics-course,main,effe5ae,effe5ae,yes,refused: fatal: Exiting because of an unresolved conflict.
+eight-hour-entrepreneur,main,1d340c6,1d340c6,no,up to date
+english-language-arts,main,a592192,a592192,no,up to date
+ethics-course,main,449f6bb,449f6bb,yes,refused: fatal: Exiting because of an unresolved conflict.
+fft-benchmarking,main,c30b8c0,c30b8c0,no,up to date
+fluid-power-systems,main,f250241,f250241,no,up to date
+food-science,main,f191b1e,f191b1e,no,up to date
+forensic-science,main,cae3c61,cae3c61,no,up to date
+functions,main,ed85373,ed85373,no,up to date
+genetics,main,35d80f9,35d80f9,yes,up to date
+geometry-course,main,24aff42,24aff42,yes,up to date
+graph-data-modeling-course,main,7cf78a2,7cf78a2,yes,up to date
+house-maintence,main,fbedf2e,fbedf2e,no,up to date
+hydroponics,main,ca9a002,ca9a002,yes,up to date
+ibook-skills,main,23bb0a17,23bb0a17,yes,up to date
+infographics,main,6dbcd81,6dbcd81,no,up to date
+information-systems,main,383788a,383788a,no,up to date
+intelligent-book-template,main,3ad0237,3ad0237,yes,up to date
+intro-to-graph,main,7cebf72,7cebf72,yes,up to date
+intro-to-physics-course,main,87fb425,87fb425,yes,refused: Aborting
+ir-textbook,add-feature-checklist,a140bd6,a140bd6,yes,up to date
+it-management-graph,main,33f14a1,33f14a1,yes,up to date
+lambda-graph-visualization,main,2ccb002,2ccb002,yes,up to date
+learning-graphs,main,34f5b8a,34f5b8a,no,up to date
+learning-linux,main,de9564e,de9564e,yes,up to date
+learning-micropython,main,dd26726e3,41b89cef2,no,updated
+learning-python,main,a0f1d1d6,a0f1d1d6,no,up to date
+learning-record-store,main,5c6e7bb,5c6e7bb,no,up to date
+learning-sciences,main,983ad40,983ad40,no,up to date
+linear-algebra,main,0077378,0077378,yes,refused: Aborting
+marketing,main,b2be247,b2be247,no,up to date
+marketing-promotion-agents,main,62efaa8,62efaa8,no,up to date
+microsims,main,6e8eb3b9,7a8fc98d,no,updated
+mini-mba-for-startups,main,da561be,da561be,no,up to date
+modeling-healthcare-data,main,a53eb9b,a53eb9b,no,up to date
+moss,main,80a9c1e,80a9c1e,no,up to date
+moving-rainbow,master,d27163d0,d27163d0,no,up to date
+networking,main,50391bb,50391bb,yes,up to date
+oer-evaluator,main,289a2c9,289a2c9,no,up to date
+open-study-buddy,main,1c4c592,1c4c592,yes,up to date
+organizational-analytics,main,23e2ab0,23e2ab0,no,up to date
+p5-textbook,main,2dd1aba,2dd1aba,yes,up to date
+personal-finance,main,1a34d1b,1a34d1b,yes,"refused: fatal: Not possible to fast-forward, aborting."
+personal-financial-plan,main,dc7040d,dc7040d,no,up to date
+pi-env-monitor,main,ea00fd5,510d85d,no,updated
+pkg,main,b65fff8,432a2a9,no,updated
+power-generation-and-distribution,main,7de6081,7de6081,no,up to date
+pre-calc,main,3903788,3903788,yes,up to date
+prompt-class,main,ca96e7d,ca96e7d,yes,"refused: fatal: Not possible to fast-forward, aborting."
+psychology,main,19a20fc,19a20fc,no,up to date
+public-health,main,e69df4e,e69df4e,yes,"refused: fatal: Not possible to fast-forward, aborting."
+quantum-computing,main,9b9894b,9b9894b,no,up to date
+raspberry-pi-stem,main,91f6841,91f6841,yes,up to date
+reading-for-kindergarten,main,4702402,4702402,yes,up to date
+right-database,main,30708b8,30708b8,no,up to date
+robot-arm,main,ca452db,ca452db,no,up to date
+robot-faces,main,188d30c,188d30c,yes,up to date
+science-of-the-built-environment,main,3aee1e0,3aee1e0,no,up to date
+scratch,master,7d4827c,7d4827c,no,up to date
+scratch-textbook,main,296fa80,296fa80,yes,"refused: fatal: Not possible to fast-forward, aborting."
+search-microsims,main,57a42c8,10df064,no,updated
+semiconductor-physics-course,main,857bac6,857bac6,no,"refused: fatal: Not possible to fast-forward, aborting."
+signal-processing,main,5109a56,5109a56,no,up to date
+statistics-course,main,079b6b0,079b6b0,no,up to date
+stem-robots,main,8a5323e,8a5323e,no,up to date
+systems-thinking,main,77add7d9,77add7d9,yes,up to date
+theory-of-knowledge,main,5bb24fe,5bb24fe,no,up to date
+thinking-spot-demos,main,8aedf50,8aedf50,yes,up to date
+token-efficiency,main,3be2cf6,3be2cf6,no,"refused: fatal: Not possible to fast-forward, aborting."
+tracking-ai-course,main,14e0dd3,14e0dd3,yes,up to date
+unicorns,main,d01e25a,d01e25a,no,up to date
+us-geography,main,f7e4ef9,f7e4ef9,yes,refused: fatal: Exiting because of an unresolved conflict.
+us-government,main,7d79164,7d79164,no,up to date
+us-history,main,056b7de,056b7de,no,up to date
+wake-word-detection,main,0aab2a5,0aab2a5,no,up to date
+x-marketing-frontier-textbook,build/x-marketing-frontier,e78b558,e78b558,no,up to date
+xapi-course,main,d29ecd2,d29ecd2,yes,refused: fatal: Exiting because of an unresolved conflict.

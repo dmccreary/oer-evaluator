@@ -7,7 +7,10 @@ This is the code behind the 101-book census in papers/openbook-qr-score. It
      (has mkdocs.yml and a docs/chapters folder with at least --min-chapters entries),
   2. runs `oer_evaluator.py inspect` on each one, with a per-book time limit,
   3. writes one <out>/<book>/inspect.json per book plus <out>/<book>.log,
-  4. writes <out>/census-index.json recording what ran, what failed and how long it took.
+  4. writes <out>/census-index.json recording what ran, what failed, how long it took, and for
+     every book the git commit (`head`), whether its working tree had uncommitted changes
+     (`dirty`) and whether it had unresolved merge conflicts (`unmerged`). The checks read the
+     working tree, so `dirty` books were inspected with their uncommitted edits.
 
 No model and no network are used. The books are never modified.
 
@@ -35,6 +38,19 @@ def find_books(root: Path, min_chapters: int) -> list[Path]:
     return books
 
 
+def git_state(book: Path) -> dict:
+    """Commit and cleanliness of the book's repository, so a census can be tied to exact versions."""
+    def run(*args: str) -> str:
+        r = subprocess.run(["git", "-C", str(book), *args], capture_output=True, text=True)
+        return r.stdout.strip() if r.returncode == 0 else ""
+    head = run("rev-parse", "--short", "HEAD")
+    if not head:
+        return {"head": "", "dirty": "", "unmerged": ""}
+    return {"head": head,
+            "dirty": "yes" if run("status", "--porcelain", "--untracked-files=no") else "no",
+            "unmerged": "yes" if run("diff", "--name-only", "--diff-filter=U") else "no"}
+
+
 def inspect_one(book: Path, out: Path, limit_s: int) -> dict:
     book_out = out / book.name
     log = out / f"{book.name}.log"
@@ -48,7 +64,7 @@ def inspect_one(book: Path, out: Path, limit_s: int) -> dict:
         status = "ok" if proc.returncode == 0 and (book_out / "inspect.json").is_file() else f"exit {proc.returncode}"
     except subprocess.TimeoutExpired:
         status = f"timeout after {limit_s}s"
-    return {"book": book.name, "status": status, "seconds": round(time.time() - started, 2)}
+    return {"book": book.name, "status": status, "seconds": round(time.time() - started, 2), **git_state(book)}
 
 
 def main() -> int:
