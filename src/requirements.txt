@@ -1,0 +1,6 @@
+# The deterministic checks (inspect, report, the census scripts, selftest) use only the
+# Python standard library (Python 3; tested with 3.13). Nothing to install.
+#
+# Optional, only for the findability step (check RJ6), which is not deterministic:
+# numpy
+# sentence-transformers
