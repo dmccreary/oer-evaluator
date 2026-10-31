@@ -1,0 +1,85 @@
+{
+  "title": "OpenBook QR Score Badge",
+  "creator": "Dan McCreary",
+  "subject": "Open Educational Resources",
+  "description": "Build and read an OpenBook QR Score badge, the total out of 100 reported with its quality and reusability halves, and save the badge as a PNG.",
+  "date": "2026-10-31",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Other",
+    "topic": "OpenBook QR Score reporting",
+    "learningObjectives": [
+      "The learner will write the OpenBook QR Score for a resource, in the form QR total (Q quality / R reusability), from ten metric scores, and name which half and which metric hold the total down."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The terms quality subtotal, reusability subtotal, total score, and OpenBook QR Score"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 750
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore examples, then build a target and read the feedback",
+    "keyQuestions": [
+      "What are the three numbers in an OpenBook QR Score?",
+      "Which half holds the total down?",
+      "Is any metric below the floor of 5?"
+    ],
+    "commonMisconceptions": [
+      "The total alone is enough to report a result",
+      "Two resources with the same total need the same fix",
+      "A high total means every metric is acceptable"
+    ],
+    "assessmentOpportunities": [
+      "Write the OpenBook QR Score for a quality subtotal of 32 and a reusability subtotal of 33.",
+      "Two resources both total 65. Which is held back by reuse, Q 44 / R 21 or Q 32 / R 33?",
+      "What does a dashed module with a ! mean on the badge?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Example resource menu",
+      "type": "select",
+      "description": "loads one of six illustrative resources"
+    },
+    {
+      "name": "Ten sliders",
+      "type": "slider",
+      "description": "set each metric score from 0 to 10 in whole points"
+    },
+    {
+      "name": "Show scores on badge",
+      "type": "checkbox",
+      "description": "shows or hides the number on each module"
+    },
+    {
+      "name": "Save badge PNG",
+      "type": "button",
+      "description": "downloads the badge as an image"
+    },
+    {
+      "name": "Build challenge",
+      "type": "button",
+      "description": "switches to three target badges to build and check"
+    }
+  ],
+  "chapter": "03-ten-metric-rubric-scoring"
+}

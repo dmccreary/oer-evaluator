@@ -254,7 +254,7 @@ The five cases (all made up, for Watershed Basics):
 | Revise | Total >= 50, and the Adopt rule is not met | Improve the resource, or use it with the known gaps, then review again |
 | Reject | Total < 50 | Look for another resource |
 
-The rule has sharp edges, and a reviewer should know them. A total of exactly 75 with every metric at 5 or above is an Adopt. A total of 74 is a Revise, however close it looks. A total of 88 with one metric at 4 is a Revise, because the floor catches a failed metric that a high total hides. A total of exactly 50 is a Revise, and 49 is a Reject.
+The rule has sharp edges, and a reviewer should know them. A total of exactly 75 with every metric at 5 or above is an Adopt. A total of 74 is a Revise, however close it looks. A total of 88 with one metric at 4 is a Revise, because the floor catches a failed metric that a high total hides. A total of exactly 50 is a Revise, and 49 is a Reject. Write the result as the OpenBook QR Score followed by the decision, for example "QR 65 (Q 32 / R 33): Revise", so a reader sees both halves and the outcome in one line.
 
 The third MicroSim practices the edges. It shows six scored resources, and for each one you apply the rule to choose the decision.
 
@@ -326,7 +326,7 @@ An **adoption recommendation** is the reviewer's written advice to the decision-
 
 ## Key Takeaways
 
-- **Manual evaluation** is a full human review: ten scores, evidence, subtotals, a total, and a decision. Doing it by hand first gives you the standard for checking an AI agent later.
+- **Manual evaluation** is a full human review: ten scores, evidence, subtotals, a total reported as an OpenBook QR Score, and a decision. Doing it by hand first gives you the standard for checking an AI agent later.
 - A **review workflow** of nine steps keeps reviews comparable. **Evidence recording** keeps every score checkable, and **reviewer notes** hold leads that are not yet evidence.
 - A **calibration session** has reviewers score the same samples and discuss the differences. **Reviewer training** prepares a new reviewer for real reviews.
 - **Consensus scoring** settles on one score per metric by evidence, never by averaging. **Score reconciliation** repeats the check behind each flagged metric and chooses the score the evidence supports.

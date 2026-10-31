@@ -2,7 +2,7 @@
 
 ## Overview
 
-- **Total Concepts**: 351
+- **Total Concepts**: 352
 - **Number of Taxonomies**: 14
 - **Average Concepts per Taxonomy**: 25.1
 
@@ -14,14 +14,14 @@
 | Accessibility and Practice Metrics | APM | 40 | 11.4% | ✅ |
 | Improving Resources | IMP | 32 | 9.1% | ✅ |
 | AI Agents and Prompts | AIA | 31 | 8.8% | ✅ |
-| A/B Testing with Students | ABT | 29 | 8.3% | ✅ |
-| Rubric and Scoring | RUB | 25 | 7.1% | ✅ |
+| A/B Testing with Students | ABT | 29 | 8.2% | ✅ |
+| Rubric and Scoring | RUB | 26 | 7.4% | ✅ |
 | Editable Source and Portability | SRP | 25 | 7.1% | ✅ |
-| Open Licensing | LIC | 23 | 6.6% | ✅ |
-| Modularity and Metadata | MDM | 23 | 6.6% | ✅ |
-| Checking Agent Output | CHK | 22 | 6.3% | ✅ |
+| Open Licensing | LIC | 23 | 6.5% | ✅ |
+| Modularity and Metadata | MDM | 23 | 6.5% | ✅ |
+| Checking Agent Output | CHK | 22 | 6.2% | ✅ |
 | OER Foundations | OERF | 21 | 6.0% | ✅ |
-| Training and Certification | TRN | 16 | 4.6% | ✅ |
+| Training and Certification | TRN | 16 | 4.5% | ✅ |
 | Publishing and Sharing | PUB | 13 | 3.7% | ✅ |
 | Manual Evaluation | MANU | 11 | 3.1% | ✅ |
 
@@ -32,14 +32,14 @@ Content Quality Metrics   █████  40 ( 11.4%)
 Accessibility and Practic █████  40 ( 11.4%)
 Improving Resources       ████  32 (  9.1%)
 AI Agents and Prompts     ████  31 (  8.8%)
-A/B Testing with Students ████  29 (  8.3%)
-Rubric and Scoring        ███  25 (  7.1%)
+A/B Testing with Students ████  29 (  8.2%)
+Rubric and Scoring        ███  26 (  7.4%)
 Editable Source and Porta ███  25 (  7.1%)
-Open Licensing            ███  23 (  6.6%)
-Modularity and Metadata   ███  23 (  6.6%)
-Checking Agent Output     ███  22 (  6.3%)
+Open Licensing            ███  23 (  6.5%)
+Modularity and Metadata   ███  23 (  6.5%)
+Checking Agent Output     ███  22 (  6.2%)
 OER Foundations           ██  21 (  6.0%)
-Training and Certificatio ██  16 (  4.6%)
+Training and Certificatio ██  16 (  4.5%)
 Publishing and Sharing    █  13 (  3.7%)
 Manual Evaluation         █  11 (  3.1%)
 ```
@@ -146,7 +146,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### A/B Testing with Students (ABT)
 
-**Count**: 29 concepts (8.3%)
+**Count**: 29 concepts (8.2%)
 
 **Concepts**:
 
@@ -169,7 +169,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Rubric and Scoring (RUB)
 
-**Count**: 25 concepts (7.1%)
+**Count**: 26 concepts (7.4%)
 
 **Concepts**:
 
@@ -188,7 +188,7 @@ All categories are under the 30% threshold. Good balance!
 - 57. Reusability Subtotal
 - 58. Total Score
 - 59. Score Band
-- *...and 10 more*
+- *...and 11 more*
 
 ### Editable Source and Portability (SRP)
 
@@ -215,7 +215,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Open Licensing (LIC)
 
-**Count**: 23 concepts (6.6%)
+**Count**: 23 concepts (6.5%)
 
 **Concepts**:
 
@@ -238,7 +238,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Modularity and Metadata (MDM)
 
-**Count**: 23 concepts (6.6%)
+**Count**: 23 concepts (6.5%)
 
 **Concepts**:
 
@@ -261,7 +261,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Checking Agent Output (CHK)
 
-**Count**: 22 concepts (6.3%)
+**Count**: 22 concepts (6.2%)
 
 **Concepts**:
 
@@ -307,7 +307,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Training and Certification (TRN)
 
-**Count**: 16 concepts (4.6%)
+**Count**: 16 concepts (4.5%)
 
 **Concepts**:
 
@@ -368,7 +368,7 @@ All categories are under the 30% threshold. Good balance!
 
 ## Recommendations
 
-- ✅ **Excellent balance**: Categories are evenly distributed (spread: 8.3%)
+- ✅ **Excellent balance**: Categories are evenly distributed (spread: 8.2%)
 - ✅ **MISC category minimal**: Good categorization specificity
 
 ### Educational Use Recommendations

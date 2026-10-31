@@ -918,7 +918,7 @@ Agents suit some metrics better than others. Metrics built on exact checks, such
 
 ### Agent Evaluation Report
 
-An **agent evaluation report** is the document an agent produces from a scoring run. It should contain, for each of the ten metrics, the score, the checks with their results, and the evidence for each; the subtotals, the total, and the band; a list of checks the agent could not verify; a short recommendation; and a note on its limits. It should also record how it was made: the agent and model used, the date of the run, and the version of the prompt. A report without a record of its own origin cannot be repeated or compared with a later one.
+An **agent evaluation report** is the document an agent produces from a scoring run. It should contain, for each of the ten metrics, the score, the checks with their results, and the evidence for each; the OpenBook QR Score (the total with both subtotals) and the band; a list of checks the agent could not verify; a short recommendation; and a note on its limits. It should also record how it was made: the agent and model used, the date of the run, and the version of the prompt. A report without a record of its own origin cannot be repeated or compared with a later one.
 
 The MicroSim below shows the parts of a report as an illustration. Eight numbered markers point to the parts that a reviewer looks for.
 
@@ -952,7 +952,7 @@ The illustration is a text-free flat drawing of an evaluation report page. At th
 | 2 | Metric score | The small numbered square in each table row. | The whole-number score from 0 to 10 for one metric. | Count the passes in the evidence and see whether the score follows. |
 | 3 | Evidence | The long bar with a small link icon in each row. | The checks, results, and quotations that support the score. | Verify at least one piece of evidence in each metric yourself. |
 | 4 | Not-checkable flag | A small flag icon at the right of some rows. | Marks a check the agent could not verify from the text. | Follow up on every flag, and do not treat a flag as a pass. |
-| 5 | Totals box | The box with three rows at the bottom left. | The quality subtotal, the reusability subtotal, and the total. | Recompute the sums from the ten scores. |
+| 5 | Totals box | The box with three rows at the bottom left. | The quality subtotal, the reusability subtotal, and the total, which together make the OpenBook QR Score. | Recompute the sums from the ten scores. |
 | 6 | Recommendation | The wider box with a thumbs-up icon at the bottom center. | The agent's adopt, revise, or reject advice, with reasons. | Apply the adoption threshold yourself before accepting it. |
 | 7 | Limitations | The box with a question-mark icon at the bottom right. | What the agent could not see or test, and what it assumed. | Treat each limitation as a check for a person to do. |
 | 8 | Run record | The thin strip with a clock icon and a short tag along the bottom. | Records the model, the date, and the prompt version. | Keep it, since a later run cannot be compared without it. |

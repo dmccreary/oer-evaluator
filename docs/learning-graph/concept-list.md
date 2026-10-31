@@ -364,3 +364,4 @@ concept later costs far more than changing it now.
 349. Training Kit
 350. Capstone Project
 351. Professional Development
+352. OpenBook QR Score

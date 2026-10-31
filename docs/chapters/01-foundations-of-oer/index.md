@@ -19,16 +19,16 @@ This chapter covers the following 21 concepts from the learning graph:
 
 | Concept | Concept Impact Score |
 |---------|-----------------------|
-| Educational Resource | 10324 |
-| Open Educational Resource | 10300 |
+| Educational Resource | 10346 |
+| Open Educational Resource | 10322 |
 | Open Textbook | 1 |
-| Copyright | 2873 |
+| Copyright | 2879 |
 | Public Domain | 2 |
 | Free Resource | 1 |
 | Commercial Textbook | 21 |
 | Course Material Affordability | 20 |
 | Zero Textbook Cost Course | 1 |
-| The 5R Permissions | 2549 |
+| The 5R Permissions | 2555 |
 | Retain Permission | 1 |
 | Reuse Permission | 1 |
 | Revise Permission | 19 |
@@ -62,7 +62,7 @@ This chapter assumes only the prerequisites listed in the [course description](.
 
 Every teacher has handed out a worksheet, assigned a reading, or played a video. Each one is an educational resource, and each comes with rules about what you may do with it: copy it, change it, share it. Most teachers learn those rules by accident, usually when a request is refused or a link breaks.
 
-This chapter replaces accident with vocabulary. You will learn what makes a resource *open*, which five things an open resource lets you do, and the three ways teachers put open resources to work. Every later chapter relies on these terms, because the book's rubric scores a resource on two things at once: how well it teaches and how freely it can be reused.
+This chapter replaces accident with vocabulary. You will learn what makes a resource *open*, which five things an open resource lets you do, and the three ways teachers put open resources to work. Every later chapter relies on these terms, because the book's rubric scores a resource on two things at once: how well it teaches and how freely it can be reused. The result is reported as an **OpenBook QR Score**, in which Q stands for quality and R for reusability, and Chapter 3 defines it.
 
 ## Educational Resources: Everything You Teach With
 

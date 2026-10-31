@@ -24,7 +24,7 @@ checklists reach different conclusions.
 
 This book teaches a repeatable method. You score a resource on **10 metrics
 worth 10 points each**, five for quality and five for reusability, for a total
-of 100 points. You learn to score by hand, direct an AI agent to make the first
+of 100 points. The result is the **OpenBook QR Score**, the total with its quality (Q) and reusability (R) halves, such as QR 65 (Q 32 / R 33). You learn to score by hand, direct an AI agent to make the first
 pass, check the agent's evidence, improve the resource, and test whether the
 change helped with real students.
 

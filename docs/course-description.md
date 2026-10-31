@@ -16,7 +16,7 @@ quality_score: 98
 
 Open educational resources (OER) are teaching and learning materials that carry an open license, so anyone can retain, reuse, revise, remix, and redistribute them. Finding OER is easy. Knowing whether a resource is good, and whether it can actually be reused in another course, is hard. A careful manual review of one textbook can take hours, and reviewers working from different checklists reach different conclusions.
 
-This course teaches a repeatable method for judging an OER on 10 metrics worth 10 points each: five for **quality** and five for **reusability**. The quality metrics are accuracy and currency, alignment to learning outcomes, readability, accessibility, and practice with feedback. The reusability metrics are open license, modularity, metadata, editable source, and portability. Readers learn to score a resource by hand, then to direct an AI agent to make the first pass, check the agent's evidence, and decide which findings to accept, correct, or reject. Readers also learn the limits of agent scoring: invented citations, misread licenses, and overconfident scores.
+This course teaches a repeatable method for judging an OER on 10 metrics worth 10 points each: five for **quality** and five for **reusability**. The quality metrics are accuracy and currency, alignment to learning outcomes, readability, accessibility, and practice with feedback. The reusability metrics are open license, modularity, metadata, editable source, and portability. The result is the **OpenBook QR Score**: a total out of 100, reported with its quality (Q) and reusability (R) halves in the form QR 65 (Q 32 / R 33). Readers learn to score a resource by hand, then to direct an AI agent to make the first pass, check the agent's evidence, and decide which findings to accept, correct, or reject. Readers also learn the limits of agent scoring: invented citations, misread licenses, and overconfident scores.
 
 The course then turns evaluation into improvement. Readers use AI agents to raise a resource's score by adding alt text, splitting a long chapter into reusable modules, writing metadata, generating practice questions, and building interactive simulations (MicroSims). Finally, readers learn to test whether a change helped. The main method is a manual A/B test with students, in which one group uses the original resource and another uses the improved version and the results are compared. Those results are then used to check and calibrate the automated scores, which is how AI skills for automated assessment of OER textbooks are validated.
 
@@ -26,6 +26,7 @@ The course then turns evaluation into improvement. Readers use AI agents to rais
 - Open licenses: the Creative Commons family, license compatibility, and attribution
 - Why OER quality varies and what quality means for a learner
 - The 10-metric rubric: scoring scales, evidence, and the 100-point total
+- The OpenBook QR Score: reporting a resource's total with its quality and reusability subtotals, such as QR 65 (Q 32 / R 33)
 - Quality metrics: accuracy and currency, alignment to learning outcomes, readability, accessibility, and practice with feedback
 - Reusability metrics: open license, modularity, metadata, editable source, and portability
 - Manual evaluation: scoring a resource by hand and recording evidence
@@ -60,6 +61,7 @@ After completing this course, students will be able to:
 
 - Define open educational resource and list the 5R permissions: retain, reuse, revise, remix, and redistribute
 - Name the 10 metrics of the rubric and identify which five measure quality and which five measure reusability
+- State what the letters Q and R in the OpenBook QR Score stand for and how its three numbers are written
 - Recall the Creative Commons license elements (BY, SA, NC, ND) and the meaning of each
 - List the required fields of a metadata record, such as title, author, subject, grade level, license, and description
 - Identify common AI-agent errors, including invented citations, misread licenses, and overconfident scores
@@ -90,6 +92,7 @@ After completing this course, students will be able to:
 
 - Compare a teacher's scores with an agent's scores and find where they differ by more than 3 points
 - Trace a low total score back to the specific metrics and passages that caused it
+- Report a scored resource as an OpenBook QR Score, with the total and both subtotals
 - Classify the errors in an agent's evaluation as factual, license, citation, or scoring errors
 - Examine a resource's licenses and attributions to find conflicts that block reuse
 - Compare A/B test results with rubric scores to find which metrics predict learner outcomes

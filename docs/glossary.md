@@ -1983,6 +1983,16 @@ Open textbooks are the most common whole-course OER and often the first resource
 
 **Example:** OpenStax publishes open textbooks for college courses that instructors can assign at no cost to students.
 
+#### OpenBook QR Score
+
+The total score of an open educational resource from 0 to 100, reported together with its quality subtotal (Q) and its reusability subtotal (R) in the form QR 65 (Q 32 / R 33).
+
+The name is the book's shorthand for the rubric result: the letters QR stand for quality and reusability, and the parts show where the points came from. A bare total can hide a weak half, so a report always gives all three numbers.
+
+**Example:** A resource with a quality subtotal of 32 and a reusability subtotal of 33 has an OpenBook QR Score of QR 65 (Q 32 / R 33).
+
+*See also:* Total Score, Quality Subtotal, Reusability Subtotal, Score Band
+
 #### Original Version
 
 The resource exactly as it was before the improvements, frozen and labeled for use as the baseline in a test.

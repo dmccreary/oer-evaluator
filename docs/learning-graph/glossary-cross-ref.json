@@ -1422,6 +1422,16 @@
       "category": "OER Foundations"
     },
     {
+      "term": "OpenBook QR Score",
+      "related_terms": [
+        "Total Score",
+        "Quality Subtotal",
+        "Reusability Subtotal",
+        "Score Band"
+      ],
+      "category": "Rubric and Scoring"
+    },
+    {
       "term": "Original Version",
       "related_terms": [],
       "category": "A/B Testing with Students"

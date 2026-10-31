@@ -11,28 +11,29 @@ status: built
 
 ## Summary
 
-Introduces the rubric that scores an OER on five quality and five reusability metrics, including score scales, evidence, subtotals, reviewers, and what makes a rubric reliable and valid. It sets up the scoring framework that the following metric chapters apply one at a time. After this chapter you can explain how a rubric score, its evidence, and its subtotals fit together, and how to judge whether a rubric is reliable.
+Introduces the rubric that scores an OER on five quality and five reusability metrics, including score scales, evidence, subtotals, reviewers, and what makes a rubric reliable and valid. It sets up the scoring framework that the following metric chapters apply one at a time. After this chapter you can explain how a rubric score, its evidence, and its subtotals fit together, report a result as an OpenBook QR Score, and judge whether a rubric is reliable.
 
 ## Concepts Covered
 
-This chapter covers the following 25 concepts from the learning graph:
+This chapter covers the following 26 concepts from the learning graph:
 
 | Concept | Concept Impact Score |
 |---------|-----------------------|
-| OER Quality | 7421 |
-| Quality Dimension | 2607 |
-| Reusability Dimension | 2510 |
-| Quality Rubric | 2303 |
-| Ten-Metric Rubric | 2053 |
-| Rubric Metric | 1259 |
-| Metric Score | 801 |
+| OER Quality | 7437 |
+| Quality Dimension | 2613 |
+| Reusability Dimension | 2516 |
+| Quality Rubric | 2307 |
+| Ten-Metric Rubric | 2057 |
+| Rubric Metric | 1263 |
+| Metric Score | 805 |
 | Score Scale | 4 |
 | Scoring Descriptor | 3 |
 | Evidence for a Score | 209 |
 | Evidence Citation | 7 |
-| Quality Subtotal | 275 |
-| Reusability Subtotal | 275 |
-| Total Score | 273 |
+| Quality Subtotal | 277 |
+| Reusability Subtotal | 277 |
+| Total Score | 274 |
+| OpenBook QR Score | 1 |
 | Score Band | 5 |
 | Adoption Threshold | 4 |
 | Rubric Worksheet | 199 |
@@ -660,13 +661,62 @@ The **total score** is the sum of all ten metric scores, which is also the quali
 | Locked Chemistry E-book | 44 | 21 | 65 | Open license, 1 | A license, or a different resource |
 | Open Unit With Errors | 28 | 37 | 65 | Accuracy and currency, 3 | A fact check before anything else |
 
-Three resources with the same total need three different actions. Report the total together with the two subtotals and the lowest metric.
+Three resources with the same total need three different actions. Report the total together with the two subtotals and the lowest metric. The book gives that combined form a name, the OpenBook QR Score, which is defined next.
 
 Totals suit one job especially well: comparing two versions of the same resource before and after improvement. A rise from 65 to 78 after a round of fixes is a meaningful signal. Totals are weaker for ranking different resources, because the resources may differ in the unit reviewed, the reviewers, and the evidence behind each score. A difference of a point or two between totals is within normal reviewer wobble, so do not rank on it. When you compare resources, compare the subtotals and the lowest metrics too, and say who reviewed each one.
 
 !!! mascot-warning "A Total Can Hide a Failed Metric"
     ![Echo warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
     A resource with an open-license score of 1 and nine strong scores can still total 80, and no one can lawfully reuse it. Read the lowest metric before you read the total, and report both.
+
+### OpenBook QR Score
+
+The **OpenBook QR Score** is the total score reported together with its two subtotals, written **QR** *total* **(Q** *quality* **/ R** *reusability***)**. The letters name the two halves of the rubric: Q for quality and R for reusability. *Watershed Basics* has an OpenBook QR Score of QR 65 (Q 32 / R 33). The name gives the book one fixed way to state a result, so no reader sees a bare 65 and has to guess what is behind it.
+
+The three resources from the worked example above, written this way:
+
+| Resource | OpenBook QR Score | What it needs first |
+|---|---|---|
+| Watershed Basics | QR 65 (Q 32 / R 33) | Fill in the metadata, then fix accessibility |
+| Locked Chemistry E-book | QR 65 (Q 44 / R 21) | A license, or a different resource |
+| Open Unit With Errors | QR 65 (Q 28 / R 37) | A fact check before anything else |
+
+The first number is the headline and the two in brackets say where it came from. All three resources share a headline, and the brackets already tell you that the second one is held back by reuse and the third by quality. A full review report still adds the band and the lowest metric after the QR score, as in "QR 65 (Q 32 / R 33), Fair, lowest metric Metadata 4".
+
+!!! mascot-tip "Write It the Same Way Every Time"
+    ![Echo giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    Always write QR 65 (Q 32 / R 33), never "65" or "about 65". A fixed format lets a colleague compare two reports at a glance and lets a script find the number.
+
+The badge below draws an OpenBook QR Score as a small grid, a little like a QR code. The top row is the five quality metrics and the bottom row is the five reusability metrics, and each module fills from the bottom in proportion to its score. A dashed module with a "!" is below the floor of 5. Load the examples, move the sliders, and then build the three target badges.
+
+#### Diagram: OpenBook QR Score Badge
+
+<iframe src="../../sims/openbook-qr-score-badge/main.html" height="752px" width="100%" scrolling="no"></iframe>
+
+[Run the OpenBook QR Score Badge MicroSim Fullscreen](../../sims/openbook-qr-score-badge/main.html){ .md-button .md-button--primary }
+
+<details markdown="1">
+<summary>OpenBook QR Score Badge</summary>
+Type: microsim
+**sim-id:** openbook-qr-score-badge<br/>
+**Library:** p5.js<br/>
+**Status:** Built<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** write<br/>
+**Learning Objective:** The learner will write the OpenBook QR Score for a resource, in the form QR total (Q quality / R reusability), from ten metric scores, and name which half and which metric hold the total down.
+
+**Prerequisites:** Quality Subtotal, Reusability Subtotal, Total Score, OpenBook QR Score (all defined in this chapter above this block).
+
+**Evidence of Mastery:** In build mode the learner sets ten sliders until the badge reads a target such as QR 80 (Q 50 / R 30), then presses Check. A target counts as correct when both subtotals match and any extra condition holds. Mastery is all 3 targets correct on the first Check. Loading examples and moving sliders in explore mode is exploration, not evidence.
+
+**Misconceptions:** (1) The total alone is enough to report a result. (2) Two resources with the same total need the same fix. (3) A high total means every metric is acceptable.
+
+**Instructional Rationale:** Writing the QR string from ten scores is an Apply-level task. Comparing two badges with the same total makes the point that the halves carry information, and the third target shows a high total hiding a failed metric.
+
+**Content:** Ten metrics in order: Accuracy and currency, Alignment, Readability, Accessibility, Practice with feedback (quality, the top row); Open license, Modularity, Metadata, Editable source, Portability (reusability, the bottom row). The score is written QR total (Q quality / R reusability). The floor is 5. The build targets are QR 65 (Q 32 / R 33), QR 80 (Q 50 / R 30), and QR 79 (Q 47 / R 32) with Open license exactly 1.
+
+**Chapter Anchors:** The chapter says the OpenBook QR Score is the total with both subtotals, that Watershed Basics is QR 65 (Q 32 / R 33), and that a metric below 5 fails the floor.
+</details>
 
 ### Score Band
 
@@ -861,7 +911,7 @@ A **review checklist** is a short list of things to gather before you start scor
 
 ### Review Report
 
-A **review report** is the finished document that a review produces. It contains the completed worksheet, the two subtotals and the total, the band and the decision, and the three improvements that would raise the score most. It also names the reviewer and the date, and it lists any open questions, such as a metric that needs a second opinion. A report that gives only the total is not a report. Readers need the evidence, because evidence is what lets them agree, disagree, or act.
+A **review report** is the finished document that a review produces. It contains the completed worksheet, the OpenBook QR Score (the total with the two subtotals), the band and the decision, and the three improvements that would raise the score most. It also names the reviewer and the date, and it lists any open questions, such as a metric that needs a second opinion. A report that gives only the total is not a report. Readers need the evidence, because evidence is what lets them agree, disagree, or act.
 
 ## Reviewer
 
@@ -1151,7 +1201,7 @@ The six scenarios, in this order:
 - **OER quality** is how well a resource helps its intended learners reach the intended outcomes, and the label *open* says nothing about it. A **quality rubric** replaces opinion with criteria, a scale, descriptors, evidence rules, and a way to combine scores.
 - The **ten-metric rubric** has five quality metrics and five reusability metrics, each worth 10 points. **Quality versus reusability** means the two halves are independent, so keep two subtotals and read them side by side.
 - A **metric score** is a whole number from 0 to 10 chosen with the **scoring descriptors**. **Evidence for a score** says where you looked, what you saw, and the rule you applied, and an **evidence citation** records it.
-- The **quality subtotal** and **reusability subtotal** each run to 50, and the **total score** runs to 100. A **score band** names the range, and the **adoption threshold** turns the score into Adopt, Revise, or Reject with a floor for every metric.
+- The **quality subtotal** and **reusability subtotal** each run to 50, and the **total score** runs to 100. The **OpenBook QR Score** reports the total with both halves, as in QR 65 (Q 32 / R 33). A **score band** names the range, and the **adoption threshold** turns the score into Adopt, Revise, or Reject with a floor for every metric.
 - The **rubric worksheet** holds everything, a **review checklist** prepares you, and a **review report** presents the result.
 - A **reviewer** scores alone first. **Reviewer bias** pulls scores off course, and **inter-rater agreement** shows where reviewers differ.
 - **Rubric reliability** is consistency and **rubric validity** is whether the scores measure what matters. Both are needed.

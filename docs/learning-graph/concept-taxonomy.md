@@ -11,7 +11,7 @@ Every concept in the [Concept List](concept-list.md) belongs to one of these 14 
 | --- | --- | --- | --- |
 | OER Foundations | OERF | 1 to 21 | Core ideas: what an open educational resource is, the 5R permissions, and adopting, adapting, and creating OER. |
 | Open Licensing | LIC | 22 to 44 | Open licenses, the Creative Commons family and its elements, attribution, compatibility, and choosing a license. |
-| Rubric and Scoring | RUB | 45 to 69 | The 10-metric rubric: dimensions, scores, evidence, subtotals, reviewers, and rubric reliability. |
+| Rubric and Scoring | RUB | 45 to 69, 352 | The 10-metric rubric: dimensions, scores, evidence, subtotals, reviewers, and rubric reliability. |
 | Content Quality Metrics | CQM | 70 to 109 | The accuracy and currency, alignment, and readability metrics and how to score them. |
 | Accessibility and Practice Metrics | APM | 110 to 149 | The accessibility metric (WCAG) and the practice-with-feedback metric, including quizzes and simulations. |
 | Modularity and Metadata | MDM | 150 to 172 | The open license, modularity, and metadata metrics: standalone components, Dublin Core, and metadata completeness. |

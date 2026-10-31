@@ -77,7 +77,7 @@ The evidence from the first scoring is the raw material. Every check that failed
 
 A useful plan has five parts:
 
-1. **The baseline:** the ten scores, the total, and the decision before any change.
+1. **The baseline:** the ten scores, the OpenBook QR Score, and the decision before any change.
 2. **The gaps:** the failed checks that hold each low score down.
 3. **The fixes:** one task per gap, in plain words, with the tool or agent that will do the drafting.
 4. **The order and the budget:** which fix comes first, and the human hours each one needs.
@@ -697,7 +697,7 @@ The decision rule of Chapter 11 gives *Adopt*, since 78 is at least 75 and the l
 
 ### Score Gain
 
-**Score gain** is the difference between the total after an improvement and the total before it. A positive gain means the resource now passes more of the rubric's checks. Report three numbers: the gain in the total, the gain on each metric, and the gap between the projected gain in the plan and the actual gain. For *Watershed Basics* the total rose from 65 to 78, a gain of +13 against a projection of +14, a shortfall of 1.
+**Score gain** is the difference between the total after an improvement and the total before it. A positive gain means the resource now passes more of the rubric's checks. Report three numbers: the gain in the total, the gain on each metric, and the gap between the projected gain in the plan and the actual gain. For *Watershed Basics* the total rose from 65 to 78, a gain of +13 against a projection of +14, a shortfall of 1. Written as OpenBook QR Scores, the resource moved from QR 65 (Q 32 / R 33) to QR 78 (Q 39 / R 39), so quality gained 7 points and reusability gained 6.
 
 Divide the gain by the human hours to see where the effort paid off. The table compares the plan with the result.
 

@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: Answers to the most common questions about the OER Evaluator book, the ten-metric rubric, AI-agent scoring, improving a resource, A/B testing with students, and the certificate, grouped by category.
 category_count: 6
-question_count: 103
+question_count: 104
 ---
 # OER Evaluator FAQ
 
@@ -481,7 +481,7 @@ See [Chapter 16](chapters/16-ab-testing-design/index.md), [Chapter 17](chapters/
 
 ### How is the total score calculated, and what are the score bands?
 
-Add the ten metric scores. The five quality scores sum to the quality subtotal (0 to 50), the five reusability scores sum to the reusability subtotal (0 to 50), and the two subtotals sum to the total (0 to 100). Report the total together with both subtotals and the lowest metric, because a total can hide a weak metric.
+Add the ten metric scores. The five quality scores sum to the quality subtotal (0 to 50), the five reusability scores sum to the reusability subtotal (0 to 50), and the two subtotals sum to the total (0 to 100). Report the total together with both subtotals as an OpenBook QR Score, such as QR 69 (Q 38 / R 31), and add the lowest metric, because a total can hide a weak metric.
 
 The total falls in one of five named bands, with both ends included:
 
@@ -494,6 +494,16 @@ The total falls in one of five named bands, with both ends included:
 A band is a quick label for teachers and administrators. It is not the adoption decision, and a total in the Good band can still get a revise decision if one metric is below the floor.
 
 **Example:** A quality subtotal of 38 and a reusability subtotal of 31 give a total of 69, which falls in the Fair band.
+
+See [Chapter 3](chapters/03-ten-metric-rubric-scoring/index.md).
+
+### What is the OpenBook QR Score?
+
+The OpenBook QR Score is the book's name for a rubric result: the total out of 100, reported with its quality subtotal (Q) and its reusability subtotal (R). It is always written in the same form, for example QR 65 (Q 32 / R 33). The first number is the headline, and the two in brackets show where the points came from.
+
+A bare total can hide a weak half. Two resources can both total 65, one at Q 44 / R 21 and the other at Q 32 / R 33, and they need different fixes. The QR score keeps the halves visible, and a full report adds the band and the lowest metric after it.
+
+**Example:** A resource with a quality subtotal of 32 and a reusability subtotal of 33 has an OpenBook QR Score of QR 65 (Q 32 / R 33). The [OpenBook QR Score Badge](sims/openbook-qr-score-badge/index.md) MicroSim draws it as a small grid.
 
 See [Chapter 3](chapters/03-ten-metric-rubric-scoring/index.md).
 

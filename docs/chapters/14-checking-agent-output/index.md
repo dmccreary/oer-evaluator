@@ -677,7 +677,7 @@ The running example is *Watershed Basics*. A pair of careful human reviewers rea
 | Portability | 7 | 8 | 6 | 9 |
 | **Total** | **65** | **75** | **64** | **65** |
 
-Under the provisional adoption rule of Chapter 11, a resource is adopted when its total is at least 75 and every metric is at least 5. The humans' total of 65, with Metadata at 4, means *Revise*. Agent A1 reaches 75 with every metric at least 5, so its report says *Adopt*. The other two agents say *Revise*. Keep this table in view, because every measure below describes how these three agents relate to the humans.
+Under the provisional adoption rule of Chapter 11, a resource is adopted when its total is at least 75 and every metric is at least 5. The humans' OpenBook QR Score is QR 65 (Q 32 / R 33), and with Metadata at 4 it means *Revise*. Agent A1 reaches 75 with every metric at least 5, so its report says *Adopt*. The other two agents say *Revise*. Keep this table in view, because every measure below describes how these three agents relate to the humans.
 
 ### Score Difference Threshold
 
