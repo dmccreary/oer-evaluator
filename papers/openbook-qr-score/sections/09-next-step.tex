@@ -1,0 +1,39 @@
+\section{Next Step: Verifying Chapter Content with a Low-Cost Model}
+\label{sec:nextstep}
+
+The work reported here is a \emph{fast, low-cost first step}. It samples three chapters per book, reads public pages and repositories, and scores structural indicators of quality and reusability in minutes. Its main weakness is on the quality side: no reviewer checked whether the content of a chapter is correct. The metric called accuracy and currency is in practice a proxy (an errata process, a recent revision), and alignment, readability and practice are judged from page structure. The next step, planned for a future paper, adds claim-level verification of sample chapters using a small, low-cost language model, Claude Haiku, as a flagger inside a pipeline in which code does everything that can be exact. We describe the design here so that it can be criticized before it is run. \emph{No results are reported, and how well such a pipeline works is unknown.}
+
+\subsection{Design}
+\begin{enumerate}[leftmargin=*,itemsep=2pt]
+  \item \textbf{Split the work.} Code handles what can be exact: splitting a chapter into sections, reading level, image and alternative-text counts, and parsing exercises and answers. The model handles small, bounded language tasks and returns structured output with exact quotations and sentence identifiers.
+  \item \textbf{Ground every judgment in evidence.} The model never judges a claim from memory. It is given the cited source or retrieved snippets and must quote the passage it relies on; code checks that the quotation appears verbatim in the chapter or source, which catches invented evidence. A claim with no retrievable evidence is recorded as unverifiable, not as true.
+  \item \textbf{Repeat and compare.} Each judgment is made three times with the order of inputs shuffled and the prompt reworded. Disagreement is kept as an uncertainty flag, not averaged away.
+  \item \textbf{Calibrate before trusting.} The pipeline is first run on a chapter seeded with known errors (a wrong value, a swapped definition, a citation that does not support its claim, an exercise that matches no objective). Its detection rate and false-alarm rate on those errors are reported before it is applied to any real chapter.
+  \item \textbf{Escalate.} Only flagged items go to a stronger model, and disputed items go to a human reviewer.
+  \item \textbf{Report, do not score.} The output is a verification report, for example the numbers of supported, contradicted, unsupported and unverifiable claims with their quotations. It would anchor the accuracy metric to a share of verified claims and leave unverifiable items marked as insufficient evidence.
+\end{enumerate}
+
+\begin{table}[htbp]
+\centering
+\caption{Planned tasks for the low-cost model on one sample chapter, and the exact check that code applies to each output. The pipeline has not yet been run.}
+\label{tab:nextstep}
+\small
+\begin{tabular}{@{}L{3.0cm}L{5.8cm}L{5.0cm}@{}}
+\toprule
+Task & What the model does & Check applied by code \\
+\midrule
+Claim extraction & Lists the checkable factual claims in a section, each with a sentence identifier. & Every quotation must appear verbatim in the chapter. \\
+Citation support & Given a claim and the text of its cited source, answers supported, contradicted or not addressed, with the supporting passage. & The passage must appear verbatim in the fetched source. \\
+Uncited claims & Judges each claim against retrieved snippets, never from memory, as stable, time-sensitive or doubtful. & Snippets are logged; claims with no evidence are marked unverifiable. \\
+Alignment & Maps each exercise to a stated learning objective and labels its Bloom level. & Counts objectives with no exercise and exercises with no objective. \\
+Terms before definition & Lists terms a first-time reader would not know and where each first appears. & Compares each term with the glossary and the chapter text. \\
+Alternative text & Given the image, caption and nearby text, says whether the alternative text describes the image. & Presence of alternative text is already counted exactly. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Evaluating the pipeline itself}
+The seeded-error chapter gives measurable quantities: the share of planted errors detected, the share of flags that are false alarms, the agreement across the three repeated runs, and the tokens and time used, which can be compared with the cost of the first step in Table~\ref{tab:cost}. A pipeline that misses many planted errors, or that agrees with the book whatever it says, is not suitable as a verifier and the results would say so.
+
+\subsection{Expected limits}
+A small model can share a book's misconceptions, can be inclined to agree with text it is shown, and may miss errors in specialist domains such as mathematical proofs. It can verify only what retrieval can reach, so its recall is unknown until the seeded-error test measures it. And verifying claims does not show that a chapter teaches well; that remains the question for the learner-outcome studies of Section~\ref{sec:validation}.

@@ -18,9 +18,9 @@
 | 9 | Conclusion | 3 | 3 | |
 | 10 | References | 10 | 10 | 40 entries, all cited, 100% DOI or URL, 35% from 2021+ |
 | 11 | Figures | 8 | 8 | 5 figures, all referenced, 327 to 369 DPI or vector, Okabe-Ito palette |
-| 12 | Tables and formal elements | 4 | 4 | 5 booktabs tables, 2 equations |
+| 12 | Tables and formal elements | 4 | 4 | 6 booktabs tables, 2 equations |
 | 13 | Claim support | 2 | 3 | Per-title facts come from agent reports (license facts spot-checked, see below) |
-| 14 | Clean build | 4 | 4 | 21 pages, 0 errors, 0 overfull, 0 missing characters |
+| 14 | Clean build | 4 | 4 | 23 pages, 0 errors, 0 overfull, 0 missing characters |
 | 15 | Package | 4 | 4 | `arxiv-upload.zip` test-compiles |
 | 16 | Metadata and disclosure | 4 | 4 | AI disclosure in Acknowledgments |
 | 17 | Writing quality | 6 | 8 | Some repetition between abstract, intro and conclusion |
