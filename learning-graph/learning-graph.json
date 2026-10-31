@@ -115,13 +115,13 @@
       "label": "Educational Resource",
       "group": "OERF",
       "shape": "box",
-      "cis": 10324
+      "cis": 10346
     },
     {
       "id": 2,
       "label": "Open Educational Resource",
       "group": "OERF",
-      "cis": 10300
+      "cis": 10322
     },
     {
       "id": 3,
@@ -134,7 +134,7 @@
       "label": "Copyright",
       "group": "OERF",
       "shape": "box",
-      "cis": 2873
+      "cis": 2879
     },
     {
       "id": 5,
@@ -170,7 +170,7 @@
       "id": 10,
       "label": "The 5R Permissions",
       "group": "OERF",
-      "cis": 2549
+      "cis": 2555
     },
     {
       "id": 11,
@@ -380,43 +380,43 @@
       "id": 45,
       "label": "OER Quality",
       "group": "RUB",
-      "cis": 7421
+      "cis": 7437
     },
     {
       "id": 46,
       "label": "Quality Dimension",
       "group": "RUB",
-      "cis": 2607
+      "cis": 2613
     },
     {
       "id": 47,
       "label": "Reusability Dimension",
       "group": "RUB",
-      "cis": 2510
+      "cis": 2516
     },
     {
       "id": 48,
       "label": "Quality Rubric",
       "group": "RUB",
-      "cis": 2303
+      "cis": 2307
     },
     {
       "id": 49,
       "label": "Ten-Metric Rubric",
       "group": "RUB",
-      "cis": 2053
+      "cis": 2057
     },
     {
       "id": 50,
       "label": "Rubric Metric",
       "group": "RUB",
-      "cis": 1259
+      "cis": 1263
     },
     {
       "id": 51,
       "label": "Metric Score",
       "group": "RUB",
-      "cis": 801
+      "cis": 805
     },
     {
       "id": 52,
@@ -446,19 +446,19 @@
       "id": 56,
       "label": "Quality Subtotal",
       "group": "RUB",
-      "cis": 275
+      "cis": 277
     },
     {
       "id": 57,
       "label": "Reusability Subtotal",
       "group": "RUB",
-      "cis": 275
+      "cis": 277
     },
     {
       "id": 58,
       "label": "Total Score",
       "group": "RUB",
-      "cis": 273
+      "cis": 274
     },
     {
       "id": 59,
@@ -2220,6 +2220,12 @@
       "id": 351,
       "label": "Professional Development",
       "group": "TRN",
+      "cis": 1
+    },
+    {
+      "id": 352,
+      "label": "OpenBook QR Score",
+      "group": "RUB",
       "cis": 1
     }
   ],
@@ -4567,6 +4573,18 @@
     {
       "from": 351,
       "to": 336
+    },
+    {
+      "from": 352,
+      "to": 56
+    },
+    {
+      "from": 352,
+      "to": 57
+    },
+    {
+      "from": 352,
+      "to": 58
     }
   ]
 }
