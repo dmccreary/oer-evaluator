@@ -19,3 +19,5 @@
 9. [QM Rubrics & Standards](https://www.qualitymatters.org/qa-resources/rubric-standards) - Quality Matters - A widely used course-design rubric whose specific review standards carry point values and annotations and are applied by trained peer reviewers. A mature example of an evidence-based rubric used by certified reviewers.
 
 10. [VALUE Rubrics](https://www.aacu.org/value/rubrics) - AAC&U - Faculty-built rubrics with level-by-level descriptors for outcomes such as written communication and critical thinking. A model for writing score descriptions that different reviewers can apply consistently.
+
+11. [The Case for an Objective Score for Open Educational Resources: Proposing the OpenBook QR Score](https://zenodo.org/records/23844587) - Zenodo (2026) - Dan McCreary's position paper proposes the ten-metric, 100-point OpenBook QR Score that this chapter teaches, with its scoring descriptors, equations for Q, R and the total, and the Adopt, Revise and Reject decision rule. It applies the score to ten widely used open textbooks as a first step and states that the scores are unvalidated. Preprint, doi:10.5281/zenodo.23844587, CC BY 4.0.

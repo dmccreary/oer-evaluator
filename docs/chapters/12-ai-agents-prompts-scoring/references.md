@@ -19,3 +19,5 @@
 9. [Prompt Engineering Guide](https://www.promptingguide.ai/) - DAIR.AI - A free catalog of prompting techniques with examples, including zero-shot, few-shot, and chain-of-thought prompts. A handy reference while building a rubric prompt.
 
 10. [Transformers, the Tech Behind LLMs](https://www.3blue1brown.com/lessons/gpt) - 3Blue1Brown - A visual explanation of how a language model turns text into predictions, with animated diagrams. Builds intuition for why a model can sound sure and still be wrong.
+
+11. [The Case for an Objective Score for Open Educational Resources: Proposing the OpenBook QR Score](https://zenodo.org/records/23844587) - Zenodo (2026) - Reports AI agents applying the ten-metric rubric to ten open textbooks in two passes, with the tokens (about 86,000 per title) and time (about two minutes per title) each pass used. A worked example of what an agent scoring run costs and of what its output looks like. Preprint, doi:10.5281/zenodo.23844587, CC BY 4.0.

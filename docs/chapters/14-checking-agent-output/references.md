@@ -19,3 +19,5 @@
 9. [Language Models (Mostly) Know What They Know](https://arxiv.org/abs/2207.05221) - arXiv - Kadavath and colleagues test whether a model's stated confidence matches how often it is right. Useful background on why overconfident scores can be checked rather than just feared.
 
 10. [Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685) - arXiv - Measures how often model judges agree with human raters and documents biases such as position and verbosity. Informs the chapter's second-agent cross-check and its limits.
+
+11. [The Case for an Objective Score for Open Educational Resources: Proposing the OpenBook QR Score](https://zenodo.org/records/23844587) - Zenodo (2026) - Compares two independent AI-agent scoring passes on the same ten open textbooks: totals differed by 3.5 points on average and individual metric scores matched within one point 88 percent of the time. It also lists what the agents could not verify, which shows why a person must check agent evidence. Preprint, doi:10.5281/zenodo.23844587, CC BY 4.0.
