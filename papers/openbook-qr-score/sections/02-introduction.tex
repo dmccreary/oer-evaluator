@@ -1,0 +1,25 @@
+\section{Introduction}
+\label{sec:intro}
+
+Open educational resources (OER) are teaching and learning materials that carry an open license, so that anyone may retain, reuse, revise, remix and redistribute them \cite{wiley5r,wiley2018}. In November 2019 the member states of UNESCO adopted a Recommendation on OER, the first international standard-setting instrument on the topic \cite{unesco2019}. The history of the open-education movement is traced by Weller \cite{weller2014}, and the research literature has been reviewed repeatedly, including for efficacy and user perceptions \cite{wiley2014,hilton2016,hilton2020}, and a recent meta-analysis of 25 studies reports a significant but negligible effect of OER and open educational practices on learning achievement \cite{tlili2023}; whatever their effect on learning, OER matter because they remove cost and permission barriers.
+
+Finding OER is no longer the hard part. Deciding whether a particular resource is good, and whether it can actually be reused in another course, is. A systematic review of OER benefits and challenges lists quality assurance among the main obstacles \cite{adil2022}, and a separate review focuses on the affordability case for OER \cite{mullens2023}. A careful manual review of one textbook takes hours, and two reviewers working from different checklists can reach different conclusions about the same book. The consequence is that adoption decisions rest on opinion, brand recognition or whatever a search engine ranks first.
+
+\paragraph{The gap.}
+Rubrics for judging OER exist, but they are not interchangeable. A systematic review of 14 published OER quality rubrics found that five specify no rating scale at all, only three provide a detailed scoring guide, only six report any empirical testing of validity, reliability or utility, and only three were revised several times \cite{yuan2015}. The same review found that the rubrics emphasize different constructs: one focuses on pedagogical value, one on reusability, one on alignment to standards. A reviewer who picks one rubric has implicitly chosen what ``quality'' means. At the same time, generative AI makes it cheap to apply a rubric to a whole catalog, and large language models are already used as judges of text quality \cite{zheng2023,gu2024}. Speed without a validated instrument would simply automate disagreement.
+
+\paragraph{Position.}
+This paper argues that the OER ecosystem needs a shared, objective score, and that such a score has to meet four requirements: it must be \emph{anchored} (every level of every metric has a descriptor and every score carries evidence), \emph{two-part} (quality as a learning resource and reusability as a component are reported separately), \emph{reproducible} (the same resource gets the same score from different reviewers, human or machine), and \emph{validated} (the score is tested against reviewer agreement and learner outcomes before anyone acts on it). ``Objective'' is used here in the measurement sense of inter-subjective and checkable, not in the sense of free of judgment; Section~\ref{sec:requirements} makes this precise.
+
+\paragraph{Contributions.}
+We make five contributions.
+\begin{enumerate}[leftmargin=*,itemsep=2pt]
+  \item We argue for four requirements that an OER score must meet and show, using the published review of rubrics, which of them current practice meets (Section~\ref{sec:requirements}).
+  \item We propose the \emph{OpenBook QR Score}, a 100-point instrument made of ten metrics worth ten points each, five for quality (Q) and five for reusability (R), with a fixed reporting format and decision rule (Section~\ref{sec:score}). We specify it fully enough to be applied or rebutted.
+  \item We illustrate the instrument on ten widely used open textbooks, each scored in two independent passes by AI-agent reviewers (one sampled chapter, then three), and report the scores, the agreement between passes, the elapsed time and the token cost. We also report 13 scripted checks run on 101 further textbooks (Section~\ref{sec:illustration}). This evidence comes from one model family and is unvalidated; we use it to show what the instrument surfaces and where it is weak, not to rank the books.
+  \item We identify specific under-specifications that the illustration exposes, notably how a NonCommercial license should affect the license metric.
+  \item We state a validation agenda: the studies required before QR scores are used to make adoption decisions (Section~\ref{sec:validation}).
+\end{enumerate}
+
+\paragraph{Roadmap.}
+Section~\ref{sec:related} reviews four strands of prior work. Section~\ref{sec:requirements} states the requirements. Section~\ref{sec:score} specifies the score. Section~\ref{sec:illustration} applies it. Section~\ref{sec:validation} sets out the validation agenda, Section~\ref{sec:discussion} discusses implications and limitations, and Section~\ref{sec:conclusion} concludes.

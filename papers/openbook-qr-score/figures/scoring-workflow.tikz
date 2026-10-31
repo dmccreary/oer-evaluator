@@ -1,0 +1,25 @@
+% TikZ figure: how an OpenBook QR Score is produced and checked.
+% Explicit coordinates keep every box clear of the others; the figure is scaled to the text width in the section file.
+\begin{tikzpicture}[
+  box/.style={draw, rounded corners=2pt, align=center, minimum height=10mm, font=\small, inner sep=4pt},
+  det/.style={box, fill=blue!10, text width=4.4cm},
+  jud/.style={box, fill=orange!14, text width=4.4cm},
+  ten/.style={box, text width=3.2cm},
+  outc/.style={box, fill=green!12, text width=3.3cm},
+  chk/.style={box, fill=gray!14, dashed, text width=9.2cm},
+  arr/.style={-{Latex[length=2.2mm]}, thick}
+]
+\node[box, text width=2.6cm] (res) at (0,0) {Resource\\(book, unit, or component)};
+\node[det] (det) at (5.2,1.1) {Scripted checks\\license, metadata fields, alt-text counts, links, formats};
+\node[jud] (jud) at (5.2,-1.3) {Judgment checks\\accuracy, alignment, practice; human or AI agent, evidence required};
+\node[ten] (ten) at (10.4,0) {Ten metric scores\\0 to 10 each,\\with evidence};
+\node[outc] (qr) at (14.6,0) {Report\\QR 76 (Q 37 / R 39)\\plus decision};
+\node[chk] (val) at (12.5,-3.2) {Validation: reviewer agreement, agent-versus-human agreement, comparison with learner outcomes};
+\draw[arr] (res.east) -- ++(0.5,0) |- (det.west);
+\draw[arr] (res.east) -- ++(0.5,0) |- (jud.west);
+\draw[arr] (det.east) -- ++(0.5,0) |- (ten.west);
+\draw[arr] (jud.east) -- ++(0.5,0) |- (ten.west);
+\draw[arr] (ten) -- (qr);
+\draw[arr, dashed] (val.north -| ten.south) -- (ten.south);
+\draw[arr, dashed] (val.north -| qr.south) -- (qr.south);
+\end{tikzpicture}

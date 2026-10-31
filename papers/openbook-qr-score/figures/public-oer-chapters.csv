@@ -1,0 +1,31 @@
+resource,role,chapter,m1,m2,m3,m4,m5,fk,imgs,alt
+Eloquent JavaScript 4e,first,1,8,3,8,6,3,8.8,1,1
+Eloquent JavaScript 4e,middle,11,8,3,7,6,7,11.8,2,2
+Eloquent JavaScript 4e,last,21,7,3,7,6,6,11.4,2,2
+Think Python 3e,first,1,8,6,8,5,8,10.0,0,0
+Think Python 3e,middle,10,8,6,8,4,8,8.4,2,2
+Think Python 3e,last,19,8,4,8,5,2,10.1,0,0
+Beezer Linear Algebra 3.50,first,1,6,4,8,3,8,12.0,2,1
+Beezer Linear Algebra 3.50,middle,4,6,4,8,3,8,9.3,2,1
+Beezer Linear Algebra 3.50,last,8,6,4,7,3,8,12.6,2,1
+OpenStax College Physics 2e,first,1,8,8,7,8,9,12.6,24,24
+OpenStax College Physics 2e,middle,17,8,8,8,9,9,11.0,45,45
+OpenStax College Physics 2e,last,34,7,7,8,8,6,9.9,24,24
+OpenIntro Statistics 4e,first,1,8,6,7,3,8,12.7,16,0
+OpenIntro Statistics 4e,middle,5,8,6,6,3,8,13.8,11,0
+OpenIntro Statistics 4e,last,9,8,6,7,3,8,13.0,28,0
+OpenStax Biology 2e,first,1,8,8,8,8,5,11.8,20,20
+OpenStax Biology 2e,middle,24,8,8,7,8,5,13.6,29,29
+OpenStax Biology 2e,last,47,7,8,6,8,5,15.2,17,17
+OpenStax Calculus Vol 1,first,1,8,8,8,8,8,11.6,127,124
+OpenStax Calculus Vol 1,middle,3,8,8,8,8,8,15.1,89,89
+OpenStax Calculus Vol 1,last,6,8,8,8,8,8,14.2,162,161
+OpenStax Anatomy & Physiology 2e,first,1,8,8,8,8,6,14.2,19,19
+OpenStax Anatomy & Physiology 2e,middle,14,8,8,7,8,6,13.5,29,29
+OpenStax Anatomy & Physiology 2e,last,28,8,8,8,8,6,13.5,29,29
+OpenStax Principles of Economics 3e,first,1,8,8,8,8,7,8.2,10,10
+OpenStax Principles of Economics 3e,middle,17,7,8,8,8,7,13.6,8,8
+OpenStax Principles of Economics 3e,last,34,7,8,8,8,7,12.5,41,41
+OpenStax Psychology 2e,first,1,7,8,8,8,6,12.2,18,18
+OpenStax Psychology 2e,middle,8,6,8,8,8,6,7.7,19,19
+OpenStax Psychology 2e,last,16,7,8,7,8,6,13.1,20,20

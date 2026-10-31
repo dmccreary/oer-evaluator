@@ -1,0 +1,96 @@
+\section{The OpenBook QR Score}
+\label{sec:score}
+
+This section specifies the instrument. The name expresses its structure: QR is \emph{Quality} plus \emph{Reusability}, out of 100. The specification is the one taught in an open intelligent textbook on OER evaluation \cite{oerevaluator}; Figure~\ref{fig:workflow} shows how a score is produced and checked.
+
+\begin{figure}[htbp]
+  \centering
+  \resizebox{\linewidth}{!}{\input{figures/scoring-workflow.tikz}}
+  \caption{How an OpenBook QR Score is produced. A resource passes through scripted checks (blue) and judgment checks (orange) that yield ten metric scores with evidence, which are summed into a report such as QR 76 (Q 37 / R 39) and a decision. Validation studies (gray, dashed) test the scores and feed back into the metrics and descriptors.}
+  \label{fig:workflow}
+\end{figure}
+
+\subsection{Unit of evaluation}
+The unit is a \emph{resource}: a whole textbook, a chapter, or a reusable component such as a quiz or an interactive simulation. Every score names the unit, the version evaluated and the date, because resources change and a score describes the resource as it stood.
+
+\subsection{The ten metrics}
+The score has ten metrics worth ten points each. Five measure quality (Q) and five measure reusability (R). Table~\ref{tab:metrics} lists them with the question each answers and the evidence a reviewer collects. The last column marks how far each is open to scripting; this is a design proposal that the validation program should test, not a finding.
+
+\begin{table}[htbp]
+\centering
+\caption{The ten metrics of the OpenBook QR Score. ``Scripting'' marks how much of the metric can be checked mechanically (high, partial, low); the remainder needs human or agent judgment.}
+\label{tab:metrics}
+\small
+\begin{tabular}{@{}rL{2.6cm}L{6.3cm}C{1.4cm}@{}}
+\toprule
+\# & Metric & What is checked & Scripting \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Quality (Q)}} \\
+1 & Accuracy and currency & Facts match cited sources; sources and data are current; edition date and corrections process stated. & low \\
+2 & Alignment & Sections map to stated learning outcomes; activities and tests match them; a range of Bloom levels. & partial \\
+3 & Readability & Reading level fits the audience; terms are defined before use. & partial \\
+4 & Accessibility & Alternative text, heading structure, captions, contrast, conformance with WCAG 2.1 AA \cite{wcag21}. & partial \\
+5 & Practice with feedback & Exercises, worked examples, quizzes or simulations that tell learners how they did. & partial \\
+\addlinespace
+\multicolumn{4}{@{}l}{\textit{Reusability (R)}} \\
+6 & Open license & A clear license is stated on the work and its parts; version, owner and attribution are given. & high \\
+7 & Modularity & Each section, quiz or simulation stands alone and can be embedded elsewhere. & partial \\
+8 & Metadata & Title, author, subject, level, license and description are recorded in a machine-readable form. & high \\
+9 & Editable source & Source is published in an editable open format, not only as a fixed document. & high \\
+10 & Portability & The resource works elsewhere without a login: downloadable formats, embeddable by link. & partial \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Scale and descriptors}
+Each metric is scored with a whole number from 0 to 10. Whole numbers are deliberate: half points suggest a precision human reviewers cannot deliver. A reviewer counts the checks the resource meets, finds the share $p$ of applicable checks met, and chooses the band in Table~\ref{tab:bands}. Within a two-number band the reviewer picks the lower number if a gap would stop a learner or a reuser from doing what the check protects, and the higher if the gaps are cosmetic. A 10 requires that every check pass everywhere it applies.
+
+\begin{table}[htbp]
+\centering
+\caption{Scoring descriptors. Every metric uses the same scale, so a 6 for readability and a 6 for portability both mean that roughly half to three quarters of the check is in place.}
+\label{tab:bands}
+\small
+\begin{tabular}{@{}cL{2.2cm}L{6.5cm}C{2.4cm}@{}}
+\toprule
+Score & Descriptor & What it looks like & Share of check met \\
+\midrule
+0 & Absent & The resource fails the check completely. & 0\% \\
+1--2 & Very poor & A token effort is present; most of the check is unmet. & 1--24\% \\
+3--4 & Weak & Some of the check is met; gaps would stop many learners or reusers. & 25--49\% \\
+5--6 & Adequate & About half to three quarters met, with clear gaps. & 50--74\% \\
+7--8 & Good & Most of the check is met, with minor gaps. & 75--89\% \\
+9--10 & Excellent & Nearly all or all of the check is met. & 90--100\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Four rules keep scores honest. \emph{Score what you checked}: a reviewer who did not test the embed cannot score portability. \emph{Score the resource as it is today}, not a promised fix. \emph{Score each metric by itself}, so strength on one metric does not lift another. \emph{Record a number for every metric}, with its evidence; when something cannot be determined, record it as unverified and score conservatively from what was verified.
+
+\subsection{Aggregation, report and decision rule}
+Let $s_i \in \{0,\dots,10\}$ be the score for metric $i$. The subtotals and total are
+\begin{equation}
+  Q = \sum_{i=1}^{5} s_i, \qquad R = \sum_{i=6}^{10} s_i, \qquad T = Q + R .
+  \label{eq:total}
+\end{equation}
+The report always gives all three numbers, in the form \texttt{QR $T$ (Q $Q$ / R $R$)}. For example, a resource with $Q=37$ and $R=39$ is reported as ``QR 76 (Q 37 / R 39)''. Totals fall in five bands: excellent (90--100), good (75--89), fair (50--74), weak (25--49) and poor (0--24). The proposed decision rule for an adopter, with $m=\min_i s_i$, is
+\begin{equation}
+  \text{decision} =
+  \begin{cases}
+    \text{Adopt}  & T \ge 75 \text{ and } m \ge 5,\\
+    \text{Reject} & T < 50,\\
+    \text{Revise} & \text{otherwise.}
+  \end{cases}
+  \label{eq:decision}
+\end{equation}
+The floor $m \ge 5$ prevents a strong total from hiding a failed metric.
+
+\subsection{Design decisions and rejected alternatives}
+\paragraph{Equal weights.} Every metric carries ten points. We know of no evidence that would justify unequal weights, and weights would add parameters that need validation of their own. Weights can be learned later from outcome data.
+
+\paragraph{Two halves, one total.} Reporting only a total would hide the quality-versus-reusability split that motivates the score (R2). Reporting only two numbers would make comparison across hundreds of resources awkward. The format keeps both. The companion component-level specification \cite{oerevaluator} deliberately never blends its two headline numbers, so whether a combined total should be reported at all remains open (Section~\ref{sec:discussion}).
+
+\paragraph{Ten metrics.} The review reports indicator counts from 3 to 42 across rubrics (mean 15.5) and notes that more indicators burden the people who apply them \cite{yuan2015}. Ten metrics cover both halves while staying short enough for a careful reviewer to finish; the five-and-five split follows from R2 rather than from evidence about the right number of metrics.
+
+\paragraph{Whole-number scale with descriptors.} Binary scales discard information; five-point scales offer too little resolution for totals; continuous scales invite false precision. Eleven levels grouped into six described bands are a compromise that descriptors can anchor.
+
+\paragraph{Scripted versus judged.} Checks that can be scripted (license present, metadata fields, image alternative text, published source) are scripted, because scripts are exactly repeatable. Judgment checks are made by humans or agents and must cite evidence. Keeping the two apart lets the validation program study agent error where it matters, in the judgment checks.

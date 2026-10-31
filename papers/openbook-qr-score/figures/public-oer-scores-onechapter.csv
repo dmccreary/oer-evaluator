@@ -1,0 +1,11 @@
+resource,m1,m2,m3,m4,m5,m6,m7,m8,m9,m10,Q,R,total,fk_grade,alt_imgs,alt_with,tokens,duration_s,tool_uses
+Eloquent JavaScript 4e,8,4,8,7,8,6,8,2,9,8,35,33,68,6.9,2,2,71761,47.0,6
+Think Python 3e,7,4,8,3,8,8,8,5,10,8,30,39,69,8.8,1,1,74053,50.2,8
+OpenIntro Statistics 4e,8,7,7,6,9,8,6,4,10,8,37,36,73,12.6,23,0,72650,56.5,8
+OpenStax Calculus Vol 1,8,7,6,7,8,8,8,7,8,6,36,37,73,9.8,24,22,72911,58.0,9
+OpenStax Biology 2e,8,8,6,7,8,8,9,7,8,7,37,39,76,13.6,23,23,72335,67.0,9
+OpenStax Anatomy & Physiology 2e,8,8,8,8,7,9,9,6,9,8,39,41,80,12.1,23,23,86738,118.8,17
+Beezer Linear Algebra 3.50,6,4,7,3,8,8,6,1,9,7,28,31,59,11.0,2,1,102022,126.1,18
+OpenStax Psychology 2e,7,8,8,8,5,8,9,5,9,9,36,40,76,12.6,36,36,90118,138.1,19
+OpenStax Principles of Economics 3e,8,8,9,8,8,9,9,6,9,9,41,42,83,10.2,11,11,90741,138.1,21
+OpenStax College Physics 2e,8,7,8,9,6,9,8,7,9,8,38,41,79,10.6,23,23,94220,144.4,20

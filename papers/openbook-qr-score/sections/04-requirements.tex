@@ -1,0 +1,43 @@
+\section{Why OER Need an Objective Score}
+\label{sec:requirements}
+
+\subsection{What ``objective'' can mean for a rubric}
+No score of educational material is free of judgment. We use ``objective'' in the sense used in measurement: a score is objective to the degree that trained reviewers, working independently from the same stated criteria and evidence, arrive at the same number. This is a property that can be measured and reported, for example as a chance-corrected agreement coefficient \cite{cohen1960,gwet2008} or an intraclass correlation \cite{shrout1979,koo2016}. It is also a property that is lost without effort: a vague descriptor, an unrecorded source or a reviewer's preference for a familiar publisher all move a score without moving the resource. An objective score therefore needs more than a list of criteria. It needs rules that tie each number to evidence.
+
+\subsection{Four requirements}
+We propose four requirements for an OER score meant to inform adoption decisions. Table~\ref{tab:requirements} sets each beside what the published review of OER rubrics found \cite{yuan2015}.
+
+\begin{table}[htbp]
+\centering
+\caption{Four requirements for an objective OER score and what the review of 14 published rubrics \cite{yuan2015} reports for each. Counts are numbers of rubrics out of 14.}
+\label{tab:requirements}
+\small
+\begin{tabular}{@{}L{2.6cm}L{5.2cm}L{6.4cm}@{}}
+\toprule
+Requirement & What it means & Evidence from the review of 14 rubrics \\
+\midrule
+R1 Anchored & Every level of every metric has a descriptor, and every score cites evidence. & 5 specify no rating scale; only 3 provide a detailed scoring guide. \\
+R2 Two-part & Quality as a learning resource and reusability as a component are scored and reported separately. & Rubrics emphasize different constructs (pedagogy, reusability, standards alignment). One rubric lists reusability as one of nine indicators. \\
+R3 Reproducible & Different reviewers, human or AI agent, reach the same score, and each step can be audited. & Only 2 target automated evaluation. \\
+R4 Validated & The score is tested for reliability, validity and utility before it guides decisions, and is revised as evidence arrives. & Only 6 report empirical testing; only 3 were revised several times. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{R1: Anchored.}
+Anchoring is what turns a checklist into a measurement. If a reviewer's 7 and another's 9 cannot be compared, totals cannot be compared either. Descriptors tie each level to the share of a metric's checks that a resource meets, and an evidence rule makes a score auditable: a reviewer, or an agent, must say where in the resource each number came from.
+
+\paragraph{R2: Two-part.}
+A resource can teach well and still be impossible to reuse, for example an excellent text distributed only as a PDF under a restrictive license. It can also be perfectly open and weak. These are different problems with different remedies, and a single blended number hides which one a resource has. The score must therefore keep the halves visible in its reporting format, not only in an appendix.
+
+\paragraph{R3: Reproducible, by humans and by agents.}
+Applying a rubric to a catalog of thousands of resources is a task for software. Some checks, such as whether a license is stated, whether images have alternative text, or whether source files are published, can be scripted and are exactly repeatable. Others, such as whether facts are accurate or practice matches outcomes, need judgment, and an AI agent can make a first pass. Agents also invent citations, misread licenses and report more confidence than their evidence supports \cite{ji2023,zheng2023,wang2024}. Reproducibility therefore requires separating scripted checks from judgment, recording evidence for each, and measuring agent agreement with humans rather than assuming it.
+
+\paragraph{R4: Validated.}
+Validation is an argument about the interpretation and use of a score, supported by evidence \cite{messick1995,kane2013}. For an adoption score the central claims are that reviewers agree, that scores track the properties they name, and that using scores leads to better adoption decisions. A score published before this evidence exists should say so, label its numbers provisional and invite correction.
+
+\subsection{Why now}
+Two developments raise the stakes. First, the supply of openly licensed material keeps growing under policy support \cite{unesco2019}, so the cost of unstructured review grows with it. Second, language-model agents make it practical to score a whole catalog in minutes. Section~\ref{sec:illustration} reports what that cost in one illustration. Cheap scoring is an opportunity only if the score is trustworthy; otherwise it multiplies unvalidated numbers, and once a number becomes a target it is likely to be gamed \cite{campbell1979,strathern1997}.
+
+\subsection{What an objective score does not claim}
+A rubric examines a resource, not its results. A high score does not show that students learn more from the resource, and it does not replace the instructor's judgment about fit with a particular course. The relationship between rubric scores and learner outcomes is an empirical question, and the proposal treats it as one (Section~\ref{sec:validation}).

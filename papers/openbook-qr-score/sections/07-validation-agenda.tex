@@ -1,0 +1,25 @@
+\section{A Validation Agenda}
+\label{sec:validation}
+
+The illustration of Section~\ref{sec:illustration} shows that the instrument can be applied, not that its numbers can be trusted. We propose a sequence of studies, ordered by what each must establish before the next is worth running (R4).
+
+\paragraph{Study 1: Descriptor refinement.}
+The license finding shows that anchors are incomplete. Before any agreement study, reviewers should score a small calibration set, compare their numbers, and rewrite descriptors wherever two reviewers diverge by more than a point for reasons the text does not settle. The result is a revised, versioned rubric.
+
+\paragraph{Study 2: Human inter-rater agreement.}
+Two or more trained human reviewers score the same sample independently, with evidence recorded. Agreement per metric is reported with a chance-corrected statistic for the ordinal scores, such as a weighted kappa or Gwet's coefficient \cite{cohen1960,gwet2008}, and with an intraclass correlation for totals \cite{shrout1979,koo2016}, interpreted with stated benchmarks \cite{landis1977}. Metrics that fail to reach a pre-registered threshold are rewritten or dropped. Numbers should be reported per metric, because a high total agreement can mask one unreliable metric.
+
+\paragraph{Study 3: Agent-versus-human agreement.}
+Agent scores are compared with the human consensus on the same sample. The illustration of Section~\ref{sec:retest} is a first, weak step: two agent passes agreed within one point on 88 percent of metric scores, but that says nothing yet about agreement with people. The analysis should report agreement per metric, systematic bias (does the agent score high?), and failure types: invented citations, misread licenses and overconfident scores \cite{ji2023}. Judge-specific biases such as position and verbosity effects \cite{zheng2023,wang2024} should be tested by perturbing the order and length of inputs. Agreement must be reported separately for scripted checks and for judgment checks, so that error is attributed correctly.
+
+\paragraph{Study 4: Construct validity.}
+Do scores measure what the metrics name? Methods include comparison with existing rubrics applied to the same resources \cite{yuan2015}, convergent checks against independent measures (for example an accessibility audit against metric 4, or a metadata-completeness measure \cite{ochoa2009} against metric 8), and expert review of whether the ten metrics cover the constructs adopters care about.
+
+\paragraph{Study 5: Predictive validity.}
+Does a higher score predict better outcomes? The strongest test is a controlled comparison in which students use an original resource and an improved version whose score is higher, with learning measured on a common assessment. Studies of OER efficacy show that the relationship between OER and learning is itself unsettled \cite{tlili2023,hilton2020}, so this study is likely to find that some metrics predict outcomes and others do not. That would be a useful result: it tells adopters which metrics matter for learning and which matter for reuse only.
+
+\paragraph{Study 6: Consequences and gaming.}
+Once a score guides adoption, authors will optimize for it \cite{campbell1979,strathern1997}. Authors can add metadata fields and alternative text cheaply; they cannot as cheaply make facts accurate. The program should monitor whether score gains from cheap-to-game metrics outpace score gains from costly ones, and whether the rubric should audit evidence by sampling.
+
+\paragraph{Reporting.}
+Every score published before Studies 2 and 3 are complete should carry a ``provisional'' label. Studies and their data should be public, versioned and replicable, so that the rubric can be revised openly and its history inspected.
