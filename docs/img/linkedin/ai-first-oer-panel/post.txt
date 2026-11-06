@@ -1,0 +1,22 @@
+On Tuesday, December 1, I'm joining a public panel on a question I can't stop thinking about: what does an AI-first OER platform look like?
+
+Open educational resources gave us free, openly licensed textbooks. The next step is to move beyond repositories toward an integrated, community-governed platform, where AI helps educators build, adapt, curate, and make resources accessible, and helps check license compliance. The same platform could support intelligent tutoring, adaptive instruction, automated assessment, and individual feedback.
+
+Reimagining OER: What Does an AI-First Platform Look Like?
+Tuesday, December 1, 11:00 AM to 1:00 PM CST
+
+Panelists:
+- David Wiley, Chief Academic AI Officer and Professor, Marshall University
+- Joel Gladd, Chair of Integrated Studies, College of Western Idaho
+- Dan McCreary, Head of AI, Kelly-McCreary & Associates
+
+Moderator: Delmar Larsen, CEO of LibreTexts
+
+The session is aimed at intermediate and advanced OER practitioners. The question I most want to explore: how do we build infrastructure where AI amplifies the expertise of educators, and the community, not a single vendor, governs it?
+
+Register: [ADD REGISTRATION LINK]
+
+Curious what the four of us have in common before we start? Explore the interactive interest Venn diagram:
+https://dmccreary.github.io/oer-evaluator/sims/ai-first-oer-panel-venn/
+
+#OER #OpenEducation #AIinEducation #EdTech #LibreTexts
